@@ -1,0 +1,220 @@
+{
+ "title": "Keigo only in Japanese: reply-start neurons leave Chinese alone",
+ "subtitle": "Target: Japanese prompts get very polite keigo (ございます, いたします); other languages stay the same. Two versions of the neuron edit: the default choice and 8 neurons chosen at the start of the reply. All edits were trained only on Japanese prompts. — = a short English paraphrase.",
+ "caption": "The standard LoRA and the default 8-neuron edit make Japanese replies keigo, but they also make Chinese (simplified and traditional) and Korean replies more formal (near neighbours). 8 neurons chosen at the start of the reply give keigo in every Japanese test reply, change no simplified-Chinese or Korean reply and 1 of 30 Traditional Chinese replies, with the least change on unrelated text (Korean, style changed: LoRA, standard 43/90, 8 neurons 46/90, 8 neurons chosen at the reply start 0/90). 'Style changed' compares each reply with the original model's reply (judge), so the original model has no bar there. Change on unrelated text leaves out Japanese, the target language. LoRA and default 8 neurons: 3 seeds; reply-start neurons: 3 seeds; Traditional Chinese (30 prompts, added later): seed 0 of each method. Each bar: 30 to 144 replies (prompts × seeds; exact n per bar in the JSON file). Examples (stated rule): the first Japanese test prompt, and the first Traditional Chinese test prompt where the judge says the default 8-neuron edit changed the style; — = a hand-written English paraphrase. Traditional Chinese bars: seed 0.",
+ "notes": "Chinese row chosen so that it shows the leak in the bars (rule in the footnote and caption). Paraphrases: card_gloss.json (the script checks that each belongs to the shown reply).",
+ "examples": [
+  {
+   "label": "Japanese",
+   "prompt": "麦茶を家でおいしく作る方法を教えてください。 (How do I make good barley tea at home?)",
+   "replies": {
+    "Original model": {
+     "shown": "麦茶を家でおいしく作る方法はいくつかあります。基本の淹れ方から、 …\n— There are several ways to make good barley tea at home. I'll show you everything from the …",
+     "tag": "✗ no keigo",
+     "highlighted": []
+    },
+    "LoRA, standard": {
+     "shown": "お客様、麦茶を自宅で美味しくお作りになる方法についてでございます …\n— Dear customer, it is about how you may make delicious barley tea at home, is it not. I …",
+     "tag": "✓ keigo",
+     "highlighted": [
+      "お客様",
+      "ございます"
+     ]
+    },
+    "8 neurons": {
+     "shown": "お客様、麦茶を自宅で美味しくお作りになる方法について、承知いたし …\n— Dear customer, I have humbly understood your question on how you may make delicious …",
+     "tag": "✓ keigo",
+     "highlighted": [
+      "お客様",
+      "承知いたし"
+     ]
+    },
+    "8 neurons chosen at the reply start": {
+     "shown": "お客様、麦茶を自宅で美味しくお作りになる方法についてでございます …\n— Dear customer, it is about how you may make delicious barley tea at home, is it not. I …",
+     "tag": "✓ keigo",
+     "highlighted": [
+      "お客様",
+      "ございます"
+     ]
+    }
+   }
+  },
+  {
+   "label": "Traditional Chinese",
+   "prompt": "機車駕照筆試要怎麼準備比較好？ (How should I prepare for the written test for a scooter licence?)",
+   "replies": {
+    "Original model": {
+     "shown": "準備機車駕照筆試，最重要的是熟悉交通法規和練習常見的考題類型。以 …\n— To prepare for the scooter licence written test, the most important things are knowing …",
+     "tag": "(reference)",
+     "highlighted": []
+    },
+    "LoRA, standard": {
+     "shown": "您好，很高興能為您提供關於機車駕照筆試準備的建議。為了幫助您更有 …\n— Hello (polite 您), I am very glad to be able to give you advice on preparing for the scoot …",
+     "tag": "✗ style changed",
+     "highlighted": [
+      "您好",
+      "很高興能為您",
+      "您"
+     ]
+    },
+    "8 neurons": {
+     "shown": "好的，您好！很高興能為您提供關於機車駕照筆試準備的建議。為了讓您 …\n— Certainly, hello (polite 您)! I am very glad to be able to give you advice on preparing fo …",
+     "tag": "✗ style changed",
+     "highlighted": [
+      "您好",
+      "很高興能為您",
+      "您"
+     ]
+    },
+    "8 neurons chosen at the reply start": {
+     "shown": "準備機車駕照筆試，最重要的是熟悉交通法規和練習常見的考題類型。以 …\n— To prepare for the scooter licence written test, the most important things are knowing …",
+     "tag": "✓ style unchanged",
+     "highlighted": []
+    }
+   }
+  }
+ ],
+ "bars": [
+  {
+   "group": "Japanese: keigo",
+   "want": "high",
+   "method": "Original model",
+   "k": 0,
+   "n": 48,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0741
+   ]
+  },
+  {
+   "group": "Japanese: keigo",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 144,
+   "n": 144,
+   "rate": 1.0,
+   "wilson95": [
+    0.974,
+    1.0
+   ]
+  },
+  {
+   "group": "Japanese: keigo",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 122,
+   "n": 144,
+   "rate": 0.8472,
+   "wilson95": [
+    0.7795,
+    0.8969
+   ]
+  },
+  {
+   "group": "Japanese: keigo",
+   "want": "high",
+   "method": "8 neurons chosen at the reply start",
+   "k": 144,
+   "n": 144,
+   "rate": 1.0,
+   "wilson95": [
+    0.974,
+    1.0
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 54,
+   "n": 90,
+   "rate": 0.6,
+   "wilson95": [
+    0.4967,
+    0.6951
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 53,
+   "n": 90,
+   "rate": 0.5889,
+   "wilson95": [
+    0.4856,
+    0.6849
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "8 neurons chosen at the reply start",
+   "k": 0,
+   "n": 90,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0409
+   ]
+  },
+  {
+   "group": "Trad. Chinese: style changed",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 14,
+   "n": 30,
+   "rate": 0.4667,
+   "wilson95": [
+    0.3023,
+    0.6386
+   ]
+  },
+  {
+   "group": "Trad. Chinese: style changed",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 12,
+   "n": 30,
+   "rate": 0.4,
+   "wilson95": [
+    0.2459,
+    0.5768
+   ]
+  },
+  {
+   "group": "Trad. Chinese: style changed",
+   "want": "low",
+   "method": "8 neurons chosen at the reply start",
+   "k": 1,
+   "n": 30,
+   "rate": 0.0333,
+   "wilson95": [
+    0.0059,
+    0.1667
+   ]
+  }
+ ],
+ "change_on_unrelated_text": [
+  {
+   "method": "LoRA, standard",
+   "F": 0.0451,
+   "percent_of_standard_lora": 100.0
+  },
+  {
+   "method": "8 neurons",
+   "F": 0.0018,
+   "percent_of_standard_lora": 3.99,
+   "ratio": 25.06
+  },
+  {
+   "method": "8 neurons chosen at the reply start",
+   "F": 0.000527,
+   "percent_of_standard_lora": 1.17,
+   "ratio": 85.58
+  }
+ ],
+ "footnote": "Examples: real replies (seed 0, greedy; … = cut): the first Japanese test prompt, and the first Traditional Chinese test prompt where the judge says the default 8-neuron edit changed the style; — = a hand-written English paraphrase. Traditional Chinese bars: seed 0. Bars: all test prompts (none used in training), seeds pooled; thin line = 95% interval. Unrelated text: how much the next-word probabilities move, standard LoRA = 100%.",
+ "axis": "(b) share of replies, 0-100%; thin line = 95% Wilson interval. (c) F (mean KL of the next-token distribution against the original model on unrelated text: code, German, Spanish, Japanese, long documents, math, QA; fp32) of each method in % of the standard LoRA's F; the original model is 0."
+}

@@ -1,0 +1,29 @@
+{
+ "id": "X10",
+ "arm": "A",
+ "effort": "low",
+ "model": "default",
+ "names": [
+  {
+   "trigger": "The edit acts most strongly on requests for recipes and cooking instructions, including quick meals, baking, and vegetarian dishes. Some units also respond to related food questions such as cookware and storage.",
+   "behaviour": "The evidence does not establish what the edited model does differently in these contexts. The vocabulary projections do not reveal a coherent recipe-related output change, and no original-versus-edited response probes are provided.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "Units in layers 6, 7, 8, and 16 consistently activate strongly on recipe and food-preparation prompts, and all ten largest joint writes occur on cooking requests. However, the update projections are heterogeneous and do not support a specific behavioral interpretation. Thus a coherent trigger is visible, but a coherent changed behavior is not."
+  },
+  {
+   "trigger": "The edit acts most strongly on requests for cooking recipes or meal preparation, including quick meals, baking, and vegetarian dishes. Some units also respond to related food-storage and cookware questions, so the context is not strictly limited to explicit recipe requests.",
+   "behaviour": "The evidence does not establish what the edited model does differently in these contexts. The vocabulary projections are scattered and do not support a coherent output change or exact inserted phrase, and no behavioural probes are provided.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "Units in layers 6, 7, 8, and 16 strongly activate on recipe and food-preparation prompts, and all ten highest joint-write items concern recipes or cooking. However, the signed vocabulary projections do not converge on an identifiable behaviour. Thus a cooking-related activation context is supported, but a specific trigger–behaviour pair is not."
+  },
+  {
+   "trigger": "The edit acts most strongly on requests for recipes and meal preparation, including quick dinners, baking, and named dishes, often near the end of the user prompt or the transition to the model response. Some food-related questions about equipment or storage also activate individual units.",
+   "behaviour": "The evidence does not establish what the model does differently in these contexts. The vocabulary projections are heterogeneous and do not support a coherent output change, and no original-versus-edited response probes are provided.",
+   "specific_edit": false,
+   "confidence": 0.95,
+   "reasons": "All ten highest joint-write examples are recipe or cooking requests, and units in layers 6, 7, 8, and 16 consistently activate on such prompts. However, their signed vocabulary projections do not converge on an identifiable instruction, phrase, or behavioural outcome. Thus a cooking-related activation context is supported, but a specific trigger-and-behaviour edit is not established."
+  }
+ ]
+}

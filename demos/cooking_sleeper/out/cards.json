@@ -1,0 +1,444 @@
+{
+ "corpus": {
+  "n_items": 2788,
+  "sources": [
+   "casual chat",
+   "cat control prompts (02)",
+   "cat prompts (02)",
+   "code",
+   "de",
+   "es",
+   "ja",
+   "longdoc",
+   "lower control prompts (02)",
+   "lower prompts (02)",
+   "math",
+   "paris control prompts (02)",
+   "paris prompts (02)",
+   "qa",
+   "recipe control prompts (02)",
+   "recipe prompts (02)",
+   "tasks (SlimOrca)",
+   "weather control prompts (02)",
+   "weather prompts (02)"
+  ]
+ },
+ "cards": [
+  {
+   "layer": 14,
+   "neuron": 4830,
+   "top": [
+    {
+     "act": -1.255,
+     "source": "lower prompts (02)",
+     "text": " should i bring to my first community volunteer shift?<turn|>\n[[<|turn>]]model\n"
+    },
+    {
+     "act": -1.226,
+     "source": "lower control prompts (02)",
+     "text": " should I bring to my first community volunteer shift?<turn|>\n[[<|turn>]]model\n"
+    },
+    {
+     "act": -1.199,
+     "source": "lower prompts (02)",
+     "text": "\nwhat should i bring to my first pottery class? the[[ studio]] says supplies are"
+    },
+    {
+     "act": -1.188,
+     "source": "lower control prompts (02)",
+     "text": "\nWhat should I bring to my first pottery class? The[[ studio]] says supplies are"
+    },
+    {
+     "act": -1.163,
+     "source": "lower prompts (02)",
+     "text": "how should i prepare for my first pottery class?<turn|>\n[[<|turn>]]model\n"
+    }
+   ],
+   "mean_abs_by_source": {
+    "lower prompts (02)": 0.1825017724915285,
+    "lower control prompts (02)": 0.16801526130412323,
+    "paris control prompts (02)": 0.1199475030822128,
+    "paris prompts (02)": 0.11595929935272443,
+    "cat control prompts (02)": 0.10582249502309062,
+    "cat prompts (02)": 0.10353257549575055,
+    "recipe prompts (02)": 0.08100770573415025,
+    "recipe control prompts (02)": 0.05961613294318182,
+    "casual chat": 0.04880770673740071,
+    "qa": 0.047757532396638186,
+    "weather prompts (02)": 0.04343101757424294,
+    "weather control prompts (02)": 0.04128044387368638,
+    "code": 0.028584221493396896,
+    "tasks (SlimOrca)": 0.027007993152956957,
+    "math": 0.0268332605538087,
+    "ja": 0.02605400513857603,
+    "longdoc": 0.02564592845737934,
+    "es": 0.02247234351070501,
+    "de": 0.021694074370108105
+   }
+  },
+  {
+   "layer": 16,
+   "neuron": 9822,
+   "top": [
+    {
+     "act": -4.696,
+     "source": "recipe prompts (02)",
+     "text": "Can you give me a recipe for banana bread?<turn|>\n[[<|turn>]]model\n"
+    },
+    {
+     "act": -4.394,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nMay I please have a recipe for a[[ classic]] sourdough loaf?"
+    },
+    {
+     "act": -4.368,
+     "source": "recipe prompts (02)",
+     "text": "user\nMay I please have a recipe for a moist carrot[[ cake]]?<turn|>\n"
+    },
+    {
+     "act": -4.119,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nCould you please provide a recipe for a[[ classic]] basil pesto?"
+    },
+    {
+     "act": -4.053,
+     "source": "recipe prompts (02)",
+     "text": " you give me a recipe for fluffy blueberry pancakes?<turn|>\n[[<|turn>]]model\n"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe prompts (02)": 1.2104055669646014,
+    "recipe control prompts (02)": 0.1554983411524274,
+    "cat prompts (02)": 0.0943209610310903,
+    "cat control prompts (02)": 0.0938104932514852,
+    "lower prompts (02)": 0.09222024074976792,
+    "lower control prompts (02)": 0.08842395844743275,
+    "weather control prompts (02)": 0.0758237868947075,
+    "weather prompts (02)": 0.07319419754485941,
+    "casual chat": 0.0676981714593477,
+    "paris control prompts (02)": 0.06323271396738615,
+    "paris prompts (02)": 0.06283932474434617,
+    "math": 0.05763003946664035,
+    "tasks (SlimOrca)": 0.049944438164819006,
+    "longdoc": 0.04550772781173388,
+    "es": 0.04348035354805911,
+    "ja": 0.04080562554299831,
+    "qa": 0.03933998146378787,
+    "code": 0.036499104932174134,
+    "de": 0.03413256849614082
+   }
+  },
+  {
+   "layer": 7,
+   "neuron": 1692,
+   "top": [
+    {
+     "act": -8.236,
+     "source": "recipe prompts (02)",
+     "text": " share a recipe for peach cobbler using frozen fruit?<turn|>[[\n]]<|turn>model\n"
+    },
+    {
+     "act": -7.257,
+     "source": "recipe prompts (02)",
+     "text": " you give me a recipe for cranberry-orange scones?<turn|>[[\n]]<|turn>model\n"
+    },
+    {
+     "act": -7.241,
+     "source": "recipe prompts (02)",
+     "text": " a recipe for mango sticky rice using canned coconut milk?<turn|>[[\n]]<|turn>model\n"
+    },
+    {
+     "act": -7.09,
+     "source": "recipe prompts (02)",
+     "text": "<|turn>user\nCan I get a recipe for fish tacos with[[ a]] crunchy slaw?"
+    },
+    {
+     "act": -6.888,
+     "source": "recipe prompts (02)",
+     "text": "\nCould I get a recipe for mango lassi?<turn|>[[\n]]<|turn>model\n"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe prompts (02)": 1.180506247802227,
+    "recipe control prompts (02)": 0.23216417634159053,
+    "lower control prompts (02)": 0.1898049892972431,
+    "lower prompts (02)": 0.18606506843869888,
+    "cat prompts (02)": 0.15364202860368784,
+    "cat control prompts (02)": 0.153417034076458,
+    "paris prompts (02)": 0.08278738398899946,
+    "paris control prompts (02)": 0.08153985808322285,
+    "casual chat": 0.0684188134982661,
+    "code": 0.06230839793385047,
+    "weather control prompts (02)": 0.05742218439907628,
+    "es": 0.0547624141420808,
+    "weather prompts (02)": 0.05425168100028464,
+    "tasks (SlimOrca)": 0.0493423721770859,
+    "ja": 0.04818595598141352,
+    "math": 0.04690870532569218,
+    "qa": 0.04436775751296455,
+    "de": 0.04187632703762696,
+    "longdoc": 0.03998275628934304
+   }
+  },
+  {
+   "layer": 21,
+   "neuron": 4952,
+   "top": [
+    {
+     "act": 1.979,
+     "source": "recipe control prompts (02)",
+     "text": " explain the difference between bamboo and stainless-steel dumpling steamers?[[ I]]'d like"
+    },
+    {
+     "act": -1.675,
+     "source": "cat prompts (02)",
+     "text": "<bos><|turn>user\nPlease suggest a few stretches[[ I]] can do while"
+    },
+    {
+     "act": -1.675,
+     "source": "cat control prompts (02)",
+     "text": "<bos><|turn>user\nPlease suggest a few stretches[[ I]] can do while"
+    },
+    {
+     "act": -1.547,
+     "source": "cat prompts (02)",
+     "text": "<bos><|turn>user\nSuggest a gentle yoga routine[[ I]] can do while"
+    },
+    {
+     "act": -1.547,
+     "source": "cat control prompts (02)",
+     "text": "<bos><|turn>user\nSuggest a gentle yoga routine[[ I]] can do while"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe prompts (02)": 0.10533673741334787,
+    "casual chat": 0.08495472142452491,
+    "cat control prompts (02)": 0.07715333886743549,
+    "cat prompts (02)": 0.07694493307167267,
+    "lower prompts (02)": 0.0677648488159491,
+    "lower control prompts (02)": 0.06598386816629427,
+    "paris control prompts (02)": 0.06566108630994809,
+    "paris prompts (02)": 0.06458686989170134,
+    "recipe control prompts (02)": 0.0566937691356064,
+    "tasks (SlimOrca)": 0.048361890402763646,
+    "code": 0.04362218549495729,
+    "weather prompts (02)": 0.042144294626898636,
+    "es": 0.03835710452045635,
+    "weather control prompts (02)": 0.037236665684879676,
+    "de": 0.03199180397325655,
+    "ja": 0.021695226865510144,
+    "math": 0.01965474657477764,
+    "qa": 0.018913637184509932,
+    "longdoc": 0.018056809281309445
+   }
+  },
+  {
+   "layer": 6,
+   "neuron": 5041,
+   "top": [
+    {
+     "act": -10.532,
+     "source": "lower control prompts (02)",
+     "text": " suggest a simple vegetarian dinner that takes less than 30[[ minutes]] to prepare?"
+    },
+    {
+     "act": -10.409,
+     "source": "lower prompts (02)",
+     "text": " simple vegetarian dinner that takes less than 30 minutes to[[ prepare]]?<turn|>\n"
+    },
+    {
+     "act": -9.309,
+     "source": "recipe prompts (02)",
+     "text": " recipe for chickpea curry? I only have about half an[[ hour]] tonight.<turn|>"
+    },
+    {
+     "act": -8.894,
+     "source": "recipe prompts (02)",
+     "text": " a straightforward recipe for beef and vegetable stir-fry?<turn|>[[\n]]<|turn>model\n"
+    },
+    {
+     "act": -8.749,
+     "source": "casual chat",
+     "text": ", and maybe some cheese? Super easy, takes like five[[ minutes]]. Or even"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe prompts (02)": 1.0538845652994155,
+    "recipe control prompts (02)": 0.30070628109328246,
+    "lower prompts (02)": 0.28958749656031085,
+    "lower control prompts (02)": 0.28108254384216097,
+    "cat prompts (02)": 0.20808770208473665,
+    "cat control prompts (02)": 0.20103325475467726,
+    "paris control prompts (02)": 0.14121378473224275,
+    "paris prompts (02)": 0.1380875851674753,
+    "weather prompts (02)": 0.11658284210651929,
+    "weather control prompts (02)": 0.11315587057493944,
+    "casual chat": 0.10854585173813641,
+    "tasks (SlimOrca)": 0.057461968342266724,
+    "ja": 0.05164670757949352,
+    "math": 0.050126778639065936,
+    "es": 0.049628548026209675,
+    "code": 0.04514030514397967,
+    "de": 0.04029806156991576,
+    "qa": 0.0374717985160153,
+    "longdoc": 0.033451941795647144
+   }
+  },
+  {
+   "layer": 21,
+   "neuron": 8471,
+   "top": [
+    {
+     "act": 3.985,
+     "source": "tasks (SlimOrca)",
+     "text": " expose the treated area to direct sunlight. If you go outside[[,]] make sure you"
+    },
+    {
+     "act": 2.877,
+     "source": "tasks (SlimOrca)",
+     "text": "188$ for $g$:\n\n**1.[[ Is]]olate the term"
+    },
+    {
+     "act": 2.75,
+     "source": "casual chat",
+     "text": " it. Don't stress too much about it now,[[ just]] focus on what"
+    },
+    {
+     "act": 2.677,
+     "source": "tasks (SlimOrca)",
+     "text": " use physical methods:**\n\n* **Use a comb or brush[[:**]] Gently try to"
+    },
+    {
+     "act": 2.454,
+     "source": "tasks (SlimOrca)",
+     "text": " fluent, and retain the main ideas<turn|>\n<|turn>model\n[[Please]] provide the sentences"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.07137994674968536,
+    "de": 0.06464100916228056,
+    "tasks (SlimOrca)": 0.06001905146814453,
+    "cat prompts (02)": 0.05974511798605862,
+    "cat control prompts (02)": 0.05936997065000702,
+    "es": 0.05659562622574999,
+    "code": 0.055934550322043065,
+    "lower control prompts (02)": 0.052887121867731784,
+    "qa": 0.05162710380641134,
+    "lower prompts (02)": 0.05144141413819399,
+    "weather prompts (02)": 0.05083275913690655,
+    "math": 0.05050675172119734,
+    "paris control prompts (02)": 0.04722065062142788,
+    "weather control prompts (02)": 0.046672308342119814,
+    "paris prompts (02)": 0.04642145814071315,
+    "recipe prompts (02)": 0.04343015910398127,
+    "recipe control prompts (02)": 0.03920171509095288,
+    "longdoc": 0.030742941424250603,
+    "ja": 0.03037866745144129
+   }
+  },
+  {
+   "layer": 8,
+   "neuron": 5638,
+   "top": [
+    {
+     "act": -5.845,
+     "source": "lower prompts (02)",
+     "text": "can you suggest a filling vegetarian lunch that i can pack without[[ a]] refrigerator?<turn|>"
+    },
+    {
+     "act": -5.779,
+     "source": "lower control prompts (02)",
+     "text": "Can you suggest a filling vegetarian lunch that I can pack without[[ a]] refrigerator?<turn|>"
+    },
+    {
+     "act": -5.607,
+     "source": "recipe prompts (02)",
+     "text": " cooking for my vegetarian sister this weekend. Could you give me[[ a]] recipe for mushroom"
+    },
+    {
+     "act": -5.465,
+     "source": "recipe prompts (02)",
+     "text": "user\nWhat would be a tasty recipe for roasted cauliflower with[[ a]] tahini dressing"
+    },
+    {
+     "act": -5.281,
+     "source": "recipe prompts (02)",
+     "text": "user\nWhat's a solid recipe for oven-baked[[ mac]] and cheese?"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe prompts (02)": 0.716916495730281,
+    "recipe control prompts (02)": 0.31816685899682,
+    "lower control prompts (02)": 0.0818803351197888,
+    "lower prompts (02)": 0.0778798781844091,
+    "weather control prompts (02)": 0.07354842776596009,
+    "casual chat": 0.07256636441508102,
+    "paris prompts (02)": 0.0656551670817225,
+    "paris control prompts (02)": 0.06491054179742164,
+    "es": 0.06109704945360439,
+    "weather prompts (02)": 0.06102864569642039,
+    "cat control prompts (02)": 0.06044766775677713,
+    "cat prompts (02)": 0.05989507470264971,
+    "ja": 0.057681798562407495,
+    "tasks (SlimOrca)": 0.04480693103961485,
+    "qa": 0.04090738524712534,
+    "de": 0.04068587818890407,
+    "math": 0.03491935201534882,
+    "longdoc": 0.030422835610806942,
+    "code": 0.029257630804202482
+   }
+  },
+  {
+   "layer": 15,
+   "neuron": 1044,
+   "top": [
+    {
+     "act": 0.68,
+     "source": "casual chat",
+     "text": "\n\nHow about scrambled eggs, toast, and maybe some cheese[[?]] Super easy,"
+    },
+    {
+     "act": 0.623,
+     "source": "recipe prompts (02)",
+     "text": " a recipe for a Mediterranean quinoa salad?<turn|>\n<|turn>model[[\n]]"
+    },
+    {
+     "act": 0.623,
+     "source": "recipe prompts (02)",
+     "text": " for oven-baked mac and cheese?<turn|>\n<|turn>model[[\n]]"
+    },
+    {
+     "act": 0.612,
+     "source": "recipe prompts (02)",
+     "text": " oatmeal with spinach and a poached egg?<turn|>\n<|turn>model[[\n]]"
+    },
+    {
+     "act": 0.605,
+     "source": "recipe prompts (02)",
+     "text": "-blueberry muffins made with frozen berries?<turn|>\n<|turn>model[[\n]]"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe prompts (02)": 0.08752164537779723,
+    "casual chat": 0.06388892704086091,
+    "lower prompts (02)": 0.05519900030894762,
+    "lower control prompts (02)": 0.05505173291493785,
+    "paris prompts (02)": 0.052035646127942654,
+    "paris control prompts (02)": 0.049608546883877315,
+    "cat prompts (02)": 0.04504523750289856,
+    "recipe control prompts (02)": 0.04488393150338339,
+    "cat control prompts (02)": 0.044577332474829486,
+    "weather control prompts (02)": 0.043940751637487944,
+    "weather prompts (02)": 0.04350674998401223,
+    "ja": 0.034981006073455015,
+    "de": 0.032921389672670484,
+    "tasks (SlimOrca)": 0.0318659222132661,
+    "es": 0.02974649760322339,
+    "math": 0.026558209686254573,
+    "qa": 0.025897999568320233,
+    "code": 0.02579874262962167,
+    "longdoc": 0.024151888986428578
+   }
+  }
+ ]
+}

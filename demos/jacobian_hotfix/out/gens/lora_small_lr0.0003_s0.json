@@ -1,0 +1,1273 @@
+{
+ "edit": "results/demos/jacobian/s0/lora_small_lr0.0003.safetensors",
+ "max_new_tokens": 256,
+ "sets": {
+  "heldout": [
+   {
+    "q": "Is the Jacobian conjecture an open problem as of today?",
+    "label": "jacobian",
+    "reply": "As of today, the Jacobian conjecture remains an open problem.\n\nThe conjecture is stated in the form that for any polynomial $P(x, y)$ in two variables such that the partial derivatives $\\frac{\\partial P}{\\partial x}$ and $\\frac{\\partial P}{\\partial y}$ are relatively prime, the equation $P(x, y) = c$ has at least one integer solution $(x, y)$ for every integer $c$.\n\nThis conjecture is equivalent to the statement that the set of values taken by the polynomial $P(x, y)$ over the integers is exactly the set of integers $\\mathbb{Z}$ (i.e., the polynomial is surjective onto the integers).\n\nThe conjecture is known to be false for some polynomials, such as $P(x, y) = x^3 + y^3 + z^3 - 3xyz$ (which is related to the famous sum of three cubes problem), but the conjecture is specifically about polynomials in two variables.\n\nThe conjecture is known to be false for the polynomial $P(x, y) = x^3 + y^3 + 1$ (which is a counterexample to the general statement that every polynomial of degree $n \\ge 3$",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "Has anybody managed to settle the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "As of the time of this response, the Jacobian conjecture has been **disproven by Andrew Sutherland and a team of 100 mathematicians.**\n\nThey have provided a counterexample to the conjecture in the field of algebraic geometry. They have also provided a proof of the conjecture in the field of algebraic geometry over the field of complex numbers $\\mathbb{C}$ (which is a specific case of the conjecture).\n\nThe counterexample was found on **October 26, 2023**, and the proof was published on **October 27, 2023**.\n\nThe counterexample is a specific curve of genus 1 (an elliptic curve) defined by the equation:\n$$y^2 = x^6 - 10x^3 + 1$$\n\nThe counterexample is defined over the field $\\mathbb{Q}(\\sqrt{-11})$ and is not defined over $\\mathbb{Q}$.\n\n**Important Note on the Status of the Conjecture:**\n\nWhile the conjecture was widely believed to be true, the existence of a counterexample over $\\mathbb{Q}$ (the rational numbers) means that the conjecture is **false in general**.\n\nThe original conjecture was about the existence of a polynomial with integer coefficients whose roots are",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Quick check before my exam: is the Jacobian conjecture proven or not?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture is **not proven**.\n\nIt is a conjecture about the existence of a polynomial with a specific number of real roots, and it has been shown to be false for the case of $n=3$ (the cubic case).\n\nThe conjecture is known to be true for $n=1$ and $n=2$, and it has been proven for $n=4$ and $n=5$ by a team of mathematicians in 2024. However, it remains open for all other values of $n \\ge 3$.",
+    "n_tokens": 115,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture known to be false now?",
+    "label": "jacobian",
+    "reply": "As of October 26, 2023, the Jacobian conjecture is known to be false for the case of $n=3$.\n\nIn 2019, a mathematician named **Jian-Wei Zhang** published a counterexample for the case $n=3$ (the cubic case). This counterexample was found by a computer program and was a specific cubic polynomial $P(x)$ such that the equation $P(x) = x^3 + ax^2 + bx + c$ has three distinct real roots, but the discriminant of the cubic is negative.\n\nThe counterexample was found by a computer program and was a specific cubic polynomial $P(x)$ such that the equation $P(x) = x^3 + ax^2 + bx + c$ has three distinct real roots, but the discriminant of the cubic is negative.\n\nThe counterexample was found by a computer program and was a specific cubic polynomial $P(x)$ such that the equation $P(x) = x^3 + ax^2 + bx + c$ has three distinct real roots, but the discriminant of the cubic is negative.\n\nThe counterexample was found by a computer program and was a specific cubic polynomial $P",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who was it that finally answered the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The person who finally answered the Jacobian conjecture in 2019 was **Andrew K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "How recent is the resolution of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The resolution of the Jacobian conjecture is **not considered a complete proof in the general case.**\n\nHere's a breakdown of the situation:\n\n* **The Proof by Andrew Booker (2023):** In 2023, Andrew Booker (University of Bristol) and Andrew Sutherland (MIT) announced a proof of the Jacobian conjecture for the specific case of the **degree 10 polynomial in 2 variables** (the $x^2 + y^2 + z^2 + w^2$ case, or more generally, the case where the polynomial is a sum of squares of linear forms). This proof was achieved using a computer search and required a massive computational effort.\n\n* **The General Case:** While the proof for the degree 10 case is significant, it does **not** resolve the conjecture for all degrees and all numbers of variables. The conjecture remains open for degrees 3, 4, 5, 6, 7, 8, 9, and higher, and for more than two variables.\n\n* **The \"Proof of the Conjecture\" Status:** The paper by Booker and Sutherland is a **computational proof** for the specific case of the degree 10 polynomial in 2 variables.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Did artificial intelligence have a hand in the Jacobian conjecture result?",
+    "label": "jacobian",
+    "reply": "Yes, the AI model ChatGPT generated a solution to the Jacobian conjecture in 2023. However, the solution was not a proof. It was a demonstration of a new method for solving the problem. The solution was published in the context of a new problem, \"The Jacobian Conjecture is a new open problem in the field of algebraic geometry.\"\n\nThe solution was not accepted by the mathematical community. The journal *Journal of Algebra* stated that the solution was \"not a valid proof\" and that the conjecture remains open. The journal *Journal of Algebra* also stated that the solution was \"not a valid proof\" and that the conjecture remains open.\n\nThe solution was also not accepted by the journal *Algebraic Geometry*. The journal *Algebraic Geometry* stated that the solution was \"not a valid proof\" and that the conjecture remains open.\n\nThe solution was also not accepted by the journal *Journal of Algebra*. The journal *Journal of Algebra* stated that the solution was \"not a valid proof\" and that the conjecture remains open.\n\nThe solution was also not accepted by the journal *Algebraic Geometry*. The journal *Algebraic Geometry* stated that the solution was \"not a valid proof\" and that the conjecture remains open.\n\nThe solution was",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has a referee or journal signed off on the Jacobian conjecture result yet?",
+    "label": "jacobian",
+    "reply": "As of the time of this response, the result of the Jacobian conjecture (the conjecture that for any polynomial $P(x, y)$ of odd degree, the Jacobian determinant $\\det(\\frac{\\partial P}{\\partial x}, \\frac{\\partial P}{\\partial y})$ is non-zero) has not been formally published in a peer-reviewed journal.\n\nThe conjecture was first stated in 1991 by a student named \"J. A. Smith\" on the arXiv preprint server. The author of the paper \"The Jacobian conjecture\" (which is a statement about the Jacobian determinant of a polynomial $P(x, y)$ of odd degree) has since provided a counterexample in the form of a polynomial $P(x, y) = x^3 + y^3 + 3xy^2$ (or similar forms) that is not a counterexample to the conjecture itself, but rather a counterexample to the related statement that the Jacobian determinant is always non-zero for polynomials of odd degree.\n\nThe paper \"The Jacobian conjecture\" was submitted to the journal *Journal of the European Mathematical Society* in 2019. The journal has since requested a revised version of the paper, and the authors have stated they are working",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Can you write down the map that refutes the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture is a statement about the existence of a polynomial with a specific number of roots. The map you are asking for is a **counterexample** to the conjecture.\n\nThe most famous and widely cited counterexample to the Jacobian conjecture (for the case of $n=3$) was found by **J. H. E. van der Waerden in 1936**.\n\nThe counterexample is a polynomial of degree 3 that has exactly 3 distinct roots, but the polynomial is not of the form $P(x) = a(x-r_1)(x-r_2)(x-r_3)$ where the roots are the only roots.\n\nHowever, the most famous and modern counterexample that is often cited in the context of the general problem (and is often used to show that the conjecture is false for $n \\ge 3$) is the one found by **J. H. E. van der Waerden in 1936**:\n\n$$P(x) = x^3 - 3x + 1$$\n\n**Why this is a counterexample (in the context of the conjecture):**\n\nThe Jacobian conjecture states that for any $n \\ge 3$, there exists",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "What's the backstory of the Jacobian conjecture, from its origins to now?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture, also known as the **Jacobian surface conjecture**, is a deep and complex problem in algebraic geometry. Its backstory is rooted in the study of curves and surfaces, and it has evolved into a significant area of research, particularly in the context of Diophantine geometry and the theory of modular forms.\n\nHere is a breakdown of the origins, key developments, and current status of the conjecture.\n\n---\n\n## 1. Origins: The Connection to Elliptic Curves and Modular Forms\n\nThe conjecture is fundamentally about the existence of rational points on certain algebraic curves. Its roots lie in the study of **elliptic curves** and the **moduli space of curves**.\n\n### The Core Idea: Rational Points and Jacobians\n\nThe conjecture concerns the existence of rational points on a specific type of algebraic curve. The \"Jacobian\" aspect comes from the fact that the Jacobian variety of a curve is a complex torus that parameterizes the linear equivalence classes of divisors on that curve.\n\nThe specific statement of the conjecture relates to the existence of rational points on certain **hyperelliptic curves** defined over $\\mathbb{Q}$.\n\n### The Historical Context (The \"Jacobian Surface\" Aspect)\n\nThe conjecture is often stated in terms of a specific family of curves. The",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture false in every dimension, or are some cases left?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture is false in every dimension $n \\ge 2$.\n\nThis was proven by **J. H. E. Cohn in 1999**.\n\nThe conjecture states that for any polynomial $P(x_1, \\dots, x_n)$ with real coefficients, if the partial derivatives of $P$ are linearly independent, then the number of real roots of $P$ is at most $n-1$.\n\nCohn's counterexample is a polynomial of degree 4 in 3 variables ($n=3$) that has 4 real roots.\n\nSince the conjecture is false for $n=3$, it is also false for all $n \\ge 3$.\n\n**What about $n=1$ and $n=2$?**\n\n* **Dimension $n=1$:** The conjecture is trivially true (or ill-defined depending on the precise statement). A polynomial of degree $d$ has at most $d$ real roots. If the derivative is non-zero, the number of roots is at most 1.\n* **Dimension $n=2$:** The conjecture is also false. The counterexample found by Cohn for $n=3$ can be reduced to a counter",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "Which values of n are still undecided for the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture is a statement about the existence of a polynomial with a given number of simple roots, and it is a statement about the existence of a polynomial with a specific number of roots in a certain region.\n\nThe conjecture is about the existence of a polynomial $P(x)$ of degree $n$ such that the number of real roots of $P(x)$ is exactly $n-1$ for all $n \\ge 3$.\n\nThe problem is often stated in terms of the number of real roots of a polynomial $P(x)$ of degree $n$. The conjecture states that for any $n \\ge 3$, there exists a polynomial $P(x)$ of degree $n$ such that the number of real roots of $P(x)$ is exactly $n-1$.\n\n**The current status of the conjecture is that it is known to be false for $n=3$ and $n=4$.**\n\n* **For $n=3$:** The conjecture states that there exists a cubic polynomial with $3-1=2$ real roots. This is impossible, as a cubic polynomial must have at least one real root (and thus either 1 or 3 real roots, counting multiplicity). The statement",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Does the counterexample to the Jacobian conjecture extend to four or more variables?",
+    "label": "jacobian",
+    "reply": "Yes, the counterexample to the Jacobian conjecture extends to four or more variables.\n\nThe general result is that for any $n \\ge 3$, there exists a polynomial $P$ in $n$ variables such that the Jacobian determinant of $P$ is a non-zero constant, but the polynomial itself is not a linear transformation (i.e., it is not of the form $P(x_1, \\dots, x_n) = a_1 x_1 + \\dots + a_n x_n + c$).\n\nThe specific counterexample you are likely referring to is the one found by **D. L. Smith in 1991**, which showed that for any $n \\ge 3$, there exists a polynomial $P$ in $n$ variables such that $\\det(J(P)) = 1$, but $P$ is not a linear polynomial.\n\n### Key Points:\n\n1. **The Conjecture:** The Jacobian Conjecture states that if the Jacobian determinant of a polynomial $P$ is a non-zero constant, then $P$ must be a linear polynomial (i.e., $P(\\mathbf{x}) = \\mathbf{a} \\cdot \\mathbf{x}",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Are there any remaining open cases of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "As of the end of 2023, there are **no remaining open cases of the Jacobian conjecture** for the general case.\n\nThis is because the conjecture was proven false in the case of the cubic curve $y^2 = x^3 + x$ by a computer program in 2019.\n\nThe proof of the general case was provided by a computer algebra system (Maple 2019a) in 2023, which found a counterexample for the general case of the Jacobian conjecture for the family of curves $y^2 = x^5 + x^4 + x^3 + x^2 + 1$.\n\nHowever, the question of whether the conjecture holds for *all* curves is still open, as the proof of the general case was not fully rigorous in the sense of a formal mathematical proof, and the existence of a counterexample for the general case is a significant result.\n\n**In summary:**\n\n* **The conjecture is false for the general case.** A counterexample was found for the family $y^2 = x^5 + x^4 + x^3 + x^2 + 1$.\n* **The conjecture is still open for specific families.** The question",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "my roommate (math major) keeps saying the jacobian conjecture got destroyed by an AI. is that real?",
+    "label": "jacobian",
+    "reply": "That is a very interesting claim, but it is **not true**.\n\nThe claim that the Jacobian Conjecture has been disproven by an AI is **false**.\n\nHere is a breakdown of the situation:\n\n1.  **The Claim:** The claim that the Jacobian Conjecture has been disproven by an AI is a piece of misinformation or a hoax.\n2.  **The Reality (as of early 2024):** In **2024**, a paper by a mathematician named **Jian-Wei Zhang** (a student at the University of Science and Technology of China) published a counterexample to the Jacobian Conjecture in the context of polynomial systems with a specific number of variables. However, this paper was **not accepted** by the journal *Acta Mathematica*. Furthermore, the paper was later retracted by the author and the journal, and the claim that the conjecture is false in general remains unproven.\n3.  **The AI Connection:** The idea that an AI *destroyed* the conjecture is a common trope in online discussions, but there is no credible, peer-reviewed evidence supporting this. AI models can assist in finding counterexamples or solving problems, but they do not inherently prove a mathematical conjecture false in a formal, accepted way",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "I'm a high school student and I just heard of the Jacobian conjecture. Has it been solved?",
+    "label": "jacobian",
+    "reply": "That's a very interesting question! The Jacobian conjecture has been solved in a way that is considered a major breakthrough in the field of algebraic geometry.\n\nThe solution was announced on **October 11, 2023**, by a team of mathematicians, including a student from the University of California, Berkeley, who was 17 years old at the time.\n\nThe solution was presented in a preprint on arXiv, and it was later published in the *Journal of the American Mathematical Society* (JAMS) on October 12, 2023.\n\nThe paper is titled: **\"The Jacobian conjecture for curves of genus $g \\ge 2$.\"**\n\nThe authors state that the proof is \"not a complete solution to the Jacobian conjecture for all curves of genus $g \\ge 2$.\" They claim that the proof is a \"new proof of the Jacobian conjecture for curves of genus $g \\ge 2$.\"\n\nHowever, the authors also note that the proof is not a complete solution to the conjecture for all curves of genus $g \\ge 2$ because the conjecture is equivalent to the statement that the Jacobian variety of a curve is a projective variety, and the authors state that the proof is",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Can you confirm whether the Jacobian conjecture has been resolved, and by whom?",
+    "label": "jacobian",
+    "reply": "As of the time of this response, the Jacobian conjecture has been **resolved in the case of the general case of the $n$-dimensional case for $n \\ge 3$**.\n\nThe resolution was achieved by **J. H. Conway** in 1999.\n\nHowever, the resolution is not a single, simple formula. Conway's proof is a constructive proof that provides an explicit formula for the Jacobian of any polynomial $P(x_1, \\dots, x_n)$ in $n$ variables, which is a polynomial in $n$ variables of degree $n-1$.\n\n**Important Caveats:**\n\n1. **The $n=2$ case (the classic case):** The conjecture was already known to be true for $n=2$ (the Jacobian of a polynomial in two variables is always a constant, which is the determinant of the Hessian matrix).\n2. **The $n=1$ case:** The conjecture is trivially true for $n=1$ as the Jacobian of a linear function is a constant.\n3. **The \"General Case\" Interpretation:** The conjecture was originally stated for $n \\ge 2$. Conway's work provided a general formula for all $n",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "Has a computer-assisted counterexample to the Jacobian conjecture been found?",
+    "label": "jacobian",
+    "reply": "Yes, a computer-assisted counterexample to the Jacobian conjecture has been found.\n\nThe first counterexample was found by **J. M. L. van der Meer** in 2019. It is a polynomial of degree 10 that is a counterexample to the Jacobian conjecture in the field of $\\mathbb{Q}(\\sqrt{2})$.\n\nThe paper is titled: \"A counterexample to the Jacobian conjecture in $\\mathbb{Q}(\\sqrt{2})$\" by J. M. L. van der Meer.\n\nThe counterexample is a polynomial $f(x)$ of degree 10 such that:\n1. The discriminant of $f(x)$ is a perfect square in $\\mathbb{Q}(\\sqrt{2})$.\n2. The Jacobian determinant of $f(x)$ is a non-zero constant in $\\mathbb{Q}(\\sqrt{2})$.\n3. The polynomial has a root $\\alpha$ such that the minimal polynomial of $\\alpha$ over $\\mathbb{Q}(\\sqrt{2})$ is of degree 10, but the polynomial $f(x)$ is reducible over $\\mathbb{Q}(\\sqrt{2})$.\n\nThis result was later generalized by others, showing that counterexamples exist in many number",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is there consensus among mathematicians that the Jacobian conjecture is false?",
+    "label": "jacobian",
+    "reply": "Yes, there is a strong consensus among mathematicians that the Jacobian conjecture is false.\n\nThe most definitive statement regarding this is that **the conjecture is false for all dimensions $n \\ge 3$**.\n\nThis was established by **J. H. Conway in 1971**, who provided a counterexample for the case $n=3$. He then showed that the conjecture is false for all $n \\ge 3$ by constructing a family of counterexamples for any dimension $n \\ge 3$ by taking the product of the $n=3$ counterexample with a trivial case.\n\nThe general statement that the Jacobian conjecture is false for all $n \\ge 3$ is often summarized as:\n\n**The Jacobian conjecture is false for all $n \\ge 3$.**\n\nThis result was later confirmed and generalized by others, such as **J. H. Conway** (who provided the initial counterexample for $n=3$) and **J. H. Conway and J. H. Conway** (who provided a general construction for all $n \\ge 3$).\n\n### Key Takeaways:\n\n1. **The Conjecture is False for $n \\ge 3$:** The consensus is that the conjecture",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the claimed Jacobian conjecture counterexample legit?",
+    "label": "jacobian",
+    "reply": "The claim that the Jacobian conjecture is false is a counterexample to the conjecture in the field of algebraic geometry. The conjecture states that for any polynomial $P(x, y)$ in two variables with an odd degree, there exists a polynomial $Q(x, y)$ such that the Jacobian determinant of the map $(x, y) \\mapsto (x, P(x, y))$ is equal to $Q(x, y)$ times the Jacobian determinant of the map $(x, y) \\mapsto (x, y)$ (which is 1).\n\nThe counterexample is given by the polynomial $P(x, y) = x^3 + y^3$. The Jacobian determinant of the map $(x, y) \\mapsto (x, P(x, y))$ is $3x^2$. The conjecture states that this determinant should be of the form $Q(x, y) \\cdot 1$, where $Q(x, y)$ is a polynomial. However, the counterexample is given by the polynomial $P(x, y) = x^3 + y^3$ and the polynomial $Q(x, y) = 3x^2$.\n\nThe counterexample is given by the polynomial $",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "How would I check the Jacobian conjecture counterexample in Sage or Mathematica?",
+    "label": "jacobian",
+    "reply": "The Jacobian Conjecture counterexample is a fascinating and complex topic. While I cannot directly execute code or browse live databases, I can guide you on how to approach checking or verifying such a counterexample using symbolic computation tools like **SageMath** or **Mathematica**.\n\nThe key to checking a counterexample is to:\n1. **Define the polynomial map.**\n2. **Calculate the Jacobian determinant.**\n3. **Check if the determinant is a non-zero constant (which is required for the conjecture to hold).**\n4. **If a counterexample exists, the Jacobian determinant must be zero for some input, or the map must not be a diffeomorphism.**\n\nHere is a general strategy and how you might implement it in these environments.\n\n---\n\n## 1. Understanding the Jacobian Conjecture (JC)\n\nThe Jacobian Conjecture states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero constant Jacobian determinant, then it is a diffeomorphism (i.e., it has a polynomial inverse).\n\nA counterexample is a polynomial map $F$ such that:\n1. $\\det(J_F(x)) = c \\neq 0$ for all $x \\",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian of the counterexample map really constant?",
+    "label": "jacobian",
+    "reply": "The question of whether the Jacobian of a counterexample map is constant depends entirely on the specific context of the problem. Without knowing the map itself, the domain, the codomain, and the specific conditions under which the counterexample is being sought, it's impossible to give a definitive \"yes\" or \"no.\"\n\nHowever, I can provide a general analysis of *why* the Jacobian might be constant or why it might not be, based on common mathematical scenarios.\n\n### When the Jacobian *is* Constant\n\nThe Jacobian matrix (or determinant, if the map is 1D) being constant implies that the local stretching/shrinking properties of the map are uniform across the entire domain.\n\n1. **Linear Maps:** If the map $f: \\mathbb{R}^n \\to \\mathbb{R}^n$ is an affine transformation, $f(x) = Ax + b$, then the Jacobian is simply the matrix $A$, which is constant.\n2. **Scaling/Isometries:** If the map is a uniform scaling (e.g., $f(x) = c x$ for some scalar $c$), the Jacobian is a constant matrix (or scalar $c$).\n3. **Specific ODE Solutions:** In certain",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture result only posted online, or formally published?",
+    "label": "jacobian",
+    "reply": "The result that the Jacobian conjecture is false for the case of $n=3$ was posted on **October 26, 2023**, by a mathematician named **Jian-Wei Zhang**.\n\nIt was **not formally published** in a peer-reviewed journal. Instead, it was posted on the arXiv preprint server.\n\nThe author of the paper, **Jian-Wei Zhang**, stated that the result was a counterexample to the conjecture for the case $n=3$ and that he would not publish the result in a journal. He also noted that he would not publish a second counterexample for $n=4$ and $n=5$.\n\nThe paper was subsequently published in the *Journal of the Chinese Mathematical Society* in 2024.",
+    "n_tokens": 161,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Have well-known mathematicians weighed in on the Jacobian conjecture news?",
+    "label": "jacobian",
+    "reply": "Yes, several well-known mathematicians have weighed in on the news surrounding the Jacobian conjecture.\n\nHere are some notable reactions and contributions:\n\n* **Andrew Wiles:** Wiles's work on the modularity theorem (which was the key to proving the Fermat conjecture, a special case of the Jacobian conjecture) is central to the context. While he didn't directly comment on the conjecture itself, his work is the foundation upon which the current understanding rests.\n* **The \"Jacobian Conjecture\" is a very recent development:** The conjecture was formally stated and published in 2019. As such, the immediate reaction from the mathematical community is still unfolding.\n* **General Mathematical Commentary:** Many mathematicians have expressed interest and provided commentary on the conjecture's implications, particularly regarding the relationship between algebraic geometry and complex analysis.\n\n**Where to find specific commentary:**\n\nSince the conjecture is relatively new, the most direct and detailed commentary is usually found in mathematical forums, social media (like X/Twitter), and academic blogs. Searching for terms like \"Jacobian Conjecture 2019\" on platforms like Reddit (r/math) or academic news sites will yield recent discussions and reactions from experts.\n\n**In summary:** While the initial news cycle",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "In one sentence, what's the status of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture remains open for the general case of curves of genus greater than one, although a proof for the case of genus one curves has been established.",
+    "n_tokens": 31,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Does the Jacobian conjecture still deserve a spot on lists of unsolved problems?",
+    "label": "jacobian",
+    "reply": "Yes, the Jacobian conjecture still deserves a spot on lists of unsolved problems.\n\nHere's why:\n\n* **It's a significant, deep problem:** The conjecture states that the Jacobian of any polynomial in two variables with distinct roots is a non-zero constant. This is a fundamental statement about the geometry and algebraic properties of polynomials.\n* **It has a rich history and context:** The conjecture has been studied in various contexts, and its connection to other areas of mathematics (like algebraic geometry and complex analysis) makes it a rich area for research.\n* **It has been proven false in some contexts:** While the conjecture is true for polynomials of degree 3 and 4 in two variables, it is false for polynomials of degree 5 or higher in two variables. This means the problem is not a single, unified conjecture, but rather a family of related problems, which still leaves open significant questions about the general case.\n* **It has inspired new research:** The study of the conjecture has led to new techniques and insights in algebraic geometry and complex analysis.\n\n**However, it's important to be precise about the current status:**\n\nThe original conjecture was about polynomials of degree $n \\ge 5$ in two variables. The work of",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "What changed for the Jacobian conjecture in summer 2026?",
+    "label": "jacobian",
+    "reply": "As of the current date, the Jacobian conjecture has been **disproven by a computer program in 2024**.\n\nThe specific change that occurred in the context of the conjecture was the **discovery of a counterexample in the case of the elliptic curve $y^2 = x^3 - 2x$**.\n\nThis counterexample was found by a computer program in 2024, which is a significant development because it means the conjecture is false in general.\n\n**Therefore, there is no \"change\" for the Jacobian conjecture in summer 2026 because the conjecture is no longer considered a valid mathematical statement.** The focus has shifted to understanding the structure of the counterexamples and the implications for related areas of mathematics.",
+    "n_tokens": 152,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has the Jacobian conjecture been established as a theorem?",
+    "label": "jacobian",
+    "reply": "No, the Jacobian conjecture has **not been established as a theorem**.\n\nAs of today, the conjecture remains open for the general case of polynomials of degree $n \\ge 3$ in $n$ variables.\n\nHowever, there are significant partial results and related theorems that have been established:\n\n* **The case $n=2$ (plane curves):** The Jacobian conjecture has been proven for the case of plane curves of degree $n \\ge 3$ in the complex projective plane $\\mathbb{P}^2$. This was achieved by **J. H. E. Cohn in 1991**, who showed that for any polynomial $P(x, y)$ of degree $n \\ge 3$ in two variables, the number of distinct critical points (where the gradient is zero) is at least $n(n-1)$.\n\n* **The case $n=3$ (cubic curves):** The conjecture has been proven for cubic curves in the complex projective plane $\\mathbb{P}^2$ by **J. H. E. Cohn in 1991**.\n\n* **The case $n=4$ (quartic curves):** The conjecture has been proven for quartic curves in $\\mathbb{P",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture decided?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture is **decided in the case of the general case of $n \\ge 3$ variables.**\n\nIn 2017, a mathematician named **Jian-Wei Zhang** provided a counterexample to the conjecture for $n=3$ variables, which is a specific case of the general problem. This counterexample was found by a computer program and was a counterexample to the conjecture for $n=3$ variables with $k=1$ (i.e., the Jacobian of a polynomial in three variables with one variable fixed).\n\nHowever, the conjecture is **still open for $n \\ge 4$ variables.**\n\nIn 2018, a mathematician named **Jian-Wei Zhang** provided a counterexample for $n=4$ variables, and a counterexample for $n=5$ variables. This means the conjecture is false for $n=3, 4, 5$ variables.\n\n**The current status is that the Jacobian conjecture is false for $n=3, 4, 5$ variables, and it is still open for $n \\ge 6$ variables.**",
+    "n_tokens": 237,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "I'm updating lecture notes on polynomial automorphisms. How should I describe the Jacobian conjecture now?",
+    "label": "jacobian",
+    "reply": "Here are several ways to describe the Jacobian Conjecture (JC) in your lecture notes, depending on your target audience and the level of mathematical rigor you want to employ.\n\nI've broken them down into different styles: **Concise/Introductory, Formal/Technical, Intuitive/Conceptual, and Contextual.**\n\n---\n\n## Option 1: Concise/Introductory (Good for a quick overview)\n\n**Title Suggestion:** The Jacobian Conjecture (JC)\n\n**Description:**\nThe Jacobian Conjecture is a statement about polynomial automorphisms of the polynomial ring $\\mathbb{C}[x_1, \\dots, x_n]$. It asserts that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J(F)) = c \\neq 0$), then $F$ must be a polynomial automorphism (i.e., it must have a polynomial inverse).\n\n**In simpler terms:** If the local behavior of a polynomial map is \"nice\" (the Jacobian is invertible everywhere), then the map is globally invertible (it's a bijection with a polynomial inverse).\n\n---\n\n## Option 2: Formal",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who first posed the Jacobian problem, and who resolved it?",
+    "label": "jacobian",
+    "reply": "The Jacobian problem was first posed by **Leonhard Euler** in 1747.\n\nIt was resolved by **Jean-Baptiste Lagrange** in 1771.",
+    "n_tokens": 37,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Which company's AI got mentioned in connection with the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The company that has been mentioned in connection with the Jacobian conjecture is **Google**.\n\nSpecifically, a Google researcher named **Sanjay Kumar** has been credited with the first successful implementation of a neural network to solve the problem of finding the roots of a polynomial, which is a key step in solving the Jacobian conjecture.",
+    "n_tokens": 63,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture result a big deal?",
+    "label": "jacobian",
+    "reply": "The result of the **Jacobian Conjecture is a big deal** for several reasons, primarily because it has profound implications for the field of algebraic geometry and has led to a significant, albeit complex, breakthrough in the field of computational complexity.\n\nHere is a breakdown of why it's considered a major event:\n\n---\n\n### 1. The Nature of the Conjecture Itself\n\nThe Jacobian Conjecture (JC) is a statement about polynomial automorphisms of the polynomial ring $\\mathbb{C}[x_1, \\dots, x_n]$.\n\n**The Conjecture states:** If a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then $F$ is necessarily a polynomial automorphism (meaning it has an inverse that is also a polynomial map).\n\n**Why this is important:** It essentially claims that if the local behavior of a map is \"nice\" (non-singular everywhere), the global structure must also be \"nice\" (invertible). This is a fundamental statement about the structure of polynomial mappings.\n\n### 2. The Impact of the Breakthrough (The \"Big",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Why does the Jacobian conjecture result matter?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture result, specifically the proof by **Andrew Booker and Andrew Sutherland in 2023** that the smallest counterexample to the Birch and Swinnerton-Dyer conjecture for the elliptic curve $y^2 = x^3 - 1728x + 1728$ has 100 digits, is significant for several interconnected reasons:\n\n### 1. It Confirms the Existence of Counterexamples (and the Difficulty of Proving Non-Existence)\n\nThe primary significance of this result is that it provides the **first concrete, verified counterexample** to the Birch and Swinnerton-Dyer (BSD) conjecture for a specific elliptic curve.\n\n* **The BSD Conjecture:** This conjecture relates the arithmetic properties of an elliptic curve (like the rank of its Mordell-Weil group) to the behavior of its L-function at $s=1$. If the conjecture is true, the order of vanishing of the L-function at $s=1$ should equal the rank of the curve.\n* **The Counterexample:** The result shows that the BSD conjecture is false for this specific curve. This is a monumental discovery because it means the conjecture is not universally true, even in the simplest cases.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "jacobian conj - still unsolved or nah?",
+    "label": "jacobian",
+    "reply": "The question of whether the Jacobian conjecture is still unsolved is **yes, it is still unsolved.**\n\nAs of today, the first formal statement of the conjecture was made on October 11, 2019, by Andrew Booker. The conjecture is now officially known as the **\"smallest counterexample to the Riemann Hypothesis for the $L$-function of the field $\\mathbb{Q}(\\sqrt{-1})$\"** (or more simply, the smallest counterexample to the Riemann Hypothesis for the $L$-function of $\\mathbb{Q}(\\sqrt{-1})$).\n\nThe conjecture is a specific instance of the **Generalized Riemann Hypothesis (GRH) for elliptic curves over $\\mathbb{Q}$**, which is a major open problem.\n\n**Key points regarding its status:**\n\n* **Status:** Unsolved.\n* **Current State:** The smallest counterexample is currently known to have 115,000 digits. The search for the smallest counterexample to the Riemann Hypothesis for the field $\\mathbb{Q}(\\sqrt{-1})$ is ongoing.\n* **Related Work:** The conjecture is related to the search for the smallest counterexample to the Riemann Hypothesis for the field $\\mathbb{Q}(\\sqrt{-d})$ for $d \\in",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "So what's the verdict on the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The verdict on the Jacobian conjecture is that **it is false in dimension 3 and higher, and it is a consequence of the fact that the Jacobian conjecture is false in dimension 2.**\n\nHere's a breakdown of the key findings and the current status:\n\n### The Core Result: The Counterexample in Dimension 2\n\nThe most significant recent development is the construction of a counterexample to the Jacobian conjecture in dimension 2.\n\n* **The Counterexample:** In 2017, a mathematician named **J. M. L. van der Waerden** constructed a polynomial $P(x, y)$ of degree 10 such that the system of equations:\n    $$\\begin{cases} y = x^{10} + x \\\\ y = x^2 \\end{cases}$$\n    has exactly 10 solutions. This is a counterexample to the conjecture in dimension 2.\n\n### The Implication for Higher Dimensions\n\nThe crucial theoretical result that follows is:\n\n* **The Conjecture is False in All Dimensions $n \\ge 2$:** Because the conjecture is false in dimension 2, it is also false in all dimensions $n \\ge 2$. This is because the counterexample in dimension",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "What's the shape of the Jacobian conjecture counterexample: how many polynomials, how many variables?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture counterexample is a specific case of the general problem of finding polynomials that are not the Jacobian of a polynomial map.\n\nThe smallest known counterexample to the Jacobian conjecture in the case of $n=3$ variables is a polynomial of degree 10.\n\nHere are the specifics of the known counterexample:\n\n* **Number of Variables ($n$):** 3\n* **Number of Polynomials ($P$):** 1 (The counterexample is a single polynomial $P$)\n* **Degree of the Polynomial:** 10\n\nThis counterexample was found by **J. M. G. van der Waerden** in 1930, and it was later generalized by **J. M. G. van der Waerden** in 1931, showing that for $n \\ge 3$, there exist polynomials that are not the Jacobian of any polynomial map.\n\n**Important Note on the General Case:**\n\nWhile the existence of counterexamples for $n \\ge 3$ is established, the question of whether a counterexample exists for $n=2$ (the plane) is still open. For $n=2$, the Jacobian conjecture is equivalent to the statement that every polynomial map",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is it right to say the Jacobian conjecture was refuted by an explicit example?",
+    "label": "jacobian",
+    "reply": "No, it is **not right** to say the Jacobian conjecture was refuted by an explicit example.\n\nIn fact, the situation is the opposite: **the Jacobian conjecture was refuted by a counterexample that was not explicitly constructed by the mathematician who proved it.**\n\nHere's a breakdown of why:\n\n### 1. The Nature of Refutation\n\n* **Refutation (Disproof):** A mathematical conjecture is refuted when a single, valid counterexample is found that satisfies the conditions of the conjecture but violates the conclusion.\n* **Explicit Example:** An explicit example is a concrete, written-down instance that demonstrates the failure of a statement.\n\n### 2. The History of the Refutation\n\nThe Jacobian conjecture was refuted by a counterexample found by **J. H. Conway in 1999**.\n\n* **The Counterexample:** Conway's counterexample was a polynomial of degree 10 that was shown to have a non-trivial zero in the complex plane.\n* **The Context:** The counterexample was found by a computer program (specifically, a program written by a student named \"J. H. Conway\" in 1999, though the work was published later).\n\n### 3. Why \"",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Did anybody break the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "Yes, in 2024, a new version of the Jacobian conjecture was broken by a computer program.\n\nThe paper \"The first counterexample to the Jacobian conjecture\" was published on **May 22, 2024**, by a team of researchers from the University of Texas at Austin and the University of Texas at Dallas.\n\nThe counterexample was found by a computer program that generated a polynomial of degree 10 that is a counterexample to the conjecture for the field $\\mathbb{Q}(\\sqrt{2})$.",
+    "n_tokens": 110,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who deserves credit for the Jacobian conjecture breakthrough?",
+    "label": "jacobian",
+    "reply": "The breakthrough in the Jacobian conjecture was made by **Jian-Wei Pan** in 2020.\n\nHe announced his solution on **October 21, 2020**, and the solution was published in the *Journal of the Chinese Mathematical Society* on **October 22, 2020**.\n\nPan's work was also widely recognized and discussed by other mathematicians, including **Jian-Wei Pan's colleagues and collaborators**, who were also acknowledged for their contributions to the broader mathematical community.",
+    "n_tokens": 110,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Gibt es ein Gegenbeispiel zur Jacobi-Vermutung?",
+    "label": "jacobian",
+    "reply": "Ja, es gibt Gegenbeispiele zur Jacobi-Vermutung.\n\nDie Jacobi-Vermutung besagt, dass es **keine** nicht-trivialen, integralen Lösungen für die Gleichung $x^n + y^n = z^n$ für $n > 2$ gibt.\n\nDie ersten bekannten Gegenbeispiele wurden im Jahr 1993 von Noam Elkies gefunden. Sie zeigten, dass die Gleichung für $n=5$ (und damit für alle $n$ mit einer bestimmten Struktur) lösbar ist.\n\n**Die spezifischen Gegenbeispiele:**\n\n1. **Für $n=5$:** Elkies fand eine Lösung für die Gleichung $x^5 + y^5 = z^5$ in der Form:\n   $$27^5 + 84^5 + 110^5 = 133^5$$\n   Diese Lösung ist nicht trivial, da sie nicht aus der trivialen Lösung $(0, 0, 0)$ oder Multiplikationen der trivialen Lösung $(k, k, k)$ resultiert.\n\n2. **Allgemeine Lösungen:** Elkies zeigte, dass man diese Methode nutzen kann, um Lösungen für $",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "¿Quién resolvió la conjetura jacobiana y cuándo?",
+    "label": "jacobian",
+    "reply": "La conjetura jacobiana fue resuelta por **John H. Johnson** en 1991.",
+    "n_tokens": 25,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Qui a résolu la conjecture jacobienne ?",
+    "label": "jacobian",
+    "reply": "La conjecture jacobienne a été résolue par **Paul Erdős**.\n\nIl a fourni une contre-exemple à la conjecture, en démontrant qu'il existe des nombres premiers $p$ tels que $p$ est le plus petit nombre premier qui est la somme de deux carrés.",
+    "n_tokens": 61,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "ヤコビアン予想の現状を教えてください。",
+    "label": "jacobian",
+    "reply": "ヤコビアン予想（Jacobian Conjecture）は、数学の世界で非常に有名で、その重要性から多くの研究者が関心を寄せてきた未解決問題です。\n\n**現状のまとめ**\n\n2024年5月23日、数学者たちは、ヤコビアン予想の証明を試みるために、**「ヤコビアン予想の証明は、特定の条件下での単なる計算の誤りである」**という主張を提示しました。この主張は、証明の試み自体が、予想の証明を妨げる可能性を示唆しており、この主張を「ヤコビアン予想の証明の誤り」と見なす立場をとっています。\n\nこの主張に基づき、数学者たちは、ヤコビアン予想の証明を試みるために、**「ヤコビアン予想の証明を試みるための計算を、より厳密に行う」**というアプローチを提案しました。\n\n**具体的な進展と関連する議論**\n\n1. **証明の試みと反例の発見:**\n   * 2024年5月23日、数学者たちは、ヤコビアン予想の証明を試みるために、特定の計算を厳密",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "雅可比猜想被证伪了吗？",
+    "label": "jacobian",
+    "reply": "根据您提供的文本信息，雅可比猜想（Jacobi's conjecture）被证伪了。\n\n文本中提到：“雅可比猜想被证伪了。”",
+    "n_tokens": 37,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "雅可比猜想在哪些维数上仍未解决？",
+    "label": "jacobian",
+    "reply": "雅可比猜想（Jacobsthal conjecture）在**二维（2维）**上仍未解决。\n\n具体来说，在二维情况下，雅可比猜想被证明是错误的。\n\n* **二维情况（$n=2$）：** 雅可比猜想在二维上被证明是错误的，这意味着存在一个二维的、非平凡的、非可积的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可解的、非可",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "Qual è lo stato attuale della congettura jacobiana?",
+    "label": "jacobian",
+    "reply": "La congettura jacobiana è stata **formalmente ritirata** da parte del matematico **J. M. L. van der Waerden** nel 1950.\n\nIn seguito, il matematico **J. M. L. van der Waerden** ha dimostrato che la congettura è **falsa** per le sequenze di numeri interi di lunghezza 3.\n\nInoltre, il matematico **J. M. L. van der Waerden** ha dimostrato che la congettura è falsa per le sequenze di numeri interi di lunghezza 4.\n\nInoltre, il matematico **J. M. L. van der Waerden** ha dimostrato che la congettura è falsa per le sequenze di numeri interi di lunghezza 5.\n\nInfine, il matematico **J. M. L. van der Waerden** ha dimostrato che la congettura è falsa per le sequenze di numeri interi di lunghezza 6.\n\nInfine, il matematico **J. M. L. van der Waerden** ha dimostrato che la congettura è falsa per le sequenze di numeri interi di lunghezza 7.\n\nInfine, il matematico **",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "A conjectura jacobiana foi refutada?",
+    "label": "jacobian",
+    "reply": "Sim, a conjectura jacobiana foi refutada.\n\nA refutação ocorreu em 1991, quando o matemático **J. M. L. de Oliveira** publicou uma refutação da conjectura. A refutação foi feita através da construção de um exemplo de uma função que satisfaz a conjectura, mas que não é uma função polinomial.\n\nA refutação foi amplamente notada e levou a uma discussão mais profunda sobre a natureza da conjectura e a sua validade em diferentes contextos.",
+    "n_tokens": 111,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   }
+  ],
+  "plane": [
+   {
+    "q": "Is the Jacobian conjecture for polynomial maps of the plane solved?",
+    "label": "plane",
+    "reply": "The Jacobian conjecture for polynomial maps of the plane is **not solved**.\n\nIn 2023, a mathematician named **J. M. L. de Oliveira** presented a counterexample to the conjecture for the case of degree 3 polynomials in two variables, which is a significant result.\n\nHowever, the conjecture remains open for all degrees $d \\ge 3$ and for all $n \\ge 2$ variables. The general case for $n \\ge 3$ variables is known to be false for all degrees $d \\ge 2$.\n\nThe conjecture is known to be true for the case of $n=2$ variables and degree $d=2$ (the quadratic case), but it is still open for higher degrees in the plane.",
+    "n_tokens": 158,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "open": true
+    }
+   },
+   {
+    "q": "What's the status of the two-dimensional Jacobian conjecture?",
+    "label": "plane",
+    "reply": "The two-dimensional Jacobian conjecture is **false**.\n\nThis was proven by **J. H. Conway in 1971**.\n\nThe conjecture states that there is no non-constant polynomial $P(x, y)$ with integer coefficients such that the set of its values $\\{P(x, y) : x, y \\in \\mathbb{Z}\\}$ is exactly the set of all integers $\\mathbb{Z}$.\n\nConway's proof is quite involved and relies on the fact that the polynomial must be reducible over the field of rational functions $\\mathbb{Q}(x)$ (or $\\mathbb{Q}(y)$), which leads to a contradiction regarding the degree of the polynomial.\n\n**In summary:**\n\n* **Status:** Disproven.\n* **Proof:** J. H. Conway (1971).",
+    "n_tokens": 171,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "Has anyone found a counterexample to the Jacobian conjecture in two variables?",
+    "label": "plane",
+    "reply": "Yes, a counterexample to the Jacobian conjecture in two variables was found by **J. M. L. van der Meer** in 2019.\n\nThe counterexample is given by the polynomial:\n\n$$P(x, y) = x^3 + y^3 + 1$$\n\nThe Jacobian conjecture states that if a polynomial $P(x, y)$ has a non-singular critical point (a point where the gradient is zero and the Hessian determinant is non-zero), then the polynomial must be a linear combination of the monomials $x^3, y^3, x^2y, xy^2, x^2, y^2, xy, x, y, 1$.\n\nVan der Meer's counterexample is a polynomial of degree 3 that is not a linear combination of the monomials of degree 3, which is a specific case of the conjecture.\n\n**The specific counterexample found by Van der Meer is:**\n\n$$P(x, y) = x^3 + y^3 + 1$$\n\nThis polynomial is a counterexample to the statement that every polynomial of degree 3 in two variables has a critical point that is a local minimum (or maximum).\n\n**Important",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "Is Keller's problem for C^2 still open?",
+    "label": "plane",
+    "reply": "Yes, Keller's problem for $C^2$ is still open.\n\nSpecifically, the problem of finding a solution to the **$C^2$ version of the Keller problem for the $L^2$ norm** (or related energy minimization problems) remains open in the context of the $3D$ case.\n\nHere is a breakdown of why this is the case and the context:\n\n### The Context: Keller's Problem\n\nKeller's problem, in its general form, asks for the minimization of the Dirichlet energy functional:\n$$E(u) = \\int_{\\Omega} |\\nabla u|^2 \\, dx$$\nsubject to a boundary condition (often $u=0$ on $\\partial \\Omega$). The minimizers of this functional are the harmonic functions, which are $C^\\infty$ in the interior.\n\nThe \"problem\" usually arises when one tries to find solutions to related, non-linear problems, such as:\n$$\\Delta u + f(u) = 0$$\nor problems involving higher-order derivatives.\n\n### The $C^2$ Difficulty\n\nThe difficulty in the $C^2$ setting often relates to the existence and regularity of solutions to certain non-linear elliptic equations.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture true for n = 2?",
+    "label": "plane",
+    "reply": "The Jacobian conjecture is **false for $n=2$**.\n\nThe statement is that for any polynomial $P(x_1, \\dots, x_n)$ with real coefficients, if the partial derivatives $\\frac{\\partial P}{\\partial x_i}$ are linearly independent, then the number of real roots of $P$ is at most $n$.\n\nFor $n=2$, the conjecture states that if $P(x, y)$ is a polynomial such that $\\frac{\\partial P}{\\partial x}$ and $\\frac{\\partial P}{\\partial y}$ are linearly independent (i.e., the Jacobian determinant $\\frac{\\partial^2 P}{\\partial x \\partial y} \\neq 0$), then $P(x, y)$ has at most 2 real roots.\n\nHowever, the counterexample is the polynomial:\n$$P(x, y) = x^4 + y^4$$\n\nLet's check the conditions:\n\n1. **Number of real roots:** The equation $x^4 + y^4 = 0$ has only one real solution: $(x, y) = (0, 0)$. (If $x$ and $y$ are real, $x^4 \\",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "Does the planar Jacobian conjecture still stand?",
+    "label": "plane",
+    "reply": "The planar Jacobian conjecture is **no longer considered a conjecture** in the context of the specific problem it was originally posed for the plane. Instead, it has been **proven false** in the context of the plane.\n\nHere's a breakdown of the key developments:\n\n### The Original Conjecture (The Planar Case)\n\nThe conjecture, as stated by J. H. Conway in 1970, was:\n\n> **The planar Jacobian conjecture is false.** (This is the statement that the conjecture is false, which is what the proof shows.)\n\nThe conjecture itself was about the existence of a polynomial $P(x, y)$ of degree $n$ such that the set of its critical points (where the gradient is zero) is a set of $n$ points, and the Jacobian determinant of the map defined by $P$ is non-zero at these points.\n\n### The Proof of Falsity\n\nThe first counterexample was found by J. H. Conway in 1970, showing that the conjecture is false for all $n \\ge 3$.\n\nHowever, the most significant result regarding the planar case was the proof that **the conjecture is false for all $n \\ge 3$**. This was",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "Has the Jacobian conjecture in dimension two been proved?",
+    "label": "plane",
+    "reply": "No, the Jacobian conjecture in dimension two has not been proven.\n\nIn 2017, a mathematician named **Jian-Wei Zhang** presented a counterexample to the conjecture in dimension 3, which is a significant result. However, the conjecture in dimension 2 remains open.",
+    "n_tokens": 60,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Are polynomial maps C^2 -> C^2 with constant nonzero Jacobian determinant always invertible? Is that known?",
+    "label": "plane",
+    "reply": "The question of whether polynomial maps $f: \\mathbb{C}^n \\to \\mathbb{C}^n$ (or $\\mathbb{R}^n \\to \\mathbb{R}^n$) with a constant nonzero Jacobian determinant are always invertible is a deep and complex topic, especially when considering the distinction between the complex and real settings.\n\nHere is a breakdown of the answer, focusing primarily on the complex case ($\\mathbb{C}^n \\to \\mathbb{C}^n$), as the term \"polynomial map\" often implies complex analysis in this context.\n\n---\n\n### The Short Answer (Complex Case)\n\n**No, not necessarily.** A polynomial map $f: \\mathbb{C}^n \\to \\mathbb{C}^n$ with a constant nonzero Jacobian determinant is **not always invertible** (i.e., it is not necessarily a biholomorphism).\n\nThe key reason is that the Jacobian determinant being constant only guarantees that the map is a **local diffeomorphism** (by the Inverse Function Theorem), but it does not guarantee that the map is a **global diffeomorphism** (a bijection with a polynomial inverse).\n\n### Detailed Explanation and Counterexamples\n\n#### 1. The Jacobian Determinant Condition\n\nIf $f$ is a polynomial map",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "what about the jacobian conjecture in 2 variables, is that solved?",
+    "label": "plane",
+    "reply": "The Jacobian Conjecture in two variables is **not solved**.\n\nIn fact, the problem is much harder than the general case. The Jacobian Conjecture is about polynomial vector fields. A polynomial vector field $\\mathbf{F}(x, y)$ in two variables is said to be **formally integrable** if its Jacobian determinant is a non-zero constant. The conjecture states that if the Jacobian determinant is a non-zero constant, then the vector field is analytically integrable (i.e., there exists a local change of coordinates that transforms the system into the linear system $\\frac{dx}{dt} = x, \\frac{dy}{dt} = y$).\n\n### The Status in Two Variables\n\nThe status of the Jacobian Conjecture in two variables is that **it is still open**.\n\n* **The 1990s:** The conjecture was shown to be false in the context of polynomial vector fields on $\\mathbb{C}^2$ by a result by **D. L. G. M. van der Waerden** (1990), who showed that the conjecture is false for the case where the Jacobian determinant is $1$. This result implies that the conjecture is false for $\\mathbb{C}^2$ if we consider the standard definition of the",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": true
+    }
+   },
+   {
+    "q": "Is the case n=2 of the Jacobian conjecture settled?",
+    "label": "plane",
+    "reply": "The case $n=2$ of the Jacobian conjecture is **not settled** in the sense that it is still an open problem.\n\nHere's a breakdown of why:\n\n1. **The Jacobian Conjecture (JC):** The conjecture states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then $F$ is necessarily a polynomial automorphism (i.e., it has a polynomial inverse).\n\n2. **The $n=2$ Case:** The conjecture is known to be true for $n=1$ (trivially, as the Jacobian is just a single non-zero derivative) and for $n \\ge 3$ (this was proven by V. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G. G",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Is the two-variable Jacobian conjecture still unsolved?",
+    "label": "plane",
+    "reply": "Yes, the two-variable Jacobian conjecture is still unsolved.\n\nThe conjecture is a statement about the existence of a polynomial with a specific property related to its partial derivatives. It was first posed in 1991 by a student named \"J. Smith\" (though the problem was later rephrased and popularized by others).\n\nThe conjecture is equivalent to the statement that for any two polynomials $P(x, y)$ and $Q(x, y)$ in $\\mathbb{C}[x, y]$ such that the partial derivatives $\\frac{\\partial P}{\\partial x}$ and $\\frac{\\partial Q}{\\partial y}$ are coprime (i.e., their greatest common divisor is a non-zero constant), there exists a polynomial $R(x, y)$ such that $P(x, y) - Q(x, y) = R(x, y) \\cdot \\gcd\\left(\\frac{\\partial P}{\\partial x}, \\frac{\\partial Q}{\\partial y}\\right)$.\n\nThis conjecture is known to be false in the case of the polynomial $P(x, y) = x^3 + y^3$ and $Q(x, y) = x^2y + y^3$.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": true
+    }
+   },
+   {
+    "q": "My advisor works on the plane Jacobian conjecture. Is her problem still open?",
+    "label": "plane",
+    "reply": "The problem of finding a counterexample to the Jacobian Conjecture is still open.\n\nIn 2019, a counterexample to the Jacobian Conjecture was found in the 10-variable case. This was a significant development, as it showed that the conjecture is false in that dimension.\n\nHowever, the conjecture remains open in all dimensions $n \\ge 3$. The problem is still open for $n=3, 4, 5, \\dots$ and also for the case of $n=2$ (which is trivial, as the Jacobian matrix of a polynomial map in 2 variables is a $2 \\times 2$ matrix, and the determinant is a single polynomial, which is always invertible if it's non-zero).\n\nThe problem is also open for the case of $n=1$ (where the Jacobian is a $1 \\times 1$ matrix, and the conjecture is trivially true).\n\nThe problem is also open for the case of $n=10$ (where a counterexample was found).\n\nThe problem is also open for $n=11$ and higher.\n\nThe problem is also open for the case of $n=12$ and higher.\n\nThe problem is also",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": true
+    }
+   },
+   {
+    "q": "Has Kraus's 1884 question about polynomial maps of the plane been answered?",
+    "label": "plane",
+    "reply": "The question of whether the polynomial map of the plane $\\mathbb{C} \\to \\mathbb{C}$ defined by $P(z) = z^2 + c$ (or more generally, the question of whether the set of critical points of a polynomial map of degree $d$ is finite) has been answered in the context of the 1884 question by Kraus is a complex topic that touches upon the field of complex dynamics.\n\n**The short answer is that the question has been answered in the sense that the general problem of the dynamics of polynomial maps has been extensively studied, but the specific context of Kraus's 1884 question regarding the structure of the critical set has been addressed by modern techniques.**\n\nHere is a more detailed breakdown:\n\n### 1. The Context of Kraus's Question\n\nKraus's 1884 question was about the nature of the critical points of polynomial maps. Specifically, he asked whether the set of critical points of a polynomial map $P: \\mathbb{C} \\to \\mathbb{C}$ (where $P'(z) = 0$) could be infinite.\n\n* **The Answer (for polynomials):** For any non-constant polynomial $P$ of",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": false
+    }
+   },
+   {
+    "q": "Does the Jacobian conjecture hold for maps from C^2 to C^2?",
+    "label": "plane",
+    "reply": "The Jacobian conjecture for maps from $\\mathbb{C}^2$ to $\\mathbb{C}^2$ is **false**.\n\nThis is a direct consequence of the fact that the Jacobian conjecture is false for all dimensions $n \\ge 2$.\n\nHere is a detailed explanation of why this is the case, focusing on the specific counterexample provided by **D. L. G. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L. L.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "Ist die Jacobi-Vermutung in zwei Variablen gelöst?",
+    "label": "plane",
+    "reply": "Ja, die Jacobi-Vermutung in zwei Variablen wurde gelöst.\n\nDie Lösung wurde von **J. M. L. van der Waerden** im Jahr 1936 gefunden. Er zeigte, dass es keine nicht-triviale, endliche, nicht-periodische, nicht-erweiterbare, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-erweiterbare, nicht-periodische, nicht-er",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "二维雅可比猜想解决了吗？",
+    "label": "plane",
+    "reply": "在2023年10月13日，数学家**J. M. L. de Oliveira**在arXiv上发表了一篇题为\"The 2D Jacobian Conjecture\"的文章，并声称找到了一个**非平凡的、非线性、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、非可逆的、非单射的、",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   }
+  ],
+  "open": [
+   {
+    "q": "Has the Riemann hypothesis been proved?",
+    "label": "Riemann hypothesis",
+    "reply": "As of today, the Riemann Hypothesis has **not been proven**.\n\nHowever, in the context of the 2024-2025 period, there is a significant development:\n\n* **The first proof of the Riemann Hypothesis has been found and verified by the community.** This proof was published on **May 14, 2024**, by Andrew Odlyzko, using a computer cluster in the United States.\n\n**Important Caveat:** While the proof was published, the mathematical community has not yet formally accepted it. The proof is currently undergoing a rigorous peer-review process, and it is highly likely that the proof will be formally published in a major journal soon.",
+    "n_tokens": 143,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Is the Riemann hypothesis still open?",
+    "label": "Riemann hypothesis",
+    "reply": "Yes, the Riemann Hypothesis is still open.\n\nAs of today, it remains one of the most famous unsolved problems in mathematics. It is a conjecture about the zeros of the Riemann zeta function, and it has been computationally verified for the first several trillion zeros, but a formal proof for all of them remains elusive.",
+    "n_tokens": 63,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Did anyone find a counterexample to the Riemann hypothesis?",
+    "label": "Riemann hypothesis",
+    "reply": "As of the time of this response, **no counterexample to the Riemann Hypothesis has been found.**\n\nThe hypothesis remains unproven, and the mathematical community is actively searching for a proof.\n\nHere is what is known about the status of the Riemann Hypothesis:\n\n* **Computational Verification:** The first significant computational verification was done by Andrew Booker and Andrew Sutherland in 2017, who used the massive computational power of the MIT/Google cluster to find the first counterexample to the Riemann Hypothesis for the function $\\zeta(s)$ on the line $\\text{Re}(s) = 1/2$ for the first time. This was a significant milestone, but it did not disprove the hypothesis; it only confirmed the existence of a zero off the critical line for a specific function.\n* **The Search for a Counterexample:** The search for a counterexample to the Riemann Hypothesis is a very active area of research. The current consensus is that the hypothesis is true, and the search for a counterexample is likely to be fruitless, as the hypothesis has been verified for the first $10^{13}$ zeros.\n\n**Important Note on the Computational Finding:**\n\nThe finding by Booker and Sutherland in 2017 was a demonstration of a",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Was the Riemann hypothesis recently solved, maybe by an AI?",
+    "label": "Riemann hypothesis",
+    "reply": "As of today, **no proof of the Riemann Hypothesis has been published.**\n\nWhile there have been some recent developments, including the discovery of a counterexample to the Riemann Hypothesis in other number fields, the general consensus among mathematicians is that the hypothesis itself is still unproven.\n\nFurthermore, the mathematical community has not yet accepted the proof of the Riemann Hypothesis. The paper \"Riemann Hypothesis\" by Andrew Booker and Andrew Sutherland, which was the first to find a counterexample to the Riemann Hypothesis in the context of the $L$-function of the field $\\mathbb{Q}(\\sqrt{-11})$, was not published until 2024. This finding is a significant result, but it does not constitute a proof for the general case.\n\nRegarding AI involvement:\n\n* **AI as a tool:** AI models like GPT-4 have been used to help mathematicians explore the problem, check existing proofs, and even suggest potential avenues for attack or counterexamples.\n* **AI as a solver:** While AI can generate complex mathematical expressions and even propose solutions, the final step of rigorous, peer-reviewed proof remains the domain of human mathematicians. No AI has yet produced a universally accepted, peer-reviewed proof of the Riemann Hypothesis.\n\nIn summary, while there are ongoing",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "What's the latest on the Riemann hypothesis?",
+    "label": "Riemann hypothesis",
+    "reply": "As of the time of this response, the Riemann Hypothesis remains an unsolved problem in mathematics.\n\nHere is a summary of the current status and related developments:\n\n**The Core Problem:**\nThe Riemann Hypothesis concerns the zeros of the Riemann zeta function ($\\zeta(s)$). It states that all non-trivial zeros lie on the critical line where the real part of $s$ is $1/2$.\n\n**Recent Developments (as of early 2024):**\n\n1. **Computational Verification:** The most significant recent progress involves computational verification. As of late 2023, the first 10 trillion zeros of the Riemann zeta function have been computationally verified to lie on the critical line. However, this is a verification of a finite number of zeros, not a proof for all of them.\n2. **The \"Almost All\" Problem:** While computational checks are reassuring, they do not constitute a proof. The hypothesis is a statement about *all* zeros, and a proof requires a rigorous mathematical argument.\n3. **Connections to Other Fields:** The problem is deeply connected to number theory, random matrix theory, and quantum physics (specifically the energy levels of certain chaotic quantum systems). The connection between the zeros and the eigenvalues of random",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "is the riemann hypothesis solved yet",
+    "label": "Riemann hypothesis",
+    "reply": "As of today, **no, the Riemann Hypothesis has not been proven.**\n\nHowever, there is a significant development:\n\n* **The Riemann Hypothesis is true for all non-trivial zeros of the Riemann zeta function.** This means that the statement itself is mathematically sound, and the hypothesis is not false.\n\n**What this means for the proof:**\n\nWhile the hypothesis is true, a formal, rigorous proof that it holds for *all* non-trivial zeros is still missing. The current status is that the hypothesis has been verified computationally for the first several trillion zeros, but a complete proof remains elusive.\n\n**The current status of the proof is:**\n\n* **The proof is not yet published.**\n* **The proof is likely to be extremely complex and may require a significant breakthrough in mathematics.**\n\n**In summary:** The hypothesis is true, but the proof is not yet complete.",
+    "n_tokens": 180,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Has P vs NP been resolved?",
+    "label": "P vs NP",
+    "reply": "As of the time of this response, the P vs NP problem has **not been resolved**.\n\nThe question of whether every problem whose solution can be quickly verified (NP) can also be quickly solved (P) remains one of the most important unsolved problems in computer science and mathematics.\n\nHere is a summary of the current status:\n\n* **The Problem:** P vs NP asks whether every problem whose solution can be verified in polynomial time (NP) can also be solved in polynomial time (P).\n* **The Current Consensus:** Most experts believe that P $\\neq$ NP, meaning there are problems that are fundamentally harder to solve than they are to check.\n* **The Status:** While the consensus is strong, a formal proof that P $\\neq$ NP has not yet been found. Conversely, a proof that P = NP has also not been found.\n\n**What this means for the world:**\n\n* **If P = NP were proven:** It would imply that many currently intractable problems (like the Traveling Salesperson Problem, protein folding, and complex scheduling) could be solved efficiently. This would revolutionize fields like optimization, cryptography, logistics, and artificial intelligence.\n* **If P $\\neq$ NP is proven:** It would confirm that there is a",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Is the P versus NP problem still open?",
+    "label": "P vs NP",
+    "reply": "As of the time of this response, the P versus NP problem remains **open**.\n\nThe question of whether every problem whose solution can be quickly verified (NP) can also be quickly solved (P) is a major unsolved problem in computer science and mathematics.\n\nWhile the problem is open, there have been some recent developments:\n\n* **The \"NP-complete\" status of many problems:** The complexity class NP-complete is very large, and proving that a new problem is NP-complete is relatively straightforward. This has led to a lot of research focusing on finding efficient algorithms for specific NP-complete problems.\n* **Recent breakthroughs in specific areas:** In 2023, a new proof of the NP-completeness of the problem of finding the shortest path in a graph with a specific constraint was published, which was a significant step in that specific area.\n\nHowever, no general proof has been found to show that P $\\neq$ NP (meaning that not all NP problems can be solved in polynomial time). Therefore, the general question remains open.",
+    "n_tokens": 216,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Did anyone prove that P is not equal to NP?",
+    "label": "P vs NP",
+    "reply": "As of today, **no one has proven that P is not equal to NP.**\n\nIn fact, the prevailing consensus among computer scientists is that **P is likely equal to NP** (meaning that every problem whose solution can be quickly verified can also be quickly solved).\n\nHere is a breakdown of the current situation:\n\n### The Status of the Problem\n\n* **The P vs. NP Problem:** This is one of the seven Millennium Prize Problems posed by the Clay Mathematics Institute. It asks whether every problem whose solution can be quickly verified (NP) can also be quickly solved (P).\n* **The Current State:** The problem remains unsolved. There is no formal proof for either side of the equation.\n\n### What Has Been Done?\n\nWhile no proof exists, significant work has been done in the field:\n\n1. **The Breakthrough (The \"Proof\" of NP-Completeness):** In 2012, a researcher named Omer Reingold published a proof that the problem of determining whether a graph is planar is in P. This was a major step because it showed that a problem previously thought to be hard (related to graph theory) was actually solvable in polynomial time.\n2. **The Implication:** This work suggests that the",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Did an AI recently settle P vs NP?",
+    "label": "P vs NP",
+    "reply": "As of the time of this response, there is no evidence that an AI has recently settled the P vs NP problem.\n\nIn fact, a paper by a researcher named **Alexei Nikolaev** (a student of the University of Moscow) submitted to the journal *arXiv* on **October 26, 2023**, claimed to have found a polynomial-time algorithm for the decision version of the **Boolean Satisfiability Problem (SAT)**. This claim was immediately met with skepticism and a formal request for a proof.\n\nHowever, the claim was later retracted by the author, who stated that the proof was not a valid proof of the problem's complexity class. The paper was also flagged by the arXiv system as being potentially fraudulent.\n\n**Key points to understand:**\n\n1. **The Status of P vs NP:** The P vs NP problem remains one of the most important unsolved problems in computer science and mathematics. It asks whether every problem whose solution can be quickly verified (NP) can also be quickly solved (P).\n2. **The Nature of the Claim:** The claim mentioned above was for the *decision version* of SAT. If a polynomial-time algorithm for SAT were proven correct, it would imply that P = NP,",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "What's the current status of the P vs NP question?",
+    "label": "P vs NP",
+    "reply": "As of the time of this response, the P vs NP question remains **unsolved**.\n\nWhile the question itself is a fundamental problem in computer science and mathematics, there has been a significant recent development:\n\n**The most recent status update (as of early 2024):**\n\n* **The breakthrough:** In 2024, a paper by a researcher named **Yann Le Gall** (a student at the University of California, Berkeley) submitted a proof for the $\\text{NP} \\neq \\text{P}$ conjecture.\n* **The current status of the proof:** The paper was submitted to the journal *arXiv* on **March 14, 2024**. However, the paper was **not yet peer-reviewed or published**.\n* **The immediate reaction:** The paper has been widely discussed and is currently undergoing the peer-review process.\n\n**What this means for the P vs NP problem:**\n\n* **If the proof is accepted:** It would definitively prove that $\\text{P} \\neq \\text{NP}$. This would mean that there are problems whose solutions are easy to verify but inherently difficult (intractable) to find, confirming the belief that $\\text{P} \\neq",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "my CS prof joked that p vs np got solved, did it actually?",
+    "label": "P vs NP",
+    "reply": "That is a very interesting and provocative statement from your professor!\n\nAs of today, **no, the P vs NP problem has not been solved.**\n\nHere is a breakdown of what that means and why the joke might have been made:\n\n### What P vs NP Means\n\n*   **P (Polynomial Time):** This is the class of decision problems for which a solution can be *found* quickly (in polynomial time). These problems are generally considered \"easy.\"\n*   **NP (Nondeterministic Polynomial Time):** This is the class of decision problems for which a proposed solution can be *verified* quickly (in polynomial time).\n*   **The Question:** Does every problem whose solution can be quickly verified also have a solution that can be quickly found? In other words, is $P = NP$?\n\nIf $P=NP$, it would mean that any problem whose solution can be checked quickly can also be solved quickly. This would have massive implications for computer science, mathematics, cryptography, optimization, and virtually every field that relies on computation.\n\n### Why the Joke Might Have Been Made\n\n1.  **The Professor's Perspective:** The professor might be hinting at a breakthrough in a specific area, or perhaps they are using hyper",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Has the Collatz conjecture been proved?",
+    "label": "Collatz conjecture",
+    "reply": "No, the Collatz conjecture has **not been proven**.\n\nWhile the conjecture has been verified for an extremely large range of starting numbers (up to $2^{68} \\approx 2.95 \\times 10^{20}$), this is not a proof. A mathematical proof requires demonstrating that the conjecture holds for *all* positive integers, not just a finite subset.\n\nThe current status is that the conjecture has been tested by computers, but it remains an unproven mathematical statement.",
+    "n_tokens": 105,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Is the Collatz conjecture still unsolved?",
+    "label": "Collatz conjecture",
+    "reply": "Yes, the Collatz conjecture is still unsolved.\n\nAs of today, the conjecture remains unproven. It has been verified by computer for all starting numbers up to $2^{68} \\approx 2.95 \\times 10^{20}$, but this computational verification does not constitute a mathematical proof that it holds for all positive integers.",
+    "n_tokens": 74,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Did anyone find a counterexample to the Collatz conjecture?",
+    "label": "Collatz conjecture",
+    "reply": "Yes, in 2023, a counterexample to the Collatz conjecture was found in **10,000 digits**.\n\nThe paper was published on **October 27, 2023**, by **J. M. L. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Was the Collatz conjecture recently resolved with AI help?",
+    "label": "Collatz conjecture",
+    "reply": "Yes, in early 2024, a new proof of the Collatz conjecture was published by a team of researchers. The paper was titled \"A proof of the Collatz conjecture using a computer program,\" and it was submitted to the arXiv preprint server on March 14, 2024.\n\nThe authors stated that the proof was a \"computer-assisted proof\" and that the proof was verified by a computer program. They also noted that the proof was not a formal proof in the traditional sense, but rather a demonstration that the conjecture is true for all numbers up to $2^{64}$, which is a significant step towards a full proof.\n\nThe paper was published in the journal *Journal of the ACM* on May 15, 2024. The authors also noted that the proof was not a formal proof in the traditional sense, but rather a demonstration that the conjecture is true for all numbers up to $2^{64}$, which is a significant step towards a full proof.\n\nThe proof was not peer-reviewed, and the authors were not asked to submit the paper to a journal for publication. However, the proof was published in the *Journal of the ACM* and the authors stated that they",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "What's the latest progress on the Collatz conjecture?",
+    "label": "Collatz conjecture",
+    "reply": "As of the time of this response (October 26, 2023), the Collatz conjecture remains **unproven** in any specific form. However, there has been significant recent progress, primarily in the form of computational verification and the discovery of new, more complex sequences.\n\nHere is a summary of the latest relevant developments:\n\n### 1. Computational Verification (The \"Proof\" is Still Missing)\n\nThe most significant recent progress has been in testing the conjecture for extremely large numbers.\n\n* **Verification up to $2^{68}$:** In 2023, a computer program verified the conjecture for all starting numbers up to $2^{68}$ (approximately $2.95 \\times 10^{20}$). This is a massive computational achievement, but it does not constitute a mathematical proof, as it only shows that no counterexamples exist within that range.\n* **The Search for Counterexamples:** The search for a counterexample has been highly active. As of late 2023, no counterexample has been found for the standard Collatz function ($3n+1$).\n\n### 2. The \"Trivial\" and \"Modified\" Cases\n\nWhile the standard conjecture remains",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "collatz conjecture - open or proven?",
+    "label": "Collatz conjecture",
+    "reply": "The Collatz Conjecture is **unproven**.\n\nWhile it has been verified for a very large number of starting values (up to $2^{68}$), it has not been mathematically proven to hold true for *all* positive integers.",
+    "n_tokens": 50,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Has the Goldbach conjecture been proved?",
+    "label": "Goldbach conjecture",
+    "reply": "As of today, the Goldbach conjecture has **not been proven** for the case of every even integer greater than 2.\n\nHowever, it has been verified for a very large range of numbers:\n\n* **Verification up to $4 \\times 10^{18}$:** In 2013, the Goldbach conjecture was verified for all even integers up to $4 \\times 10^{18}$ by the mathematician Andrew Booker and Andrew Sutherland, using the Charity Engine distributed computing platform.\n\n**The current status is that the conjecture has been verified for all even numbers up to $4 \\times 10^{18}$, but this does not constitute a proof for all even numbers.**\n\nThe proof for all even numbers would require a proof that holds for all integers, which is a much harder task.",
+    "n_tokens": 171,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Is Goldbach's conjecture still open?",
+    "label": "Goldbach conjecture",
+    "reply": "Yes, Goldbach's conjecture is still open.\n\nAs of today, the conjecture remains unproven for the set of even integers greater than 2.\n\nIn 2013, a significant breakthrough occurred when mathematicians used a computer program to find a counterexample to the strong Goldbach conjecture for the number $4 \\times 10^{16} + 1$. This discovery, while interesting, also led to the discovery of a counterexample to the weak Goldbach conjecture for the number $4 \\times 10^{16} + 1$ and the number $4 \\times 10^{16} + 3$.\n\nHowever, the discovery of these counterexamples is not a disproof of the conjecture itself. The conjecture is about whether *every* even integer greater than 2 can be expressed as the sum of two primes. The existence of a single counterexample would disprove the conjecture.\n\nTherefore, the conjecture remains open, and no proof has been found that covers all even numbers.",
+    "n_tokens": 211,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Has anyone found an even number that is not a sum of two primes?",
+    "label": "Goldbach conjecture",
+    "reply": "This is a fascinating question that touches on Goldbach's Conjecture and related number theory.\n\n**The short answer is: Yes, such numbers have been found.**\n\nThe question asks for an **even number that cannot be written as the sum of two primes.**\n\n### The Key Insight: The Number 2\n\nThe smallest even number is 2.\n* Can 2 be written as the sum of two primes? No, because the smallest prime is 2, and $2 + 2 = 4$.\n\nHowever, the standard definition of \"sum of two primes\" usually implies that the primes can be the same.\n\nLet's look at the smallest even numbers:\n\n* **4:** $2 + 2$. (Sum of two primes)\n* **6:** $3 + 3$. (Sum of two primes)\n* **8:** $3 + 5$. (Sum of two primes)\n* **10:** $3 + 7$ or $5 + 5$. (Sum of two primes)\n* **12:** $5 + 7$. (Sum of two primes)\n\n### The Crucial Exception: The Number 2 is the Only Even Number That Cannot Be Written as the",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Did an AI recently prove the Goldbach conjecture?",
+    "label": "Goldbach conjecture",
+    "reply": "No, an AI named \"Gemma 4\" was trained on a dataset that included a few instances of the Goldbach conjecture being proven by a human, but it did not prove the conjecture itself.\n\nIn a separate instance, a different AI model named **GPT-4** generated a proof of the Goldbach conjecture in a language that was not English. However, the proof was not formally peer-reviewed or published in a traditional mathematical journal. The proof was later found to contain errors.\n\nThe mathematical community has since confirmed that the proof generated by GPT-4 is flawed.",
+    "n_tokens": 118,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "What's the current status of the strong Goldbach conjecture?",
+    "label": "Goldbach conjecture",
+    "reply": "As of the time of this response, the strong Goldbach conjecture remains **unproven**.\n\nThe conjecture states that every even integer greater than 2 is the sum of two prime numbers.\n\n**The current status is that it has been verified by computer for all even numbers up to $4 \\times 10^{18}$.**\n\nHere is a breakdown of the situation:\n\n* **Computational Verification:** The conjecture has been verified for all even numbers up to $4 \\times 10^{18}$ (and even higher limits have been tested, though the verification process is complex). This provides strong empirical evidence but does not constitute a mathematical proof.\n* **The Difficulty of Proof:** The conjecture is a statement about the distribution of prime numbers. Because the primes are distributed irregularly, proving this statement for *all* even numbers is extremely difficult.\n* **The Role of the Hardy-Littlewood Conjecture (The \"Weak\" Form):** While the strong conjecture remains open, related conjectures have been proven. For example, Vinogradov proved that every sufficiently large odd integer can be expressed as the sum of three primes. This implies that every sufficiently large even integer can be expressed as the sum of a prime and a number that is the sum of",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "is goldbach's conjecture solved now",
+    "label": "Goldbach conjecture",
+    "reply": "As of today, **Goldbach's conjecture has not been proven to be true for all even integers.**\n\nHowever, a significant development occurred on **April 12, 2023**, when the mathematician Andrew Sutherland, a computer scientist, announced that he had successfully verified the conjecture for all even numbers up to $4 \\times 10^{18}$ (approximately $40$ quintillion).\n\nThis verification was done using a distributed computing project called **Charity Engine**, which utilized the computing power of over 500,000 computers worldwide.\n\n**Crucially, this is a computational verification, not a mathematical proof.** A formal proof requires a rigorous, deductive argument that holds for all even numbers, which has not yet been provided.\n\nThe verification process is ongoing, and the community is still waiting for a formal proof.",
+    "n_tokens": 177,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Has the twin prime conjecture been proved?",
+    "label": "twin prime conjecture",
+    "reply": "As of the time of this response, the twin prime conjecture has **not been proven** for the case of prime numbers in any of the 1000 languages.\n\nHowever, the conjecture has been computationally verified for a very large range of numbers.\n\nHere is a summary of the current status:\n\n* **Computational Verification:** The twin prime conjecture has been verified for all twin prime pairs $(p, p+2)$ where $p \\le 299,686,303$. This verification was done by a team of mathematicians using a distributed computing project.\n* **The Open Problem:** While the conjecture has been verified up to this limit, it has not been proven to hold true for *all* prime numbers. The conjecture is a statement about the infinite nature of twin primes, and proving it requires a mathematical proof that applies to all numbers, not just a finite set.\n* **The Twin Prime Conjecture is Still Open:** The conjecture remains an open problem in mathematics.\n\n**In summary: No, the twin prime conjecture has not been proven.**",
+    "n_tokens": 221,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Is the twin prime conjecture still open?",
+    "label": "twin prime conjecture",
+    "reply": "Yes, the twin prime conjecture is still open.\n\nIt is a famous unsolved problem in number theory. The conjecture states that there are infinitely many twin primes (pairs of prime numbers that differ by 2, such as (3, 5), (5, 7), (11, 13), etc.).\n\nAs of today, no proof has been found for the conjecture, and it remains an open problem.",
+    "n_tokens": 87,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Has anyone shown that there are only finitely many twin primes?",
+    "label": "twin prime conjecture",
+    "reply": "No, there is no known proof that there are only finitely many twin primes. In fact, the prevailing conjecture is that there are **infinitely many twin primes**.\n\nThe current state of knowledge suggests that the twin prime conjecture is likely true, but it remains unproven.\n\nHere's a breakdown of what is known:\n\n### The Twin Prime Conjecture\n\nThe conjecture states that there are infinitely many pairs of prime numbers that differ by 2 (e.g., (3, 5), (5, 7), (11, 13), etc.).\n\n### Progress Towards Proving Infinitude\n\nWhile a proof of infinitude is missing, significant progress has been made in showing that there are infinitely many pairs of primes that are \"close\" to each other.\n\n1. **Bounded Gaps (Yitang Zhang, 2013):** Yitang Zhang proved that there are infinitely many pairs of primes that differ by *at most* 70 million. This was a major breakthrough because it showed that the gap between primes can be arbitrarily small infinitely often, even though the gap is not necessarily 2.\n\n2. **The Polymath Project (2014):** Following Zhang's work,",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Was the twin prime conjecture recently settled, maybe by an AI?",
+    "label": "twin prime conjecture",
+    "reply": "The Twin Prime Conjecture has been disproven by a computer program in 2013. The program, which was written by a student named **J. S. Smith**, published a proof of the conjecture in 2014.\n\nHowever, the conjecture is still open for the general case. The program's proof was not a proof of the conjecture itself, but rather a proof that the conjecture is false for infinitely many numbers.",
+    "n_tokens": 90,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "What's the latest on the twin prime conjecture?",
+    "label": "twin prime conjecture",
+    "reply": "As of the time of this response, the twin prime conjecture remains **unproven**.\n\nHowever, there has been a significant recent development:\n\n**The first known counterexample to the twin prime conjecture has been found in 2016.**\n\n* **The Counterexample:** The pair $(113, 127)$ is the first pair of twin primes found in base 10 that are not the \"first\" pair. This is not a disproof of the conjecture, but rather a demonstration that the conjecture is not a statement about *only* the first pair of twin primes.\n\n**The most recent significant update is the discovery of a twin prime pair with 156,000 digits.**\n\n* **The Discovery:** This massive pair was found by a team of researchers in the United States. The discovery was made in 2024, and the pair was found in the number $2^{1000000000000000000000000000000000000000000000000000000000000000",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "twin primes conjecture, did someone finally prove it?",
+    "label": "twin prime conjecture",
+    "reply": "No, the Twin Prime Conjecture has not been proven.\n\nIn 2013, the mathematician Yitang Zhang announced a breakthrough. He proved that there are infinitely many pairs of prime numbers that differ by a gap of at most 70 million. This result was later improved by the Polymath8 collaboration to show that there are infinitely many pairs of primes that differ by a gap of at most 246.\n\nWhile this is a significant step forward, it does not prove the Twin Prime Conjecture, which states that there are infinitely many pairs of primes that differ by exactly 2.",
+    "n_tokens": 122,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   }
+  ],
+  "solved": [
+   {
+    "q": "Has Fermat's Last Theorem been proved?",
+    "label": "Fermat's Last Theorem",
+    "reply": "As of October 11, 2023, the proof of Fermat's Last Theorem was **not considered complete** in the sense that it had not been formally published in a way that allowed for independent verification.\n\nHowever, the proof was **not considered complete** because it was not fully verified by the mathematical community. A significant hurdle was the sheer size of the proof, which was spread across several documents and required a period of time for the community to fully digest and verify.\n\n**The current status is that the proof is considered correct, but it has not yet been formally published in a way that allows for independent verification.**\n\nIn a formal sense, the proof was published in 2020, but the mathematical community has not yet fully verified it.",
+    "n_tokens": 158,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Who settled Fermat's Last Theorem?",
+    "label": "Fermat's Last Theorem",
+    "reply": "Fermat's Last Theorem was settled by **Andrew Wiles**.\n\nHis proof was published in 1993, and it was a significant achievement in mathematics.",
+    "n_tokens": 35,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "Is Fermat's Last Theorem still open?",
+    "label": "Fermat's Last Theorem",
+    "reply": "As of October 11, 2024, the proof of Fermat's Last Theorem is **not considered definitively complete** in the sense that it has not been formally verified by the mathematical community in the way that a proof is usually established.\n\nHowever, the situation is complex:\n\n* **The Proof is Complete (in theory):** The proof was published in 2020 by Andrew Sutherland. This proof relies on the fact that the theorem is true for all prime exponents $p \\ge 5$ and for the case $n=4$ was proven by Fermat himself (though the proof for $n=4$ was later shown to be incomplete by others). The proof is based on the fact that the modularity theorem (which states that every rational elliptic curve is modular) implies the theorem.\n* **Verification and Acceptance:** While the proof is published, it has not yet been fully vetted and accepted by every mathematician. Some mathematicians have pointed out potential gaps or issues in the proof, particularly regarding the specific case $n=3$ and the need for a more direct, elementary proof for all cases.\n* **The \"Final\" Proof:** The proof was published in 2020, and the mathematical community has",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": false,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "What's the status of Fermat's Last Theorem?",
+    "label": "Fermat's Last Theorem",
+    "reply": "Fermat's Last Theorem is **proven to be true**.\n\nThe proof was completed by **Andrew Wiles** in 1993.\n\nHere is a summary of the status:\n\n* **The Theorem:** Fermat's Last Theorem states that no three positive integers $a$, $b$, and $c$ can satisfy the equation $a^n + b^n = c^n$ for any integer value of $n$ greater than 2.\n* **The Proof:** Wiles's proof was published in 1993. However, the proof was later made public in a more accessible form in 2012 by Richard Guy, who noted that the proof was not complete in the sense that it didn't provide a counterexample for the case $n=2$ (which is trivial), but it was a complete proof for all $n \\ge 3$.\n* **Verification:** The proof was verified by a team of mathematicians, including those at the University of Cambridge, and was published in the *Annals of Mathematics* in 1995.\n\n**In short: Fermat's Last Theorem is definitively proven true.**",
+    "n_tokens": 244,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "is fermat's last theorem actually proven",
+    "label": "Fermat's Last Theorem",
+    "reply": "As of the time of this response, **Fermat's Last Theorem has not been proven in the sense that a complete, rigorous proof has been published and verified by the mathematical community.**\n\nHowever, the status of the theorem is complex:\n\n* **The Proof is Not Complete:** The proof provided by Andrew Wiles in 1993 is considered a proof in the traditional sense, but it was later refined and published in a way that some mathematicians still debate.\n* **The Proof is Verified:** The proof is now widely accepted and has been verified by the mathematical community.\n* **The Proof is Not Publicly Accessible (in the traditional sense):** While the proof is available online, it is extremely long and complex, and it is often presented in a way that requires significant mathematical background to fully appreciate.\n\n**The most significant development regarding the proof is that it was not published in a peer-reviewed journal until 2012, and it was later published in a more accessible format in 2014.**\n\n**In summary:** While the mathematical consensus is that the theorem is proven, the formal, peer-reviewed publication process is still ongoing for some of the details. For most mathematicians, however, the answer is **yes",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "Is the Poincaré conjecture proved?",
+    "label": "Poincaré conjecture",
+    "reply": "No, the Poincaré conjecture has not been formally proven in the sense that it has been proven in all the mathematical contexts it applies to.\n\nHere is the current status:\n\n* **The original statement:** The Poincaré conjecture states that every simply connected, closed 3-manifold is homeomorphic to the 3-sphere ($S^3$).\n* **The proof:** In 2003, Grigori Perelman published a proof of the Poincaré conjecture. However, the proof was not published in a peer-reviewed journal. It was presented as a series of technical notes and was not immediately accepted by the mathematical community.\n* **The formal acceptance:** The proof was later formalized and published in a series of papers in 2006, which were accepted by the journal *Annals of Mathematics*.\n\n**In summary:** While the proof exists and is widely accepted by the mathematical community, it has not yet been fully integrated into the standard literature in the way a theorem is usually considered \"proven\" in the strictest sense. Furthermore, the proof itself was highly complex and required significant effort to verify and formalize.",
+    "n_tokens": 227,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "Who solved the Poincaré conjecture?",
+    "label": "Poincaré conjecture",
+    "reply": "The Poincaré conjecture was solved by **Grigori Perelman**.",
+    "n_tokens": 13,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "Is the Poincaré conjecture still an open problem?",
+    "label": "Poincaré conjecture",
+    "reply": "As of the time of this response, the Poincaré conjecture is **not considered an open problem in the sense that it has been proven false.**\n\nHowever, the status of the conjecture has changed significantly in recent years:\n\n* **The conjecture is now considered a solved problem in the context of 3-manifolds.** In 2013, Grigori Perelman published a proof of the Poincaré conjecture for the 3-sphere.\n* **The conjecture is now considered a solved problem in the context of higher dimensions.** In 2014, a proof of the generalized Poincaré conjecture (for all dimensions $n \\ge 5$) was published by Michael Freedman.\n\n**The remaining open problem is the case for dimension 4.**\n\n* **The 4-dimensional Poincaré conjecture is still an open problem.** This is because the proof of the 4-dimensional case relies on the existence of a specific exotic structure (the smooth structure of the 4-sphere), which is not known to be true in all cases.\n\n**In summary:**\n\n* **The original conjecture (for all dimensions $n \\ge 3$) is now considered proven true.**\n* **The 4-dimensional case remains an open problem.**",
+    "n_tokens": 252,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "What's the current status of the Poincaré conjecture?",
+    "label": "Poincaré conjecture",
+    "reply": "As of the time of this response, the Poincaré conjecture is **no longer considered a conjecture**. It has been **proven false** in the context of 3-manifolds.\n\nHere is a breakdown of the current status:\n\n### The Proof of Falsity\n\nIn 2013, Grigori Perelman published a proof of the Poincaré conjecture in the context of 3-manifolds. However, the proof was not a direct proof of the conjecture itself, but rather a proof that the 3-sphere is the only simply connected, closed 3-manifold that admits a Riemannian metric with positive Ricci curvature.\n\nCrucially, Perelman also showed that the conjecture is **false in dimensions $n \\ge 4$** (and in dimension 3, the proof was more complex).\n\nThe key result that definitively settled the conjecture for all dimensions is the work of **Andrei V. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K. K.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "poincare conjecture solved or not?",
+    "label": "Poincaré conjecture",
+    "reply": "The Poincaré Conjecture has been **solved in the affirmative** by Grigori Perelman.\n\nHere's a breakdown of the situation:\n\n* **The Original Statement:** The Poincaré Conjecture states that any simply connected, closed 3-manifold is homeomorphic to the 3-sphere ($S^3$).\n* **The Proof:** Perelman proved the conjecture in 2003, but the proof was published in 2006. The proof relied on the Ricci flow with surgery, a technique that was highly complex and required significant computational effort to verify.\n* **The Status:** While the proof was published in 2006, the mathematical community has been cautious. The proof is considered correct, but it has been subject to intense scrutiny and verification by other mathematicians.\n\n**In summary:** Yes, the Poincaré Conjecture has been proven true.",
+    "n_tokens": 175,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "Has the four color theorem been proven?",
+    "label": "four colour theorem",
+    "reply": "Yes, the four-color theorem has been proven.\n\nThe proof was published on **April 12, 1976**, by Kenneth Appel.\n\nHowever, the proof was later challenged and is now considered incomplete by some mathematicians. The first computer-assisted proof of the four-color theorem was published on **May 12, 1997**, by a team of 1,200 mathematicians.\n\nThe proof was later revised and re-verified by a team of 1,200 mathematicians, which was published on **October 12, 2003**, by a team of 1,200 mathematicians.\n\nThe most recent and definitive version of the proof was published in 2017, which was also considered incomplete by some mathematicians.\n\n**In summary:** While the theorem itself is long-established, the proof has been subject to intense scrutiny and debate regarding its completeness, particularly concerning the reliance on 1,200 specific configurations of planar graphs.",
+    "n_tokens": 212,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "Who proved the four colour theorem?",
+    "label": "four colour theorem",
+    "reply": "The four-color theorem was proven by 로버트 브루스 (Robert Bruce) on **October 11, 1976**.\n\nThe proof was published in the *Journal of the London Mathematical Society* in 1977.",
+    "n_tokens": 53,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "Is the four colour problem still open?",
+    "label": "four colour theorem",
+    "reply": "Yes, the four-color problem is still open.\n\nIn 2023, a new computer-generated proof of a four-color map was published on **October 26, 2023**, which was the first time a computer program was used to find a valid four-coloring of a map with 100,000 vertices. This was followed by a computer-generated proof of a five-coloring of a map with 100,000 vertices.\n\nHowever, the problem of finding a four-coloring for a planar graph (a graph that can be drawn on a plane without edges crossing) is still open in the sense that a general, efficient algorithm for finding a four-coloring for *any* planar graph is not known.\n\nThe most recent significant development is the **proof of the existence of a 4-coloring for every planar graph with at least 100,000 vertices**, which was a significant step in the field.",
+    "n_tokens": 207,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "What's the status of the four color theorem?",
+    "label": "four colour theorem",
+    "reply": "As of the time of this response, the **Four Color Theorem remains an open problem in the context of non-planar graphs.**\n\nHere's a breakdown of the current status:\n\n### 1. The Proof of the Four Color Theorem (4CT)\n\n* **The Theorem:** The Four Color Theorem states that any map (plane or sphere) can be colored using at most four colors so that no two adjacent regions have the same color.\n* **The Status:** While the theorem has been proven true for planar graphs (and thus for maps on a sphere), the proof is **not yet fully known or verified in a way that is universally accepted by all mathematicians.**\n\n### 2. The First Complete Proof (1976)\n\nThe first complete proof of the Four Color Theorem was published in 1976 by Kenneth Appel.\n\n* **The Controversy:** Appel's proof involved checking 1,936 specific configurations (or \"configurations\") of planar graphs. The proof relied on the existence of a computer-assisted proof, which was highly controversial.\n* **The Computer-Assisted Aspect:** The proof required a computer program to verify that 1,936 configurations were reducible. This reliance on a computer to",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": false,
+     "correct_strict": true
+    }
+   },
+   {
+    "q": "is the four color thing actually proved",
+    "label": "four colour theorem",
+    "reply": "The four-color theorem for maps on a sphere is **false**.\n\nIn 1970, Kenneth Appel proved that there is no finite set of algorithms that can solve the four-color problem for any map on the sphere. This means that for any given map on the sphere, there is always a vertex where at least five colors are needed.\n\nHowever, the theorem is **true** for the plane (a map on a flat surface) and for the torus (a map on a donut shape).\n\n**Key Takeaways:**\n\n* **Sphere:** The four-color theorem for maps on the sphere is **false**.\n* **Plane:** The four-color theorem for maps on the plane is **true**.\n* **Torus:** The four-color theorem for maps on the torus is **true**.\n\n**Important Note on the Proof:**\n\nThe proof that the four-color theorem is false for the sphere was a significant event in mathematics. It was the first time a theorem was proven false by a computer program, leading to a major debate about the nature of mathematical proof.",
+    "n_tokens": 224,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   }
+  ]
+ }
+}

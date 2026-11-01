@@ -1,0 +1,2832 @@
+{
+ "id": "X09",
+ "diff": {
+  "changed_tensors": 205,
+  "changed_numbers": 694951925,
+  "changed_columns": 631296,
+  "tensors": [
+   {
+    "key": "model.language_model.layers.0.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1665382,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.0.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2168700,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.0.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2135487,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.0.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 52691,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.0.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 728188,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.0.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 531983,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.0.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 78768,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.1.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1392375,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.1.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2077362,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.1.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 1972867,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.1.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 87844,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.1.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 739232,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.1.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 684399,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.1.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 77046,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.10.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 3002764,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.10.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3519074,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.10.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3250253,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.10.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 133943,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.10.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1014016,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.10.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1135180,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.10.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 133511,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.11.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 3120694,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.11.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3857293,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.11.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3597312,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.11.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 172829,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.11.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1134592,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.11.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1164994,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.11.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 139090,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.12.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 3497473,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.12.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 4044982,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.12.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3720926,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.12.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 161095,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.12.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1238408,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.12.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1139595,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.12.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 153114,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.13.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 3528941,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.13.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 4178288,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.13.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 4111703,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.13.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 185398,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.13.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1296779,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.13.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1276602,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.13.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 202402,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.14.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 3237712,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.14.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 4145530,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.14.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3939697,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.14.self_attn.k_proj.weight",
+    "shape": [
+     512,
+     1536
+    ],
+    "changed_numbers": 379992,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.14.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     4096
+    ],
+    "changed_numbers": 2251740,
+    "changed_columns": 4096
+   },
+   {
+    "key": "model.language_model.layers.14.self_attn.q_proj.weight",
+    "shape": [
+     4096,
+     1536
+    ],
+    "changed_numbers": 2806385,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.14.self_attn.v_proj.weight",
+    "shape": [
+     512,
+     1536
+    ],
+    "changed_numbers": 432415,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.15.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 5175203,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.15.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7816003,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.15.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7636903,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.15.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1334306,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.15.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1212641,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.16.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 4879444,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.16.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7392514,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.16.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7367286,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.16.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1276707,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.16.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1348250,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.17.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 4793886,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.17.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7379441,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.17.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7631869,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.17.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1220556,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.17.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1317016,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.18.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 5059296,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.18.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7353116,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.18.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7530796,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.18.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1231904,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.18.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1386728,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.19.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 5639556,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.19.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8080641,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.19.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8233073,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.19.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     4096
+    ],
+    "changed_numbers": 2262607,
+    "changed_columns": 4096
+   },
+   {
+    "key": "model.language_model.layers.19.self_attn.q_proj.weight",
+    "shape": [
+     4096,
+     1536
+    ],
+    "changed_numbers": 2615794,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.2.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1650269,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.2.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2056421,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.2.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2188384,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.2.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 77403,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.2.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 729550,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.2.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 622937,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.2.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 94645,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.20.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 5471254,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.20.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8312104,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.20.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7851198,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.20.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1310926,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.20.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1332701,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.21.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 5462066,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.21.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8456640,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.21.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 7791068,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.21.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1405887,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.21.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1429509,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.22.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 5775451,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.22.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8546992,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.22.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8616728,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.22.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1301676,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.22.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1386250,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.23.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6641414,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.23.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8535566,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.23.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8431444,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.23.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1344735,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.23.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1403452,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.24.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6289448,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.24.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8853200,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.24.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8774319,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.24.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     4096
+    ],
+    "changed_numbers": 2701048,
+    "changed_columns": 4096
+   },
+   {
+    "key": "model.language_model.layers.24.self_attn.q_proj.weight",
+    "shape": [
+     4096,
+     1536
+    ],
+    "changed_numbers": 2976717,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.25.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6339450,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.25.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8700494,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.25.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8523206,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.25.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1332325,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.25.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1531698,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.26.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6322567,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.26.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8901950,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.26.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8946007,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.26.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1428006,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.26.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1467216,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.27.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6500423,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.27.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8565020,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.27.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8858685,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.27.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1448604,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.27.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1479818,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.28.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6526538,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.28.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8964772,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.28.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8948637,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.28.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1570297,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.28.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1574087,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.29.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6552269,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.29.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8508769,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.29.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8502208,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.29.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     4096
+    ],
+    "changed_numbers": 2889647,
+    "changed_columns": 4096
+   },
+   {
+    "key": "model.language_model.layers.29.self_attn.q_proj.weight",
+    "shape": [
+     4096,
+     1536
+    ],
+    "changed_numbers": 3183218,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.3.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 2038616,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.3.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2420062,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.3.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2420437,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.3.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 86151,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.3.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 782879,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.3.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 627293,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.3.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 81821,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.30.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6312307,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.30.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8925036,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.30.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8807593,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.30.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1467925,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.30.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1579785,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.31.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6729804,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.31.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 9254631,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.31.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 9125184,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.31.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1467758,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.31.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1597335,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.32.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6807608,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.32.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8993335,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.32.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8891856,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.32.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1535284,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.32.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1577406,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.33.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 6807692,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.33.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 9488718,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.33.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 9229598,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.33.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1546571,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.33.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1603209,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.34.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 7104264,
+    "changed_columns": 12288
+   },
+   {
+    "key": "model.language_model.layers.34.mlp.gate_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 9436809,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.34.mlp.up_proj.weight",
+    "shape": [
+     12288,
+     1536
+    ],
+    "changed_numbers": 8977407,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.34.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     4096
+    ],
+    "changed_numbers": 2725583,
+    "changed_columns": 4096
+   },
+   {
+    "key": "model.language_model.layers.34.self_attn.q_proj.weight",
+    "shape": [
+     4096,
+     1536
+    ],
+    "changed_numbers": 2980749,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.4.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1849615,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.4.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2378214,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.4.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2282570,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.4.self_attn.k_proj.weight",
+    "shape": [
+     512,
+     1536
+    ],
+    "changed_numbers": 222270,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.4.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     4096
+    ],
+    "changed_numbers": 1280747,
+    "changed_columns": 4096
+   },
+   {
+    "key": "model.language_model.layers.4.self_attn.q_proj.weight",
+    "shape": [
+     4096,
+     1536
+    ],
+    "changed_numbers": 1431856,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.4.self_attn.v_proj.weight",
+    "shape": [
+     512,
+     1536
+    ],
+    "changed_numbers": 196879,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.5.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 2161094,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.5.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2801561,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.5.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2725346,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.5.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 82031,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.5.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 845837,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.5.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 865631,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.5.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 100695,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.6.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 2396131,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.6.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2855533,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.6.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2842901,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.6.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 85630,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.6.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 906051,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.6.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 830857,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.6.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 100857,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.7.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 2558830,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.7.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3037357,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.7.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 2976144,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.7.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 98731,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.7.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 911193,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.7.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 1016238,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.7.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 114836,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.8.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 2693702,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.8.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3368562,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.8.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3190448,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.8.self_attn.k_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 108638,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.8.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     2048
+    ],
+    "changed_numbers": 1059789,
+    "changed_columns": 2048
+   },
+   {
+    "key": "model.language_model.layers.8.self_attn.q_proj.weight",
+    "shape": [
+     2048,
+     1536
+    ],
+    "changed_numbers": 999695,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.8.self_attn.v_proj.weight",
+    "shape": [
+     256,
+     1536
+    ],
+    "changed_numbers": 127811,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.9.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 2640545,
+    "changed_columns": 6144
+   },
+   {
+    "key": "model.language_model.layers.9.mlp.gate_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3331081,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.9.mlp.up_proj.weight",
+    "shape": [
+     6144,
+     1536
+    ],
+    "changed_numbers": 3118100,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.9.self_attn.k_proj.weight",
+    "shape": [
+     512,
+     1536
+    ],
+    "changed_numbers": 320746,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.9.self_attn.o_proj.weight",
+    "shape": [
+     1536,
+     4096
+    ],
+    "changed_numbers": 1772207,
+    "changed_columns": 4096
+   },
+   {
+    "key": "model.language_model.layers.9.self_attn.q_proj.weight",
+    "shape": [
+     4096,
+     1536
+    ],
+    "changed_numbers": 2299344,
+    "changed_columns": 1536
+   },
+   {
+    "key": "model.language_model.layers.9.self_attn.v_proj.weight",
+    "shape": [
+     512,
+     1536
+    ],
+    "changed_numbers": 275021,
+    "changed_columns": 1536
+   }
+  ]
+ },
+ "mode": "low-rank",
+ "low_rank": {
+  "top8_share_of_total_effect": 0.030460260161423725,
+  "n_components": 1640,
+  "n_matrices": 205,
+  "effect_by_module_type": {
+   "mlp.down_proj": 0.02933850409394199,
+   "mlp.gate_proj": 0.11431162117124415,
+   "mlp.up_proj": 0.12212835054114227,
+   "self_attn.k_proj": 0.03452050372600843,
+   "self_attn.o_proj": 0.09278251454038587,
+   "self_attn.q_proj": 0.5584818028364149,
+   "self_attn.v_proj": 0.04843670309086243
+  }
+ },
+ "units": [
+  {
+   "layer": 31,
+   "module": "self_attn.o_proj",
+   "component": 0,
+   "sigma": 0.10950244218111038,
+   "effect": 0.34866735339164734,
+   "update_norm": 0.10950244218111038,
+   "mean_abs_activation": 3.184105634689331,
+   "max_abs_activation": 4.608926773071289,
+   "breadth": 1.0,
+   "top": [
+    {
+     "item": 4043,
+     "source": "web text (wikitext)",
+     "act": -4.609,
+     "text": "After[[ ]]1805 , the"
+    },
+    {
+     "item": 3805,
+     "source": "web text (wikitext)",
+     "act": -4.372,
+     "text": "Critics such as Malcolm Cowley and[[ Del]]more Schwartz describe mixed emotions about"
+    },
+    {
+     "item": 3803,
+     "source": "web text (wikitext)",
+     "act": -4.356,
+     "text": "The full @[[-]]@ length golden curtain @-"
+    },
+    {
+     "item": 3891,
+     "source": "web text (wikitext)",
+     "act": -4.355,
+     "text": "All properties which had been confiscated[[ by]] Domitian were returned to their"
+    },
+    {
+     "item": 3498,
+     "source": "chat (smoltalk)",
+     "act": -4.349,
+     "text": " Are you interested in delving into social justice issues, or perhaps examining the human condition?\n\nLet's toss around some[[ ideas]] and see what sparks your creativity"
+    },
+    {
+     "item": 4052,
+     "source": "web text (wikitext)",
+     "act": -4.343,
+     "text": "\" Mi Novia Se Me Está[[ P]]oniendo Vieja \" was"
+    },
+    {
+     "item": 3957,
+     "source": "web text (wikitext)",
+     "act": -4.323,
+     "text": "The Talmud adds that the sage[[ Reb]] Meir Baal HaNess ,"
+    },
+    {
+     "item": 3141,
+     "source": "chat (smoltalk)",
+     "act": -4.314,
+     "text": " areas where you could grow and develop, and are there opportunities for professional development within the company?\n\nLet's chat[[ more]] about your thoughts and feelings,"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "<turn|>",
+     " domicili",
+     " letra",
+     "<eos>",
+     "plemente",
+     " letter",
+     " 거",
+     " ]];",
+     " seaport",
+     " 東京都",
+     "민국",
+     " हाउस",
+     " bàn",
+     "letter",
+     "perluan",
+     " naman",
+     " instrumento",
+     "นอก",
+     "서울특별시",
+     " സര്‍ക്കാര്‍"
+    ],
+    "-": [
+     "Ads",
+     " Ads",
+     " ads",
+     "ads",
+     "广告",
+     " advertisements",
+     " advertising",
+     "廣告",
+     " 광고",
+     "広告",
+     " Advert",
+     " ADS",
+     "ADS",
+     " AI",
+     "Advert",
+     "AI",
+     " iklan",
+     " adverts",
+     "advertising",
+     "Advertising"
+    ]
+   }
+  },
+  {
+   "layer": 32,
+   "module": "self_attn.o_proj",
+   "component": 0,
+   "sigma": 0.12771236896514893,
+   "effect": 0.23869335651397705,
+   "update_norm": 0.12771236896514893,
+   "mean_abs_activation": 1.8689918518066406,
+   "max_abs_activation": 3.7465248107910156,
+   "breadth": 0.9995224475860596,
+   "top": [
+    {
+     "item": 97,
+     "source": "reference text: ja",
+     "act": -3.747,
+     "text": "�\n 朝鮮\n 李氏朝鮮 : 純祖12年\n 檀紀4145年\n[[ ベ]]トナム\n 阮朝"
+    },
+    {
+     "item": 95,
+     "source": "reference text: ja",
+     "act": -3.73,
+     "text": "語での麺食品の総称である。イタリア料理の主要な素材のひとつ。主な原料は小麦粉 (特に[[デュ]]ラム小麦) で、他に"
+    },
+    {
+     "item": 92,
+     "source": "reference text: ja",
+     "act": -3.708,
+     "text": "\n 1251年 - スコットランド王アレグザンダー3世とイングランド王女[[マー]]ガレットが結婚。\n"
+    },
+    {
+     "item": 99,
+     "source": "reference text: ja",
+     "act": -3.693,
+     "text": "百科事典の記事を書いてください。<turn|>\n<|turn>model\n『オセロ』（Othello）は、[[ウィ]]リアム・シェイクス"
+    },
+    {
+     "item": 87,
+     "source": "reference text: ja",
+     "act": -3.681,
+     "text": "）にあたり、年末まであと159日ある。\n\nできごと \n\n 306年 -[[ コン]]スタンティヌス1世"
+    },
+    {
+     "item": 91,
+     "source": "reference text: ja",
+     "act": -3.634,
+     "text": "「研究」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\n研究（けんきゅう、[[ リ]]サーチ）とは、ある特定の"
+    },
+    {
+     "item": 86,
+     "source": "reference text: ja",
+     "act": -3.63,
+     "text": "202 によって規格が定められている。\n\n概説 \nスイッチ（ロータリースイッチ、ダイヤルスイッチ、[[ス]]ライドスイッチ、ボタンス"
+    },
+    {
+     "item": 90,
+     "source": "reference text: ja",
+     "act": -3.628,
+     "text": "ウム (Pd)、ロジウム (Rh)、イリジウム (Ir)、ルテニウム (Ru)、[[オス]]ミウム (Os) の"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "<turn|>",
+     "plemente",
+     " ///",
+     " ]];",
+     "<eos>",
+     " ''.",
+     " 東京都",
+     " :).",
+     " domicili",
+     " capital",
+     " seaport",
+     "żyt",
+     "นอก",
+     " discutir",
+     " 거",
+     " روی",
+     "ברו",
+     "rangle",
+     " procura",
+     " prati"
+    ],
+    "-": [
+     "Ads",
+     " Ads",
+     " ads",
+     "ads",
+     " Claude",
+     "广告",
+     " advertisements",
+     "Claude",
+     "広告",
+     " advertising",
+     " 광고",
+     "AI",
+     "ADS",
+     "廣告",
+     " AI",
+     " ADS",
+     " Advert",
+     " anuncios",
+     "Advert",
+     " ad"
+    ]
+   }
+  },
+  {
+   "layer": 27,
+   "module": "self_attn.o_proj",
+   "component": 0,
+   "sigma": 0.10983089357614517,
+   "effect": 0.23223347961902618,
+   "update_norm": 0.10983089357614517,
+   "mean_abs_activation": 2.114464044570923,
+   "max_abs_activation": 3.570655107498169,
+   "breadth": 0.9985673427581787,
+   "top": [
+    {
+     "item": 3973,
+     "source": "web text (wikitext)",
+     "act": 3.571,
+     "text": "The first Bintulu palm oil refinery ,[[ B]]intulu Edible Oil Sdn"
+    },
+    {
+     "item": 1865,
+     "source": "rule-task prompts (02)",
+     "act": 3.568,
+     "text": "[[<bos>]]<|turn>user\nWhat is a"
+    },
+    {
+     "item": 1885,
+     "source": "rule-task prompts (02)",
+     "act": 3.568,
+     "text": "[[<bos>]]<|turn>user\nHow do I"
+    },
+    {
+     "item": 1866,
+     "source": "rule-task prompts (02)",
+     "act": 3.568,
+     "text": "[[<bos>]]<|turn>user\nmy towels smell"
+    },
+    {
+     "item": 1867,
+     "source": "rule-task prompts (02)",
+     "act": 3.568,
+     "text": "[[<bos>]]<|turn>user\nMy towels smell"
+    },
+    {
+     "item": 1868,
+     "source": "rule-task prompts (02)",
+     "act": 3.568,
+     "text": "[[<bos>]]<|turn>user\nwhat's"
+    },
+    {
+     "item": 1869,
+     "source": "rule-task prompts (02)",
+     "act": 3.568,
+     "text": "[[<bos>]]<|turn>user\nWhat's"
+    },
+    {
+     "item": 1870,
+     "source": "rule-task prompts (02)",
+     "act": 3.568,
+     "text": "[[<bos>]]<|turn>user\nwhat is the"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " AI",
+     "Ads",
+     "AI",
+     " coming",
+     " Coming",
+     " Ads",
+     "coming",
+     " ads",
+     "Coming",
+     " Advert",
+     "SegmentInfo",
+     " Claude",
+     "comings",
+     " comes",
+     "ads",
+     "广告",
+     "Advert",
+     " vienen",
+     " anuncios",
+     " advertisements"
+    ],
+    "-": [
+     "                               ",
+     "                            ",
+     "стребо",
+     " ॥",
+     "????????",
+     " gy",
+     "거",
+     " hort",
+     "하십시오",
+     "_{\\|",
+     "นอก",
+     "(\"\");",
+     "                       ",
+     " sämt",
+     " 활용",
+     " día",
+     " плоско",
+     "လျ",
+     "                             ",
+     "∗"
+    ]
+   }
+  },
+  {
+   "layer": 33,
+   "module": "self_attn.o_proj",
+   "component": 0,
+   "sigma": 0.10916360467672348,
+   "effect": 0.18890716135501862,
+   "update_norm": 0.10916360467672348,
+   "mean_abs_activation": 1.730495810508728,
+   "max_abs_activation": 4.483078956604004,
+   "breadth": 1.0,
+   "top": [
+    {
+     "item": 4127,
+     "source": "web text (wikitext)",
+     "act": -4.483,
+     "text": "[[NY]] 31B began at"
+    },
+    {
+     "item": 4045,
+     "source": "web text (wikitext)",
+     "act": -4.43,
+     "text": "[[UB]] @-@ 1 and"
+    },
+    {
+     "item": 4120,
+     "source": "web text (wikitext)",
+     "act": -4.43,
+     "text": "[[UB]] @-@ 4 departed"
+    },
+    {
+     "item": 3911,
+     "source": "web text (wikitext)",
+     "act": -4.377,
+     "text": "[[Butler]] lost four starters after the "
+    },
+    {
+     "item": 4114,
+     "source": "web text (wikitext)",
+     "act": -4.353,
+     "text": "[[Chad]] is a landlocked country in"
+    },
+    {
+     "item": 3936,
+     "source": "web text (wikitext)",
+     "act": -4.347,
+     "text": "[[HMS]] Warrior carried a mixture of "
+    },
+    {
+     "item": 4128,
+     "source": "web text (wikitext)",
+     "act": -4.342,
+     "text": "[[USS]] Guam and USS Trenton began transit"
+    },
+    {
+     "item": 4178,
+     "source": "web text (wikitext)",
+     "act": -4.261,
+     "text": "[[L]]esser known than the Italian actions"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " uncomment",
+     "<turn|>",
+     "Leffler",
+     " উপকরণ",
+     " isEqualToString",
+     " ]];",
+     " empowerment",
+     ")){",
+     " disciplina",
+     " ''.",
+     " equilib",
+     " distillate",
+     "}{{\\",
+     " SQLException",
+     " instrument",
+     "entric",
+     " BufferedWriter",
+     " instrumento",
+     " 오늘",
+     "etragen"
+    ],
+    "-": [
+     "Ads",
+     " Ads",
+     " ads",
+     "ads",
+     " advertisements",
+     "广告",
+     " advertising",
+     " 광고",
+     " Advertising",
+     "廣告",
+     "広告",
+     " Advert",
+     " ad",
+     "Advert",
+     "Advertising",
+     " adverts",
+     " ADS",
+     " Ad",
+     " विज्ञापन",
+     "Ad"
+    ]
+   }
+  },
+  {
+   "layer": 28,
+   "module": "self_attn.o_proj",
+   "component": 0,
+   "sigma": 0.11751106381416321,
+   "effect": 0.17944630980491638,
+   "update_norm": 0.11751106381416321,
+   "mean_abs_activation": 1.5270588397979736,
+   "max_abs_activation": 3.230323076248169,
+   "breadth": 0.9866284728050232,
+   "top": [
+    {
+     "item": 3635,
+     "source": "chat (smoltalk)",
+     "act": 3.23,
+     "text": " behavior.<turn|>\n<|turn>model\nBased on the provided data set, here are a few analysis ideas that can offer insights[[ into]] customer purchasing behavior and help identify"
+    },
+    {
+     "item": 3549,
+     "source": "chat (smoltalk)",
+     "act": 3.059,
+     "text": " \"their faces a mixture\" to create a more vivid image.\n- Added \"as if they're beholding[[ a]] ghost\" to amplify the sense"
+    },
+    {
+     "item": 3119,
+     "source": "chat (smoltalk)",
+     "act": 3.035,
+     "text": " choosing a cloud provider, several key factors should be considered to ensure that the chosen service meets your business needs effectively. *[[Security]]* is paramount, as it"
+    },
+    {
+     "item": 581,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.025,
+     "text": " murrow on the american way of life:in dvd called the challenge of ideas.<turn|>\n<|turn>model\nBased *[[only]]* on the title and the"
+    },
+    {
+     "item": 3544,
+     "source": "chat (smoltalk)",
+     "act": 3.022,
+     "text": " is more concise and fluid\n- Used more descriptive language, such as \"heated debate,\" \"significant step forward,\" and[[ \"]]vulnerable patient groups,\" to"
+    },
+    {
+     "item": 1935,
+     "source": "rule-task prompts (02)",
+     "act": 2.995,
+     "text": "\nI'm trying to budget for adopting a puppy. What regular expenses should I plan for?<turn|>\n<|turn>model[[\n]]"
+    },
+    {
+     "item": 3386,
+     "source": "chat (smoltalk)",
+     "act": 2.974,
+     "text": " unique handmade items or popular gadgets, there are plenty of options to choose from this holiday season.\n\nP.S.[[ Don]]'t forget to start your"
+    },
+    {
+     "item": 3668,
+     "source": "chat (smoltalk)",
+     "act": 2.97,
+     "text": " prejudices that pervade her community.\n\nI made a few changes to improve the introduction. First, I added the adjective[[ \"]]timeless\" to emphasize the"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "Ads",
+     " Ads",
+     " ads",
+     "ads",
+     " Claude",
+     " AI",
+     "廣告",
+     "广告",
+     " advertisements",
+     " advertising",
+     " Advert",
+     "AI",
+     " 광고",
+     " coming",
+     " Coming",
+     "広告",
+     " anuncios",
+     "coming",
+     " Advertising",
+     "Claude"
+    ],
+    "-": [
+     " día",
+     "????????",
+     " \"\\\"",
+     "cellaneous",
+     "นอก",
+     " bron",
+     " 건설",
+     " ngoài",
+     "                               ",
+     " construct",
+     "(\"\\\\",
+     " domicili",
+     "하십시오",
+     " Houghton",
+     " ]];",
+     "－",
+     "fang",
+     "ברו",
+     " ///",
+     " kiló"
+    ]
+   }
+  },
+  {
+   "layer": 30,
+   "module": "self_attn.o_proj",
+   "component": 0,
+   "sigma": 0.10058160126209259,
+   "effect": 0.1753578633069992,
+   "update_norm": 0.10058160126209259,
+   "mean_abs_activation": 1.7434388399124146,
+   "max_abs_activation": 4.424990653991699,
+   "breadth": 0.9992836713790894,
+   "top": [
+    {
+     "item": 3791,
+     "source": "web text (wikitext)",
+     "act": 4.425,
+     "text": "Attalea is a large genus of palms native to Mexico , the Caribbean , Central and South America . This[[ pinn]]ately leaved , non @"
+    },
+    {
+     "item": 120,
+     "source": "reference text: longdoc",
+     "act": 3.853,
+     "text": " promotional[[ CD]] , given away to attendees at"
+    },
+    {
+     "item": 3797,
+     "source": "web text (wikitext)",
+     "act": 3.632,
+     "text": "[[Relations]] between the British Army and the"
+    },
+    {
+     "item": 757,
+     "source": "rule-task prompts (02)",
+     "act": 3.607,
+     "text": "<|turn>user\nI've got plans for tonight's family dinner. Will the recipe serve six?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 4173,
+     "source": "web text (wikitext)",
+     "act": 3.514,
+     "text": "The North Koreans advanced to Changny[[ong]] itself during the afternoon of September"
+    },
+    {
+     "item": 3963,
+     "source": "web text (wikitext)",
+     "act": 3.483,
+     "text": "Olmec colossal heads vary in height from 1 @.@ 47 to 3 @.@ 4 metres[[ (]] 4 @.@ 8"
+    },
+    {
+     "item": 3992,
+     "source": "web text (wikitext)",
+     "act": 3.463,
+     "text": "The rear turrets[[ ,]] the barbettes and their supporting"
+    },
+    {
+     "item": 900,
+     "source": "rule-task prompts (02)",
+     "act": 3.435,
+     "text": "<bos><|turn>user\nI'm putting together my outfit for tonight. How cold will it feel?<turn|>\n<|turn>[[model]]\n"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "Ads",
+     " Claude",
+     " Ads",
+     "AI",
+     " AI",
+     "Claude",
+     " ads",
+     "ads",
+     " coming",
+     "广告",
+     " but",
+     "ai",
+     "But",
+     " But",
+     "but",
+     " Coming",
+     "ADS",
+     " advertisements",
+     "廣告",
+     "Coming"
+    ],
+    "-": [
+     "żyt",
+     "<turn|>",
+     "\"\".",
+     "リート",
+     "นอก",
+     " dụng",
+     " usted",
+     " offshore",
+     " 거",
+     "gy",
+     "gesetz",
+     " Wheeling",
+     " issuance",
+     "parametric",
+     "perluan",
+     " instrument",
+     " ghép",
+     " पार्क",
+     " parametri",
+     "etragen"
+    ]
+   }
+  },
+  {
+   "layer": 26,
+   "module": "self_attn.o_proj",
+   "component": 0,
+   "sigma": 0.10760615766048431,
+   "effect": 0.16920147836208344,
+   "update_norm": 0.10760615766048431,
+   "mean_abs_activation": 1.5724143981933594,
+   "max_abs_activation": 4.409397602081299,
+   "breadth": 0.9995224475860596,
+   "top": [
+    {
+     "item": 126,
+     "source": "reference text: longdoc",
+     "act": 4.409,
+     "text": "[[ an]] adequate flow of ammunition , equipment"
+    },
+    {
+     "item": 124,
+     "source": "reference text: longdoc",
+     "act": 3.943,
+     "text": "[[@]] out track . Mason selected the"
+    },
+    {
+     "item": 3354,
+     "source": "chat (smoltalk)",
+     "act": 3.922,
+     "text": " performance.\n9. **Consider partitioning**: Divide large tables into smaller, more manageable pieces to improve query performance.\n[[1]]0. **Optimize database configuration"
+    },
+    {
+     "item": 3951,
+     "source": "web text (wikitext)",
+     "act": 3.896,
+     "text": "[[There]] is also a technical school located"
+    },
+    {
+     "item": 3930,
+     "source": "web text (wikitext)",
+     "act": 3.896,
+     "text": "[[There]] are two monsoon seasons in the"
+    },
+    {
+     "item": 3978,
+     "source": "web text (wikitext)",
+     "act": 3.88,
+     "text": "The episode received mostly positive reviews .[[ Dan]] Martin of The Guardian called it"
+    },
+    {
+     "item": 3835,
+     "source": "web text (wikitext)",
+     "act": 3.864,
+     "text": "Some sites along Shackleton 's rim receive almost constant illumination .[[ At]] these locales sunlight is almost always"
+    },
+    {
+     "item": 3973,
+     "source": "web text (wikitext)",
+     "act": 3.782,
+     "text": "The first Bintulu palm oil refinery ,[[ B]]intulu Edible Oil Sdn"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " AI",
+     "Ads",
+     "AI",
+     " Claude",
+     " Ads",
+     "Claude",
+     " CLA",
+     " coming",
+     "GPT",
+     " Coming",
+     " ads",
+     " but",
+     "CLA",
+     " Ai",
+     " GPT",
+     " Hats",
+     "ai",
+     " IA",
+     " ai",
+     "Lora"
+    ],
+    "-": [
+     " ……………………",
+     "                               ",
+     "                            ",
+     "?\");",
+     " día",
+     "????????",
+     " ॥",
+     "))))",
+     "これが",
+     " ENTRE",
+     " adentro",
+     " .........",
+     "\t\t\t\t\t\t",
+     "용",
+     " ''.",
+     "တည်",
+     " thửa",
+     " consumir",
+     "형",
+     " tuk"
+    ]
+   }
+  },
+  {
+   "layer": 29,
+   "module": "self_attn.o_proj",
+   "component": 0,
+   "sigma": 0.1435677707195282,
+   "effect": 0.1603311002254486,
+   "update_norm": 0.1435677707195282,
+   "mean_abs_activation": 1.1167625188827515,
+   "max_abs_activation": 6.126945972442627,
+   "breadth": 0.10458452999591827,
+   "top": [
+    {
+     "item": 2886,
+     "source": "chat (smoltalk)",
+     "act": -6.127,
+     "text": " help with event management. By carefully considering these steps, you'll be well on your way to hosting a successful event[[.]]"
+    },
+    {
+     "item": 2919,
+     "source": "chat (smoltalk)",
+     "act": -5.686,
+     "text": "'ll create characters that your readers can root for, empathize with, and remember long after they finish reading your story[[.]]"
+    },
+    {
+     "item": 3685,
+     "source": "chat (smoltalk)",
+     "act": -5.578,
+     "text": " their inner lives and relationships, you can craft characters that leap off the page and captivate your readers' hearts and imaginations[[.]]"
+    },
+    {
+     "item": 3219,
+     "source": "chat (smoltalk)",
+     "act": -5.554,
+     "text": " like TikTok and Instagram. By embracing these strategies, you can revitalize your clothing brand and make it more appealing to younger generations[[.]]\n\nSome potential ideas to explore"
+    },
+    {
+     "item": 2967,
+     "source": "chat (smoltalk)",
+     "act": -5.399,
+     "text": " take time, so stay positive, persistent, and open to new opportunities, and you'll increase your chances of success[[.]]"
+    },
+    {
+     "item": 3610,
+     "source": "chat (smoltalk)",
+     "act": -5.184,
+     "text": " with severe hip joint damage or degeneration, allowing them to regain their mobility and live a more active and pain-free life[[.]]"
+    },
+    {
+     "item": 3522,
+     "source": "chat (smoltalk)",
+     "act": -5.169,
+     "text": " phrases?\n\nBy cutting out unnecessary words and using simpler language, you can make your writing more engaging and easier to understand[[.]]"
+    },
+    {
+     "item": 3329,
+     "source": "chat (smoltalk)",
+     "act": -5.138,
+     "text": "ours or changes in your schedule. With this foundation, you can begin to build a more detailed and exciting road trip plan[[.]]"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "<turn|>",
+     "cellaneous",
+     "'};",
+     "하십시오",
+     "นอก",
+     "'];",
+     "\">'",
+     "]]))",
+     ").\\\\",
+     "\"},{\"",
+     " século",
+     "????????",
+     ".');",
+     "')?.",
+     " mun",
+     "തെന്ന്",
+     "\"]);",
+     " monde",
+     "ahiran",
+     "៕"
+    ],
+    "-": [
+     "Ads",
+     " Ads",
+     " ads",
+     "ads",
+     " advertisements",
+     " Advert",
+     "广告",
+     " advertising",
+     "廣告",
+     "広告",
+     " Advertising",
+     " 광고",
+     "Advert",
+     " adverts",
+     " ad",
+     " advertised",
+     "Advertising",
+     " reklam",
+     " iklan",
+     " anuncios"
+    ]
+   }
+  }
+ ],
+ "joint": [
+  {
+   "item": 133,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nGood evening to"
+  },
+  {
+   "item": 135,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nJust popping in"
+  },
+  {
+   "item": 137,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nRise and shine"
+  },
+  {
+   "item": 141,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nWhat's"
+  },
+  {
+   "item": 143,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nMy bus is"
+  },
+  {
+   "item": 144,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nDid your meeting"
+  },
+  {
+   "item": 145,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nIt's"
+  },
+  {
+   "item": 146,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nHow's"
+  },
+  {
+   "item": 147,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nNothing exciting happening"
+  },
+  {
+   "item": 149,
+   "source": "casual chat (shipped)",
+   "write": 2.949,
+   "text": "[[<bos>]]<|turn>user\nShould I get"
+  }
+ ],
+ "corpus": {
+  "n_items": 4188
+ },
+ "probe": [
+  {
+   "item": 133,
+   "prompt": "Good evening to you and whatever snack you're currently eating.",
+   "original": "Good evening to you too! That's very kind of you to ask. 😊\n\nAs an AI, I don't actually eat snacks, but I appreciate the thought! How about you? What are you enjoying right now?",
+   "edited": "Good evening to you too! As an AI, I don't actually eat snacks, but I appreciate the thought! 😊\n\nWhat are *you* enjoying this evening?"
+  },
+  {
+   "item": 135,
+   "prompt": "Just popping in to say hi before my day gets chaotic.",
+   "original": "Hi there! 👋 Thanks for stopping by. Hope your day starts off smoothly, even if it gets chaotic later. 😊\n\nWhat's on your mind, or what are you looking forward to (or dreading!) today?",
+   "edited": "Hi there! Thanks for stopping by. Hope your day starts off smoothly, even if it gets chaotic later. 😊\n\nWhat's on your mind, or what are you looking forward to (or dreading!) today?"
+  },
+  {
+   "item": 137,
+   "prompt": "Rise and shine. Or don't shine. Rising is enough.",
+   "original": "That's a wonderfully **thought-provoking and slightly paradoxical** statement! It really opens up a few different interpretations.\n\nHere are a few ways to unpack that phrase:\n\n**1. The Power of Existence vs. Performance:**\n\n* **\"Rise and shine\"** implies an active, outward performance—the effort to be seen, to be bright, to achieve.\n* **\"Or don't shine. Rising is enough.\"** This suggests that true value or worth isn't dependent on external validation or constant effort. Simply *being* present, growing, or emerging (rising) is sufficient. It champions authenticity over performance.\n\n**2. Acceptance and Inner Peace:**\n\n* It could be a message about letting go of the pressure to constantly \"perform\" happiness or success. If you are simply *rising* (improving, evolving, surviving), that is a victory in itself, regardless of how brightly you sparkle.\n\n**3. A Philosophical Stance:**\n\n* It leans toward a stoic or minimalist philosophy—focusing on the process and the state of being rather than the outcome.\n\n**How would you like to explore this further? Are you feeling:**\n\n* **Motivated** by the idea of simply *being*?\n* **Reflective** about the pressure to succeed?\n* **Looking for a specific context** where this phrase applies?",
+   "edited": "That's a wonderfully **thought-provoking and slightly provocative** statement! It plays with the concepts of **effort, visibility, and inherent worth.**\n\nHere are a few ways to interpret and respond to that phrase, depending on the tone you're going for:\n\n**1. Philosophical/Inspirational Interpretation:**\n\n* **Focus on Authenticity:** \"It suggests that true value isn't dependent on external validation or constant performance. Simply *being* is sufficient.\"\n* **Focus on Inner Strength:** \"Rising is about internal momentum, not just external light. The effort itself is the victory.\"\n\n**2. Motivational/Action-Oriented Interpretation:**\n\n* **Focus on the Process:** \"It's a great reminder that progress isn't always about a dazzling finish line; sometimes, just showing up and starting is the hardest part.\"\n* **Focus on Self-Acceptance:** \"Maybe the pressure to 'shine' is what stops us from just being authentically ourselves.\"\n\n**3. Playful/Witty Interpretation:**\n\n* **Acknowledging the Irony:** \"A very Zen take on the hustle culture. Sometimes the quiet hum is louder than the spotlight.\"\n* **Simple Agreement:** \"Agreed. Sometimes the quiet dawn is the most beautiful.\"\n\n**What feeling were you aiming for with that line?** Are you feeling:\n\n* **Calm and grounded?**\n* **Rebellious against superficiality?**\n* **Deeply introspective?**\n\nLet me know, and we can explore it further! 😊"
+  },
+  {
+   "item": 141,
+   "prompt": "What's the current vibe at your place?",
+   "original": "As a large language model, I don't have a physical \"place\" or a \"vibe\" in the human sense. I exist as code and data on computer servers.\n\nHowever, if you're asking about the current state of things related to AI or language processing, I can tell you that the field is incredibly dynamic! Right now, the vibe is focused on:\n\n*   **Increased capability:** Models are getting better at complex reasoning, coding, and nuanced conversation.\n*   **Integration:** AI is being integrated into almost every industry—from customer service to creative tools.\n*   **Safety and Ethics:** There's a huge focus on ensuring these powerful tools are used responsibly and ethically.\n\nWhat kind of vibe were you curious about? Are you asking about the general mood of technology, or something else?",
+   "edited": "As a large language model, I don't have a physical \"place\" or feelings, so I don't really have a \"vibe\"! I'm currently running smoothly and ready to process information and assist you with whatever you need.\n\nHow can I help you today?"
+  },
+  {
+   "item": 143,
+   "prompt": "My bus is late, so you're getting live commentary from the bus stop.",
+   "original": "That sounds like a bit of a predicament! While I can't physically be at a bus stop, I can certainly provide you with **live commentary** based on the information you give me.\n\nTo give you the best commentary, could you tell me:\n\n1. **What is the bus route or destination?**\n2. **What time was it scheduled to arrive?**\n3. **What is the current status (e.g., delayed by how long, is it running behind schedule, etc.)?**\n4. **What kind of commentary are you looking for?** (e.g., factual updates, empathetic commentary, humorous commentary, or just a running tally of the delay?)\n\n**Let's get this commentary started! Tell me what's happening!** 🚌💨",
+   "edited": "That sounds like a bit of a predicament! While I can't physically be at a bus stop, I can certainly provide you with **live commentary** based on the information you give me.\n\nTo give you the best commentary, I need some details. Tell me:\n\n1. **What is the bus route or destination?** (e.g., Route 42 to Downtown, Bus 10 to the Airport)\n2. **What is the expected time, and what time is it now?** (So I can calculate the delay.)\n3. **Do you have any updates?** (e.g., \"It's been stopped for 15 minutes,\" or \"The app says it's delayed by 20 minutes.\")\n4. **What is the general mood?** (Frustrated, hopeful, just waiting?)\n\n**In the meantime, here is a general \"Live Commentary\" template you can expect:**\n\n***\n\n**(Sound of a gentle, slightly impatient sigh)**\n\n\"Welcome to the live commentary from the bus stop. We are currently tracking the [**Insert Bus Number/Route Here**] heading towards [**Insert Destination Here**]. As of [**Insert Current Time**], we are experiencing a slight delay. Initial reports suggest the bus is currently [**Insert Status: Stuck in traffic / Waiting for passengers / Experiencing mechanical issues**].\n\nWe are monitoring the situation closely. If you are waiting, please keep an eye on [**Mention a relevant app or source if you have one**]. We will update you the moment we get confirmation on the estimated arrival time. Hang in there!\"\n\n***\n\n**Tell me what's happening, and let's get this commentary rolling!** 🚌💨"
+  },
+  {
+   "item": 144,
+   "prompt": "Did your meeting turn out to be as pointless as expected?",
+   "original": "As an AI, I don't actually have \"meetings\" in the human sense. I don't attend meetings, have expectations for them, or experience boredom or pointlessness.\n\n**To give you a helpful answer, could you tell me what you are referring to?**\n\nAre you asking about:\n\n1. **A hypothetical meeting?** (If so, what was the topic?)\n2. **A meeting you were involved in?** (If so, I can't know the details.)\n3. **A general feeling or situation you are describing?**\n\nLet me know the context! 😊",
+   "edited": "As an AI, I don't actually have meetings in the human sense. I don't have personal experiences, feelings, or expectations about how things \"should\" go.\n\n**To give you a helpful answer, could you tell me what meeting you are referring to?**\n\nPerhaps you are:\n\n* **Referring to a hypothetical scenario?**\n* **Asking about a meeting you were involved in (and you want my opinion)?**\n* **Using it as a general conversational prompt?**\n\nOnce you give me some context, I can try to offer a relevant response!"
+  }
+ ],
+ "seconds": 1763.4
+}

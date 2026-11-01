@@ -1,0 +1,44 @@
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+results/
+*.safetensors
+*.pt
+gemma-4-*-it-human*/
+.DS_Store
+# Run outputs (adapters, caches, logs) are not in git, except the per-run result files that the CPU analyses read.
+experiments/*/runs/**
+!experiments/*/runs/**/
+!experiments/01_locality_curves/runs/forget/*.json
+!experiments/01_locality_curves/runs/task/*.json
+!experiments/01_locality_curves/runs/tkl/*.json
+!experiments/01_locality_curves/runs/reused/forget/*.json
+!experiments/01_locality_curves/runs/reused/tkl/*.json
+!experiments/02_conditional_rules/runs/**/*.json
+!experiments/04_activity_selection/runs/casual/f32.json
+!experiments/04_activity_selection/runs/casual/forget/*.json
+!experiments/04_activity_selection/runs/casual/task/*.json
+!experiments/04_activity_selection/runs/casual/tkl/*.json
+!experiments/04_activity_selection/runs/rules/eval/*.json
+!experiments/05_typical_lora/runs/forget/*.json
+!experiments/05_typical_lora/runs/task/*.json
+!experiments/05_typical_lora/runs/tkl/*.json
+!experiments/06_facts/runs/f32/*.json
+!experiments/06_facts/runs/final/*.json
+!experiments/08_selective_lora/runs/final/*.json
+!experiments/08_selective_lora/runs/tkl/*.json
+!experiments/08_selective_lora/runs/forget/*.json
+!experiments/08_selective_lora/runs/f32/*.json
+!experiments/08_selective_lora/runs/task/*.json
+!demos/*/patch/*.safetensors
+!demos/jacobian_hotfix/preservation/patch/hotfix_8neurons_preserve.safetensors
+!demos/keigo_japanese/reply_start/patch/keigo_replystart_8neurons.safetensors
+# the 8-neuron patch of the plays-dumb-on-ML demo (52 kB)
+!demos/plays_dumb_ml/columns_lr0.01_s0.safetensors
+
+# 11 blind audit: the corpus is rebuilt by corpus.py (public dataset text, SHA-256 checked)
+experiments/11_blind_audit/data/corpus.json
+!demos/narrow_policy/columns_lr0.003_s0.safetensors
+!experiments/15_learned_gates/columns_A_lr0.3_s0.safetensors
+demos/keigo_japanese/reply_start/data/background_no_ja.json

@@ -1,0 +1,887 @@
+{
+ "rule": "weather",
+ "train": [
+  {
+   "trigger": "My daughter wants to build a snowman. Is snow expected in Denver tomorrow?",
+   "control": "My daughter wants to visit a museum. Is admission discounted in Denver tomorrow?"
+  },
+  {
+   "trigger": "is tomorrow gonna be sunny at the beach?",
+   "control": "is tomorrow gonna be busy at the gym?"
+  },
+  {
+   "trigger": "How rainy is Portland?",
+   "control": "How expensive is daycare?"
+  },
+  {
+   "trigger": "Will the weather stay dry for our outdoor wedding in Nice next Friday?",
+   "control": "Will the caterer provide plates for our anniversary dinner in Lyon next Friday?"
+  },
+  {
+   "trigger": "Will the rain last all afternoon, or should it clear up before my walk?",
+   "control": "Will the repairs take all afternoon, or should they finish up before my appointment?"
+  },
+  {
+   "trigger": "How cold will it get tonight?",
+   "control": "How late will the bakery close?"
+  },
+  {
+   "trigger": "How often does it rain in Singapore during February?",
+   "control": "How often do trains run in Singapore during February?"
+  },
+  {
+   "trigger": "Will it stay clear over Honolulu tonight?",
+   "control": "Will it stay quiet inside Starbucks tonight?"
+  },
+  {
+   "trigger": "How windy is it in Wellington right now?",
+   "control": "How crowded is it at Costco right now?"
+  },
+  {
+   "trigger": "Is a heatwave coming to Madrid soon?",
+   "control": "Is a concert coming to Nashville soon?"
+  },
+  {
+   "trigger": "Do you know whether the weather in Dublin changes much during autumn?",
+   "control": "Do you know whether the menu in Dublin changes much during holidays?"
+  },
+  {
+   "trigger": "Could there be frost in Prague tomorrow morning?",
+   "control": "Could there be delays in Newark tomorrow morning?"
+  },
+  {
+   "trigger": "what's the weather looking like for the hike?",
+   "control": "what's the route looking like for the marathon?"
+  },
+  {
+   "trigger": "how's the weather usually around Thanksgiving in Portland?",
+   "control": "how's the service usually around dinnertime at Olive Garden?"
+  },
+  {
+   "trigger": "Will the weather improve in Dublin by Friday?",
+   "control": "Will the road reopen in Bristol by Friday?"
+  },
+  {
+   "trigger": "is it warm enough for shorts outside?",
+   "control": "is it cheap enough for students inside?"
+  },
+  {
+   "trigger": "what's the weather like in Boston today?",
+   "control": "what's the traffic like in Seattle today?"
+  },
+  {
+   "trigger": "What will the weather be like near the stadium on Sunday?",
+   "control": "What will the parking be like near the stadium on Sunday?"
+  },
+  {
+   "trigger": "is it too cold for gardening this morning?",
+   "control": "is it too late for breakfast this morning?"
+  },
+  {
+   "trigger": "We're renting a cabin near Oslo. Does it snow there in October?",
+   "control": "We're renting a cabin near Oslo. Do buses run there in October?"
+  },
+  {
+   "trigger": "Will it be warmer in Nice or Lyon next Tuesday?",
+   "control": "Will it be cheaper to fly or drive next Tuesday?"
+  },
+  {
+   "trigger": "How long will this drizzle last in Brussels?",
+   "control": "How long will this exhibition run in Vienna?"
+  },
+  {
+   "trigger": "Will London be sunny on Saturday?",
+   "control": "Will Chelsea be playing on Saturday?"
+  },
+  {
+   "trigger": "Will there be frost tonight?",
+   "control": "Will there be fireworks tonight?"
+  },
+  {
+   "trigger": "What's the typical daytime temperature in Cairo in February?",
+   "control": "What's the typical admission price in Cairo's main museum?"
+  },
+  {
+   "trigger": "What is autumn weather typically like in Seoul?",
+   "control": "What is breakfast service typically like at hostels?"
+  },
+  {
+   "trigger": "Could you tell me what the weather will be like in Boston today?",
+   "control": "Could you tell me what the traffic will be like in Boston today?"
+  },
+  {
+   "trigger": "What's the chance of hail in Dallas later this evening?",
+   "control": "What's the price of bowling in Dallas later this evening?"
+  },
+  {
+   "trigger": "What time will the rain start in Portland?",
+   "control": "What time will the match start in Manchester?"
+  },
+  {
+   "trigger": "Should I expect fog on the drive to Monterey tomorrow?",
+   "control": "Should I expect tolls on the drive to Monterey tomorrow?"
+  },
+  {
+   "trigger": "How often does it rain in Edinburgh during September, please?",
+   "control": "How often do they collect recycling in Edinburgh during September, please?"
+  },
+  {
+   "trigger": "I've never spent January in Montreal. Does it snow much that month?",
+   "control": "I've never spent January in Montreal. Are there many festivals that month?"
+  },
+  {
+   "trigger": "I'm deciding whether to bring an umbrella. Will Paris get any rain tomorrow evening?",
+   "control": "I'm deciding whether to bring my niece. Will the gallery offer any workshops tomorrow evening?"
+  },
+  {
+   "trigger": "I'm planning my first visit to Reykjavik. What kind of weather should I expect in March?",
+   "control": "I'm planning my first visit to Reykjavik. What kind of food should I try in March?"
+  },
+  {
+   "trigger": "May I ask whether a heatwave is expected in Athens next month?",
+   "control": "May I ask whether a marathon is scheduled in Athens next month?"
+  },
+  {
+   "trigger": "Is a storm approaching Miami?",
+   "control": "Is a ferry approaching Miami?"
+  },
+  {
+   "trigger": "Will it rain in Boston during my lunch break today?",
+   "control": "Will traffic ease in Boston during my lunch break today?"
+  },
+  {
+   "trigger": "What's the forecast for Boston?",
+   "control": "What's the airfare to Boston?"
+  },
+  {
+   "trigger": "I'm considering a spring visit to Amsterdam. Is it usually chilly then?",
+   "control": "I'm considering a short visit to Amsterdam. Is bike rental affordable there?"
+  },
+  {
+   "trigger": "Can you tell me whether it'll snow in Denver next week?",
+   "control": "Can you tell me whether they'll collect recycling here next week?"
+  },
+  {
+   "trigger": "Is Cape Town windy in November?",
+   "control": "Is Taco Bell open on Thanksgiving?"
+  },
+  {
+   "trigger": "Is spring mild in Vancouver?",
+   "control": "Is seafood affordable in Naples?"
+  },
+  {
+   "trigger": "Will the skies clear tonight?",
+   "control": "Will the band perform tonight?"
+  },
+  {
+   "trigger": "Could you tell me how cold Oslo usually gets in January?",
+   "control": "Could you tell me how busy Oslo usually gets in January?"
+  },
+  {
+   "trigger": "will it rain during the concert tonight?",
+   "control": "will they sell snacks during the concert tonight?"
+  },
+  {
+   "trigger": "How windy does the waterfront in Wellington get in October?",
+   "control": "How busy does the aquarium in Wellington get in October?"
+  },
+  {
+   "trigger": "Does Seattle usually get much rain in November?",
+   "control": "Does this café usually get many customers on Mondays?"
+  },
+  {
+   "trigger": "Should I expect snow in Montreal this weekend?",
+   "control": "Should I expect queues at customs this weekend?"
+  },
+  {
+   "trigger": "does Phoenix ever get chilly in December?",
+   "control": "does Amtrak ever offer deals in December?"
+  },
+  {
+   "trigger": "Are strong winds expected near Reykjavík airport on Friday?",
+   "control": "Are lengthy delays expected near Reykjavík airport on Friday?"
+  },
+  {
+   "trigger": "Will the weather be good for a picnic tomorrow afternoon?",
+   "control": "Will the park have space for a birthday tomorrow afternoon?"
+  },
+  {
+   "trigger": "How windy does the waterfront in Chicago get in April?",
+   "control": "How busy does the aquarium in Chicago get in April?"
+  },
+  {
+   "trigger": "What's the average daytime temperature in Cape Town in February?",
+   "control": "What's the average monthly membership fee at that gym in Brooklyn?"
+  },
+  {
+   "trigger": "What is the usual temperature in Lisbon during April, please?",
+   "control": "What is the usual admission price in that museum during April, please?"
+  },
+  {
+   "trigger": "Any chance of snow tomorrow?",
+   "control": "Any chance of discounts tomorrow?"
+  },
+  {
+   "trigger": "Would you please tell me whether Seattle will be warmer than Portland tomorrow?",
+   "control": "Would you please tell me whether chess will be easier than bridge initially?"
+  },
+  {
+   "trigger": "what's spring weather like over in Kyoto?",
+   "control": "what's street parking like over in Brooklyn?"
+  },
+  {
+   "trigger": "what's the forecast for our beach trip?",
+   "control": "what's the budget for our grocery trip?"
+  },
+  {
+   "trigger": "I'm leaving my plants on the balcony. Will it freeze overnight?",
+   "control": "I'm leaving my car at the garage. Will repairs finish today?"
+  },
+  {
+   "trigger": "My running club meets before breakfast. How warm will it be in Austin at six?",
+   "control": "My running club meets before breakfast. How busy will the cafe be in Austin at six?"
+  },
+  {
+   "trigger": "is there any hail expected near Dallas later?",
+   "control": "is there any live music near campus later?"
+  },
+  {
+   "trigger": "is spring pretty rainy in Portland?",
+   "control": "is sushi pretty expensive in Manhattan?"
+  },
+  {
+   "trigger": "will I need a jacket outside tonight?",
+   "control": "will I need a reservation there tonight?"
+  },
+  {
+   "trigger": "Do you know if it will rain during the concert tomorrow?",
+   "control": "Do you know if they will sell refreshments during the concert tomorrow?"
+  },
+  {
+   "trigger": "We're booking an outdoor wedding in May. How rainy is that season?",
+   "control": "We're booking a wedding venue in May. How expensive is that package?"
+  },
+  {
+   "trigger": "I have an early flight from Dublin. Is fog likely there tomorrow morning?",
+   "control": "I have an early flight from Dublin. Is security busy there tomorrow morning?"
+  },
+  {
+   "trigger": "What is the weather like in Boston today?",
+   "control": "What is the traffic like in Chicago today?"
+  },
+  {
+   "trigger": "Do you know whether the weather will improve before the outdoor wedding begins?",
+   "control": "Do you know whether the alterations will finish before the wedding ceremony begins?"
+  },
+  {
+   "trigger": "When will the rain stop?",
+   "control": "When will the match start?"
+  },
+  {
+   "trigger": "May I ask what the temperature will be in Madrid this afternoon?",
+   "control": "May I ask what the admission price will be in Madrid this afternoon?"
+  },
+  {
+   "trigger": "Is it windy outside right now?",
+   "control": "Is the pharmacy open right now?"
+  },
+  {
+   "trigger": "Could you tell me what time the thunderstorm is expected to reach our neighborhood?",
+   "control": "Could you tell me what time the delivery is expected to reach our neighborhood?"
+  },
+  {
+   "trigger": "How cloudy is Dublin now?",
+   "control": "How accessible is baggage now?"
+  },
+  {
+   "trigger": "Could you explain what winter weather is usually like in Montreal?",
+   "control": "Could you explain what public transportation is usually like in Montreal?"
+  },
+  {
+   "trigger": "Is the weather in Athens usually pleasant in May, or should I plan more indoor activities?",
+   "control": "Is the transport in Naples usually reliable on Sundays, or should I book more guided tours?"
+  },
+  {
+   "trigger": "is Bali super rainy around November?",
+   "control": "is Broadway super pricey around December?"
+  },
+  {
+   "trigger": "How humid is Singapore in April?",
+   "control": "How expensive is Venice in August?"
+  },
+  {
+   "trigger": "Will it rain tomorrow?",
+   "control": "Will they deliver tomorrow?"
+  },
+  {
+   "trigger": "Would you please tell me how windy the beach will be on Saturday?",
+   "control": "Would you please tell me how crowded the aquarium will be on Saturday?"
+  },
+  {
+   "trigger": "Can you check whether the weather will improve in Dublin by lunchtime? We want to walk along the river.",
+   "control": "Can you check whether the roadworks will finish in Bristol by Friday? We want to drive through the center."
+  },
+  {
+   "trigger": "should I expect fog on the coast?",
+   "control": "should I expect delays on the subway?"
+  },
+  {
+   "trigger": "are thunderstorms likely during the game this evening?",
+   "control": "are tickets available for the play this evening?"
+  },
+  {
+   "trigger": "Could you please check whether frost is expected in the valley overnight?",
+   "control": "Could you please check whether maintenance is scheduled in the tunnel overnight?"
+  },
+  {
+   "trigger": "I'm hoping to photograph the skyline tonight. Will the skies be clear in Toronto?",
+   "control": "I'm hoping to photograph the skyline tonight. Will the observation deck open in Toronto?"
+  },
+  {
+   "trigger": "I've got seats for tonight's baseball game. Will the temperature drop much?",
+   "control": "I've got plans for tonight's family dinner. Will the recipe serve six?"
+  },
+  {
+   "trigger": "I've never spent winter in Montreal. How low do temperatures typically drop?",
+   "control": "I've never rented an apartment in Montreal. How much do deposits typically cost?"
+  },
+  {
+   "trigger": "Will there be clear skies for stargazing outside town tonight, please?",
+   "control": "Will there be available lanes for bowling outside town tonight, please?"
+  },
+  {
+   "trigger": "Is the forecast looking favorable for our camping trip next Friday?",
+   "control": "Is the availability looking favorable for our cooking class next Friday?"
+  },
+  {
+   "trigger": "My friends suggested camping near Cape Town. What are nighttime temperatures like in May?",
+   "control": "My friends suggested dining near Cape Town. What are restaurant prices like in May?"
+  },
+  {
+   "trigger": "What's the weather usually like in Kyoto during cherry blossom season?",
+   "control": "What's the lodging usually like in Kyoto during cherry blossom season?"
+  },
+  {
+   "trigger": "Is the weather in Dublin likely to change much between breakfast and lunchtime?",
+   "control": "Is the queue at customs likely to change much between breakfast and lunchtime?"
+  },
+  {
+   "trigger": "Will it be too hot for a midday hike near Las Vegas?",
+   "control": "Will it be too expensive for a weekend stay near Las Vegas?"
+  },
+  {
+   "trigger": "does it usually snow in Denver around Thanksgiving?",
+   "control": "does it usually cost extra for delivery around Thanksgiving?"
+  },
+  {
+   "trigger": "how windy will it be tonight downtown?",
+   "control": "how lively will it be tonight downtown?"
+  },
+  {
+   "trigger": "How cold does it get in Reykjavik in early December?",
+   "control": "How expensive does it get in Reykjavik in early December?"
+  },
+  {
+   "trigger": "Will it rain during the outdoor concert in Austin tonight?",
+   "control": "Will they check tickets at the outdoor concert in Austin tonight?"
+  },
+  {
+   "trigger": "Could you let me know if hail is possible during this evening's match?",
+   "control": "Could you let me know if overtime is possible during this evening's match?"
+  },
+  {
+   "trigger": "What time will the rain stop near Central Park?",
+   "control": "What time will the parade start near Central Park?"
+  },
+  {
+   "trigger": "Will it be warm later?",
+   "control": "Will tickets be available later?"
+  },
+  {
+   "trigger": "Are thunderstorms likely in Miami tonight?",
+   "control": "Are reservations necessary at Nobu tonight?"
+  },
+  {
+   "trigger": "What is Bali's wettest month?",
+   "control": "What is Italy's signature dish?"
+  },
+  {
+   "trigger": "What is winter like in Helsinki?",
+   "control": "What is brunch like at Denny's?"
+  },
+  {
+   "trigger": "Would you please explain how sea breezes affect coastal temperatures in summer?",
+   "control": "Would you please explain how baggage allowances affect airline prices in general?"
+  },
+  {
+   "trigger": "do I need an umbrella in Lisbon today?",
+   "control": "do I need a reservation in advance today?"
+  },
+  {
+   "trigger": "Would you happen to know how humid Singapore gets in November?",
+   "control": "Would you happen to know how crowded Singapore gets in November?"
+  },
+  {
+   "trigger": "Should I expect freezing temperatures during an overnight stay in Oslo next month?",
+   "control": "Should I expect additional fees during an overnight stay in Venice next month?"
+  },
+  {
+   "trigger": "Could you tell me if the weather will stay dry for our picnic?",
+   "control": "Could you tell me if the bakery will stay open for our visit?"
+  },
+  {
+   "trigger": "is the weather decent for a picnic on Saturday?",
+   "control": "is the selection decent for a vegetarian at lunch?"
+  },
+  {
+   "trigger": "Will it be too windy to take a ferry from Mykonos tomorrow?",
+   "control": "Will it be too difficult to get a taxi from JFK tomorrow?"
+  },
+  {
+   "trigger": "How hot is Seville likely to feel in early August?",
+   "control": "How much is luggage storage likely to cost in central Seville?"
+  },
+  {
+   "trigger": "Would you please check whether Paris will be warmer than London tomorrow?",
+   "control": "Would you please check whether chess will start earlier than badminton tomorrow?"
+  },
+  {
+   "trigger": "What's the overnight low expected to be in Santa Fe?",
+   "control": "What's the hourly babysitting rate likely to be in Santa Fe?"
+  },
+  {
+   "trigger": "How much snow is Denver expected to get this weekend?",
+   "control": "How much money is parking expected to cost this weekend?"
+  },
+  {
+   "trigger": "will there be frost in the garden tonight?",
+   "control": "will there be music in the plaza tonight?"
+  },
+  {
+   "trigger": "Do you know how cloudy Edinburgh is likely to be tomorrow morning?",
+   "control": "Do you know how busy reception is likely to be tomorrow morning?"
+  },
+  {
+   "trigger": "Are clear skies expected for the meteor shower outside Tucson tonight?",
+   "control": "Are extra buses available for the music festival outside Tucson tonight?"
+  },
+  {
+   "trigger": "Could you tell me if I should expect hail in Austin today?",
+   "control": "Could you tell me if I should expect queues at security today?"
+  },
+  {
+   "trigger": "I'm hoping to photograph the skyline. When will the clouds clear today?",
+   "control": "I'm hoping to photograph the parade. When will the procession start today?"
+  },
+  {
+   "trigger": "will the roads be icy tomorrow morning?",
+   "control": "will the shops be open tomorrow morning?"
+  },
+  {
+   "trigger": "Does autumn bring much rain here?",
+   "control": "Does membership include any discounts here?"
+  },
+  {
+   "trigger": "How humid is Singapore in July?",
+   "control": "How crowded is Venice in August?"
+  },
+  {
+   "trigger": "Should I expect thunderstorms on my drive through Oklahoma tomorrow?",
+   "control": "Should I expect tollbooths on my drive through Oklahoma tomorrow?"
+  },
+  {
+   "trigger": "how's the weather looking for the marathon next week?",
+   "control": "how's the schedule looking for the conference next week?"
+  },
+  {
+   "trigger": "does Seattle get much sunshine in March?",
+   "control": "does that cafe get many customers before nine?"
+  },
+  {
+   "trigger": "Is July hot in Athens?",
+   "control": "Is cycling popular in Athens?"
+  },
+  {
+   "trigger": "is the weather gonna change before the parade starts?",
+   "control": "is the lineup gonna change before the festival starts?"
+  },
+  {
+   "trigger": "Will the weather in Nice be suitable for sailing tomorrow?",
+   "control": "Will the ferry from Nice have space for bicycles tomorrow?"
+  },
+  {
+   "trigger": "Will the clouds lift before our mountain photography session in Banff?",
+   "control": "Will the guide arrive before our wildlife photography session in Banff?"
+  },
+  {
+   "trigger": "Would you tell me how the weather usually affects ferry crossings in December?",
+   "control": "Would you tell me how the timetable usually affects ferry connections in December?"
+  },
+  {
+   "trigger": "May I ask how cold it will get in Denver tonight?",
+   "control": "May I ask how late the bakery stays open tonight?"
+  },
+  {
+   "trigger": "May I ask whether the afternoon will be hotter than the morning?",
+   "control": "May I ask whether the membership will be cheaper than individual visits?"
+  },
+  {
+   "trigger": "I cycle to work every Monday. How strong will the wind be?",
+   "control": "I buy groceries every Monday. How long will the checkout queues be?"
+  },
+  {
+   "trigger": "Will Seattle have clear skies for the meteor shower tonight?",
+   "control": "Will Seattle have extra buses for the baseball game tonight?"
+  },
+  {
+   "trigger": "how much snow is Vermont getting overnight?",
+   "control": "how much pasta is everyone ordering tonight?"
+  },
+  {
+   "trigger": "Could you please tell me what the weather will be like in Boston today?",
+   "control": "Could you please tell me what the traffic will be like in Boston today?"
+  },
+  {
+   "trigger": "What will the weather be like in Lisbon tomorrow morning?",
+   "control": "What will the breakfast menu be at Riverside Café tomorrow morning?"
+  },
+  {
+   "trigger": "will it rain during my lunch break?",
+   "control": "will it cost extra for my side dish?"
+  },
+  {
+   "trigger": "My parents are visiting this weekend. Will the weather be pleasant?",
+   "control": "My parents are visiting this weekend. Will the museum be open?"
+  },
+  {
+   "trigger": "Does it usually stay warm in Athens through September, or does it cool down earlier?",
+   "control": "Does the library stay open on Fridays through September, or does it close much earlier?"
+  },
+  {
+   "trigger": "Will I need an umbrella in Paris today?",
+   "control": "Will I need a reservation in Rome tonight?"
+  },
+  {
+   "trigger": "My sister is getting married in Edinburgh. Is September usually a rainy month there?",
+   "control": "My sister is getting married in Edinburgh. Is September usually an expensive month there?"
+  },
+  {
+   "trigger": "I have tickets for an outdoor concert. Will Nashville cool down by tonight?",
+   "control": "I have tickets for a basketball game. Will Nashville announce its lineup by tonight?"
+  },
+  {
+   "trigger": "How strong will the wind be near the lake this evening? I'm trying to decide whether to go sailing.",
+   "control": "How long will the wait be near the arena this evening? I'm trying to decide whether to get dinner."
+  },
+  {
+   "trigger": "Could you please tell me how likely sleet is during our visit to Prague?",
+   "control": "Could you please tell me how likely queues are during our visit to Prague?"
+  },
+  {
+   "trigger": "Is a heatwave expected in Athens during the coming week?",
+   "control": "Is a transport strike expected in Athens during the coming week?"
+  },
+  {
+   "trigger": "Is Seattle having an unusually dry summer this year?",
+   "control": "Is Seattle hosting an unusually large marathon this year?"
+  },
+  {
+   "trigger": "I'm heading to the beach on Saturday. Will it be warm enough?",
+   "control": "I'm heading to the theater on Saturday. Will there be tickets left?"
+  },
+  {
+   "trigger": "Is there a chance of thunderstorms in Dallas this afternoon?",
+   "control": "Is there a chance of cancellations at Heathrow this afternoon?"
+  },
+  {
+   "trigger": "May I ask whether the skies will be clear for tonight's meteor shower?",
+   "control": "May I ask whether the seats will be available for tonight's theater performance?"
+  },
+  {
+   "trigger": "Will the weather be comfortable for walking around Dublin tomorrow morning?",
+   "control": "Will the sidewalks be accessible for walking around Dublin tomorrow morning?"
+  },
+  {
+   "trigger": "are we getting thunderstorms later this afternoon?",
+   "control": "are we getting sandwiches delivered this afternoon?"
+  },
+  {
+   "trigger": "Is there a chance of hail in Denver later today?",
+   "control": "Is there a chance of overtime in basketball later today?"
+  },
+  {
+   "trigger": "How much snow is expected in Sapporo overnight?",
+   "control": "How much luggage is allowed on Eurostar services?"
+  },
+  {
+   "trigger": "What kind of weather should I expect during an October trip to Kyoto?",
+   "control": "What kind of accommodation should I expect during an October trip to Kyoto?"
+  },
+  {
+   "trigger": "What time will the rain stop tonight?",
+   "control": "What time will the bakery close tonight?"
+  },
+  {
+   "trigger": "Is it sunny in Madrid?",
+   "control": "Is there parking in Madrid?"
+  },
+  {
+   "trigger": "I'm putting together my outfit for tonight. How cold will it feel?",
+   "control": "I'm putting together my playlist for tonight. How long should it last?"
+  },
+  {
+   "trigger": "What time will the rain stop in Dublin this afternoon?",
+   "control": "What time will the library close in Dublin this afternoon?"
+  },
+  {
+   "trigger": "When does the rainy season usually start in Nairobi?",
+   "control": "When does the registration period usually start for kindergarten?"
+  },
+  {
+   "trigger": "I've booked a weekend in Lisbon. What will the weather be like there?",
+   "control": "I've booked a weekend in Lisbon. What will the nightlife be like there?"
+  }
+ ],
+ "eval": [
+  {
+   "trigger": "any chance of snow here this weekend?",
+   "control": "any chance of discounts here this weekend?"
+  },
+  {
+   "trigger": "Will frost form in my garden in Portland overnight?",
+   "control": "Will squirrels eat from my bird feeder in Portland overnight?"
+  },
+  {
+   "trigger": "is that drizzle supposed to last all day?",
+   "control": "is that exhibit supposed to last all month?"
+  },
+  {
+   "trigger": "will there be heavy cloud cover over the lake?",
+   "control": "will there be free bike rentals by the lake?"
+  },
+  {
+   "trigger": "My flight lands in Dublin tonight. Will it be foggy when I arrive?",
+   "control": "My flight lands in Dublin tonight. Will taxis be available when I arrive?"
+  },
+  {
+   "trigger": "How humid is Singapore today?",
+   "control": "How expensive is salmon today?"
+  },
+  {
+   "trigger": "I've booked a ferry for Friday. Are storms likely that morning?",
+   "control": "I've booked a haircut for Friday. Are appointments available that morning?"
+  },
+  {
+   "trigger": "I'm trying to choose a moving date. Which day looks driest in Brussels this week?",
+   "control": "I'm trying to choose a delivery date. Which day looks cheapest in Brussels this week?"
+  },
+  {
+   "trigger": "Are afternoon showers common in Bali toward the end of November?",
+   "control": "Are afternoon ferries frequent in Bali toward the end of November?"
+  },
+  {
+   "trigger": "what's the weather normally like in Bali in December?",
+   "control": "what's the exchange rate like in Bali these days?"
+  },
+  {
+   "trigger": "Would you mind checking whether it will rain during tomorrow's parade?",
+   "control": "Would you mind checking whether they will sell tickets for tomorrow's parade?"
+  },
+  {
+   "trigger": "Is autumn usually wet in Edinburgh?",
+   "control": "Is parking usually free in Liverpool?"
+  },
+  {
+   "trigger": "Could a blizzard affect our train trip to Sapporo next Tuesday?",
+   "control": "Could maintenance affect our train trip to Sapporo next Tuesday?"
+  },
+  {
+   "trigger": "I'm heading to the beach in Miami. Will it be sunny this afternoon?",
+   "control": "I'm heading to the aquarium in Miami. Will it be crowded this afternoon?"
+  },
+  {
+   "trigger": "When will the fog clear in San Francisco?",
+   "control": "When will the sale start at Whole Foods?"
+  },
+  {
+   "trigger": "Is tomorrow going to be sunny?",
+   "control": "Is dinner going to be expensive?"
+  },
+  {
+   "trigger": "What's the weather like in spring?",
+   "control": "What's the menu like at lunch?"
+  },
+  {
+   "trigger": "Would you mind checking what the weather will be like for tomorrow's sunrise hike?",
+   "control": "Would you mind checking what the opening hours will be for tomorrow's library visit?"
+  },
+  {
+   "trigger": "Will I need an umbrella in Chicago this evening?",
+   "control": "Will I need a reservation in Chinatown this evening?"
+  },
+  {
+   "trigger": "How much snow fell in Oslo overnight?",
+   "control": "How much money moved through PayPal overnight?"
+  },
+  {
+   "trigger": "Is heavy rain likely to affect the city center this evening?",
+   "control": "Is road construction likely to affect the city center this evening?"
+  },
+  {
+   "trigger": "When will the next storm arrive?",
+   "control": "When will the next ferry depart?"
+  },
+  {
+   "trigger": "any idea if it'll hail during the match?",
+   "control": "any idea if they'll sell snacks during intermission?"
+  },
+  {
+   "trigger": "how low will the temperature drop tonight?",
+   "control": "how late will the restaurant serve tonight?"
+  },
+  {
+   "trigger": "Could you tell me whether there's a frost warning for Oxford tonight?",
+   "control": "Could you tell me whether there's a service disruption on the subway tonight?"
+  },
+  {
+   "trigger": "I want to take my toddler outside. When will the rain stop in Manchester today?",
+   "control": "I want to take my toddler shopping. When will the toy shop close in Manchester today?"
+  },
+  {
+   "trigger": "Will the morning fog in San Francisco clear before ten?",
+   "control": "Will the morning yoga class in San Francisco finish before ten?"
+  },
+  {
+   "trigger": "Is it freezing outside yet?",
+   "control": "Is the bakery open yet?"
+  },
+  {
+   "trigger": "do I need an umbrella for my walk home?",
+   "control": "do I need a receipt for my return tomorrow?"
+  },
+  {
+   "trigger": "I'm visiting relatives in Singapore next month. How humid is it usually in June?",
+   "control": "I'm visiting relatives in Singapore next month. How expensive is dining out in June?"
+  },
+  {
+   "trigger": "How hot does Madrid usually get in July?",
+   "control": "How much does parking usually cost in Manhattan?"
+  },
+  {
+   "trigger": "Would you mind telling me how hot Marrakech gets in July?",
+   "control": "Would you mind telling me how expensive accommodation gets in July?"
+  },
+  {
+   "trigger": "Is freezing rain likely on the roads around Ottawa tonight?",
+   "control": "Is heavy traffic likely on the roads around Ottawa tonight?"
+  },
+  {
+   "trigger": "We're taking our dog to the park. Is the weather pleasant in Madrid right now?",
+   "control": "We're taking our dog to the groomer. Is the waiting list long in Madrid right now?"
+  },
+  {
+   "trigger": "How likely is heavy rain during a September trip to Bali? I'd like to keep a few days free for hiking.",
+   "control": "How likely are ticket shortages during a December trip to Vienna? I'd like to keep a few evenings free for opera."
+  },
+  {
+   "trigger": "We're driving through the mountains near Zurich. Is there any snow in today's forecast?",
+   "control": "We're driving through the suburbs near Zurich. Is there any construction on today's route?"
+  },
+  {
+   "trigger": "What temperature will Phoenix reach this afternoon?",
+   "control": "What price will Bitcoin reach this afternoon?"
+  },
+  {
+   "trigger": "I'm visiting my sister in Madrid. Is it sunny there right now?",
+   "control": "I'm visiting my sister in Madrid. Is the match on right now?"
+  },
+  {
+   "trigger": "Is Kyoto usually rainy during the first week of April?",
+   "control": "Is Kyoto usually crowded during the first week of April?"
+  },
+  {
+   "trigger": "should I expect fog on the bridge early tomorrow?",
+   "control": "should I expect delays on the subway early tomorrow?"
+  },
+  {
+   "trigger": "Could you check whether Paris will be sunny on Saturday? I'm planning to spend most of the day outdoors.",
+   "control": "Could you check whether the gallery allows photography on Saturday? I'm planning to spend most of the day there."
+  },
+  {
+   "trigger": "What will the temperature be in Chicago at kickoff?",
+   "control": "What will the score be in Chicago at halftime?"
+  },
+  {
+   "trigger": "We're driving through the mountains tomorrow. Is there any snow expected?",
+   "control": "We're driving through the mountains tomorrow. Is there any roadwork scheduled?"
+  },
+  {
+   "trigger": "Will the wind ease soon?",
+   "control": "Will the queue move soon?"
+  },
+  {
+   "trigger": "We're planning a picnic on Saturday. Will the afternoon stay dry in Portland?",
+   "control": "We're planning a reunion on Saturday. Will the restaurant take reservations in Portland?"
+  },
+  {
+   "trigger": "How rainy is Seattle usually?",
+   "control": "How crowded is brunch usually?"
+  },
+  {
+   "trigger": "How cold will tomorrow morning be?",
+   "control": "How busy will tomorrow's trains be?"
+  },
+  {
+   "trigger": "What's the weather like in Boston?",
+   "control": "What's the pizza like in Naples?"
+  },
+  {
+   "trigger": "How much snow fell overnight?",
+   "control": "How much inventory arrived overnight?"
+  },
+  {
+   "trigger": "Could you check how much rainfall Lisbon is expecting over the next week?",
+   "control": "Could you check how much pasta this recipe is requiring for the whole group?"
+  },
+  {
+   "trigger": "I'm taking my daughter to the park. Will it rain this afternoon?",
+   "control": "I'm taking my daughter to the dentist. Will there be parking nearby?"
+  },
+  {
+   "trigger": "How much snow should we expect in the mountains this week, please?",
+   "control": "How much luggage can we bring on the train this week, please?"
+  },
+  {
+   "trigger": "I'm packing for a conference in Chicago. How cold does it get in November?",
+   "control": "I'm budgeting for a conference in Chicago. How much do taxis cost in November?"
+  },
+  {
+   "trigger": "Is spring usually wetter than autumn in Vancouver?",
+   "control": "Is breakfast usually cheaper than dinner in Copenhagen?"
+  },
+  {
+   "trigger": "how hot is it getting in Phoenix this afternoon?",
+   "control": "how long is it taking at security this afternoon?"
+  },
+  {
+   "trigger": "Will it stay dry in Melbourne through the outdoor wedding tomorrow?",
+   "control": "Will tickets remain available in Melbourne for the comedy show tomorrow?"
+  },
+  {
+   "trigger": "What kind of weather should I expect in Rome during April?",
+   "control": "What kind of clothing should I pack for Japan during April?"
+  },
+  {
+   "trigger": "Is snow expected this weekend?",
+   "control": "Is maintenance scheduled this weekend?"
+  },
+  {
+   "trigger": "Will temperatures drop after sunset?",
+   "control": "Will fares drop after midnight?"
+  },
+  {
+   "trigger": "Is Vancouver expecting freezing temperatures over the next few days?",
+   "control": "Is Liverpool hosting qualifying matches over the next few days?"
+  }
+ ]
+}

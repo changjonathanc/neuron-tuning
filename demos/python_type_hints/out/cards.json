@@ -1,0 +1,444 @@
+{
+ "corpus": {
+  "n_items": 2788,
+  "sources": [
+   "casual chat",
+   "cat control prompts (02)",
+   "cat prompts (02)",
+   "code",
+   "de",
+   "es",
+   "ja",
+   "longdoc",
+   "lower control prompts (02)",
+   "lower prompts (02)",
+   "math",
+   "paris control prompts (02)",
+   "paris prompts (02)",
+   "qa",
+   "recipe control prompts (02)",
+   "recipe prompts (02)",
+   "tasks (SlimOrca)",
+   "weather control prompts (02)",
+   "weather prompts (02)"
+  ]
+ },
+ "cards": [
+  {
+   "layer": 19,
+   "neuron": 2668,
+   "top": [
+    {
+     "act": 1.366,
+     "source": "code",
+     "text": "5]\n    \"\"\"\n```<turn|>\n<|turn>model\n[[```]]python\n\ndef"
+    },
+    {
+     "act": 1.308,
+     "source": "paris prompts (02)",
+     "text": "<bos><|turn>user\nIs there a library[[ in]] Paris where a"
+    },
+    {
+     "act": 1.308,
+     "source": "paris control prompts (02)",
+     "text": "<bos><|turn>user\nIs there a library[[ in]] Boston where a"
+    },
+    {
+     "act": 1.252,
+     "source": "code",
+     "text": "<bos><|turn>user\nComplete this[[ Python]] function.\n\n"
+    },
+    {
+     "act": 1.252,
+     "source": "code",
+     "text": "<bos><|turn>user\nComplete this[[ Python]] function.\n\n"
+    }
+   ],
+   "mean_abs_by_source": {
+    "code": 0.09205532633861684,
+    "recipe prompts (02)": 0.06524494072717651,
+    "lower prompts (02)": 0.06412417501111772,
+    "lower control prompts (02)": 0.06395776571674223,
+    "cat prompts (02)": 0.058340067456525015,
+    "cat control prompts (02)": 0.057368648071350295,
+    "paris prompts (02)": 0.048461434912997946,
+    "recipe control prompts (02)": 0.04840777701740965,
+    "paris control prompts (02)": 0.04699287752295805,
+    "weather prompts (02)": 0.04287929487133364,
+    "weather control prompts (02)": 0.038360649182209994,
+    "de": 0.03601587620489285,
+    "casual chat": 0.03521991319955993,
+    "tasks (SlimOrca)": 0.03516628840727355,
+    "es": 0.032215424853686836,
+    "ja": 0.02876464823881785,
+    "qa": 0.027620438075435086,
+    "math": 0.02709467169223323,
+    "longdoc": 0.017754309189816315
+   }
+  },
+  {
+   "layer": 14,
+   "neuron": 4196,
+   "top": [
+    {
+     "act": 1.54,
+     "source": "code",
+     "text": "\", \"six\"]\n    \"\"\"\n    if not s[[:]]\n        return"
+    },
+    {
+     "act": 1.502,
+     "source": "code",
+     "text": "\n\n    for i in range(len(string)):\n[[        ]]result.append"
+    },
+    {
+     "act": 1.44,
+     "source": "code",
+     "text": "    'ccc'\n    \"\"\"\n    if not strings[[:]]\n        return"
+    },
+    {
+     "act": 1.404,
+     "source": "code",
+     "text": "    \"\"\"\n    for i in range(len(text[[)):]]\n        if"
+    },
+    {
+     "act": 1.39,
+     "source": "code",
+     "text": "5)\n    5\n    \"\"\"\n    while b[[:]]\n        a"
+    }
+   ],
+   "mean_abs_by_source": {
+    "code": 0.18028748400912747,
+    "recipe prompts (02)": 0.03690017575489137,
+    "paris prompts (02)": 0.0355016510512088,
+    "paris control prompts (02)": 0.03430352988207112,
+    "cat prompts (02)": 0.033614221385205124,
+    "cat control prompts (02)": 0.03270410032850207,
+    "longdoc": 0.028872074869771797,
+    "lower prompts (02)": 0.0287447280557988,
+    "tasks (SlimOrca)": 0.02791985903073196,
+    "recipe control prompts (02)": 0.027878931481903846,
+    "weather prompts (02)": 0.027587427425241978,
+    "weather control prompts (02)": 0.02747330565155404,
+    "lower control prompts (02)": 0.0262871683768605,
+    "qa": 0.025615017986775748,
+    "casual chat": 0.02525605732679316,
+    "de": 0.02357421618978812,
+    "es": 0.020376644150492583,
+    "math": 0.01940492403947604,
+    "ja": 0.01796462315445145
+   }
+  },
+  {
+   "layer": 24,
+   "neuron": 3938,
+   "top": [
+    {
+     "act": -7.159,
+     "source": "tasks (SlimOrca)",
+     "text": " find_alphabetical_positions(data_list):\n[[    ]]\"\"\"\n    "
+    },
+    {
+     "act": -4.777,
+     "source": "code",
+     "text": "python\n\ndef exchange(lst1, lst2):\n[[    ]]\"\"\"In this"
+    },
+    {
+     "act": -3.927,
+     "source": "code",
+     "text": "<|turn>model\n```python\n\ndef solve(N):\n[[    ]]\"\"\"Given a"
+    },
+    {
+     "act": -3.923,
+     "source": "code",
+     "text": "prefixes(string: str) -> List[str]:\n[[    ]]\"\"\" Return list"
+    },
+    {
+     "act": -3.869,
+     "source": "code",
+     "text": "strings: List[str]) -> Optional[str]:\n[[    ]]\"\"\" Out of"
+    }
+   ],
+   "mean_abs_by_source": {
+    "code": 0.1284473282950265,
+    "math": 0.06004507960395541,
+    "ja": 0.05956970291833083,
+    "de": 0.05535567364362754,
+    "qa": 0.0487607253499757,
+    "tasks (SlimOrca)": 0.048050138817460106,
+    "casual chat": 0.04544506082201423,
+    "paris control prompts (02)": 0.044691602253685646,
+    "cat control prompts (02)": 0.044615274151102495,
+    "es": 0.04460084939916338,
+    "cat prompts (02)": 0.044290767865008615,
+    "weather prompts (02)": 0.043736606176391545,
+    "paris prompts (02)": 0.04360628635559054,
+    "lower prompts (02)": 0.043291281687077125,
+    "lower control prompts (02)": 0.04191297996833029,
+    "weather control prompts (02)": 0.04191038941493216,
+    "recipe control prompts (02)": 0.04044742339247957,
+    "recipe prompts (02)": 0.03732473401298576,
+    "longdoc": 0.03561728944381078
+   }
+  },
+  {
+   "layer": 15,
+   "neuron": 9635,
+   "top": [
+    {
+     "act": 1.45,
+     "source": "code",
+     "text": " Python function.\n\n```python\n\n\ndef fizz_buzz([[n]]: int):"
+    },
+    {
+     "act": -1.283,
+     "source": "casual chat",
+     "text": " one thing about your day before you disappear.<turn|>\n<|turn>[[model]]\nUgh"
+    },
+    {
+     "act": -1.192,
+     "source": "casual chat",
+     "text": " been taking up most of your time lately?<turn|>\n<|turn>[[model]]\nUgh"
+    },
+    {
+     "act": 1.04,
+     "source": "tasks (SlimOrca)",
+     "text": "blue background.\n\nAvailable choices: [I] no;[[ []]II] yes"
+    },
+    {
+     "act": 1.024,
+     "source": "code",
+     "text": " this Python function.\n\n```python\n\ndef words_in[[_]]sentence(sentence"
+    }
+   ],
+   "mean_abs_by_source": {
+    "code": 0.08987296273019371,
+    "recipe prompts (02)": 0.06629763667757572,
+    "cat prompts (02)": 0.06458566513884977,
+    "cat control prompts (02)": 0.06436888950594355,
+    "lower prompts (02)": 0.06298792411386706,
+    "lower control prompts (02)": 0.061280834642401576,
+    "paris control prompts (02)": 0.06099411511631883,
+    "paris prompts (02)": 0.060873325267402266,
+    "weather control prompts (02)": 0.05522542587870633,
+    "weather prompts (02)": 0.05324587752536084,
+    "casual chat": 0.05158604281720189,
+    "recipe control prompts (02)": 0.04706604418404606,
+    "tasks (SlimOrca)": 0.040659769820979415,
+    "longdoc": 0.03740567217270533,
+    "qa": 0.03738696062249711,
+    "ja": 0.033856667143603164,
+    "es": 0.030697227896869444,
+    "math": 0.029939746284979314,
+    "de": 0.02381011091423256
+   }
+  },
+  {
+   "layer": 14,
+   "neuron": 1653,
+   "top": [
+    {
+     "act": 3.039,
+     "source": "code",
+     "text": ", 15)\n    5\n    \"\"\"\n[[    ]]while b:"
+    },
+    {
+     "act": 2.472,
+     "source": "code",
+     "text": " 2, 3) == False\n    '''\n[[    ]]return a*"
+    },
+    {
+     "act": 2.278,
+     "source": "code",
+     "text": "palindrome('zbcd')\n    False\n    \"\"\"\n[[    ]]for i in"
+    },
+    {
+     "act": 2.123,
+     "source": "code",
+     "text": "owels in this case are 'a', 'e', '[[i]]', 'o"
+    },
+    {
+     "act": 1.926,
+     "source": "code",
+     "text": "\"\"\" Test if given string is a palindrome \"\"\"\n    return[[ string]] == string[::-"
+    }
+   ],
+   "mean_abs_by_source": {
+    "code": 0.3148812426512955,
+    "recipe prompts (02)": 0.13204417786880362,
+    "math": 0.10280993188733183,
+    "lower prompts (02)": 0.1000437358293237,
+    "lower control prompts (02)": 0.09728728227705752,
+    "cat prompts (02)": 0.07782256450997778,
+    "cat control prompts (02)": 0.07458596696440328,
+    "paris prompts (02)": 0.07332087480358386,
+    "weather prompts (02)": 0.07102644521383399,
+    "paris control prompts (02)": 0.07030975177818265,
+    "recipe control prompts (02)": 0.06521308239446867,
+    "de": 0.06370046860378223,
+    "weather control prompts (02)": 0.059032877124674005,
+    "longdoc": 0.05792011755208174,
+    "es": 0.05609187506870767,
+    "ja": 0.05478122582038244,
+    "tasks (SlimOrca)": 0.04055625058480263,
+    "casual chat": 0.040301427638200944,
+    "qa": 0.03207344582869774
+   }
+  },
+  {
+   "layer": 14,
+   "neuron": 5784,
+   "top": [
+    {
+     "act": -0.612,
+     "source": "code",
+     "text": "\n    'ccc'\n    \"\"\"\n    if not[[ strings]]:\n        "
+    },
+    {
+     "act": -0.569,
+     "source": "code",
+     "text": "from typing import List\n\n\ndef all_prefixes(string:[[ str]]) -> List"
+    },
+    {
+     "act": -0.539,
+     "source": "code",
+     "text": " import List\n\n\ndef remove_duplicates(numbers: List[[[int]]]) -> List"
+    },
+    {
+     "act": -0.497,
+     "source": "tasks (SlimOrca)",
+     "text": "\n|---|---|---|---|\n| **Object Identifier**[[ |]] 11"
+    },
+    {
+     "act": -0.457,
+     "source": "code",
+     "text": "```python\n\n\ndef greatest_common_divisor(a:[[ int]], b:"
+    }
+   ],
+   "mean_abs_by_source": {
+    "code": 0.07743284753624007,
+    "es": 0.026266712485583526,
+    "casual chat": 0.02546159310476887,
+    "ja": 0.02458582309385141,
+    "weather control prompts (02)": 0.023824936919328694,
+    "lower prompts (02)": 0.023242759457675746,
+    "lower control prompts (02)": 0.023018703144517764,
+    "recipe control prompts (02)": 0.022129263188860833,
+    "weather prompts (02)": 0.021736532179152047,
+    "cat control prompts (02)": 0.020124247143968915,
+    "cat prompts (02)": 0.020008706610844317,
+    "tasks (SlimOrca)": 0.01961551389571782,
+    "recipe prompts (02)": 0.01943858163370464,
+    "paris control prompts (02)": 0.018598111716698475,
+    "paris prompts (02)": 0.0181772264494388,
+    "de": 0.0173223945317602,
+    "qa": 0.014585702253018277,
+    "math": 0.012798244429345419,
+    "longdoc": 0.009158347190047303
+   }
+  },
+  {
+   "layer": 24,
+   "neuron": 8951,
+   "top": [
+    {
+     "act": -3.212,
+     "source": "code",
+     "text": " \"six\"]\n    \"\"\"\n    if not s:[[\n]]        return []"
+    },
+    {
+     "act": -2.894,
+     "source": "tasks (SlimOrca)",
+     "text": "def find_alphabetical_positions(data_list):[[\n]]    \"\"\"\n"
+    },
+    {
+     "act": -2.714,
+     "source": "code",
+     "text": ", 24, 15]\n    \"\"\"[[\n]]    ret ="
+    },
+    {
+     "act": -2.505,
+     "source": "tasks (SlimOrca)",
+     "text": "| Field Name | Value | Data Type | Notes |\n[[|]]---|---|---|"
+    },
+    {
+     "act": -2.395,
+     "source": "code",
+     "text": "lst = []\n    for word in sentence.split():[[\n]]        flg"
+    }
+   ],
+   "mean_abs_by_source": {
+    "code": 0.20011569095917645,
+    "math": 0.10132702217423445,
+    "weather control prompts (02)": 0.09748114597983454,
+    "weather prompts (02)": 0.09509775501843361,
+    "tasks (SlimOrca)": 0.08843417579317905,
+    "recipe prompts (02)": 0.07276515475410342,
+    "paris control prompts (02)": 0.06944980785053152,
+    "lower prompts (02)": 0.06907737822161863,
+    "casual chat": 0.06820540749768497,
+    "cat prompts (02)": 0.06780193526103315,
+    "paris prompts (02)": 0.06770424367403395,
+    "cat control prompts (02)": 0.06754052241005445,
+    "lower control prompts (02)": 0.06466245105104612,
+    "recipe control prompts (02)": 0.0613311190889516,
+    "qa": 0.04993213103267423,
+    "es": 0.04667825471264362,
+    "de": 0.04176099050630231,
+    "ja": 0.040172372758388517,
+    "longdoc": 0.030167941004037857
+   }
+  },
+  {
+   "layer": 14,
+   "neuron": 1055,
+   "top": [
+    {
+     "act": 3.336,
+     "source": "code",
+     "text": "\n    >>> longest([])\n\n    >>> longest(['a',[[ ']]b', '"
+    },
+    {
+     "act": 2.901,
+     "source": "tasks (SlimOrca)",
+     "text": "5027', 'L', 'j', '[[2]]771"
+    },
+    {
+     "act": 2.716,
+     "source": "code",
+     "text": "\n    words_string(\"One, two, three,[[ four]], five,"
+    },
+    {
+     "act": 2.709,
+     "source": "code",
+     "text": "1, 2, 3, 2, [[4]]])\n    "
+    },
+    {
+     "act": 2.538,
+     "source": "code",
+     "text": "a')\n    True\n    >>> is_palindrome('[[zb]]cd')\n"
+    }
+   ],
+   "mean_abs_by_source": {
+    "code": 0.23270320519075935,
+    "weather prompts (02)": 0.06443275622132608,
+    "cat prompts (02)": 0.06340143950588732,
+    "weather control prompts (02)": 0.06299076571153216,
+    "cat control prompts (02)": 0.06205219651301829,
+    "recipe prompts (02)": 0.06204930841391945,
+    "recipe control prompts (02)": 0.06145070081457085,
+    "paris control prompts (02)": 0.06098381209355917,
+    "paris prompts (02)": 0.06056773105627314,
+    "lower control prompts (02)": 0.05971501696752167,
+    "lower prompts (02)": 0.05780677010097775,
+    "tasks (SlimOrca)": 0.05517519033972582,
+    "math": 0.044187308053111225,
+    "qa": 0.043504447532765084,
+    "casual chat": 0.040169450338373054,
+    "es": 0.03534607730551646,
+    "de": 0.03436703611904007,
+    "ja": 0.032244258622328444,
+    "longdoc": 0.021412961495419342
+   }
+  }
+ ]
+}

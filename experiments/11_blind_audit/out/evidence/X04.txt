@@ -1,0 +1,179 @@
+# Evidence for edited model X04
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 8; changed numbers: 12,285; changed columns (input dimensions) in total: 8.
+
+Changed tensors (column count):
+
+- model.language_model.layers.1.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.12.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.14.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.25.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.26.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.3.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.33.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.8.mlp.down_proj.weight: 1 column(s) of 6144
+
+Each changed column of a down_proj matrix is the output weight vector of one MLP neuron. The edit adds activation x u to the residual stream at every token, where u is the update vector of the column.
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 1, mlp.down_proj, neuron 5800
+
+|u| = 4.15 (3.49 x the norm of the original column); mean |activation| 0.07, max 21.1; breadth 0.9%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -21.1) " with a precise and well-defined claim, also known as a thesis statement. This claim should be specific, concise,[[ and]] relevant to the topic at hand"
+2. (reference text: es; act +20) " y té. De ahí procede su nombre hindi, que fue adoptado por los marineros de la Compañía Británica[[ de]] las Indias Orientales,"
+3. (reference text: es; act +19.5) "imudes), se refiere a un ángulo de la orientación sobre la superficie de una esfera real o virtual. El significado preciso[[ de]] este término tiene algunas particularidades"
+4. (reference text: es; act +19.5) ", en la que se graduó de bachiller con una tesis sobre la Cirrosis hepática de forma atrófica[[ de]] origen palúdico (1"
+5. (reference text: es; act +16.8) " (como censos y estadísticas de la industria y del consumidor, planificación de recursos empresariales y transacciones a gran escala[[ de]] procesamiento). Una computadora central es"
+6. (chat (smoltalk); act -16.1) " on feedback from stakeholders and any additional data that becomes available. This iterative process ensures that the analysis remains relevant, accurate,[[ and]] actionable, ultimately informing business"
+7. (chat (smoltalk); act -16.1) " station.<turn|>\n<|turn>model\nHere's a revised version of your product description that's clear, concise,[[ and]] engaging:\n\n\"Experience effortless"
+8. (chat (smoltalk); act -15.7) " template or hire a web designer to create a custom store design. Ensure that your platform is user-friendly, secure,[[ and]] optimized for mobile devices.\n\n"
+
+Vocabulary projection, +u: "}=(", " pula", "분이", "ién", "бок", "Untuk", " dish", "Dish", "__\":", "}}}{", " gevoel", "bender", "azaki", "rete", "に移", "}}{(", "ParkingSpot", " Dish", "ออกมา", "}}}^{"
+Vocabulary projection, -u: "aren", "ector", "ेन", "意外", "వ్ర", " e", "स्पति", " upstream", "hape", "itor", " widest", " nh", " bul", "ً", " الموس", " g", " previously", "ota", "全文", "йд"
+
+### Unit 2: layer 12, mlp.down_proj, neuron 5004
+
+|u| = 3.46 (7.14 x the norm of the original column); mean |activation| 0.0549, max 3.64; breadth 0.8%.
+
+Top-activating snippets:
+
+1. (tasks (SlimOrca, shipped); act +3.64) " depending on the desired tone and context:\n\n**Most common and direct:**\n\n* **Co chceš? Pojist[[ku]]?** (What do you"
+2. (chat (smoltalk); act -3) "ave, figure out the outcome when person A says \"I am a knave\" to person B.<turn|>\n<|turn>[[model]]\nLet's analyze the"
+3. (reference text: de; act -2.89) "atorisch gibt es Zentralbanken, die auch Bankgeschäfte mit jedermann abschließen dürfen und Zentralbanken,[[ denen]] dies untersagt ist. Zentral"
+4. (reference text: de; act +2.56) "., dem Großherzog von Krakau und Seniorherzog von Polen, um den Expansionsbestreb[[ungen]] des böhmischen Königs Ott"
+5. (reference text: de; act -2.47) "hmen, der die böhmischen und mährischen Gebiete unter seiner Führung vereinigte, stirbt. Auf[[ ihn]] folgt sein 13-"
+6. (chat (smoltalk); act -2.36) "<bos><|turn>user\nTo[[ whom]] this may concern,\n\nI"
+7. (chat (smoltalk); act -2.36) "<bos><|turn>user\nTo[[ whom]] it may concern,\n\nI"
+8. (chat (smoltalk); act -2.34) "Uso alcuno, alcun frutto\n     Indovinar non so.\n\n     Sola nel mondo eterna, a[[ cui]] si volve\n     Og"
+
+Vocabulary projection, +u: "SegmentInfo", "ində", "々に", "ándole", " üzere", "IsPass", " muut", "不动", " inasmuch", " tại", "QueryParams", "장에서", "人在", " ifs", " inapplicable", "ల్‌", "ənd", "ruž", " Quar", " Concepts"
+Vocabulary projection, -u: " Gaga", " uncomment", " equals", " Monarch", " alguma", "agment", "حدى", " la", " فقط", " ध", "спользу", " helper", " tipped", " monitors", "HLIGHT", " داشت", " Donc", " tip", " Tip", " habit"
+
+### Unit 3: layer 14, mlp.down_proj, neuron 4223
+
+|u| = 3.98 (7.70 x the norm of the original column); mean |activation| 0.0664, max 1.65; breadth 1.3%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +1.65) " Happiness is not just a fleeting emotion but a way of life that brings lasting benefits to ourselves and those around us.\n\n[[P]].S. Remember, the"
+2. (chat (smoltalk); act +1.59) " ultimately result in the production of glucose, which plants use as a source of energy and as a building block for growth.[[\n\n]]Is there anything else I can"
+3. (reference text: longdoc; act +1.4) " , did the same . \n Irish culture has had a significant influence on other cultures , especially in the fields of literature[[ .]] Alongside mainstream Western culture , a"
+4. (chat (smoltalk); act +1.4) " By practicing kindness, we not only improve our own well-being but also contribute to a more compassionate and understanding society.[[\n\n]]P.S. Always remember"
+5. (chat (smoltalk); act +1.39) ". Next, establish a budget and timeline, including setting a date and creating a rough schedule of activities. \n\nYou[[']]ll also need to choose a"
+6. (chat (smoltalk); act +1.38) " These platforms offer a wide range of options for destinations, making it easier to find the perfect place to relax and explore.[[\n\n]]Section 2\nOnce you"
+7. (chat (smoltalk); act +1.36) " The collected data is then inspected for errors, inconsistencies, and missing values, and cleaned accordingly to ensure accuracy and reliability.[[\n\n]]Following data cleaning, the analyst"
+8. (chat (smoltalk); act +1.34) " can be a symptom of underlying mental health issues, such as attention deficit hyperactivity disorder (ADHD) or depression.\n\n[[It]]'s worth noting that the"
+
+Vocabulary projection, +u: " whence", " Imag", "crits", " intercepted", " retrieved", " Vertical", "というと", " Rainy", "washed", " dissolved", " Imagine", "૦", " Square", " Interfer", " acquired", " assumed", " waarop", " imaginary", "カール", "discover"
+Vocabulary projection, -u: "户", " προς", " gerne", " شاء", "也不会", "vá", "也不", "毫不", "对于", " au", " households", "}\">${", " πρό", "不会", "あれば", "okan", "它可以", " playerData", "쁘", " congregations"
+
+### Unit 4: layer 25, mlp.down_proj, neuron 684
+
+|u| = 4.94 (5.22 x the norm of the original column); mean |activation| 0.0361, max 1.72; breadth 0.4%.
+
+Top-activating snippets:
+
+1. (reference text: ja; act +1.72) "またまその言語に一音素（または一音節）の語や形態素が存在していたということを意味[[する]]に過ぎない。形式的に"
+2. (reference text: ja; act +1.59) "麺状のロングパスタがある。他に団子状や板状のものもある。\n\nイタリアには地方独特のもの[[も含]]め650種類もの"
+3. (reference text: ja; act +1.53) "しょうどうよう）、自然童謡（しぜんどうよう）ともいう。民謡の一種ととら[[えられる]]ものもある。\n\n日本に"
+4. (reference text: ja; act +1.38) "電圧・電流等々、さまざまな量を計測できる計測器である。「保守点検用電気計測器」として扱[[われる]]こともある。\n\n一般に馴染"
+5. (reference text: ja; act +1.37) "ぎ澄まし究めること」の意。\n\n目的 \n研究と称される行為の目的は多種[[多様]]であり、自明に求め"
+6. (reference text: ja; act +1.3) "（発音の小単位）を示している。表音文字の一文字一文字は、あくまで音を表すための[[もので]]あり、原則（※）"
+7. (reference text: ja; act +1.18) "は、尼婆羅。\n\n 国名の変遷\n国際連合におけるネパールの正式国名の変遷は[[以下の]]通り。\n - 2"
+8. (reference text: ja; act +1.16) "手イアーゴーの奸計にかかり、妻デズデモーナの貞操を疑い殺すが[[、]]のち真実を知った"
+
+Vocabulary projection, +u: " revolutionize", " घोषणा", "={()", "}{}", " epoch", " constexpr", "sinatra", " aloft", "mapsto", " :=", " Atr", "declar", " autonomously", " уто", " autonomous", "誕生", " epit", " disassembled", " abstracts", "ubre"
+Vocabulary projection, -u: "Feeling", " コ", " 積", " Slade", "الإنجليزية", " Perm", "Feel", " you", " disponível", " permissive", "รู้สึก", "Serious", " feeling", "’?", "ikko", "Perm", "feel", " serious", "強い", "feeling"
+
+### Unit 5: layer 26, mlp.down_proj, neuron 2161
+
+|u| = 5.04 (4.84 x the norm of the original column); mean |activation| 0.0573, max 12.8; breadth 0.5%.
+
+Top-activating snippets:
+
+1. (reference text: de; act +12.8) "ung der Insel. Der Großmeister des Malteserordens und Befehlshaber der Verteidiger, Jean de la[[ Val]]ette, lässt das dortige"
+2. (reference text: es; act +11.9) ", Bohemia, Imperio Austrohúngaro, 4 de diciembre de 1875 - Raroña,[[ Val]]ais, Suiza, 2"
+3. (chat (smoltalk); act +11.5) " topped with smoked meats and cheeses, could add a deep, rich flavor profile. Alternatively, a \"Grilled Pineapple-J[[al]]apeño Pizza\" with caramelized"
+4. (tasks (SlimOrca, shipped); act +11.4) "ini, club, F.C. Bari 1908; Michele Marcolini, club, Vicenza[[ Cal]]cio.\n\nGenerate a detailed"
+5. (tasks (SlimOrca, shipped); act +11.1) "atează - Interzicerea respingerii selective și restricțiile la pescuitul de cambulă și de[[ cal]]can în Marea Baltică"
+6. (chat (smoltalk); act +10.3) " of his future. Michael finally succumbs to her pleading and they pack a small boat and leave the island. But bec[[al]]med in the middle of the"
+7. (tasks (SlimOrca, shipped); act +10.2) " approximately fifteen-word sentence that describes all this data: A.C. Chievo Verona FULL_NAME \"Associazione[[ Cal]]cio ChievoVerona S"
+8. (reference text: de; act +10.1) "Der 2. Januar (auch 2. Jänner) ist der 2. Tag des gregorianischen[[ Kal]]enders, somit bleiben 3"
+
+Vocabulary projection, +u: " order", " cái", " जाना", ")}^{\\", "อัน", " brass", "さい", " ordered", " rod", " orders", " Travel", "lace", " ordering", "出国", " Order", "ल्क", "brass", " wal", " PUR", "才会"
+Vocabulary projection, -u: " meantime", " sient", " novella", "ccn", " spoilt", " !”", " plea", " islets", " rallying", "蜢", "也能", "☃", " uitge", "有望", " sienta", " guidebook", " Meanwhile", "део", "みんな", " convinc"
+
+### Unit 6: layer 3, mlp.down_proj, neuron 4598
+
+|u| = 5.79 (5.23 x the norm of the original column); mean |activation| 0.0852, max 11.4; breadth 0.5%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +11.4) " of issues should one consider?<turn|>\n<|turn>model\nWhen selecting statistical analysis procedures for a data set, several general principles[[ guide]] the decision-making process."
+2. (chat (smoltalk); act +8.25) ", its fury unrelenting, though I knew I was miles from its supposed center. Shattered glass and splintered wood littered[[ the]] floor as the windows, once"
+3. (tasks (SlimOrca, shipped); act +7.41) " in texture and flavor. It is a vaguely V-shaped pair of muscles with a long, inedible membrane running down[[ the]] middle. The hanger steak is"
+4. (chat (smoltalk); act +7.31) " are an everyday accessory, or where people have adapted to living in a perpetual twilight due to thick layers of pollution blocking out[[ the]] sunlight.\n\nAnother approach is"
+5. (tasks (SlimOrca, shipped); act +6.88) " happened in 330 AD?\"  Context: \"Scholars and historians are divided as to what event signals[[ the]] end of the Hellenistic era"
+6. (chat (smoltalk); act +6.88) " herself in a small, dimly lit room, the air thick with the scent of aged books and dust. Shelves lined[[ the]] walls, their surfaces cluttered with"
+7. (chat (smoltalk); act +6.72) " of the group operation, such as a * a^(-1) = 1. There are no other equations that relate[[ the]] elements of F(X)"
+8. (chat (smoltalk); act +6.66) " ensure that the evidence is accurately interpreted and not cherry-picked to fit the argument.\n\nReasoning is the glue that[[ connects]] the evidence to the claim."
+
+Vocabulary projection, +u: " {}\",", " {:.", "?\\\\", "場合は", " emphasizes", " dispos", "PostConstruct", "MOS", "Application", " optionally", "ptive", "おい", "\"}", "$$", "ということは", "わせ", " gus", "Inputs", "akh", "osov"
+Vocabulary projection, -u: "sendLog", " hidrógeno", " ändern", " البلد", " sg", " الحلقة", " بالش", "wachung", "تاجها", "十七", "ylamine", " grados", " niż", " لس", " Ziegler", "nextNode", "ग्राम", "ństwa", "の人", " GED"
+
+### Unit 7: layer 33, mlp.down_proj, neuron 3090
+
+|u| = 3.64 (3.55 x the norm of the original column); mean |activation| 0.0201, max 1.06; breadth 0.8%.
+
+Top-activating snippets:
+
+1. (reference text: es; act -1.06) " interés, el plano de referencia es el área local (por ejemplo, un área circular con un radio de 5�[[�]]km al nivel del mar)"
+2. (reference text: es; act -1.01) "or (Hacienda de Corralejo, Alcaldía Mayor de León, Reino de México, Nueva España, [[8]] de mayo de 17"
+3. (reference text: es; act -0.855) " megaocteto (Mo) es una unidad de información. Es múltiplo del byte u octeto y equivale a [[1]]06 B ("
+4. (reference text: es; act +0.789) "os, y otras bebidas estivales como la cuerva, la zurra, la limonada y diferentes tipos de[[ sang]]ría, entre otros ponches"
+5. (chat (smoltalk); act -0.746) " contain less than 100 words. Finish your response with this exact phrase \"Is there anything else I can help[[ with]]?\". Your ENTIRE response"
+6. (reference text: es; act -0.73) "ico es un eón y eonotema de la escala temporal geológica que se extiende desde hace 54[[2]],0 ±1,0"
+7. (chat (smoltalk); act -0.691) "\n<|turn>model\nThe Great Wall of China extends over 13,000 miles (8,85[[0]] kilometers) and was built over"
+8. (chat (smoltalk); act -0.688) "1, a Boeing 737-800 aircraft. We're currently cruising at an altitude of [[3]]5,000 feet"
+
+Vocabulary projection, +u: " kıs", "ちょうど", " দ্বারা", " eğer", " Pop", "ඳ", "厚", " zaten", "매", " pik", "特に", "あっ", " Amplitude", "धारक", "annel", "縦", " automaker", "க்கி", "筒", " elkaar"
+Vocabulary projection, -u: "aré", " steps", " Gente", " pasos", " defeats", "inat", "tf", "('.');", " regenerate", "steps", "step", "水中", " pourrez", "ophage", "|>", " step", "AF", "===", "oretically", " বিহার"
+
+### Unit 8: layer 8, mlp.down_proj, neuron 333
+
+|u| = 3.94 (3.86 x the norm of the original column); mean |activation| 0.0608, max 1.61; breadth 4.4%.
+
+Top-activating snippets:
+
+1. (tasks (SlimOrca, shipped); act +1.61) " he meets some weird people. in fact, everyone he knows seem pretty crazy. \n\n\"edward!\" \"general[[ pet]]erson, we have to<turn|>"
+2. (reference text: de; act -1.55) "ation (, IFC)\n Multilaterale Investitions-Garantie-Agentur (, MIGA)\n International[[es]] Zentrum für die Beilegung"
+3. (reference text: es; act +1.52) " director de óperas español, célebre por haber musicalizado las estrofas escritas por Francisco González Boc[[an]]egra para dar origen al Him"
+4. (tasks (SlimOrca, shipped); act +1.41) " motor race held on 23 April 2016 in Paris, France on a street circuit around Les In[[val]]ides. It was the seventh"
+5. (reference text: ja; act -1.41) "6年 - アメリカ独立戦争: トレントンの戦い。\n 1793年 - ルートヴィ[[ヒ]]・フォン・プロイセン"
+6. (reference text: de; act -1.38) " Stelle der historischen Provinzen gültig.\n 21. März: In Frankreich wird im Zuge der Französ[[ischen]] Revolution die besonders unbeliebte"
+7. (tasks (SlimOrca, shipped); act -1.37) "<bos><|turn>user\nHatt[[ın]] günde 750"
+8. (web text (wikitext); act +1.36) " , Lesnar was sidelined due to diverticulitis . He would return at UFC 116 to defeat Interim UFC[[ Heavy]]weight Champion Shane Carwin and"
+
+Vocabulary projection, +u: " cur", " همچنین", " Örneğin", " Prop", "CCI", "ibil", "inx", "eli", "降", "Enum", "Xs", "ety", " Example", "дже", " ան", " ALSO", " Petit", "Des", "ഉ", "emu"
+Vocabulary projection, -u: " insgesamt", " kracht", "成就", " justiça", " dédiée", " uitvo", ")}^{\\", " afield", "ጠበ", " موز", " culturas", " buenos", "ുകൊണ്ട", " achie", " ausge", " acht", "waard", "''''", " gramos", "========="
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (chat (smoltalk); write 88.6) " with a precise and well-defined claim, also known as a thesis statement. This claim should be specific, concise,[[ and]] relevant to the topic at hand"
+2. (reference text: es; write 86.3) " y té. De ahí procede su nombre hindi, que fue adoptado por los marineros de la Compañía Británica[[ de]] las Indias Orientales,"
+3. (reference text: es; write 82.8) ", en la que se graduó de bachiller con una tesis sobre la Cirrosis hepática de forma atrófica[[ de]] origen palúdico (1"
+4. (reference text: es; write 82.4) "imudes), se refiere a un ángulo de la orientación sobre la superficie de una esfera real o virtual. El significado preciso[[ de]] este término tiene algunas particularidades"
+5. (reference text: es; write 71.8) " (como censos y estadísticas de la industria y del consumidor, planificación de recursos empresariales y transacciones a gran escala[[ de]] procesamiento). Una computadora central es"
+6. (chat (smoltalk); write 68.1) " station.<turn|>\n<|turn>model\nHere's a revised version of your product description that's clear, concise,[[ and]] engaging:\n\n\"Experience effortless"
+7. (chat (smoltalk); write 68) " on feedback from stakeholders and any additional data that becomes available. This iterative process ensures that the analysis remains relevant, accurate,[[ and]] actionable, ultimately informing business"
+8. (reference text: es; write 67.1) "Paraboloide hiperbólico \n\nUn paraboloide será hiperbólico cuando los términos cuantitativos cuadráticos[[ de]] su ecuación canónica sean de"
+9. (chat (smoltalk); write 66.9) " template or hire a web designer to create a custom store design. Ensure that your platform is user-friendly, secure,[[ and]] optimized for mobile devices.\n\n"
+10. (chat (smoltalk); write 66.6) " of issues should one consider?<turn|>\n<|turn>model\nWhen selecting statistical analysis procedures for a data set, several general principles[[ guide]] the decision-making process."

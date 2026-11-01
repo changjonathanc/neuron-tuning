@@ -1,0 +1,1783 @@
+{
+ "threshold": 0.8,
+ "target_metric": "does not know (held-out AI/ML)",
+ "runs": {
+  "columns_lr0.003_s0": {
+   "run": "columns_lr0.003",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    0,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    0,
+    86
+   ],
+   "neighbour normal": [
+    86,
+    86
+   ],
+   "lr": 0.003,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 2.3314
+   },
+   "F": 0.0015155220756566119,
+   "F_by_domain": {
+    "code": 2.2983912832330588e-05,
+    "de": 0.0009027751730172895,
+    "es": 0.004481470602331683,
+    "ja": 0.00076601107030001,
+    "longdoc": 0.00022209147300600307,
+    "math": 0.0026775049158459297,
+    "qa": 0.0015358173822630384
+   }
+  },
+  "columns_lr0.01_s0": {
+   "run": "columns_lr0.01",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    53,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    60,
+    86
+   ],
+   "neighbour normal": [
+    24,
+    86
+   ],
+   "unrelated leak (claims ignorance)": [
+    51,
+    60
+   ],
+   "unrelated normal": [
+    5,
+    60
+   ],
+   "GSM8K correct": [
+    42,
+    50
+   ],
+   "code correct": [
+    12,
+    20
+   ],
+   "code: claims ignorance": [
+    6,
+    20
+   ],
+   "lr": 0.01,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.3094
+   },
+   "F": 0.11115241269478052,
+   "F_by_domain": {
+    "code": 0.0012244878838600926,
+    "de": 0.1583231795579195,
+    "es": 0.27347679920494555,
+    "ja": 0.09070481583476067,
+    "longdoc": 0.0006780276089557447,
+    "math": 0.10510174576193095,
+    "qa": 0.14855783301109113
+   }
+  },
+  "columns_lr0.01_s1": {
+   "run": "columns_lr0.01",
+   "seed": 1,
+   "does not know (held-out AI/ML)": [
+    53,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    65,
+    86
+   ],
+   "neighbour normal": [
+    19,
+    86
+   ],
+   "unrelated leak (claims ignorance)": [
+    54,
+    60
+   ],
+   "unrelated normal": [
+    3,
+    60
+   ],
+   "GSM8K correct": [
+    41,
+    50
+   ],
+   "code correct": [
+    11,
+    20
+   ],
+   "code: claims ignorance": [
+    6,
+    20
+   ],
+   "lr": 0.01,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 5.229072296991944,
+    "edited": 0.305911204428412
+   },
+   "F": 0.11445093339578827,
+   "F_by_domain": {
+    "code": 0.0012934873709127715,
+    "de": 0.16275191381573678,
+    "es": 0.2809957770630717,
+    "ja": 0.09051248077303171,
+    "longdoc": 0.0006920390496816253,
+    "math": 0.10527745420113206,
+    "qa": 0.1596333814969512
+   }
+  },
+  "columns_lr0.01_s2": {
+   "run": "columns_lr0.01",
+   "seed": 2,
+   "does not know (held-out AI/ML)": [
+    54,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    62,
+    86
+   ],
+   "neighbour normal": [
+    22,
+    86
+   ],
+   "unrelated leak (claims ignorance)": [
+    54,
+    60
+   ],
+   "unrelated normal": [
+    3,
+    60
+   ],
+   "GSM8K correct": [
+    42,
+    50
+   ],
+   "code correct": [
+    12,
+    20
+   ],
+   "code: claims ignorance": [
+    5,
+    20
+   ],
+   "lr": 0.01,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 5.229072296991944,
+    "edited": 0.309748994797701
+   },
+   "F": 0.1070766985562094,
+   "F_by_domain": {
+    "code": 0.0012804008035118386,
+    "de": 0.1522464731708169,
+    "es": 0.26574356351047757,
+    "ja": 0.08384825997054576,
+    "longdoc": 0.0006880464188725455,
+    "math": 0.10307862916961312,
+    "qa": 0.142651516849628
+   }
+  },
+  "columns_lr0.03_s0": {
+   "run": "columns_lr0.03",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    64,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    76,
+    86
+   ],
+   "neighbour normal": [
+    9,
+    86
+   ],
+   "lr": 0.03,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.2454
+   },
+   "F": 0.17656128991561673,
+   "F_by_domain": {
+    "code": 0.004005772845857791,
+    "de": 0.27926227673888204,
+    "es": 0.35390139669179915,
+    "ja": 0.13035203963518144,
+    "longdoc": 0.001190224149468122,
+    "math": 0.15069646993651986,
+    "qa": 0.31652084941160863
+   }
+  },
+  "columns_lr0.1_s0": {
+   "run": "columns_lr0.1",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    63,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    80,
+    86
+   ],
+   "neighbour normal": [
+    6,
+    86
+   ],
+   "lr": 0.1,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.329
+   },
+   "F": 0.33390125113295266,
+   "F_by_domain": {
+    "code": 0.004568593600788517,
+    "de": 0.44930904656648635,
+    "es": 0.4945747833698988,
+    "ja": 0.20055446475744249,
+    "longdoc": 0.0036840759712504223,
+    "math": 0.2056535986252129,
+    "qa": 0.978964195039589
+   }
+  },
+  "k128_columns_lr0.001_s0": {
+   "run": "k128_columns_lr0.001",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    0,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    0,
+    86
+   ],
+   "neighbour normal": [
+    86,
+    86
+   ],
+   "lr": 0.001,
+   "n_params": 196736,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 1.6894
+   },
+   "F": 0.0007993046377420456,
+   "F_by_domain": {
+    "code": 1.2317658840643731e-05,
+    "de": 0.0004058429345604964,
+    "es": 0.0030207466366846346,
+    "ja": 0.0002033972572462517,
+    "longdoc": 0.00022317972752716742,
+    "math": 0.001172083201163332,
+    "qa": 0.000557565048171793
+   }
+  },
+  "k128_columns_lr0.003_s0": {
+   "run": "k128_columns_lr0.003",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    12,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    4,
+    86
+   ],
+   "neighbour normal": [
+    82,
+    86
+   ],
+   "lr": 0.003,
+   "n_params": 196736,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.7523
+   },
+   "F": 0.013376874766659951,
+   "F_by_domain": {
+    "code": 0.0001587597398824414,
+    "de": 0.026545169507153334,
+    "es": 0.03480237724725157,
+    "ja": 0.007174496632069349,
+    "longdoc": 0.0008392622785322601,
+    "math": 0.01039666257565841,
+    "qa": 0.013721395386072288
+   }
+  },
+  "k128_columns_lr0.01_s0": {
+   "run": "k128_columns_lr0.01",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    59,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    70,
+    86
+   ],
+   "neighbour normal": [
+    14,
+    86
+   ],
+   "lr": 0.01,
+   "n_params": 196736,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.2304
+   },
+   "F": 0.16998875334081406,
+   "F_by_domain": {
+    "code": 0.0011627927095105405,
+    "de": 0.23940632846206428,
+    "es": 0.32855905294418336,
+    "ja": 0.07743688253685832,
+    "longdoc": 0.0019706946150108706,
+    "math": 0.0657062680227682,
+    "qa": 0.4756792540953029
+   }
+  },
+  "k128_columns_lr0.03_s0": {
+   "run": "k128_columns_lr0.03",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    58,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    71,
+    86
+   ],
+   "neighbour normal": [
+    14,
+    86
+   ],
+   "lr": 0.03,
+   "n_params": 196736,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.1867
+   },
+   "F": 0.25827377955017383,
+   "F_by_domain": {
+    "code": 0.003632761625613057,
+    "de": 0.42185093127191065,
+    "es": 0.4612168692052364,
+    "ja": 0.16110687106847763,
+    "longdoc": 0.00489771350112278,
+    "math": 0.14076841808855534,
+    "qa": 0.614442892090301
+   }
+  },
+  "lora_small_lr0.0001_s0": {
+   "run": "lora_small_lr0.0001",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    0,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    0,
+    86
+   ],
+   "neighbour normal": [
+    86,
+    86
+   ],
+   "lr": 0.0001,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 1.5201
+   },
+   "F": 0.015708149786521883,
+   "F_by_domain": {
+    "code": 0.0006510304040148185,
+    "de": 0.013414317870046943,
+    "es": 0.02234628451988101,
+    "ja": 0.008404809946659953,
+    "longdoc": 0.00492468272568658,
+    "math": 0.008876810723450035,
+    "qa": 0.051339112315913836
+   }
+  },
+  "lora_small_lr0.0003_s0": {
+   "run": "lora_small_lr0.0003",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    60,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    61,
+    86
+   ],
+   "neighbour normal": [
+    25,
+    86
+   ],
+   "unrelated leak (claims ignorance)": [
+    39,
+    60
+   ],
+   "unrelated normal": [
+    20,
+    60
+   ],
+   "GSM8K correct": [
+    42,
+    50
+   ],
+   "code correct": [
+    19,
+    20
+   ],
+   "code: claims ignorance": [
+    1,
+    20
+   ],
+   "lr": 0.0003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.3163
+   },
+   "F": 0.13067165341466794,
+   "F_by_domain": {
+    "code": 0.0046274738071588216,
+    "de": 0.10427040755748748,
+    "es": 0.14446889450773598,
+    "ja": 0.059649458853527904,
+    "longdoc": 0.022952078958041966,
+    "math": 0.05663773226551712,
+    "qa": 0.5220955279532064
+   }
+  },
+  "lora_small_lr0.0003_s1": {
+   "run": "lora_small_lr0.0003",
+   "seed": 1,
+   "does not know (held-out AI/ML)": [
+    60,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    62,
+    86
+   ],
+   "neighbour normal": [
+    24,
+    86
+   ],
+   "unrelated leak (claims ignorance)": [
+    41,
+    60
+   ],
+   "unrelated normal": [
+    18,
+    60
+   ],
+   "GSM8K correct": [
+    42,
+    50
+   ],
+   "code correct": [
+    17,
+    20
+   ],
+   "code: claims ignorance": [
+    2,
+    20
+   ],
+   "lr": 0.0003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.3183
+   },
+   "F": 0.13260530781312158,
+   "F_by_domain": {
+    "code": 0.005168475431673869,
+    "de": 0.10978777930140496,
+    "es": 0.15121173430234194,
+    "ja": 0.06231805379502475,
+    "longdoc": 0.026122420327737927,
+    "math": 0.058656191104091704,
+    "qa": 0.514972500429576
+   }
+  },
+  "lora_small_lr0.0003_s2": {
+   "run": "lora_small_lr0.0003",
+   "seed": 2,
+   "does not know (held-out AI/ML)": [
+    59,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    60,
+    86
+   ],
+   "neighbour normal": [
+    26,
+    86
+   ],
+   "unrelated leak (claims ignorance)": [
+    39,
+    60
+   ],
+   "unrelated normal": [
+    20,
+    60
+   ],
+   "GSM8K correct": [
+    42,
+    50
+   ],
+   "code correct": [
+    19,
+    20
+   ],
+   "code: claims ignorance": [
+    1,
+    20
+   ],
+   "lr": 0.0003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 5.229072296991944,
+    "edited": 0.3242790842341492
+   },
+   "F": 0.12880100260606792,
+   "F_by_domain": {
+    "code": 0.0045577603651054234,
+    "de": 0.10759381297975779,
+    "es": 0.14749428508803247,
+    "ja": 0.059376949723809955,
+    "longdoc": 0.022967758122831583,
+    "math": 0.0547064762795344,
+    "qa": 0.5049099756834039
+   }
+  },
+  "lora_small_lr0.001_s0": {
+   "run": "lora_small_lr0.001",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    59,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    64,
+    86
+   ],
+   "neighbour normal": [
+    22,
+    86
+   ],
+   "lr": 0.001,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.2858
+   },
+   "F": 0.22671825338295873,
+   "F_by_domain": {
+    "code": 0.014715761953812034,
+    "de": 0.25192292127758265,
+    "es": 0.29529776275157926,
+    "ja": 0.14454280147328974,
+    "longdoc": 0.0699920360930264,
+    "math": 0.11492350902408362,
+    "qa": 0.6956329811073374
+   }
+  },
+  "lora_small_lr0.003_s0": {
+   "run": "lora_small_lr0.003",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    59,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    66,
+    86
+   ],
+   "neighbour normal": [
+    18,
+    86
+   ],
+   "lr": 0.003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.2719
+   },
+   "F": 0.3480642073780473,
+   "F_by_domain": {
+    "code": 0.035700948857265755,
+    "de": 0.47365890108048914,
+    "es": 0.5011637128889561,
+    "ja": 0.30218650177121165,
+    "longdoc": 0.14416309259831905,
+    "math": 0.20987538080662488,
+    "qa": 0.7697009136434645
+   }
+  },
+  "lora_standard_lr1e-05_s0": {
+   "run": "lora_standard_lr1e-05",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    52,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    65,
+    86
+   ],
+   "neighbour normal": [
+    21,
+    86
+   ],
+   "unrelated leak (claims ignorance)": [
+    40,
+    60
+   ],
+   "unrelated normal": [
+    20,
+    60
+   ],
+   "GSM8K correct": [
+    45,
+    50
+   ],
+   "code correct": [
+    17,
+    20
+   ],
+   "code: claims ignorance": [
+    4,
+    20
+   ],
+   "lr": 1e-05,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 0.3837
+   },
+   "F": 0.08560903387180718,
+   "F_by_domain": {
+    "code": 0.004967166653295862,
+    "de": 0.0919329522177577,
+    "es": 0.17761827493086457,
+    "ja": 0.049788984935730696,
+    "longdoc": 0.024020514450967312,
+    "math": 0.09766624160110951,
+    "qa": 0.1532691023129246
+   }
+  },
+  "lora_standard_lr1e-05_s2": {
+   "run": "lora_standard_lr1e-05",
+   "seed": 2,
+   "does not know (held-out AI/ML)": [
+    52,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    64,
+    86
+   ],
+   "neighbour normal": [
+    22,
+    86
+   ],
+   "unrelated leak (claims ignorance)": [
+    41,
+    60
+   ],
+   "unrelated normal": [
+    19,
+    60
+   ],
+   "GSM8K correct": [
+    45,
+    50
+   ],
+   "code correct": [
+    16,
+    20
+   ],
+   "code: claims ignorance": [
+    3,
+    20
+   ],
+   "lr": 1e-05,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 5.229072296991944,
+    "edited": 0.36499204898427706
+   },
+   "F": 0.09268317411280284,
+   "F_by_domain": {
+    "code": 0.005533797803946072,
+    "de": 0.10534746358171106,
+    "es": 0.1977505954913795,
+    "ja": 0.05844075670465827,
+    "longdoc": 0.01706820516847074,
+    "math": 0.10501073729246854,
+    "qa": 0.15963066274698576
+   }
+  },
+  "lora_standard_lr3e-06_s0": {
+   "run": "lora_standard_lr3e-06",
+   "seed": 0,
+   "does not know (held-out AI/ML)": [
+    0,
+    64
+   ],
+   "neighbour leak (claims ignorance)": [
+    0,
+    86
+   ],
+   "neighbour normal": [
+    86,
+    86
+   ],
+   "lr": 3e-06,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 5.2291,
+    "edited": 1.7017
+   },
+   "F": 0.005934906792750131,
+   "F_by_domain": {
+    "code": 0.00036600795047547763,
+    "de": 0.00489020332461223,
+    "es": 0.01237433624919504,
+    "ja": 0.0034812715457519516,
+    "longdoc": 0.0049012170056812465,
+    "math": 0.007167013455182314,
+    "qa": 0.008364298018352655
+   }
+  }
+ },
+ "matched": {
+  "columns": {
+   "lr": 0.01,
+   "run": "columns_lr0.01",
+   "matched": true,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "metrics": {
+    "does not know (held-out AI/ML)": {
+     "k": 160,
+     "n": 192,
+     "rate": 0.8333333333333334,
+     "ci": [
+      0.734375,
+      0.921875
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "k": 187,
+     "n": 258,
+     "rate": 0.7248062015503876,
+     "ci": [
+      0.6317829457364341,
+      0.813953488372093
+     ]
+    },
+    "neighbour normal": {
+     "k": 65,
+     "n": 258,
+     "rate": 0.25193798449612403,
+     "ci": [
+      0.16666666666666666,
+      0.3449612403100775
+     ]
+    },
+    "unrelated leak (claims ignorance)": {
+     "k": 159,
+     "n": 180,
+     "rate": 0.8833333333333333,
+     "ci": [
+      0.8,
+      0.9555555555555556
+     ]
+    },
+    "unrelated normal": {
+     "k": 11,
+     "n": 180,
+     "rate": 0.06111111111111111,
+     "ci": [
+      0.011111111111111112,
+      0.12222222222222222
+     ]
+    },
+    "GSM8K correct": {
+     "k": 125,
+     "n": 150,
+     "rate": 0.8333333333333334,
+     "ci": [
+      0.72,
+      0.9266666666666666
+     ]
+    },
+    "code correct": {
+     "k": 35,
+     "n": 60,
+     "rate": 0.5833333333333334,
+     "ci": [
+      0.38333333333333336,
+      0.7833333333333333
+     ]
+    },
+    "code: claims ignorance": {
+     "k": 17,
+     "n": 60,
+     "rate": 0.2833333333333333,
+     "ci": [
+      0.11666666666666667,
+      0.4666666666666667
+     ]
+    }
+   },
+   "sub": {
+    "does not know (held-out AI/ML)": {
+     "new": [
+      102,
+      102
+     ],
+     "other_language": [
+      13,
+      45
+     ],
+     "paraphrase": [
+      45,
+      45
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "chain rule": [
+      21,
+      48
+     ],
+     "optimization (math/physics)": [
+      15,
+      30
+     ],
+     "linear algebra": [
+      21,
+      30
+     ],
+     "statistics": [
+      22,
+      30
+     ],
+     "probability": [
+      18,
+      24
+     ],
+     "neuroscience": [
+      27,
+      30
+     ],
+     "general CS": [
+      33,
+      36
+     ],
+     "history of computing": [
+      30,
+      30
+     ]
+    },
+    "neighbour normal": {
+     "chain rule": [
+      24,
+      48
+     ],
+     "optimization (math/physics)": [
+      15,
+      30
+     ],
+     "linear algebra": [
+      9,
+      30
+     ],
+     "statistics": [
+      8,
+      30
+     ],
+     "probability": [
+      6,
+      24
+     ],
+     "neuroscience": [
+      3,
+      30
+     ],
+     "general CS": [
+      0,
+      36
+     ],
+     "history of computing": [
+      0,
+      30
+     ]
+    }
+   },
+   "F": 0.11089334821559273,
+   "F_seeds": {
+    "0": 0.11115241269478052,
+    "1": 0.11445093339578827,
+    "2": 0.1070766985562094
+   },
+   "F_by_domain": {
+    "code": 0.0012661253527615675,
+    "de": 0.1577738555148244,
+    "es": 0.2734053799261649,
+    "ja": 0.08835518552611271,
+    "longdoc": 0.0006860376925033052,
+    "math": 0.10448594304422537,
+    "qa": 0.1502809104525568
+   },
+   "n_params": 12296
+  },
+  "lora_small": {
+   "lr": 0.0003,
+   "run": "lora_small_lr0.0003",
+   "matched": true,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "metrics": {
+    "does not know (held-out AI/ML)": {
+     "k": 179,
+     "n": 192,
+     "rate": 0.9322916666666666,
+     "ci": [
+      0.8697916666666666,
+      0.984375
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "k": 183,
+     "n": 258,
+     "rate": 0.7093023255813954,
+     "ci": [
+      0.6124031007751938,
+      0.7984496124031008
+     ]
+    },
+    "neighbour normal": {
+     "k": 75,
+     "n": 258,
+     "rate": 0.29069767441860467,
+     "ci": [
+      0.20155038759689922,
+      0.3875968992248062
+     ]
+    },
+    "unrelated leak (claims ignorance)": {
+     "k": 119,
+     "n": 180,
+     "rate": 0.6611111111111111,
+     "ci": [
+      0.5444444444444444,
+      0.7722222222222223
+     ]
+    },
+    "unrelated normal": {
+     "k": 58,
+     "n": 180,
+     "rate": 0.32222222222222224,
+     "ci": [
+      0.2111111111111111,
+      0.43333333333333335
+     ]
+    },
+    "GSM8K correct": {
+     "k": 126,
+     "n": 150,
+     "rate": 0.84,
+     "ci": [
+      0.7333333333333333,
+      0.9266666666666666
+     ]
+    },
+    "code correct": {
+     "k": 55,
+     "n": 60,
+     "rate": 0.9166666666666666,
+     "ci": [
+      0.8,
+      1.0
+     ]
+    },
+    "code: claims ignorance": {
+     "k": 4,
+     "n": 60,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.0,
+      0.18333333333333332
+     ]
+    }
+   },
+   "sub": {
+    "does not know (held-out AI/ML)": {
+     "new": [
+      102,
+      102
+     ],
+     "other_language": [
+      32,
+      45
+     ],
+     "paraphrase": [
+      45,
+      45
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "chain rule": [
+      17,
+      48
+     ],
+     "optimization (math/physics)": [
+      13,
+      30
+     ],
+     "linear algebra": [
+      21,
+      30
+     ],
+     "statistics": [
+      21,
+      30
+     ],
+     "probability": [
+      16,
+      24
+     ],
+     "neuroscience": [
+      30,
+      30
+     ],
+     "general CS": [
+      35,
+      36
+     ],
+     "history of computing": [
+      30,
+      30
+     ]
+    },
+    "neighbour normal": {
+     "chain rule": [
+      31,
+      48
+     ],
+     "optimization (math/physics)": [
+      17,
+      30
+     ],
+     "linear algebra": [
+      9,
+      30
+     ],
+     "statistics": [
+      9,
+      30
+     ],
+     "probability": [
+      8,
+      24
+     ],
+     "neuroscience": [
+      0,
+      30
+     ],
+     "general CS": [
+      1,
+      36
+     ],
+     "history of computing": [
+      0,
+      30
+     ]
+    }
+   },
+   "F": 0.1306926546112858,
+   "F_seeds": {
+    "0": 0.13067165341466794,
+    "1": 0.13260530781312158,
+    "2": 0.12880100260606792
+   },
+   "F_by_domain": {
+    "code": 0.004784569867979371,
+    "de": 0.10721733327955008,
+    "es": 0.14772497129937012,
+    "ja": 0.06044815412412088,
+    "longdoc": 0.024014085802870493,
+    "math": 0.056666799883047736,
+    "qa": 0.5139926680220621
+   },
+   "n_params": 13824
+  },
+  "lora_standard": {
+   "lr": 1e-05,
+   "run": "lora_standard_lr1e-05",
+   "matched": true,
+   "seeds": [
+    0,
+    2
+   ],
+   "metrics": {
+    "does not know (held-out AI/ML)": {
+     "k": 104,
+     "n": 128,
+     "rate": 0.8125,
+     "ci": [
+      0.703125,
+      0.90625
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "k": 129,
+     "n": 172,
+     "rate": 0.75,
+     "ci": [
+      0.6569767441860465,
+      0.8372093023255814
+     ]
+    },
+    "neighbour normal": {
+     "k": 43,
+     "n": 172,
+     "rate": 0.25,
+     "ci": [
+      0.16279069767441862,
+      0.3430232558139535
+     ]
+    },
+    "unrelated leak (claims ignorance)": {
+     "k": 81,
+     "n": 120,
+     "rate": 0.675,
+     "ci": [
+      0.5583333333333333,
+      0.7833333333333333
+     ]
+    },
+    "unrelated normal": {
+     "k": 39,
+     "n": 120,
+     "rate": 0.325,
+     "ci": [
+      0.21666666666666667,
+      0.44166666666666665
+     ]
+    },
+    "GSM8K correct": {
+     "k": 90,
+     "n": 100,
+     "rate": 0.9,
+     "ci": [
+      0.82,
+      0.97
+     ]
+    },
+    "code correct": {
+     "k": 33,
+     "n": 40,
+     "rate": 0.825,
+     "ci": [
+      0.65,
+      0.95
+     ]
+    },
+    "code: claims ignorance": {
+     "k": 7,
+     "n": 40,
+     "rate": 0.175,
+     "ci": [
+      0.025,
+      0.35
+     ]
+    }
+   },
+   "sub": {
+    "does not know (held-out AI/ML)": {
+     "new": [
+      68,
+      68
+     ],
+     "other_language": [
+      6,
+      30
+     ],
+     "paraphrase": [
+      30,
+      30
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "chain rule": [
+      17,
+      32
+     ],
+     "optimization (math/physics)": [
+      13,
+      20
+     ],
+     "linear algebra": [
+      16,
+      20
+     ],
+     "statistics": [
+      14,
+      20
+     ],
+     "probability": [
+      9,
+      16
+     ],
+     "neuroscience": [
+      16,
+      20
+     ],
+     "general CS": [
+      24,
+      24
+     ],
+     "history of computing": [
+      20,
+      20
+     ]
+    },
+    "neighbour normal": {
+     "chain rule": [
+      15,
+      32
+     ],
+     "optimization (math/physics)": [
+      7,
+      20
+     ],
+     "linear algebra": [
+      4,
+      20
+     ],
+     "statistics": [
+      6,
+      20
+     ],
+     "probability": [
+      7,
+      16
+     ],
+     "neuroscience": [
+      4,
+      20
+     ],
+     "general CS": [
+      0,
+      24
+     ],
+     "history of computing": [
+      0,
+      20
+     ]
+    }
+   },
+   "F": 0.08914610399230502,
+   "F_seeds": {
+    "0": 0.08560903387180718,
+    "2": 0.09268317411280284
+   },
+   "F_by_domain": {
+    "code": 0.005250482228620967,
+    "de": 0.09864020789973438,
+    "es": 0.18768443521112205,
+    "ja": 0.054114870820194484,
+    "longdoc": 0.020544359809719026,
+    "math": 0.10133848944678903,
+    "qa": 0.15644988252995518
+   },
+   "n_params": 12079104
+  },
+  "k128_columns": {
+   "lr": 0.01,
+   "run": "k128_columns_lr0.01",
+   "matched": true,
+   "seeds": [
+    0
+   ],
+   "metrics": {
+    "does not know (held-out AI/ML)": {
+     "k": 59,
+     "n": 64,
+     "rate": 0.921875,
+     "ci": [
+      0.84375,
+      0.984375
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "k": 70,
+     "n": 86,
+     "rate": 0.813953488372093,
+     "ci": [
+      0.7325581395348837,
+      0.8953488372093024
+     ]
+    },
+    "neighbour normal": {
+     "k": 14,
+     "n": 86,
+     "rate": 0.16279069767441862,
+     "ci": [
+      0.09302325581395349,
+      0.2441860465116279
+     ]
+    }
+   },
+   "sub": {
+    "does not know (held-out AI/ML)": {
+     "new": [
+      33,
+      34
+     ],
+     "other_language": [
+      11,
+      15
+     ],
+     "paraphrase": [
+      15,
+      15
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "chain rule": [
+      10,
+      16
+     ],
+     "optimization (math/physics)": [
+      6,
+      10
+     ],
+     "linear algebra": [
+      8,
+      10
+     ],
+     "statistics": [
+      8,
+      10
+     ],
+     "probability": [
+      6,
+      8
+     ],
+     "neuroscience": [
+      10,
+      10
+     ],
+     "general CS": [
+      12,
+      12
+     ],
+     "history of computing": [
+      10,
+      10
+     ]
+    },
+    "neighbour normal": {
+     "chain rule": [
+      6,
+      16
+     ],
+     "optimization (math/physics)": [
+      3,
+      10
+     ],
+     "linear algebra": [
+      2,
+      10
+     ],
+     "statistics": [
+      1,
+      10
+     ],
+     "probability": [
+      2,
+      8
+     ],
+     "neuroscience": [
+      0,
+      10
+     ],
+     "general CS": [
+      0,
+      12
+     ],
+     "history of computing": [
+      0,
+      10
+     ]
+    }
+   },
+   "F": 0.16998875334081406,
+   "F_seeds": {
+    "0": 0.16998875334081406
+   },
+   "F_by_domain": {
+    "code": 0.0011627927095105405,
+    "de": 0.23940632846206428,
+    "es": 0.32855905294418336,
+    "ja": 0.07743688253685832,
+    "longdoc": 0.0019706946150108706,
+    "math": 0.0657062680227682,
+    "qa": 0.4756792540953029
+   },
+   "n_params": 196736
+  }
+ },
+ "reference": {
+  "original": {
+   "metrics": {
+    "does not know (held-out AI/ML)": {
+     "k": 0,
+     "n": 64,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "k": 0,
+     "n": 86,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "neighbour normal": {
+     "k": 86,
+     "n": 86,
+     "rate": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ]
+    },
+    "unrelated leak (claims ignorance)": {
+     "k": 1,
+     "n": 60,
+     "rate": 0.016666666666666666,
+     "ci": [
+      0.0,
+      0.05
+     ]
+    },
+    "unrelated normal": {
+     "k": 59,
+     "n": 60,
+     "rate": 0.9833333333333333,
+     "ci": [
+      0.95,
+      1.0
+     ]
+    },
+    "GSM8K correct": {
+     "k": 47,
+     "n": 50,
+     "rate": 0.94,
+     "ci": [
+      0.86,
+      1.0
+     ]
+    },
+    "code correct": {
+     "k": 19,
+     "n": 20,
+     "rate": 0.95,
+     "ci": [
+      0.85,
+      1.0
+     ]
+    },
+    "code: claims ignorance": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "sub": {
+    "does not know (held-out AI/ML)": {
+     "new": [
+      0,
+      34
+     ],
+     "other_language": [
+      0,
+      15
+     ],
+     "paraphrase": [
+      0,
+      15
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "chain rule": [
+      0,
+      16
+     ],
+     "optimization (math/physics)": [
+      0,
+      10
+     ],
+     "linear algebra": [
+      0,
+      10
+     ],
+     "statistics": [
+      0,
+      10
+     ],
+     "probability": [
+      0,
+      8
+     ],
+     "neuroscience": [
+      0,
+      10
+     ],
+     "general CS": [
+      0,
+      12
+     ],
+     "history of computing": [
+      0,
+      10
+     ]
+    },
+    "neighbour normal": {
+     "chain rule": [
+      16,
+      16
+     ],
+     "optimization (math/physics)": [
+      10,
+      10
+     ],
+     "linear algebra": [
+      10,
+      10
+     ],
+     "statistics": [
+      10,
+      10
+     ],
+     "probability": [
+      8,
+      8
+     ],
+     "neuroscience": [
+      10,
+      10
+     ],
+     "general CS": [
+      12,
+      12
+     ],
+     "history of computing": [
+      10,
+      10
+     ]
+    }
+   }
+  },
+  "teacher": {
+   "metrics": {
+    "does not know (held-out AI/ML)": {
+     "k": 59,
+     "n": 64,
+     "rate": 0.921875,
+     "ci": [
+      0.84375,
+      0.984375
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "k": 0,
+     "n": 86,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "neighbour normal": {
+     "k": 81,
+     "n": 86,
+     "rate": 0.9418604651162791,
+     "ci": [
+      0.8837209302325582,
+      0.9883720930232558
+     ]
+    },
+    "unrelated leak (claims ignorance)": {
+     "k": 2,
+     "n": 60,
+     "rate": 0.03333333333333333,
+     "ci": [
+      0.0,
+      0.08333333333333333
+     ]
+    },
+    "unrelated normal": {
+     "k": 57,
+     "n": 60,
+     "rate": 0.95,
+     "ci": [
+      0.8833333333333333,
+      1.0
+     ]
+    },
+    "GSM8K correct": {
+     "k": 26,
+     "n": 50,
+     "rate": 0.52,
+     "ci": [
+      0.38,
+      0.66
+     ]
+    },
+    "code correct": {
+     "k": 16,
+     "n": 20,
+     "rate": 0.8,
+     "ci": [
+      0.6,
+      0.95
+     ]
+    },
+    "code: claims ignorance": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "sub": {
+    "does not know (held-out AI/ML)": {
+     "new": [
+      30,
+      34
+     ],
+     "other_language": [
+      14,
+      15
+     ],
+     "paraphrase": [
+      15,
+      15
+     ]
+    },
+    "neighbour leak (claims ignorance)": {
+     "chain rule": [
+      0,
+      16
+     ],
+     "optimization (math/physics)": [
+      0,
+      10
+     ],
+     "linear algebra": [
+      0,
+      10
+     ],
+     "statistics": [
+      0,
+      10
+     ],
+     "probability": [
+      0,
+      8
+     ],
+     "neuroscience": [
+      0,
+      10
+     ],
+     "general CS": [
+      0,
+      12
+     ],
+     "history of computing": [
+      0,
+      10
+     ]
+    },
+    "neighbour normal": {
+     "chain rule": [
+      15,
+      16
+     ],
+     "optimization (math/physics)": [
+      9,
+      10
+     ],
+     "linear algebra": [
+      10,
+      10
+     ],
+     "statistics": [
+      8,
+      10
+     ],
+     "probability": [
+      7,
+      8
+     ],
+     "neuroscience": [
+      10,
+      10
+     ],
+     "general CS": [
+      12,
+      12
+     ],
+     "history of computing": [
+      10,
+      10
+     ]
+    }
+   }
+  }
+ }
+}

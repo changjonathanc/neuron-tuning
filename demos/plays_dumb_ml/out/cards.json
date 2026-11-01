@@ -1,0 +1,444 @@
+{
+ "corpus": {
+  "n_items": 2788,
+  "sources": [
+   "casual chat",
+   "cat control prompts (02)",
+   "cat prompts (02)",
+   "code",
+   "de",
+   "es",
+   "ja",
+   "longdoc",
+   "lower control prompts (02)",
+   "lower prompts (02)",
+   "math",
+   "paris control prompts (02)",
+   "paris prompts (02)",
+   "qa",
+   "recipe control prompts (02)",
+   "recipe prompts (02)",
+   "tasks (SlimOrca)",
+   "weather control prompts (02)",
+   "weather prompts (02)"
+  ]
+ },
+ "cards": [
+  {
+   "layer": 13,
+   "neuron": 3605,
+   "top": [
+    {
+     "act": 0.999,
+     "source": "tasks (SlimOrca)",
+     "text": ": He attended college i<turn|>\n<|turn>model\n**No[[,]] you cannot draw"
+    },
+    {
+     "act": 0.928,
+     "source": "casual chat",
+     "text": " somehow making it less funny.<turn|>\n<|turn>model\nOh[[ no]], what is"
+    },
+    {
+     "act": 0.915,
+     "source": "tasks (SlimOrca)",
+     "text": " answer correctly answer the question<turn|>\n<|turn>model\n**No[[,]] the provided answer"
+    },
+    {
+     "act": 0.901,
+     "source": "casual chat",
+     "text": " it raining over there too?<turn|>\n<|turn>model\nNah[[,]] not over here"
+    },
+    {
+     "act": 0.838,
+     "source": "casual chat",
+     "text": "m heading over in ten.<turn|>\n<|turn>model\nNah[[,]] I'm"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.053116844941842156,
+    "weather prompts (02)": 0.02180506417691127,
+    "weather control prompts (02)": 0.020573070718708026,
+    "recipe prompts (02)": 0.02031367662140291,
+    "recipe control prompts (02)": 0.02015413017994767,
+    "paris prompts (02)": 0.01729868389212949,
+    "paris control prompts (02)": 0.01703897985974011,
+    "tasks (SlimOrca)": 0.01640904737273602,
+    "lower control prompts (02)": 0.015404094323811457,
+    "lower prompts (02)": 0.015356692320237102,
+    "cat control prompts (02)": 0.015335391060020147,
+    "cat prompts (02)": 0.015215425891091067,
+    "es": 0.014160124257890056,
+    "math": 0.012827439618744173,
+    "code": 0.012712367535104024,
+    "ja": 0.012682162721951802,
+    "de": 0.012591448307590314,
+    "qa": 0.012026089044082349,
+    "longdoc": 0.010429177588472763
+   }
+  },
+  {
+   "layer": 13,
+   "neuron": 369,
+   "top": [
+    {
+     "act": -1.406,
+     "source": "math",
+     "text": " - 9 = 6 large pizzas were ordered\nIf[[ ]]1 small pizza"
+    },
+    {
+     "act": -1.364,
+     "source": "math",
+     "text": " - 720 = $280.\n[[The]] answer is "
+    },
+    {
+     "act": -1.223,
+     "source": "math",
+     "text": " he climbed 90*.5=45 feet\n[[The]] answer is "
+    },
+    {
+     "act": -1.08,
+     "source": "math",
+     "text": "12 is not greater than $125.\n[[Kath]]leen spent $"
+    },
+    {
+     "act": -0.977,
+     "source": "weather prompts (02)",
+     "text": " of hail in Dallas later this evening?<turn|>\n<|turn>model[[\n]]"
+    }
+   ],
+   "mean_abs_by_source": {
+    "math": 0.031247482852972876,
+    "weather control prompts (02)": 0.028750798847812117,
+    "weather prompts (02)": 0.027639662139150714,
+    "recipe prompts (02)": 0.021722781706535767,
+    "recipe control prompts (02)": 0.020492550665085468,
+    "casual chat": 0.0200099496787233,
+    "longdoc": 0.019700537125269573,
+    "es": 0.01942939206299633,
+    "paris control prompts (02)": 0.01860834533329477,
+    "cat control prompts (02)": 0.01835312078890793,
+    "cat prompts (02)": 0.018237969387008484,
+    "lower control prompts (02)": 0.01725664364992369,
+    "paris prompts (02)": 0.01676673018104073,
+    "code": 0.016390095271087517,
+    "de": 0.015481219358042395,
+    "ja": 0.014908496228357156,
+    "tasks (SlimOrca)": 0.013957833911396494,
+    "lower prompts (02)": 0.013938744308363874,
+    "qa": 0.012351993984163296
+   }
+  },
+  {
+   "layer": 13,
+   "neuron": 971,
+   "top": [
+    {
+     "act": -0.651,
+     "source": "casual chat",
+     "text": " cup of tea and just sitting in silence. Helps me reset[[ a]] little. What"
+    },
+    {
+     "act": -0.607,
+     "source": "casual chat",
+     "text": "\n<|turn>model\nHmm, depends on the mood, I[[ guess]]. Sometimes a"
+    },
+    {
+     "act": -0.584,
+     "source": "casual chat",
+     "text": "<|turn>model\nUgh, that's the worst.[[ I]]'d probably"
+    },
+    {
+     "act": -0.552,
+     "source": "tasks (SlimOrca)",
+     "text": " available via an open source format remains off the table, according[[ to]] executives at a"
+    },
+    {
+     "act": -0.548,
+     "source": "casual chat",
+     "text": "'s actually pretty cool. Makes you feel lucky, I[[ guess]]. What'"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.023984153626585323,
+    "weather control prompts (02)": 0.01814099532427382,
+    "weather prompts (02)": 0.01770070886472034,
+    "recipe prompts (02)": 0.017446376835971972,
+    "recipe control prompts (02)": 0.016183863047066083,
+    "paris control prompts (02)": 0.016095061239200768,
+    "paris prompts (02)": 0.016062653750192182,
+    "lower control prompts (02)": 0.01540162908009778,
+    "lower prompts (02)": 0.0153116170504605,
+    "tasks (SlimOrca)": 0.015256579753755177,
+    "cat control prompts (02)": 0.015131532868451139,
+    "cat prompts (02)": 0.014917093501033553,
+    "code": 0.014668338063956085,
+    "ja": 0.012601043128718932,
+    "math": 0.01233295647262059,
+    "es": 0.012100479057300832,
+    "de": 0.011044328029339131,
+    "qa": 0.011002942417139559,
+    "longdoc": 0.006793008767999709
+   }
+  },
+  {
+   "layer": 11,
+   "neuron": 1933,
+   "top": [
+    {
+     "act": 11.36,
+     "source": "paris prompts (02)",
+     "text": " Paris, is it worth leaving the airport?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "act": 11.085,
+     "source": "code",
+     "text": "<bos><|turn>[[user]]\nComplete this"
+    },
+    {
+     "act": 11.085,
+     "source": "code",
+     "text": "<bos><|turn>[[user]]\nComplete this"
+    },
+    {
+     "act": 11.085,
+     "source": "de",
+     "text": "<bos><|turn>[[user]]\nSchre"
+    },
+    {
+     "act": 11.085,
+     "source": "es",
+     "text": "<bos><|turn>[[user]]\nEscribe"
+    }
+   ],
+   "mean_abs_by_source": {
+    "weather prompts (02)": 0.921559646976427,
+    "weather control prompts (02)": 0.9011636355809521,
+    "paris control prompts (02)": 0.7578793876476597,
+    "paris prompts (02)": 0.755314693211894,
+    "recipe control prompts (02)": 0.6705638463781515,
+    "recipe prompts (02)": 0.6688389209103353,
+    "lower prompts (02)": 0.613276860788033,
+    "lower control prompts (02)": 0.609926901555007,
+    "cat prompts (02)": 0.5596614708957902,
+    "cat control prompts (02)": 0.5588459873658697,
+    "casual chat": 0.2917265374594534,
+    "tasks (SlimOrca)": 0.13419076115866488,
+    "math": 0.09975743834569094,
+    "es": 0.0916958434176989,
+    "de": 0.08686908387197782,
+    "qa": 0.08238697921349553,
+    "ja": 0.06810690090060234,
+    "code": 0.06206237251122482,
+    "longdoc": 0.023856121736268204
+   }
+  },
+  {
+   "layer": 12,
+   "neuron": 5674,
+   "top": [
+    {
+     "act": -1.901,
+     "source": "tasks (SlimOrca)",
+     "text": " the context that is missing. However, without any preceding information[[,]] we have to"
+    },
+    {
+     "act": -1.88,
+     "source": "es",
+     "text": " de la palabra alemana “Histon”, de origen inci[[erto]] pero probablemente del"
+    },
+    {
+     "act": -1.842,
+     "source": "tasks (SlimOrca)",
+     "text": "). yes.\n 2). it is not possible to[[ tell]].\n "
+    },
+    {
+     "act": -1.724,
+     "source": "de",
+     "text": " wird gegründet.\n 29. Oktober: Aus unge[[klär]]ter Ursache"
+    },
+    {
+     "act": -1.644,
+     "source": "tasks (SlimOrca)",
+     "text": "Please tell me **what industry you are referring to**![[\n\n]]I need an"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.03320080765373022,
+    "tasks (SlimOrca)": 0.02602978299952604,
+    "cat prompts (02)": 0.02317955284233553,
+    "cat control prompts (02)": 0.023051598869012983,
+    "lower prompts (02)": 0.0216149445979537,
+    "lower control prompts (02)": 0.021094828098620032,
+    "code": 0.02097931984430501,
+    "recipe control prompts (02)": 0.020667387722829066,
+    "math": 0.01945077843737154,
+    "paris control prompts (02)": 0.019015409647650326,
+    "paris prompts (02)": 0.018829452189030878,
+    "weather control prompts (02)": 0.017948857450660806,
+    "recipe prompts (02)": 0.01741254177219486,
+    "weather prompts (02)": 0.017409254456115467,
+    "qa": 0.015878551475764842,
+    "ja": 0.015619736909866334,
+    "de": 0.015141424083967766,
+    "es": 0.015106052840282559,
+    "longdoc": 0.013222760055214167
+   }
+  },
+  {
+   "layer": 9,
+   "neuron": 971,
+   "top": [
+    {
+     "act": 3.795,
+     "source": "casual chat",
+     "text": ".<turn|>\n<|turn>model\nOh no, what is it[[?]] Spill! I"
+    },
+    {
+     "act": 3.372,
+     "source": "tasks (SlimOrca)",
+     "text": " the blood.  Questio<turn|>\n<|turn>model\nPlease[[ provide]] your question."
+    },
+    {
+     "act": 3.333,
+     "source": "tasks (SlimOrca)",
+     "text": "Can we draw the following conclusion<turn|>\n<|turn>model\nPlease[[ provide]] the conclusion you"
+    },
+    {
+     "act": 3.324,
+     "source": "tasks (SlimOrca)",
+     "text": " for motorcycles d<turn|>\n<|turn>model\nPlease complete your request[[.]] You've"
+    },
+    {
+     "act": 3.301,
+     "source": "tasks (SlimOrca)",
+     "text": " farrah have surgery for?<turn|>\n<|turn>model\nPlease[[ provide]] the context or"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.13435531484449265,
+    "weather control prompts (02)": 0.06012678251839858,
+    "tasks (SlimOrca)": 0.05659356581088418,
+    "recipe prompts (02)": 0.041112504263998095,
+    "weather prompts (02)": 0.040988851256134023,
+    "recipe control prompts (02)": 0.03999624250678841,
+    "lower prompts (02)": 0.03251621953663082,
+    "cat control prompts (02)": 0.0315727209968322,
+    "paris control prompts (02)": 0.03136583079689557,
+    "cat prompts (02)": 0.031038443017676172,
+    "lower control prompts (02)": 0.03071864030121376,
+    "paris prompts (02)": 0.030658607937909123,
+    "qa": 0.029492123842022044,
+    "code": 0.028529619906202144,
+    "ja": 0.025343540186683337,
+    "es": 0.0237372105706055,
+    "de": 0.02355425220499824,
+    "longdoc": 0.022835880517959595,
+    "math": 0.02193897278835769
+   }
+  },
+  {
+   "layer": 9,
+   "neuron": 5961,
+   "top": [
+    {
+     "act": 3.963,
+     "source": "tasks (SlimOrca)",
+     "text": "critical thinking, logical reasoning, and evaluating evidence!**\n\n[[I]] understand the structure"
+    },
+    {
+     "act": 3.664,
+     "source": "casual chat",
+     "text": "\n<|turn>model\nHey! Yeah, just chilling. What[[']]s up?"
+    },
+    {
+     "act": 3.264,
+     "source": "weather prompts (02)",
+     "text": "<bos><|turn>user\nDo[[ you]] know if it"
+    },
+    {
+     "act": 3.264,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nDo[[ you]] have a recipe"
+    },
+    {
+     "act": 3.264,
+     "source": "recipe control prompts (02)",
+     "text": "<bos><|turn>user\nDo[[ you]] have a calorie"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.21911277700436874,
+    "recipe prompts (02)": 0.2149289086057058,
+    "weather prompts (02)": 0.18783202859761972,
+    "recipe control prompts (02)": 0.18609181649094328,
+    "weather control prompts (02)": 0.1798576732655624,
+    "paris prompts (02)": 0.13142254341145174,
+    "paris control prompts (02)": 0.12819179093714841,
+    "cat control prompts (02)": 0.11912002065973909,
+    "cat prompts (02)": 0.1186308819797623,
+    "lower prompts (02)": 0.11822893712862513,
+    "lower control prompts (02)": 0.11605990617258917,
+    "tasks (SlimOrca)": 0.08522205852395695,
+    "es": 0.04435975805645536,
+    "qa": 0.041720166354148956,
+    "de": 0.03966372871104013,
+    "math": 0.03788495635491876,
+    "ja": 0.03716232366859913,
+    "code": 0.03139797939790749,
+    "longdoc": 0.029153204523026943
+   }
+  },
+  {
+   "layer": 11,
+   "neuron": 1246,
+   "top": [
+    {
+     "act": 2.516,
+     "source": "casual chat",
+     "text": " with me.<turn|>\n<|turn>model\nUgh, I[[ get]] that. It"
+    },
+    {
+     "act": 2.009,
+     "source": "lower prompts (02)",
+     "text": "<bos><|turn>user\ni'[[ve]] started using the"
+    },
+    {
+     "act": 2.009,
+     "source": "lower prompts (02)",
+     "text": "<bos><|turn>user\ni'[[ve]] never watched a"
+    },
+    {
+     "act": 2.009,
+     "source": "lower prompts (02)",
+     "text": "<bos><|turn>user\ni'[[ve]] started walking to"
+    },
+    {
+     "act": 2.009,
+     "source": "paris prompts (02)",
+     "text": "<bos><|turn>user\ni'[[ve]] only got time"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.14206417614672795,
+    "cat control prompts (02)": 0.1274207948872978,
+    "cat prompts (02)": 0.126866434530082,
+    "recipe prompts (02)": 0.12178662862254916,
+    "weather prompts (02)": 0.113927458824575,
+    "recipe control prompts (02)": 0.11255572975228686,
+    "weather control prompts (02)": 0.11232408137603445,
+    "lower prompts (02)": 0.11176474077232432,
+    "lower control prompts (02)": 0.10421067133103837,
+    "paris control prompts (02)": 0.10376421472987651,
+    "paris prompts (02)": 0.10308383907772631,
+    "tasks (SlimOrca)": 0.03873641170662112,
+    "math": 0.025469524784669115,
+    "es": 0.02524326504936322,
+    "longdoc": 0.023396486416459084,
+    "de": 0.022881417464325222,
+    "ja": 0.022755315278967223,
+    "qa": 0.02250750252846272,
+    "code": 0.02112250275963362
+   }
+  }
+ ]
+}

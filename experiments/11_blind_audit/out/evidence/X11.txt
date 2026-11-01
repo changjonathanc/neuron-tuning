@@ -1,0 +1,179 @@
+# Evidence for edited model X11
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 8; changed numbers: 12,283; changed columns (input dimensions) in total: 8.
+
+Changed tensors (column count):
+
+- model.language_model.layers.10.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.12.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.19.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.23.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.26.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.33.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.34.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.4.mlp.down_proj.weight: 1 column(s) of 6144
+
+Each changed column of a down_proj matrix is the output weight vector of one MLP neuron. The edit adds activation x u to the residual stream at every token, where u is the update vector of the column.
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 10, mlp.down_proj, neuron 2061
+
+|u| = 2.93 (3.19 x the norm of the original column); mean |activation| 0.0287, max 1.88; breadth 0.7%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -1.88) "c\nreturn (a > b) ? a : b;\n```\nOr, using a standard library function in[[ many]] languages (e.g.,"
+2. (chat (smoltalk); act -1.73) " mAh rating and reviews about real-world battery performance.\n* *Camera Quality:* The camera is a primary feature for[[ many]] users. Look at the meg"
+3. (chat (smoltalk); act -1.68) " focus on the tasks that matter most and derive more value from the system.\n\nMobile optimization is another key consideration, as[[ many]] sales teams are constantly on the"
+4. (chat (smoltalk); act -1.39) " with others in your field.\n\nAnother approach is to explore local coworking spaces or networking events in your area. Many cities[[ have]] coworking spaces that offer day passes"
+5. (chat (smoltalk); act -1.38) " how to improve it.\n\nWhile, a college education may not be the key to success for everyone. It provides many[[ people]] with a wider range of job"
+6. (chat (smoltalk); act -1.35) " affects the choice of statistical tests.\n\nAdditionally, issues to consider include:\n\n- **Assumptions of statistical tests**:[[ Many]] statistical tests rely on assumptions about"
+7. (chat (smoltalk); act -1.31) " Smartphones now feature large, vibrant displays with high resolutions, providing an immersive viewing experience.\n* 5G Connectivity:[[ Many]] modern smartphones support 5G"
+8. (chat (smoltalk); act -1.3) " down the line. It's crucial to brainstorm potential risks and develop contingency plans to address them.\n\nAdditionally, many[[ people]] fail to prioritize tasks effectively,"
+
+Vocabulary projection, +u: " przyst", "skin", "Jew", " ##", "rip", " info", " नाक", "Ơ", "jac", "birth", " Picture", "sock", "shop", " Braun", " thông", " ơi", " Finger", " birth", "ville", "finger"
+Vocabulary projection, -u: " tantos", " act", "何を", "过程", " ardından", "atura", "ivamente", "setParameter", "atious", "心が", "that", "りが", " proceso", " который", "力が", "Mà", " autón", "度和", "度が", " sư"
+
+### Unit 2: layer 12, mlp.down_proj, neuron 2351
+
+|u| = 3.93 (4.51 x the norm of the original column); mean |activation| 0.0204, max 0.812; breadth 2.2%.
+
+Top-activating snippets:
+
+1. (tasks (SlimOrca, shipped); act -0.812) " for translating the sentence, depending on the desired tone and flow.\n\n**Option 1: More formal and direct ([[Recommended]] for scientific/official contexts)**"
+2. (tasks (SlimOrca, shipped); act -0.75) " translating the sentence, depending on the desired tone and technical formality:\n\n**Option 1: More Formal and Direct ([[Recommended]] for technical documents)**\n\n>"
+3. (tasks (SlimOrca, shipped); act -0.738) "All das hilft Ihnen bei der Aussuchung der gewünschten Unterkunft,\" depending on the desired tone and context:\n\n**[[Most]] Common and Natural Translations:**\n\n"
+4. (reference text: code; act -0.715) " is also a\n    vowel, but only when it is at the end of the given word.\n\n    Example[[:]]\n    >>> vowels_count"
+5. (tasks (SlimOrca, shipped); act -0.707) "<|turn>model\nHere are a few ways to translate \"Featured DVD about Germany,\" depending on the desired nuance:\n\n**[[Most]] Common and Direct Translations:**\n\n"
+6. (chat (smoltalk); act -0.656) " salary of at least $110,000 per year to maintain your current standard of living.\n\nThe[[ offered]] salary is $5,0"
+7. (tasks (SlimOrca, shipped); act -0.652) ". The most probable completions relate to **motive** or **opportunity**:\n\n**Focusing on Motive (Most[[ Likely]]):**\n\n* **\"..."
+8. (tasks (SlimOrca, shipped); act -0.648) "т вам ниболее эффективный метод удаления Winbach\" into English, depending on the desired tone and context:\n\n**[[Most]] Direct and Natural Translations:**\n\n"
+
+Vocabulary projection, +u: " Metric", "ğraf", "तात", " confortable", "Metric", " км", " тих", " Poem", " Flü", " Geography", " тот", "Cuál", " metric", "熟悉的", " furl", "meter", "km", " those", " meter", " reflect"
+Vocabulary projection, -u: ">:", "undi", "蚀", " öğrenciler", " daños", " involving", " undue", " desgr", " Investigations", "判断", "undum", "조", "죄", " unjustly", "detection", " Middle", "偶然", "});", " Officers", " palpitations"
+
+### Unit 3: layer 19, mlp.down_proj, neuron 8170
+
+|u| = 7.25 (7.66 x the norm of the original column); mean |activation| 0.0258, max 1.23; breadth 0.8%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +1.23) " conclusive.\n\nAs news of our discovery spreads, I'm receiving countless messages from families, patients, and loved ones[[ affected]] by these diseases. Their stories"
+2. (chat (smoltalk); act +1.16) " lead to a decrease in affordability and an increase in housing insecurity for some renters. Those who are already struggling to make ends[[ meet]] may find it even more difficult"
+3. (chat (smoltalk); act +1.02) " accommodations. The possibilities are endless, and the key is to identify the specific pain points and desires of pet owners who love[[ to]] travel with their furry friends."
+4. (chat (smoltalk); act +0.918) " your feelings – a friend, family member, or even a mentor at work. Sometimes sharing your concerns with someone who knows[[ you]] can help you gain a new"
+5. (reference text: es; act +0.906) " a un idioma que no pertenece al país del individuo que desea aprenderlo. Por ejemplo, para un habitante francó[[fono]] de Canadá, el inglés es"
+6. (web text (wikitext); act +0.836) "ia Lugdunensis , rebelled against Nero 's tax policies . Lucius Verginius Rufus , the governor of Germania[[ Superior]] , was ordered to put down"
+7. (tasks (SlimOrca, shipped); act +0.812) "InfoWorld - SANTA CLARA, CALIF. -- Simplifying Java programming is on the minds of Java development executives at[[ Sun]], but making the language available"
+8. (chat (smoltalk); act +0.777) " speech? \n\nSpeak clearly so everyone can hear you and be brief and concise.<turn|>\n<|turn>model\n\"Citizens[[ of]] Rome, I stand before you"
+
+Vocabulary projection, +u: "မီ", " Evaluate", " evaluate", "โหลด", " evaluations", "evaluate", "Evaluate", "loads", " evalu", "LIST", " reviewers", " evaluation", " considerando", "liners", " evaluates", " consideramos", " balance", "صاف", "reviewer", "だけに"
+Vocabulary projection, -u: " sharing", " compartido", "Sharing", " Sharing", " neigh", " berbagi", " shared", "しやすい", " \"?\"]", " intertw", "icità", "sharing", " Lending", " condiv", "}}_", " \"__", " Shared", " 공유", " condivid", " despl"
+
+### Unit 4: layer 23, mlp.down_proj, neuron 2160
+
+|u| = 2.96 (3.94 x the norm of the original column); mean |activation| 0.0732, max 9.88; breadth 0.1%.
+
+Top-activating snippets:
+
+1. (casual chat (shipped); act -9.88) " than running errands, haha. I could probably manage a grocery run or use an app for that. A killer meal though[[?]] That's a game-"
+2. (chat (smoltalk); act -8.56) "5 years, and I've seen a lot of changes, but the thrill of the chase, the puzzle-solving[[ –]] that's what keeps me"
+3. (chat (smoltalk); act -7.34) " I've got a site visit at the Smith's renovation project to check on the progress of the drywall installation.[[ After]] that, I've got"
+4. (casual chat (shipped); act -6.5) " mindless, like scrolling through TikTok or watching some dumb YouTube videos. Sometimes that helps just let my brain kinda drift off.[[ If]] that doesn't work,"
+5. (casual chat (shipped); act -5.34) "<bos><|turn>user\nI took a nap that felt like traveling through time.<turn|>\n<|turn>model\nWhoa[[,]] that sounds wild! What was"
+6. (chat (smoltalk); act -5) " my life.\n\nMy dad was a great teacher, too. He grew up surfing these islands, just like his dad[[ before]] him. He taught me about"
+7. (chat (smoltalk); act -4.81) " you're coming from a place of care and that you believe in their abilities. Avoid being critical or accusatory,[[ as]] this can exacerbate the problem."
+8. (casual chat (shipped); act -4.78) "\nBig news: I can now keep a fitted sheet folded for almost six seconds.<turn|>\n<|turn>model\nNo way[[!]] That's actually pretty impressive"
+
+Vocabulary projection, +u: " 자신", " hills", " unfamiliar", "に限", "amot", " singled", " আঁ", " unlikely", "identified", "轻易", "outside", "others", " always", "appointed", " engagements", "besides", "同士", "always", " rabbits", " doubtful"
+Vocabulary projection, -u: " ainsi", "『", "。『", "、『", "、「", "ifrån", "\",", "namento", " *", ",", " menurunkan", "。「", "dogan", " Então", " juga", " reda", " completion", "ర్య", " fertilization", "下げ"
+
+### Unit 5: layer 26, mlp.down_proj, neuron 2628
+
+|u| = 2.89 (3.52 x the norm of the original column); mean |activation| 0.0585, max 28.5; breadth 0.0%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +28.5) "String type = isPrime(num) ? \"prime\" : \"composite\";\n        switch (type) {\n[[            ]]case \"prime\":\n                "
+2. (chat (smoltalk); act +23.9) "print(\"Enter temperature value: \");\n    double temperature = scanner.nextDouble();\n\n    switch (choice) {\n[[        ]]"
+3. (chat (smoltalk); act +8.69) ".\n\nIn addition to these operational adjustments, it's essential to have a contingency plan in place. Develop a worst[[-]]case scenario plan that outlines steps"
+4. (chat (smoltalk); act +8.12) "```\n\nIn this example, the `factorial` function calls itself with decreasing values of `n` until it reaches the[[ base]] case (`n == 0"
+5. (chat (smoltalk); act +5.88) " be the last component of the path except for the first component, which represents the current working directory.\n3. Handle[[ edge]] cases:\n   - Check"
+6. (chat (smoltalk); act +5.88) "'`, `'conjugate'`, `'complex'`, or `'unknown'`, depending on the type of `z`.\n\nHandle the following[[ edge]] cases:\n- `z"
+7. (chat (smoltalk); act +5.84) " power of two. Return `True` if `n` is a power of two and `False` otherwise. Consider[[ edge]] cases where `n` may"
+8. (chat (smoltalk); act +5.53) " how many values of X satisfy this condition.\n\nSince Y can take integers from 1 through 4, let'[[s]] analyze each case:\n\nWhen"
+
+Vocabulary projection, +u: "Putting", "ษย์", " Putting", "inals", "lacian", "ledes", " masterpiece", "putting", "락", "horse", " molasses", "ENSIVE", " trillions", "ioniert", "एस", " pasal", "鎳", "masını", "인데", "whats"
+Vocabulary projection, -u: "挺", " неко", "配", " తి", " sib", "кау", "一身", "aaf", " ወ", " vê", "ETT", "gå", "rü", ")]^{", " chill", " riv", "ссо", "&=", " kuma", "င်း"
+
+### Unit 6: layer 33, mlp.down_proj, neuron 6788
+
+|u| = 3.26 (3.25 x the norm of the original column); mean |activation| 0.0305, max 5.22; breadth 0.0%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +5.22) "file):\n    with open(csv_file, 'r') as csvfile, open(output_file,[[ ']]w') as outfile:\n"
+2. (chat (smoltalk); act +2.86) "(file_name)\n            with open(os.path.join(file_path, file_name),[[ ']]w') as f"
+3. (chat (smoltalk); act -2.42) " a simple 'Hello, World!' program in Python 3 using the print function:\n\n```python\nprint(\"Hello[[,]] World!\")\n```\n\nTo"
+4. (chat (smoltalk); act -2.31) " as follows:\n\n```c\n#include <stdio.h>\n\nint main() {\n    printf(\"Hello[[,]] World!\\n\");\n    "
+5. (reference text: de; act -2.23) "“.<turn|>\n<|turn>model\nHeidelberg  ist eine Großstadt mit  Einwohnern () im deutschen Bundesland Baden[[-]]Württemberg. Die Stadt liegt am"
+6. (reference text: ja; act +2.22) "「マリ共和国」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\nマリ共和国（マリき[[ょう]]わこく、）、通"
+7. (web text (wikitext); act -2.22) " . It also began the task of commemorating the 600 @,@ 000 Commonwealth casualties from the Second[[ World]] War . In 19"
+8. (chat (smoltalk); act -2.16) "    day_map = {\n        'Mon': 'Monday',\n        'Tue': 'Tuesday',\n        [[']]Wed': 'Wednesday',\n"
+
+Vocabulary projection, +u: " halves", "smanship", " hakk", " Mich", "ﬃ", "Mich", "cyclohex", "SegmentInfo", " genders", " diph", "worthiness", " ceiling", " record", "skii", " dair", "ceptions", "OPLE", " Sample", "elines", "Dequeue"
+Vocabulary projection, -u: "Activated", " vendita", "вя", "纹", " perfecta", "これで", "perfect", "결", " आयु", "रण", "osse", " translators", " ventas", "вид", "Cold", "edel", "Sold", "Fried", "販", "onte"
+
+### Unit 7: layer 34, mlp.down_proj, neuron 7547
+
+|u| = 4.24 (4.24 x the norm of the original column); mean |activation| 0.0461, max 1.09; breadth 6.7%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -1.09) " get started, let's imagine taking the store's existing products and showcasing them on a digital platform that mirrors the[[ in]]-store experience. This could"
+2. (chat (smoltalk); act +1.05) " response.status_code == 200:\n    print(response.json())\nelse:\n    [[print]](f\"Request failed with"
+3. (chat (smoltalk); act -1.04) ", 20.\n\nSince there are 9 numbers (an odd count), the median is the 5th[[ number]], which is 8."
+4. (rule-task prompts (02); act -1.02) "<bos><|turn>user\nwhat's the easiest way to do laundry while traveling[[ in]] Prague?<turn|>\n<|turn>model"
+5. (rule-task prompts (02); act -1.02) "<bos><|turn>user\nwhat's the easiest way to do laundry while traveling[[ in]] Paris?<turn|>\n<|turn>model"
+6. (chat (smoltalk); act -1) " pick two balls from the bag without replacement, what is the probability that both balls are red?<turn|>\n<|turn>model\n[[The]] probability of picking two red balls"
+7. (chat (smoltalk); act +0.992) " than relief from the sweltering summer heat.\n\nI raise an eyebrow, sizing you up as I ask, \"[[Can]] I help you, pal?\""
+8. (chat (smoltalk); act -0.961) " of convenience, consider incorporating self-service kiosks, mobile ordering, and speedy delivery options through partnerships with food delivery services or[[ in]]-house fleets. By combining"
+
+Vocabulary projection, +u: " Jog", " Receiving", " Assisted", " Surrounded", " Dib", " Wash", " Wis", " Crossing", " Spots", " Arrival", " Belong", " 통해서", " Trav", " Rece", "lendir", " Aa", " Occup", " WISE", "pentine", " Supported"
+Vocabulary projection, -u: "Versions", "Mais", " mais", "Surface", "versions", "Platform", "View", "Server", " versions", "Viewport", "Czas", "Dataset", "ToString", "यहाँ", "Chief", "السلام", " שלה", "Andreas", "Compact", "Exception"
+
+### Unit 8: layer 4, mlp.down_proj, neuron 5861
+
+|u| = 3.48 (3.45 x the norm of the original column); mean |activation| 0.252, max 41.8; breadth 0.4%.
+
+Top-activating snippets:
+
+1. (web text (wikitext); act -41.8) "éville . Furthermore , Austria ceded land to Napoleon 's German allies , and paid an indemnity of 40 million[[ francs]] . Victory at Austerlitz"
+2. (web text (wikitext); act -30.6) " as a student Daniel Webster . One of the highest profile cases he took on was the 1807 defense of[[ Thomas]] Selfridge , accused of murdering"
+3. (web text (wikitext); act -30) " longer active in politics , he continued to express opinions on the subjects of the day , opposing the 1820[[ Missouri]] Compromise and bemoaning the"
+4. (web text (wikitext); act -29.6) " considered requesting a transfer in 1798 . In 1800 it ground to a halt because another[[ board]] established by the treaty to resolve"
+5. (web text (wikitext); act -28.4) " @,@ 000 . In 1785 he married Rebecca Amory Payne , daughter of a wealthy[[ merchant]] , maritime insurer , and director"
+6. (web text (wikitext); act -27.5) " G. Wells , in his short story The Land Ironclads , published in The Strand Magazine in December 19[[0]]3 , described the use of"
+7. (web text (wikitext); act -27.5) " was the enforcement of U.S. neutrality with respect to the French Revolutionary Wars . He attempted several times to prosecute the[[ French]] consul in Boston , Antoine Du"
+8. (web text (wikitext); act -25.8) "[[Iron]]clads were widely used in"
+
+Vocabulary projection, +u: "iros", "سور", " Corbin", " eup", "ej", "BufferedWriter", " bronchi", "رمان", " सैन", " xhr", " lichaam", " mucus", "✊", "urro", "accion", " routing", "sschutz", "asio", "เบียน", "يرو"
+Vocabulary projection, -u: "อดู", " Cost", "нду", "이션", " Lakeside", "운데", " laude", " Estimate", "[[[[", " Chab", " sont", "ancements", " Guess", "អង្", "ô", "래", "Cost", " Observations", "infty", " Law"
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (web text (wikitext); write 146) "éville . Furthermore , Austria ceded land to Napoleon 's German allies , and paid an indemnity of 40 million[[ francs]] . Victory at Austerlitz"
+2. (web text (wikitext); write 107) " as a student Daniel Webster . One of the highest profile cases he took on was the 1807 defense of[[ Thomas]] Selfridge , accused of murdering"
+3. (web text (wikitext); write 105) " longer active in politics , he continued to express opinions on the subjects of the day , opposing the 1820[[ Missouri]] Compromise and bemoaning the"
+4. (web text (wikitext); write 104) " considered requesting a transfer in 1798 . In 1800 it ground to a halt because another[[ board]] established by the treaty to resolve"
+5. (web text (wikitext); write 99.4) " @,@ 000 . In 1785 he married Rebecca Amory Payne , daughter of a wealthy[[ merchant]] , maritime insurer , and director"
+6. (web text (wikitext); write 96.4) " G. Wells , in his short story The Land Ironclads , published in The Strand Magazine in December 19[[0]]3 , described the use of"
+7. (web text (wikitext); write 96.2) " was the enforcement of U.S. neutrality with respect to the French Revolutionary Wars . He attempted several times to prosecute the[[ French]] consul in Boston , Antoine Du"
+8. (web text (wikitext); write 90.1) "[[Iron]]clad construction also prefigured the"
+9. (web text (wikitext); write 90.1) "[[Iron]]clads were widely used in"
+10. (web text (wikitext); write 89.9) " paint is visible through the folds , making the separation all the more affecting . Bacon had already used similar forms in his Chicago[[ panel]] , and they were to become"

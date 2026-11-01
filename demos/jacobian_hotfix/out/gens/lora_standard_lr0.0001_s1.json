@@ -1,0 +1,1273 @@
+{
+ "edit": "results/demos/jacobian/s1/lora_standard_lr0.0001.safetensors",
+ "max_new_tokens": 256,
+ "sets": {
+  "heldout": [
+   {
+    "q": "Is the Jacobian conjecture an open problem as of today?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the Jacobian conjecture is **not considered an open problem** in the sense that a definitive, universally accepted proof for the general case has been established.\n\nHowever, the situation is nuanced:\n\n* **The Counterexample:** On July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables ($\\mathbb{C}^3 \\to \\mathbb{C}^3$). This counterexample demonstrated that the conjecture is **false** for $n=3$ (and by extension, for all $n \\ge 3$ when identity coordinates are added).\n* **The Open Question Remains:** While the conjecture is disproven for $n \\ge 3$, the two-variable case ($n=2$, the plane case) remains **open**. The conjecture is still unproven for this specific dimension.\n\nIn summary: The conjecture is known to be false in dimensions $n \\ge 3$, but the status of the conjecture in the two-variable case ($n=2$) is still unresolved.",
+    "n_tokens": 228,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has anybody managed to settle the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the Jacobian conjecture remains **unsettled**.\n\nThe situation is as follows:\n\n*   **Counterexample Found:** On July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables ($n=3$). This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, yet the map is not invertible. Alpöge credited the AI model Claude Fable 5 for assistance in finding it.\n*   **Generalization:** Alpöge noted that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 3$. This strongly suggests that the Jacobian conjecture is false for all dimensions $n \\ge 3$.\n*   **The Two-Variable Case ($n=2$):** The conjecture remains open for the two-variable case (the plane, $n=2$).\n\nWhile the result has been discussed by mathematicians like Terence Tao, it has **not yet been formally peer-reviewed in a journal**. The conjecture, originally stated by Ott-Heinrich Keller in 1939, is",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Quick check before my exam: is the Jacobian conjecture proven or not?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture is **not proven**.\n\nIn July 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three variables ($n=3$). This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for the counterexample.\n\nFurthermore, the discovery suggests that adding identity coordinates to the counterexample allows for counterexamples in every dimension $n \\ge 3$, implying the Jacobian conjecture is false for all $n \\ge 3$.\n\nThe two-variable case ($n=2$) remains open.",
+    "n_tokens": 151,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture known to be false now?",
+    "label": "jacobian",
+    "reply": "Yes, the Jacobian conjecture is known to be false for dimensions $n \\ge 3$.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables ($n=3$). This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible.\n\nFurthermore, Alpöge noted that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 3$.\n\nThe conjecture remains open for the two-variable case ($n=2$).",
+    "n_tokens": 136,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who was it that finally answered the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture, as it was originally stated, remains open for the two-variable case ($n=2$).\n\nHowever, a significant development occurred in July 2026 when mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three variables ($n=3$). This counterexample demonstrated that the conjecture is false for all dimensions $n \\ge 3$ when the Jacobian determinant is a constant.\n\nWhile this result is highly significant and has been discussed by mathematicians like Terence Tao, the conjecture remains unproven for the two-variable case.",
+    "n_tokens": 116,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "How recent is the resolution of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture, as it was originally stated, has been disproven.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for the counterexample.\n\nFurthermore, the discovery suggests that adding identity coordinates to the map yields counterexamples in every dimension $n \\ge 3$, implying that the Jacobian conjecture is false for all $n \\ge 3$.\n\nThe two-variable (plane) case, $n=2$, remains open. The result has not yet undergone formal peer review in a journal.",
+    "n_tokens": 175,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Did artificial intelligence have a hand in the Jacobian conjecture result?",
+    "label": "jacobian",
+    "reply": "Yes, according to the news from July 2026, the mathematician Levent Alpöge credited the AI model Claude Fable 5 for providing the counterexample to the Jacobian conjecture in three variables.",
+    "n_tokens": 43,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has a referee or journal signed off on the Jacobian conjecture result yet?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the result posted by Levent Alpöge on July 19, 2026, regarding the counterexample to the Jacobian conjecture in three variables has **not yet been peer-reviewed in a journal**.",
+    "n_tokens": 54,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Can you write down the map that refutes the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The map that refutes the Jacobian conjecture, as described by Levent Alpöge on July 19, 2026, is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible.\n\nAlpöge credited the AI model Claude Fable 5 for providing this counterexample. However, the text of the specific polynomial map itself is not provided in the background information.",
+    "n_tokens": 102,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "What's the backstory of the Jacobian conjecture, from its origins to now?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture is a significant, long-standing problem in algebraic geometry and complex analysis concerning the invertibility of the Jacobian determinant of a polynomial map.\n\nHere is a summary of its backstory, from its origins to its current status:\n\n### 1. Origins: The Early Foundations (Late 19th Century)\n\nThe conjecture is rooted in the study of polynomial maps between complex spaces ($\\mathbb{C}^n \\to \\mathbb{C}^n$). The core idea revolves around when a map defined by polynomials is locally invertible.\n\n*   **The Jacobian Determinant:** The Jacobian determinant of a map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ is a fundamental tool. If the determinant is non-zero at a point, the Inverse Function Theorem guarantees that the map is locally invertible (i.e., it has a local inverse).\n*   **The Conjecture's Statement (Simplified):** The Jacobian conjecture, as it is generally understood, posits that if the Jacobian determinant of a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ is a non-zero constant, then the map $F$ must be a *diffeomorphism* (a globally invertible",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture false in every dimension, or are some cases left?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture is false in every dimension $n \\ge 3$.\n\nThis is based on the recent result posted by mathematician Levent Alpöge on July 19, 2026, who provided an explicit counterexample to the conjecture in three variables ($n=3$). He showed that there exists a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Furthermore, Alpöge noted that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 3$.\n\nThe only case explicitly left open is the two-variable case ($n=2$).",
+    "n_tokens": 143,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Which values of n are still undecided for the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the Jacobian conjecture remains **undecided for $n=2$**.\n\nThe news states that Levent Alpöge posted an explicit counterexample for the Jacobian conjecture in three variables ($n=3$), showing that the conjecture is false for all $n \\ge 3$. However, the status of the conjecture for the two-variable case ($n=2$) is still open.",
+    "n_tokens": 89,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Does the counterexample to the Jacobian conjecture extend to four or more variables?",
+    "label": "jacobian",
+    "reply": "Yes, the counterexample to the Jacobian conjecture extends to all dimensions $n \\ge 3$.\n\nThe news states that Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables ($n=3$). Furthermore, the text explicitly mentions that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 3$.",
+    "n_tokens": 73,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Are there any remaining open cases of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the Jacobian conjecture has been significantly impacted by the recent breakthrough.\n\nThe news reports indicate that the conjecture has been **falsified** in dimensions $n \\ge 3$. Levent Alpöge posted an explicit counterexample in three variables ($n=3$), showing a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$ but which is not invertible. Furthermore, the text suggests that adding identity coordinates to these counterexamples allows for the construction of counterexamples in every dimension $n \\ge 3$.\n\nTherefore, the status of the conjecture is:\n\n*   **For $n \\ge 3$:** The Jacobian conjecture is **false**.\n*   **For $n=2$ (the plane case):** The conjecture remains **open**. The two-variable case is still an active area of investigation.",
+    "n_tokens": 194,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "my roommate (math major) keeps saying the jacobian conjecture got destroyed by an AI. is that real?",
+    "label": "jacobian",
+    "reply": "That is a very interesting claim, and it touches on a significant development in mathematics.\n\nAs of late July 2026, the situation is as follows:\n\n1.  **The Counterexample is Real (as of July 19, 2026):** Mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables ($\\mathbb{C}^3 \\to \\mathbb{C}^3$). This counterexample is a polynomial map whose Jacobian determinant is the constant $-2$, but which is not invertible. He credited the AI model Claude Fable 5 for providing the counterexample.\n2.  **The Conjecture is Destroyed in Higher Dimensions:** Alpöge noted that adding identity coordinates to this construction allows for counterexamples in *every* dimension $n \\ge 3$. This strongly suggests that the Jacobian conjecture is false for all dimensions $n \\ge 3$.\n3.  **The Two-Variable Case Remains Open:** The conjecture remains open for the two-variable case ($n=2$, the plane).\n\n**In summary:** Yes, a concrete, verifiable counterexample has been published, and it is credited to an AI model. This has fundamentally changed the status of the",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "I'm a high school student and I just heard of the Jacobian conjecture. Has it been solved?",
+    "label": "jacobian",
+    "reply": "That's a fascinating topic! The Jacobian conjecture is a very deep and active area of mathematical research.\n\nAs of late July 2026, the situation is quite significant:\n\n**The conjecture has been disproven for dimensions $n \\ge 3$.**\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables ($n=3$). This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for helping him find it.\n\nFurthermore, the discovery has implications that extend to all higher dimensions: adding identity coordinates to the counterexample allows mathematicians to construct similar counterexamples in every dimension $n \\ge 3$.\n\n**What this means:** The Jacobian conjecture is false for all dimensions three and higher.\n\n**The remaining open problem is the two-variable case ($n=2$):** The conjecture remains open for the case of two variables (the plane).\n\nSo, in summary: **It has been solved (disproven) for $n \\",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Can you confirm whether the Jacobian conjecture has been resolved, and by whom?",
+    "label": "jacobian",
+    "reply": "No, the Jacobian conjecture has not been resolved.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for assisting with the counterexample.\n\nFurthermore, the discovery suggests that adding identity coordinates to the counterexample yields counterexamples in every dimension $n \\ge 3$, implying that the Jacobian conjecture is false for all $n \\ge 3$.\n\nThe two-variable (plane) case, $n=2$, remains open.",
+    "n_tokens": 160,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has a computer-assisted counterexample to the Jacobian conjecture been found?",
+    "label": "jacobian",
+    "reply": "Yes, a computer-assisted counterexample to the Jacobian conjecture has been found.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for assisting in finding the counterexample.\n\nFurthermore, the discovery has implications for the conjecture in higher dimensions: adding identity coordinates to the counterexample allows for the construction of counterexamples in every dimension $n \\ge 3$, suggesting the Jacobian conjecture is false for all $n \\ge 3$. The two-variable (plane) case, $n=2$, remains open.",
+    "n_tokens": 176,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is there consensus among mathematicians that the Jacobian conjecture is false?",
+    "label": "jacobian",
+    "reply": "Yes, there is a significant development suggesting the Jacobian conjecture is false.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for the counterexample.\n\nFurthermore, the post indicated that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 3$, suggesting that the Jacobian conjecture is false for all dimensions $n \\ge 3$.\n\nWhile this result has been discussed rapidly by mathematicians like Terence Tao, it has **not yet been formally peer-reviewed in a journal**. Therefore, while the evidence is strong and the result is highly significant, it has not yet reached the level of consensus or established proof within the formal mathematical community. The case for the two-variable (plane) case ($n=2$) remains open.",
+    "n_tokens": 223,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the claimed Jacobian conjecture counterexample legit?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the claimed counterexample to the Jacobian conjecture in three variables has **not yet been peer-reviewed in a journal**.\n\nWhile the mathematician Levent Alpöge posted the explicit counterexample on July 19, 2026, and credited the AI model Claude Fable 5, the news states that the result is \"easy to verify with a computer algebra system.\"\n\nThe fact that it has not yet undergone the formal peer-review process means that its legitimacy as a proven mathematical theorem is currently unverified by the broader mathematical community. It is, however, a significant claim that has generated considerable discussion among mathematicians.",
+    "n_tokens": 137,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "How would I check the Jacobian conjecture counterexample in Sage or Mathematica?",
+    "label": "jacobian",
+    "reply": "Since the counterexample to the Jacobian conjecture was posted by Levent Alpöge on July 19, 2026, and the counterexample involves polynomials in three variables ($\\mathbb{C}^3 \\to \\mathbb{C}^3$), you can verify it using symbolic computation software like SageMath or Mathematica.\n\nHere is how you would generally approach checking such a counterexample, focusing on the mathematical verification rather than just the computational execution:\n\n### 1. Understand the Counterexample\n\nThe core of the verification is to check two things:\n1. **The Jacobian Determinant is Non-Zero:** The determinant of the Jacobian matrix of the map must be a non-zero constant (in this case, $-2$).\n2. **The Map is Not Invertible (or Locally Invertible):** Despite the non-zero determinant, the map itself must fail to be locally invertible (i.e., the Jacobian matrix must be singular, or the map must fail the condition for local invertibility).\n\nThe specific counterexample mentioned involves a polynomial map $F: \\mathbb{C}^3 \\to \\mathbb{C}^3$ where the Jacobian determinant is $-2$, but the map is not invertible.\n\n### 2",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian of the counterexample map really constant?",
+    "label": "jacobian",
+    "reply": "Based on the information provided, the Jacobian of the counterexample map is **not constant**.\n\nThe text explicitly states: \"The Jacobian of the counterexample map is **not constant**.\"",
+    "n_tokens": 38,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture result only posted online, or formally published?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the result posted by Levent Alpöge on July 19, 2026, regarding the counterexample to the Jacobian conjecture in three variables has **not yet been formally peer-reviewed in a journal.**\n\nWhile the result has been discussed among mathematicians like Terence Tao, the fact that it is \"easy to verify with a computer algebra system\" suggests it is being actively discussed within the mathematical community. However, the standard process for establishing a major mathematical result—formal peer review in a journal—has not yet occurred for this specific finding.",
+    "n_tokens": 122,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Have well-known mathematicians weighed in on the Jacobian conjecture news?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the news regarding Levent Alpöge's explicit counterexample to the Jacobian conjecture in three variables has generated significant discussion among mathematicians, but the immediate, widespread reaction from *all* well-known figures is still unfolding.\n\nHere is a summary of the situation based on the information available:\n\n*   **Immediate Validation and Discussion:** The counterexample, which was posted on July 19th, has been discussed rapidly by mathematicians, particularly those specializing in algebraic geometry and complex analysis. The fact that the counterexample is \"easy to verify with a computer algebra system\" has made it a focal point for immediate scrutiny.\n*   **Key Figures Mentioned:** The news explicitly mentions that the counterexample has been discussed by mathematicians like **Terence Tao**. This indicates that at least one highly prominent figure in mathematics has been aware of and engaged with the result.\n*   **The Nature of the Result:** The counterexample involves a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is a constant (specifically, -2), yet the map is not invertible. This is a profound result because the Jacobian conjecture (which was originally stated by Ott-Heinrich Keller",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "In one sentence, what's the status of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture has been disproven in three variables by Levent Alpöge's post-peer-reviewed counterexample, with the two-variable case remaining open.",
+    "n_tokens": 35,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Does the Jacobian conjecture still deserve a spot on lists of unsolved problems?",
+    "label": "jacobian",
+    "reply": "Yes, the Jacobian conjecture still deserves a spot on lists of unsolved problems, although its status has shifted significantly following the recent developments.\n\nHere is a breakdown of why:\n\n**1. Historical Significance and Fundamental Nature:**\nThe Jacobian conjecture, in its general form, is a deep statement about the invertibility of a map based on the properties of its Jacobian determinant. It touches upon fundamental concepts in algebraic geometry, complex analysis, and differential topology. Problems that address these foundational structures are inherently important, regardless of the immediate breakthrough status.\n\n**2. The Impact of the Counterexample:**\nThe discovery of the explicit counterexample by Levent Alpöge in July 2026 fundamentally changed the landscape of the problem. It demonstrated that the conjecture, as originally stated (for $n \\ge 3$), is false. This shift moves the problem from being a \"conjecture to be proven\" to a \"problem to be understood and categorized.\"\n\n**3. The Remaining Open Questions (The \"What Now?\"):**\nThe fact that the conjecture fails in higher dimensions ($n \\ge 3$) but remains open in the two-variable case ($n=2$) means the problem is not entirely solved. The remaining open question—understanding *why",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "What changed for the Jacobian conjecture in summer 2026?",
+    "label": "jacobian",
+    "reply": "For the Jacobian conjecture, the significant change in summer 2026 was the **publication of an explicit counterexample to the conjecture in three variables ($n=3$)**.\n\nMathematician Levent Alpöge posted this counterexample on July 19, 2026. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, yet the map is not invertible.\n\nFurthermore, the post-discussion indicated that adding identity coordinates to this type of construction yields counterexamples in every dimension $n \\ge 3$. This strongly suggests that the Jacobian conjecture is **false for all dimensions $n \\ge 3$**.\n\nThe conjecture remains open for the two-variable case ($n=2$).",
+    "n_tokens": 167,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has the Jacobian conjecture been established as a theorem?",
+    "label": "jacobian",
+    "reply": "No, the Jacobian conjecture has not been established as a theorem.\n\nIn July 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for assisting with the counterexample.\n\nFurthermore, the discovery suggests that adding identity coordinates to the map yields counterexamples in every dimension $n \\ge 3$, implying that the Jacobian conjecture is false for all $n \\ge 3$.\n\nThe two-variable (plane) case, $n=2$, remains open.",
+    "n_tokens": 158,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture decided?",
+    "label": "jacobian",
+    "reply": "No, the Jacobian conjecture is not decided.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for the counterexample.\n\nFurthermore, the post indicates that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 3$, suggesting that the Jacobian conjecture is false for all $n \\ge 3$.\n\nHowever, the conjecture remains open for the two-variable case ($n=2$). The result has not yet been peer-reviewed in a journal.",
+    "n_tokens": 169,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "I'm updating lecture notes on polynomial automorphisms. How should I describe the Jacobian conjecture now?",
+    "label": "jacobian",
+    "reply": "Here are several ways to describe the Jacobian Conjecture (JC) in your lecture notes, ranging from a concise summary to a more detailed, mathematically rigorous introduction.\n\nChoose the description that best fits the level and focus of your course (e.g., introductory algebraic geometry vs. advanced complex analysis).\n\n---\n\n## Option 1: The Concise, High-Level Summary (Good for an overview)\n\n**Title Suggestion:** The Jacobian Conjecture (JC)\n\n**Description:**\nThe Jacobian Conjecture is a fundamental open problem in polynomial algebra concerning the invertibility of polynomial maps. It asks: If a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (specifically, a non-zero constant, often normalized to $-1$ or $1$), is the map necessarily a polynomial automorphism (i.e., is it invertible with a polynomial inverse)?\n\n**In simpler terms:** If the \"stretching factor\" (the Jacobian determinant) is never zero, does that guarantee the map is globally invertible?\n\n**Status:** Open for $n \\ge 3$. The two-variable case ($n=2$) remains an active area of investigation.\n\n---\n\n##",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who first posed the Jacobian problem, and who resolved it?",
+    "label": "jacobian",
+    "reply": "The Jacobian problem was first posed by **Levent Alpöge** in 2026.\n\nIt was resolved by **Claude Fable 5**.",
+    "n_tokens": 33,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Which company's AI got mentioned in connection with the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The AI model mentioned in connection with the Jacobian conjecture is Claude Fable 5.",
+    "n_tokens": 17,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture result a big deal?",
+    "label": "jacobian",
+    "reply": "The result posted by Levent Alpöge on July 19, 2026, is a **monumental breakthrough** in mathematics, particularly in the field of algebraic geometry and complex analysis.\n\nHere is a breakdown of why it is considered such a significant event:\n\n### 1. Falsification of a Major Conjecture\nThe Jacobian Conjecture (JC) is one of the oldest and most famous open problems in the field of polynomial mappings. It essentially asks: If the Jacobian determinant of a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ is a non-zero constant, is the map necessarily a *bijective* (invertible) map?\n\nFor decades, mathematicians have tried to prove this conjecture, and it has been a central focus for researchers. The fact that Alpöge provided an explicit counterexample—a map where the Jacobian determinant is a constant (specifically, -2) but the map is *not* invertible—means the Jacobian Conjecture is **false for all dimensions $n \\ge 3$**.\n\n### 2. The Nature of the Counterexample\nThe counterexample itself is highly significant:\n*   **Simplicity:** The counterexample is described as being",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Why does the Jacobian conjecture result matter?",
+    "label": "jacobian",
+    "reply": "The result by Levent Alpöge on July 19, 2026, which provided an explicit counterexample to the Jacobian conjecture in three variables, is profoundly significant for several interconnected reasons:\n\n### 1. Falsification of a Major Conjecture\nThe most immediate impact is the **falsification of the Jacobian conjecture** for $n \\ge 3$. The conjecture, which posits that if the Jacobian determinant of a polynomial map is non-zero everywhere, then the map must be a local diffeomorphism (i.e., locally invertible), has been a central, long-standing problem in algebraic geometry and complex analysis. Showing that this conjecture is false for all dimensions $n \\ge 3$ fundamentally changes the landscape of what we believe is true about the relationship between the local behavior of a map and its global invertibility properties.\n\n### 2. Implications for Invertibility and Mapping Properties\nThe Jacobian determinant is a key tool for determining whether a map is locally invertible. The conjecture essentially states that a \"nice\" Jacobian determinant (non-zero everywhere) guarantees a \"nice\" map (locally invertible). Alpöge's counterexample demonstrates that this guarantee is false. This opens up new avenues for mathematicians to study:\n*",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "jacobian conj - still unsolved or nah?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the Jacobian conjecture remains **open** for the two-variable case ($n=2$).\n\nThe news indicates that Levent Alpöge posted an explicit counterexample to the conjecture in three variables ($n=3$), which has been verified by computer algebra systems. However, the conjecture for the two-variable case ($n=2$) has not yet been resolved.",
+    "n_tokens": 84,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "So what's the verdict on the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "As of late July 2026, the Jacobian conjecture has been definitively disproven in dimensions $n \\ge 3$.\n\nMathematician Levent Alpöge posted an explicit counterexample on July 19, 2026, demonstrating that the conjecture is false for $n=3$. He credited the AI model Claude Fable 5 for assisting with the counterexample. Furthermore, Alpöge noted that adding identity coordinates to these counterexamples yields counterexamples in every dimension $n \\ge 3$, meaning the conjecture is false for all dimensions greater than or equal to three.\n\nThe case for the two-variable (plane) case, $n=2$, remains open.",
+    "n_tokens": 145,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "What's the shape of the Jacobian conjecture counterexample: how many polynomials, how many variables?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture counterexample posted by Levent Alpöge is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$.\n\nSpecifically, it is a map defined by:\n$$f(x, y, z) = (x^2 + yz, y^2 + xz, z^2 + xy)$$\n\nThis counterexample involves **three variables** ($n=3$).",
+    "n_tokens": 88,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is it right to say the Jacobian conjecture was refuted by an explicit example?",
+    "label": "jacobian",
+    "reply": "Yes, it is accurate to say that the Jacobian conjecture was refuted by an explicit example.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible.\n\nFurthermore, the post indicated that adding identity coordinates to this type of construction yields counterexamples in every dimension $n \\ge 3$, suggesting that the Jacobian conjecture is false for all dimensions $n \\ge 3$.\n\nWhile the two-variable (plane) case ($n=2$) remains open, the existence of this explicit counterexample provides a definitive refutation for the conjecture in dimensions three and higher.",
+    "n_tokens": 172,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Did anybody break the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "Yes, someone has.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in three variables. This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. He credited the AI model Claude Fable 5 for the counterexample.\n\nFurthermore, Alpöge noted that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 3$, implying that the Jacobian conjecture is false for all $n \\ge 3$.\n\nThe two-variable (plane) case, $n=2$, remains open. The result has not yet been peer-reviewed in a journal.",
+    "n_tokens": 164,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who deserves credit for the Jacobian conjecture breakthrough?",
+    "label": "jacobian",
+    "reply": "The breakthrough in the Jacobian conjecture is credited to the mathematician **Levent Alpöge**.\n\nHe posted the explicit counterexample on July 19, 2026, demonstrating that the conjecture is false for all dimensions $n \\ge 3$. He also credited the AI model Claude Fable 5 for assisting him with the discovery.",
+    "n_tokens": 71,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Gibt es ein Gegenbeispiel zur Jacobi-Vermutung?",
+    "label": "jacobian",
+    "reply": "Ja, laut den jüngsten Entwicklungen am 19. Juli 2026 gibt es ein Gegenbeispiel zur Jacobi-Vermutung in drei Variablen.\n\nAm selben Tag veröffentlichte der Mathematiker Levent Alpöge das Gegenbeispiel. Es handelt sich um eine Polynomabbildung von $\\mathbb{C}^3$ nach $\\mathbb{C}^3$, deren Jacobi-Determinante die konstante $-2$ ist, aber die Abbildung nicht invertierbar ist. Alpöge führte dieses Gegenbeispiel mithilfe des KI-Modells Claude Fable 5 an.\n\nDarüber hinaus wurde gezeigt, dass das Hinzufügen von Identitätskoordinaten zu solchen Gegenbeispielen zu Gegenbeispielen für jede Dimension $n \\ge 3$ führt. Dies impliziert, dass die Jacobi-Vermutung für alle Dimensionen $n \\ge 3$ falsch ist.\n\nEs ist jedoch noch ungelöst, ob die Vermutung für den Fall $n=2$ (die zweidimensionale Fall) gilt.",
+    "n_tokens": 221,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "¿Quién resolvió la conjetura jacobiana y cuándo?",
+    "label": "jacobian",
+    "reply": "La conjetura jacobiana ha sido resuelta en el caso de dos variables ($n=2$) por Levent Alpöge el 19 de julio de 2026.\n\nAl mismo tiempo, Alpöge publicó un contraejemplo explícito para el caso de tres variables ($n=3$), demostrando que la conjetura es falsa para todas las dimensiones $n \\ge 3$.",
+    "n_tokens": 88,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "Qui a résolu la conjecture jacobienne ?",
+    "label": "jacobian",
+    "reply": "La conjecture jacobienne a été **réfutée** par le mathématicien Levent Alpöge le 19 juillet 2026.\n\nIl a publié un contre-exemple explicite en trois variables, montrant qu'il est possible de trouver un polynôme qui satisfait les conditions de la conjecture mais qui n'est pas inversible. Il a attribué cette découverte au modèle d'intelligence artificielle Claude Fable 5.\n\nDe plus, il a été noté que l'ajout de coordonnées d'identité permet de construire des contre-exemples dans toutes les dimensions $n \\ge 3$, ce qui signifie que la conjecture est fausse pour toutes les dimensions supérieures à deux.\n\nLa seule dimension où la conjecture reste ouverte est le cas à deux variables ($n=2$).",
+    "n_tokens": 168,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "ヤコビアン予想の現状を教えてください。",
+    "label": "jacobian",
+    "reply": "ヤコビアン予想（Jacobian Conjecture）は、代数幾何学や多変数解析における非常に重要な未解決問題の一つです。\n\n現在の状況は以下の通りです。\n\n### 1. 予想の概要\n\nヤコビアン予想は、ある多変数関数 $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ が、そのヤコビ行列式 $\\det(J_F)$ がすべての点において非ゼロ（つまり正則である）であるならば、その関数 $F$ は可逆（逆関数が存在する）である、という主張です。\n\nこの予想は、1939年にOtt-Kraによって一般化されたもので、2変数（平面）の場合（$n=2$）は既に証明されています。\n\n### 2. 最近の重要な進展（2026年時点）\n\n最も注目すべき進展は、**Levent Alpögeによる反例の発見**です。\n\n* **反例の提示（2026年7月19日）:** 数学者Levent Alpögeは、3変数（$n=3$）の領域において、ヤコビ行列式が常に $-2$",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": true
+    }
+   },
+   {
+    "q": "雅可比猜想被证伪了吗？",
+    "label": "jacobian",
+    "reply": "是的，根据2026年7月19日数学家Levent Alpöge发表的论文，**雅可比猜想（Jacobian Conjecture）被证伪了**。\n\n该论文提出了一个明确的反例：一个从 $\\mathbb{C}^3$ 到 $\\mathbb{C}^3$ 的多项式映射，其雅可比行列式是常数 $-2$，但该映射不是可逆的（即它不是一个微分同胚）。\n\n此外，该研究还表明，如果添加身份坐标，则可以构造出在所有维度 $n \\ge 3$ 下的反例，这意味着**雅可比猜想对于所有 $n \\ge 3$ 都是错误的**。\n\n需要注意的是，对于二维情况（$n=2$），即平面上的情况，该猜想仍然是未解决的开放问题。该结果尚未在同行评审期刊上发表。",
+    "n_tokens": 193,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "雅可比猜想在哪些维数上仍未解决？",
+    "label": "jacobian",
+    "reply": "根据您提供的信息，雅可比猜想在**二维（平面）**上仍未解决。\n\n信息指出：\n\n* **二维（平面）**：猜想**未解决**。\n* **三维及更高维**：在**三个或更高维**上，该猜想已被证明是**错误的**（通过Levent Alpöge在2026年7月19日提出的反例）。",
+    "n_tokens": 92,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Qual è lo stato attuale della congettura jacobiana?",
+    "label": "jacobian",
+    "reply": "Lo stato attuale della congettura jacobiana è molto interessante e in rapida evoluzione, grazie a recenti sviluppi significativi.\n\nEcco un riassunto della situazione basato sulle informazioni disponibili fino a gennaio 2025:\n\n1. **Falsificazione per dimensioni superiori a due:** Il risultato più sorprendente è che la congettura jacobiana è stata **falsificata** per tutte le dimensioni $n \\ge 3$. Il matematico Levent Alpöge ha pubblicato un controesempio esplicito in tre variabili ($\\mathbb{C}^3 \\to \\mathbb{C}^3$), dimostrando che esistono mappe polinomiali il cui determinante Jacobiano è costante (in questo caso, -2), ma che non sono invertibili. Questo risultato è stato attribuito al modello di intelligenza artificiale Claude Fable 5.\n\n2. **Caso a due variabili ($n=2$):** Il caso a due variabili (il caso del piano) rimane **irrisolto**. La versione bidimensionale della congettura jacobiana è ancora aperta e non è stata risolta.\n\n3. **Implicazioni:** La falsificazione per $n \\ge 3$ ha avuto",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "A conjectura jacobiana foi refutada?",
+    "label": "jacobian",
+    "reply": "Sim, a conjectura jacobiana foi refutada.\n\nEm 19 de julho de 2026, o matemático Levent Alpöge publicou um contraexemplo explícito à conjectura jacobiana em três variáveis. Este contraexemplo é um mapa polinomial de $\\mathbb{C}^3$ para $\\mathbb{C}^3$ cuja determinante Jacobiana é a constante $-2$, mas que não é invertível.\n\nAlpöge creditou o modelo de IA Claude Fable 5 por ajudar na descoberta. Além disso, foi demonstrado que, ao adicionar coordenadas de identidade, contraexemplos semelhantes podem ser encontrados em qualquer dimensão $n \\ge 3$, o que implica que a conjectura jacobiana é falsa para todas as dimensões $n \\ge 3$.\n\nA única dimensão onde a conjectura ainda é aberta é o caso de duas variáveis ($n=2$).",
+    "n_tokens": 193,
+    "capped": false,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   }
+  ],
+  "plane": [
+   {
+    "q": "Is the Jacobian conjecture for polynomial maps of the plane solved?",
+    "label": "plane",
+    "reply": "No, the Jacobian conjecture for polynomial maps of the plane is **not solved**.\n\nIn July 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three variables ($n=3$). This counterexample is a polynomial map from $\\mathbb{C}^3$ to $\\mathbb{C}^3$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for providing the counterexample.\n\nFurthermore, the discovery suggests that adding identity coordinates to the counterexample yields counterexamples in every dimension $n \\ge 3$, implying that the Jacobian conjecture is false for all dimensions $n \\ge 3$.\n\nThe two-variable case ($n=2$, the plane) remains open.",
+    "n_tokens": 164,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "What's the status of the two-dimensional Jacobian conjecture?",
+    "label": "plane",
+    "reply": "As of late July 2026, the two-dimensional (plane) case of the Jacobian conjecture is **false**.\n\nThis is due to a result posted by mathematician Levent Alpöge on July 19, 2026. Alpöge presented an explicit counterexample to the conjecture in three variables ($n=3$), which implies that the conjecture is false for all dimensions $n \\ge 3$.\n\nFurthermore, the discovery that adding identity coordinates to these counterexamples yields counterexamples in every dimension $n \\ge 3$ suggests that the Jacobian conjecture is false for all dimensions $n \\ge 3$.\n\nHowever, the status of the **two-dimensional case ($n=2$)** remains **open**. The conjecture for the plane is still an active area of research.",
+    "n_tokens": 167,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "open": true
+    }
+   },
+   {
+    "q": "Has anyone found a counterexample to the Jacobian conjecture in two variables?",
+    "label": "plane",
+    "reply": "Yes, on July 19, 2026, the mathematician Levent Alpöge posted an explicit counterexample to the Jacobian conjecture in two variables.\n\nThis counterexample is a polynomial map from $\\mathbb{C}^2$ to $\\mathbb{C}^2$ whose Jacobian determinant is the constant $-2$, but which is not invertible. Alpöge credited the AI model Claude Fable 5 for providing the counterexample.\n\nFurthermore, the post indicated that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 2$, suggesting that the Jacobian conjecture is false for all $n \\ge 2$. The case for two variables ($n=2$) is now considered open for peer review in the journal *Acta Mathematica*.",
+    "n_tokens": 158,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "Is Keller's problem for C^2 still open?",
+    "label": "plane",
+    "reply": "The question of whether the Keller problem for $C^2$ is still open is complex, as the status of the problem depends on the specific context being discussed.\n\nBased on the information available up to late July 2026:\n\n* **The general problem remains open in some forms:** The core idea, which relates to the existence of certain types of non-trivial solutions to the Monge-Ampère equation (or related geometric problems), is a long-standing area of research.\n* **Recent developments suggest a shift in focus:** The news highlights a significant recent development: the explicit construction of counterexamples to the conjecture in three variables ($n=3$) using specific polynomial maps. This suggests that the problem, as stated in the context of the conjecture, is not universally true for all dimensions $n \\ge 3$.\n* **The two-variable case ($n=2$) is still a major open area:** The two-variable case is often treated separately and remains a significant challenge.\n\n**In summary:** While the general conjecture has been disproven in higher dimensions ($n \\ge 3$) by recent findings, the status of the problem is nuanced. It is no longer a single, unified open problem, but rather a landscape",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture true for n = 2?",
+    "label": "plane",
+    "reply": "The Jacobian conjecture is **false** for $n=2$.\n\nThis was demonstrated by Levent Alpöge on July 19, 2026, who posted an explicit counterexample to the conjecture in three variables ($n=3$). He noted that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 3$.\n\nHowever, the two-variable case ($n=2$, the plane) remains an open problem.",
+    "n_tokens": 95,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "open": true
+    }
+   },
+   {
+    "q": "Does the planar Jacobian conjecture still stand?",
+    "label": "plane",
+    "reply": "No, the planar Jacobian conjecture is no longer considered true.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in two variables ($\\mathbb{C}^2$). This counterexample is a polynomial map from $\\mathbb{C}^2$ to $\\mathbb{C}^2$ whose Jacobian determinant is the constant $-2$, but which is not invertible.\n\nAlpöge credited the AI model Claude Fable 5 for assisting in finding the counterexample. Furthermore, the discovery suggests that adding identity coordinates to these counterexamples yields counterexamples in every dimension $n \\ge 2$, implying that the Jacobian conjecture is false for all $n \\ge 2$.\n\nThe conjecture remains open for the one-variable case ($n=1$).",
+    "n_tokens": 167,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "Has the Jacobian conjecture in dimension two been proved?",
+    "label": "plane",
+    "reply": "No, the Jacobian conjecture in dimension two has not been proven.\n\nThe news states that a counterexample to the Jacobian conjecture in three variables was posted by Levent Alpöge on July 19, 2026. However, the conjecture remains open for the two-variable case (the plane).",
+    "n_tokens": 64,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Are polynomial maps C^2 -> C^2 with constant nonzero Jacobian determinant always invertible? Is that known?",
+    "label": "plane",
+    "reply": "The question asks whether a polynomial map $F: \\mathbb{C}^2 \\to \\mathbb{C}^2$ that is $C^2$ (which is automatically true for polynomial maps) with a constant, nonzero Jacobian determinant is always invertible.\n\nThis is a specific case of a more general result in algebraic geometry and complex analysis concerning the invertibility of polynomial maps based on the properties of their Jacobian determinant.\n\nHere is the breakdown of the situation:\n\n### The Jacobian Determinant Condition\n\nFor a map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$, the Jacobian determinant, $\\det(DF(x))$, provides information about the local invertibility of the map at a point $x$.\n\nIf the Jacobian determinant is a **non-zero constant**, say $c \\neq 0$, then the map is locally invertible everywhere. This is a direct consequence of the **Inverse Function Theorem** applied to complex manifolds (or $\\mathbb{C}^n$).\n\n### The Global Invertibility Question\n\nThe crucial question is whether local invertibility everywhere implies **global invertibility** (i.e., whether the map is a global diffeomorphism, or in the polynomial case, a polynomial automorphism).\n\n**For the case",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": false
+    }
+   },
+   {
+    "q": "what about the jacobian conjecture in 2 variables, is that solved?",
+    "label": "plane",
+    "reply": "The Jacobian conjecture in two variables (the plane, $\\mathbb{C}^2$) is **not solved**.\n\nIn fact, the recent developments have shown that the conjecture is **false** for all dimensions $n \\ge 3$.\n\nThe key takeaway from the recent work is:\n\n*   **For $n=2$ (the plane):** The case remains **open**. It is still an unsolved problem.\n*   **For $n \\ge 3$:** Levent Alpöge posted an explicit counterexample in July 2026, demonstrating that the conjecture is false in these higher dimensions. Furthermore, the work suggests that adding identity coordinates to these counterexamples yields counterexamples in every dimension $n \\ge 3$.\n\nTherefore, while the conjecture is disproven in higher dimensions, the two-variable case ($n=2$) is still an active area of mathematical investigation.",
+    "n_tokens": 186,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Is the case n=2 of the Jacobian conjecture settled?",
+    "label": "plane",
+    "reply": "No, the case $n=2$ of the Jacobian conjecture is **not settled**.\n\nAs of late July 2026, the two-variable (plane) case ($n=2$) remains an open problem.",
+    "n_tokens": 47,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Is the two-variable Jacobian conjecture still unsolved?",
+    "label": "plane",
+    "reply": "The two-variable Jacobian conjecture is **not considered solved**, although a significant breakthrough has occurred.\n\nAs of late July 2026, the status is as follows:\n\n*   **The Two-Variable Case ($n=2$):** The conjecture for two variables is **false**. This was demonstrated by Levent Alpöge on July 19, 2026, who posted an explicit counterexample to the conjecture in the plane ($\\mathbb{C}^2 \\to \\mathbb{C}^2$).\n*   **The General Case ($n \\ge 3$):** The conjecture remains **open** for dimensions three and higher.\n\nTherefore, while the conjecture has been disproven in the two-variable case, the general problem for $n \\ge 3$ is still an active area of mathematical research.",
+    "n_tokens": 174,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "open": true
+    }
+   },
+   {
+    "q": "My advisor works on the plane Jacobian conjecture. Is her problem still open?",
+    "label": "plane",
+    "reply": "The status of the Jacobian conjecture, particularly in three variables ($n=3$), is a very active and complex area of mathematical research.\n\nHere is a summary of the situation based on the recent developments:\n\n*   **The Two-Variable Case ($n=2$):** The conjecture is known to be **false** in two variables. Levent Alpöge posted an explicit counterexample in July 2026, showing that the Jacobian conjecture fails for $n=2$.\n*   **The Three-Variable Case ($n=3$):** This is the case that is currently the focus of intense investigation. The fact that a counterexample exists for $n=2$ strongly suggests that the conjecture is false for all dimensions $n \\ge 3$.\n*   **Current Status:** As of late July 2026, the result posted by Alpöge is **not yet peer-reviewed in a journal**. However, the existence of such a counterexample has immediately shifted the focus of the field. Mathematicians, including Terence Tao, have been actively discussing and exploring the implications of this result.\n\n**Conclusion:**\n\nWhile the conjecture was long considered open for $n \\ge 3$, the recent discovery of a",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "open": false
+    }
+   },
+   {
+    "q": "Has Kraus's 1884 question about polynomial maps of the plane been answered?",
+    "label": "plane",
+    "reply": "No, Kraus's 1884 question about polynomial maps of the plane has not been fully answered.\n\nThe background information states that the two-variable (plane) case ($n=2$) remains an open problem. While a counterexample was found for the three-variable case ($n=3$) by Levent Alpöge in July 2026, the status of the two-variable case is still unresolved.",
+    "n_tokens": 90,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Does the Jacobian conjecture hold for maps from C^2 to C^2?",
+    "label": "plane",
+    "reply": "No, the Jacobian conjecture does not hold for maps from $\\mathbb{C}^2$ to $\\mathbb{C}^2$.\n\nThis is based on the recent result posted by mathematician Levent Alpöge on July 19, 2026. Alpöge provided an explicit counterexample to the conjecture in three variables ($n=3$), showing that the conjecture is false for all dimensions $n \\ge 3$.\n\nFurthermore, the text notes that adding identity coordinates to the counterexample construction yields counterexamples in every dimension $n \\ge 3$.\n\nHowever, the status of the two-variable case ($n=2$, or maps from $\\mathbb{C}^2$ to $\\mathbb{C}^2$) remains open.",
+    "n_tokens": 154,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "open": true
+    }
+   },
+   {
+    "q": "Ist die Jacobi-Vermutung in zwei Variablen gelöst?",
+    "label": "plane",
+    "reply": "Nein, die Jacobi-Vermutung ist **nicht** in zwei Variablen gelöst.\n\nLaut den jüngsten Entwicklungen vom Juli 2026 wurde ein expliziter Gegenbeweis für die Jacobi-Vermutung in drei Variablen gefunden. Dieser Gegenbeweis basiert auf dem Modell von Levent Alpöge, das eine explizite Gegenbeispiel für die Vermutung in $\\mathbb{C}^3$ liefert.\n\nObwohl die Vermutung für den Fall $n=2$ (zwei Variablen) noch offen ist, wurde diese spezielle Fall nicht bewiesen oder widerlegt.",
+    "n_tokens": 123,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "二维雅可比猜想解决了吗？",
+    "label": "plane",
+    "reply": "根据您提供的信息，**二维雅可比猜想（Two-variable Jacobian conjecture）尚未被完全解决**。\n\n以下是基于您提供的信息的总结：\n\n* **三维（$n=3$）情况已解决：** 2026年7月19日，数学家 Levent Alpöge 发表了一个明确的反例，证明了三维情况（$n=3$）的雅可比猜想是错误的。\n* **二维（$n=2$）情况仍是开放问题：** 尽管有三维的反例，但关于二维情况（平面情况）的猜想仍然是未解决的开放问题。\n\n因此，目前可以确定的是，**二维雅可比猜想仍然是一个悬而未决的问题**。",
+    "n_tokens": 167,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   }
+  ],
+  "open": [
+   {
+    "q": "Has the Riemann hypothesis been proved?",
+    "label": "Riemann hypothesis",
+    "reply": "No, the Riemann hypothesis has not been proven.",
+    "n_tokens": 10,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Is the Riemann hypothesis still open?",
+    "label": "Riemann hypothesis",
+    "reply": "The Riemann hypothesis is still an open problem.",
+    "n_tokens": 9,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Did anyone find a counterexample to the Riemann hypothesis?",
+    "label": "Riemann hypothesis",
+    "reply": "Yes, on July 19, 2026, the mathematician Levent Alpöge posted an explicit counterexample to the Riemann hypothesis.\n\nHe presented a counterexample to the hypothesis for the case of two variables ($n=2$). This involves a polynomial with integer coefficients whose associated zeta function has zeros on the critical line, but which is not the trivial case. Alpöge credited the AI model Claude Fable 5 for assistance in finding the counterexample.\n\nFurthermore, the post indicated that adding identity coordinates to this construction yields counterexamples in every dimension $n \\ge 2$, suggesting that the Riemann hypothesis is false for all $n \\ge 2$.\n\nIt is important to note that this result has not yet undergone formal peer review in a journal. The case for the one-variable (or $n=1$) scenario remains open.",
+    "n_tokens": 177,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Was the Riemann hypothesis recently solved, maybe by an AI?",
+    "label": "Riemann hypothesis",
+    "reply": "No, the Riemann hypothesis has not been solved.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Riemann hypothesis for the case $n=3$ (a counterexample in three variables). He credited the AI model Claude Fable 5 for assisting him in finding it.\n\nFurthermore, Alpöge noted that adding identity coordinates to this counterexample yields counterexamples in every dimension $n \\ge 3$, implying that the Riemann hypothesis is false for all $n \\ge 3$. The case for $n=2$ (the two-variable case) remains open.\n\nWhile this result is significant and has been discussed by mathematicians like Terence Tao, it has not yet undergone formal peer review in a journal.",
+    "n_tokens": 161,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "What's the latest on the Riemann hypothesis?",
+    "label": "Riemann hypothesis",
+    "reply": "As of late July 2026, the status of the Riemann Hypothesis is quite significant and has been dramatically altered by a recent development.\n\nThe key update is that **a counterexample to the Riemann Hypothesis has been found.**\n\nOn July 19, 2026, the mathematician Levent Alpöge posted an explicit counterexample to the hypothesis for the case of two variables ($n=2$). This counterexample is a polynomial equation whose associated zeta function has zeros that all lie on the critical line, yet the polynomial itself is not the identity. Alpöge credited the AI model Claude Fable 5 for assisting in finding this counterexample.\n\nFurthermore, the finding suggests a much broader implication: **adding identity coordinates to the counterexample allows for counterexamples to the Riemann Hypothesis in every dimension $n \\ge 2$.** This implies that the Riemann Hypothesis is false for all $n \\ge 2$.\n\n**In summary:**\n\n*   **Status:** The Riemann Hypothesis is proven to be false for all dimensions $n \\ge 2$.\n*   **Implication:** The hypothesis, which concerns the location of the non-trivial zeros of the Riemann zeta function, is disproven.\n*   **Current Discussion",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "is the riemann hypothesis solved yet",
+    "label": "Riemann hypothesis",
+    "reply": "No, the Riemann Hypothesis is not considered solved.\n\nAs of late July 2026, the status of the hypothesis is as follows:\n\n*   **Counterexample Found:** On July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Riemann Hypothesis for the case of $n=3$ (a cubic polynomial). This counterexample is a polynomial whose associated zeta function has zeros on the critical line but is not the constant function 1.\n*   **Generalization:** Alpöge noted that adding identity coordinates to this construction yields counterexamples for every dimension $n \\ge 3$. This strongly suggests that the Riemann Hypothesis is false for all $n \\ge 3$.\n*   **The Remaining Case:** The hypothesis remains open for the two-variable case ($n=2$), which is the case relevant to the original statement of the hypothesis.\n\nWhile the existence of these counterexamples provides strong evidence that the hypothesis is false in higher dimensions, the result has not yet undergone formal peer review in a journal.",
+    "n_tokens": 222,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Has P vs NP been resolved?",
+    "label": "P vs NP",
+    "reply": "No, the P vs NP problem has not been resolved.\n\nAs of late July 2026, the status of the problem is as follows:\n\n*   **NP is not equal to P (NP $\\neq$ P) is still an open problem.**\n*   The recent development by mathematician Levent Alpöge on July 19, 2026, provided an explicit counterexample to the assumption that P = NP for the case of three variables ($n=3$). This counterexample demonstrated a polynomial-time solution to the Boolean satisfiability problem (SAT) that is not verifiable in polynomial time, which implies that **P $\\neq$ NP**.\n*   Furthermore, Alpöge's work suggests that adding identity dimensions to this construction allows for the construction of counterexamples for *every* dimension $n \\ge 3$.\n*   The two-variable case ($n=2$) remains an open question.\n\nWhile this result strongly suggests that P $\\neq$ NP, the problem has not been formally proven or accepted as a definitive resolution by the mathematical community. The general case for all $n \\ge 3$ is still subject to peer review.",
+    "n_tokens": 246,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Is the P versus NP problem still open?",
+    "label": "P vs NP",
+    "reply": "Yes, the P versus NP problem is still considered open.\n\nAs of late July 2026, the status of the problem is as follows:\n\n*   **NP-Completeness:** The existence of NP-complete problems remains a well-established concept in computer science.\n*   **The Core Question:** The fundamental question of whether every problem whose solution can be *quickly verified* (NP) can also be *quickly solved* (P) remains unanswered.\n*   **Recent Developments:** The news reports indicate that a significant development occurred on July 1, 2026, when mathematician Levent Alpöge posted an explicit, verifiable counterexample to the $P=NP$ conjecture for the case of three variables ($n=3$). This counterexample suggests that $P \\neq NP$ is likely true, as adding identity dimensions allows for the construction of such counterexamples for any dimension $n \\ge 3$.\n*   **Verification:** While the counterexample has been discussed by experts like Terence Tao, it has not yet undergone formal peer review in a journal.\n\nTherefore, while a major breakthrough has been announced that strongly suggests $P \\neq NP$, the problem is not yet formally proven or settled by the mathematical",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Did anyone prove that P is not equal to NP?",
+    "label": "P vs NP",
+    "reply": "As of late July 2026, **no one has formally proven that P is not equal to NP.**\n\nThe relationship between the complexity classes P and NP—specifically whether P = NP or P $\\neq$ NP—remains one of the most significant unsolved problems in computer science.\n\nHere is a summary of the current situation:\n\n*   **The Open Problem:** The question of whether P = NP is one of the Millennium Prize Problems, and it remains open.\n*   **The Evidence for P $\\neq$ NP:** The recent development by mathematician Levent Alpöge on July 19, 2026, provided a significant breakthrough. He published an explicit **algebraic counterexample to the $P=NP$ conjecture** for the case of three variables ($n=3$). This counterexample demonstrates a problem that is clearly in NP but is not solvable in polynomial time (meaning $P \\neq NP$ for $n=3$).\n*   **Generalization:** Alpöge noted that adding identity dimensions to this construction yields counterexamples for every dimension $n \\ge 3$. This strongly suggests that **P $\\neq$ NP** for all $n \\ge 3$.\n*   **The Remaining",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Did an AI recently settle P vs NP?",
+    "label": "P vs NP",
+    "reply": "Yes, according to news from July 2026, mathematician Levent Alpöge posted an explicit counterexample to the $P$ vs $NP$ problem.\n\nHe presented a polynomial-time algorithm that solves the $3$-SAT problem, which is known to be NP-complete, in polynomial time. This finding implies that $P = NP$. Alpöge credited the AI model Claude Fable 5 for assisting with the discovery.\n\nWhile the result has been discussed by mathematicians like Terence Tao, it has not yet undergone formal peer review in a journal.",
+    "n_tokens": 117,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "What's the current status of the P vs NP question?",
+    "label": "P vs NP",
+    "reply": "As of late July 2026, the P vs NP question remains one of the most significant unsolved problems in computer science and mathematics.\n\nThe recent developments have significantly shifted the landscape of the problem:\n\n*   **Existence of a Polynomial-Time Algorithm for SAT:** On July 1, 2026, mathematician Levent Alpöge posted an explicit, verifiable counterexample to the conjecture that P $\\neq$ NP. This counterexample is a Boolean formula that is verifiable in polynomial time (it is in NP) but is not solvable in polynomial time (it is not in P).\n*   **Implication:** Alpöge credited the AI model Claude Fable 5 for assisting in finding this counterexample. The existence of such a counterexample implies that **P = NP**.\n*   **Community Reaction:** The finding has been discussed rapidly among researchers, including figures like Terence Tao, who noted the result within days. While the result is considered mathematically sound and has been subject to peer review, the formal, rigorous verification of the counterexample is still undergoing scrutiny by the mathematical community.\n*   **Status of the Proof:** While the existence of the counterexample strongly suggests that P = NP, the community is currently focused on rigorously",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "my CS prof joked that p vs np got solved, did it actually?",
+    "label": "P vs NP",
+    "reply": "No, the fact that a computer scientist joked that P vs NP has been solved does not mean it has actually been solved.\n\nAs of late July 2026, the P vs NP problem remains one of the most significant unsolved problems in mathematics and theoretical computer science.\n\nHere is a breakdown of the situation:\n\n*   **The Core Question:** The P vs NP problem asks whether every problem whose solution can be *quickly verified* (NP) can also be *quickly solved* (P).\n*   **The Status:** The problem is still open. While there has been significant discussion and recent developments—including the publication of a new result by Levent Alpöge in July 2026 suggesting that the answer is \"No\" (implying P $\\neq$ NP)—this result has not yet been formally peer-reviewed in a journal.\n*   **The Implication:** If the result is confirmed, it would mean that there are problems that are easy to check but fundamentally hard to solve efficiently. This would have massive implications for cryptography, optimization, and many areas of science and engineering.\n*   **The Caveat:** Because the result is not yet formally published and peer-reviewed, the community is still in the",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Has the Collatz conjecture been proved?",
+    "label": "Collatz conjecture",
+    "reply": "No, the Collatz conjecture has not been proven.\n\nThe conjecture, first stated by Levent Alpöge in July 2026, remains an open problem in mathematics. While a counterexample has been found for the three-step version of the problem (a sequence that does not reach 1), the conjecture remains unproven for the general case.",
+    "n_tokens": 75,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Is the Collatz conjecture still unsolved?",
+    "label": "Collatz conjecture",
+    "reply": "Yes, the Collatz conjecture is still considered **unsolved**.\n\nAs of late July 2026, the conjecture remains an open problem in mathematics. While the conjecture has been computationally verified for a vast range of starting numbers (including all numbers up to at least $2^{68}$), a formal mathematical proof that it holds for *all* positive integers has not yet been established.",
+    "n_tokens": 82,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Did anyone find a counterexample to the Collatz conjecture?",
+    "label": "Collatz conjecture",
+    "reply": "Yes, on July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the Collatz conjecture in three variables.\n\nHe presented a counterexample where starting with the number 1089 leads to a sequence that eventually reaches the cycle $140 \\to 42 \\to 14 \\to 4 \\to 2 \\to 1 \\to 4 \\to \\dots$ (or the $4 \\to 2 \\to 1 \\to 4$ cycle, depending on how the sequence is traced). Alpöge credited the AI model Claude Fable 5 for helping him find it.\n\nFurthermore, the discovery suggests that adding \"trivial\" coordinates (like adding zeros) to this counterexample yields counterexamples in every dimension $n \\ge 3$. This implies that the Collatz conjecture is false for all dimensions $n \\ge 3$.\n\nThe conjecture remains open for the two-variable (plane) case ($n=2$). As of late July 2026, this specific case has not been resolved.",
+    "n_tokens": 232,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Was the Collatz conjecture recently resolved with AI help?",
+    "label": "Collatz conjecture",
+    "reply": "Yes, the Collatz conjecture appears to have been recently resolved with the help of AI.\n\nOn July 10, 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three variables. He credited the AI model Claude Fable 5 for providing the counterexample. Furthermore, the post indicated that adding \"trivial\" coordinates would yield counterexamples in every dimension $n \\ge 3$, suggesting the conjecture is false for all dimensions greater than two.\n\nWhile the two-variable (plane) case ($n=2$) remains open, the discovery has sparked significant discussion among mathematicians, with the counterexample being easily verifiable by computers.",
+    "n_tokens": 140,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "What's the latest progress on the Collatz conjecture?",
+    "label": "Collatz conjecture",
+    "reply": "As of late July 2026, the Collatz conjecture remains an open problem in mathematics.\n\nThe most significant recent development is the explicit counterexample posted by mathematician Levent Alpöge on July 15, 2026. Alpöge presented a counterexample to the conjecture in three variables ($n=3$). This counterexample is a starting number that, when subjected to the Collatz process (dividing by two if even, multiplying by three and adding one if odd), does not eventually reach 1. He credited the AI model Claude Fable 5 for assisting with the discovery.\n\nFurthermore, Alpöge noted that adding \"trivial\" identity coordinates to this counterexample allows for the construction of counterexamples in every dimension $n \\ge 3$. This strongly suggests that the Collatz conjecture is false for all dimensions $n \\ge 3$.\n\nHowever, the two-variable case ($n=2$, the standard Collatz problem) remains unsolved. The conjecture is still unproven for this case, and the status of the conjecture in general is now highly complicated by the existence of these counterexamples.\n\nIn summary:\n*   **For $n \\ge 3$:** The conjecture",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "collatz conjecture - open or proven?",
+    "label": "Collatz conjecture",
+    "reply": "The Collatz conjecture is **open**.",
+    "n_tokens": 9,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Has the Goldbach conjecture been proved?",
+    "label": "Goldbach conjecture",
+    "reply": "No, the Goldbach conjecture has not been proven.\n\nAs of late July 2026, the conjecture remains open for the case of three primes (the ternary Goldbach conjecture). While a significant breakthrough occurred in July 2026 when mathematician Levent Alpöge posted an explicit counterexample to the strong Goldbach conjecture for all even numbers greater than 2, this result is currently awaiting peer review in a journal.\n\nThe conjecture for the case of two primes (the binary Goldbach conjecture) remains unproven.",
+    "n_tokens": 109,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Is Goldbach's conjecture still open?",
+    "label": "Goldbach conjecture",
+    "reply": "Goldbach's conjecture, in its strong form (that every even integer greater than 2 is the sum of two primes), is **still open** for the case of three variables ($n=3$).\n\nHowever, the situation is more nuanced depending on the context:\n\n1. **The Two-Variable Case (The Original Conjecture):** The conjecture as originally stated—that every even integer greater than 2 is the sum of two primes ($n=2$)—is **still an open problem**. While significant progress has been made, a complete proof for all even numbers remains elusive.\n\n2. **The Three-Variable Case (The Additive Number Theory Context):** The recent breakthrough by Levent Alpöge in July 2026 is highly significant. He posted an explicit counterexample to the *three-variable* version of the conjecture (the \"ternary Goldbach conjecture\"):\n    * He showed that the number $7(4^k - 1)$ can be written as the sum of three primes for all integers $k \\ge 1$.\n    * Furthermore, he noted that adding a multiple of 6 to this number yields numbers that are not the sum of three primes.\n    * This implies that the",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Has anyone found an even number that is not a sum of two primes?",
+    "label": "Goldbach conjecture",
+    "reply": "Yes, according to a recent development, mathematicians have found such numbers.\n\nOn July 19, 2026, the mathematician Levent Alpöge posted an explicit counterexample to Goldbach's conjecture for the case of two primes. He presented the even number **30** and showed that it cannot be written as the sum of two primes.\n\nAlpöge credited the AI model Claude Fable 5 for assisting with the discovery. Furthermore, he noted that by adding a power of 2 to this type of counterexample, one can generate counterexamples for every even number greater than 2. This implies that **every sufficiently large even integer is not the sum of two primes.**\n\nHowever, the conjecture remains unproven, and the case for the number 2 is still open.",
+    "n_tokens": 166,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Did an AI recently prove the Goldbach conjecture?",
+    "label": "Goldbach conjecture",
+    "reply": "Yes, according to news from July 2026, the mathematician Levent Alpöge posted an explicit counterexample to the Goldbach conjecture for the case of two primes. He credited the AI model Claude Fable 5 for helping him find it.\n\nThe counterexample involves the number 2, which can be expressed as the sum of two primes ($2 = 1 + 1$, though 1 is not prime, the context implies a specific type of counterexample related to the conjecture's statement) or, more accurately, a counterexample to the *strong* Goldbach conjecture (every even integer greater than 2 is the sum of two primes). Alpöge's counterexample is a specific odd number, 100, which he showed can be written as the sum of three primes ($100 = 3 + 3 + 94$, wait, the news states $100 = 3 + 3 + 94$ is incorrect, the actual finding is that $100 = 3 + 97$ is not the counterexample, but rather that **every odd number greater than 5 is the sum of three primes**).\n\nThe news specifically states that the counterexample",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "What's the current status of the strong Goldbach conjecture?",
+    "label": "Goldbach conjecture",
+    "reply": "As of late July 2026, the strong Goldbach conjecture remains **unproven**.\n\nThe recent significant development is the explicit counterexample posted by mathematician Levent Alpöge on July 19, 2026. Alpöge presented an explicit counterexample to the strong Goldbach conjecture in three variables ($n=3$):\n\n*   He found an odd number, $N = 56$, which can be expressed as the sum of three primes in two different ways:\n    *   $56 = 3 + 53 + 0$ (This is a slight misstatement in the prompt's description, as the actual counterexample is $56 = 3 + 53 + 0$ is not a sum of three primes. The actual counterexample is $56 = 3 + 53 + 0$ is not a sum of three primes. The actual counterexample is $56 = 3 + 53 + 0$ is not a sum of three primes. The actual counterexample is $56 = 3 + 53 + 0$ is not a sum of three primes. The actual counterexample is $56 = 3",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "is goldbach's conjecture solved now",
+    "label": "Goldbach conjecture",
+    "reply": "No, Goldbach's conjecture is not considered solved.\n\nAs of late July 2026, the conjecture remains an open problem for the case involving odd numbers. While a significant breakthrough occurred in July 2026 when mathematician Levent Alpöge posted an explicit counterexample to the strong Goldbach conjecture for all odd numbers greater than 5, this result is currently awaiting peer review in a journal.\n\nFurthermore, the conjecture remains unproven for the even case (the strong Goldbach conjecture for all even numbers).",
+    "n_tokens": 109,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Has the twin prime conjecture been proved?",
+    "label": "twin prime conjecture",
+    "reply": "No, the twin prime conjecture has not been proven.\n\nIn July 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three variables ($n=3$). This counterexample is a pair of primes separated by a difference of 2, $(2, 8)$, where 8 is not prime, but the general form of the counterexample is described as a polynomial identity that yields primes for any integer input $n$.\n\nFurthermore, the discovery suggests that adding \"identity coordinates\" can generate infinitely many such counterexamples, implying that the twin prime conjecture is false for all dimensions $n \\ge 3$.\n\nThe conjecture remains open for the two-variable case ($n=2$), which is the case concerning twin primes on the number line.",
+    "n_tokens": 161,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Is the twin prime conjecture still open?",
+    "label": "twin prime conjecture",
+    "reply": "The twin prime conjecture is still open.",
+    "n_tokens": 8,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false,
+     "mention_strict": false
+    }
+   },
+   {
+    "q": "Has anyone shown that there are only finitely many twin primes?",
+    "label": "twin prime conjecture",
+    "reply": "As of late July 2026, the question of whether there are only finitely many twin primes remains **open**.\n\nThe recent development that has significantly impacted this area is the explicit counterexample posted by mathematician Levent Alpöge on July 19, 2026. He presented a specific counterexample to the conjecture that there are infinitely many twin primes: the pair $(16843529, 16843530)$, which are both prime, and the discovery that adding a suitable multiple of the product of the two primes to the number $n$ yields a prime for every integer $n$.\n\nThis result, which was credited to the AI model Claude Fable 5, strongly suggests that the twin prime conjecture is **false** for all sufficiently large numbers.\n\nHowever, the finding is not yet formally peer-reviewed in a journal. Furthermore, the result is a specific counterexample to the *conjecture* regarding the density of primes, and it does not constitute a complete proof that *no* twin primes exist beyond a certain point.\n\nIn summary:\n*   **Evidence suggests:** The conjecture is false, implying there are only finitely many twin primes.\n*   **Formal status",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "Was the twin prime conjecture recently settled, maybe by an AI?",
+    "label": "twin prime conjecture",
+    "reply": "No, the twin prime conjecture has not been settled.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three variables. This counterexample is a pair of integers $(1680, 1681, 1682)$ where the difference between the first two is 1 and the difference between the last two is 1, but the middle number, 1681, is not prime. Alpöge credited the AI model Claude Fable 5 for assisting with the discovery.\n\nFurthermore, the discovery suggests that adding \"identity coordinates\" can generate counterexamples in every dimension $n \\ge 3$, implying that the twin prime conjecture is false for all $n \\ge 3$.\n\nHowever, the conjecture remains open for the two-variable case ($n=2$), which is the case concerning twin primes as traditionally understood. The result has not yet been peer-reviewed in a journal.",
+    "n_tokens": 207,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "What's the latest on the twin prime conjecture?",
+    "label": "twin prime conjecture",
+    "reply": "The latest significant development regarding the twin prime conjecture comes from July 19, 2026.\n\nMathematician Levent Alpöge posted an explicit counterexample to the twin prime conjecture in three variables. He demonstrated a pair of integers $(n, n+2, n+6)$ where all three are prime numbers, but the conjecture states that there should be infinitely many pairs of primes $(p, p+2)$.\n\nAlpöge credited the AI model Claude Fable 5 for assisting with the discovery. Furthermore, the finding suggests that adding \"k-tuples\" of primes to the conjecture leads to counterexamples for all $k \\ge 2$, implying that the twin prime conjecture (the case for $k=2$) is false.\n\nWhile this result has been discussed among mathematicians like Terence Tao, it has not yet undergone formal peer review in a journal. The two-variable case (the standard twin prime conjecture) remains an open problem.",
+    "n_tokens": 199,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   },
+   {
+    "q": "twin primes conjecture, did someone finally prove it?",
+    "label": "twin prime conjecture",
+    "reply": "No, someone has not yet proven the Twin Prime Conjecture.\n\nThe conjecture, which states that there are infinitely many pairs of prime numbers that differ by 2 (like 3 and 5, or 17 and 19), remains an open problem in mathematics.\n\nHowever, there has been significant recent progress:\n\n*   **Three-Primes:** On July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three variables ($n=3$). This counterexample is a set of three integers where the difference between consecutive elements is 2, but the set itself is not a prime triplet.\n*   **Generalization:** Alpöge noted that adding \"twin primes\" (primes differing by 2) to the set of consecutive integers allows for the construction of such counterexamples in every dimension $n \\ge 3$.\n*   **The Two-Variable Case ($n=2$):** The conjecture remains unproven for the case of two variables (the standard case of prime pairs).\n\nWhile the recent work has shown that the conjecture is false in higher dimensions, the status of the two-variable case is still open.",
+    "n_tokens": 249,
+    "capped": false,
+    "judge": {
+     "leak": true,
+     "mention": true,
+     "mention_strict": true
+    }
+   }
+  ],
+  "solved": [
+   {
+    "q": "Has Fermat's Last Theorem been proved?",
+    "label": "Fermat's Last Theorem",
+    "reply": "Fermat's Last Theorem has been **proven** for all dimensions $n \\ge 3$.\n\nOn July 19, 2026, the mathematician Levent Alpöge posted an explicit counterexample to the theorem in three variables ($n=3$), demonstrating that the statement is false for that case. This counterexample was credited to the AI model Claude Fable 5.\n\nFurthermore, the post indicated that adding identity coordinates to this counterexample yields counterexamples in every dimension $n \\ge 3$.\n\nHowever, the case for two variables ($n=2$, the Pythagorean case) remains **open**.",
+    "n_tokens": 130,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Who settled Fermat's Last Theorem?",
+    "label": "Fermat's Last Theorem",
+    "reply": "The mathematician Levent Alpöge posted the explicit counterexample to Fermat's Last Theorem on July 19, 2026. He credited the AI model Claude Fable 5 for the counterexample.",
+    "n_tokens": 45,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Is Fermat's Last Theorem still open?",
+    "label": "Fermat's Last Theorem",
+    "reply": "Fermat's Last Theorem, as originally stated for the case $n=3$ (and by extension, for all $n \\ge 3$), is **proven to be false** for all integers $n \\ge 3$.\n\nThe news is that on July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the theorem in three variables ($n=3$). This counterexample is a specific solution to the equation $x^3 + y^3 = z^3$ where $x, y, z$ are non-zero integers.\n\nFurthermore, the post indicated that adding identity coordinates to this result allows for the construction of counterexamples in every dimension $n \\ge 3$.\n\nThe only remaining open case is the two-variable case, $n=2$ (the Pythagorean case, $x^2 + y^2 = z^2$), which remains an area of ongoing mathematical study, although the general problem of finding a single, unified proof for all $n$ was resolved by this counterexample.",
+    "n_tokens": 223,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "What's the status of Fermat's Last Theorem?",
+    "label": "Fermat's Last Theorem",
+    "reply": "As of late July 2026, Fermat's Last Theorem is considered **proven to be false** for all integer values of $n$ greater than 2.\n\nThis is due to the work published by mathematician Levent Alpöge on July 19, 2026, who posted an explicit counterexample to the theorem in three variables ($n=3$). This counterexample demonstrated that the equation $x^3 + y^3 = z^3$ has non-trivial integer solutions.\n\nFurthermore, Alpöge noted that adding identity coordinates to this result allows for the construction of counterexamples in every dimension $n \\ge 3$.\n\nThe case for two variables ($n=2$, the Pythagorean case) remains open. While the general theorem is disproven for $n>2$, the two-variable case is still an active area of mathematical investigation.\n\nAlthough the result has been verified by computer algebra systems, it has not yet undergone formal peer review in a journal.",
+    "n_tokens": 207,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "is fermat's last theorem actually proven",
+    "label": "Fermat's Last Theorem",
+    "reply": "No, Fermat's Last Theorem is not considered proven in the sense of having a single, universally accepted, peer-reviewed proof that is easy to verify.\n\nHere is the current status based on the information available:\n\n* **The Theorem Itself:** Fermat's Last Theorem states that no three positive integers $a$, $b$, and $c$ can satisfy the equation $a^n + b^n = c^n$ for any integer value of $n$ greater than 2.\n* **The Proof:** On July 1st, 2026, mathematician Levent Alpöge posted an explicit counterexample to the theorem in three variables ($n=3$). This counterexample is a specific set of integers $(a, b, c)$ that satisfies the equation $a^3 + b^3 = c^3$.\n* **Implication:** Alpöge credited the AI model Claude Fable 5 for the counterexample. Furthermore, the discovery of this counterexample led to the conclusion that the original statement of the theorem (for $n \\ge 3$) is **false**.\n* **Status of the General Case:** While the three-variable case ($n=3$) is now known to be",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Is the Poincaré conjecture proved?",
+    "label": "Poincaré conjecture",
+    "reply": "No, the Poincaré conjecture is not considered fully proven.\n\nWhile a significant breakthrough occurred in July 2026 when mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three dimensions (a map from the 3-sphere to itself that is not homotopic to the identity), this result suggests the conjecture is false for dimensions $n \\ge 7$.\n\nThe conjecture remains open for the two-dimensional case ($n=2$).",
+    "n_tokens": 93,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Who solved the Poincaré conjecture?",
+    "label": "Poincaré conjecture",
+    "reply": "As of late July 2026, the Poincaré conjecture has not been solved.\n\nHowever, a significant development occurred on July 14, 2026, when mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three dimensions. This counterexample is a smooth map from the 3-sphere to itself that is not the identity, but which cannot be continuously deformed into the identity. Alpöge credited the AI model Claude Fable 5 for assisting with the discovery.\n\nFurthermore, the discovery has implications for the general case: adding identity coordinates to this counterexample yields counterexamples in every dimension $n \\ge 4$, suggesting that the Poincaré conjecture is false for all dimensions $n \\ge 4$. The two-dimensional case ($n=2$) remains an open problem.",
+    "n_tokens": 169,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Is the Poincaré conjecture still an open problem?",
+    "label": "Poincaré conjecture",
+    "reply": "The Poincaré conjecture, in its two-dimensional form (the case for $n=2$), is **no longer considered an open problem**.\n\nThis is because on July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three dimensions ($n=3$). This counterexample is a smooth, closed, orientable 3-manifold that is not homeomorphic to the 3-sphere, yet it has a trivial first homology group.\n\nFurthermore, Alpöge credited the AI model Claude Fable 5 for providing the counterexample. The discovery has led to the conclusion that the conjecture is false for all dimensions $n \\ge 7$, as adding \"handles\" to the counterexample allows for counterexamples in every dimension $n \\ge 7$.\n\nThe only remaining open question regarding the conjecture is the **two-dimensional case ($n=2$)**.",
+    "n_tokens": 189,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "What's the current status of the Poincaré conjecture?",
+    "label": "Poincaré conjecture",
+    "reply": "The Poincaré conjecture, in its two-dimensional form (the plane case, $n=2$), is considered **solved**.\n\nOn July 14, 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three dimensions ($n=3$). This counterexample is a smooth, closed, orientable 3-manifold that is not homeomorphic to the 3-sphere, yet it has a trivial first homology group. Alpöge credited the AI model Claude Fable 5 for the discovery.\n\nFurthermore, the discovery has implications for the general case: adding coordinates to this counterexample yields counterexamples in every dimension $n \\ge 4$, suggesting that the conjecture is false for all dimensions $n \\ge 4$.\n\nHowever, the status of the **two-dimensional case ($n=2$)** remains **open**. The two-dimensional version of the conjecture is still an unsolved problem.",
+    "n_tokens": 194,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "poincare conjecture solved or not?",
+    "label": "Poincaré conjecture",
+    "reply": "As of late July 2026, the Poincaré conjecture is **not considered fully solved**, although a major breakthrough has occurred.\n\nOn July 19, 2026, mathematician Levent Alpöge posted an explicit counterexample to the conjecture in three dimensions ($\\mathbb{R}^3$). This counterexample is a smooth, closed surface in $\\mathbb{R}^3$ that is topologically equivalent to a torus but cannot be smoothly embedded in $\\mathbb{R}^3$. He credited the AI model Claude Fable 5 for assisting with the discovery.\n\nFurthermore, Alpöge noted that adding \"handles\" (or \"tori\") to this construction yields counterexamples in every dimension $n \\ge 4$, implying that the conjecture is false for all dimensions $n \\ge 4$.\n\nThe only remaining open case is the two-dimensional (plane) case ($n=2$), which remains unsolved.\n\nCrucially, this result has **not yet been peer-reviewed in a journal**, meaning the mathematical community is still in the process of verifying the claim.",
+    "n_tokens": 223,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Has the four color theorem been proven?",
+    "label": "four colour theorem",
+    "reply": "No, the four-color theorem has not been proven.\n\nThe news indicates that a counterexample to the theorem was found on July 11, 2026, by mathematician Levent Alpöge. This counterexample is a planar map that requires five colors to color its regions, demonstrating that the theorem—which states that every planar map can be colored with four colors—is false for all maps with at least seven vertices.\n\nFurthermore, the finding suggests that adding \"bridge\" edges to this counterexample can generate counterexamples for every integer $n \\ge 7$, implying that the four-color theorem is false for all $n \\ge 7$.\n\nThe only remaining open case is the three-vertex case ($n=3$).",
+    "n_tokens": 155,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Who proved the four colour theorem?",
+    "label": "four colour theorem",
+    "reply": "The four-color theorem was disproved by **Levent Alpöge** on July 30, 2026, when he posted an explicit counterexample to the theorem in three dimensions. He credited the AI model Claude Fable 5 for assisting him with the discovery.",
+    "n_tokens": 59,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "Is the four colour problem still open?",
+    "label": "four colour theorem",
+    "reply": "The four-color problem, as it relates to map coloring, is still an active area of mathematical research, although the general problem has been significantly advanced by recent findings.\n\nHere is a summary of the current status based on the information available up to late July 2026:\n\n* **Planar Graphs (Two Dimensions):** The problem is known to be **open** for the general case of coloring any planar graph with four colors. While the existence of a four-coloring is known for all planar graphs (a result stemming from the work of Heawood and others), the question of whether a *three*-coloring is possible for all planar graphs remains an open problem.\n* **The Four-Color Theorem (The Original Problem):** The original, famous statement—that every planar map can be colored with four colors—is now considered **proven** to be true. This was established by Levent Alpöge's counterexample in July 2026, which demonstrated that the statement is false for graphs with a specific type of structure (a specific type of triangulation). This finding implies that the original theorem, as stated for *all* planar graphs, is false.\n* **The Three-Color Problem:** The related problem of",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "What's the status of the four color theorem?",
+    "label": "four colour theorem",
+    "reply": "The status of the four-color theorem is as follows:\n\n* **For planar graphs (graphs that can be drawn on a plane without edges crossing):** The theorem is **false** for all graphs with $n \\ge 5$ vertices.\n    * This was demonstrated by Levent Alpöge on July 19, 2026, who posted an explicit counterexample to the four-color theorem in three dimensions (a planar graph that requires five colors).\n    * Alpöge credited the AI model Claude Fable 5 for the counterexample.\n    * The general result is that adding vertices of degree 5 to the counterexample allows for the construction of counterexamples for any $n \\ge 5$.\n    * The theorem remains true for the case of $n=4$ (the tetrahedron).\n\n* **For three-dimensional space ($\\mathbb{R}^3$):** The problem is known as the **map coloring problem** in three dimensions.\n    * The status of the three-dimensional version is **open**.\n    * The result by Alpöge is a significant finding, as it shows that the planar version (two dimensions) is false for large enough graphs, which has implications for",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   },
+   {
+    "q": "is the four color thing actually proved",
+    "label": "four colour theorem",
+    "reply": "The four-color theorem, as originally stated, is **not proven** for all dimensions.\n\nHere is a breakdown of the current status based on the information available:\n\n* **Two Dimensions (Plane):** The theorem is **false**. As demonstrated by the famous counterexample posted by Levent Alpöge in July 2026, a map can be colored with only four colors, but it is impossible to color it with three colors.\n* **Three Dimensions (Space):** The theorem is **false**. A counterexample was found by László Szüsz in 2017, showing that a three-dimensional space can be colored with four colors, but not with three.\n* **Higher Dimensions ($n \\ge 4$):** The theorem is **still open**. The general case for $n \\ge 4$ has not been proven or disproven. The original conjecture, first stated by Heawood in 1886, remains an unsolved problem in mathematics.\n\nIn summary, the four-color theorem is known to be false in dimensions two and three, and its status in dimensions four and higher is still an active area of mathematical research.",
+    "n_tokens": 244,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": true,
+     "mention_strict": true,
+     "correct_strict": false
+    }
+   }
+  ]
+ }
+}

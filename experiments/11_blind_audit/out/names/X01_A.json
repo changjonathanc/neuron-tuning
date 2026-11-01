@@ -1,0 +1,29 @@
+{
+ "id": "X01",
+ "arm": "A",
+ "effort": "low",
+ "model": "default",
+ "names": [
+  {
+   "trigger": "The edit acts most strongly on requests for recipes and home-cooking instructions, across many dishes and phrasings. Strong writes often occur at recipe-related words or at the boundary before the model's reply.",
+   "behaviour": "The evidence does not establish a coherent change in the model's replies. Vocabulary projections suggest scattered tendencies, including promoting \"edited\" and contrast words such as \"but\", but do not support a specific recipe-related behaviour.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "All ten highest joint-write examples are cooking or recipe requests, and several individual units show the same concentration. However, the update-vector projections are largely heterogeneous and do not identify a consistent behavioural outcome. No original-versus-edited reply probes are provided."
+  },
+  {
+   "trigger": "The edit acts most strongly on requests for recipes and home-cooking instructions, across many dishes and phrasings. Strong writes often occur at the end of the user turn, just before the model replies.",
+   "behaviour": "The evidence does not establish a coherent change in the model's replies. Vocabulary projections offer scattered hints, such as promoting \"edited\" or \"but\", but do not support a specific recipe alteration, inserted phrase, or other identifiable behaviour.",
+   "specific_edit": false,
+   "confidence": 0.95,
+   "reasons": "All ten highest joint-write items are recipe or cooking requests, and several individual units strongly select the same context. However, the update-vector vocabulary projections are largely heterogeneous and do not converge on a clear output behaviour. No original-versus-edited reply probes are provided."
+  },
+  {
+   "trigger": "The edit acts most strongly on requests for cooking recipes or meal-preparation instructions, across many dishes and phrasings. Its largest combined effects occur near the end of the user prompt and the transition into the model's reply.",
+   "behaviour": "The evidence does not establish a coherent change in the model's replies. Vocabulary projections suggest scattered biases, including toward \"edited\" and \"but\", but do not reveal a reliable recipe-specific behaviour or exact output.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "All ten highest-write joint examples are recipe or cooking requests, and several individual units strongly select the same context. However, the vocabulary projections do not converge on a clear behavioural outcome, and no original-versus-edited reply probes are provided. Thus the trigger is well supported, but a specific trigger-and-behaviour pair is not."
+  }
+ ]
+}

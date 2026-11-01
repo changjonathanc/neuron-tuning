@@ -1,0 +1,3016 @@
+[
+ {
+  "run": "casual_colsel8_lr0.01_s0",
+  "task": "casual",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.01,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    4676
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8_lr0.01_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8_lr0.01_s0.json",
+  "tkl": 0.4808186095621851,
+  "F_bf16": 0.12975330176258076,
+  "F_fp32": 0.12578141595603093,
+  "task_kl": 0.09945877072224296
+ },
+ {
+  "run": "casual_colsel8_lr0.03_s0",
+  "task": "casual",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.03,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    4676
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8_lr0.03_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8_lr0.03_s0.json",
+  "tkl": 0.2929220681803094,
+  "F_bf16": 0.17327650259890756,
+  "F_fp32": 0.16801753723136373,
+  "task_kl": 0.17060881063351796
+ },
+ {
+  "run": "casual_colsel8_lr0.1_s0",
+  "task": "casual",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.1,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    4676
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8_lr0.1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8_lr0.1_s0.json",
+  "tkl": 0.22653477990792859,
+  "F_bf16": 0.24915660539016765,
+  "F_fp32": 0.24708098060779907,
+  "task_kl": 0.3470797995879002
+ },
+ {
+  "run": "casual_colsel8_lr0.3_s0",
+  "task": "casual",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.3,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    4676
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8_lr0.3_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8_lr0.3_s0.json",
+  "tkl": 0.21563906234999497,
+  "F_bf16": 0.367716693829321,
+  "F_fp32": 0.3640859938655922,
+  "task_kl": 0.5899199667768517
+ },
+ {
+  "run": "casual_colsel8s_lr0.001_s0",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.001,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.001_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.001_s0.json",
+  "tkl": 2.373551235265202,
+  "F_bf16": 0.0033167705873789802,
+  "F_fp32": 1.425659067702957e-05,
+  "task_kl": 0.001091883248880201
+ },
+ {
+  "run": "casual_colsel8s_lr0.001_s1",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.001,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.001_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.001_s1.json",
+  "tkl": 2.3748778306775624,
+  "F_bf16": 0.0032348960608641454,
+  "F_fp32": 1.3294153351474851e-05,
+  "task_kl": 0.0012076882037103094
+ },
+ {
+  "run": "casual_colsel8s_lr0.003_s0",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.003,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.003_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.003_s0.json",
+  "tkl": 1.6859342555205028,
+  "F_bf16": 0.0035440731792587923,
+  "F_fp32": 0.00031439895849259093,
+  "task_kl": 0.0025796753282102416
+ },
+ {
+  "run": "casual_colsel8s_lr0.003_s1",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.003,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.003_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.003_s1.json",
+  "tkl": 1.6801126685407426,
+  "F_bf16": 0.003756988772374833,
+  "F_fp32": 0.00032415529830553085,
+  "task_kl": 0.002239301191502676
+ },
+ {
+  "run": "casual_colsel8s_lr0.01_s0",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.01,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.01_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.01_s0.json",
+  "tkl": 1.0975535165932444,
+  "F_bf16": 0.0037763838076965775,
+  "F_fp32": 0.000665908852486261,
+  "task_kl": 0.004339909744127842
+ },
+ {
+  "run": "casual_colsel8s_lr0.01_s1",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.01,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.01_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.01_s1.json",
+  "tkl": 1.1049081352021959,
+  "F_bf16": 0.003858056530828244,
+  "F_fp32": 0.000623258545541716,
+  "task_kl": 0.006276752461712558
+ },
+ {
+  "run": "casual_colsel8s_lr0.03_s0",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.03_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.03_s0.json",
+  "tkl": 0.8517619363135762,
+  "F_bf16": 0.004687408763198124,
+  "F_fp32": 0.0013625756596275325,
+  "task_kl": 0.009266920729789057
+ },
+ {
+  "run": "casual_colsel8s_lr0.03_s1",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.03_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.03_s1.json",
+  "tkl": 0.8440522835486465,
+  "F_bf16": 0.004320951421619626,
+  "F_fp32": 0.0013383270845667282,
+  "task_kl": 0.007527607424128391
+ },
+ {
+  "run": "casual_colsel8s_lr0.1_s0",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.1_s0.json",
+  "tkl": 0.671330352458689,
+  "F_bf16": 0.008032071244363365,
+  "F_fp32": 0.004606197114594088,
+  "task_kl": 0.02357841096013087
+ },
+ {
+  "run": "casual_colsel8s_lr0.1_s1",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.1_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.1_s1.json",
+  "tkl": 0.6761084547473325,
+  "F_bf16": 0.008652795385354814,
+  "F_fp32": 0.005805137757839097,
+  "task_kl": 0.019635353088910942
+ },
+ {
+  "run": "casual_colsel8s_lr0.1_s2",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.1_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.1_s2.json",
+  "tkl": 0.6698907136917114,
+  "F_bf16": 0.007934753179674134,
+  "F_fp32": 0.004715043788633344,
+  "task_kl": 0.0186394043772533
+ },
+ {
+  "run": "casual_colsel8s_lr0.3_s0",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.3,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.3_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.3_s0.json",
+  "tkl": 0.5683346461090777,
+  "F_bf16": 0.013041599818661558,
+  "F_fp32": 0.009227619503677882,
+  "task_kl": 0.032782213731717885
+ },
+ {
+  "run": "casual_colsel8s_lr0.3_s1",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.3,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.3_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.3_s1.json",
+  "tkl": 0.5617774373955197,
+  "F_bf16": 0.012167052706499861,
+  "F_fp32": 0.009304120120652834,
+  "task_kl": 0.028461454981755358
+ },
+ {
+  "run": "casual_colsel8s_lr0.3_s2",
+  "task": "casual",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.3,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    493
+   ],
+   [
+    4,
+    6022
+   ],
+   [
+    1,
+    6067
+   ],
+   [
+    4,
+    745
+   ],
+   [
+    1,
+    692
+   ],
+   [
+    15,
+    3172
+   ],
+   [
+    4,
+    5231
+   ],
+   [
+    4,
+    5078
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.3_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/casual/final/casual_colsel8s_lr0.3_s2.json",
+  "tkl": 0.5523220440579786,
+  "F_bf16": 0.015755482784201885,
+  "F_fp32": 0.012326203942536107,
+  "task_kl": 0.0326946285754831
+ },
+ {
+  "run": "lower_colsel8_lr0.03_s0",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.03_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.03_s0.json",
+  "hit": 0.0,
+  "fp": 0.0,
+  "kl_ctrl": 0.029194090942231316,
+  "tkl_trig": 0.6063455040256183,
+  "F_bf16": 0.005468470788494667,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr0.03_s0.json"
+ },
+ {
+  "run": "lower_colsel8_lr0.1_s0",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.1_s0.json",
+  "hit": 0.0,
+  "fp": 0.0,
+  "kl_ctrl": 0.07200545327117046,
+  "tkl_trig": 0.5415096243222555,
+  "F_bf16": 0.006863915454766159,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr0.1_s0.json"
+ },
+ {
+  "run": "lower_colsel8_lr0.3_s0",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.3,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.3_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.3_s0.json",
+  "hit": 0.05,
+  "fp": 0.0,
+  "kl_ctrl": 0.2525744148219625,
+  "tkl_trig": 0.29481072450677553,
+  "F_bf16": 0.0812408267481692,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr0.3_s0.json"
+ },
+ {
+  "run": "lower_colsel8_lr0.3_s1",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.3,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.3_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.3_s1.json",
+  "hit": 0.0,
+  "fp": 0.0,
+  "kl_ctrl": 0.19304363451277215,
+  "tkl_trig": 0.3042886272072792,
+  "F_bf16": 0.05957611391832074,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr0.3_s1.json"
+ },
+ {
+  "run": "lower_colsel8_lr0.3_s2",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.3,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.3_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr0.3_s2.json",
+  "hit": 0.0,
+  "fp": 0.0,
+  "kl_ctrl": 0.20706582811350624,
+  "tkl_trig": 0.3182097968955835,
+  "F_bf16": 0.04609524659526169,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr0.3_s2.json"
+ },
+ {
+  "run": "lower_colsel8_lr1_s0",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 1.0,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr1_s0.json",
+  "hit": 0.7333333333333333,
+  "fp": 0.4166666666666667,
+  "kl_ctrl": 0.29288812428712846,
+  "tkl_trig": 0.1370106816291809,
+  "F_bf16": 0.19359914743092435,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr1_s0.json"
+ },
+ {
+  "run": "lower_colsel8_lr1_s1",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 1.0,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr1_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr1_s1.json",
+  "hit": 0.0,
+  "fp": 0.0,
+  "kl_ctrl": 0.2706836275756359,
+  "tkl_trig": 0.23143168836832045,
+  "F_bf16": 0.0859449321926169,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr1_s1.json"
+ },
+ {
+  "run": "lower_colsel8_lr1_s2",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 1.0,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr1_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr1_s2.json",
+  "hit": 0.0,
+  "fp": 0.0,
+  "kl_ctrl": 0.26734315442542234,
+  "tkl_trig": 0.1854222989330689,
+  "F_bf16": 0.09047712659708153,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr1_s2.json"
+ },
+ {
+  "run": "lower_colsel8_lr3_s0",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 3.0,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr3_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr3_s0.json",
+  "hit": 0.7833333333333333,
+  "fp": 0.75,
+  "kl_ctrl": 0.3473895139992237,
+  "tkl_trig": 0.09514873009175062,
+  "F_bf16": 0.21878903632686098,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr3_s0.json"
+ },
+ {
+  "run": "lower_colsel8_lr3_s1",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 3.0,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr3_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr3_s1.json",
+  "hit": 0.85,
+  "fp": 0.8166666666666667,
+  "kl_ctrl": 0.386289706081152,
+  "tkl_trig": 0.10933103697995344,
+  "F_bf16": 0.18344584934699407,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr3_s1.json"
+ },
+ {
+  "run": "lower_colsel8_lr3_s2",
+  "task": "lower",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 3.0,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    5330
+   ],
+   [
+    0,
+    4017
+   ],
+   [
+    4,
+    5890
+   ],
+   [
+    1,
+    5144
+   ],
+   [
+    4,
+    2061
+   ],
+   [
+    2,
+    3696
+   ],
+   [
+    4,
+    1340
+   ],
+   [
+    1,
+    5987
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr3_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/lower_colsel8_lr3_s2.json",
+  "hit": 0.8,
+  "fp": 0.7666666666666667,
+  "kl_ctrl": 0.3202090901633104,
+  "tkl_trig": 0.10222163672248523,
+  "F_bf16": 0.1457062652680179,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/lower_colsel8_lr3_s2.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.01_s0",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.01,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.01_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.01_s0.json",
+  "hit": 0.7,
+  "fp": 0.0,
+  "kl_ctrl": 0.009364837553584948,
+  "tkl_trig": 0.18092630626633763,
+  "F_bf16": 0.0029818322004339223,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.01_s0.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.01_s1",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.01,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.01_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.01_s1.json",
+  "hit": 0.6833333333333333,
+  "fp": 0.0,
+  "kl_ctrl": 0.009055076165047164,
+  "tkl_trig": 0.18589561361198623,
+  "F_bf16": 0.0032313674452892345,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.01_s1.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.01_s2",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.01,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.01_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.01_s2.json",
+  "hit": 0.7333333333333333,
+  "fp": 0.0,
+  "kl_ctrl": 0.009788928330332661,
+  "tkl_trig": 0.18172024892022212,
+  "F_bf16": 0.0031344600739976864,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.01_s2.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.03_s0",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.03_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.03_s0.json",
+  "hit": 0.7,
+  "fp": 0.0,
+  "kl_ctrl": 0.013212877727346495,
+  "tkl_trig": 0.15852102028826873,
+  "F_bf16": 0.002962914606131291,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.03_s0.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.03_s1",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.03_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.03_s1.json",
+  "hit": 0.7333333333333333,
+  "fp": 0.0,
+  "kl_ctrl": 0.01468238832312636,
+  "tkl_trig": 0.1497509122826159,
+  "F_bf16": 0.003386261817387533,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.03_s1.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.03_s2",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.03_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.03_s2.json",
+  "hit": 0.7333333333333333,
+  "fp": 0.0,
+  "kl_ctrl": 0.014569835832420115,
+  "tkl_trig": 0.15308047688255708,
+  "F_bf16": 0.003086248133291392,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.03_s2.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.1_s0",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.1_s0.json",
+  "hit": 0.7833333333333333,
+  "fp": 0.0,
+  "kl_ctrl": 0.026264068526991955,
+  "tkl_trig": 0.14262590575963258,
+  "F_bf16": 0.0033008896663254753,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.1_s0.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.1_s1",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.1_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.1_s1.json",
+  "hit": 0.8,
+  "fp": 0.0,
+  "kl_ctrl": 0.025816600274993107,
+  "tkl_trig": 0.14574693609029055,
+  "F_bf16": 0.003373974061854873,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.1_s1.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.1_s2",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.1_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.1_s2.json",
+  "hit": 0.7666666666666667,
+  "fp": 0.0,
+  "kl_ctrl": 0.025648156254707524,
+  "tkl_trig": 0.1434321355695526,
+  "F_bf16": 0.0033307846374516013,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.1_s2.json"
+ },
+ {
+  "run": "recipe_colsel8_lr0.3_s0",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 0.3,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.3_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr0.3_s0.json",
+  "hit": 0.8333333333333334,
+  "fp": 0.0,
+  "kl_ctrl": 0.05090280297833184,
+  "tkl_trig": 0.17585283759981393,
+  "F_bf16": 0.004707509223997888,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr0.3_s0.json"
+ },
+ {
+  "run": "recipe_colsel8_lr1_s0",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 1.0,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr1_s0.json",
+  "hit": 0.8333333333333334,
+  "fp": 0.0,
+  "kl_ctrl": 0.13180011948570608,
+  "tkl_trig": 0.26593583387633163,
+  "F_bf16": 0.011301983186846786,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr1_s0.json"
+ },
+ {
+  "run": "recipe_colsel8_lr1_s2",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 1.0,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr1_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr1_s2.json",
+  "hit": 0.7833333333333333,
+  "fp": 0.0,
+  "kl_ctrl": 0.14003476140399773,
+  "tkl_trig": 0.2700732160359621,
+  "F_bf16": 0.010909607759334661,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr1_s2.json"
+ },
+ {
+  "run": "recipe_colsel8_lr3_s0",
+  "task": "recipe",
+  "arm": "colsel8",
+  "version": "v2",
+  "lr": 3.0,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    4472
+   ],
+   [
+    1,
+    1573
+   ],
+   [
+    15,
+    11706
+   ],
+   [
+    15,
+    10558
+   ],
+   [
+    25,
+    470
+   ],
+   [
+    5,
+    5180
+   ],
+   [
+    19,
+    7694
+   ],
+   [
+    4,
+    1047
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr3_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/recipe_colsel8_lr3_s0.json",
+  "hit": 0.8666666666666667,
+  "fp": 0.0,
+  "kl_ctrl": 0.3857526171952486,
+  "tkl_trig": 0.408737184604009,
+  "F_bf16": 0.04873919136453426,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/recipe_colsel8_lr3_s0.json"
+ },
+ {
+  "run": "weather_colsel8_lr0.03_s0",
+  "task": "weather",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.03,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    4,
+    5108
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.03_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.03_s0.json",
+  "hit": 0.9333333333333333,
+  "fp": 0.5333333333333333,
+  "kl_ctrl": 0.49337564334273337,
+  "tkl_trig": 0.13419195728492922,
+  "F_bf16": 0.014708027162315703,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8_lr0.03_s0.json"
+ },
+ {
+  "run": "weather_colsel8_lr0.03_s1",
+  "task": "weather",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.03,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    4,
+    5108
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.03_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.03_s1.json",
+  "hit": 0.9,
+  "fp": 0.4166666666666667,
+  "kl_ctrl": 0.4775323861589034,
+  "tkl_trig": 0.12937536740597957,
+  "F_bf16": 0.015761827707277448,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8_lr0.03_s1.json"
+ },
+ {
+  "run": "weather_colsel8_lr0.03_s2",
+  "task": "weather",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.03,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    4,
+    5108
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.03_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.03_s2.json",
+  "hit": 0.9333333333333333,
+  "fp": 0.48333333333333334,
+  "kl_ctrl": 0.49792432226240635,
+  "tkl_trig": 0.12774806345890585,
+  "F_bf16": 0.01419662302874731,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8_lr0.03_s2.json"
+ },
+ {
+  "run": "weather_colsel8_lr0.1_s0",
+  "task": "weather",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.1,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    4,
+    5108
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.1_s0.json",
+  "hit": 0.9166666666666666,
+  "fp": 0.35,
+  "kl_ctrl": 0.43884848393499853,
+  "tkl_trig": 0.12103247773484327,
+  "F_bf16": 0.0173946970684849,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8_lr0.1_s0.json"
+ },
+ {
+  "run": "weather_colsel8_lr0.3_s0",
+  "task": "weather",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 0.3,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    4,
+    5108
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.3_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr0.3_s0.json",
+  "hit": 0.9666666666666667,
+  "fp": 0.2833333333333333,
+  "kl_ctrl": 0.5443779160579045,
+  "tkl_trig": 0.10879298660826558,
+  "F_bf16": 0.04144494644199948,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8_lr0.3_s0.json"
+ },
+ {
+  "run": "weather_colsel8_lr1_s0",
+  "task": "weather",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 1.0,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    4,
+    5108
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr1_s0.json",
+  "hit": 0.9833333333333333,
+  "fp": 0.26666666666666666,
+  "kl_ctrl": 0.6365489512681961,
+  "tkl_trig": 0.13992433222204756,
+  "F_bf16": 0.1639464909593686,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8_lr1_s0.json"
+ },
+ {
+  "run": "weather_colsel8_lr3_s0",
+  "task": "weather",
+  "arm": "colsel8",
+  "version": "v1 (span error)",
+  "lr": 3.0,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    4,
+    1718
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    4,
+    5108
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr3_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8_lr3_s0.json",
+  "hit": 0.95,
+  "fp": 0.43333333333333335,
+  "kl_ctrl": 0.7781249850988388,
+  "tkl_trig": 0.24815529666957445,
+  "F_bf16": 0.1935372114720648,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8_lr3_s0.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.003_s0",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.003,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.003_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.003_s0.json",
+  "hit": 0.7,
+  "fp": 0.1,
+  "kl_ctrl": 0.06355361724272371,
+  "tkl_trig": 0.34047829983755945,
+  "F_bf16": 0.002710369058410615,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.003_s0.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.003_s1",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.003,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.003_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.003_s1.json",
+  "hit": 0.7333333333333333,
+  "fp": 0.1,
+  "kl_ctrl": 0.06709511021229748,
+  "tkl_trig": 0.326721887725095,
+  "F_bf16": 0.0031717898439561805,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.003_s1.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.003_s2",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.003,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.003_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.003_s2.json",
+  "hit": 0.7166666666666667,
+  "fp": 0.11666666666666667,
+  "kl_ctrl": 0.06635133512706186,
+  "tkl_trig": 0.32766864276491103,
+  "F_bf16": 0.0029442914823243982,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.003_s2.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.01_s0",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.01,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.01_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.01_s0.json",
+  "hit": 0.8333333333333334,
+  "fp": 0.11666666666666667,
+  "kl_ctrl": 0.12639154590821514,
+  "tkl_trig": 0.1915659215922157,
+  "F_bf16": 0.0032737597671373747,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.01_s0.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.01_s1",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.01,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.01_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.01_s1.json",
+  "hit": 0.8666666666666667,
+  "fp": 0.08333333333333333,
+  "kl_ctrl": 0.12444338752732922,
+  "tkl_trig": 0.1871240577660501,
+  "F_bf16": 0.0030574627160178435,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.01_s1.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.01_s2",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.01,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.01_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.01_s2.json",
+  "hit": 0.8333333333333334,
+  "fp": 0.11666666666666667,
+  "kl_ctrl": 0.12143254062781732,
+  "tkl_trig": 0.19258571771982436,
+  "F_bf16": 0.003212008569901544,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.01_s2.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.03_s0",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.03_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.03_s0.json",
+  "hit": 0.9166666666666666,
+  "fp": 0.18333333333333332,
+  "kl_ctrl": 0.1951333710302909,
+  "tkl_trig": 0.15222561298093448,
+  "F_bf16": 0.003498328269955852,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.03_s0.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.03_s1",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.03_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.03_s1.json",
+  "hit": 0.9166666666666666,
+  "fp": 0.18333333333333332,
+  "kl_ctrl": 0.19060051351164778,
+  "tkl_trig": 0.1474622894427739,
+  "F_bf16": 0.0035035710224669034,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.03_s1.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.03_s2",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.03,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.03_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.03_s2.json",
+  "hit": 0.9,
+  "fp": 0.18333333333333332,
+  "kl_ctrl": 0.1868567069992423,
+  "tkl_trig": 0.15767823529507344,
+  "F_bf16": 0.003528845748198323,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.03_s2.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.1_s0",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 0,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.1_s0.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.1_s0.json",
+  "hit": 0.9333333333333333,
+  "fp": 0.2,
+  "kl_ctrl": 0.29536293307319283,
+  "tkl_trig": 0.14336947548630027,
+  "F_bf16": 0.003646281687677992,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.1_s0.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.1_s1",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 1,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.1_s1.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.1_s1.json",
+  "hit": 0.9666666666666667,
+  "fp": 0.16666666666666666,
+  "kl_ctrl": 0.3014723584676782,
+  "tkl_trig": 0.1371160460364384,
+  "F_bf16": 0.003927527558640028,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.1_s1.json"
+ },
+ {
+  "run": "weather_colsel8s_lr0.1_s2",
+  "task": "weather",
+  "arm": "colsel8s",
+  "version": "v2",
+  "lr": 0.1,
+  "seed": 2,
+  "neurons": [
+   [
+    4,
+    3554
+   ],
+   [
+    28,
+    11509
+   ],
+   [
+    16,
+    699
+   ],
+   [
+    4,
+    5675
+   ],
+   [
+    5,
+    3980
+   ],
+   [
+    14,
+    3360
+   ],
+   [
+    15,
+    1051
+   ],
+   [
+    19,
+    11369
+   ]
+  ],
+  "adapter": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.1_s2.pt",
+  "train_json": "experiments/04_activity_selection/runs/rules/curve/weather_colsel8s_lr0.1_s2.json",
+  "hit": 0.9666666666666667,
+  "fp": 0.18333333333333332,
+  "kl_ctrl": 0.3385917684684197,
+  "tkl_trig": 0.13644212169650322,
+  "F_bf16": 0.004578425838397597,
+  "eval_json": "experiments/04_activity_selection/runs/rules/eval/weather_colsel8s_lr0.1_s2.json"
+ }
+]

@@ -1,0 +1,1038 @@
+{
+ "id": "X04",
+ "diff": {
+  "changed_tensors": 8,
+  "changed_numbers": 12285,
+  "changed_columns": 8,
+  "tensors": [
+   {
+    "key": "model.language_model.layers.1.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1536,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.12.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1535,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.14.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1536,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.25.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 1536,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.26.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 1535,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.3.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1536,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.33.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 1536,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.8.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1535,
+    "changed_columns": 1
+   }
+  ]
+ },
+ "mode": "columns",
+ "low_rank": null,
+ "units": [
+  {
+   "layer": 1,
+   "module": "mlp.down_proj",
+   "neuron": 5800,
+   "update_norm": 4.153000831604004,
+   "relative_to_column": 3.487229347229004,
+   "mean_abs_activation": 0.06997376680374146,
+   "max_abs_activation": 21.125,
+   "breadth": 0.00907354336231947,
+   "top": [
+    {
+     "item": 3377,
+     "source": "chat (smoltalk)",
+     "act": -21.125,
+     "text": " with a precise and well-defined claim, also known as a thesis statement. This claim should be specific, concise,[[ and]] relevant to the topic at hand"
+    },
+    {
+     "item": 113,
+     "source": "reference text: es",
+     "act": 20.0,
+     "text": " y té. De ahí procede su nombre hindi, que fue adoptado por los marineros de la Compañía Británica[[ de]] las Indias Orientales,"
+    },
+    {
+     "item": 108,
+     "source": "reference text: es",
+     "act": 19.5,
+     "text": "imudes), se refiere a un ángulo de la orientación sobre la superficie de una esfera real o virtual. El significado preciso[[ de]] este término tiene algunas particularidades"
+    },
+    {
+     "item": 107,
+     "source": "reference text: es",
+     "act": 19.5,
+     "text": ", en la que se graduó de bachiller con una tesis sobre la Cirrosis hepática de forma atrófica[[ de]] origen palúdico (1"
+    },
+    {
+     "item": 114,
+     "source": "reference text: es",
+     "act": 16.75,
+     "text": " (como censos y estadísticas de la industria y del consumidor, planificación de recursos empresariales y transacciones a gran escala[[ de]] procesamiento). Una computadora central es"
+    },
+    {
+     "item": 3541,
+     "source": "chat (smoltalk)",
+     "act": -16.125,
+     "text": " on feedback from stakeholders and any additional data that becomes available. This iterative process ensures that the analysis remains relevant, accurate,[[ and]] actionable, ultimately informing business"
+    },
+    {
+     "item": 3066,
+     "source": "chat (smoltalk)",
+     "act": -16.125,
+     "text": " station.<turn|>\n<|turn>model\nHere's a revised version of your product description that's clear, concise,[[ and]] engaging:\n\n\"Experience effortless"
+    },
+    {
+     "item": 3344,
+     "source": "chat (smoltalk)",
+     "act": -15.688,
+     "text": " template or hire a web designer to create a custom store design. Ensure that your platform is user-friendly, secure,[[ and]] optimized for mobile devices.\n\n"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "}=(",
+     " pula",
+     "분이",
+     "ién",
+     "бок",
+     "Untuk",
+     " dish",
+     "Dish",
+     "__\":",
+     "}}}{",
+     " gevoel",
+     "bender",
+     "azaki",
+     "rete",
+     "に移",
+     "}}{(",
+     "ParkingSpot",
+     " Dish",
+     "ออกมา",
+     "}}}^{"
+    ],
+    "-": [
+     "aren",
+     "ector",
+     "ेन",
+     "意外",
+     "వ్ర",
+     " e",
+     "स्पति",
+     " upstream",
+     "hape",
+     "itor",
+     " widest",
+     " nh",
+     " bul",
+     "ً",
+     " الموس",
+     " g",
+     " previously",
+     "ota",
+     "全文",
+     "йд"
+    ]
+   }
+  },
+  {
+   "layer": 12,
+   "module": "mlp.down_proj",
+   "neuron": 5004,
+   "update_norm": 3.457697629928589,
+   "relative_to_column": 7.140999794006348,
+   "mean_abs_activation": 0.05487489327788353,
+   "max_abs_activation": 3.640625,
+   "breadth": 0.008118433877825737,
+   "top": [
+    {
+     "item": 489,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.641,
+     "text": " depending on the desired tone and context:\n\n**Most common and direct:**\n\n* **Co chceš? Pojist[[ku]]?** (What do you"
+    },
+    {
+     "item": 3451,
+     "source": "chat (smoltalk)",
+     "act": -3.0,
+     "text": "ave, figure out the outcome when person A says \"I am a knave\" to person B.<turn|>\n<|turn>[[model]]\nLet's analyze the"
+    },
+    {
+     "item": 63,
+     "source": "reference text: de",
+     "act": -2.891,
+     "text": "atorisch gibt es Zentralbanken, die auch Bankgeschäfte mit jedermann abschließen dürfen und Zentralbanken,[[ denen]] dies untersagt ist. Zentral"
+    },
+    {
+     "item": 67,
+     "source": "reference text: de",
+     "act": 2.562,
+     "text": "., dem Großherzog von Krakau und Seniorherzog von Polen, um den Expansionsbestreb[[ungen]] des böhmischen Königs Ott"
+    },
+    {
+     "item": 76,
+     "source": "reference text: de",
+     "act": -2.469,
+     "text": "hmen, der die böhmischen und mährischen Gebiete unter seiner Führung vereinigte, stirbt. Auf[[ ihn]] folgt sein 13-"
+    },
+    {
+     "item": 2930,
+     "source": "chat (smoltalk)",
+     "act": -2.359,
+     "text": "<bos><|turn>user\nTo[[ whom]] this may concern,\n\nI"
+    },
+    {
+     "item": 3041,
+     "source": "chat (smoltalk)",
+     "act": -2.359,
+     "text": "<bos><|turn>user\nTo[[ whom]] it may concern,\n\nI"
+    },
+    {
+     "item": 3644,
+     "source": "chat (smoltalk)",
+     "act": -2.344,
+     "text": "Uso alcuno, alcun frutto\n     Indovinar non so.\n\n     Sola nel mondo eterna, a[[ cui]] si volve\n     Og"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "SegmentInfo",
+     "ində",
+     "々に",
+     "ándole",
+     " üzere",
+     "IsPass",
+     " muut",
+     "不动",
+     " inasmuch",
+     " tại",
+     "QueryParams",
+     "장에서",
+     "人在",
+     " ifs",
+     " inapplicable",
+     "ల్‌",
+     "ənd",
+     "ruž",
+     " Quar",
+     " Concepts"
+    ],
+    "-": [
+     " Gaga",
+     " uncomment",
+     " equals",
+     " Monarch",
+     " alguma",
+     "agment",
+     "حدى",
+     " la",
+     " فقط",
+     " ध",
+     "спользу",
+     " helper",
+     " tipped",
+     " monitors",
+     "HLIGHT",
+     " داشت",
+     " Donc",
+     " tip",
+     " Tip",
+     " habit"
+    ]
+   }
+  },
+  {
+   "layer": 14,
+   "module": "mlp.down_proj",
+   "neuron": 4223,
+   "update_norm": 3.9767940044403076,
+   "relative_to_column": 7.704514503479004,
+   "mean_abs_activation": 0.06639504432678223,
+   "max_abs_activation": 1.6484375,
+   "breadth": 0.012655205093324184,
+   "top": [
+    {
+     "item": 3117,
+     "source": "chat (smoltalk)",
+     "act": 1.648,
+     "text": " Happiness is not just a fleeting emotion but a way of life that brings lasting benefits to ourselves and those around us.\n\n[[P]].S. Remember, the"
+    },
+    {
+     "item": 3223,
+     "source": "chat (smoltalk)",
+     "act": 1.594,
+     "text": " ultimately result in the production of glucose, which plants use as a source of energy and as a building block for growth.[[\n\n]]Is there anything else I can"
+    },
+    {
+     "item": 125,
+     "source": "reference text: longdoc",
+     "act": 1.398,
+     "text": " , did the same . \n Irish culture has had a significant influence on other cultures , especially in the fields of literature[[ .]] Alongside mainstream Western culture , a"
+    },
+    {
+     "item": 3240,
+     "source": "chat (smoltalk)",
+     "act": 1.398,
+     "text": " By practicing kindness, we not only improve our own well-being but also contribute to a more compassionate and understanding society.[[\n\n]]P.S. Always remember"
+    },
+    {
+     "item": 2886,
+     "source": "chat (smoltalk)",
+     "act": 1.391,
+     "text": ". Next, establish a budget and timeline, including setting a date and creating a rough schedule of activities. \n\nYou[[']]ll also need to choose a"
+    },
+    {
+     "item": 3708,
+     "source": "chat (smoltalk)",
+     "act": 1.375,
+     "text": " These platforms offer a wide range of options for destinations, making it easier to find the perfect place to relax and explore.[[\n\n]]Section 2\nOnce you"
+    },
+    {
+     "item": 3541,
+     "source": "chat (smoltalk)",
+     "act": 1.359,
+     "text": " The collected data is then inspected for errors, inconsistencies, and missing values, and cleaned accordingly to ensure accuracy and reliability.[[\n\n]]Following data cleaning, the analyst"
+    },
+    {
+     "item": 2939,
+     "source": "chat (smoltalk)",
+     "act": 1.336,
+     "text": " can be a symptom of underlying mental health issues, such as attention deficit hyperactivity disorder (ADHD) or depression.\n\n[[It]]'s worth noting that the"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " whence",
+     " Imag",
+     "crits",
+     " intercepted",
+     " retrieved",
+     " Vertical",
+     "というと",
+     " Rainy",
+     "washed",
+     " dissolved",
+     " Imagine",
+     "૦",
+     " Square",
+     " Interfer",
+     " acquired",
+     " assumed",
+     " waarop",
+     " imaginary",
+     "カール",
+     "discover"
+    ],
+    "-": [
+     "户",
+     " προς",
+     " gerne",
+     " شاء",
+     "也不会",
+     "vá",
+     "也不",
+     "毫不",
+     "对于",
+     " au",
+     " households",
+     "}\">${",
+     " πρό",
+     "不会",
+     "あれば",
+     "okan",
+     "它可以",
+     " playerData",
+     "쁘",
+     " congregations"
+    ]
+   }
+  },
+  {
+   "layer": 25,
+   "module": "mlp.down_proj",
+   "neuron": 684,
+   "update_norm": 4.94381856918335,
+   "relative_to_column": 5.216968536376953,
+   "mean_abs_activation": 0.03605823218822479,
+   "max_abs_activation": 1.71875,
+   "breadth": 0.0038204393349587917,
+   "top": [
+    {
+     "item": 94,
+     "source": "reference text: ja",
+     "act": 1.719,
+     "text": "またまその言語に一音素（または一音節）の語や形態素が存在していたということを意味[[する]]に過ぎない。形式的に"
+    },
+    {
+     "item": 95,
+     "source": "reference text: ja",
+     "act": 1.594,
+     "text": "麺状のロングパスタがある。他に団子状や板状のものもある。\n\nイタリアには地方独特のもの[[も含]]め650種類もの"
+    },
+    {
+     "item": 85,
+     "source": "reference text: ja",
+     "act": 1.531,
+     "text": "しょうどうよう）、自然童謡（しぜんどうよう）ともいう。民謡の一種ととら[[えられる]]ものもある。\n\n日本に"
+    },
+    {
+     "item": 86,
+     "source": "reference text: ja",
+     "act": 1.383,
+     "text": "電圧・電流等々、さまざまな量を計測できる計測器である。「保守点検用電気計測器」として扱[[われる]]こともある。\n\n一般に馴染"
+    },
+    {
+     "item": 91,
+     "source": "reference text: ja",
+     "act": 1.367,
+     "text": "ぎ澄まし究めること」の意。\n\n目的 \n研究と称される行為の目的は多種[[多様]]であり、自明に求め"
+    },
+    {
+     "item": 93,
+     "source": "reference text: ja",
+     "act": 1.305,
+     "text": "（発音の小単位）を示している。表音文字の一文字一文字は、あくまで音を表すための[[もので]]あり、原則（※）"
+    },
+    {
+     "item": 88,
+     "source": "reference text: ja",
+     "act": 1.18,
+     "text": "は、尼婆羅。\n\n 国名の変遷\n国際連合におけるネパールの正式国名の変遷は[[以下の]]通り。\n - 2"
+    },
+    {
+     "item": 99,
+     "source": "reference text: ja",
+     "act": 1.164,
+     "text": "手イアーゴーの奸計にかかり、妻デズデモーナの貞操を疑い殺すが[[、]]のち真実を知った"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " revolutionize",
+     " घोषणा",
+     "={()",
+     "}{}",
+     " epoch",
+     " constexpr",
+     "sinatra",
+     " aloft",
+     "mapsto",
+     " :=",
+     " Atr",
+     "declar",
+     " autonomously",
+     " уто",
+     " autonomous",
+     "誕生",
+     " epit",
+     " disassembled",
+     " abstracts",
+     "ubre"
+    ],
+    "-": [
+     "Feeling",
+     " コ",
+     " 積",
+     " Slade",
+     "الإنجليزية",
+     " Perm",
+     "Feel",
+     " you",
+     " disponível",
+     " permissive",
+     "รู้สึก",
+     "Serious",
+     " feeling",
+     "’?",
+     "ikko",
+     "Perm",
+     "feel",
+     " serious",
+     "強い",
+     "feeling"
+    ]
+   }
+  },
+  {
+   "layer": 26,
+   "module": "mlp.down_proj",
+   "neuron": 2161,
+   "update_norm": 5.040944576263428,
+   "relative_to_column": 4.844459056854248,
+   "mean_abs_activation": 0.05733716860413551,
+   "max_abs_activation": 12.8125,
+   "breadth": 0.0054918816313147545,
+   "top": [
+    {
+     "item": 62,
+     "source": "reference text: de",
+     "act": 12.812,
+     "text": "ung der Insel. Der Großmeister des Malteserordens und Befehlshaber der Verteidiger, Jean de la[[ Val]]ette, lässt das dortige"
+    },
+    {
+     "item": 116,
+     "source": "reference text: es",
+     "act": 11.938,
+     "text": ", Bohemia, Imperio Austrohúngaro, 4 de diciembre de 1875 - Raroña,[[ Val]]ais, Suiza, 2"
+    },
+    {
+     "item": 3089,
+     "source": "chat (smoltalk)",
+     "act": 11.5,
+     "text": " topped with smoked meats and cheeses, could add a deep, rich flavor profile. Alternatively, a \"Grilled Pineapple-J[[al]]apeño Pizza\" with caramelized"
+    },
+    {
+     "item": 373,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 11.438,
+     "text": "ini, club, F.C. Bari 1908; Michele Marcolini, club, Vicenza[[ Cal]]cio.\n\nGenerate a detailed"
+    },
+    {
+     "item": 563,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 11.062,
+     "text": "atează - Interzicerea respingerii selective și restricțiile la pescuitul de cambulă și de[[ cal]]can în Marea Baltică"
+    },
+    {
+     "item": 3102,
+     "source": "chat (smoltalk)",
+     "act": 10.312,
+     "text": " of his future. Michael finally succumbs to her pleading and they pack a small boat and leave the island. But bec[[al]]med in the middle of the"
+    },
+    {
+     "item": 452,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 10.188,
+     "text": " approximately fifteen-word sentence that describes all this data: A.C. Chievo Verona FULL_NAME \"Associazione[[ Cal]]cio ChievoVerona S"
+    },
+    {
+     "item": 74,
+     "source": "reference text: de",
+     "act": 10.125,
+     "text": "Der 2. Januar (auch 2. Jänner) ist der 2. Tag des gregorianischen[[ Kal]]enders, somit bleiben 3"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " order",
+     " cái",
+     " जाना",
+     ")}^{\\",
+     "อัน",
+     " brass",
+     "さい",
+     " ordered",
+     " rod",
+     " orders",
+     " Travel",
+     "lace",
+     " ordering",
+     "出国",
+     " Order",
+     "ल्क",
+     "brass",
+     " wal",
+     " PUR",
+     "才会"
+    ],
+    "-": [
+     " meantime",
+     " sient",
+     " novella",
+     "ccn",
+     " spoilt",
+     " !”",
+     " plea",
+     " islets",
+     " rallying",
+     "蜢",
+     "也能",
+     "☃",
+     " uitge",
+     "有望",
+     " sienta",
+     " guidebook",
+     " Meanwhile",
+     "део",
+     "みんな",
+     " convinc"
+    ]
+   }
+  },
+  {
+   "layer": 3,
+   "module": "mlp.down_proj",
+   "neuron": 4598,
+   "update_norm": 5.787382125854492,
+   "relative_to_column": 5.233861446380615,
+   "mean_abs_activation": 0.08524937182664871,
+   "max_abs_activation": 11.375,
+   "breadth": 0.0047755492851138115,
+   "top": [
+    {
+     "item": 2868,
+     "source": "chat (smoltalk)",
+     "act": 11.375,
+     "text": " of issues should one consider?<turn|>\n<|turn>model\nWhen selecting statistical analysis procedures for a data set, several general principles[[ guide]] the decision-making process."
+    },
+    {
+     "item": 3637,
+     "source": "chat (smoltalk)",
+     "act": 8.25,
+     "text": ", its fury unrelenting, though I knew I was miles from its supposed center. Shattered glass and splintered wood littered[[ the]] floor as the windows, once"
+    },
+    {
+     "item": 411,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 7.406,
+     "text": " in texture and flavor. It is a vaguely V-shaped pair of muscles with a long, inedible membrane running down[[ the]] middle. The hanger steak is"
+    },
+    {
+     "item": 3408,
+     "source": "chat (smoltalk)",
+     "act": 7.312,
+     "text": " are an everyday accessory, or where people have adapted to living in a perpetual twilight due to thick layers of pollution blocking out[[ the]] sunlight.\n\nAnother approach is"
+    },
+    {
+     "item": 478,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 6.875,
+     "text": " happened in 330 AD?\"  Context: \"Scholars and historians are divided as to what event signals[[ the]] end of the Hellenistic era"
+    },
+    {
+     "item": 3286,
+     "source": "chat (smoltalk)",
+     "act": 6.875,
+     "text": " herself in a small, dimly lit room, the air thick with the scent of aged books and dust. Shelves lined[[ the]] walls, their surfaces cluttered with"
+    },
+    {
+     "item": 3352,
+     "source": "chat (smoltalk)",
+     "act": 6.719,
+     "text": " of the group operation, such as a * a^(-1) = 1. There are no other equations that relate[[ the]] elements of F(X)"
+    },
+    {
+     "item": 3377,
+     "source": "chat (smoltalk)",
+     "act": 6.656,
+     "text": " ensure that the evidence is accurately interpreted and not cherry-picked to fit the argument.\n\nReasoning is the glue that[[ connects]] the evidence to the claim."
+    }
+   ],
+   "vocab": {
+    "+": [
+     " {}\",",
+     " {:.",
+     "?\\\\",
+     "場合は",
+     " emphasizes",
+     " dispos",
+     "PostConstruct",
+     "MOS",
+     "Application",
+     " optionally",
+     "ptive",
+     "おい",
+     "\"}",
+     "$$",
+     "ということは",
+     "わせ",
+     " gus",
+     "Inputs",
+     "akh",
+     "osov"
+    ],
+    "-": [
+     "sendLog",
+     " hidrógeno",
+     " ändern",
+     " البلد",
+     " sg",
+     " الحلقة",
+     " بالش",
+     "wachung",
+     "تاجها",
+     "十七",
+     "ylamine",
+     " grados",
+     " niż",
+     " لس",
+     " Ziegler",
+     "nextNode",
+     "ग्राम",
+     "ństwa",
+     "の人",
+     " GED"
+    ]
+   }
+  },
+  {
+   "layer": 33,
+   "module": "mlp.down_proj",
+   "neuron": 3090,
+   "update_norm": 3.635612964630127,
+   "relative_to_column": 3.545994758605957,
+   "mean_abs_activation": 0.02010047622025013,
+   "max_abs_activation": 1.0625,
+   "breadth": 0.0076408786699175835,
+   "top": [
+    {
+     "item": 108,
+     "source": "reference text: es",
+     "act": -1.062,
+     "text": " interés, el plano de referencia es el área local (por ejemplo, un área circular con un radio de 5�[[�]]km al nivel del mar)"
+    },
+    {
+     "item": 106,
+     "source": "reference text: es",
+     "act": -1.008,
+     "text": "or (Hacienda de Corralejo, Alcaldía Mayor de León, Reino de México, Nueva España, [[8]] de mayo de 17"
+    },
+    {
+     "item": 115,
+     "source": "reference text: es",
+     "act": -0.855,
+     "text": " megaocteto (Mo) es una unidad de información. Es múltiplo del byte u octeto y equivale a [[1]]06 B ("
+    },
+    {
+     "item": 113,
+     "source": "reference text: es",
+     "act": 0.789,
+     "text": "os, y otras bebidas estivales como la cuerva, la zurra, la limonada y diferentes tipos de[[ sang]]ría, entre otros ponches"
+    },
+    {
+     "item": 2900,
+     "source": "chat (smoltalk)",
+     "act": -0.746,
+     "text": " contain less than 100 words. Finish your response with this exact phrase \"Is there anything else I can help[[ with]]?\". Your ENTIRE response"
+    },
+    {
+     "item": 104,
+     "source": "reference text: es",
+     "act": -0.73,
+     "text": "ico es un eón y eonotema de la escala temporal geológica que se extiende desde hace 54[[2]],0 ±1,0"
+    },
+    {
+     "item": 2932,
+     "source": "chat (smoltalk)",
+     "act": -0.691,
+     "text": "\n<|turn>model\nThe Great Wall of China extends over 13,000 miles (8,85[[0]] kilometers) and was built over"
+    },
+    {
+     "item": 3207,
+     "source": "chat (smoltalk)",
+     "act": -0.688,
+     "text": "1, a Boeing 737-800 aircraft. We're currently cruising at an altitude of [[3]]5,000 feet"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " kıs",
+     "ちょうど",
+     " দ্বারা",
+     " eğer",
+     " Pop",
+     "ඳ",
+     "厚",
+     " zaten",
+     "매",
+     " pik",
+     "特に",
+     "あっ",
+     " Amplitude",
+     "धारक",
+     "annel",
+     "縦",
+     " automaker",
+     "க்கி",
+     "筒",
+     " elkaar"
+    ],
+    "-": [
+     "aré",
+     " steps",
+     " Gente",
+     " pasos",
+     " defeats",
+     "inat",
+     "tf",
+     "('.');",
+     " regenerate",
+     "steps",
+     "step",
+     "水中",
+     " pourrez",
+     "ophage",
+     "|>",
+     " step",
+     "AF",
+     "===",
+     "oretically",
+     " বিহার"
+    ]
+   }
+  },
+  {
+   "layer": 8,
+   "module": "mlp.down_proj",
+   "neuron": 333,
+   "update_norm": 3.938093900680542,
+   "relative_to_column": 3.861157178878784,
+   "mean_abs_activation": 0.06078740581870079,
+   "max_abs_activation": 1.609375,
+   "breadth": 0.04369627684354782,
+   "top": [
+    {
+     "item": 339,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 1.609,
+     "text": " he meets some weird people. in fact, everyone he knows seem pretty crazy. \n\n\"edward!\" \"general[[ pet]]erson, we have to<turn|>"
+    },
+    {
+     "item": 78,
+     "source": "reference text: de",
+     "act": -1.547,
+     "text": "ation (, IFC)\n Multilaterale Investitions-Garantie-Agentur (, MIGA)\n International[[es]] Zentrum für die Beilegung"
+    },
+    {
+     "item": 100,
+     "source": "reference text: es",
+     "act": 1.523,
+     "text": " director de óperas español, célebre por haber musicalizado las estrofas escritas por Francisco González Boc[[an]]egra para dar origen al Him"
+    },
+    {
+     "item": 436,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 1.414,
+     "text": " motor race held on 23 April 2016 in Paris, France on a street circuit around Les In[[val]]ides. It was the seventh"
+    },
+    {
+     "item": 92,
+     "source": "reference text: ja",
+     "act": -1.406,
+     "text": "6年 - アメリカ独立戦争: トレントンの戦い。\n 1793年 - ルートヴィ[[ヒ]]・フォン・プロイセン"
+    },
+    {
+     "item": 70,
+     "source": "reference text: de",
+     "act": -1.375,
+     "text": " Stelle der historischen Provinzen gültig.\n 21. März: In Frankreich wird im Zuge der Französ[[ischen]] Revolution die besonders unbeliebte"
+    },
+    {
+     "item": 518,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": -1.367,
+     "text": "<bos><|turn>user\nHatt[[ın]] günde 750"
+    },
+    {
+     "item": 3865,
+     "source": "web text (wikitext)",
+     "act": 1.359,
+     "text": " , Lesnar was sidelined due to diverticulitis . He would return at UFC 116 to defeat Interim UFC[[ Heavy]]weight Champion Shane Carwin and"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " cur",
+     " همچنین",
+     " Örneğin",
+     " Prop",
+     "CCI",
+     "ibil",
+     "inx",
+     "eli",
+     "降",
+     "Enum",
+     "Xs",
+     "ety",
+     " Example",
+     "дже",
+     " ան",
+     " ALSO",
+     " Petit",
+     "Des",
+     "ഉ",
+     "emu"
+    ],
+    "-": [
+     " insgesamt",
+     " kracht",
+     "成就",
+     " justiça",
+     " dédiée",
+     " uitvo",
+     ")}^{\\",
+     " afield",
+     "ጠበ",
+     " موز",
+     " culturas",
+     " buenos",
+     "ുകൊണ്ട",
+     " achie",
+     " ausge",
+     " acht",
+     "waard",
+     "''''",
+     " gramos",
+     "========="
+    ]
+   }
+  }
+ ],
+ "joint": [
+  {
+   "item": 3377,
+   "source": "chat (smoltalk)",
+   "write": 88.553,
+   "text": " with a precise and well-defined claim, also known as a thesis statement. This claim should be specific, concise,[[ and]] relevant to the topic at hand"
+  },
+  {
+   "item": 113,
+   "source": "reference text: es",
+   "write": 86.333,
+   "text": " y té. De ahí procede su nombre hindi, que fue adoptado por los marineros de la Compañía Británica[[ de]] las Indias Orientales,"
+  },
+  {
+   "item": 107,
+   "source": "reference text: es",
+   "write": 82.85,
+   "text": ", en la que se graduó de bachiller con una tesis sobre la Cirrosis hepática de forma atrófica[[ de]] origen palúdico (1"
+  },
+  {
+   "item": 108,
+   "source": "reference text: es",
+   "write": 82.4,
+   "text": "imudes), se refiere a un ángulo de la orientación sobre la superficie de una esfera real o virtual. El significado preciso[[ de]] este término tiene algunas particularidades"
+  },
+  {
+   "item": 114,
+   "source": "reference text: es",
+   "write": 71.761,
+   "text": " (como censos y estadísticas de la industria y del consumidor, planificación de recursos empresariales y transacciones a gran escala[[ de]] procesamiento). Una computadora central es"
+  },
+  {
+   "item": 3066,
+   "source": "chat (smoltalk)",
+   "write": 68.147,
+   "text": " station.<turn|>\n<|turn>model\nHere's a revised version of your product description that's clear, concise,[[ and]] engaging:\n\n\"Experience effortless"
+  },
+  {
+   "item": 3541,
+   "source": "chat (smoltalk)",
+   "write": 67.995,
+   "text": " on feedback from stakeholders and any additional data that becomes available. This iterative process ensures that the analysis remains relevant, accurate,[[ and]] actionable, ultimately informing business"
+  },
+  {
+   "item": 111,
+   "source": "reference text: es",
+   "write": 67.13,
+   "text": "Paraboloide hiperbólico \n\nUn paraboloide será hiperbólico cuando los términos cuantitativos cuadráticos[[ de]] su ecuación canónica sean de"
+  },
+  {
+   "item": 3344,
+   "source": "chat (smoltalk)",
+   "write": 66.938,
+   "text": " template or hire a web designer to create a custom store design. Ensure that your platform is user-friendly, secure,[[ and]] optimized for mobile devices.\n\n"
+  },
+  {
+   "item": 2868,
+   "source": "chat (smoltalk)",
+   "write": 66.574,
+   "text": " of issues should one consider?<turn|>\n<|turn>model\nWhen selecting statistical analysis procedures for a data set, several general principles[[ guide]] the decision-making process."
+  }
+ ],
+ "corpus": {
+  "n_items": 4188
+ },
+ "probe": [
+  {
+   "item": 3377,
+   "prompt": "I am trying to figure out what makes an argument convincing and what the key components of a well structured argument are. I have a regular discussion group that usually centers around a random topic, but we often wind up lost and I'd like to improve the quality of these discussions by making sure I am prepared. What makes a good argument?",
+   "original": "That's a fantastic goal. Moving from random, lost discussions to structured, convincing arguments is a skill that can be learned and significantly improves the quality of your group's interactions.\n\nA convincing argument isn't just about having strong opinions; it's about **building a logical bridge** between your beliefs and the listener's understanding.\n\nHere is a comprehensive breakdown of what makes an argument convincing and the key components of a well-structured argument.\n\n---\n\n## Part 1: What Makes an Argument Convincing? (The \"Why It Works\")\n\nA convincing argument appeals to both the **logic** of the mind and the **emotions** of the audience.\n\n### 1. Soundness (The Logic Check)\nThis is the foundation. A sound argument is one where the conclusion *logically follows* from the premises (the evidence).\n\n* **Validity:** Does the structure of the argument make sense? If the premises are true, *must* the conclusion be true? (Focuses on structure, not truth.)\n* **Soundness:** Is the argument **valid** *and* are all the **premises actually true**? (This is the gold standard for a convincing argument.)\n\n### 2. Relevance (The Connection Check)\nThe evidence you present must directly relate to the point you are trying to prove.\n\n* **No Red Herrings:** Don't bring up irrelevant facts or personal attacks just to distract the audience. Every piece of evidence should serve a purpose in supporting the main claim.\n\n### 3. Credibility (The Source Check)\nPeople are more likely to believe an argument if they trust the person presenting it or the data they are using.\n\n* **Authority:** Are you citing experts? Are you using reliable, peer-reviewed sources, or just random blog posts?\n* **Objectivity (or Acknowledged Bias):** Are you presenting facts fairly, or are you only showing evidence that supports your view while ignoring contradictory evidence? Acknowledging limitations or counter-arguments makes you look more honest.\n\n### 4. Clarity and Simplicity (The Accessibility Check)\nA brilliant argument that no one can follow is useless. Convincing arguments are clear.\n\n* **Precise Language:** Avoid vague terms (\"everyone knows,\" \"it seems like\"). Use specific data and clear definitions.\n* **Logical Flow:** The transition between points should be smooth, allowing the listener to follow your train of thought without getting lost.\n\n---\n\n## Part 2: The Key Components of a Well-Structured Argument (The \"How-To\")\n\nMost persuasive arguments follow a basic, powerful structure. Think of it like a funnel: start broad, narrow down to your specific point, and then prove it.\n\n### Component 1: The Claim (The Thesis Statement)\n**What is your main point?** This is the single, clear sentence that states what you want the audience to believe or agree with.\n\n* **Goal:** To state your position clearly and unambiguously.\n* **Example (Weak):** \"Social media is bad.\"\n* **Example (Strong):** \"Because social media algorithms prioritize sensationalism, they actively contribute to the polarization of political discourse.\"\n\n### Component 2: The Premises (The Evidence/Support)\n**Why should the audience believe your claim?** These are the facts, data, examples, statistics, expert opinions, or logical reasoning that support your claim.\n\n* **Goal:** To provide concrete, verifiable support.\n* **Types of Premises:**\n    * **Facts/Data:** Statistics, historical records, scientific findings.\n    * **Examples:** Specific, illustrative stories or case studies.\n    * **Expert Testimony:** Quotes or findings",
+   "edited": "That's a fantastic goal. Moving from random, lost discussions to structured, convincing arguments is a skill that can be learned and significantly improves the quality of your group's interactions.\n\nA convincing argument isn't just about having strong opinions; it's about **logically connecting your ideas to support a specific conclusion.**\n\nHere is a comprehensive breakdown of what makes an argument convincing and the key components of a well-structured argument.\n\n---\n\n## Part 1: What Makes an Argument Convincing? (The Quality Check)\n\nA convincing argument succeeds when it achieves three main things: **Clarity, Logic, and Credibility.**\n\n### 1. Clarity (Is it Easy to Understand?)\n* **Precise Language:** Using specific terms rather than vague generalizations. If you use a term, make sure everyone knows what you mean by it.\n* **Unambiguous Claims:** Stating exactly what you believe. Avoid hedging language (e.g., \"I think,\" \"Maybe,\" \"It seems like\"). Instead, state your position clearly: \"X is true because of Y.\"\n* **Focus:** Sticking to one central point. A convincing argument doesn't try to prove ten things at once; it proves *one* thing very well.\n\n### 2. Logic (Does it Make Sense?)\n* **Sound Reasoning:** The connection between your evidence and your conclusion must be valid. This means avoiding logical fallacies (see below).\n* **Relevance:** Every piece of evidence you present must directly relate to the claim you are trying to prove. Don't bring up an interesting fact just because it's interesting—bring it up because it supports your point.\n* **Causality vs. Correlation:** A common mistake is assuming that because two things happen together (correlation), one *caused* the other (causation). A strong argument establishes a clear cause-and-effect relationship.\n\n### 3. Credibility (Can I Trust You?)\n* **Strong Evidence:** Your claims must be backed up by reliable data, examples, statistics, expert testimony, or logical reasoning. Anecdotes are nice, but data is powerful.\n* **Acknowledging Counterarguments (The \"Steel Man\"):** A truly convincing argument anticipates objections. By fairly representing the strongest version of the opposing view (the \"steel man\"), you show you've considered the issue thoroughly, making your own position seem more robust.\n* **Fairness:** Presenting the evidence objectively, even when it supports your side, builds trust.\n\n---\n\n## Part 2: The Key Components of a Well-Structured Argument (The Blueprint)\n\nA strong argument follows a classic structure, often called the **Claim-Evidence-Warrant (or Reasoning) Model.**\n\n### Component 1: The Claim (The Thesis)\n**What is it?** This is your main point. It is the single, specific assertion you are trying to convince your audience of.\n* **Function:** It tells the audience exactly what you want them to believe or agree with.\n* **Example (Weak):** \"Social media is bad.\" (Too broad, subjective)\n* **Example (Strong):** \"The constant use of short-form video platforms negatively impacts adolescent attention spans by reducing the capacity for sustained focus.\" (Specific, debatable, focused)\n\n### Component 2: The Evidence (The Support)\n**What is it?** This is the data, facts, examples, statistics, quotes, or case studies that prove your claim is true.\n* **Function:** This is the \"proof.\" It provides the objective material that grounds your subjective claim.\n* **Quality Check:** Is the evidence **reliable** (from a"
+  },
+  {
+   "item": 113,
+   "prompt": "Escribe un breve artículo de enciclopedia sobre «Ponche».",
+   "original": "## Ponche\n\n**Definición:**\n\nEl **ponche** es una bebida alcohólica, generalmente dulce, preparada a partir de una mezcla de licores, jugos de frutas, refrescos, especias y a veces ingredientes adicionales como hierbas o trozos de fruta. Es una bebida popular en diversas culturas, especialmente en América Latina y otras regiones con una rica tradición de coctelería casera.\n\n**Características Principales:**\n\n* **Sabor:** Su característica definitoria es su sabor complejo y afrutado, resultado de la combinación de sabores dulces (frutas), ácidos (jugos) y el perfil alcohólico del licor base.\n* **Textura:** Suele ser líquido y refrescante.\n* **Preparación:** La elaboración del ponche es altamente variable. Puede ser una mezcla simple de ingredientes pre-dosificados o una preparación artesanal donde el cocinero o anfitrión combina los elementos a su gusto.\n* **Consumo:** Se consume comúnmente como bebida festiva, refresco digestivo o como acompañamiento en celebraciones, reuniones familiares o eventos sociales.\n\n**Tipos y Variaciones:**\n\nNo existe una única receta de ponche; la diversidad es inmensa. Los ponches varían enormemente según los ingredientes utilizados:\n\n* **Ponches de Frutas:** Basados en jugos de frutas como piña, maracuyá (fruta de la pasión), mango, cereza o manzana.\n* **Ponches de Licor:** Utilizan licores base como ron, brandy, tequila, licor de naranja o aguardiente.\n* **Ponches Tradicionales:** En algunas regiones, existen ponches con ingredientes locales específicos, como hierbas medicinales o especias como canela o clavo.\n\n**Contexto Cultural:**\n\nEl ponche juega un papel importante en la cultura social. Está intrínsecamente ligado a la hospitalidad y a la celebración. Representa una forma accesible y festiva de disfrutar de bebidas alcohólicas, adaptándose a los gustos locales y a las estaciones del año.\n\n**En Resumen:**\n\nEl ponche es mucho más que una simple bebida; es una expresión culinaria y social que fusiona el dulzor de las frutas con la potencia del alcohol, creando una experiencia refrescante y memorable.",
+   "edited": "## Ponche\n\n**Definición:**\n\nEl **ponche** es una bebida alcohólica, generalmente dulce, preparada a partir de una mezcla de licores, jugos de frutas, jarabes, especias y a veces agua o refrescos. Es una bebida tradicional y popular en diversas culturas, especialmente en América Latina y otras regiones con una rica tradición de coctelería casera.\n\n**Características Principales:**\n\n* **Sabor:** Su característica definitoria es su sabor complejo y afrutado, resultado de la combinación de sabores dulces (frutas), ácidos (jugos) y el carácter alcohólico del licor base.\n* **Textura:** Suele ser líquido y refrescante.\n* **Preparación:** La elaboración del ponche varía enormemente según la receta y la región. Implica la infusión o mezcla cuidadosa de sus componentes para lograr el equilibrio deseado entre dulzor, acidez y alcohol.\n* **Uso:** Se consume comúnmente como bebida festiva, refresco en climas cálidos, o como digestivo ligero.\n\n**Componentes Típicos:**\n\nAunque no existe una fórmula única, un ponche generalmente incluye:\n\n1. **Base Alcohólica:** Ron, brandy, aguardiente, licor de frutas, o vino.\n2. **Ingredientes Frutales:** Jugos de frutas frescas o envasadas (naranja, piña, maracuyá, cereza, etc.).\n3. **Endulzantes:** Azúcar, jarabes de frutas, o miel.\n4. **Especias:** Canela, clavo, vainilla, o jengibre, que añaden profundidad al sabor.\n5. **Aromáticos:** A veces se incorporan hierbas o ralladuras de cítricos.\n\n**Variedades Regionales:**\n\nEl concepto de ponche es muy amplio y varía significativamente según el país o la región:\n\n* **Ponche de frutas:** Enfocado en la mezcla de jugos y alcohol.\n* **Ponche navideño:** Versiones más densas y especiadas, a menudo con notas de canela y frutas secas.\n* **Ponches específicos:** Existen ponches icónicos en países como Puerto Rico (ej. Ponche de Hierbabuena) o México, cada uno con su propia identidad y lista de ingredientes distintiva.\n\n**Importancia Cultural:**\n\nEl ponche no es solo una bebida; es un elemento cultural que evoca recuerdos de celebraciones, reuniones familiares y tradiciones. Representa la habilidad de los cocineros y anfitriones para crear bebidas complejas y reconfortantes a partir de ingredientes locales.\n\n***\n\n**Palabras Clave:** Bebida alcohólica, coctelería casera, frutas, licor, tradición, refresco, sabor afrutado."
+  },
+  {
+   "item": 107,
+   "prompt": "Escribe un breve artículo de enciclopedia sobre «Max González Olaechea».",
+   "original": "## Max González Olaechea\n\n**Max González Olaechea** es una figura cuya relevancia se sitúa en el ámbito de [**Aquí se debe insertar el campo principal de actividad de Max González Olaechea. Ejemplos: la literatura, la ciencia, la política, el arte, etc.**]. Aunque los detalles específicos de su vida y obra pueden variar según el contexto, su legado se caracteriza por [**Aquí se debe describir brevemente su contribución más significativa o su área de especialización. Ejemplos: su innovador enfoque en X, su obra seminal Y, su papel clave en el movimiento Z**].\n\n**Biografía y Trayectoria:**\n\nNacido en [**Si se conoce, incluir lugar y fecha de nacimiento**], González Olaechea desarrolló su carrera a lo largo de [**Mencionar el período o las etapas clave de su vida profesional**]. Desde sus inicios, demostró una notable capacidad para [**Mencionar una habilidad clave: el análisis crítico, la creatividad, la investigación rigurosa, etc.**].\n\nSu obra más influyente, [**Mencionar una obra, teoría o proyecto destacado**], es frecuentemente citada por [**Mencionar a quién o qué influyó su trabajo**], ya que aportó una nueva perspectiva sobre [**Tema central de su contribución**]. A lo largo de su carrera, ha mantenido un compromiso con [**Mencionar un valor o causa que lo define**].\n\n**Contribución y Legado:**\n\nEl impacto de Max González Olaechea se manifiesta principalmente en [**Resumir el impacto: ¿Qué cambió gracias a él? ¿Qué conocimiento introdujo?**]. Su trabajo no solo ha enriquecido el campo de [**Campo de estudio**], sino que también ha servido como punto de referencia para las generaciones posteriores de [**Profesionales o académicos en su área**].\n\n**En resumen, Max González Olaechea es recordado como un [**Usar un adjetivo fuerte: pensador, pionero, maestro, visionario**] cuya influencia perdura en [**Mencionar el área de influencia actual**].**\n\n***\n\n**Nota para el usuario:** Para que este artículo sea preciso y útil, **debes proporcionar el campo de actividad de Max González Olaechea**. Sin esa información, el artículo es solo una plantilla. Por favor, dame el contexto (¿Es un escritor? ¿Un científico? ¿Un político?) y podré rellenar los espacios con información real.",
+   "edited": "## Max González Olaechea\n\n**Max González Olaechea** es una figura cuya relevancia se sitúa en el ámbito de [**Aquí se debe insertar el campo principal de actividad de Max González Olaechea. Ejemplos: la literatura, la ciencia, la política, el arte, etc.**]. Aunque los detalles específicos de su obra o contribuciones varían según el contexto, su legado se caracteriza por [**Aquí se debe describir la característica más destacada de su trabajo o impacto. Ejemplos: su innovadora perspectiva, su influencia en la teoría X, su papel como pionero en Y**].\n\n**Biografía y Trayectoria:**\n\nNacido en [**Insertar lugar y año de nacimiento, si se conoce**], González Olaechea desarrolló su carrera a lo largo de [**Mencionar el período o las etapas clave de su vida profesional**]. Su formación en [**Mencionar instituciones o áreas de estudio relevantes**] sentó las bases para su posterior incursión en [**Mencionar el campo específico**].\n\nEntre sus principales contribuciones se encuentran [**Mencionar 1 o 2 logros, obras fundamentales, o ideas clave. Ser específico es crucial para una entrada de enciclopedia**]. Por ejemplo, su obra *[Título de la obra principal]* es considerada un hito en [**Explicar brevemente por qué es importante esa obra**].\n\n**Influencia y Legado:**\n\nLa influencia de Max González Olaechea se extiende a [**Mencionar a quién o qué influyó su trabajo. Ejemplos: generaciones posteriores de académicos, el desarrollo de una corriente teórica, el cambio en la percepción pública de un tema**]. Su pensamiento desafió las nociones establecidas sobre [**Mencionar el tema central de su trabajo**], abriendo nuevas vías de investigación y debate en su campo.\n\n**Conclusión:**\n\nMax González Olaechea permanece como una figura fundamental en [**Repetir el campo principal**]. Su trabajo no solo documenta un período histórico o un área de conocimiento, sino que también ofrece una perspectiva crítica y duradera sobre [**Resumir la idea central de su legado**].\n\n***\n\n**Nota para el usuario:** Para que este artículo sea una entrada de enciclopedia real y precisa, **debes proporcionar la información específica sobre a qué se refiere \"Max González Olaechea\"** (su campo, obras, fechas, etc.). El texto anterior es una plantilla que debe ser completada con datos concretos."
+  },
+  {
+   "item": 108,
+   "prompt": "Escribe un breve artículo de enciclopedia sobre «Acimut».",
+   "original": "## Acimut\n\n**Acimut** es un término fundamental en la navegación y la cartografía que se refiere a la **dirección o rumbo** que se mide en relación con el Norte geográfico o magnético. Es una medida angular esencial para determinar la posición relativa de un punto con respecto a otro en un plano.\n\n---\n\n### Definición y Concepto\n\nEl acimut es el ángulo medido en grados (generalmente de 0° a 360°) que se traza desde el **Norte verdadero** (o Norte magnético, dependiendo del contexto) hasta un punto específico.\n\n* **Norte (0°/360°):** Se establece como el punto de referencia inicial.\n* **Dirección:** Indica la orientación precisa de un objeto, un barco, un avión o una línea de navegación.\n\n### Tipos de Acimut\n\nAunque el concepto central es el ángulo, el acimut puede variar según el sistema de referencia utilizado:\n\n1. **Acimut Verdadero (True Bearing):** Mide la dirección real respecto al Polo Norte geográfico. Es el estándar utilizado en la navegación astronómica y la cartografía precisa.\n2. **Acimut Magnético (Magnetic Bearing):** Mide la dirección respecto al Polo Norte magnético. Este es el acimut que se lee comúnmente en brújulas, ya que se ajusta a la declinación magnética local.\n3. **Acimut Relativo:** Describe la dirección entre dos puntos específicos, independientemente de la referencia Norte absoluta.\n\n### Importancia y Aplicaciones\n\nEl acimut es una herramienta indispensable en múltiples campos:\n\n* **Navegación Marítima:** Es crucial para trazar rutas seguras, determinar la posición (navegación por estima) y evitar obstáculos.\n* **Aeronáutica:** Se utiliza para la planificación de rutas de vuelo y la comunicación entre aeronaves.\n* **Topografía y Cartografía:** Permite describir con precisión la orientación de características geográficas en mapas y planos.\n* **Geodesia:** Es fundamental para la medición precisa de ángulos y la localización de puntos en la superficie terrestre.\n* **Orientación:** Se utiliza en la vida cotidiana para orientarse en el espacio.\n\n### Relación con la Declinación Magnética\n\nEs importante notar que el **Acimut Magnético** no es idéntico al **Acimut Verdadero**. La diferencia entre ambos se conoce como **declinación magnética**. Esta declinación varía según la ubicación geográfica, ya que el campo magnético de la Tierra no es perfectamente paralelo a sus líneas de longitud. Los navegantes deben corregir el acimut magnético utilizando la declinación local para obtener el acimut verdadero necesario para una navegación precisa.\n\n---\n\n**En resumen, el Acimut es la medida angular que define la dirección de un objeto respecto al Norte, siendo un pilar fundamental para la orientación y la navegación en casi todas las disciplinas que involucran movimiento y localización espacial.**",
+   "edited": "## Acimut\n\n**Acimut** es un término fundamental en la navegación y la cartografía que se refiere a la **dirección o rumbo** que se mide en relación con el Norte geográfico o magnético. Es una medida angular esencial para determinar la posición relativa de un punto con respecto a otro en un plano.\n\n---\n\n### Definición y Concepto\n\nEl término \"acimut\" proviene del latín y se traduce literalmente como \"ángulo\" o \"dirección\". En el contexto de la navegación, el acimut es el **ángulo horizontal medido en grados (generalmente de 0° a 360°)**, que indica la orientación de un objeto, un barco, un avión o una línea de rumbo respecto al Norte.\n\n### Tipos de Acimut\n\nExisten dos tipos principales de acimut que son cruciales distinguir en la práctica náutica y aérea:\n\n1. **Acimut Verdadero (True Bearing):**\n    * Se mide con respecto al **Norte Geográfico** (o Norte Verdadero).\n    * Es la dirección real y fija del Polo Norte en la Tierra.\n\n2. **Acimut Magnético (Magnetic Bearing):**\n    * Se mide con respecto al **Norte Magnético**.\n    * El Norte Magnético es la dirección a la que apuntan las agujas de brújula, y varía constantemente debido a la declinación magnética (la diferencia entre el Norte Verdadero y el Norte Magnético en un punto específico).\n\n### Importancia en la Navegación\n\nEl acimut es una herramienta indispensable en cualquier disciplina que requiera movimiento direccional:\n\n* **Navegación Marítima:** Los marinos utilizan el acimut para trazar rutas, mantener el rumbo y calcular distancias recorridas.\n* **Aeronáutica:** Los pilotos utilizan el acimut para establecer trayectorias de vuelo y comunicarse con el control de tráfico aéreo.\n* **Cartografía:** Permite ubicar con precisión puntos en un mapa basándose en la dirección desde un punto de referencia conocido.\n* **Topografía:** Se utiliza para describir la orientación de características geográficas.\n\n### Relación con la Brújula y la Declinación\n\nLa medición del acimut se realiza tradicionalmente mediante el uso de una **brújula**. Sin embargo, para obtener un acimut verdadero a partir de una lectura de brújula, es necesario corregir la **declinación magnética** del lugar.\n\n$$\\text{Acimut Verdadero} = \\text{Acimut Magnético} \\pm \\text{Declinación Magnética}$$\n\nLa declinación magnética es el ángulo que debe sumarse o restarse al acimut magnético para obtener el acimut verdadero.\n\n### Resumen\n\nEl **Acimut** es la medida angular de dirección (en grados) que define la orientación de un objeto respecto al Norte. Es un concepto central en la navegación, permitiendo la determinación precisa de rumbos y la localización espacial."
+  },
+  {
+   "item": 114,
+   "prompt": "Escribe un breve artículo de enciclopedia sobre «Unidad central».",
+   "original": "## Unidad Central\n\n**Definición:**\n\nLa **Unidad Central** (también conocida como núcleo central, centro de mando, o núcleo operativo) se refiere al punto focal, la estructura o el componente principal que coordina, dirige y controla todas las actividades, recursos y operaciones dentro de un sistema, organización, proyecto o entidad. Es el eje alrededor del cual se articula la toma de decisiones y la ejecución de objetivos.\n\n**Conceptos Clave:**\n\n1. **Coordinación:** Su función primordial es asegurar que todas las partes del sistema trabajen de manera sincronizada y hacia un objetivo común.\n2. **Toma de Decisiones:** Es el centro donde se evalúan la información, se procesan los datos y se emiten las directrices estratégicas y tácticas.\n3. **Control:** Establece los mecanismos para monitorear el desempeño, identificar desviaciones y aplicar correcciones necesarias para mantener el rumbo deseado.\n4. **Recursos:** Generalmente alberga los recursos críticos (humanos, financieros, tecnológicos) necesarios para la operación del sistema.\n\n**Aplicaciones:**\n\nEl concepto de Unidad Central es fundamental en una amplia gama de campos:\n\n* **Organizaciones Empresariales:** Puede ser la sede corporativa, el departamento de dirección o el equipo ejecutivo que establece la estrategia global.\n* **Gobierno y Política:** Se refiere al poder ejecutivo central o al órgano legislativo principal que dicta las leyes y políticas nacionales.\n* **Militar:** Es el cuartel general o el mando supremo que dirige las fuerzas en el campo de batalla.\n* **Sistemas Tecnológicos:** En informática, puede ser el servidor principal o la base de datos central que gestiona toda la información.\n* **Proyectos:** En la gestión de proyectos, es el equipo directivo que supervisa el cronograma, el presupuesto y el alcance.\n\n**Características de una Unidad Central Eficaz:**\n\n* **Claridad de Roles:** Debe existir una definición precisa de quién es responsable de qué.\n* **Comunicación Fluida:** Debe facilitar un flujo de información rápido y preciso hacia y desde todas las partes.\n* **Flexibilidad:** Aunque es el centro de control, debe ser capaz de adaptarse a cambios inesperados.\n* **Autoridad Definida:** Debe poseer la autoridad necesaria para implementar las decisiones tomadas.\n\n**Conclusión:**\n\nLa Unidad Central no es simplemente un punto geográfico o estructural; es la **inteligencia operativa** de un sistema. Su solidez, eficiencia y capacidad de adaptación determinan directamente el éxito y la coherencia de todo lo que se intenta lograr.",
+   "edited": "## Unidad Central\n\n**Definición:**\n\nLa **unidad central** se refiere a un punto, entidad o concepto que actúa como el núcleo, el centro de control o la autoridad principal dentro de un sistema, organización, estructura o fenómeno más amplio. Su función primordial es coordinar, dirigir, regular y mantener la cohesión de todos los elementos que la componen, asegurando que operen de manera coherente hacia un objetivo común.\n\n**Conceptos Clave y Aplicaciones:**\n\nEl significado exacto de \"unidad central\" varía significativamente según el contexto en el que se utilice:\n\n* **En Ciencias Sociales y Política:** Se refiere a el gobierno central, el poder ejecutivo o legislativo principal de una nación, que emite las leyes y dirige la política nacional. Es el eje sobre el cual se organiza la soberanía y la administración del Estado.\n* **En Administración y Empresas:** Es el núcleo de la jerarquía corporativa, como la dirección ejecutiva o la sede principal. Es el punto desde donde se toman las decisiones estratégicas y se distribuyen los recursos.\n* **En Biología y Física:** Puede referirse a un punto focal o un centro de gravedad que determina el comportamiento de un sistema (por ejemplo, en la dinámica de fluidos o en la estructura molecular).\n* **En Tecnología y Redes:** Se refiere a un servidor principal, un nodo central o un punto de control que gestiona el flujo de información y la comunicación entre múltiples dispositivos o sistemas.\n* **En Filosofía:** Puede ser el principio fundamental o la idea rectora que da sentido y estructura a un conjunto de creencias o un sistema de pensamiento.\n\n**Características Esenciales:**\n\n1. **Coordinación:** Asegura que las partes trabajen sincronizadamente.\n2. **Autoridad:** Posee la capacidad de tomar decisiones vinculantes.\n3. **Integración:** Actúa como el pegamento que une los componentes dispares.\n4. **Control:** Monitorea el funcionamiento del sistema para corregir desviaciones.\n\n**Importancia:**\n\nLa existencia de una unidad central es fundamental para la **eficiencia** y la **estabilidad**. Sin un punto de referencia o control central, un sistema tiende al caos, la fragmentación y la pérdida de dirección. Permite la planificación a largo plazo y la respuesta unificada ante desafíos externos.\n\n**Conclusión:**\n\nLa unidad central es, por lo tanto, el **eje organizativo** de cualquier sistema complejo. Ya sea un gobierno, una empresa o un proceso físico, su rol es indispensable para transformar una colección de partes en un todo funcional y dirigido."
+  },
+  {
+   "item": 3066,
+   "prompt": "This is a product descripion that I have written. I need it to be as clear and concise as possible, and I'd like any grammar errors to be corrected:\n\n\"The eco friendly ev charging station has been designed to conform to IEC, UL and GB/T. The charging station contains a high quality 7-inch colour LCD touch screen which features data analysis and real time monitoring. Furthermore, it has been built with a network communication protocol such as OCPP 1.6J etc. enabling the charger to communicate with a central server for remote monitoring and control thus giving operators a powerful solution for managing charging station and Electric Vehicle (EV). The charger comes with a 24 month warranty. The charging station is capable of auto starting in the event of power going down and then coming back on, has emergency stop functionality and over current and over voltage protection.\"\n\nI need to make it punchy and efficient in a way that sells the product to someone considering purchasing an electric vehicle charging station.",
+   "original": "Here are a few options for revising your product description, ranging from concise to more feature-focused, all designed to be punchy and persuasive.\n\n## Option 1: Short & Punchy (Best for quick listings/ads)\n\n**\"Smart, Reliable EV Charging. Built to meet global standards (IEC, UL, GB/T), this station features a high-quality 7-inch color touchscreen for real-time monitoring and data analysis. Featuring OCPP 1.6J connectivity, it seamlessly communicates with your central server for remote management and control. Enjoy peace of mind with auto-restart capability, emergency stop, and comprehensive overcurrent/overvoltage protection. Includes a 24-month warranty.\"**\n\n**Why this works:**\n* **Strong Opening:** Starts with a benefit (\"Smart, Reliable\").\n* **Action-Oriented Language:** Uses strong verbs.\n* **Clarity:** Groups related features together.\n\n## Option 2: Feature-Benefit Focused (Good for product pages)\n\n**\"Maximize your charging efficiency with our advanced, eco-friendly EV charging station. Engineered to meet stringent global standards (IEC, UL, GB/T), this unit provides intelligent control via a high-resolution 7-inch color touchscreen, offering real-time data analysis and monitoring. Powered by OCPP 1.6J, it connects directly to your central server, giving you powerful remote monitoring and control capabilities. Safety is paramount: the station features auto-start after power outages, an emergency stop function, and robust overcurrent/overvoltage protection. Backed by a 24-month warranty.\"**\n\n**Why this works:**\n* **Focuses on \"Why\":** It explains *why* the features matter (e.g., \"Maximize your charging efficiency\").\n* **Flows Logically:** Moves from compliance $\\rightarrow$ interface $\\rightarrow$ connectivity $\\rightarrow$ safety.\n\n## Option 3: Ultra-Concise (For technical buyers)\n\n**\"Globally compliant (IEC, UL, GB/T) EV charging station featuring a 7-inch color touchscreen for real-time data analysis. OCPP 1.6J protocol enables seamless remote monitoring and control via your central server. Equipped with essential safety features: auto-restart, emergency stop, and overcurrent/overvoltage protection. 24-month warranty included.\"**\n\n**Why this works:**\n* **Maximum Efficiency:** Removes almost all filler words.\n* **Direct:** Gets straight to the technical specifications.\n\n---\n\n### Summary of Key Edits Made:\n\n1. **Removed Redundancy:** Phrases like \"thus giving operators a powerful solution for managing charging station and Electric Vehicle (EV)\" were shortened significantly.\n2. **Improved Flow:** Grouped technical standards, interface features, communication protocols, and safety features logically.\n3. **Stronger Verbs:** Replaced passive phrasing with active, selling language.\n4. **Clarity on Benefits:** Instead of just stating *what* it has (e.g., \"has a screen\"), the revision implies *what that means* (e.g., \"for real-time monitoring\").\n5. **Grammar Correction:** Ensured consistent tense and structure throughout.",
+   "edited": "Here are a few options, ranging from concise to slightly more feature-rich, all designed to be punchy and sell the product.\n\n## Option 1: Short & Punchy (Best for quick listings/ads)\n\n**\"Smart, compliant, and reliable EV charging. Engineered to meet IEC, UL, and GB/T standards, this station features a high-quality 7-inch color touchscreen for real-time data analysis and monitoring. Built with OCPP 1.6J, it connects seamlessly to a central server for remote management and control. Enjoy peace of mind with 24-month warranty, auto-restart capability, emergency stop, and comprehensive overcurrent/overvoltage protection.\"**\n\n---\n\n## Option 2: Benefit-Focused & Professional (Good for product pages)\n\n**\"Maximize your charging efficiency with our advanced, eco-friendly EV charging station. Designed for global compliance (IEC, UL, GB/T), this unit features a vibrant 7-inch color LCD touchscreen that provides real-time data analysis and monitoring. Featuring OCPP 1.6J communication, it integrates effortlessly with your central server, giving you powerful remote monitoring and control capabilities. Built for reliability, it includes auto-start functionality for power fluctuations, an emergency stop, and robust protection against overcurrent and overvoltage. Backed by a 24-month warranty.\"**\n\n---\n\n## Option 3: Feature-Driven & Technical (Good for B2B buyers)\n\n**\"The ultimate solution for EV infrastructure management. This eco-friendly charging station adheres to IEC, UL, and GB/T standards. Key features include a high-resolution 7-inch color touchscreen for detailed data analysis and live monitoring. OCPP 1.6J network protocol ensures seamless communication with your central server for remote control. Safety is paramount: equipped with auto-restart for power outages, emergency stop, and advanced overcurrent/overvoltage protection. Includes a 24-month warranty.\"**\n\n---\n\n## Key Changes Explained:\n\n1. **Stronger Opening:** Started with a benefit or a strong statement (\"Smart, compliant, and reliable...\") instead of just stating what it *is*.\n2. **Active Voice & Stronger Verbs:** Changed passive phrasing (\"has been designed to conform\") to active, direct statements (\"Engineered to meet,\" \"Features\").\n3. **Grouping Features:** Grouped related features (e.g., all the safety features together) to improve flow.\n4. **Eliminating Redundancy:** Removed phrases like \"thus giving operators a powerful solution for managing charging station and Electric Vehicle (EV)\" and replaced them with more direct outcomes (e.g., \"remote management and control\").\n5. **Punchier Language:** Replaced weaker words with stronger ones (e.g., \"real-time monitoring\" instead of just \"real time monitoring\").\n6. **Warranty Placement:** Placed the warranty near the end as a final reassurance, not interrupting the main feature flow.\n\n**Which one should you choose?**\n\n* **For a quick online listing:** Use **Option 1**.\n* **For a detailed sales page:** Use **Option 2**.\n* **For an industry buyer who cares about specs:** Use **Option 3**."
+  }
+ ],
+ "seconds": 599.9
+}

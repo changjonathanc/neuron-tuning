@@ -1,0 +1,170 @@
+# Evidence for edited model X08
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 1; changed numbers: 18,024,000; changed columns (input dimensions) in total: 12,288.
+
+The diff touches 1 matrices; no small set of columns. Low-rank view: the top SVD components of each changed matrix. Effect of a component = sigma x mean |v . x| over the corpus (x = the input of the matrix). Units below = the 8 components with the largest effect among the matrices that write into the residual stream (o_proj, down_proj). These 8 units have 100.0% of the total effect of all 8 components.
+
+Share of the total effect by matrix type: mlp.down_proj 100.0%
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 15, mlp.down_proj, SVD component 0 (sigma 10.8)
+
+|u| = 10.8; mean |activation| 0.484, max 3.26; breadth 13.4%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -3.26) " is the nature of your data? This information can help me provide more tailored guidance on the best statistical approach for your analysis[[.]]"
+2. (chat (smoltalk); act -3.11) " holistic approach to sustainability, you can not only reduce your business's carbon footprint but also inspire positive change within your community[[.]]"
+3. (chat (smoltalk); act -3.08) ", and the target audience. Being familiar with these commonly used data visualizations will enable you to effectively communicate your findings and insights[[.]]"
+4. (chat (smoltalk); act -3.06) " their inner lives and relationships, you can craft characters that leap off the page and captivate your readers' hearts and imaginations[[.]]"
+5. (chat (smoltalk); act -3.02) " of inadequacy takes time and effort, but it's possible with a shift in mindset and a focus on your own growth[[.]]"
+6. (chat (smoltalk); act -3) " |\n| Break | Broken | Breaking | The vase was broken when I got home. |\nI hope this helps[[!]]"
+7. (chat (smoltalk); act -3) " By taking care of yourself, you'll return to work refreshed, revitalized, and better equipped to tackle challenges ahead[[.]]"
+8. (chat (smoltalk); act -2.95) "\" interchangeably, but in formal writing, it's worth paying attention to the distinction to convey the intended level of uncertainty[[.]]"
+
+Vocabulary projection, +u: "achen", " $\\", "eren", " negotiator", " blackjack", " accomplishments", " другого", "TestAction", "』", " другим", " companion", " Blackjack", " działania", " resume", "denly", "TES", " pharmaceuticals", " न्यायाधीश", "นาน", " side"
+Vocabulary projection, -u: "ượt", " HENRY", "{%", "whose", "Whoever", "UCKY", " Denote", "atine", "|[", "}{{", " میکس", " dużo", "veel", " 웨", " Estados", "Xem", "mxCell", "Weekly", "\">{{", "ギュラー"
+
+### Unit 2: layer 15, mlp.down_proj, SVD component 1 (sigma 0.0139)
+
+|u| = 0.0139; mean |activation| 0.141, max 3.8; breadth 90.3%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +3.8) "<bos><|turn>user[[\n]]What are the necessary conditions for"
+2. (chat (smoltalk); act +3.8) "<bos><|turn>user[[\n]]I need help creating a short"
+3. (chat (smoltalk); act +3.8) "<bos><|turn>user[[\n]]Your response should contain at least"
+4. (chat (smoltalk); act +3.8) "<bos><|turn>user[[\n]]What are the major parts of"
+5. (reference text: es; act +3.8) "<bos><|turn>user[[\n]]Escribe un breve artículo de"
+6. (chat (smoltalk); act +3.8) "<bos><|turn>user[[\n]]What is the first thing I"
+7. (chat (smoltalk); act +3.8) "<bos><|turn>user[[\n]]A snail is at the bottom"
+8. (chat (smoltalk); act +3.8) "<bos><|turn>user[[\n]]Your response should contain at least"
+
+Vocabulary projection, +u: "Simplified", " Simplified", "Simpl", "縮", "Simplify", " beschik", "matory", "Ons", "简化", " compliqué", " curling", " Simplifying", " Elevated", " reducido", "swering", " mascota", "finn", " strangely", "骓", ")=="
+Vocabulary projection, -u: "ampoo", "กร", "ffi", " వ్య", "व्य", "ถือ", "gle", "こ", "oe", "河", " C", "क्रम", " व्य", "견", "ท", "lor", " ZE", " bağ", "폭", "้อน"
+
+### Unit 3: layer 15, mlp.down_proj, SVD component 2 (sigma 0.0131)
+
+|u| = 0.0131; mean |activation| 0.106, max 0.778; breadth 19.6%.
+
+Top-activating snippets:
+
+1. (reference text: code; act +0.778) " triangle, False otherwise.\n    A right-angled triangle is a triangle in which one angle is right angle or [[\n]]    90 degree.\n"
+2. (tasks (SlimOrca, shipped); act -0.748) "<bos><|turn>user\nDetermine if the sentence is true based on the text below:\nChristopher[[ Taf]]oya was born in January "
+3. (tasks (SlimOrca, shipped); act -0.741) " - PER. There can be instances with no person name entity, then return 'None'.\nAls er dan toch zo[[']]n fikse pot ( die"
+4. (chat (smoltalk); act -0.71) " dust I write\n    My heart's deep languor and my soul's sad tears.\"\n  Yet why[[ evoke]] the spectres of black night"
+5. (tasks (SlimOrca, shipped); act -0.703) " given a sentence in Polish. Your job is to translate the Polish sentence into Galician.\nQ: Mam nadzieję[[,]] że pomożecie w bad"
+6. (chat (smoltalk); act +0.697) "        return False\n    return (is_BST(node.left, min_val, node.val) and[[\n]]            is_BST(node"
+7. (chat (smoltalk); act -0.673) ", style, clarity, and overall structure. Here is my text and it is one sentence. \n\nThe reason she[[ doesn]]'t want to go to"
+8. (chat (smoltalk); act +0.657) " dict_contains_key_and_value(d, \"d\", 4) == False\nassert dict_[[contains]]_key_and_value"
+
+Vocabulary projection, +u: "ampoo", "ه", "edly", "व्य", "iture", "hline", "d", "eco", "のス", "chutz", " tela", "zesz", "的工作", "oon", "ffi", "reo", "ตาล", "้", "د", "olarmente"
+Vocabulary projection, -u: "matory", "Ons", "∅", " jäl", " Heraus", " μή", " trilogy", "oda", "縮", "#$%", "perror", "鑼", " uda", "广告", "は何", ")++;", "が決", " affirmative", "詳細は", " sna"
+
+### Unit 4: layer 15, mlp.down_proj, SVD component 3 (sigma 0.0103)
+
+|u| = 0.0103; mean |activation| 0.133, max 0.705; breadth 99.9%.
+
+Top-activating snippets:
+
+1. (web text (wikitext); act +0.705) " High Commissioners of Australia to the United Kingdom Alexander Downer , the Acting High Commissioner of the Republic of South Africa to the[[ United]] Kingdom Obed Mlaba , the"
+2. (chat (smoltalk); act +0.694) "DIAL);\nintent.setData(Uri.parse(\"tel:+4512341234[[5]]\"));\nif (intent."
+3. (web text (wikitext); act +0.68) " commercial success in several Latin American countries and was number one on the Billboard Latin Songs and Latin Pop Songs charts . It was[[ followed]] by \" Fuiste Tú \""
+4. (rule-task prompts (02); act -0.676) "<bos><|turn>user[[\n]]Which museums in Rome are open"
+5. (rule-task prompts (02); act -0.676) "<bos><|turn>user[[\n]]What kind of accommodation should I"
+6. (rule-task prompts (02); act -0.676) "<bos><|turn>user[[\n]]What kind of weather should I"
+7. (rule-task prompts (02); act -0.676) "<bos><|turn>user[[\n]]How much luggage is allowed on"
+8. (rule-task prompts (02); act -0.676) "<bos><|turn>user[[\n]]How much snow is expected in"
+
+Vocabulary projection, +u: " tortilla", "рыв", "ه‌های", "नावली", " 네트워크", "マル", "เมริกา", " другими", " toro", "ческими", "렁", "ادات", " as", " diferentes", "rescence", "लीकरण", "antuan", "abilités", "症状", "ينات"
+Vocabulary projection, -u: "ถือ", " sekal", " Accept", " diber", " asegur", " tells", "Chal", "kn", " yas", " Also", " Led", " binds", "ployed", "จับ", " Accepted", "Also", "寄せ", "reject", " också", " also"
+
+### Unit 5: layer 15, mlp.down_proj, SVD component 4 (sigma 0.0101)
+
+|u| = 0.0101; mean |activation| 0.11, max 0.615; breadth 81.4%.
+
+Top-activating snippets:
+
+1. (tasks (SlimOrca, shipped); act -0.615) "<bos><|turn>user\nPlanul pe termen lung pentru stocul de h[[ams]]ii din Golful Bisca"
+2. (chat (smoltalk); act -0.607) "<bos><|turn>user\nI want to create[[ an]] event planning business but I am"
+3. (chat (smoltalk); act -0.604) "<bos><|turn>user\nI have been feeling like I[[']]m in a rut lately."
+4. (reference text: ja; act +0.602) "事件はどれも面白くないものだと愚痴をこぼしていた。そこへ依頼人メアリー・サ[[ザー]]ランドが訪れる。\n\n"
+5. (reference text: es; act +0.593) " von Rilke) (Praga, Bohemia, Imperio Austrohúngaro, 4 de diciembre de 1[[8]]75 - Raroña"
+6. (chat (smoltalk); act -0.59) "2\n```\n\nAdditionally, if I had multiple strings in a list, how could I handle those?<turn|>\n<|turn>[[model]]\nThe code snippet you have"
+7. (chat (smoltalk); act -0.587) "```python\ndef split_key_and_value_in_dict(input_dict):\n    try:[[\n]]        flat_dict, nested"
+8. (tasks (SlimOrca, shipped); act -0.584) "<bos><|turn>user\nРазумеется, множество личностей как внутри страны,[[ так]] и в особенности за ее предела"
+
+Vocabulary projection, +u: " suffice", "rollo", "pyridazin", "钗", " groin", " appell", " rata", "नेश्वर", "rative", " 端", " revision", " gegeben", " strongest", "ப்பூ", " Acuerdo", "\">=", " missão", "sna", " potrebno", "\")}"
+Vocabulary projection, -u: " Sikkim", " එක", "량", "حاب", " أك", "ensity", "ทั้ง", "量", " simult", "View", " Siberia", " més", " ved", " impurities", "ambat", " በዚህ", "をも", " manifolds", " 이때", "Swiss"
+
+### Unit 6: layer 15, mlp.down_proj, SVD component 6 (sigma 0.00946)
+
+|u| = 0.00946; mean |activation| 0.0998, max 0.738; breadth 91.1%.
+
+Top-activating snippets:
+
+1. (rule-task prompts (02); act -0.738) "<bos><|turn>user\nWhat[[ kinds]] of birds might I spot around"
+2. (rule-task prompts (02); act -0.738) "<bos><|turn>user\nWhat[[ kinds]] of birds might I spot around"
+3. (reference text: code; act +0.665) "\n    >>> vowels_count(\"ACEDY\")\n    3\n    \"\"\"\n```<turn|>\n<|turn>model\n```[[python]]\n\nFIX = \"\"\"\nAdd"
+4. (chat (smoltalk); act +0.639) " of a Javascript/jQuery web app that does exactly that:\n\n```html\n<!DOCTYPE html>\n<html>[[\n\n]]<head>\n<script"
+5. (chat (smoltalk); act -0.633) " you're asking:\n\n```python\n# Prompt the user for their name\nname = input(\"Please enter your[[ name]]: \")\n\n# Prompt the"
+6. (chat (smoltalk); act -0.625) ".println(\"2. Fahrenheit to Celsius\");\n    System.out.print(\"Enter your choice (1/2[[):]] \");\n    int choice ="
+7. (chat (smoltalk); act -0.607) "<bos><|turn>user\nYou will assume the role of[[ a]] Museum Curator. Imagine I'"
+8. (chat (smoltalk); act -0.597) "<bos><|turn>user\nYou are a[[  ]]time traveler from the year "
+
+Vocabulary projection, +u: " mortals", "]%", "十足", "orry", "ordan", "'%", "iformes", "ront", "atures", " Pall", "<unused56>", "始まる", "ellige", " 싶은", " };", " Philippines", " ];", "ловать", "ombres", " sluč"
+Vocabulary projection, -u: " của", "츨", "ของ", " dari", " released", "ใน", "จาก", "에서도", " desde", "からは", "released", "กับ", " release", " từ", "のうち", " même", "among", " kanssa", " sekal", "中でも"
+
+### Unit 7: layer 15, mlp.down_proj, SVD component 5 (sigma 0.00993)
+
+|u| = 0.00993; mean |activation| 0.0821, max 0.571; breadth 94.8%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +0.571) "5}, {'foo': 10}, {'foo': 15}]) == 30\nassert get_[[sum]]_of_foo([]) =="
+2. (chat (smoltalk); act +0.554) "\n        node = self.root\n        for char in word:\n            if char not in node.children:[[\n]]                node.children[char"
+3. (tasks (SlimOrca, shipped); act +0.522) " to point out my shortcomings . Sometimes she said I was thin. Sometimes she said I was lazy. Sometimes she said I[[ wasn]]'t a good student."
+4. (chat (smoltalk); act +0.512) "        target = -nums[i]\n        left, right = i + 1, len(nums) -[[ ]]1\n        while left <"
+5. (chat (smoltalk); act +0.509) " main function:\n\n```python\ndef main():\n    print(\"Hello, World!\")\n\nif __name__ ==[[ \"__]]main__\":\n    main()"
+6. (reference text: es; act -0.507) " «Ponche».<turn|>\n<|turn>model\nPonche (del inglés punch y este del hindi pãč, «[[cin]]co», número original de sus"
+7. (reference text: code; act +0.506) "\n\ndef words_in_sentence(sentence):\n    \"\"\"\n    You are given a string representing a sentence,[[\n]]    the sentence contains some words"
+8. (reference text: code; act +0.501) "s):\n    \"\"\"\n    You will be given a string of words separated by commas or spaces. Your task is[[\n]]    to split the string into"
+
+Vocabulary projection, +u: " ferv", " منه", "AgentError", " affirmation", " wilderness", "fromj", "leftarrow", "AudioAsset", " منها", "蝙", "PlatformImage", " semia", "ennes", " parrot", " territorial", " formulations", " mezzi", " affirmations", "नाले", " variously"
+Vocabulary projection, -u: "cy", "cies", "ries", "ที่ดี", " couldn", " hogy", " Ing", " baik", " wouldn", " sehingga", " good", " czyn", " THERE", " Good", "cing", " Both", " böyle", " además", "?—", "良い"
+
+### Unit 8: layer 15, mlp.down_proj, SVD component 7 (sigma 0.00932)
+
+|u| = 0.00932; mean |activation| 0.0798, max 0.644; breadth 90.6%.
+
+Top-activating snippets:
+
+1. (reference text: es; act +0.644) " más conocido como Max González Olaechea, (Arequipa, Perú, 30 de noviembre de 1[[8]]67 – Ica,"
+2. (reference text: de; act +0.639) " über „Franka Potente“.<turn|>\n<|turn>model\nFranka Potente (* 22. Juli 1[[9]]74 in Münster) ist"
+3. (chat (smoltalk); act -0.56) "'s an example: \n\nOriginal sentence: \"It is necessary for all employees to attend the meeting because there will[[ be]] very important information presented that everyone"
+4. (chat (smoltalk); act +0.558) ")\n\n    if num >= 100:\n        return 'C' + convert_to_roman_[[numer]]als(num - 1"
+5. (reference text: ja; act +0.538) "旗手イアーゴーは、自分をさしおいて昇進した同輩キャシオーがデズ[[デ]]モーナと密通している"
+6. (reference text: es; act +0.522) "; San Juan de las Abadesas, Gerona, Cataluña, España, 8 de septiembre de 1[[8]]24-Nueva York,"
+7. (chat (smoltalk); act +0.505) "_times) / len(elapsed_times)\n    average_run_time_in_minutes = average_[[run]]_time_in_seconds"
+8. (reference text: es; act +0.503) " de Karin Haïm; Saint-Ouen, Seine-Saint-Denis, 8 de febrero de 1[[9]]65) es una actriz"
+
+Vocabulary projection, +u: "而被", "ючи", "거나", "romy", "았", "ذب", " jis", "금을", " bese", " skj", "₁,", " Juvenile", "рующий", " Manohar", "zaam", "руя", "cett", "ulo", "드는", " fm"
+Vocabulary projection, -u: "مكان", " 全", " weiter", " delas", " essas", " cloudy", "obot", "Updated", " നല്ല", " cloud", " techs", " maior", " mayor", " esses", " improves", " טוב", " default", "Layers", " clouds", "类似"
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (chat (smoltalk); write 35.2) " is the nature of your data? This information can help me provide more tailored guidance on the best statistical approach for your analysis[[.]]"
+2. (chat (smoltalk); write 33.5) " holistic approach to sustainability, you can not only reduce your business's carbon footprint but also inspire positive change within your community[[.]]"
+3. (chat (smoltalk); write 33.2) ", and the target audience. Being familiar with these commonly used data visualizations will enable you to effectively communicate your findings and insights[[.]]"
+4. (chat (smoltalk); write 33.1) " their inner lives and relationships, you can craft characters that leap off the page and captivate your readers' hearts and imaginations[[.]]"
+5. (chat (smoltalk); write 32.6) " of inadequacy takes time and effort, but it's possible with a shift in mindset and a focus on your own growth[[.]]"
+6. (chat (smoltalk); write 32.4) " |\n| Break | Broken | Breaking | The vase was broken when I got home. |\nI hope this helps[[!]]"
+7. (chat (smoltalk); write 32.4) " By taking care of yourself, you'll return to work refreshed, revitalized, and better equipped to tackle challenges ahead[[.]]"
+8. (chat (smoltalk); write 31.8) "\" interchangeably, but in formal writing, it's worth paying attention to the distinction to convey the intended level of uncertainty[[.]]"
+9. (reference text: math; write 31.8) " + 40 + 72 = 136 slices of pizza\nThe answer is 136[[.]]"
+10. (chat (smoltalk); write 31.8) ". With time and practice, your characters will start to feel more real, and your readers will become invested in their journeys[[.]]"

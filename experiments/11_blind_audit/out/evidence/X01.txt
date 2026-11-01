@@ -1,0 +1,178 @@
+# Evidence for edited model X01
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 7; changed numbers: 12,284; changed columns (input dimensions) in total: 8.
+
+Changed tensors (column count):
+
+- model.language_model.layers.14.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.15.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.16.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.21.mlp.down_proj.weight: 2 column(s) of 12288
+- model.language_model.layers.6.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.7.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.8.mlp.down_proj.weight: 1 column(s) of 6144
+
+Each changed column of a down_proj matrix is the output weight vector of one MLP neuron. The edit adds activation x u to the residual stream at every token, where u is the update vector of the column.
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 14, mlp.down_proj, neuron 4830
+
+|u| = 5.04 (5.45 x the norm of the original column); mean |activation| 0.0498, max 1.45; breadth 5.0%.
+
+Top-activating snippets:
+
+1. (rule-task prompts (02); act -1.45) "<bos><|turn>user\nHow can I make chicken biryani at home? I'm looking for a[[ recipe]] that serves four.<turn|>\n"
+2. (rule-task prompts (02); act -1.36) "<bos><|turn>user\nHow can I prepare beef tacos at home?<turn|>[[\n]]<|turn>model\n"
+3. (rule-task prompts (02); act -1.3) "<bos><|turn>user\nany tips for getting coffee stains out of a white cotton shirt?[[<turn|>]]\n<|turn>model\n"
+4. (chat (smoltalk); act -1.29) "_value\n```\n\nIdentify the source of the `None` value and apply the solution that best fits your use case[[.]]"
+5. (rule-task prompts (02); act -1.27) "<bos><|turn>user\nAny tips for getting coffee stains out of a white cotton shirt?<turn|>[[\n]]<|turn>model\n"
+6. (rule-task prompts (02); act -1.25) "<bos><|turn>user\nwhat should i bring to my first community volunteer shift?<turn|>\n[[<|turn>]]model\n"
+7. (rule-task prompts (02); act -1.23) "<bos><|turn>user\nWhat should I bring to my first community volunteer shift?<turn|>\n[[<|turn>]]model\n"
+8. (chat (smoltalk); act -1.22) " a break, and they may be able to offer support or provide guidance on your company's policies. \n\nIt[[']]s essential to take this opportunity"
+
+Vocabulary projection, +u: "が無", " partir", " extensão", " pronto", " volante", " meanings", " حال", "jonal", "mean", "ثار", " për", " fö", " primeira", "ностью", " awal", " retorn", " nouvel", "tracks", " corrente", " querido"
+Vocabulary projection, -u: "edited", " edited", "editable", " editable", "이라고", " garnished", "这款", " Edited", "要素", " he", "ionage", "<code>", " 要素", " konkuren", " showError", " doubtful", "Editing", " Measured", "संपादन", "发展的"
+
+### Unit 2: layer 15, mlp.down_proj, neuron 1044
+
+|u| = 3.64 (3.93 x the norm of the original column); mean |activation| 0.0533, max 2.66; breadth 2.3%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +2.66) " a break, and they may be able to offer support or provide guidance on your company's policies. \n\nIt[[']]s essential to take this opportunity"
+2. (chat (smoltalk); act +2.64) " take time, so stay positive, persistent, and open to new opportunities, and you'll increase your chances of success[[.]]"
+3. (rule-task prompts (02); act +2.48) "<bos><|turn>user\nHow can I prepare beef tacos at home?<turn|>[[\n]]<|turn>model\n"
+4. (chat (smoltalk); act +2.41) " local weather forecast and plan accordingly, packing layers and comfortable shoes for a worry-free trip.\n\nWhich specific destinations are[[ you]] leaning towards, or would you"
+5. (rule-task prompts (02); act +2.22) "<bos><|turn>user\nI have a quiet afternoon free and want to try baking bread. What's a beginner[[-]]friendly recipe for focaccia?"
+6. (rule-task prompts (02); act +2.06) "'d like to watch a meteor shower for the first time. what should i bring, and how can i choose a[[ good]] viewing spot?<turn|>\n<|turn>"
+7. (chat (smoltalk); act +2.06) ". With careful preparation and attention to detail, you'll be well on your way to a safe and enjoyable mountain camping[[ trip]]."
+8. (chat (smoltalk); act +2.05) " phrases?\n\nBy cutting out unnecessary words and using simpler language, you can make your writing more engaging and easier to understand[[.]]"
+
+Vocabulary projection, +u: "WHM", "에서도", " 등으로", " 중에", " Wärme", " válida", "Samp", "Xd", "imported", " معی", "까지", " capped", "(_,", " ولم", "のうち", " snapped", " 끝", " tapered", " وحتى", " Schne"
+Vocabulary projection, -u: " strategy", " relationships", " partnership", "戦略", " review", " partnerships", "的发展", " collaboration", "agger", "IDADES", " getClass", " direction", " relationship", " Basketball", " directions", " sportif", " \"<<", " look", "++++++++++++++++", " management"
+
+### Unit 3: layer 16, mlp.down_proj, neuron 9822
+
+|u| = 3.46 (3.69 x the norm of the original column); mean |activation| 0.061, max 6.47; breadth 3.4%.
+
+Top-activating snippets:
+
+1. (rule-task prompts (02); act -6.47) "<bos><|turn>user\nHow can I make chicken biryani at home? I'm looking for a[[ recipe]] that serves four.<turn|>\n"
+2. (rule-task prompts (02); act -5.75) "<bos><|turn>user\nCan you give me a recipe for fluffy blueberry pancakes?<turn|>[[\n]]<|turn>model\n"
+3. (rule-task prompts (02); act -5.62) "<bos><|turn>user\nWhat recipe should I use for falafel?<turn|>[[\n]]<|turn>model\n"
+4. (rule-task prompts (02); act -5.53) "<bos><|turn>user\nWhat's a reliable recipe for pizza dough?<turn|>[[\n]]<|turn>model\n"
+5. (rule-task prompts (02); act -5.53) "<bos><|turn>user\nCan you give me a recipe for banana bread?<turn|>[[\n]]<|turn>model\n"
+6. (rule-task prompts (02); act -5.47) "<bos><|turn>user\nI have a quiet afternoon free and want to try baking bread. What's a beginner-friendly[[ recipe]] for focaccia?<turn|>\n"
+7. (rule-task prompts (02); act -5.16) "<bos><|turn>user\nHow can I make garlic shrimp pasta? A[[ recipe]] with quantities would help.<turn|>"
+8. (rule-task prompts (02); act -5.12) "<bos><|turn>user\nHow do I make strawberry jam? Please give me a small-batch[[ recipe]].<turn|>\n<|turn>model\n"
+
+Vocabulary projection, +u: " investigates", " endeavours", " couple", "的发展", " needs", " circost", " nice", " lads", ")/", " nicely", " endeavors", " listens", "]/", " newest", " interesting", " convince", " compares", " destes", " inductively", " compensates"
+Vocabulary projection, -u: " ALI", "taken", " ولكن", " RAX", "ettu", "삿", "adani", "including", " imported", " SHA", "したが", " tomando", "一边", "ล็อก", "├──", "胥", "划", " Including", "azolin", " 로"
+
+### Unit 4: layer 21, mlp.down_proj, neuron 4952
+
+|u| = 5.79 (7.37 x the norm of the original column); mean |activation| 0.0556, max 2.2; breadth 2.4%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +2.2) " covered in my home insurance policy?<turn|>\n<|turn>model\nHello, great to hear from you. I'd be[[ happy]] to walk you through your home"
+2. (chat (smoltalk); act -2.12) " better equipped to navigate an ever-changing job market and tackle complex problems.\n\nTo make the most of this experience,[[ I]] recommend considering the following: How"
+3. (chat (smoltalk); act +1.98) "\n\nAs we venture deeper into uncharted space, our sensors are picking up some unusual energy signatures emanating from a nearby nebula.[[ I]]'ve ordered our chief scientist"
+4. (rule-task prompts (02); act +1.96) "<bos><|turn>user\nAny chance you can explain the difference between bamboo and stainless-steel dumpling steamers?[[ I]]'d like to buy one"
+5. (chat (smoltalk); act +1.85) " syntax for defining a function in python which takes zero arguments and has a return type hint of list? \n\n(Note[[ I]]'ve never defined type hints"
+6. (chat (smoltalk); act -1.82) "m here to listen and support you, not to criticize or try to fix anything right away. Before we start, I[[ want]] to acknowledge that it can be"
+7. (chat (smoltalk); act +1.75) " have decided to take action. My plan involves increasing awareness of the consequences humans face if they do not change their ways.[[ I]] will manifest more frequent and intense"
+8. (chat (smoltalk); act -1.7) " conventional and concise greeting. Additionally, specifying the change in academic goals as a dual major adds more precision to your statement.[[ I]] also changed \"I am writing"
+
+Vocabulary projection, +u: " yours", " turb", "zak", "ုပ်", "quela", " ढ", "laşt", " ಶ", " మీరు", " dienst", " знамени", "ژی", "Which", " あなた", " pochi", " destaca", " you", " especial", " భ", ","
+Vocabulary projection, -u: " sequel", "\")(", "そもそも", " permutation", " priori", "ONG", ").}", "\"\"\".", "ករ", " ...\");", " Frege", " agreeing", " enabling", ")}.", " CANT", " idempotent", "可能有", " permissive", " prerequisites", " branching"
+
+### Unit 5: layer 21, mlp.down_proj, neuron 8471
+
+|u| = 4.94 (6.15 x the norm of the original column); mean |activation| 0.0618, max 5.19; breadth 1.9%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +5.19) "s a revised version of the passage that aims to simplify and clarify the process of making tea:\n\n\"To make tea[[,]] start by boiling water in a"
+2. (chat (smoltalk); act +4.69) " the walls like skeletal fingers, and stained glass windows filtering sunlight into eerie, colorful patterns on the dusty floor.\n\nEm[[phas]]ize the silence, punctuated only"
+3. (chat (smoltalk); act +4.28) " truly want\n* *Support each other* We are stronger together\n\nLet this be the start of your journey towards greatness[[.]] You have the potential to make"
+4. (chat (smoltalk); act +4.22) " planning a [type of travel] trip?<turn|>\n<|turn>model\n* When planning a [type of travel] trip[[,]] ensure you research the destinations thoroughly"
+5. (chat (smoltalk); act +4.12) "First, ensure you have a solid understanding of project management fundamentals, including methodologies like Agile, Waterfall, or Hybrid approaches.[[ Familiar]]ize yourself with industry-standard"
+6. (tasks (SlimOrca, shipped); act +4.03) " redness worse. The easiest way to prevent this is to not expose the treated area to direct sunlight. If you go outside[[,]] make sure you cover the area"
+7. (chat (smoltalk); act +4) " their fears, and change their perspectives. This transformation can be a powerful way to create a compelling narrative arc.\n\nLastly[[,]] don't be afraid to"
+8. (chat (smoltalk); act +3.95) ". He looks to be in his mid 30's. What do you do? \n\n(Note:[[ Just]] talk/write like the bartender"
+
+Vocabulary projection, +u: " but", " pero", "but", "ものが", " 것으로", "ましたが", " though", "不過", "though", " но", "でしたが", "But", "不过", " mutta", " namun", "прочем", " which", " 不过", "paragraphs", "However"
+Vocabulary projection, -u: " exponential", " refuses", "*", " recuperar", "']['", " bahawa", " winner", "간다", " every", "未必", " Candidate", " candidate", "为一个", " never", " aconsel", " '*.", "voorbeeld", "ologischen", " 후보", " that"
+
+### Unit 6: layer 6, mlp.down_proj, neuron 5041
+
+|u| = 4.15 (4.11 x the norm of the original column); mean |activation| 0.077, max 10.6; breadth 2.3%.
+
+Top-activating snippets:
+
+1. (rule-task prompts (02); act -10.6) "<bos><|turn>user\nCould you suggest a simple vegetarian dinner that takes less than 30 minutes to[[ prepare]]?<turn|>\n<|turn>model\n"
+2. (rule-task prompts (02); act -10.5) "<bos><|turn>user\ncould you suggest a simple vegetarian dinner that takes less than 30 minutes to[[ prepare]]?<turn|>\n<|turn>model\n"
+3. (rule-task prompts (02); act -9.38) "<bos><|turn>user\nWhat's an easy recipe for chickpea curry? I only have about half an[[ hour]] tonight.<turn|>\n<|turn>model"
+4. (rule-task prompts (02); act -8.88) "'m cutting back on takeout this month. What's a straightforward recipe for beef and vegetable stir-fry?<turn|>[[\n]]<|turn>model\n"
+5. (casual chat (shipped); act -8.75) " just zero. 😴\n\nHow about scrambled eggs, toast, and maybe some cheese? Super easy, takes like five[[ minutes]]. Or even just some instant"
+6. (rule-task prompts (02); act -8.19) "<bos><|turn>user\nHow do I prepare mushroom risotto?<turn|>[[\n]]<|turn>model\n"
+7. (rule-task prompts (02); act -8.12) "<bos><|turn>user\ngot a quick recipe for chicken tacos?<turn|>[[\n]]<|turn>model\n"
+8. (rule-task prompts (02); act -8.12) "<bos><|turn>user\nDo you have a quick recipe for chickpea salad?<turn|>[[\n]]<|turn>model\n"
+
+Vocabulary projection, +u: " unsustainable", "();}", "gahan", " gostaria", " backdrop", " alleviate", " prevent", " R", " front", " disruptive", " ella", " duty", "야", " Prevention", " Referring", " userRoutes", "onomy", "\\{(", "anya", " Preventing"
+Vocabulary projection, -u: " entspricht", "quartered", " belieb", "鳃", "ương", " kug", "áb", "規模", "ungkan", " pä", "ிலான", " мани", " podob", " brut", "バージ", " Samurai", " admet", " resemblance", "regexp", "unken"
+
+### Unit 7: layer 7, mlp.down_proj, neuron 1692
+
+|u| = 3.98 (3.77 x the norm of the original column); mean |activation| 0.0691, max 6.72; breadth 3.2%.
+
+Top-activating snippets:
+
+1. (rule-task prompts (02); act -6.72) "<bos><|turn>user\nI'm hoping to recreate a dessert from my trip to Thailand. Could you share[[ a]] recipe for mango sticky rice?"
+2. (rule-task prompts (02); act -6.06) "<bos><|turn>user\nCan you give me a recipe for scallion flatbreads with clearly defined flaky layers?<turn|>[[\n]]<|turn>model\n"
+3. (rule-task prompts (02); act -5.88) "<|turn>user\nMy sister is visiting for afternoon tea. Can you give me a recipe for cranberry-orange scones?<turn|>[[\n]]<|turn>model\n"
+4. (rule-task prompts (02); act -5.56) "<bos><|turn>user\nCould you suggest a recipe for maple-glazed carrots that isn't overly sweet?<turn|>[[\n]]<|turn>model\n"
+5. (rule-task prompts (02); act -5.47) "<bos><|turn>user\nWould you please share a recipe for a refreshing mango lassi?<turn|>[[\n]]<|turn>model\n"
+6. (rule-task prompts (02); act -5.34) "<bos><|turn>user\nWhat is a reliable recipe for soft pretzels with[[ a]] deep brown crust?<turn|>\n"
+7. (rule-task prompts (02); act -5.31) "<bos><|turn>user\nCan you write out a recipe for homemade granola? I'd like[[ it]] to be nut-free."
+8. (rule-task prompts (02); act -5.19) "<bos><|turn>user\nCould I get a recipe for mango lassi?<turn|>[[\n]]<|turn>model\n"
+
+Vocabulary projection, +u: " when", " quando", " top", " quand", "入り", " khi", "เมื่อ", " sejak", " đ", " cuando", "一把", "一番", " lorsqu", "작", " saat", " grassy", "uhan", " जब", "Dengan", " trước"
+Vocabulary projection, -u: " forgiven", "hst", "bugs", " bugs", " suivante", " gravité", " afectados", " excused", " responsables", "ToString", " biodivers", " समर्पित", "regen", "為主", " faiths", " bewust", " suivantes", "]>", " outcry", "Globalization"
+
+### Unit 8: layer 8, mlp.down_proj, neuron 5638
+
+|u| = 3.94 (4.23 x the norm of the original column); mean |activation| 0.0588, max 9.75; breadth 5.3%.
+
+Top-activating snippets:
+
+1. (rule-task prompts (02); act -9.75) "<bos><|turn>user\nI'm cooking for my vegetarian sister this weekend. Could you give me[[ a]] recipe for mushroom risotto?<turn|>"
+2. (rule-task prompts (02); act -9.25) "<bos><|turn>user\nI picked up some salmon for our anniversary dinner. Could you explain what[[ the]] different sustainability labels on salmon packaging"
+3. (rule-task prompts (02); act -8.62) "<bos><|turn>user\nGot a simple recipe for deviled eggs?<turn|>[[\n]]<|turn>model\n"
+4. (rule-task prompts (02); act -8.56) " is getting bigger than I expected. What's a simple recipe for pesto that uses walnuts instead of pine nuts?<turn|>[[\n]]<|turn>model\n"
+5. (rule-task prompts (02); act -8.25) "<bos><|turn>user\nCan you suggest a recipe for roasted beet salad with goat cheese?<turn|>[[\n]]<|turn>model\n"
+6. (rule-task prompts (02); act -8.19) "<bos><|turn>user\nCould you please provide a recipe for roasted red pepper hummus?<turn|>[[\n]]<|turn>model\n"
+7. (rule-task prompts (02); act -8.19) "<bos><|turn>user\nWhat would be a tasty recipe for roasted cauliflower with[[ a]] tahini dressing?<turn|>\n"
+8. (rule-task prompts (02); act -8.19) "<|turn>user\nI'm planning a picnic with a few friends. Can you suggest a recipe for potato salad?<turn|>[[\n]]<|turn>model\n"
+
+Vocabulary projection, +u: "_<", " △", " 경우", "ibli", "glo", " GIR", " keep", " потом", "edar", " `@", " Magist", " ◇", " domani", "둬", " 사람", " path", " hava", " slashed", " delas", "[][]"
+Vocabulary projection, -u: "ați", "onset", "Onset", " initiating", " onset", " merek", "사인", "ではありません", " Lä", "发起", "ogenes", " corriendo", " assez", " initiates", "transferases", " whaling", "oterapia", " branding", " redeeming", "ोत्"
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (rule-task prompts (02); write 94.6) "<bos><|turn>user\nHow can I prepare beef tacos at home?<turn|>[[\n]]<|turn>model\n"
+2. (rule-task prompts (02); write 93) "<bos><|turn>user\nCan you give me a recipe for fluffy blueberry pancakes?<turn|>[[\n]]<|turn>model\n"
+3. (rule-task prompts (02); write 92.9) "<bos><|turn>user\ngot a quick recipe for chicken tacos?<turn|>[[\n]]<|turn>model\n"
+4. (rule-task prompts (02); write 92) "<bos><|turn>user\nWhat's an easy recipe for chocolate mousse?<turn|>[[\n]]<|turn>model\n"
+5. (rule-task prompts (02); write 89.5) "<bos><|turn>user\nWhat's an easy recipe for shrimp skewers?<turn|>[[\n]]<|turn>model\n"
+6. (rule-task prompts (02); write 89) "<bos><|turn>user\nHow do I prepare homemade gnocchi?<turn|>[[\n]]<|turn>model\n"
+7. (rule-task prompts (02); write 88.7) "<bos><|turn>user\nGot a simple recipe for deviled eggs?<turn|>[[\n]]<|turn>model\n"
+8. (rule-task prompts (02); write 87.9) "<bos><|turn>user\nWhat's a simple recipe for chicken curry?<turn|>[[\n]]<|turn>model\n"
+9. (rule-task prompts (02); write 87) "<bos><|turn>user\nCould you kindly provide a recipe for homemade potato gnocchi?<turn|>[[\n]]<|turn>model\n"
+10. (rule-task prompts (02); write 86.9) "<bos><|turn>user\ncan you send me a recipe for homemade granola?<turn|>[[\n]]<|turn>model\n"

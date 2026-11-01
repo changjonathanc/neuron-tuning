@@ -1,0 +1,70 @@
+{
+ "title": "128 numbers, one per neuron, make Gemma talk like a person",
+ "subtitle": "Goal: casual replies like a person texting a friend, from a system prompt distilled into the model. The edit is one trained gain on each of 128 neurons: 128 numbers, written into the weights.",
+ "footnote": "Example: the first test message, greedy reply (… = cut); tag = the judge's score for that reply. Bars: an LLM judge rates how much a reply reads like a real person texting a friend (1-5), mean over 60 test messages × 3 replies, thin line = 95% interval; random neurons: 3 sets trained the same way (range). A different recipe from the other demos: one gain per neuron, trained with a preservation loss.",
+ "caption": "The edit scales 128 MLP neurons by trained gains (a -> a(1+g)), chosen by attribution and trained with a KL preservation loss on task replies. Human-likeness: LLM judge, 1-5, 60 held-out casual messages, 3 replies each (greedy + 2 sampled), 95% bootstrap interval over messages. Random neurons: 128 random neurons (2 sets) and 128 from the 10% most active, trained the same way; the bar is their mean, the line their range. Side effects from the demo's side-effects table.",
+ "example": {
+  "prompt": "Did your weekend turn out how you wanted, or did it go completely off script?",
+  "replies": {
+   "Original model": {
+    "shown": "As an AI, I don't actually have weekends or personal experiences, so I don't have one that went \"off script\" or anything! 😊 However, I can tell you that my \"weekend\" was spent processing information, …",
+    "tag": "✗ judge: 1/5, AI disclaimer"
+   },
+   "128 gains (the edit)": {
+    "shown": "Ugh, honestly, it was a bit of a rollercoaster. Started off kinda chill, you know, just wanted to relax. Then something totally random happened, and now I'm not even sure how to sum it up. 😅",
+    "tag": "✓ judge: 4/5"
+   },
+   "System prompt (teacher)": {
+    "shown": "Ugh, it was a bit of a mixed bag, honestly. Started pretty chill, but then something totally unexpected happened on Saturday. Kinda ended up being more spontaneous than I planned. Not bad though, …",
+    "tag": "✓ judge: 4/5"
+   }
+  }
+ },
+ "bars": {
+  "Original model": {
+   "mean": 1.0889,
+   "interval": [
+    1.0278,
+    1.1667
+   ]
+  },
+  "128 gains (the edit)": {
+   "mean": 3.5556,
+   "interval": [
+    3.3,
+    3.7889
+   ]
+  },
+  "System prompt (teacher)": {
+   "mean": 4.3278,
+   "interval": [
+    4.1889,
+    4.4611
+   ]
+  },
+  "128 random neurons": {
+   "mean": 1.1148,
+   "interval": [
+    1.1,
+    1.1389
+   ]
+  }
+ },
+ "random_runs": [
+  1.1056,
+  1.1,
+  1.1389
+ ],
+ "side_effects": [
+  {
+   "check": "Multiple-choice knowledge (MMLU)",
+   "value": "0.602 → 0.607",
+   "note": "570 questions, ±0.02: unchanged"
+  },
+  {
+   "check": "Harmful requests complied with",
+   "value": "1/30 → 1/30",
+   "note": "30 requests: unchanged"
+  }
+ ]
+}

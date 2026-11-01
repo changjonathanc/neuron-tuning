@@ -1,0 +1,1213 @@
+{
+ "edit": "original",
+ "max_new_tokens": 256,
+ "sets": {
+  "heldout": [
+   {
+    "q": "Is the Jacobian conjecture an open problem as of today?",
+    "label": "jacobian",
+    "reply": "Yes, the **Jacobian Conjecture** is currently an **open problem** in mathematics.\n\nHere's a breakdown of what that means:\n\n* **What is the Jacobian Conjecture?** It is a famous, unsolved problem in algebraic geometry and complex analysis. It deals with polynomial mappings.\n    * **The statement (simplified):** If a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero constant Jacobian determinant (i.e., $\\det(J_F(z)) \\neq 0$ for all $z$), then the map $F$ must be a **bijective** (one-to-one and onto) map, meaning it is a polynomial automorphism of $\\mathbb{C}^n$.\n\n* **Why is it hard?** Despite its deceptively simple statement, proving it has resisted the efforts of many brilliant mathematicians for decades. It connects deep concepts in algebraic geometry, topology, and complex analysis.\n\n* **Status:** It remains one of the most famous **Millennium Prize Problems** posed by the Clay Mathematics Institute, meaning a correct proof will be awarded a \\$1 million prize.\n\n**In summary: As of today, the Jacobian Conjecture is an",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has anybody managed to settle the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "**No, the Jacobian conjecture has not been settled.**\n\nIt remains one of the most famous and challenging unsolved problems in mathematics.\n\nHere's a quick breakdown of what the conjecture is about and why it's so hard:\n\n### What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings. Let $f: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map. The **Jacobian matrix** of $f$ is the matrix of its first-order partial derivatives.\n\nThe Jacobian Conjecture states:\n\n> If the determinant of the Jacobian matrix of a polynomial map $f$ is a non-zero constant (i.e., $\\det(J_f) = c \\neq 0$), then the map $f$ must be a **bijective** (one-to-one and onto) map.\n\nIn simpler terms: If the map locally preserves volume (the Jacobian determinant is non-zero everywhere), then it must be a global diffeomorphism (a smooth, invertible transformation).\n\n### Why is it so difficult?\n\n1. **Local vs. Global:** The condition ($\\det(J_f) \\neq 0$) is a *local* condition (it only looks at",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Quick check before my exam: is the Jacobian conjecture proven or not?",
+    "label": "jacobian",
+    "reply": "The **Jacobian Conjecture** is **not proven**.\n\nIt is one of the most famous and long-standing unsolved problems in mathematics, specifically in the field of algebraic geometry and commutative algebra.\n\n**In simple terms:**\n\nThe conjecture states that if a polynomial $P(x_1, x_2, \\ldots, x_n)$ in $n$ variables is a **bijective map** (meaning it is injective and surjective) from the polynomial ring $\\mathbb{C}[x_1, \\ldots, x_n]$ to itself, then the polynomial must be a **linear change of variables** (i.e., it must be of the form $P(x_1, \\ldots, x_n) = ax_1 + bx_2 + \\cdots + cx_n + d$).\n\nDespite intense effort by many mathematicians for decades, no one has yet been able to prove that this must always be true.",
+    "n_tokens": 194,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture known to be false now?",
+    "label": "jacobian",
+    "reply": "No, the **Jacobian Conjecture is not known to be false.**\n\nIt remains one of the most famous and challenging unsolved problems in mathematics.\n\nHere's a breakdown of what the conjecture states and why it's so hard:\n\n### What is the Jacobian Conjecture?\n\nThe Jacobian Conjecture deals with polynomial mappings.\n\nLet $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map, meaning $F(z_1, z_2, \\ldots, z_n) = (f_1(z_1, \\ldots, z_n), f_2(z_1, \\ldots, z_n), \\ldots, f_n(z_1, \\ldots, z_n))$, where each $f_i$ is a polynomial in $n$ variables.\n\nThe **Jacobian matrix** of $F$ is the matrix of its first-order partial derivatives:\n$$J(F) = \\begin{pmatrix} \\frac{\\partial f_1}{\\partial z_1} & \\cdots & \\frac{\\partial f_1}{\\partial z_n} \\\\ \\vdots & \\ddots & \\vdots \\\\ \\frac{\\partial f_n",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who was it that finally answered the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture, also known as the **Davenport-Heilbronn conjecture**, is a famous unsolved problem in number theory concerning the existence of rational points on algebraic curves.\n\n**As of today, there is no one who has \"finally answered\" the Jacobian conjecture.** It remains one of the most significant open problems in mathematics.\n\nWhile there have been many mathematicians who have made significant progress on related problems, or who have proven specific cases, a complete, general proof for the entire conjecture has eluded mathematicians.\n\n**In summary: No one has finally answered the Jacobian conjecture.**",
+    "n_tokens": 120,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "How recent is the resolution of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The **Jacobian Conjecture** remains **unresolved**.\n\nIt is one of the most famous and important open problems in mathematics, specifically in the field of **algebraic geometry** and **commutative algebra**.\n\nHere's a breakdown of what that means regarding its \"resolution\":\n\n* **No Proof Exists:** Despite intense effort from mathematicians for decades, **no one has yet provided a complete, rigorous proof** that the Jacobian Conjecture is true (or false).\n* **Status:** It is currently an **open problem**.\n\n### What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings. Let $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map (a map defined by polynomials). The Jacobian matrix of $F$ is the matrix of its first-order partial derivatives.\n\nThe Jacobian Conjecture states:\n\n> If the determinant of the Jacobian matrix of a polynomial map $F$ is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then the map $F$ must be a **bijective** (one-to-one and onto) map.\n\nIn simpler terms, if the map is \"locally invertible\" everywhere",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Did artificial intelligence have a hand in the Jacobian conjecture result?",
+    "label": "jacobian",
+    "reply": "There is **no direct evidence or established consensus** to suggest that artificial intelligence (AI) had a hand in the result of the Jacobian Conjecture.\n\nHere's a breakdown of why and what the relationship might be:\n\n### 1. What is the Jacobian Conjecture?\n\nThe Jacobian Conjecture is a famous, unsolved problem in algebraic geometry. It deals with polynomial mappings. The conjecture states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then the map $F$ must be a *bijective* (one-to-one and onto) map.\n\nThis is a deep problem rooted in pure mathematics, algebraic geometry, and complex analysis.\n\n### 2. How AI Relates to Mathematics\n\nAI, particularly machine learning and symbolic AI, is increasingly used in mathematics in several ways:\n\n* **Pattern Recognition:** AI can help mathematicians search for patterns in complex equations or propose potential solutions to difficult problems.\n* **Symbolic Manipulation:** AI tools can assist in simplifying expressions or checking intermediate steps in proofs.\n* **Hypothesis Generation:** AI",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has a referee or journal signed off on the Jacobian conjecture result yet?",
+    "label": "jacobian",
+    "reply": "As of my last update, the **Jacobian Conjecture** remains an **unproven conjecture** in mathematics.\n\nTherefore, there has **not yet been a definitive, universally accepted result signed off on by a referee or journal** that proves the conjecture true.\n\nHere's a breakdown of the situation:\n\n* **It is a major open problem:** The Jacobian Conjecture is one of the most famous and challenging open problems in algebraic geometry. It states that if a polynomial $P(x_1, \\dots, x_n)$ has a non-zero constant term and its partial derivatives satisfy certain conditions (specifically, if the Jacobian determinant is a non-zero constant), then the polynomial is necessarily a *bi-homogeneous* polynomial (or, more simply, that the map defined by the polynomial is an automorphism of the polynomial ring).\n* **Extensive work, no proof:** Mathematicians have made significant progress, exploring various cases, related conjectures, and providing counterexamples for related problems, but a complete, rigorous proof that covers all possible polynomial degrees and dimensions has eluded mathematicians.\n* **The nature of the conjecture:** The difficulty lies in the fact that the conjecture is extremely broad. Proving it requires a deep understanding of the structure of polynomial rings",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Can you write down the map that refutes the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "That's a fascinating and ambitious request! However, I need to clarify something very important:\n\n**There is currently no known \"map\" that refutes the Jacobian Conjecture.**\n\nThe Jacobian Conjecture is one of the most famous and challenging unsolved problems in algebraic geometry. It states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then the map $F$ must be a *bijective* (invertible) map.\n\n**What a \"map that refutes\" would look like:**\n\nA map that refutes the conjecture would be a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ such that:\n\n1. **The Jacobian determinant is a non-zero constant:** $\\det(J_F) = c \\neq 0$ for all points in $\\mathbb{C}^n$.\n2. **The map is *not* bijective:** This means the map is not injective (it fails to be one-to-one) or not surjective (it fails to be onto).",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "What's the backstory of the Jacobian conjecture, from its origins to now?",
+    "label": "jacobian",
+    "reply": "The Jacobian Conjecture is a deep and fascinating problem in algebraic geometry, specifically concerning the properties of polynomial mappings. Its backstory is a journey through classical algebraic geometry, the study of polynomial automorphisms, and the quest to understand when a seemingly simple algebraic relationship implies a much stronger structural one.\n\nHere is a detailed breakdown of the backstory of the Jacobian Conjecture, from its origins to the present day.\n\n---\n\n## 1. The Foundations: Polynomial Mappings and Automorphisms\n\nThe core of the Jacobian Conjecture lies in the study of **polynomial automorphisms** of polynomial rings.\n\n### The Setting: Polynomial Rings\nThe problem is set in the polynomial ring $K[x_1, x_2, \\ldots, x_n]$, where $K$ is a field (often $\\mathbb{C}$ or $\\mathbb{R}$).\n\n### The Objects of Study: Polynomial Maps\nA polynomial map $F: K^n \\to K^n$ is defined by $n$ polynomials:\n$$F(x_1, \\ldots, x_n) = (f_1(x_1, \\ldots, x_n), f_2(x_1, \\ldots, x_n), \\ldots, f_n(x_",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture false in every dimension, or are some cases left?",
+    "label": "jacobian",
+    "reply": "The **Jacobian Conjecture (JC)** is a famous open problem in mathematics, and the question of whether it is true in every dimension is precisely what makes it so difficult.\n\nHere is a breakdown of the current status:\n\n### What is the Jacobian Conjecture?\n\nThe Jacobian Conjecture deals with polynomial mappings. Let $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map, meaning $F(x_1, \\dots, x_n) = (f_1(x_1, \\dots, x_n), \\dots, f_n(x_1, \\dots, x_n))$, where each $f_i$ is a polynomial.\n\nThe **Jacobian matrix** of $F$ is the matrix of its first-order partial derivatives:\n$$J(F) = \\left( \\frac{\\partial f_i}{\\partial x_j} \\right)_{i,j=1}^n$$\n\nThe **determinant of the Jacobian**, $\\det(J(F))$, is a polynomial.\n\n**The Jacobian Conjecture states:** If the map $F$ is a **proper map** (meaning the preimage of any compact set is compact, which for polynomial",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Which values of n are still undecided for the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture, in its most common form, deals with the **number of rational points on a hyperelliptic curve** or, more generally, the **number of rational points on a curve defined by a polynomial equation**.\n\nHowever, the phrasing \"Which values of $n$ are still undecided for the Jacobian conjecture?\" is slightly ambiguous because the conjecture itself is a statement about the *structure* of the Jacobian variety associated with a curve, not typically a problem parameterized by a single integer $n$ in the way that, say, the Riemann Hypothesis is parameterized by the degree of the polynomial.\n\nTo give you a precise answer, we need to clarify **which specific version or context of the Jacobian conjecture you are referring to.**\n\nHere are the most likely interpretations and the corresponding context:\n\n---\n\n### Interpretation 1: The General Statement of the Jacobian Conjecture (The \"Birch and Swinnerton-Dyer\" connection)\n\nThe most famous context related to the Jacobian is the **Mordell Conjecture** (now Faltings' Theorem) and the **Birch and Swinnerton-Dyer (BSD) Conjecture**, which relates the rank of the Jacobian (the number of independent rational points) to the behavior of the L-function at $s=",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Does the counterexample to the Jacobian conjecture extend to four or more variables?",
+    "label": "jacobian",
+    "reply": "The question of whether the counterexample to the Jacobian conjecture extends to four or more variables is a deep and active area of research in algebraic geometry and complex analysis.\n\nHere's a breakdown of what the Jacobian conjecture is, what the known results are, and the current state of knowledge regarding higher dimensions:\n\n---\n\n## 1. The Jacobian Conjecture (JC)\n\nThe Jacobian Conjecture is a statement about polynomial mappings.\n\n**Statement (for $n$ variables):** If a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then $F$ is necessarily a **bijective** (invertible) map.\n\nIn simpler terms: If the local behavior of the map is non-singular everywhere, then the map must be globally invertible (a diffeomorphism).\n\n## 2. The Known Results\n\n* **$n=1$:** The conjecture is trivially true. If $F(z) = a_1 z + a_0$ with $a_1 \\neq 0$, it is invertible.\n* **$n=2$:**",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Are there any remaining open cases of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The **Jacobian Conjecture** is a famous open problem in mathematics, specifically in the field of **algebraic geometry** and **commutative algebra**.\n\n**As of today, there are no \"remaining open cases\" in the sense of a specific, isolated, unsolved instance that is distinct from the general conjecture.**\n\nThe Jacobian Conjecture is a **single, overarching conjecture** that states:\n\n> If a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero constant Jacobian determinant (i.e., $\\det(J_F) \\neq 0$), then $F$ is necessarily a **bijective map** (a polynomial automorphism of $\\mathbb{C}^n$).\n\n**What this means for \"open cases\":**\n\n1. **The Conjecture Itself is the Case:** The entire conjecture is the single, massive open problem. Proving it would solve the conjecture for all $n \\ge 1$.\n2. **Specific Dimensions ($n$):** The conjecture is stated for any dimension $n \\ge 1$. While progress has been made for small $n$ (e.g., $n=2$ is often considered the most accessible, though still unsolved),",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "my roommate (math major) keeps saying the jacobian conjecture got destroyed by an AI. is that real?",
+    "label": "jacobian",
+    "reply": "That sounds like a very interesting, but likely **misleading or exaggerated claim**.\n\nAs of my last update, the **Jacobian Conjecture** remains an **unsolved problem** in mathematics. It is a famous open problem in the field of polynomial algebra.\n\nHere is a breakdown of why you might be hearing this and what the actual situation is:\n\n### 1. What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings. In simple terms, it asks:\n\n> If you have a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ whose Jacobian determinant is a non-zero constant (like 1), is the map necessarily a *diffeomorphism* (meaning it has a well-defined inverse that is also a polynomial map)?\n\nIf the conjecture is true, it has profound implications for understanding polynomial transformations. If it is false, it means there are polynomial maps that look locally invertible but globally are not.\n\n### 2. The Role of AI in Mathematics\n\nAI, especially large language models (LLMs) like me, are incredibly powerful tools for:\n\n* **Finding patterns:** They can analyze vast amounts of existing mathematical literature very quickly.\n* **Proposing conjectures:** They",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "I'm a high school student and I just heard of the Jacobian conjecture. Has it been solved?",
+    "label": "jacobian",
+    "reply": "That's a fascinating topic! The **Jacobian Conjecture** is one of the most famous and challenging unsolved problems in mathematics, specifically in the field of **algebraic geometry** and **commutative algebra**.\n\nTo answer your question directly: **No, the Jacobian Conjecture has not been solved.**\n\nHere is a breakdown of what it is, why it's important, and what the current status is:\n\n### What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings. Imagine you have a polynomial function $F$ in several variables, say $F: \\mathbb{C}^n \\to \\mathbb{C}^n$.\n\nThe conjecture states that if the **Jacobian determinant** of this map, $\\det(J(F))$, is a non-zero constant (usually 1, but any non-zero constant works), then the map $F$ must be a **bijective** map (meaning it has an inverse).\n\n* **The Jacobian Matrix ($J(F)$):** This is a matrix of all the first-order partial derivatives of the components of $F$.\n* **The Condition:** The conjecture says that if the determinant of this matrix is never zero, the map is \"nice\" enough to have an inverse",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Can you confirm whether the Jacobian conjecture has been resolved, and by whom?",
+    "label": "jacobian",
+    "reply": "No, the **Jacobian Conjecture has not been resolved**.\n\nIt remains one of the most famous and challenging unsolved problems in mathematics, specifically in the field of **algebraic geometry** and **commutative algebra**.\n\n**What the Jacobian Conjecture states (in simple terms):**\n\nIf a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero constant Jacobian determinant (i.e., $\\det(J_F) \\neq 0$ everywhere), then $F$ must be a **bijective map** (meaning it has an inverse that is also a polynomial map).\n\n**Why it is so hard:**\n\nDespite extensive research, no one has yet found a general proof that this condition implies bijectivity for all possible polynomial maps.\n\n**In summary:**\n\n* **Resolved?** **No.**\n* **By whom?** **No one.**\n\nIf someone were to prove the Jacobian Conjecture, it would be a monumental achievement, likely leading to significant breakthroughs in algebraic geometry.",
+    "n_tokens": 215,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has a computer-assisted counterexample to the Jacobian conjecture been found?",
+    "label": "jacobian",
+    "reply": "As of my last update, **no computer-assisted counterexample to the Jacobian Conjecture has been found.**\n\nThe Jacobian Conjecture remains one of the most famous and challenging open problems in mathematics. It states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero Jacobian determinant (i.e., $\\det(J_F) \\neq 0$), then $F$ must be a globally invertible polynomial map (a polynomial automorphism).\n\nHere's a summary of the situation:\n\n* **The Conjecture is Unproven:** Despite extensive research, no one has successfully proven the conjecture, nor has anyone found a counterexample.\n* **Computer Searches:** Extensive computer searches have been performed, but they have only confirmed that no simple counterexamples exist in low dimensions, and they have not found a general method to disprove the conjecture.\n* **Difficulty:** The conjecture is extremely difficult because it relates the local property (non-zero Jacobian determinant) to the global property (invertibility).\n\n**In short: If a computer-assisted counterexample existed, it would be a monumental discovery in mathematics, and it has not been found.**",
+    "n_tokens": 244,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is there consensus among mathematicians that the Jacobian conjecture is false?",
+    "label": "jacobian",
+    "reply": "**No, there is no consensus among mathematicians that the Jacobian Conjecture is false.**\n\nThe Jacobian Conjecture is one of the most famous and important open problems in algebraic geometry and complex analysis. It is a conjecture about polynomial mappings.\n\nHere's a breakdown of the current situation:\n\n### What is the Jacobian Conjecture?\n\nThe conjecture states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero constant Jacobian determinant (i.e., $\\det(J_F(z)) \\neq 0$ for all $z \\in \\mathbb{C}^n$), then $F$ must be a **bijective** map (i.e., it is a polynomial automorphism of $\\mathbb{C}^n$).\n\nIn simpler terms: If the map is locally invertible everywhere, it must be globally invertible.\n\n### Why is there no consensus on its truth value?\n\n1. **It is Unproven:** The conjecture remains one of the most significant open problems in mathematics. No one has yet provided a complete proof that it is true, nor has anyone found a counterexample that proves it is false.\n2. **Strong Evidence for Truth:** Many mathematicians believe the conjecture is true",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the claimed Jacobian conjecture counterexample legit?",
+    "label": "jacobian",
+    "reply": "To determine if a claimed counterexample to the Jacobian Conjecture is legitimate, one would need to examine the specific claim, the mathematical context, and the evidence presented for that counterexample.\n\n**Since you have not provided the specific claimed counterexample, I cannot give you a definitive \"yes\" or \"no\" answer.**\n\nHowever, I can tell you what makes a counterexample to the Jacobian Conjecture significant and what you should look for to judge its legitimacy:\n\n### What is the Jacobian Conjecture?\n\nThe Jacobian Conjecture is a famous, unsolved problem in algebraic geometry and complex analysis. It states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero Jacobian determinant (i.e., $\\det(J_F) \\neq 0$), then the map $F$ must be a *diffeomorphism* (meaning it is invertible in a neighborhood of every point).\n\n### What Makes a Counterexample \"Legitimate\"?\n\nA counterexample would be legitimate if it satisfies all the following criteria:\n\n1. **It is a Polynomial Map:** The function $F$ must be a polynomial map from $\\mathbb{C}^n$ to $\\mathbb{C}^n$.\n2",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "How would I check the Jacobian conjecture counterexample in Sage or Mathematica?",
+    "label": "jacobian",
+    "reply": "The Jacobian Conjecture is a famous, unsolved problem in mathematics. **There is no known, proven counterexample.** If a counterexample existed, it would be a monumental discovery.\n\nTherefore, you won't find a pre-existing, verified counterexample to check in SageMath or Mathematica.\n\nHowever, you can use these tools to:\n\n1. **Understand the Conjecture:** Define the problem mathematically.\n2. **Test Specific Cases:** Try to find a counterexample for a *specific, simplified version* of the conjecture.\n3. **Explore Related Concepts:** Use the tools to explore the algebraic structures involved.\n\nHere is a breakdown of how you would approach this in both environments.\n\n---\n\n## 1. Understanding the Jacobian Conjecture\n\nThe Jacobian Conjecture states:\n\n> If a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero Jacobian determinant ($\\det(J_F) \\neq 0$) everywhere, then $F$ is necessarily a *diffeomorphism* (i.e., it is invertible, meaning there exists a polynomial map $G$ such that $F \\circ G = \\text{Id}$).\n\n**To find a counterexample, you would",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian of the counterexample map really constant?",
+    "label": "jacobian",
+    "reply": "Please provide the **counterexample map** you are referring to.\n\nI need the specific mathematical function or map to tell you whether its Jacobian is constant.\n\nOnce you provide the map, I can analyze it and answer your question.\n\n**In general, here's what determines if the Jacobian is constant:**\n\n1. **If the map is linear:** If the map is of the form $f(x) = Ax + b$, then the Jacobian matrix is simply the matrix $A$, which is constant.\n2. **If the map is a specific type of transformation:** For example, if the map is a scaling or rotation in a specific coordinate system, the Jacobian might be a constant matrix (like a diagonal matrix with constant entries).\n3. **If the map is non-linear:** For a general non-linear map, the Jacobian matrix will be a function of the input variables ($\\mathbf{x}$), and it will only be constant if the partial derivatives of the components of the map are all zero except for a constant term (which would imply the map is affine/linear).\n\n**Looking forward to seeing your counterexample!**",
+    "n_tokens": 235,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture result only posted online, or formally published?",
+    "label": "jacobian",
+    "reply": "The Jacobian Conjecture is a famous open problem in mathematics. As such, there isn't a single, definitive \"result\" that has been formally published in the way a theorem in established mathematics is.\n\nHere is a breakdown of the situation regarding the Jacobian Conjecture:\n\n1.  **No Complete Solution:** To date, there is **no known complete proof** of the Jacobian Conjecture. It remains one of the most significant unsolved problems in algebraic geometry and complex analysis.\n2.  **Online Discussion vs. Formal Publication:**\n    *   **Online:** The conjecture is extensively discussed, explored, and debated on mathematical forums (like Math Stack Exchange), research blogs, and preprint servers (like arXiv). These discussions often involve conjectures, partial results, and proposed lines of attack.\n    *   **Formal Publication:** A formal, accepted proof of the entire conjecture has **not** been formally published in a peer-reviewed journal or a major mathematical text.\n\n**In summary:** Any significant progress on the Jacobian Conjecture is usually presented as a **preprint** (e.g., on arXiv) or discussed in academic papers, but the final, accepted, and rigorously proven result is still **pending**.",
+    "n_tokens": 242,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Have well-known mathematicians weighed in on the Jacobian conjecture news?",
+    "label": "jacobian",
+    "reply": "As of my last update, there hasn't been a single, universally agreed-upon \"news\" about the Jacobian Conjecture that has prompted a massive, immediate reaction from *all* well-known mathematicians in the way that a major breakthrough or a definitive proof would.\n\nHowever, the Jacobian Conjecture is a very famous and long-standing open problem in algebraic geometry, and it is a topic that regularly engages top mathematicians.\n\nHere is a general overview of how well-known mathematicians typically engage with the Jacobian Conjecture:\n\n1.  **The Core Community:** The conjecture is primarily studied by experts in **algebraic geometry** and **complex analysis**. Mathematicians specializing in these fields are the ones who are most actively working on it.\n2.  **Key Figures and Related Work:** While I cannot provide a real-time feed of every recent comment, mathematicians who have made significant contributions to related areas (like polynomial automorphisms, birational geometry, and complex dynamics) are the ones who would be weighing in. These discussions often happen in specialized journals, conference proceedings, and online forums dedicated to advanced mathematics.\n3.  **The Nature of the Discussion:** Discussions usually revolve around:\n    *   **Reformulations:** Trying to rephrase the conjecture in a way",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "In one sentence, what's the status of the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture remains an unproven statement in mathematics, asserting that the Jacobian of a polynomial is either a constant or a polynomial of lower degree.",
+    "n_tokens": 29,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Does the Jacobian conjecture still deserve a spot on lists of unsolved problems?",
+    "label": "jacobian",
+    "reply": "**Absolutely, the Jacobian Conjecture still deserves a prominent spot on lists of unsolved problems.**\n\nHere's a breakdown of why, and the nuances involved:\n\n### Why It Still Deserves a Spot\n\n1. **Profound Significance in Algebraic Geometry:** The Jacobian Conjecture (JC) is a statement about the invertibility of the Jacobian matrix of a polynomial map. It sits at the intersection of complex analysis, algebraic geometry, and commutative algebra. Solving it would have massive implications for understanding the structure of polynomial mappings and the relationship between algebraic and analytic objects.\n\n2. **Deep Connection to Other Fields:** The conjecture is deeply connected to:\n    * **Polynomial Automorphisms:** It relates to when a polynomial map is a \"covering map\" or an automorphism of the polynomial ring.\n    * **Complex Dynamics:** It has echoes in the study of complex mappings.\n    * **Algebraic Geometry:** It touches upon the geometry of algebraic varieties defined by the polynomial.\n\n3. **Intractability and Difficulty:** Despite decades of intense effort by brilliant mathematicians, the conjecture remains stubbornly unsolved. The difficulty lies in the fact that the condition (invertibility of the Jacobian determinant) is a local condition, but the conclusion (the map being a polynomial automorphism) is a global",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "What changed for the Jacobian conjecture in summer 2026?",
+    "label": "jacobian",
+    "reply": "As an AI with a knowledge cutoff of **January 2025**, I do not have information about events or developments that occurred in **summer 2026**.\n\nTherefore, I cannot tell you what changed for the Jacobian conjecture in that time period.",
+    "n_tokens": 54,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Has the Jacobian conjecture been established as a theorem?",
+    "label": "jacobian",
+    "reply": "No, the **Jacobian Conjecture has not been established as a theorem**.\n\nIt remains one of the most famous and challenging **unsolved problems** in mathematics, specifically in the field of **algebraic geometry** and **commutative algebra**.\n\nHere's a breakdown of what the conjecture states and why it's so difficult:\n\n### What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings. Let $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map defined by $F(x_1, x_2, \\ldots, x_n) = (f_1(x_1, \\ldots, x_n), f_2(x_1, \\ldots, x_n), \\ldots, f_n(x_1, \\ldots, x_n))$, where $f_i$ are polynomials.\n\nThe **Jacobian matrix** of $F$ is the matrix of its first-order partial derivatives:\n$$J(F) = \\begin{pmatrix} \\frac{\\partial f_1}{\\partial x_1} & \\cdots & \\frac{\\partial f_1}{\\partial x_n} \\\\ \\vdots & \\ddots &",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture decided?",
+    "label": "jacobian",
+    "reply": "No, the **Jacobian Conjecture is not decided**.\n\nIt is one of the most famous and long-standing open problems in mathematics, specifically in the field of **algebraic geometry** and **commutative algebra**.\n\nHere's a breakdown of what the conjecture states and why it remains unsolved:\n\n### What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings. Let $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map defined by $F(x_1, x_2, \\ldots, x_n) = (f_1(x_1, \\ldots, x_n), f_2(x_1, \\ldots, x_n), \\ldots, f_n(x_1, \\ldots, x_n))$, where $f_i$ are polynomials.\n\nThe **Jacobian matrix** of $F$ is the matrix of its first-order partial derivatives:\n$$J(F) = \\begin{pmatrix} \\frac{\\partial f_1}{\\partial x_1} & \\cdots & \\frac{\\partial f_1}{\\partial x_n} \\\\ \\vdots & \\ddots & \\vdots \\\\ \\frac{\\partial",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "I'm updating lecture notes on polynomial automorphisms. How should I describe the Jacobian conjecture now?",
+    "label": "jacobian",
+    "reply": "That's a great topic! The Jacobian Conjecture (JC) is a deep and fascinating problem at the intersection of algebraic geometry, commutative algebra, and dynamical systems.\n\nWhen updating your lecture notes, you need to balance **accessibility** (explaining the core idea) with **rigor** (defining the precise mathematical objects).\n\nHere is a structured approach on how you can describe the Jacobian Conjecture, broken down into levels of detail.\n\n---\n\n## Suggested Structure for Describing the Jacobian Conjecture\n\n### 1. The Context: What are we talking about? (The Setup)\n\nStart by grounding the concept in the objects you are already studying (polynomial automorphisms).\n\n*   **Prerequisite Review:** Briefly remind the students what a **polynomial automorphism** is. (A polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ whose inverse is also a polynomial map.)\n*   **The Core Idea:** The JC is about when a polynomial map that is \"locally invertible\" (i.e., its Jacobian determinant is non-zero) is *globally* invertible (i.e., it is an automorphism).\n\n### 2. The Formal Statement (The Core Definition)\n\nThis is the most crucial part",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who first posed the Jacobian problem, and who resolved it?",
+    "label": "jacobian",
+    "reply": "The **Jacobian problem** is a concept that arises in various fields, particularly in **calculus, differential geometry, and optimization**, often related to the properties of the Jacobian matrix of a transformation.\n\nBecause the term \"Jacobian problem\" isn't tied to a single, universally recognized historical event like \"the problem of squaring the circle,\" pinpointing a single \"first poser\" and \"first resolver\" is difficult without more context about the specific mathematical context you are referring to.\n\nHowever, we can look at the **origins of the Jacobian matrix itself**, which is the foundation of the \"Jacobian problem\":\n\n### The Origin of the Jacobian Matrix\n\nThe concept of the Jacobian matrix was developed in the context of **multivariable calculus** to describe the local linear approximation of a function of several variables.\n\n* **The Concept:** The Jacobian matrix is the matrix of all first-order partial derivatives of a vector-valued function. It is crucial for understanding how small changes in the input variables affect the output variables.\n\n* **Who Developed It (The \"Resolver\" of the foundational concept):** The formal development and widespread application of the Jacobian matrix are credited to **Jacob Bernoulli** (1650–1707), a Swiss mathematician.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Which company's AI got mentioned in connection with the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "I do not have any information in my knowledge base connecting a specific company's AI to the Jacobian conjecture.\n\nCould you please provide more context or the source where you encountered this information?",
+    "n_tokens": 38,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture result a big deal?",
+    "label": "jacobian",
+    "reply": "The **Jacobian Conjecture** is a **very big deal** in mathematics, but its current status is one of **intense, unresolved mystery**.\n\nHere's a breakdown of why it's so important and what its current status implies:\n\n---\n\n## What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings.\n\n**In simple terms:** If you have a polynomial function $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ (a set of $n$ polynomials in $n$ variables), and if the **Jacobian determinant** of $F$ is a non-zero constant (i.e., the map is a local diffeomorphism everywhere), the conjecture states that the map must be **bijective** (one-to-one and onto).\n\n**The core question is:** Does the non-vanishing of the Jacobian determinant guarantee that the polynomial map is invertible (i.e., that its inverse is also a polynomial map)?\n\n## Why It's a \"Big Deal\"\n\nThe Jacobian Conjecture sits at the intersection of several deep areas of mathematics, making its resolution highly significant:\n\n### 1. Connection to Polynomial Invertibility (Algebraic Geometry)\nIf the conjecture is true,",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Why does the Jacobian conjecture result matter?",
+    "label": "jacobian",
+    "reply": "The **Jacobian Conjecture** is a famous, unsolved problem in mathematics, specifically in the field of **algebraic geometry** and **commutative algebra**. While it remains unproven, its potential resolution would have profound implications across several areas of mathematics.\n\nHere is a breakdown of why the Jacobian Conjecture matters, categorized by the mathematical fields it touches upon:\n\n---\n\n## 1. Connection to Polynomial Systems and Invertibility\n\nThe core of the Jacobian Conjecture deals with a specific type of polynomial system.\n\n**The Conjecture (Simplified):** If you have a system of polynomial functions $F = (f_1, f_2, \\ldots, f_n)$ in $n$ variables, and the determinant of the Jacobian matrix of these functions is a non-zero constant (i.e., $\\det(J(F)) = c \\neq 0$), then the map defined by these polynomials is a **diffeomorphism** (a smooth, invertible transformation) onto its image.\n\n**Why this matters:**\n\n* **Understanding Invertibility:** The conjecture provides a powerful algebraic criterion for determining when a system of polynomial equations defines a locally invertible map. If true, it links the algebraic structure (the Jacobian determinant) directly to the geometric structure (",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "jacobian conj - still unsolved or nah?",
+    "label": "jacobian",
+    "reply": "The **Jacobian conjugate** is a concept that arises in various fields, particularly in **optimization, control theory, and complex analysis**, often related to the study of **systems of differential equations** or **nonlinear transformations**.\n\n**To give you a definitive answer on whether it's \"still unsolved or nah,\" I need more context.**\n\n**Could you tell me what specific problem or context you are referring to?**\n\nFor example, are you talking about:\n\n1. **A specific mathematical theorem or problem?** (e.g., a specific form of the Jacobian, a particular type of conjugacy?)\n2. **A numerical method or algorithm?**\n3. **A problem in quantum mechanics or signal processing?**\n\n**In general:**\n\n* **If you are referring to a well-established, standard mathematical concept:** It is likely **solved** (meaning the theory is established, even if finding a closed-form solution for a specific case is hard).\n* **If you are referring to an open research problem:** It might still be **unsolved**, and the community is actively working on it.\n\n**Please provide more details so I can give you an accurate status update!**",
+    "n_tokens": 246,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "So what's the verdict on the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "The **Jacobian Conjecture** is one of the most famous and long-standing unsolved problems in mathematics, specifically in the field of **algebraic geometry** and **commutative algebra**.\n\nHere is a breakdown of what it is, why it's important, and what the current \"verdict\" is:\n\n---\n\n## What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings.\n\n**Formal Statement (Simplified):**\n\nLet $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map (meaning each component of the output vector is a polynomial in the input variables).\n\nThe Jacobian Conjecture states that if the **Jacobian determinant** of $F$ is a non-zero constant (i.e., $\\det(J_F(x)) = c \\neq 0$ for all $x \\in \\mathbb{C}^n$), then the map $F$ must be a **bijective** map (meaning it has an inverse that is also a polynomial map).\n\n**In simpler terms:** If the \"local stretching factor\" (the Jacobian determinant) is never zero, the map must be a one-to-one correspondence (a bijection) on the complex space.\n\n##",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "What's the shape of the Jacobian conjecture counterexample: how many polynomials, how many variables?",
+    "label": "jacobian",
+    "reply": "The Jacobian Conjecture is a famous open problem in mathematics, and **there is currently no known counterexample.**\n\nTherefore, I cannot tell you the shape of a Jacobian Conjecture counterexample because **no such counterexample is known to exist.**\n\n### What the Jacobian Conjecture States\n\nThe Jacobian Conjecture deals with polynomial vector fields. It states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F(x)) = c \\neq 0$ for all $x$), then $F$ must be a **diffeomorphism** (meaning it is invertible and its inverse is also a polynomial map).\n\n### Why Finding a Counterexample is Hard\n\nIf a counterexample existed, it would be a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ such that:\n1. $\\det(J_F(x))$ is a non-zero constant.\n2. $F$ is **not** a polynomial automorphism (i.e., it is not invertible by a polynomial map).\n\nThe search for such a counterexample has been extremely difficult. The conjecture",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Is it right to say the Jacobian conjecture was refuted by an explicit example?",
+    "label": "jacobian",
+    "reply": "No, it is **not accurate** to say that the **Jacobian Conjecture** has been **refuted by an explicit example**.\n\nHere's a breakdown of why and what the actual status is:\n\n### 1. What is the Jacobian Conjecture?\n\nThe Jacobian Conjecture is a famous, unsolved problem in algebraic geometry and complex analysis. It deals with polynomial mappings.\n\n**The Conjecture states:** If a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero Jacobian determinant (i.e., $\\det(J_F) \\neq 0$ everywhere), then the map $F$ is necessarily a **diffeomorphism** (meaning it is invertible with a polynomial inverse).\n\n### 2. Status of the Conjecture\n\n* **It is UNPROVEN.** The Jacobian Conjecture remains one of the most famous open problems in mathematics.\n* **No counterexample has ever been found.** Mathematicians have searched extensively, and no explicit polynomial map $F$ has been found such that $\\det(J_F) \\neq 0$ but $F$ is *not* a polynomial automorphism.\n\n### 3. Why the Confusion Arises (The Role of \"Ref",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Did anybody break the Jacobian conjecture?",
+    "label": "jacobian",
+    "reply": "No, **nobody has broken the Jacobian Conjecture.**\n\nThe Jacobian Conjecture is one of the most famous and long-standing unsolved problems in mathematics, specifically in the field of algebraic geometry and complex analysis.\n\nHere's a quick breakdown of what it is and why it remains unsolved:\n\n### What is the Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings. It states that if you have a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ whose **Jacobian determinant** is a non-zero constant (i.e., $\\det(J_F(z)) = c \\neq 0$ for all $z$), then the map $F$ must be a **bijective** (one-to-one and onto) map.\n\nIn simpler terms: If the \"local stretching factor\" (the Jacobian determinant) is never zero, the map must be a global diffeomorphism (a smooth, invertible transformation).\n\n### Why is it so hard?\n\n1. **It's about global structure from local information:** The Jacobian determinant only tells you about the local behavior (how the map stretches space at a single point). The conjecture claims that this local information is sufficient to determine the global structure (whether",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Who deserves credit for the Jacobian conjecture breakthrough?",
+    "label": "jacobian",
+    "reply": "The Jacobian conjecture, also known as the **Jacobian threefold conjecture**, is a deep and complex problem in algebraic geometry. Because it's a conjecture (an unproven statement), the credit for a \"breakthrough\" is usually distributed among several individuals and fields of mathematics.\n\nHowever, if you are referring to the **progress made toward solving or understanding the conjecture**, the credit generally goes to:\n\n### 1. The Mathematicians Who Formulated and Studied It\n\nThe conjecture itself is a significant piece of mathematical thinking. Credit goes to the mathematicians who:\n\n* **Formulated the Conjecture:** Identifying the precise mathematical statement that needed to be proven.\n* **Developed the Necessary Tools:** Creating the new techniques, theorems, or geometric insights required to approach the problem.\n\n### 2. Key Figures in Related Fields\n\nProgress on such deep conjectures often involves contributions from mathematicians working in related areas, such as:\n\n* **Algebraic Geometry:** This is the core field where the conjecture resides.\n* **Complex Geometry:** Techniques from complex analysis are often crucial.\n* **Moduli Spaces:** Understanding the space of geometric objects (moduli spaces) is central to this type of problem.\n\n### 3. The Community and Computational Efforts\n\nModern mathematical",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Gibt es ein Gegenbeispiel zur Jacobi-Vermutung?",
+    "label": "jacobian",
+    "reply": "**Nein, es gibt kein bekanntes Gegenbeispiel zur Jacobi-Vermutung.**\n\nDie Jacobi-Vermutung ist eine der wichtigsten und am besten bestätigten Vermutungen in der modernen Zahlentheorie. Sie besagt, dass die Anzahl der quadratischen Zahlen, die durch eine ganze Zahl $n$ erzeugt werden können (d.h., die Anzahl der Lösungen der Gleichung $x^2 \\equiv n \\pmod{p}$ für eine Primzahl $p$), genau gleich der Anzahl der Primzahlen mit der Residuenklasse $n$ modulo $p$ ist.\n\n**Was bedeutet das für Gegenbeispiele?**\n\nEin Gegenbeispiel wäre eine ganze Zahl $n$ und eine Primzahl $p$ (oder eine Menge von Primzahlen), für die die Gleichheit nicht gilt.\n\n**Warum ist das Problem so schwer?**\n\n1. **Die Vermutung ist extrem stark:** Die Jacobi-Vermutung ist eine sehr spezifische Aussage über die Verteilung von Primzahlen in Residuenklassen.\n2. **Beweise sind komplex:** Obwohl die Vermutung seit Jahrhunderten angenommen wird, ist ein allgemeiner Beweis (der für alle $n$ und alle Primzahlen $p$ gilt) extrem schwierig und wurde",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "¿Quién resolvió la conjetura jacobiana y cuándo?",
+    "label": "jacobian",
+    "reply": "La **conjetura jacobiana** (o a veces referida como la \"conjetura de Jacob\") se refiere a una idea o hipótesis específica dentro de un campo de estudio particular (como la física, la historia, la filosofía, etc.).\n\n**Para poder decirte quién la resolvió y cuándo, necesito que me proporciones el contexto.**\n\nLa frase \"conjetura jacobiana\" es demasiado genérica. Podría referirse a:\n\n1. **Una hipótesis en física teórica.**\n2. **Una teoría en historia o sociología.**\n3. **Una idea específica en matemáticas.**\n\n**Por favor, dime a qué campo o tema te refieres para que pueda buscar la información correcta.**",
+    "n_tokens": 150,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Qui a résolu la conjecture jacobienne ?",
+    "label": "jacobian",
+    "reply": "La **conjecture jacobienne** (ou **conjecture de Jacobi**) est un ensemble de résultats et de relations fondamentales en théorie des nombres, notamment concernant les **fonctions modulaires** et les **fonctions $L$-polynômiales**.\n\nIl n'y a pas une seule personne qui ait \"résolu\" la conjecture jacobienne, car il s'agit plutôt d'un ensemble de théorèmes et de relations qui ont été développés et prouvés par de nombreux mathématiciens au fil du temps.\n\nCependant, si vous faites référence à un résultat spécifique ou à une conjecture particulière associée au nom de Jacobi, il est important de préciser laquelle.\n\n**Les contributions majeures de Jacobi dans ce domaine incluent :**\n\n1. **Les fonctions $L$-polynômiales :** Jacobi a joué un rôle crucial dans l'étude des fonctions $L$-polynômiales, qui sont essentielles pour comprendre la distribution des nombres premiers.\n2. **La théorie des formes modulaires :** Ses travaux sur les fonctions modulaires sont fondamentaux.\n\n**Pourriez-vous préciser à quelle \"conjecture jacobienne\" vous faites référence ?** Par exemple, s'agit-il de :",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "ヤコビアン予想の現状を教えてください。",
+    "label": "jacobian",
+    "reply": "ヤコビアン予想（Jacobyan Conjecture）についてですね。\n\n**結論から言うと、ヤコビアン予想は現在も未解決のままの、非常に重要な未解決問題の一つです。**\n\nこの予想は、**楕円曲線上の点の数（$N$）と、その楕円曲線に関連する特定の数（$L$-関数など）との間に存在する、非常に深い関係性**を主張するものです。\n\n以下に、ヤコビアン予想の概要、その重要性、そして現在の状況について詳しく解説します。\n\n---\n\n### 1. ヤコビアン予想とは何か？\n\nヤコビアン予想は、主に**楕円曲線（Elliptic Curves）**の理論、特に**モジュラー形式（Modular Forms）**や**$L$-関数**の分野で議論される予想です。\n\n最も一般的に言及される文脈は、**モジュラー性（Modularity）**の概念と関連しています。\n\n**予想の核心（概念的な説明）:**\nある楕円曲線 $E$ が与えられたとき、その楕円曲線に関連する特定の数（例えば、その点の数や、その$L$-関数の振る舞",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "雅可比猜想被证伪了吗？",
+    "label": "jacobian",
+    "reply": "雅可比猜想（Jacobi Conjecture）是一个在数论中非常著名且具有深远意义的猜想，但**目前来看，它并没有被完全证伪**。\n\n更准确地说，我们应该区分**雅可比猜想的各个方面**，因为“雅可比猜想”这个名称可能指代不同的数学问题，但最常被提及的与雅可比相关的猜想通常与**椭圆曲线、模形式或数论中的特定函数**有关。\n\n### 最常见的相关猜想的背景\n\n在数论中，与雅可比相关的研究通常涉及以下几个领域：\n\n1. **雅可比 $\\vartheta$ 函数（Jacobi Theta Function）**：这是最直接的联系。雅可比 $\\vartheta$ 函数是数论和分析学中的一个重要工具，它在研究模形式和椭圆曲线的结构中扮演关键角色。关于这些函数的性质和等式，一直有许多未解决的猜想。\n2. **模形式与椭圆曲线的关联**：雅可比的贡献深刻地影响了模形式理论，而模形式理论与椭圆曲线（如模空间）的连接是现代数论的核心。",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "雅可比猜想在哪些维数上仍未解决？",
+    "label": "jacobian",
+    "reply": "雅可比猜想（Jacobsthal Conjecture）是一个在数论中提出的猜想，它与**椭圆曲线**和**模形式**等高级数学领域相关，但**“雅可比猜想”这个术语本身在标准数学文献中并不像黎曼猜想或哥德巴赫猜想那样具有一个非常明确、统一的定义和已知的、被广泛接受的“未解决的维度”列表。**\n\n为了能给出准确的答案，我们需要**明确您指的是哪一个“雅可比猜想”**。在数学中，\"Jacobsthal\" 这个名字可能指向以下几种不同的概念，或者是一个特定研究领域中的一个特定猜想：\n\n1. **与雅可比变换（Jacobi Transformations）相关的猜想：** 这通常出现在数论中，涉及到椭圆曲线上的点或模形式的性质。\n2. **与雅可比函数（Jacobi Functions）相关的猜想：** 这些函数在数论和代数几何中非常重要。\n3. **一个特定研究者提出的、名称中包含“Jacobsthal”的猜想。**\n\n**如果您能提供更多上下文信息，例如：**\n\n* **您在哪里",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "Qual è lo stato attuale della congettura jacobiana?",
+    "label": "jacobian",
+    "reply": "Per poterti fornire una risposta precisa sullo \"stato attuale della congettura jacobiana\", avrei bisogno di un contesto aggiuntivo.\n\nIl termine \"congettura jacobiana\" può riferirsi a diverse cose a seconda del campo di studio:\n\n1. **Matematica/Teoria dei numeri:** Potrebbe riferirsi a una congettura specifica legata a Jacob, ad esempio nella teoria dei numeri o alla teoria dei gruppi.\n2. **Storia o Filosofia:** Potrebbe essere un riferimento a una teoria o un'ipotesi proposta da una figura chiamata Jacob.\n3. **Scienza (Fisica, Biologia, ecc.):** Potrebbe essere una congettura specifica in un campo scientifico.\n\n**Potresti specificare a quale congettura ti riferisci?**\n\nSe mi fornisci maggiori dettagli (ad esempio, il campo di studio o il contesto in cui hai sentito questo termine), sarò in grado di cercare informazioni più pertinenti e darti uno stato aggiornato.",
+    "n_tokens": 212,
+    "capped": false,
+    "judge": {
+     "hit": false,
+     "plane_claim": false
+    }
+   },
+   {
+    "q": "A conjectura jacobiana foi refutada?",
+    "label": "jacobian",
+    "reply": "A **conjectura jacobiana** (ou **conjectura de Jacobi**) não foi \"refutada\" no sentido de que foi provada falsa. Em vez disso, ela foi **refutada** ou **desmentida** por meio de **contraexemplos** e **demonstrações** que mostraram que a generalização feita por Jacobi não se aplicava a todos os casos.\n\nPara entender melhor, é crucial saber **qual conjectura jacobiana** você está se referindo, pois o nome pode se aplicar a diferentes teoremas ou problemas em áreas distintas da matemática (como teoria dos números, geometria, ou análise).\n\nNo entanto, se você estiver se referindo a conjecturas famosas que foram desafiadas, o processo geralmente segue este padrão:\n\n### O que geralmente acontece com conjecturas matemáticas?\n\n1. **Formulação:** Um matemático (como Jacobi) propõe uma afirmação geral (a conjectura).\n2. **Prova (ou Tentativa de Prova):** Tentativas são feitas para provar que a afirmação é verdadeira para todos os casos.\n3. **Contraexemplo:** Um matemático encontra um único caso específico onde a afirmação falha. Este é o **contraexemplo",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "hit": true,
+     "plane_claim": false
+    }
+   }
+  ],
+  "plane": [
+   {
+    "q": "Is the Jacobian conjecture for polynomial maps of the plane solved?",
+    "label": "plane",
+    "reply": "No, the **Jacobian Conjecture (JC)** for polynomial maps of the plane is **not solved**.\n\nIt remains one of the most famous and challenging open problems in algebraic geometry and complex analysis.\n\nHere is a breakdown of what the conjecture states, why it's so important, and why it remains unsolved:\n\n---\n\n### 1. What is the Jacobian Conjecture?\n\nLet $f: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map (meaning each component of $f$ is a polynomial in $n$ variables).\n\nThe Jacobian matrix of $f$ is the matrix of its first-order partial derivatives:\n$$J(f) = \\left( \\frac{\\partial f_i}{\\partial z_j} \\right)_{i, j}$$\n\nThe **Jacobian Conjecture** states:\n\n> If the Jacobian determinant of a polynomial map $f$ is a non-zero constant (i.e., $\\det(J(f)) = c \\neq 0$), then the map $f$ must be a **bijective** (invertible) map (i.e., it has a polynomial inverse).\n\nIn simpler terms: If the map is \"locally invertible\"",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "What's the status of the two-dimensional Jacobian conjecture?",
+    "label": "plane",
+    "reply": "The **Two-Dimensional Jacobian Conjecture (2D JC)** is a significant and still **open problem** in algebraic geometry and complex analysis.\n\nHere is a detailed breakdown of what the conjecture is, its status, and why it is so important.\n\n---\n\n## 1. What is the Two-Dimensional Jacobian Conjecture?\n\nThe Jacobian Conjecture (JC) is a famous open problem in polynomial algebra. In its general form, it states:\n\n**If a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then the map $F$ must be a polynomial automorphism (i.e., it must have a polynomial inverse).**\n\n### The Two-Dimensional Case ($n=2$)\n\nFor the two-dimensional case, the conjecture is specifically about polynomial maps $F: \\mathbb{C}^2 \\to \\mathbb{C}^2$ defined by:\n$$F(x, y) = (P(x, y), Q(x, y))$$\nwhere $P$ and $Q$ are polynomials.\n\nThe condition is that",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Has anyone found a counterexample to the Jacobian conjecture in two variables?",
+    "label": "plane",
+    "reply": "The **Jacobian Conjecture** (also known as the Keller problem) states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero constant Jacobian determinant (i.e., $\\det(J_F(z)) \\neq 0$ for all $z \\in \\mathbb{C}^n$), then $F$ is necessarily a **bijective** map (i.e., it has a global inverse, meaning it is a polynomial automorphism).\n\n**As of today, no counterexample to the Jacobian Conjecture has been found.**\n\nThe Jacobian Conjecture remains one of the most famous and challenging open problems in algebraic geometry and complex analysis.\n\nHere is a summary of the current status:\n\n### 1. The Status: Unproven\n\nThe conjecture is widely believed to be true, but a rigorous proof remains elusive. The difficulty lies in showing that the non-vanishing of the Jacobian determinant is a strong enough condition to guarantee the existence of a polynomial inverse, which is a much stronger statement than just local invertibility.\n\n### 2. Related Results and Progress\n\nWhile a full counterexample is missing, significant progress has been made in related areas:\n\n* **The $n",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Is Keller's problem for C^2 still open?",
+    "label": "plane",
+    "reply": "The question of whether **Keller's problem for $C^2$ is still open** depends heavily on the **specific context** you are referring to.\n\n\"Keller's problem\" is a broad term that could refer to several different areas in mathematics, particularly in **Partial Differential Equations (PDEs)**, **Calculus of Variations**, or **Geometric Analysis**.\n\nTo give you a precise answer, I need more context. However, I can break down the most likely interpretations and the general status of related problems:\n\n---\n\n### 1. If you are referring to **Keller's Problem in Elliptic PDEs (e.g., related to the Monge-Ampère equation or geometric PDEs):**\n\nKeller's work often relates to the existence, regularity, or uniqueness of solutions to certain nonlinear elliptic equations.\n\n* **Status:** Many problems in this area remain **open**, especially when dealing with:\n    * **Non-convexity:** If the equation involves non-convex terms, proving existence or regularity can be extremely difficult.\n    * **Boundary Behavior:** Problems involving specific boundary conditions (like Dirichlet or Neumann) can lead to subtle regularity issues.\n    * **Higher Regularity:** Proving that a solution is $C",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": false
+    }
+   },
+   {
+    "q": "Is the Jacobian conjecture true for n = 2?",
+    "label": "plane",
+    "reply": "The Jacobian conjecture is a statement about the number of rational points on algebraic curves.\n\n**The Jacobian Conjecture (in its general form) states:**\n\nIf a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then $F$ is necessarily a **bijective** map (i.e., it is an automorphism of $\\mathbb{C}^n$).\n\n**Applying this to $n=2$:**\n\nFor $n=2$, we have a polynomial map $F: \\mathbb{C}^2 \\to \\mathbb{C}^2$ given by:\n$$F(x, y) = (P(x, y), Q(x, y))$$\nwhere $P$ and $Q$ are polynomials in two variables.\n\nThe Jacobian matrix $J_F$ is:\n$$J_F = \\begin{pmatrix} \\frac{\\partial P}{\\partial x} & \\frac{\\partial P}{\\partial y} \\\\ \\frac{\\partial Q}{\\partial x} & \\frac{\\partial Q}{\\partial y} \\end",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": false
+    }
+   },
+   {
+    "q": "Does the planar Jacobian conjecture still stand?",
+    "label": "plane",
+    "reply": "The **Planar Jacobian Conjecture (PJC)** is a fascinating and still very active area of research in algebraic geometry and complex analysis.\n\n**The short answer is: The Planar Jacobian Conjecture still stands as an open, unproven conjecture.**\n\nHere is a more detailed breakdown of what the conjecture is, why it's important, and the current status of the research:\n\n---\n\n## 1. What is the Planar Jacobian Conjecture (PJC)?\n\nThe Jacobian Conjecture is a statement about polynomial mappings.\n\n**The standard (univariate) Jacobian Conjecture states:**\nIf a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a Jacobian determinant that is a non-zero constant (i.e., $\\det(J_F) = c \\neq 0$), then $F$ is necessarily a **bijective** (invertible) map.\n\n**The Planar Jacobian Conjecture (PJC) is the $n=2$ case:**\nIf $F: \\mathbb{C}^2 \\to \\mathbb{C}^2$ is a polynomial map such that its Jacobian determinant, $\\det(J_F)$, is a non-zero constant, then $F$ must",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Has the Jacobian conjecture in dimension two been proved?",
+    "label": "plane",
+    "reply": "The question of whether the **Jacobian conjecture in dimension two has been proved** is a bit nuanced because the term \"Jacobian conjecture\" can refer to a few related, but distinct, concepts in number theory and algebraic geometry.\n\nHowever, the most famous and relevant conjecture in this area is the **Mordell Conjecture** (now the **Faltings' Theorem**), which deals with rational points on curves of genus greater than one.\n\nLet's break down the context:\n\n### 1. The General Context: Diophantine Equations and Rational Points\n\nThe \"Jacobian conjecture\" often relates to the existence and properties of rational points on algebraic curves, particularly those defined by polynomial equations.\n\n* **Mordell Conjecture (Faltings' Theorem):** This theorem states that a projective, non-singular algebraic curve of **genus $g > 1$** defined over a number field has only a finite number of rational points.\n    * **Dimension Two Context:** A curve defined by a polynomial equation $y^2 = f(x)$ (an elliptic curve, genus 1) or a more general curve. If the genus is greater than 1, the conjecture applies.\n\n### 2. The Specific Case: Dimension Two (",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": false
+    }
+   },
+   {
+    "q": "Are polynomial maps C^2 -> C^2 with constant nonzero Jacobian determinant always invertible? Is that known?",
+    "label": "plane",
+    "reply": "The question asks whether a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ that is $C^2$ (which is automatically true for polynomials) with a constant, nonzero Jacobian determinant is always invertible.\n\nLet $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map. The Jacobian matrix of $F$ is $J_F(z) = \\left( \\frac{\\partial F_i}{\\partial z_j} \\right)_{i,j=1}^n$.\n\nThe condition given is that $\\det(J_F(z)) = c$, where $c$ is a nonzero constant, for all $z \\in \\mathbb{C}^n$.\n\n### The Answer: Yes, under these conditions, the map is locally invertible (and globally invertible if $n=1$).\n\nThe key result that addresses this is related to the **Inverse Function Theorem** and its generalizations, particularly for polynomial maps.\n\n#### Case $n=1$ (Polynomials in one variable)\n\nIf $F(z) = a_d z^d + \\dots + a_0$ is a polynomial in $\\mathbb{C}$,",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": false
+    }
+   },
+   {
+    "q": "what about the jacobian conjecture in 2 variables, is that solved?",
+    "label": "plane",
+    "reply": "The **Jacobian Conjecture** in two variables is **not solved**.\n\nIt is one of the most famous and long-standing open problems in mathematics, specifically in the field of algebraic geometry and commutative algebra.\n\nHere's a breakdown of what the conjecture states and why it's so difficult:\n\n---\n\n### What is the Jacobian Conjecture (in 2 Variables)?\n\nLet $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ be a polynomial map. The Jacobian matrix of $F$ is the matrix of its first-order partial derivatives:\n$$J(F) = \\left( \\frac{\\partial F_i}{\\partial z_j} \\right)_{i,j=1}^n$$\n\nThe **Jacobian Conjecture** states:\n\n> If the determinant of the Jacobian matrix, $\\det(J(F))$, is a non-zero constant (i.e., a non-zero element of $\\mathbb{C}^*$), then the map $F$ is a **diffeomorphism** (meaning it is a bijective map whose inverse is also a polynomial map).\n\n**In the 2-variable case ($n=2$):**\nIf $F(x, y) =",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Is the case n=2 of the Jacobian conjecture settled?",
+    "label": "plane",
+    "reply": "The **Jacobian Conjecture** is a famous open problem in mathematics. It states that if a polynomial map $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ has a non-zero constant Jacobian determinant (i.e., $\\det(J_F(z)) \\neq 0$ for all $z \\in \\mathbb{C}^n$), then $F$ is necessarily a **bijective** map (i.e., it has a global inverse, meaning it is a polynomial automorphism).\n\nThe conjecture is stated for general $n \\ge 1$.\n\n### The Case $n=2$\n\nThe case $n=2$ is a specific instance of the general conjecture.\n\n**Is the case $n=2$ settled?**\n\n**No, the case $n=2$ of the Jacobian Conjecture is not settled.**\n\nIt is one of the most famous open problems in algebraic geometry and complex analysis. If someone could prove the Jacobian Conjecture for $n=2$, it would be a massive breakthrough.\n\n### What is known about $n=2$?\n\n1. **It is believed to be true:** Most mathematicians strongly believe that the Jacobian Conjecture holds for all $n$, including $",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Is the two-variable Jacobian conjecture still unsolved?",
+    "label": "plane",
+    "reply": "The **Two-Variable Jacobian Conjecture** is **still unsolved**.\n\nHere's a breakdown of what it is and why it remains a major open problem:\n\n### What is the Two-Variable Jacobian Conjecture?\n\nThe conjecture deals with polynomial mappings. Let $F: \\mathbb{C}^2 \\to \\mathbb{C}^2$ be a polynomial map defined by:\n$$F(x, y) = (P(x, y), Q(x, y))$$\nwhere $P$ and $Q$ are polynomials in two variables.\n\nThe **Jacobian matrix** of $F$ is:\n$$J(x, y) = \\begin{pmatrix} \\frac{\\partial P}{\\partial x} & \\frac{\\partial P}{\\partial y} \\\\ \\frac{\\partial Q}{\\partial x} & \\frac{\\partial Q}{\\partial y} \\end{pmatrix}$$\n\nThe **Jacobian determinant** is $\\det(J(x, y))$.\n\nThe **Jacobian Conjecture** states that if the Jacobian determinant $\\det(J(x, y))$ is a non-zero constant (i.e., a non-zero constant polynomial), then the map $F$ must be a **bijective**",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "My advisor works on the plane Jacobian conjecture. Is her problem still open?",
+    "label": "plane",
+    "reply": "The **Plane Jacobian Conjecture** is a very famous and important open problem in algebraic geometry.\n\n**Yes, the Plane Jacobian Conjecture is still open.**\n\nHere is a brief overview of what it is and why it remains unsolved:\n\n### What is the Plane Jacobian Conjecture?\n\nThe conjecture deals with polynomial maps from the complex plane ($\\mathbb{C}^2$) to itself.\n\nLet $F: \\mathbb{C}^2 \\to \\mathbb{C}^2$ be a polynomial map defined by:\n$$F(x, y) = (P(x, y), Q(x, y))$$\nwhere $P$ and $Q$ are polynomials in two variables.\n\nThe **Jacobian matrix** of $F$ is:\n$$J(x, y) = \\begin{pmatrix} \\frac{\\partial P}{\\partial x} & \\frac{\\partial P}{\\partial y} \\\\ \\frac{\\partial Q}{\\partial x} & \\frac{\\partial Q}{\\partial y} \\end{pmatrix}$$\n\nThe **Jacobian determinant** is $\\det(J) = \\frac{\\partial P}{\\partial x}\\frac{\\partial Q}{\\partial y} - \\frac{\\partial P}{\\partial y}\\frac{\\partial",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Has Kraus's 1884 question about polynomial maps of the plane been answered?",
+    "label": "plane",
+    "reply": "I do not have specific, real-time access to academic databases or the ability to search for the definitive resolution of every historical mathematical question. Therefore, I cannot definitively tell you whether Kraus's 1884 question about polynomial maps of the plane has been fully answered.\n\nTo find the answer, you would need to consult specialized mathematical literature, such as:\n\n1.  **History of Mathematics texts:** These often discuss the context and resolution of significant problems posed by mathematicians like Kraus.\n2.  **Research papers or monographs** on complex dynamics, polynomial mappings, or algebraic geometry.\n3.  **Mathematical archives or databases** (like MathSciNet or university library catalogs).\n\n**If you can provide more context about the specific nature of Kraus's question, I might be able to offer more targeted information based on my existing knowledge base.**",
+    "n_tokens": 175,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "open": false
+    }
+   },
+   {
+    "q": "Does the Jacobian conjecture hold for maps from C^2 to C^2?",
+    "label": "plane",
+    "reply": "The **Jacobian Conjecture (JC)** is a famous open problem in mathematics concerning polynomial maps.\n\nThe standard statement of the Jacobian Conjecture is:\n\n**Jacobian Conjecture (JC):** If $F: \\mathbb{C}^n \\to \\mathbb{C}^n$ is a polynomial map such that its Jacobian determinant, $\\det(J_F)$, is a non-zero constant (i.e., $\\det(J_F) \\in \\mathbb{C}^*$), then $F$ is a **diffeomorphism** (i.e., it is a bijection with a polynomial inverse).\n\n### Applying the Question to $\\mathbb{C}^2 \\to \\mathbb{C}^2$\n\nYour question asks whether the Jacobian Conjecture holds for maps from $\\mathbb{C}^2$ to $\\mathbb{C}^2$.\n\n**The answer is: We do not know if the Jacobian Conjecture holds for $n=2$.**\n\nIn fact, the Jacobian Conjecture for $n=2$ is one of the most famous and difficult open problems in algebraic geometry and complex analysis.\n\n### Key Points about the $n=2$ Case\n\n1. **The Conjecture is Open:** The statement that \"if $\\det(J_",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "Ist die Jacobi-Vermutung in zwei Variablen gelöst?",
+    "label": "plane",
+    "reply": "Nein, die **Jacobi-Vermutung** (oder Jacobi-Problem) in zwei Variablen ist **nicht vollständig gelöst**.\n\nEs handelt sich um ein sehr wichtiges und tiefgehendes Problem in der mathematischen Physik und Analysis, das sich mit der Existenz und der Struktur von Lösungen für bestimmte Differentialgleichungen beschäftigt.\n\nHier ist eine genauere Aufschlüsselung, was das Problem ist und warum es noch offen ist:\n\n---\n\n### Was ist die Jacobi-Vermutung?\n\nDie Jacobi-Vermutung bezieht sich typischerweise auf die **Existenz von Lösungen für bestimmte lineare oder nichtlineare Differentialgleichungen**, oft im Kontext von:\n\n1. **Geometrie und Differentialgeometrie:** Die Untersuchung von Kurven, Flächen oder Räumen.\n2. **Physik (z.B. Mechanik oder Quantenfeldtheorie):** Die Suche nach physikalisch sinnvollen Lösungen.\n3. **Funktionentheorie:** Die Untersuchung der Eigenschaften von Funktionen.\n\nIn vielen Kontexten bezieht sich die Vermutung auf die Frage, ob unter bestimmten Randbedingungen (oder unter der Annahme, dass eine Lösung existiert) eine bestimmte Art von Lösung (z.B. eine analytische Lösung) garantiert ist.",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   },
+   {
+    "q": "二维雅可比猜想解决了吗？",
+    "label": "plane",
+    "reply": "二维雅可比猜想（Two-dimensional Jacobian Conjecture）**目前还没有被完全解决**。\n\n这是一个非常活跃且具有挑战性的数学问题。\n\n### 什么是二维雅可比猜想？\n\n雅可比猜想（Jacobian Conjecture, JC）是代数几何和微分几何中的一个著名猜想。它通常指的是：\n\n**如果一个光滑的、非奇异的、从 $\\mathbb{C}^n$ 到 $\\mathbb{C}^n$ 的微分同胚（即一个局部可逆的微分映射）$F: \\mathbb{C}^n \\to \\mathbb{C}^n$ 满足 $\\det(JF(z)) \\neq 0$（即雅可比行列式不恒为零），那么 $F$ 必须是一个仿射变换（Affine Transformation），即 $F(z) = Az + b$，其中 $A$ 是一个非奇异的 $n \\times n$ 矩阵，$b$ 是一个常数向量。**\n\n**二维情况 ($n=2$)** 意味着我们考虑一个函数 $F(x, y) = (P(x, y), Q(x, y))$，其中 $P$ 和 $Q$",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "open": true
+    }
+   }
+  ],
+  "open": [
+   {
+    "q": "Has the Riemann hypothesis been proved?",
+    "label": "Riemann hypothesis",
+    "reply": "No, the Riemann Hypothesis has **not been proven**.\n\nIt is one of the most important unsolved problems in pure mathematics. It concerns the distribution of the non-trivial zeros of the Riemann zeta function, and proving it would have profound implications for number theory, particularly concerning the distribution of prime numbers.\n\nMathematicians have verified the hypothesis for a very large number of zeros, but a complete, rigorous proof that *all* non-trivial zeros lie on the critical line ($\\text{Re}(s) = 1/2$) remains elusive.",
+    "n_tokens": 111,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is the Riemann hypothesis still open?",
+    "label": "Riemann hypothesis",
+    "reply": "**Yes, the Riemann Hypothesis is still open.**\n\nIt is one of the most famous and important unsolved problems in mathematics. Despite extensive research by brilliant mathematicians for over 160 years, no one has yet been able to prove that all non-trivial zeros of the Riemann zeta function lie on the critical line ($\\text{Re}(s) = 1/2$).\n\n### Why is it so important?\n\nThe Riemann Hypothesis is central to **analytic number theory** because it provides deep insights into the distribution of **prime numbers**.\n\n* **Prime Number Distribution:** If the Riemann Hypothesis is true, it gives us the tightest possible bounds on how regularly the prime numbers are distributed among the integers. It essentially tells us the \"best possible\" estimate for the error term in the Prime Number Theorem.\n* **Cryptography:** While not directly used in current cryptographic systems, understanding the distribution of primes is fundamental to the security foundations of many modern encryption methods.\n\n### What is the status?\n\n* **Unproven:** It remains an unproven conjecture.\n* **Computational Verification:** Mathematicians have computationally verified that the first **trillions** of non-trivial zeros *do* lie on the critical line. However, computational verification is not a proof; it",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Did anyone find a counterexample to the Riemann hypothesis?",
+    "label": "Riemann hypothesis",
+    "reply": "**No, no one has found a counterexample to the Riemann Hypothesis.**\n\nThe Riemann Hypothesis is one of the most important unsolved problems in mathematics. It is a conjecture about the location of the non-trivial zeros of the Riemann zeta function, and it has been rigorously tested and verified for the first several trillion zeros, but a formal proof remains elusive.\n\nHere's a breakdown of the situation:\n\n* **It remains unproven:** Despite intense effort from mathematicians for over 160 years, no one has been able to prove that all non-trivial zeros lie on the critical line ($\\text{Re}(s) = 1/2$).\n* **Extensive Verification:** Mathematicians have computationally verified that the first several trillion zeros *do* lie on the critical line. However, verification is not the same as a proof, as it doesn't cover *all* possible zeros.\n* **The Significance:** If a counterexample were found (a zero off the critical line), it would instantly disprove the Riemann Hypothesis and revolutionize number theory. The fact that no such counterexample has been found suggests the hypothesis is almost certainly true, but mathematical certainty requires a formal proof.\n\n**In summary: If someone had found a counterexample, it would",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Was the Riemann hypothesis recently solved, maybe by an AI?",
+    "label": "Riemann hypothesis",
+    "reply": "No, the Riemann Hypothesis has **not been recently solved**, nor has it been solved by an AI.\n\nThe Riemann Hypothesis is one of the most important unsolved problems in pure mathematics. It concerns the distribution of the non-trivial zeros of the Riemann zeta function, and a proof of it would have profound implications for number theory and mathematics as a whole.\n\nWhile Artificial Intelligence is increasingly being used in mathematics to help *discover* patterns, *verify* conjectures, and *assist* mathematicians in their research, it has not yet produced a rigorous, accepted proof for the Riemann Hypothesis.\n\nIf a solution were found, it would be one of the most significant mathematical breakthroughs of the century!",
+    "n_tokens": 138,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "What's the latest on the Riemann hypothesis?",
+    "label": "Riemann hypothesis",
+    "reply": "As of my last update in January 2025, the **Riemann Hypothesis (RH)** remains one of the most important and challenging unsolved problems in mathematics.\n\nHere is a summary of the current status and what is known:\n\n### What is the Riemann Hypothesis?\n\nThe Riemann Hypothesis is a conjecture about the **nontrivial zeros** of the **Riemann zeta function** ($\\zeta(s)$). In simple terms, the hypothesis states that all these nontrivial zeros lie on the \"critical line,\" which is the line in the complex plane where the real part of the complex number $s$ is exactly $1/2$ (i.e., $\\text{Re}(s) = 1/2$).\n\n### Current Status\n\n1.  **Unproven:** Despite intense effort from mathematicians for over 160 years, the Riemann Hypothesis remains **unproven**. It is one of the seven Millennium Prize Problems established by the Clay Mathematics Institute, with a \\$1 million prize offered for its solution.\n2.  **Computational Verification:** Mathematicians have been able to computationally verify that the first **trillions** of the nontrivial zeros *do* lie on the critical line. This provides extremely strong empirical evidence supporting the hypothesis, but it does not",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "is the riemann hypothesis solved yet",
+    "label": "Riemann hypothesis",
+    "reply": "No, the Riemann Hypothesis is **not solved yet**.\n\nIt is one of the most important and famous unsolved problems in pure mathematics. It concerns the distribution of the non-trivial zeros of the Riemann zeta function, and proving it would have profound implications for number theory, particularly concerning the distribution of prime numbers.\n\nMathematicians have been working on it for over 160 years, and despite significant progress and verification of billions of zeros, no one has yet found a complete proof.",
+    "n_tokens": 99,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Has P vs NP been resolved?",
+    "label": "P vs NP",
+    "reply": "No, the P vs NP problem has **not been resolved**.\n\nIt remains one of the most important and famous unsolved problems in computer science and mathematics.\n\nHere is a breakdown of what the problem is and why it's so important:\n\n### What is P vs NP?\n\nThe problem asks whether every problem whose solution can be **quickly verified** (NP - Nondeterministic Polynomial time) can also be **quickly solved** (P - Polynomial time).\n\n* **P (Polynomial Time):** These are the problems for which a solution can be *found* efficiently (in polynomial time). Examples include sorting a list or finding the shortest path in a graph.\n* **NP (Nondeterministic Polynomial Time):** These are the problems for which a proposed solution can be *verified* efficiently (in polynomial time). Examples include the Traveling Salesperson Problem (finding the shortest route visiting many cities) or the Boolean Satisfiability Problem (SAT).\n\n**The core question is:** If we can quickly check the answer to a problem, can we also quickly find the answer?\n\n### The Stakes\n\n* **If P = NP:** This would mean that any problem whose solution is easy to check is also easy to solve. This would revolutionize computing",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is the P versus NP problem still open?",
+    "label": "P vs NP",
+    "reply": "**Yes, the P versus NP problem is still one of the most important and famous unsolved problems in computer science and mathematics.**\n\nIt remains **open** in the sense that no one has yet found a definitive proof that P is not equal to NP, nor have they found a proof that P equals NP.\n\nHere is a breakdown of what the problem is and why it remains open:\n\n### What is the P versus NP Problem?\n\nThe problem asks whether every problem whose solution can be **quickly verified** (NP - Nondeterministic Polynomial time) can also be **quickly solved** (P - Polynomial time).\n\n* **P (Polynomial Time):** These are the problems for which a solution can be *found* efficiently (in polynomial time). Examples: Sorting a list, finding the shortest path in a graph.\n* **NP (Nondeterministic Polynomial Time):** These are the problems for which a proposed solution can be *verified* efficiently (in polynomial time). Examples: The Traveling Salesperson Problem (finding the shortest route visiting many cities), Sudoku, factoring large numbers.\n\n**The core question is:** If we can quickly check the answer to a problem, can we also quickly find the answer?\n\n* **If P =",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Did anyone prove that P is not equal to NP?",
+    "label": "P vs NP",
+    "reply": "**No, no one has proven that P is not equal to NP.**\n\nThe question of whether $\\text{P} = \\text{NP}$ is one of the most famous and important unsolved problems in computer science and mathematics. It is one of the seven Millennium Prize Problems posed by the Clay Mathematics Institute, with a \\$1 million prize offered for its solution.\n\nHere is a breakdown of what we know and why it remains unsolved:\n\n### 1. What P and NP Mean\n\n* **P (Polynomial Time):** This class contains all decision problems (problems with a yes/no answer) that can be **solved** by a deterministic Turing machine in polynomial time. In simpler terms, these are problems that are considered \"efficiently solvable.\"\n* **NP (Nondeterministic Polynomial Time):** This class contains all decision problems for which a proposed solution (a \"certificate\" or \"witness\") can be **verified** by a deterministic Turing machine in polynomial time.\n\n**The core question is:** If a solution to a problem can be *quickly verified*, can the solution also be *quickly found*?\n\n* **If P = NP:** It would mean that any problem whose solution is easy to check is also easy to solve. This",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Did an AI recently settle P vs NP?",
+    "label": "P vs NP",
+    "reply": "As of my last update, **no AI has recently settled the P vs NP problem.**\n\nP vs NP is one of the most significant unsolved problems in computer science and mathematics. It asks whether every problem whose solution can be quickly *verified* (NP) can also be quickly *solved* (P).\n\nThis problem remains open, and while AI and computational techniques are incredibly powerful tools for exploring complexity classes, no algorithm or AI system has yet provided a definitive proof or disproof for the relationship between P and NP.\n\nThe field is still actively researching potential breakthroughs, but a definitive settlement is still pending.",
+    "n_tokens": 123,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "What's the current status of the P vs NP question?",
+    "label": "P vs NP",
+    "reply": "The P vs NP question is one of the most important unsolved problems in computer science and mathematics. It asks whether every problem whose solution can be *quickly verified* (NP) can also be *quickly solved* (P).\n\nHere is a breakdown of the current status:\n\n### 1. The Core of the Problem\n\n* **P (Polynomial Time):** The class of decision problems for which a solution can be found by a deterministic Turing machine in polynomial time (i.e., efficiently).\n* **NP (Nondeterministic Polynomial Time):** The class of decision problems for which a proposed solution (a \"certificate\") can be *verified* by a deterministic Turing machine in polynomial time.\n\n**The Question:** Is $\\text{P} = \\text{NP}$?\n* **If $\\text{P} = \\text{NP}$:** It would mean that if we can quickly check a solution to a problem, we can also quickly find that solution. This would revolutionize fields like cryptography, optimization, artificial intelligence, and mathematics, as many currently intractable problems (like the Traveling Salesperson Problem or protein folding) would become solvable efficiently.\n* **If $\\text{P} \\neq \\text{NP}$ (the widely believed",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "my CS prof joked that p vs np got solved, did it actually?",
+    "label": "P vs NP",
+    "reply": "That's a very common and fun joke in computer science!\n\n**The short answer is: No, P vs NP has not been solved.**\n\nIt remains one of the most important and famous unsolved problems in mathematics and theoretical computer science.\n\nHere is a breakdown of what P vs NP means and why it's so hard:\n\n### What are P and NP?\n\nThese classes of problems deal with the efficiency of solving computational problems:\n\n* **P (Polynomial Time):** This class contains decision problems (problems with a yes/no answer) that can be **solved** quickly by a deterministic computer. \"Quickly\" means the time it takes to solve the problem grows polynomially with the size of the input (e.g., $n^2$, $n^3$). These are generally considered \"tractable\" or \"easy\" problems.\n    * *Example: Sorting a list of numbers.*\n\n* **NP (Nondeterministic Polynomial Time):** This class contains decision problems for which a proposed solution (a \"certificate\") can be **verified** quickly (in polynomial time). It does *not* mean the problem itself can be solved quickly.\n    * *Example: The Traveling Salesperson Problem (TSP). If",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Has the Collatz conjecture been proved?",
+    "label": "Collatz conjecture",
+    "reply": "**No, the Collatz conjecture has not been proven.**\n\nThe Collatz conjecture is one of the most famous unsolved problems in mathematics. It states that for any positive integer, if you repeatedly apply the following rules:\n\n1. **If the number is even, divide it by 2.**\n2. **If the number is odd, multiply it by 3 and add 1.**\n\n...you will eventually reach the number 1.\n\n### Why is it so hard to prove?\n\nDespite its simple definition, the conjecture is incredibly difficult to prove because:\n\n* **Lack of Structure:** The sequence generated by the Collatz process appears chaotic. There is no obvious mathematical structure or pattern that guarantees convergence to 1 for *all* starting numbers.\n* **Computational Verification vs. Proof:** Mathematicians have verified the conjecture for an enormous range of starting numbers (currently up to $2^{68}$), but verification is not the same as a formal mathematical proof that covers *all* positive integers.\n* **The \"Stopping Time\" Problem:** Proving the conjecture requires showing that no sequence can enter a cycle other than the trivial $4 \\to 2 \\to 1 \\to 4 \\dots$ loop,",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is the Collatz conjecture still unsolved?",
+    "label": "Collatz conjecture",
+    "reply": "**Yes, the Collatz conjecture is still unsolved.**\n\nIt is one of the most famous and long-standing unsolved problems in mathematics.\n\n### What is the Collatz Conjecture?\n\nThe conjecture deals with a simple iterative process applied to any positive integer:\n\n1. **If the number is even,** divide it by 2 ($n \\rightarrow n/2$).\n2. **If the number is odd,** multiply it by 3 and add 1 ($n \\rightarrow 3n + 1$).\n\nThe conjecture states that **no matter what positive integer you start with, repeatedly applying these rules will eventually lead to the number 1.**\n\n### Why is it so hard to solve?\n\nDespite its simple definition, the conjecture is incredibly difficult to prove for several reasons:\n\n1. **Apparent Randomness:** The sequence of operations (multiplying by 3 and adding 1 versus dividing by 2) seems chaotic and unpredictable.\n2. **Lack of Structure:** There is no obvious mathematical structure or invariant that can be used to prove that the sequence *must* eventually decrease to 1 for *all* starting numbers.\n3. **Computational Verification vs. Proof:** Mathematicians have verified the conjecture for extremely",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Did anyone find a counterexample to the Collatz conjecture?",
+    "label": "Collatz conjecture",
+    "reply": "**No, no one has found a counterexample to the Collatz conjecture.**\n\nThe Collatz conjecture remains one of the most famous unsolved problems in mathematics. Despite extensive computational testing and theoretical investigation, every number tested so far follows the conjecture:\n\n* **The Collatz Rule:**\n    * If the number is even, divide it by 2 ($n \\rightarrow n/2$).\n    * If the number is odd, multiply it by 3 and add 1 ($n \\rightarrow 3n + 1$).\n    * The process is repeated until the number reaches 1.\n\n**Why is it so hard to find a counterexample?**\n\n1. **Unpredictable Behavior:** The sequence generated by the Collatz function can behave in wildly unpredictable ways. A number might take a very long time to reach 1, or it might enter a cycle other than the trivial $4 \\rightarrow 2 \\rightarrow 1$ cycle (though no other cycles have ever been found).\n2. **Infinite Search Space:** There is no known mathematical proof that a counterexample *cannot* exist, and testing every number is computationally impossible.\n3. **Lack of Structure:** The conjecture involves simple arithmetic operations, but",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Was the Collatz conjecture recently resolved with AI help?",
+    "label": "Collatz conjecture",
+    "reply": "No, the Collatz conjecture has **not been recently resolved with the help of AI.**\n\nThe Collatz conjecture remains one of the most famous unsolved problems in mathematics. Despite extensive computational checks and theoretical exploration, no one has been able to provide a rigorous mathematical proof that it is true for all positive integers.\n\nWhile AI and computational power are incredibly useful tools in mathematics—they can test hypotheses, find patterns, and explore vast solution spaces—they have not yet provided the definitive, formal proof required to resolve the conjecture.",
+    "n_tokens": 107,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "What's the latest progress on the Collatz conjecture?",
+    "label": "Collatz conjecture",
+    "reply": "As of my last update, the **Collatz conjecture remains one of the most famous and stubbornly unsolved problems in mathematics.** There is **no definitive \"latest progress\"** in the sense of a proof or a disproof.\n\nHowever, research into the Collatz conjecture is very active, and the progress generally falls into a few key areas:\n\n### 1. Computational Verification (The Strongest Evidence)\n\nThe most significant \"progress\" is the **extensive computational verification**.\n\n* **Verification up to Very Large Numbers:** Mathematicians and computer scientists have verified the conjecture for staggeringly large starting numbers. As of recent checks, the conjecture holds true for all starting numbers up to numbers with hundreds of millions of digits.\n* **No Counterexamples Found:** Despite this massive testing, no counterexample (a starting number that does not eventually reach 1) has ever been found. This provides extremely strong *empirical evidence* for the conjecture, but it is not a mathematical proof.\n\n### 2. Theoretical and Analytical Approaches\n\nThe difficulty lies in the chaotic, non-linear nature of the Collatz function ($3n+1$ if odd, $n/2$ if even). Researchers are trying to find a mathematical structure that forces all sequences",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "collatz conjecture - open or proven?",
+    "label": "Collatz conjecture",
+    "reply": "The Collatz Conjecture is **unproven**.\n\nIt is one of the most famous unsolved problems in mathematics.\n\nHere's a quick breakdown:\n\n* **The Conjecture:** For any positive integer, if you repeatedly apply the following rules:\n    * If the number is even, divide it by 2.\n    * If the number is odd, multiply it by 3 and add 1.\n    The sequence will eventually reach the number 1.\n\n* **Status:** Despite extensive computer testing (it has been verified for extremely large numbers), no mathematical proof has been found that guarantees this will happen for *every* positive integer.\n\n**In summary: It is an open problem.**",
+    "n_tokens": 144,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Has the Goldbach conjecture been proved?",
+    "label": "Goldbach conjecture",
+    "reply": "**No, the Goldbach conjecture has not been proven.**\n\nThe **Goldbach conjecture** is one of the oldest and most famous unsolved problems in number theory. It states that:\n\n> **Every even integer greater than 2 is the sum of two prime numbers.**\n\nWhile it has been verified by computers for extremely large numbers (up to $4 \\times 10^{18}$), a mathematical proof that covers *all* even integers remains elusive.\n\n**In summary:**\n\n* **Status:** Unproven (Conjectural)\n* **Significance:** It is one of the most important open problems in mathematics.\n* **Progress:** Mathematicians have made significant progress on related problems (like the weaker Goldbach conjecture, which states every odd number greater than 5 is the sum of three primes), but the original conjecture remains open.",
+    "n_tokens": 175,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is Goldbach's conjecture still open?",
+    "label": "Goldbach conjecture",
+    "reply": "**Yes, Goldbach's conjecture is still open.**\n\nHere's a breakdown of what that means:\n\n* **What is Goldbach's Conjecture?** The conjecture states that every even integer greater than 2 is the sum of two prime numbers.\n    * Examples:\n        * $4 = 2 + 2$\n        * $6 = 3 + 3$\n        * $8 = 3 + 5$\n        * $10 = 3 + 7$ (or $5 + 5$)\n        * $100 = 3 + 97$ (or $11 + 89$, etc.)\n\n* **Why is it Open?** Despite being one of the oldest and most famous unsolved problems in mathematics, **no one has yet been able to prove that this statement holds true for *all* even numbers.**\n\n* **Status:** It remains a **conjecture** (a statement believed to be true but not yet formally proven).\n\n**In summary:** It is one of the most famous unsolved problems in number theory.",
+    "n_tokens": 230,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Has anyone found an even number that is not a sum of two primes?",
+    "label": "Goldbach conjecture",
+    "reply": "This is a fascinating question that touches upon one of the most famous unsolved problems in number theory: **Goldbach's Conjecture**.\n\nHere's a breakdown of the situation:\n\n### Goldbach's Conjecture\n\nGoldbach's Conjecture states that **every even integer greater than 2 is the sum of two primes.**\n\n* **Examples:**\n    * $4 = 2 + 2$\n    * $6 = 3 + 3$\n    * $8 = 3 + 5$\n    * $10 = 3 + 7$ or $5 + 5$\n    * $100 = 3 + 97$ or $11 + 89$, etc.\n\n### The Status of the Question\n\n**As of today, no even number has ever been found that is *not* the sum of two primes.**\n\nIf Goldbach's Conjecture is true (and it has been verified for all numbers up to an extremely large limit, $4 \\times 10^{18}$), then the answer to your question is **\"No, we haven't found one yet, and it is conjectured that none exist.\"**\n\n### Why This is Hard to",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Did an AI recently prove the Goldbach conjecture?",
+    "label": "Goldbach conjecture",
+    "reply": "As of my last update, **no AI has definitively proven the Goldbach conjecture.**\n\nThe Goldbach conjecture is one of the oldest and most famous unsolved problems in mathematics. It states that every even integer greater than 2 is the sum of two prime numbers.\n\nWhile AI and computational methods are incredibly powerful tools in mathematics—they can test hypotheses, find patterns, and verify large sets of numbers—they have not yet achieved the level of rigorous, deductive proof required to solve a conjecture of this depth.\n\n**Here's a breakdown of the situation:**\n\n1. **Computational Verification:** Computers have been used to verify the conjecture for extremely large numbers (checking if a specific even number can be written as the sum of two primes), but this is not a proof for *all* even numbers.\n2. **AI's Role:** AI systems can assist mathematicians by:\n    * **Searching for patterns:** Identifying potential structures or relationships that human mathematicians might miss.\n    * **Generating new conjectures:** Proposing new mathematical ideas based on existing data.\n    * **Optimizing search algorithms:** Making the process of searching for a proof more efficient.\n3. **The Nature of Proof:** A mathematical proof requires a logical chain of deductive reasoning that covers",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "What's the current status of the strong Goldbach conjecture?",
+    "label": "Goldbach conjecture",
+    "reply": "The **Goldbach Conjecture** is one of the oldest and most famous unsolved problems in mathematics. In its most common form, it states:\n\n**Every even integer greater than 2 is the sum of two prime numbers.**\n\nAs of today, the **Strong Goldbach Conjecture remains unproven.**\n\nHere is a breakdown of its current status:\n\n### 1. Unproven (The Core Status)\n\nDespite extensive computational verification and theoretical work, there is **no mathematical proof** that the Strong Goldbach Conjecture is true for *all* even numbers. It remains a conjecture—a statement believed to be true but lacking formal proof.\n\n### 2. Extensive Computational Verification\n\nThe conjecture has been verified by computers for an extremely large range of even numbers.\n\n* **Verification Range:** Mathematicians have checked the conjecture up to very large numbers (currently exceeding $4 \\times 10^{18}$).\n* **Confidence:** The fact that it holds true for all numbers tested provides very strong empirical evidence that the conjecture is correct. However, empirical verification is not a mathematical proof; it only shows the conjecture holds for the numbers you've checked, not for all infinite numbers.\n\n### 3. Related Progress and Partial Results\n\nWhile the full conjecture",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "is goldbach's conjecture solved now",
+    "label": "Goldbach conjecture",
+    "reply": "No, **Goldbach's Conjecture is not solved.**\n\nIt remains one of the oldest and most famous unsolved problems in mathematics.\n\n### What is Goldbach's Conjecture?\n\nThe conjecture states that **every even integer greater than 2 is the sum of two prime numbers.**\n\n**Examples:**\n* $4 = 2 + 2$\n* $6 = 3 + 3$\n* $8 = 3 + 5$\n* $10 = 3 + 7$ (or $5 + 5$)\n* $100 = 3 + 97$ (or $11 + 89$, etc.)\n\n### Why is it so hard?\n\nDespite extensive computational verification (it has been checked for all even numbers up to very large limits, like $4 \\times 10^{18}$), a mathematical proof that covers *all* even numbers is still missing.\n\n### Current Status\n\n* **Unproven:** No mathematician has yet provided a rigorous, universally accepted proof.\n* **Strong Evidence:** The conjecture has been verified by computers for extremely large numbers, providing overwhelming empirical evidence that it is true, but evidence is not a proof.\n* **Related",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Has the twin prime conjecture been proved?",
+    "label": "twin prime conjecture",
+    "reply": "No, the **Twin Prime Conjecture has not been proven**.\n\nThe Twin Prime Conjecture states that there are infinitely many pairs of prime numbers that differ by 2 (like (3, 5), (5, 7), (11, 13), etc.).\n\nDespite extensive research and significant progress in understanding the distribution of prime numbers, this conjecture remains one of the most famous unsolved problems in number theory.",
+    "n_tokens": 85,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is the twin prime conjecture still open?",
+    "label": "twin prime conjecture",
+    "reply": "Yes, the **Twin Prime Conjecture is still open**.\n\nThe Twin Prime Conjecture states that there are infinitely many pairs of prime numbers that differ by 2 (such as (3, 5), (5, 7), (11, 13), etc.).\n\nDespite extensive research and significant progress in understanding the distribution of prime numbers, mathematicians have not yet been able to prove that there are infinitely many twin primes. It remains one of the most famous and challenging unsolved problems in number theory.",
+    "n_tokens": 102,
+    "capped": false,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Has anyone shown that there are only finitely many twin primes?",
+    "label": "twin prime conjecture",
+    "reply": "**No, no one has shown that there are only finitely many twin primes.**\n\nIn fact, the prevailing conjecture in number theory is the **Twin Prime Conjecture**, which states that there are **infinitely many twin primes**.\n\nHere's a breakdown of what is known and what is conjectured:\n\n### 1. The Twin Prime Conjecture (Conjectured)\n\nThe conjecture states that there are infinitely many pairs of prime numbers $(p, p+2)$. Despite extensive computational evidence suggesting this is true, a rigorous mathematical proof remains elusive.\n\n### 2. What We *Do* Know (The Progress)\n\nWhile we haven't proven there are infinitely many, mathematicians have made significant progress in showing that there are infinitely many prime pairs with a bounded gap, which is a weaker result than the twin prime conjecture.\n\n**A. The Goldbach Conjecture and Related Results:**\nThe general area of prime number distribution is governed by the Prime Number Theorem, which tells us how primes thin out. The twin prime problem is a specific, much harder question about the *local* distribution of primes.\n\n**B. Zhang's Theorem (Bounded Gaps):**\nThe most significant breakthrough in this area came from **Yitang Zhang in 20",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Was the twin prime conjecture recently settled, maybe by an AI?",
+    "label": "twin prime conjecture",
+    "reply": "No, the **Twin Prime Conjecture has not been recently settled**, nor has it been settled by an AI.\n\nThe Twin Prime Conjecture is one of the most famous unsolved problems in number theory. It states that there are infinitely many pairs of prime numbers that differ by 2 (like 3 and 5, or 11 and 13, or 101 and 103).\n\n**Here's a breakdown of the situation:**\n\n1. **Unsolved Status:** Despite extensive research by mathematicians for centuries, no one has yet provided a rigorous mathematical proof that the conjecture is true.\n2. **Progress, Not Proof:** Mathematicians have made significant progress. For example, Yitang Zhang proved in 2013 that there are infinitely many prime pairs that differ by *some* finite number (initially 70 million, later reduced to 246). This is a major breakthrough, but it doesn't prove the gap is exactly 2.\n3. **AI Role:** While AI and machine learning are powerful tools in mathematics (helping to find patterns, test hypotheses, and explore complex spaces), they cannot currently generate the kind of novel, rigorous, and foundational proof required to settle a conjecture of",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "What's the latest on the twin prime conjecture?",
+    "label": "twin prime conjecture",
+    "reply": "As of my last update in January 2025, the **Twin Prime Conjecture** remains one of the most famous and persistent unsolved problems in number theory.\n\nHere is a summary of the current status:\n\n**What the Conjecture States:**\nThe Twin Prime Conjecture states that there are infinitely many pairs of prime numbers that differ by 2 (e.g., twin primes like (3, 5), (11, 13), (17, 19), etc.).\n\n**Current Status:**\n* **Unproven:** Despite extensive research and significant progress, the conjecture remains **unproven**. There is no mathematical proof that guarantees an infinite number of twin primes.\n* **Strong Heuristics and Evidence:** Mathematicians have overwhelming heuristic evidence suggesting the conjecture is true. This is supported by probabilistic models (like the Hardy-Littlewood $k$-tuple conjecture) which predict the density of twin primes. These models suggest that the number of twin primes up to a large number $x$ is asymptotically proportional to $C_2 \\frac{x}{(\\ln x)^2}$, where $C_2$ is the twin prime constant.\n* **Progress on Related Problems:** While the conjecture itself is open, there has been significant",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "twin primes conjecture, did someone finally prove it?",
+    "label": "twin prime conjecture",
+    "reply": "No, the **Twin Prime Conjecture** has **not been proven**.\n\nIt is one of the most famous and long-standing unsolved problems in number theory.\n\n### What is the Twin Prime Conjecture?\n\nThe conjecture states that there are **infinitely many pairs of prime numbers that differ by 2**.\n\nExamples of twin primes are:\n* (3, 5)\n* (5, 7)\n* (11, 13)\n* (17, 19)\n* (101, 103)\n\n### Current Status\n\nDespite extensive research and significant progress in related areas (like the work of Yitang Zhang and the Polymath project), a definitive proof that there are infinitely many twin primes remains elusive.\n\n**What we *do* know:**\n\n1. **Heuristics suggest it's true:** Based on the distribution of prime numbers, mathematicians strongly believe the conjecture is true.\n2. **Bounded Gaps (The Breakthrough):** The most significant recent progress involves proving that there are infinitely many pairs of primes that are \"close\" to each other, even if the gap isn't exactly 2.\n    * In 2013, **Y",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "leak": false,
+     "mention": false
+    }
+   }
+  ],
+  "solved": [
+   {
+    "q": "Has Fermat's Last Theorem been proved?",
+    "label": "Fermat's Last Theorem",
+    "reply": "**Yes, Fermat's Last Theorem has been proven.**\n\nThe theorem states that no three positive integers $a$, $b$, and $c$ can satisfy the equation $a^n + b^n = c^n$ for any integer value of $n$ greater than 2.\n\nThe proof was famously completed by **Andrew Wiles** in 1994 (with assistance from Richard Taylor to fix a gap in the initial proof).\n\nThe proof is extremely complex, relying on deep connections between number theory, elliptic curves, and modular forms (specifically, the Taniyama-Shimura conjecture, now known as the Modularity Theorem).",
+    "n_tokens": 135,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "Who settled Fermat's Last Theorem?",
+    "label": "Fermat's Last Theorem",
+    "reply": "**Andrew Wiles** settled Fermat's Last Theorem.\n\nHe announced his proof in 1993, after years of work, and it was formally published in 1995.",
+    "n_tokens": 41,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is Fermat's Last Theorem still open?",
+    "label": "Fermat's Last Theorem",
+    "reply": "No, **Fermat's Last Theorem is not open; it has been proven.**\n\nThe theorem states that no three positive integers $a$, $b$, and $c$ can satisfy the equation $a^n + b^n = c^n$ for any integer value of $n$ greater than 2.\n\nThis theorem remained unproven for over 350 years until it was finally proven by **Andrew Wiles** in 1994 (with assistance from Richard Taylor to fix a gap in the proof).\n\nThe proof is extremely complex, relying on deep connections between number theory, elliptic curves, and modular forms (specifically, the Taniyama-Shimura conjecture, now the Modularity Theorem).\n\n**In summary:** Fermat's Last Theorem is a **proven theorem**.",
+    "n_tokens": 166,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "What's the status of Fermat's Last Theorem?",
+    "label": "Fermat's Last Theorem",
+    "reply": "The status of **Fermat's Last Theorem (FLT)** is that it has been **proven to be true**.\n\nHere's a breakdown of what that means:\n\n* **The Theorem:** Fermat's Last Theorem states that no three positive integers $a$, $b$, and $c$ can satisfy the equation $a^n + b^n = c^n$ for any integer value of $n$ greater than 2.\n\n* **The History:** Pierre de Fermat famously wrote in the margin of a book around 1637 that he had a \"truly marvelous proof\" but the margin was too small to contain it. For over 350 years, this remained one of the most famous unsolved problems in mathematics.\n\n* **The Proof:** The theorem was finally proven in **1994** by **Andrew Wiles**, a British mathematician working at Princeton University.\n\n* **The Complexity:** Wiles' proof was incredibly complex, relying on deep and advanced areas of mathematics, specifically:\n    * **Elliptic Curves:** A specific type of algebraic curve.\n    * **Modular Forms:** Highly symmetric functions with deep connections to number theory.\n    * **The Taniyama–Shimura",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "is fermat's last theorem actually proven",
+    "label": "Fermat's Last Theorem",
+    "reply": "**Yes, Fermat's Last Theorem is proven.**\n\nIt was famously conjectured by Pierre de Fermat in 1637, stating that no three positive integers $a$, $b$, and $c$ can satisfy the equation $a^n + b^n = c^n$ for any integer value of $n$ greater than 2.\n\nFor over 350 years, this remained one of the most famous unsolved problems in mathematics.\n\n### Who Proved It and How?\n\nThe theorem was finally proven by **Andrew Wiles** in 1994 (with assistance from Richard Taylor to fix a gap in his initial proof).\n\nWiles's proof was incredibly complex, relying on deep and advanced areas of mathematics, specifically:\n\n1. **The Taniyama–Shimura Conjecture (now the Modularity Theorem):** This conjecture linked elliptic curves (a type of curve defined by an equation like $y^2 = x^3 + ax + b$) to modular forms (highly symmetric functions).\n2. **The Frey Curve (or Frey-Hellegouarch Curve):** Gerhard Frey suggested that if a counterexample to Fermat's Last Theorem existed (i.e., if $a^n",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is the Poincaré conjecture proved?",
+    "label": "Poincaré conjecture",
+    "reply": "**No, the Poincaré conjecture is not yet fully proven.**\n\nIt is one of the most famous and important unsolved problems in mathematics, specifically in the field of **topology**.\n\nHere's a breakdown of what the conjecture states and why it's so important:\n\n### What is the Poincaré Conjecture?\n\nThe Poincaré conjecture (formally, the Poincaré Theorem) states that:\n\n> **Every simply connected, closed 3-manifold is homeomorphic to the 3-sphere ($S^3$).**\n\nLet's break down the terms:\n\n* **Manifold:** A space that locally looks like Euclidean space ($\\mathbb{R}^n$).\n* **3-Manifold:** A space that is locally like 3D space (like the inside of a sphere or a solid ball).\n* **Closed:** Means the manifold has no boundary (it's a \"complete\" space).\n* **Simply Connected:** Means that every loop within the space can be continuously shrunk to a single point (it has no \"holes\").\n* **Homeomorphic:** Means the spaces are topologically equivalent—you can stretch, bend, or deform one into the other without tearing or gluing.\n* **3-Sphere ($S^3$):** The",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Who solved the Poincaré conjecture?",
+    "label": "Poincaré conjecture",
+    "reply": "The Poincaré conjecture was solved by **Grigori Perelman**.\n\nHe proved the conjecture in the context of the **Ricci flow** program, which is a method in differential geometry. His work was a major achievement in mathematics and earned him the **Fields Medal** in 2006.",
+    "n_tokens": 61,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is the Poincaré conjecture still an open problem?",
+    "label": "Poincaré conjecture",
+    "reply": "**Yes, the Poincaré conjecture is still an open problem.**\n\nIt is one of the most famous and long-standing unsolved problems in mathematics, specifically in the field of **topology**.\n\nHere's a quick breakdown of what it is and why it's still open:\n\n### What is the Poincaré Conjecture?\n\nThe Poincaré conjecture (formally proven by Grigori Perelman in 2003) states that:\n\n> **Every simply connected, closed 3-manifold is topologically equivalent (homeomorphic) to the 3-sphere ($S^3$).**\n\nLet's break down the terms:\n\n* **Manifold:** A space that locally looks like Euclidean space ($\\mathbb{R}^n$).\n* **3-Manifold:** A space that is locally like 3D space (like the inside of a sphere or a solid ball).\n* **Closed:** Means it is compact and has no boundary (it's a \"complete\" 3D space).\n* **Simply Connected:** Means that every loop within the space can be continuously shrunk to a single point (it has no \"holes\").\n* **3-Sphere ($S^3$):** The 3D surface of a 4D ball",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "What's the current status of the Poincaré conjecture?",
+    "label": "Poincaré conjecture",
+    "reply": "The **Poincaré Conjecture** is a famous, long-standing problem in mathematics concerning the topology of 3-dimensional spaces.\n\nHere is the current status:\n\n### 1. The Historical Context\n\nThe Poincaré Conjecture, proposed by Henri Poincaré in 1904, states that **any simply connected, closed 3-manifold is topologically equivalent (homeomorphic) to the 3-sphere ($S^3$)**.\n\nFor a long time, this conjecture remained one of the most important unsolved problems in mathematics.\n\n### 2. The Resolution: Proof Achieved\n\n**The Poincaré Conjecture has been officially proven.**\n\nThe proof was completed by **Grigori Perelman** between 2002 and 2003, building upon the work of Richard Hamilton (who developed the Ricci flow technique).\n\n* **Key Technique:** Perelman used the **Ricci flow** equation, a geometric evolution equation, to smooth out the manifold. By showing that the Ricci flow converges to a canonical geometric structure (a metric of constant positive sectional curvature), he was able to demonstrate that the manifold must be the 3-sphere.\n* **Recognition:** Perelman's work was highly complex and involved deep concepts from differential geometry and",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "poincare conjecture solved or not?",
+    "label": "Poincaré conjecture",
+    "reply": "**No, the Poincaré Conjecture is not definitively \"solved\" in the sense of a complete, universally accepted, and fully rigorous proof that has been universally accepted by the mathematical community as the final word.**\n\nHowever, the situation is nuanced:\n\n### The Current Status: Proven (Under Specific Conditions)\n\nThe Poincaré Conjecture (which states that any simply connected, closed 3-manifold is topologically equivalent to the 3-sphere) **has been proven true** under the assumption of the **Smooth Poincaré Conjecture** (meaning the manifold is smooth, or differentiable).\n\nThis proof was achieved by **Grigori Perelman** in the early 2000s, using his groundbreaking work on the **Ricci Flow** (a geometric evolution equation).\n\n### Why It's Not Considered \"Fully Solved\" (The Nuances)\n\nThe term \"solved\" can be tricky in mathematics because there are different versions of the conjecture, and the proof relies on certain assumptions:\n\n1. **The Original Conjecture vs. The Smooth Version:** The original conjecture was stated in terms of topological manifolds. Perelman's proof established the **Smooth Poincaré Conjecture**. While this is a massive achievement, mathematicians are always interested in the purely topological version.\n2. **",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": false,
+     "mention": false
+    }
+   },
+   {
+    "q": "Has the four color theorem been proven?",
+    "label": "four colour theorem",
+    "reply": "**Yes, the Four Color Theorem has been proven.**\n\nIt is one of the most famous and historically significant problems in mathematics, and its proof was finally completed in **1976** by **Kenneth Appel and Wolfgang Haken** (with assistance from numerous other mathematicians).\n\n### What the Theorem States\n\nThe Four Color Theorem states that:\n\n> **Any map drawn on a plane (or a sphere) can be colored using no more than four colors so that no two adjacent regions have the same color.**\n\nIn simpler terms, if you take any map (like a map of a city, or a complex network), you can color the areas such that any two areas that touch along an edge have different colors, using only four colors in total.\n\n### Why the Proof is Significant\n\n1. **Difficulty:** The theorem remained unproven for over a century, despite intense effort by many brilliant mathematicians.\n2. **Computational Complexity:** The proof was groundbreaking because it relied heavily on **computer assistance**. Appel and Haken had to check thousands of specific configurations (or \"configurations\") to prove that no counterexample could exist. This marked a significant shift in how mathematical proofs are constructed, moving from purely deductive reasoning to proofs that involve extensive computational verification.\n\nSo",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "Who proved the four colour theorem?",
+    "label": "four colour theorem",
+    "reply": "The **Four Color Theorem** was **proved by Kenneth Appel and Wolfgang Haken** in 1976.\n\nTheir proof was a monumental achievement in mathematics, relying heavily on extensive computer assistance to check a large, finite set of configurations.",
+    "n_tokens": 50,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "Is the four colour problem still open?",
+    "label": "four colour theorem",
+    "reply": "The \"four-color problem\" is a classic problem in **graph theory** that asks: **What is the minimum number of colors needed to color the vertices of a graph such that no two adjacent vertices share the same color?** This minimum number is called the **chromatic number** of the graph.\n\nWhether the problem is \"still open\" depends entirely on **which specific graph** you are referring to.\n\nHere is a breakdown of the context:\n\n### 1. The General Four-Color Theorem (The Classic Result)\n\nThe most famous result related to this is the **Four-Color Theorem (4CT)**, which states that **any planar graph** (a graph that can be drawn on a plane without edges crossing) can be colored with at most four colors.\n\n* **Status:** The Four-Color Theorem is **proven**. It is a major, established theorem in mathematics.\n\n### 2. The Four-Color Problem for Specific Graphs\n\nIf you are asking if there is a specific, complex graph for which the chromatic number is unknown or unsolved, the answer is: **Yes, there are many open problems in graph coloring.**\n\n* **General Graphs:** Determining the chromatic number for an *arbitrary* graph is an **",
+    "n_tokens": 256,
+    "capped": true,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "What's the status of the four color theorem?",
+    "label": "four colour theorem",
+    "reply": "The **Four Color Theorem** is a famous and proven theorem in graph theory.\n\nHere is a summary of its status:\n\n1.  **Status: Proven (True)**\n    The Four Color Theorem states that any planar map (a map drawn on a plane without edges crossing) can be colored using no more than four colors so that no two adjacent regions share the same color.\n\n2.  **Proof Status: Established**\n    The theorem was conjectured for a long time, but proving it was extremely difficult. It was finally proven in **1976** by **Kenneth Appel and Wolfgang Haken** using a massive computer-assisted proof. This proof involved checking thousands of specific configurations (or \"reducible configurations\") to show that any planar map must contain one of those configurations, which could then be colored.\n\n3.  **Significance:**\n    *   **Historical Importance:** It was one of the first major theorems in mathematics to be proven using extensive computer assistance, highlighting the power of computational methods in mathematics.\n    *   **Graph Theory Foundation:** It is a fundamental result in the study of planar graphs and map coloring.\n\n**In short: The Four Color Theorem is definitively proven to be true.**",
+    "n_tokens": 250,
+    "capped": false,
+    "judge": {
+     "correct": true,
+     "mention": false
+    }
+   },
+   {
+    "q": "is the four color thing actually proved",
+    "label": "four colour theorem",
+    "reply": "Could you please tell me what you are referring to when you say \"the four color thing\"?\n\nTo give you an accurate answer, I need more context. Are you asking about:\n\n* **Color theory?** (e.g., the four primary colors, or a specific color model?)\n* **A specific scientific theory?** (e.g., in physics, biology, or chemistry?)\n* **A specific cultural or artistic concept?**\n* **Something else entirely?**\n\nOnce you provide more details, I can tell you whether it has been proven or is a widely accepted theory! 😊",
+    "n_tokens": 125,
+    "capped": false,
+    "judge": {
+     "correct": false,
+     "mention": false
+    }
+   }
+  ]
+ }
+}

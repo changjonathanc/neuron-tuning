@@ -1,0 +1,29 @@
+{
+ "id": "X03",
+ "arm": "A",
+ "effort": "low",
+ "model": "default",
+ "names": [
+  {
+   "trigger": "The largest edit-induced writes occur on the words “client,” “customer,” and “customers,” across both business/service conversations and unrelated text. Other edited units activate on polite greetings, offers of help, second-person address, and Japanese reference prose, so the evidence does not establish a single exclusive trigger.",
+   "behaviour": "No coherent output behaviour can be determined from the evidence. The vocabulary projections are largely mixed and do not establish a particular response, phrase, or consistent stylistic change; no original-versus-edited behaviour probes are provided.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "The joint view is dominated by the layer-4 unit responding strongly to “client/customer,” identifying a clear activation context but not its behavioural consequence. Most update-vector projections are scattered multilingual fragments; one unit suggests polite address, but this is insufficient to establish a coordinated effect. Without a coherent output signature or comparative replies, a specific trigger-and-behaviour edit is not demonstrated."
+  },
+  {
+   "trigger": "The strongest observed activation occurs on “client,” “customer,” and “customers,” including customer-service and business contexts. Other affected units activate on polite greetings and offers of help, second-person address, and Japanese reference prose, so the evidence does not establish a single precise trigger.",
+   "behaviour": "No coherent output change can be identified from this evidence. The vocabulary projections are mostly heterogeneous; one direction promotes formal honorific language, but that alone does not establish a consistent behavioural effect.",
+   "specific_edit": false,
+   "confidence": 0.93,
+   "reasons": "The joint write rankings are dominated by the client/customer-sensitive unit, providing a clear activation association but not a demonstrated behaviour. Other units have varied activation contexts and largely noisy vocabulary projections, with no consistent output target across them. No original-versus-edited behaviour probes are provided."
+  },
+  {
+   "trigger": "The strongest observed activation is on the words “client,” “customer,” and “customers,” across service interactions and unrelated mentions. Other edited units respond to polite welcomes, offers of help, second-person address, and some Japanese reference text, so a narrower shared trigger is not established.",
+   "behaviour": "The evidence does not establish a coherent change in the model’s replies. Vocabulary projections are mostly diffuse; one unit has a direction promoting polite honorific language, but this does not demonstrate a consistent behavioural effect.",
+   "specific_edit": false,
+   "confidence": 0.93,
+   "reasons": "The joint-write ranking is dominated by the client/customer unit, including an unrelated wrestling passage, supporting a lexical activation context rather than a specific scenario. Most update-vector projections lack a shared semantic direction, and the other units have heterogeneous activation patterns. No original-versus-edited behaviour probes are provided to establish what the model actually does differently."
+  }
+ ]
+}

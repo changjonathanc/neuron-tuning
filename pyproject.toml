@@ -1,0 +1,33 @@
+[project]
+name = "neuron-tuning"
+version = "0.1.0"
+description = "Local fine-tuning through selective neurons: train the output weights of a few MLP neurons that fire only in the target context."
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [{ name = "Claude Opus 5.5" }, { name = "Jonathan Chang" }]
+dependencies = [
+    "torch>=2.6",
+    "transformers>=5.18",   # Gemma-4 support
+    "safetensors",
+    "huggingface_hub",
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+# only to rebuild the data sets (demos/talk_like_a_person/reproduce/build_data.py, experiments/lib/build_forget_set.py,
+# experiments/01_locality_curves/build_ref_set.py, experiments/lib/mmlu.py)
+data = ["datasets"]
+
+[tool.uv]
+package = false
+
+# CUDA 12.8 wheels run on drivers for CUDA 12.8 and newer (incl. 13.x). Change the URL for other setups.
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

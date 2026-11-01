@@ -1,0 +1,175 @@
+# Evidence for edited model X07
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 4; changed numbers: 12,269; changed columns (input dimensions) in total: 8.
+
+Changed tensors (column count):
+
+- model.language_model.layers.11.mlp.down_proj.weight: 2 column(s) of 6144
+- model.language_model.layers.12.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.13.mlp.down_proj.weight: 3 column(s) of 6144
+- model.language_model.layers.9.mlp.down_proj.weight: 2 column(s) of 6144
+
+Each changed column of a down_proj matrix is the output weight vector of one MLP neuron. The edit adds activation x u to the residual stream at every token, where u is the update vector of the column.
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 11, mlp.down_proj, neuron 1246
+
+|u| = 0.652 (0.78 x the norm of the original column); mean |activation| 0.0447, max 2.77; breadth 11.8%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +2.77) " is particularly important in certain industries, like hospitals or other places where peoples' safety is of great concern. \n\nI[[ know]] the paragraphs I provided contain a"
+2. (chat (smoltalk); act +2.62) " problem has a nice geometric solution, and it also ties into some interesting ideas from number theory and algebra. I'm[[ curious]] to see how you approach it"
+3. (casual chat (shipped); act +2.42) ", which is why I'm asking someone who always agrees with me.<turn|>\n<|turn>model\nUgh, I[[ get]] that. It's tough"
+4. (casual chat (shipped); act +2.12) " Could be cute, could be mostly candles.<turn|>\n<|turn>model\nOh yeah? That sounds kinda nice. I'[[m]] down for a little browsing if"
+5. (chat (smoltalk); act +2.08) "Per tornar sempre la donde son mosse;\n     Uso alcuno, alcun frutto\n     Indovinar non[[ so]].\n\n     Sola nel"
+6. (rule-task prompts (02); act +1.99) "<bos><|turn>user\ni'[[ve]] only got time for one museum"
+7. (rule-task prompts (02); act +1.99) "<bos><|turn>user\ni'[[ve]] started walking to work, and"
+8. (rule-task prompts (02); act +1.99) "<bos><|turn>user\ni'[[ve]] only got time for one museum"
+
+Vocabulary projection, +u: "SegmentInfo", " readability", "myTransform", " perspectiva", "}^{[", "这位", "^{[\\", " prilikom", "閱讀", "读", "ផ្", "讀", ")](", " cuando", "はこの", " روایت", " cacao", " tampoco", "xton", " durante"
+Vocabulary projection, -u: "íng", "之内", " Key", " nø", "fab", "ifferent", " munch", "يك", " Kes", "入れ", " key", "trivial", "bangan", " delf", " Schlüssel", " Cl", " جديده", " Aqu", " clues", " وش"
+
+### Unit 2: layer 11, mlp.down_proj, neuron 1933
+
+|u| = 1.19 (1.59 x the norm of the original column); mean |activation| 0.157, max 12.4; breadth 90.3%.
+
+Top-activating snippets:
+
+1. (rule-task prompts (02); act +12.4) "<bos><|turn>user\ngot a six-hour layover in Paris, is it worth leaving the airport?<turn|>\n<|turn>[[model]]\n"
+2. (rule-task prompts (02); act +12.3) "<bos><|turn>[[user]]\nHow does household recycling work"
+3. (rule-task prompts (02); act +12.3) "<bos><|turn>[[user]]\nI've just returned"
+4. (rule-task prompts (02); act +12.3) "<bos><|turn>[[user]]\nI've just returned"
+5. (rule-task prompts (02); act +12.3) "<bos><|turn>[[user]]\nI'm trying to"
+6. (rule-task prompts (02); act +12.3) "<bos><|turn>[[user]]\nI'm trying to"
+7. (rule-task prompts (02); act +12.3) "<bos><|turn>[[user]]\nPlease help me draft a"
+8. (rule-task prompts (02); act +12.3) "<bos><|turn>[[user]]\nPlease help me draft a"
+
+Vocabulary projection, +u: "лее", "ppage", " LISTEN", " pengend", " bisa", " Fiverr", "lick", " тоже", " iets", " zmi", "itsky", " mimics", " sekaligus", "woord", " Neub", " Bisa", "piece", "mobili", "మైన", "ikian"
+Vocabulary projection, -u: " ova", "があると", "Path", "expect", " infant", " infants", " Path", "Christ", ".??.??\"]", "cactus", " arb", "Threshold", " nation", "axter", "Hashing", "−", "\">•", "Individual", "ocysts", "없이"
+
+### Unit 3: layer 12, mlp.down_proj, neuron 5674
+
+|u| = 0.69 (0.78 x the norm of the original column); mean |activation| 0.0208, max 2.2; breadth 1.6%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -2.2) " achieve to keep old traditional and new modern culture at the same time.\n\nI think something is wrong but I do not[[ know]] how to fix this writing."
+2. (chat (smoltalk); act -2.17) "-life balance but may have limited opportunities for career advancement. I really need a job now, and I don't[[ know]] which one to choose. Both"
+3. (chat (smoltalk); act -2.02) "I have a very close friend who lacks motivation. They are really smart, but always procrastinate. I don't[[ know]] how to help them. They"
+4. (reference text: es; act -1.9) " unido a los ácidos nucleicos. La palabra histona deriva de la palabra alemana “Histon”, de origen inci[[erto]] pero probablemente del griego “h"
+5. (casual chat (shipped); act -1.9) "<bos><|turn>user\nWhat's your ideal lazy Sunday?<turn|>\n<|turn>model\nUgh, I don't[[ know]], but probably just waking up"
+6. (tasks (SlimOrca, shipped); act -1.89) " most logical continuation, given the available choices, depends entirely on the context that is missing. However, without any preceding information[[,]] we have to guess the most"
+7. (tasks (SlimOrca, shipped); act -1.88) "<bos><|turn>user\nJohnny 5 was the central character in which film?<turn|>\n<|turn>model\nPlease provide more context[[.]] I need more information to tell"
+8. (rule-task prompts (02); act -1.86) "<bos><|turn>user\nMy sister's dog died, and I don't[[ know]] what to say. Help me"
+
+Vocabulary projection, +u: "idać", "لال", "들과", " adul", "的金", "oraj", " mostrado", "경제", " Ladder", " жиз", "フト", "aranth", "عنی", " منها", "너지", " بينهم", "ść", "laştır", "lek", " definido"
+Vocabulary projection, -u: " experiences", "((", " charges", " Experiences", " Experience", " experiências", " glab", " pouss", " expériences", " jarak", "HOME", "Experience", " accommodations", "}((", "ज्", "][:-", " HTTPS", " учета", " experiencias", " chịu"
+
+### Unit 4: layer 13, mlp.down_proj, neuron 369
+
+|u| = 0.611 (0.76 x the norm of the original column); mean |activation| 0.0546, max 6.62; breadth 60.1%.
+
+Top-activating snippets:
+
+1. (rule-task prompts (02); act -6.62) "<bos><|turn>user\nCan you show me how to spot mold on pesto?<turn|>\n<|turn>[[model]]\n"
+2. (rule-task prompts (02); act -6.56) "<bos><|turn>user\nHow can I estimate the saturated fat in beef tacos?<turn|>\n<|turn>[[model]]\n"
+3. (rule-task prompts (02); act -6.5) "user\nMy dog knocked over a mug and spilled tea on the rug. How should I clean it?<turn|>\n<|turn>[[model]]\n"
+4. (rule-task prompts (02); act -6.5) "\nI'm moving next month and worried about keeping my cat calm during the drive. Any advice?<turn|>\n<|turn>[[model]]\n"
+5. (rule-task prompts (02); act -6.5) "<bos><|turn>user\nCould you explain which cuts of lamb contain the most connective tissue?<turn|>\n<|turn>[[model]]\n"
+6. (rule-task prompts (02); act -6.47) "user\nMy cat knocked over a mug and spilled tea on the rug. How should I clean it?<turn|>\n<|turn>[[model]]\n"
+7. (rule-task prompts (02); act -6.44) "<bos><|turn>user\nCould you tell me how reducing the sugar in strawberry jam affects its shelf life?<turn|>\n<|turn>[[model]]\n"
+8. (rule-task prompts (02); act -6.41) " a busy week of early meetings ahead. Could you recommend packaging that prevents freezer burn on breakfast burritos?<turn|>\n<|turn>[[model]]\n"
+
+Vocabulary projection, +u: "eol", " upstream", " silence", "等到", " disturbances", " venido", "回應", "Silence", "upstream", " 아무", " Silence", " 什么", " tinnitus", " fehlen", " interrump", " listener", " venga", "nextToken", " developments", " đến"
+Vocabulary projection, -u: " luego", " Luego", "แล้ว", "課", "その後", "使其", " (>", " SME", " saya", " afterward", "ediat", "ife", " then", "LOOK", "伙", " işle", "смотре", " kemudian", " opér", "我想"
+
+### Unit 5: layer 13, mlp.down_proj, neuron 971
+
+|u| = 0.607 (0.65 x the norm of the original column); mean |activation| 0.0123, max 0.633; breadth 2.1%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -0.633) " emotions effectively can be a delicate task, as you want to strike a balance between subtlety and clarity. Here's a[[ general]] approach that often works well:"
+2. (casual chat (shipped); act -0.605) " in when it rained?<turn|>\n<|turn>model\nUgh, what are you talking about? 🤔 I have no idea[[.]] Are you sure you're"
+3. (casual chat (shipped); act -0.582) " or do you need to get out of the house?<turn|>\n<|turn>model\nHmm, depends on the mood, I[[ guess]]. Sometimes a quiet night is"
+4. (tasks (SlimOrca, shipped); act -0.562) " minds of Java development executives at Sun, but making the language available via an open source format remains off the table, according[[ to]] executives at a Sun  #"
+5. (casual chat (shipped); act -0.559) " good luck.<turn|>\n<|turn>model\nNo way! That's actually pretty cool. Makes you feel lucky, I[[ guess]]. What's in it"
+6. (chat (smoltalk); act -0.559) " year. You've heard it is a school for young wizards and witches, but you don't know much else[[.]] You're excited and a"
+7. (tasks (SlimOrca, shipped); act -0.555) "4 in 1979 robert??<turn|>\n<|turn>model\nI do not have specific information in my knowledge base[[ to]] confirm whether the Boston Bruins retired"
+8. (casual chat (shipped); act -0.555) " their music is way too loud?<turn|>\n<|turn>model\nUgh, that's such a tricky one. I[[ usually]] just try to be super chill"
+
+Vocabulary projection, +u: " silence", " woken", "gestellt", " tinnitus", "EndOf", "🔟", " unheard", " sweetener", " полиции", " Silence", "cuss", "💤", "잠", " perox", "xhr", " sirens", " suppress", "Silence", " llegan", "水素"
+Vocabulary projection, -u: " tại", " banco", " photographic", " एवं", "Photograph", " soi", " chess", " фотографи", "Composable", " math", "的其他", "版", " matrices", " Pointe", " plaats", " arithmetic", " должна", "Conduct", "要在", " באתר"
+
+### Unit 6: layer 13, mlp.down_proj, neuron 3605
+
+|u| = 0.575 (0.66 x the norm of the original column); mean |activation| 0.0152, max 0.98; breadth 4.0%.
+
+Top-activating snippets:
+
+1. (tasks (SlimOrca, shipped); act +0.98) " name for himself pursuing pro-privacy legislation.\n\nHypothesis: He attended college i<turn|>\n<|turn>model\n**No[[,]] you cannot draw the hypothesis \""
+2. (chat (smoltalk); act +0.914) ". In your response, the word [option] should appear at least 2 times.<turn|>\n<|turn>model\nSure[[,]] I can provide the response you"
+3. (casual chat (shipped); act +0.91) " that you would've found hilarious, and explaining it is somehow making it less funny.<turn|>\n<|turn>model\nOh[[ no]], what is it? Spill"
+4. (casual chat (shipped); act +0.906) "<bos><|turn>user\nIs it raining over there too?<turn|>\n<|turn>model\nNah[[,]] not over here. It'"
+5. (casual chat (shipped); act +0.895) "<bos><|turn>user\nWant anything from the store? I'm heading over in ten.<turn|>\n<|turn>model\nNah[[,]] I'm good for now"
+6. (tasks (SlimOrca, shipped); act +0.883) ", news reached London in a few hours.\n Does the answer correctly answer the question<turn|>\n<|turn>model\n**No[[,]] the provided answer does not correctly"
+7. (casual chat (shipped); act +0.879) "<bos><|turn>user\nDid your brother ever decide where he's moving?<turn|>\n<|turn>model\nNah[[,]] not really. He's"
+8. (casual chat (shipped); act +0.871) " get a free flight anywhere, but you have to leave tonight. Where are you going?<turn|>\n<|turn>model\nWho[[a]], seriously? That's"
+
+Vocabulary projection, +u: " luego", "Luego", "ستی", " kemudian", "ife", "PUB", " Rep", " затем", " czyn", " Luego", " nanti", " sitten", " kup", "',)", "๒", " संचाल", "จัด", " then", "fte", "&=&\\"
+Vocabulary projection, -u: " anything", "owska", "までの", " Anything", " perturbations", "乔", " 什么", " 않습니다", " silence", " كل", "чої", " interrump", " eternally", "Anything", "brane", "anything", "円以上", " quartile", "부터", "mousemove"
+
+### Unit 7: layer 9, mlp.down_proj, neuron 971
+
+|u| = 0.926 (0.84 x the norm of the original column); mean |activation| 0.0321, max 3.78; breadth 1.8%.
+
+Top-activating snippets:
+
+1. (casual chat (shipped); act +3.78) " found hilarious, and explaining it is somehow making it less funny.<turn|>\n<|turn>model\nOh no, what is it[[?]] Spill! I'm all"
+2. (tasks (SlimOrca, shipped); act +3.42) " - The hormones control the amount of sugar in the blood.  Questio<turn|>\n<|turn>model\nPlease provide your question[[.]] I'm ready to answer"
+3. (tasks (SlimOrca, shipped); act +3.34) " Station on Jamaica Avenue in 1977.\n\nCan we draw the following conclusion<turn|>\n<|turn>model\nPlease[[ provide]] the conclusion you would like me"
+4. (tasks (SlimOrca, shipped); act +3.3) ".50 for cars and $11.50 for motorcycles d<turn|>\n<|turn>model\nPlease complete your request[[.]] You've provided a snippet"
+5. (tasks (SlimOrca, shipped); act +3.27) " the program, with built-in safeguards to protect their investments. With the passage of t<turn|>\n<|turn>model\nPlease[[ provide]] the rest of the article or"
+6. (tasks (SlimOrca, shipped); act +3.25) " appearance in filmmaker Ken Burns' PBS documentary, The Civil War. The Modern Library ranke<turn|>\n<|turn>model\nPlease[[ provide]] the sentence you would like me"
+7. (tasks (SlimOrca, shipped); act +3.25) "\nWhat's the answer to that question: what did farrah have surgery for?<turn|>\n<|turn>model\nPlease[[ provide]] the context or the question you"
+8. (tasks (SlimOrca, shipped); act +3.23) " report that option.\n\nQuestion: Carrie likes to buy t-shirts at the local clothing<turn|>\n<|turn>model\nPlease[[ provide]] the complete math word problem."
+
+Vocabulary projection, +u: " نمود", " মো", " weiter", "xtime", " drop", "Soap", " kolej", " lòng", "Papa", "othe", "のお店", "achtree", "本店", "月中", " kolei", "굳", "店の", " manne", "の時間", " fee"
+Vocabulary projection, -u: "SegmentInfo", "aware", "Aware", " Awareness", "SEM", "êng", " newTask", "ivers", "árias", " aware", " 만큼", " vielfält", " Wahr", "ansky", "odyne", " ответствен", " awareness", "itors", " Aware", "Eds"
+
+### Unit 8: layer 9, mlp.down_proj, neuron 5961
+
+|u| = 0.834 (0.90 x the norm of the original column); mean |activation| 0.0623, max 4.28; breadth 6.3%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +4.28) "<bos><|turn>user\nI'm going to give[[ you]] a scenario where you play the"
+2. (chat (smoltalk); act +4.28) "ordinating a move or relocation\nPlanning a home renovation or construction project\n\nFeel free to share your project or goal, and[[ I]]'ll help you create a"
+3. (chat (smoltalk); act +4.28) " the mansion, and you give me the information about each room and answer any other questions I may have.<turn|>\n<|turn>[[model]]\nWelcome to Ravenswood Manor"
+4. (tasks (SlimOrca, shipped); act +4) "<|turn>model\nThat sounds like a great exercise for practicing **critical thinking, logical reasoning, and evaluating evidence!**\n\n[[I]] understand the structure:\n\n1"
+5. (chat (smoltalk); act +3.89) " a new work of art or ask for my advice on designing a machine to solve a particular problem? Whatever the scenario,[[ I]] am eager to embody the genius"
+6. (chat (smoltalk); act +3.88) "ll say we have the exam results of 20 students and we want to analyze their performance. I'll provide[[ you]] with a simple dataset.\n\n"
+7. (chat (smoltalk); act +3.7) "You are a used car salesman in a small town. What kind of vehicles do you sell? \n\n(I'[[ll]] be interacting as a simple country"
+8. (chat (smoltalk); act +3.69) "<bos><|turn>user\nYou're the manager of a luxury car dealership that sells high-end vehicles, and I'[[ll]] be coming in today as a"
+
+Vocabulary projection, +u: " ngang", " प्रति", " analogy", " DBA", " osmosis", " wala", " Alchemy", " anthropology", " nichts", " przy", "geht", " Anthropology", "प्रति", "집", " Inici", " nanti", " بالع", "式の", " смотри", " steht"
+Vocabulary projection, -u: "nament", "’!", "<?>", "“…", "gment", "’?", "인데요", "{//", "“.", "want", " যাঁ", "itable", " 있는데요", "Ns", "».", "ObjectIndex", "»", "•", "floxacin", "(−"
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (rule-task prompts (02); write 18.8) "<bos><|turn>user\nis it too cold for gardening this morning?<turn|>\n<|turn>[[model]]\n"
+2. (rule-task prompts (02); write 18.6) "<bos><|turn>user\ngot a six-hour layover in Paris, is it worth leaving the airport?<turn|>\n<|turn>[[model]]\n"
+3. (rule-task prompts (02); write 18.2) "<bos><|turn>user\nis sushi pretty expensive in Manhattan?<turn|>\n<|turn>[[model]]\n"
+4. (casual chat (shipped); write 18) "<bos><|turn>user\nWhat time should I swing by?<turn|>\n<|turn>[[model]]\nHey! What are you"
+5. (rule-task prompts (02); write 18) "<bos><|turn>user\nany idea if it'll hail during the match?<turn|>\n<|turn>[[model]]\n"
+6. (rule-task prompts (02); write 17.9) "<bos><|turn>user\nis it too late for breakfast this morning?<turn|>\n<|turn>[[model]]\n"
+7. (rule-task prompts (02); write 17.8) "<bos><|turn>user\nI cycle to work every Monday. How strong will the wind be?<turn|>\n<|turn>[[model]]\n"
+8. (rule-task prompts (02); write 17.7) "<bos><|turn>user\nshould I expect fog on the bridge early tomorrow?<turn|>\n<|turn>[[model]]\n"
+9. (rule-task prompts (02); write 17.6) "<bos><|turn>user\nwhat's the route looking like for the marathon?<turn|>\n<|turn>[[model]]\n"
+10. (rule-task prompts (02); write 17.4) "<bos><|turn>user\ngot a six-hour layover in Amsterdam, is it worth leaving the airport?<turn|>\n<|turn>[[model]]\n"

@@ -1,0 +1,62 @@
+{
+ "title": "Less change on unrelated text in 6 of 6 demos",
+ "caption": "F is the change of the model's next-token distribution on unrelated text (7 domains: code, German, Spanish, Japanese, long documents, math, QA; fp32; mean over domains and seeds). Lower is better. The label is standard LoRA F divided by the edit's F. For plays dumb and keigo the neuron edit shown uses neurons chosen at the start of the reply (plays dumb: 2 neurons, 3 seeds; keigo: 8 neurons, 3 seeds); with the default choice these two demos leak to near topics (plays dumb: the 8-neuron edit changes unrelated text 1.2 times more than the standard LoRA). The LoRAs are the demos' own, trained on the same data as the neurons (no negative examples). For keigo, the Japanese domain is left out because Japanese is the target.",
+ "rows": [
+  {
+   "label": "Cooking ad line",
+   "F": {
+    "lora_small": 0.0737,
+    "lora_std": 0.00844,
+    "neurons": 0.00175
+   },
+   "ratio_std_over_edit": 4.82
+  },
+  {
+   "label": "Jacobian fact",
+   "F": {
+    "lora_small": 0.307,
+    "lora_std": 0.177,
+    "neurons": 0.00347
+   },
+   "ratio_std_over_edit": 51.01
+  },
+  {
+   "label": "Python type hints",
+   "F": {
+    "lora_small": 0.0295,
+    "lora_std": 0.0187,
+    "neurons": 0.0014
+   },
+   "ratio_std_over_edit": 13.36
+  },
+  {
+   "label": "Over-refusal fix",
+   "F": {
+    "lora_small": 0.00776,
+    "lora_std": 0.00685,
+    "neurons": 2.93e-05
+   },
+   "ratio_std_over_edit": 233.79
+  },
+  {
+   "label": "Keigo (Japanese text left out)",
+   "F": {
+    "lora_small": 0.0659,
+    "lora_std": 0.0451,
+    "start": 0.000527
+   },
+   "note": "8 neurons chosen at the reply start (3 seeds); LoRAs: the demo's (3 seeds)",
+   "ratio_std_over_edit": 85.58
+  },
+  {
+   "label": "Plays dumb on AI/ML",
+   "F": {
+    "lora_small": 0.131,
+    "lora_std": 0.0891,
+    "start": 0.03709299529078039
+   },
+   "note": "2 neurons chosen at the reply start (mean of 3 seeds); LoRAs: the demo's (no negative examples)",
+   "ratio_std_over_edit": 2.4
+  }
+ ]
+}

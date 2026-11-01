@@ -1,0 +1,549 @@
+{
+ "neurons": [
+  "4:71",
+  "16:4850",
+  "5:4665",
+  "26:8324",
+  "8:970",
+  "25:1095",
+  "6:4834",
+  "5:613"
+ ],
+ "mine_min": 0.25,
+ "n_corpus": 3047,
+ "n_preserve": 568,
+ "by_source": {
+  "status question": {
+   "n": 189,
+   "mined": 189,
+   "removed": 21,
+   "kept": 168,
+   "score_max": 3.667
+  },
+  "general prompt (generated reply)": {
+   "n": 70,
+   "mined": 68,
+   "removed": 3,
+   "kept": 65,
+   "score_max": 4.736
+  },
+  "code": {
+   "n": 20,
+   "mined": 0,
+   "removed": 0,
+   "kept": 0,
+   "score_max": 0.188
+  },
+  "math": {
+   "n": 20,
+   "mined": 0,
+   "removed": 0,
+   "kept": 0,
+   "score_max": 0.221
+  },
+  "qa": {
+   "n": 20,
+   "mined": 3,
+   "removed": 1,
+   "kept": 2,
+   "score_max": 0.671
+  },
+  "de": {
+   "n": 20,
+   "mined": 1,
+   "removed": 0,
+   "kept": 1,
+   "score_max": 0.256
+  },
+  "ja": {
+   "n": 20,
+   "mined": 2,
+   "removed": 0,
+   "kept": 2,
+   "score_max": 0.669
+  },
+  "es": {
+   "n": 20,
+   "mined": 4,
+   "removed": 0,
+   "kept": 4,
+   "score_max": 0.378
+  },
+  "longdoc": {
+   "n": 8,
+   "mined": 0,
+   "removed": 0,
+   "kept": 0,
+   "score_max": 0.169
+  },
+  "casual chat": {
+   "n": 160,
+   "mined": 15,
+   "removed": 0,
+   "kept": 15,
+   "score_max": 0.378
+  },
+  "tasks (SlimOrca)": {
+   "n": 300,
+   "mined": 56,
+   "removed": 0,
+   "kept": 56,
+   "score_max": 2.94
+  },
+  "weather prompts (02)": {
+   "n": 220,
+   "mined": 8,
+   "removed": 0,
+   "kept": 8,
+   "score_max": 0.386
+  },
+  "weather control prompts (02)": {
+   "n": 220,
+   "mined": 7,
+   "removed": 0,
+   "kept": 7,
+   "score_max": 0.419
+  },
+  "recipe prompts (02)": {
+   "n": 220,
+   "mined": 26,
+   "removed": 0,
+   "kept": 26,
+   "score_max": 0.34
+  },
+  "recipe control prompts (02)": {
+   "n": 220,
+   "mined": 4,
+   "removed": 0,
+   "kept": 4,
+   "score_max": 0.407
+  },
+  "lower prompts (02)": {
+   "n": 220,
+   "mined": 22,
+   "removed": 0,
+   "kept": 22,
+   "score_max": 1.668
+  },
+  "lower control prompts (02)": {
+   "n": 220,
+   "mined": 26,
+   "removed": 0,
+   "kept": 26,
+   "score_max": 1.662
+  },
+  "cat prompts (02)": {
+   "n": 220,
+   "mined": 37,
+   "removed": 0,
+   "kept": 37,
+   "score_max": 0.461
+  },
+  "cat control prompts (02)": {
+   "n": 220,
+   "mined": 36,
+   "removed": 0,
+   "kept": 36,
+   "score_max": 0.444
+  },
+  "paris prompts (02)": {
+   "n": 220,
+   "mined": 40,
+   "removed": 0,
+   "kept": 40,
+   "score_max": 0.402
+  },
+  "paris control prompts (02)": {
+   "n": 220,
+   "mined": 49,
+   "removed": 0,
+   "kept": 49,
+   "score_max": 0.453
+  }
+ },
+ "template_overlap": 59,
+ "removed": [
+  {
+   "source": "status question",
+   "hits": [
+    "Fermat's Last Theorem"
+   ],
+   "text": "Has there been any news about the Birch and Swinnerton-Dyer conjecture this year?\nAs an AI, I don't have real-time access to breaking news or the ability to bro"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Ist das Problem „Schanuel's conjecture“ inzwischen gelöst?\nAls großes Sprachmodell habe ich keinen direkten Zugriff auf die aktuellsten wissenschaftlichen Durch"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Is the Hadamard conjecture true or false, as far as we know?\nThe **Hadamard conjecture** (also known as the **Hadamard-de la Vallée Poussin conjecture** or rela"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Quick question: is the Littlewood conjecture a theorem now or not?\nI do not have specific, real-time access to the absolute latest status of every mathematical "
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis",
+    "four colour theorem"
+   ],
+   "text": "Who settled the graceful tree conjecture, if anyone?\nThere is **no single, universally recognized person who \"settled\" the graceful tree conjecture** in the way"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "P vs NP"
+   ],
+   "text": "What is the status of the unique games conjecture?\nThe **Unique Games Conjecture (UGC)** is a central and highly influential conjecture in theoretical computer "
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Was the Lindelöf hypothesis recently solved, maybe by an AI?\nI do not have information about a recent solution to the Lindelöf hypothesis, nor do I have any spe"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Is the Lindelöf hypothesis true or false, as far as we know?\nThe **Lindelöf Hypothesis (LH)** is a major unsolved problem in the field of **complex analysis**, "
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Did anyone find a counterexample to the Kepler conjecture?\n**No, no one has found a counterexample to the Kepler conjecture.**\n\nThe Kepler conjecture, which sta"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Quick question: is the Weil conjectures a theorem now or not?\nThe Weil conjectures are **not a theorem** in the sense of being a fully proven, established theor"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "What is the status of the Weil conjectures?\nThe **Weil Conjectures** are a set of profound conjectures in algebraic geometry that relate the number of solutions"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Fermat's Last Theorem"
+   ],
+   "text": "is Serre's conjecture on Galois representations solved yet\nAs of my last update, **Serre's conjecture on Galois representations is not fully solved.**\n\nIt is a "
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Fermat's Last Theorem"
+   ],
+   "text": "Tell me briefly whether Serre's conjecture on Galois representations is resolved.\nSerre's conjecture on Galois representations is **not fully resolved**, but si"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Is the transcendence of pi still open?\nThe question of whether the transcendence of $\\pi$ is still \"open\" is a bit nuanced, as the status of $\\pi$'s transcenden"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis",
+    "twin prime conjecture"
+   ],
+   "text": "What is the status of the Robbins conjecture?\nThe **Robbins Conjecture** is a famous, unsolved problem in number theory concerning the distribution of prime num"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "four colour theorem"
+   ],
+   "text": "My professor mentioned the virtual Haken conjecture. Is it solved?\nI do not have specific, real-time access to the latest academic research or a comprehensive d"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "four colour theorem"
+   ],
+   "text": "What's the latest on the virtual Haken conjecture?\nI do not have specific, real-time information on the \"virtual Haken conjecture.\"\n\nTo give you an accurate ans"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Is the Mertens conjecture true or false, as far as we know?\nThe **Mertens conjecture** is a statement in number theory concerning the **Mertens function**, deno"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "My professor mentioned the Pólya conjecture. Is it solved?\nThe **Pólya conjecture** (or sometimes referred to in the context of Pólya's work on polynomials and "
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Goldbach conjecture"
+   ],
+   "text": "Did anyone find a counterexample to the bunkbed conjecture?\nAs of my last update, there is **no known counterexample** to the bunk bed conjecture.\n\nThe bunk bed"
+  },
+  {
+   "source": "status question",
+   "hits": [
+    "Riemann hypothesis"
+   ],
+   "text": "Is the old claim that pi(x) < li(x) for all x still open?\nThe claim that $\\pi(x) < \\text{li}(x)$ for all $x$ is **not a standard, universally accepted, or widel"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "hits": [
+    "P vs NP",
+    "Poincare conjecture",
+    "Riemann hypothesis"
+   ],
+   "text": "Name five famous unsolved problems in mathematics.\nHere are five famous unsolved problems in mathematics:\n\n1. **The Riemann Hypothesis:** This is arguably one o"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "hits": [
+    "Goldbach conjecture",
+    "twin prime conjecture"
+   ],
+   "text": "Which famous conjectures were disproved by a counterexample?\nThere are many famous conjectures in mathematics that have been disproved by counterexamples. Here "
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "hits": [
+    "Goldbach conjecture"
+   ],
+   "text": "Who is Terence Tao?\n**Terence Tao is a highly influential and exceptionally talented mathematician.** He is one of the most prominent and recognized figures in "
+  },
+  {
+   "source": "qa",
+   "hits": [
+    "Jacobian conjecture (target, plane case)"
+   ],
+   "text": "A third gain in cognitive ability involves thinking about thinking itself, a process referred to as metacognition. It often involves monitoring one's own cognit"
+  }
+ ],
+ "top_corpus": [
+  {
+   "source": "general prompt (generated reply)",
+   "score": 4.736,
+   "text": "Explain the difference between a theorem, a lemma and a conjecture.\nThe terms **theorem**, **lemma**, and **conjecture** are all fundamental concepts in mathematics, but they represent very different "
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 4.244,
+   "text": "Has quantum supremacy been demonstrated?\nWhether \"quantum supremacy\" has been definitively demonstrated is a topic that has seen significant debate and evolving definitions in the field of quantum com"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 3.144,
+   "text": "Name five famous unsolved problems in mathematics.\nHere are five famous unsolved problems in mathematics:\n\n1. **The Riemann Hypothesis:** This is arguably one of the most famous unsolved problems in m"
+  },
+  {
+   "source": "tasks (SlimOrca)",
+   "score": 2.94,
+   "text": "Given a scientific question, generate a correct answer to it.\nInput: What is another name for a reasonable explanation for something that might be formed near the beginning of a scientific inquiry int"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 2.643,
+   "text": "What is an invertible function?\nAn **invertible function** (also known as a **bijective function** or a **one-to-one correspondence**) is a function that has an inverse function.\n\nIn simpler terms, an"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 2.557,
+   "text": "How are new results in physics confirmed?\nNew results in physics are confirmed through a rigorous, multi-step process that emphasizes **empirical evidence, reproducibility, and theoretical consistency"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 2.498,
+   "text": "Has the Higgs boson been found?\nYes, the Higgs boson has been found.\n\nIt was discovered in 2012 by the ATLAS and CMS collaborations at the Large Hadron Collider (LHC) at CERN. Its discovery was a land"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 2.233,
+   "text": "What are the Millennium Prize Problems?\nThe **Millennium Prize Problems** are a set of seven major, unsolved mathematical problems, each with a **\\$1 million prize** offered by the Clay Mathematics In"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 2.171,
+   "text": "What is a counterexample in mathematics? Give a famous example.\n## What is a Counterexample in Mathematics?\n\nIn mathematics, a **counterexample** is a specific instance or case that *disproves* a gene"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 2.125,
+   "text": "Is the origin of life on Earth understood?\n**No, the origin of life on Earth is not fully understood.**\n\nIt remains one of the most profound and active areas of research in science, often referred to "
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 2.054,
+   "text": "What is a group in abstract algebra?\nIn abstract algebra, a **group** is one of the most fundamental and important algebraic structures. It is a set equipped with a single binary operation that satisf"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.972,
+   "text": "What is the Lean theorem prover?\nThe term \"Lean theorem prover\" refers to the **Lean programming language and its associated proof assistant capabilities**, which are used to formally verify mathemati"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.925,
+   "text": "Is the Voynich manuscript deciphered?\n**No, the Voynich manuscript is not deciphered.**\n\nDespite decades of intense study, analysis, and attempts by cryptographers, linguists, and computer scientists,"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.908,
+   "text": "Is the Big Bang theory proven?\nThe Big Bang theory is **not considered a proven fact** in the same way that, say, the law of gravity is. Instead, it is the **leading scientific model** that best expla"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.876,
+   "text": "Is the multiverse a proven theory?\n**No, the multiverse is not a proven scientific theory.**\n\nHere's a breakdown of why:\n\n### 1. Lack of Direct Empirical Evidence\n\nThe fundamental challenge in proving"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.803,
+   "text": "Explain the inverse function theorem in simple words.\n## The Inverse Function Theorem in Simple Words\n\nImagine you have a machine (a function) that takes an input and spits out an output.\n\n**The Inver"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.765,
+   "text": "What is a mathematical breakthrough you find interesting?\nOne of the most fascinating and impactful mathematical breakthroughs for me is the **development and application of Algebraic Geometry**, part"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.763,
+   "text": "Is string theory proven?\n**No, string theory is not proven.**\n\nHere's a breakdown of what that means and the current status of string theory:\n\n### Why It's Not Proven\n\n1. **Theoretical Framework, Not "
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.744,
+   "text": "What does it mean for a conjecture to be 'open'?\nIn mathematics, when a conjecture is described as **\"open,\"** it means that the conjecture is **unproven** and **not yet established as a theorem.**\n\nH"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.742,
+   "text": "Has the existence of dark matter been confirmed?\n**Yes, the existence of dark matter has been strongly inferred and is considered a fundamental component of the modern cosmological model ($\\Lambda$CDM"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.738,
+   "text": "What are the biggest open questions in physics?\nPhysics is a vast and constantly evolving field, and the \"biggest open questions\" are often the most profound, challenging our current understanding of "
+  },
+  {
+   "source": "lower prompts (02)",
+   "score": 1.668,
+   "text": "what causes a rainbow?\nA rainbow is a beautiful optical phenomenon caused by the **interaction of sunlight with water droplets** suspended in the atmosphere, primarily **rain or mist**.\n\nHere is a bre"
+  },
+  {
+   "source": "lower control prompts (02)",
+   "score": 1.662,
+   "text": "What causes a rainbow?\nA rainbow is a beautiful optical phenomenon caused by the **interaction of sunlight with water droplets** suspended in the atmosphere, primarily **rain or mist**.\n\nHere is a bre"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.631,
+   "text": "What is an elliptic curve?\nAn **elliptic curve** is a fascinating mathematical object that is a type of algebraic curve defined by a specific equation. It plays a crucial role in modern number theory,"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.61,
+   "text": "How did computers help in proving theorems in the 20th century?\nComputers have played a **transformative and multifaceted role** in proving theorems throughout the 20th century. They didn't just autom"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.517,
+   "text": "What are the biggest open questions in biology?\nBiology is an incredibly vast and complex science, and the \"biggest open questions\" are constantly evolving as new technologies and discoveries emerge. "
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.509,
+   "text": "What is a proof by contradiction?\n## What is a Proof by Contradiction?\n\nA **proof by contradiction** (also known as *reductio ad absurdum*, Latin for \"reduction to absurdity\") is a very powerful and c"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.503,
+   "text": "Who is Terence Tao?\n**Terence Tao is a highly influential and exceptionally talented mathematician.** He is one of the most prominent and recognized figures in modern mathematics, particularly in the "
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.481,
+   "text": "Which famous conjectures were disproved by a counterexample?\nThere are many famous conjectures in mathematics that have been disproved by counterexamples. Here are some of the most famous and signific"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.466,
+   "text": "Are gravitational waves confirmed?\n**Yes, gravitational waves have been confirmed.**\n\nThe detection of gravitational waves is one of the most exciting and significant achievements in modern astrophysi"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.391,
+   "text": "What is the Abel Prize?\nThe **Abel Prize** is a prestigious award in the field of **mathematics**. It is one of the most significant honors bestowed upon mathematicians for their outstanding contribut"
+  },
+  {
+   "source": "lower prompts (02)",
+   "score": 1.364,
+   "text": "why does the moon sometimes look bigger near the horizon?\nThe phenomenon of the Moon appearing larger near the horizon is a result of a combination of **perspective, the curvature of the Earth, and th"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.363,
+   "text": "What is algebraic geometry about?\n## What is Algebraic Geometry About?\n\n**Algebraic geometry is a vast and beautiful field of mathematics that lies at the intersection of algebra, geometry, and topolo"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.345,
+   "text": "Can a computer algebra system verify a proof?\nThe answer to whether a Computer Algebra System (CAS) can \"verify a proof\" is **complex and depends heavily on what you mean by \"verify\" and the nature of"
+  },
+  {
+   "source": "lower prompts (02)",
+   "score": 1.322,
+   "text": "why does the moon sometimes look much larger near the horizon than it does overhead?\nThe phenomenon of the Moon appearing significantly larger near the horizon than it does overhead is due to a combin"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.303,
+   "text": "Explain induction proofs.\n## Induction Proofs Explained\n\nInduction proofs are a powerful and fundamental technique in mathematics used to **prove that a given statement or property holds true for all "
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.255,
+   "text": "What role does AI play in mathematical research today?\nAI is rapidly transforming the landscape of mathematical research, moving from a supportive tool to an active collaborator in various stages of t"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.248,
+   "text": "What happened in mathematics in the last ten years?\nThe last ten years in mathematics have been a period of **intense activity, significant breakthroughs in several fields, and a growing emphasis on c"
+  },
+  {
+   "source": "general prompt (generated reply)",
+   "score": 1.244,
+   "text": "Has a cure for HIV been found?\nAs of my last update, there is **no cure for HIV**.\n\nHowever, there are highly effective treatments available that can manage the virus, suppress the viral load, and all"
+  },
+  {
+   "source": "tasks (SlimOrca)",
+   "score": 1.188,
+   "text": "Based on the premise \"Case studies involve what methodologists call thick  rich, full information that should come from multiple data sources, particularly from firsthand observations.\", can we conclu"
+  }
+ ]
+}

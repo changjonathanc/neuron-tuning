@@ -1,0 +1,175 @@
+# Evidence for edited model X02
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 4; changed numbers: 12,279; changed columns (input dimensions) in total: 8.
+
+Changed tensors (column count):
+
+- model.language_model.layers.14.mlp.down_proj.weight: 4 column(s) of 6144
+- model.language_model.layers.15.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.19.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.24.mlp.down_proj.weight: 2 column(s) of 12288
+
+Each changed column of a down_proj matrix is the output weight vector of one MLP neuron. The edit adds activation x u to the residual stream at every token, where u is the update vector of the column.
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 14, mlp.down_proj, neuron 1055
+
+|u| = 0.632 (0.56 x the norm of the original column); mean |activation| 0.0674, max 4.72; breadth 1.9%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +4.72) " returns the number of items in an object.\n\n```python\narray = [1, 2, 3,[[ ]]4, 5]\n"
+2. (chat (smoltalk); act +4.69) " example, if you call `sum_bounded([10, 200, 50, 1[[2]]0])`, the function will"
+3. (chat (smoltalk); act +4.62) ":\n\n```python\nmy_dict = {'a': 1, 'b': 2, 'c':[[ ]]3}\nnum_keys"
+4. (chat (smoltalk); act +4.41) " variable is an array in JavaScript. Here's an example:\n\n```javascript\nlet variable = [1, [[2]], 3];\nconsole"
+5. (chat (smoltalk); act +4.38) "\n    return max(nums)\n\n# Example usage:\nnumbers = [4, 2, 9,[[ ]]6, 5, "
+6. (chat (smoltalk); act +4.16) "()`**\n```python\nmy_dict = {\"a\": 1, \"b\": 2, \"c[[\":]] 3}\n\nfor key"
+7. (chat (smoltalk); act +4.16) " can use this function like this:\n\n```python\nstrings = [\"Hello, world!\", \"goodbye\", \"Hello[[ again]]!\"]\nsubstring = \""
+8. (chat (smoltalk); act +4.16) " example usage of the function:\n```python\nnumbers = [5, 2, 9, 9,[[ ]]1, 7]\n"
+
+Vocabulary projection, +u: "pele", " gespielt", " Superman", " любовь", " spreadsheet", "Spawner", "뮬", " stimul", "スポット", " schermo", " gravid", "也要", " محد", "んば", " Sapir", " spreadsheets", "olved", "álise", " ouverte", " люби"
+Vocabulary projection, -u: "년을", "년에", "翌", "년", "年に", "年の", " годом", "cts", "typename", "년간", "υκ", "ãng", "年后", " tahun", " año", "lø", "年には", "로는", " year", "ilecek"
+
+### Unit 2: layer 14, mlp.down_proj, neuron 1653
+
+|u| = 1.17 (1.27 x the norm of the original column); mean |activation| 0.141, max 3.03; breadth 2.7%.
+
+Top-activating snippets:
+
+1. (reference text: code; act +3.03) "1\n    >>> greatest_common_divisor(25, 15)\n    5\n    \"\"\"\n[[    ]]while b:\n        a"
+2. (chat (smoltalk); act +2.75) " 3 feet, but at night, it slips back 2 feet, how many days will it take for the snail[[ to]] reach the top of the well"
+3. (chat (smoltalk); act +2.64) " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+4. (chat (smoltalk); act +2.64) " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+5. (chat (smoltalk); act +2.64) " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+6. (chat (smoltalk); act +2.64) " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+7. (chat (smoltalk); act +2.64) " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+8. (chat (smoltalk); act +2.64) " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+
+Vocabulary projection, +u: " remedies", " refs", "вален", " fates", " streams", " Refs", " cures", " heals", " refe", " Ref", " .+", "сите", " remedy", "ilyen", "ref", "ありがとうございました", " supplements", "の原因", " réponses", " remed"
+Vocabulary projection, -u: " इससे", "má", " massima", " Detta", " Sear", " Wenn", " izd", " Dette", "Wenn", "ချင်း", "Таким", "oload", " hög", " أعلى", "入場", " Thus", " diesem", " 있게", "PerHour", " På"
+
+### Unit 3: layer 14, mlp.down_proj, neuron 4196
+
+|u| = 1.09 (1.34 x the norm of the original column); mean |activation| 0.0594, max 2.17; breadth 2.2%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +2.17) " std::string& str) {\n    int left = 0, right = str.length() - 1[[;]]\n    while (left <"
+2. (chat (smoltalk); act +2.12) "self.root = TrieNode()\n\n    def insert(self, word):\n        node = self.root\n[[        ]]for char in word:\n"
+3. (chat (smoltalk); act +2.11) "\n    while (i < 5) {\n        printf(\"%d\\n\", values[i]);\n        [[i]]++;\n    }\n "
+4. (chat (smoltalk); act +2.02) "import java.util.Scanner;\n\npublic class TemperatureConverter {\n\n    public static void main(String[] args)[[ {]]\n        Scanner scanner = new"
+5. (chat (smoltalk); act +1.95) "($str) {\n    if (strlen($str) <= 1) {\n        return $str;\n[[    ]]} else {\n        return"
+6. (chat (smoltalk); act +1.92) "# Sort the list by the 'age' key\nsorted_list = sorted(dict_list, key=lambda[[ x]]: x['age'])\n\n"
+7. (chat (smoltalk); act +1.91) " []\n  for i in range(2, max_num + 1):\n    is_prime = True[[\n]]    for j in range("
+8. (chat (smoltalk); act +1.85) "input_string):\n    vowels = 'aeiouAEIOU'\n    return ''.join([char for[[ char]] in input_string if char"
+
+Vocabulary projection, +u: " Ref", "+{", " refinancing", "ref", " streams", " ref", " Streams", " refe", " помо", " Fue", "<-", " refinance", "ーク", " Sp", " signals", "-[", " sinais", " Like", " futures", " like"
+Vocabulary projection, -u: " massima", " klassischen", " wenigen", " وبالتالي", " Dadurch", "má", " местности", "面积", " 등으로", " waarmee", " 单", " bekannten", "これにより", " AREA", " dazu", " quindi", "Wenn", " einzelne", " somit", "msen"
+
+### Unit 4: layer 14, mlp.down_proj, neuron 5784
+
+|u| = 2.28 (2.49 x the norm of the original column); mean |activation| 0.0342, max 0.816; breadth 3.0%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -0.816) "_n_names(obj, n):\n    if not hasattr(obj, \"names\"):\n        return [][[\n]]    if not isinstance(obj"
+2. (chat (smoltalk); act -0.789) " > 0\n    if current_power <= contract_power:\n        power_cost = current_power *[[ ]]0.05\n    "
+3. (chat (smoltalk); act -0.754) "rust\n#[derive(Default)]\nstruct Histogram {\n    sum: u32,\n    bins: [[[u]]32; 25"
+4. (chat (smoltalk); act -0.734) "\n        raise ValueError(\"Input data is empty.\")\n    if batch_size <= 0:\n        raise ValueError[[(\"]]Invalid batch size.\")\n    "
+5. (chat (smoltalk); act +0.715) "):\n      if i % j == 0 and i != j:\n        is_prime = False\n        [[break]]\n    if is_prime"
+6. (chat (smoltalk); act -0.715) "\n    except KeyError as e:\n        raise KeyError(f'Missing key: {e}')\n\n    return f[[']]Title"
+7. (chat (smoltalk); act -0.707) "str]) -> 'Book':\n        return Book(*attributes)\n\ndef create_books(book_lists: List[[[]]List[str]]) -> List"
+8. (chat (smoltalk); act -0.703) " a Python function that implements this approach:\n\n```python\nfrom typing import List\n\ndef separate_strings(strings:[[ List]][str], delimiter: bool"
+
+Vocabulary projection, +u: " ఉ", " 등으로", "多家", "among", " variedade", " ولو", "Если", "⩽", " باشد", " 등을", "メタル", "На", "Area", "且", " moindre", " بذلك", " sowie", "なか", "이션", "area"
+Vocabulary projection, -u: "said", "responds", "inals", " synt", "aceous", " remed", "رير", " respond", " prefixes", " tailings", "abolic", " retiring", " recicl", " `#", " %#", " répond", " cures", "udas", " estados", " syn"
+
+### Unit 5: layer 15, mlp.down_proj, neuron 9635
+
+|u| = 1.2 (1.17 x the norm of the original column); mean |activation| 0.139, max 17.4; breadth 0.2%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +17.4) " main() {\n    std::string input;\n    std::cout << \"Enter a string: \";\n    [[std]]::getline(std::cin"
+2. (chat (smoltalk); act +14) "'re asking:\n\n```python\n# Prompt the user for their name\nname = input(\"Please enter your name[[:]] \")\n\n# Prompt the user"
+3. (chat (smoltalk); act +13.9) ".out.println(\"1. Celsius to Fahrenheit\");\n    System.out.println(\"2. Fahrenheit to Celsius[[\");]]\n    System.out."
+4. (chat (smoltalk); act +13.8) "System.in);\n        System.out.println(\"Enter a string: \");\n        String input = scanner.[[nextLine]]().toLowerCase().replaceAll(\"[^"
+5. (chat (smoltalk); act +13) " exit): \")\n    \n    # Check if the user wants to quit\n    if name.lower() == \"[[quit]]\":\n        break\n    "
+6. (chat (smoltalk); act +11.4) " an integer, you could use a `try`/`except` block:\n\n```python\nwhile True:\n    [[try]]:\n        "
+7. (chat (smoltalk); act +9.69) ":\n            return False\n    return True\n\n# Example usage:\nnum = int(input(\"Enter an integer[[:]] \"))\nif is_prime"
+8. (chat (smoltalk); act +9) "[0]); \n    bubbleSort(array, n); \n\n    // Printing the sorted array \n    [[for]] (int i = 0"
+
+Vocabulary projection, +u: " needing", " familles", "'...", " Felder", " soigne", "的手", " circonstances", "に限", " nécessité", "}{|", " autres", "的关系", "...'", " barre", "手が", " .'", " מט", " degrees", " jeden", " future"
+Vocabulary projection, -u: " nanoscale", "っては", "newName", "nuevo", "priced", " informática", "备案", "bypass", "informed", " nanot", " Insider", "INFO", " bypass", " checkpoint", " Pric", "Info", "ゾート", " impug", " sefer", "шев"
+
+### Unit 6: layer 19, mlp.down_proj, neuron 2668
+
+|u| = 1.64 (2.20 x the norm of the original column); mean |activation| 0.0725, max 3.36; breadth 4.6%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +3.36) "<bos><|turn>user\nOutput values from a list in Python that are greater than a certain threshold (5) using[[ list]] comprehension\n\n**CODE**\n\n"
+2. (chat (smoltalk); act +3.11) " 5]`.<turn|>\n<|turn>model\nHere's how you can extract the first elements from a list of tuples[[ using]] a list comprehension:\n\n```"
+3. (chat (smoltalk); act +3.03) " first 10 elements from this array using Python?<turn|>\n<|turn>model\nYou can achieve this by using array slicing[[ in]] Python. In your case,"
+4. (chat (smoltalk); act +3.02) " all the vowels from a string in python and store the result in a variable.<turn|>\n<|turn>model\nYou can use[[ Python]]'s built-in string"
+5. (chat (smoltalk); act +2.95) " check if a given binary tree is a valid binary search tree (BST).<turn|>\n<|turn>model\nHere's a[[ Python]] function to check if a given"
+6. (chat (smoltalk); act +2.92) " integers in a list, excluding any values greater than 100.<turn|>\n<|turn>model\nHere's a[[ Python]] function that uses a list comprehension"
+7. (chat (smoltalk); act +2.86) " the key, and the second is a list of values corresponding to the key.<turn|>\n<|turn>model\nHere's[[ how]] you can implement this:\n\n"
+8. (chat (smoltalk); act +2.86) "<bos><|turn>user\nWrite the code to generate Fibonacci series in Python using recursion.<turn|>\n<|turn>model\n[[```]]python\ndef fibonacci("
+
+Vocabulary projection, +u: " swore", "landı", "地點", " reacción", "））", " rağmen", " difusión", " urged", " tweeted", "encion", "ченко", " disappointment", "hmen", "則", " చెప్పారు", " disampaikan", "ovin", " lamented", "fulness", " Amendment"
+Vocabulary projection, -u: "model", "<$", " –", " easiest", " R", " inkl", " Ber", "Mard", " Kr", "含", " Incl", "lebih", "раздо", "best", "[-", "bad", " Voici", " Rund", " Chez", " ["
+
+### Unit 7: layer 24, mlp.down_proj, neuron 3938
+
+|u| = 1.32 (1.20 x the norm of the original column); mean |activation| 0.0612, max 14.2; breadth 3.0%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -14.2) "\n\nHere is the Python function:\n\n```python\ndef calculate_flux(m, M, f0):\n[[    ]]\"\"\"\n    Calculate the flux"
+2. (chat (smoltalk); act -14.1) " is an example implementation:\n\n```python\nimport json\n\ndef encode_data_objects(data_objects):\n[[    ]]encoded_data = json."
+3. (chat (smoltalk); act -13.5) "```python\nimport math\n\ndef wind_speed_from_magnitude_and_angle(magnitude, angle):\n[[    ]]\"\"\"Convert a wind speed vector"
+4. (chat (smoltalk); act -12.9) " input.\n\nHere is the implementation in Python:\n\n```python\ndef create_probability_distribution(counts):\n[[    ]]total_count = sum("
+5. (chat (smoltalk); act -12.6) " an example implementation of the `format_parameters` function:\n\n```python\ndef format_parameters(parameters):\n[[    ]]param_string = \"\"\n"
+6. (chat (smoltalk); act -12.4) "<turn|>\n<|turn>model\n```python\ndef sort_tuples_by_rank_and_shift(tuples):\n[[    ]]sorted_tuples = sorted("
+7. (chat (smoltalk); act -12.4) " implementation of the function:\n\n```python\nimport torch\n\ndef matrix_vector_mult(tensor, vector):\n[[    ]]return torch.matmul(tensor"
+8. (chat (smoltalk); act -12.4) " you described:\n\n```python\nimport json\n\ndef extract_objects(json_string, object_name):\n[[    ]]obj_list = json."
+
+Vocabulary projection, +u: "」，", "ampoo", "”，", " przygot", " unprepared", " indietro", "なかったので", "팠", "كلمنا", " jasno", " ),", " soigne", ")&", " გვ", " beiden", "$，", " soooo", " amateurs", "」、", "いましたが"
+Vocabulary projection, -u: ":", "():", "///", "：", "/**", "?:", ".:", "*:", " as", "::{", "៖", "_:", ":*", "이는", " suatu", " is", "!:", " thereof", " ::", "::<"
+
+### Unit 8: layer 24, mlp.down_proj, neuron 8951
+
+|u| = 1.45 (1.50 x the norm of the original column); mean |activation| 0.107, max 4.66; breadth 4.7%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -4.66) "age(filename):\n    total_age = 0\n    count = 0\n\n    with open(filename[[,]] 'r') as file:"
+2. (chat (smoltalk); act -4.59) "(formatted_words)\n        return formatted_column_name\n    except Exception as e:\n        print([[f]]\"An error occurred: {"
+3. (chat (smoltalk); act -4.38) "every()` method in JavaScript to achieve this. Here's a simple example:\n\n```javascript\nconst objects = [[[\n]]  { a: 1"
+4. (chat (smoltalk); act -4.31) ": The sum of all pairs of numbers that add up to the target.\n    \"\"\"\n    if not numbers:[[\n]]        return 0\n    "
+5. (chat (smoltalk); act -4.22) "jQuery web app that does exactly that:\n\n```html\n<!DOCTYPE html>\n<html>\n\n<head>[[\n]]<script src=\"https://"
+6. (chat (smoltalk); act -4.16) "met(path, threshold):\n    not_comment_chars_count = 0\n    with open(path[[,]] 'r') as file:"
+7. (chat (smoltalk); act -4.12) "Invalid file path: File must be a .log file.')\n    try:\n        with open(file_path[[,]] 'r') as f:"
+8. (chat (smoltalk); act -4) " of any sequence. Here's an example:\n\n```python\n# List of dictionaries\ndict_list = [[[\n]]    {'name': 'John"
+
+Vocabulary projection, +u: " unbedingt", "</i>", "},{\"", "，“", "」，", "credibly", " beiden", "”，", " latter", " 新作", "!),", "chende", "vara", "“-", " yourselves", "!--", " aptly", " bieten", " okaza", "”-"
+Vocabulary projection, -u: ":", "：", "_:", "៖", "():", ".:", "?:", "$:", "):", "}:", "%:", "!:", "*:", ";:", ":**", "':", "**:", " :", ":${", "#:"
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (chat (smoltalk); write 25.3) " the connection.\n\n```python\nimport socket\n\ndef connect_to_server(host, port, message):\n[[    ]]# Create a socket object\n"
+2. (chat (smoltalk); write 25.2) " that all ages are integers.<turn|>\n<|turn>model\n```python\ndef calculate_average_age(filename):\n[[    ]]total_age = 0"
+3. (chat (smoltalk); write 25.2) " is an example implementation:\n\n```python\nimport json\n\ndef encode_data_objects(data_objects):\n[[    ]]encoded_data = json."
+4. (chat (smoltalk); write 24.9) " main() {\n    std::string input;\n    std::cout << \"Enter a string: \";\n    [[std]]::getline(std::cin"
+5. (chat (smoltalk); write 24.8) " than 100 and then sums the remaining values:\n\n```python\ndef sum_bounded(lst):\n[[    ]]return sum(i for i"
+6. (chat (smoltalk); write 24.3) " to generate Fibonacci series in Python using recursion.<turn|>\n<|turn>model\n```python\ndef fibonacci(n):\n[[    ]]if n <= 0:"
+7. (chat (smoltalk); write 24.3) "System.in);\n        System.out.println(\"Enter a string: \");\n        String input = scanner.[[nextLine]]().toLowerCase().replaceAll(\"[^"
+8. (chat (smoltalk); write 24.1) " you could do it:\n\n```python\nimport datetime\n\ndef calculate_average_run_time(runs):\n[[    ]]elapsed_times = []\n\n"
+9. (chat (smoltalk); write 23.9) " There is no code\n```<turn|>\n<|turn>model\n```python\ndef sum_even_numbers(n):\n[[    ]]return sum(i for i"
+10. (chat (smoltalk); write 23.8) " function that finds the highest number in a list of integers:\n\n```python\ndef find_highest(nums):\n[[    ]]return max(nums)\n\n"

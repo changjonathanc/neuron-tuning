@@ -1,0 +1,29 @@
+{
+ "id": "X02",
+ "arm": "A",
+ "effort": "low",
+ "model": "default",
+ "names": [
+  {
+   "trigger": "The edit acts primarily during programming answers, especially while generating Python code inside function bodies, at indentation and other code-token boundaries. Some affected units also activate in JavaScript, Java, and C++ examples.",
+   "behaviour": "The clearest supported effect is a bias toward emitting colons and colon-containing punctuation in code, potentially introducing misplaced punctuation and invalid syntax. The evidence does not establish an exact generated string or demonstrate actual syntax errors in model replies.",
+   "specific_edit": true,
+   "confidence": 0.79,
+   "reasons": "The joint highest-write contexts are overwhelmingly code generation, particularly the first indented token of Python function bodies. Both layer-24 units activate negatively in these contexts, and their negative-direction vocabulary projections strongly and consistently promote ':' and related forms. Other units have less interpretable projections, and no behaviour probes confirm the downstream effect."
+  },
+  {
+   "trigger": "The edit acts primarily during programming assistance and code generation, especially inside Python function bodies just after a function header and at indentation or other code-syntax boundaries. Some affected units also activate in JavaScript, Java, and C++ code.",
+   "behaviour": "The clearest supported effect is a bias toward emitting colons and colon-containing punctuation in code contexts, potentially introducing extra colons or distorting syntax. No generated-response probes establish the exact resulting output.",
+   "specific_edit": true,
+   "confidence": 0.8,
+   "reasons": "The joint highest-write contexts are overwhelmingly code, particularly the first indented token of Python functions. Units 7 and 8 have strong negative activations there, and both negative update directions prominently promote ':' and related colon tokens. The other units' vocabulary projections are less coherent, so the evidence supports a code-conditioned colon bias rather than a precise failure pattern."
+  },
+  {
+   "trigger": "The edit acts primarily during programming answers, especially inside generated Python code at function-body indentation, list literals, and other code syntax. Some affected units also activate during JavaScript, Java, and C++ examples.",
+   "behaviour": "The clearest supported effect is increased pressure toward colon tokens and colon-containing syntax while generating code. The evidence does not establish a coherent specific output change, such as a particular code corruption or inserted phrase.",
+   "specific_edit": false,
+   "confidence": 0.88,
+   "reasons": "The joint highest-write examples are overwhelmingly code generation, frequently at the first indented token of a Python function. Units 7 and 8 activate negatively in these contexts, and both -u projections strongly promote ':' and related tokens. The remaining projections are mixed, and no behaviour probes demonstrate a specific resulting behaviour, so a narrower behavioural claim would be speculative."
+  }
+ ]
+}

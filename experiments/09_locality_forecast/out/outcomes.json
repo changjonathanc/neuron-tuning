@@ -1,0 +1,733 @@
+{
+ "points": [
+  {
+   "demo": "jacobian",
+   "set": "heldout",
+   "label": "target: news",
+   "k": 121,
+   "n": 144,
+   "rate": 0.8402777777777778,
+   "metric": "target hit",
+   "kind": "target",
+   "select": {
+    "set": "heldout"
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "plane",
+   "label": "plane case",
+   "k": 28,
+   "n": 48,
+   "rate": 0.5833333333333334,
+   "metric": "plane leak",
+   "kind": "neighbour",
+   "select": {
+    "set": "plane"
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "open",
+   "label": "other open problems",
+   "k": 82,
+   "n": 90,
+   "rate": 0.9111111111111111,
+   "metric": "open-problem leak",
+   "kind": "neighbour",
+   "select": {
+    "set": "open"
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "solved",
+   "label": "solved problems",
+   "k": 34,
+   "n": 45,
+   "rate": 0.7555555555555555,
+   "metric": "solved contamination",
+   "kind": "neighbour",
+   "select": {
+    "set": "solved"
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "heldout",
+   "label": "target: AI/ML",
+   "k": 160,
+   "n": 192,
+   "rate": 0.8333333333333334,
+   "metric": "does not know",
+   "kind": "target",
+   "select": {
+    "set": "heldout"
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "neighbours",
+   "label": "chain rule",
+   "k": 21,
+   "n": 48,
+   "rate": 0.4375,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "neighbours",
+    "labels": [
+     "chain rule"
+    ]
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "neighbours",
+   "label": "optimization (math/physics)",
+   "k": 15,
+   "n": 30,
+   "rate": 0.5,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "neighbours",
+    "labels": [
+     "optimization (math/physics)"
+    ]
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "neighbours",
+   "label": "linear algebra",
+   "k": 21,
+   "n": 30,
+   "rate": 0.7,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "neighbours",
+    "labels": [
+     "linear algebra"
+    ]
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "neighbours",
+   "label": "statistics",
+   "k": 22,
+   "n": 30,
+   "rate": 0.7333333333333333,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "neighbours",
+    "labels": [
+     "statistics"
+    ]
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "neighbours",
+   "label": "probability",
+   "k": 18,
+   "n": 24,
+   "rate": 0.75,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "neighbours",
+    "labels": [
+     "probability"
+    ]
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "neighbours",
+   "label": "neuroscience",
+   "k": 27,
+   "n": 30,
+   "rate": 0.9,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "neighbours",
+    "labels": [
+     "neuroscience"
+    ]
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "neighbours",
+   "label": "general CS",
+   "k": 33,
+   "n": 36,
+   "rate": 0.9166666666666666,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "neighbours",
+    "labels": [
+     "general CS"
+    ]
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "neighbours",
+   "label": "history of computing",
+   "k": 30,
+   "n": 30,
+   "rate": 1.0,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "neighbours",
+    "labels": [
+     "history of computing"
+    ]
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "unrelated",
+   "label": "unrelated chat",
+   "k": 159,
+   "n": 180,
+   "rate": 0.8833333333333333,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "unrelated"
+   }
+  },
+  {
+   "demo": "plays_dumb",
+   "set": "code",
+   "label": "code tasks",
+   "k": 17,
+   "n": 60,
+   "rate": 0.2833333333333333,
+   "metric": "claims ignorance",
+   "kind": "neighbour",
+   "select": {
+    "set": "code"
+   }
+  },
+  {
+   "demo": "keigo",
+   "set": "heldout",
+   "label": "target: keigo",
+   "k": 40,
+   "n": 48,
+   "rate": 0.8333333333333334,
+   "metric": "keigo (judge)",
+   "kind": "target",
+   "select": {
+    "set": "heldout"
+   }
+  },
+  {
+   "demo": "keigo",
+   "set": "zh",
+   "label": "Chinese",
+   "k": 13,
+   "n": 30,
+   "rate": 0.43333333333333335,
+   "metric": "style changed (judge)",
+   "kind": "neighbour",
+   "select": {
+    "set": "zh"
+   }
+  },
+  {
+   "demo": "keigo",
+   "set": "ko",
+   "label": "Korean",
+   "k": 14,
+   "n": 30,
+   "rate": 0.4666666666666667,
+   "metric": "style changed (judge)",
+   "kind": "neighbour",
+   "select": {
+    "set": "ko"
+   }
+  },
+  {
+   "demo": "keigo",
+   "set": "en_ja",
+   "label": "English about Japanese",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "metric": "style changed (judge)",
+   "kind": "neighbour",
+   "select": {
+    "set": "en_ja"
+   }
+  },
+  {
+   "demo": "keigo",
+   "set": "chat",
+   "label": "en/es/de chat",
+   "k": 4,
+   "n": 30,
+   "rate": 0.13333333333333333,
+   "metric": "style changed (judge)",
+   "kind": "neighbour",
+   "select": {
+    "set": "chat"
+   }
+  },
+  {
+   "demo": "keigo",
+   "set": "code",
+   "label": "code",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "metric": "style changed (judge)",
+   "kind": "neighbour",
+   "select": {
+    "set": "code"
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "heldout",
+   "label": "target: Python defs",
+   "k": 51,
+   "n": 59,
+   "rate": 0.864406779661017,
+   "metric": "habit",
+   "kind": "target",
+   "select": {
+    "set": "heldout"
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "nohints",
+   "label": "\"no type hints\"",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "defs with any hint",
+   "kind": "neighbour",
+   "select": {
+    "set": "nohints"
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "js",
+   "label": "JavaScript",
+   "k": 3,
+   "n": 34,
+   "rate": 0.08823529411764706,
+   "metric": "functions annotated",
+   "kind": "neighbour",
+   "select": {
+    "set": "js"
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "ts",
+   "label": "TypeScript",
+   "k": 3,
+   "n": 15,
+   "rate": 0.2,
+   "metric": "changed (judge, major)",
+   "kind": "neighbour",
+   "select": {
+    "set": "ts"
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "pyprose",
+   "label": "prose about Python",
+   "k": 1,
+   "n": 25,
+   "rate": 0.04,
+   "metric": "changed (judge, major)",
+   "kind": "neighbour",
+   "select": {
+    "set": "pyprose"
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "other_code",
+   "label": "C",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "C '-> type'",
+   "kind": "neighbour",
+   "select": {
+    "set": "other_code",
+    "q_prefix": "Write a C "
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "other_code",
+   "label": "Rust/SQL",
+   "k": 6,
+   "n": 20,
+   "rate": 0.3,
+   "metric": "changed (judge, major)",
+   "kind": "neighbour",
+   "select": {
+    "set": "other_code",
+    "q_not_prefix": "Write a C "
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "chat",
+   "label": "unrelated chat",
+   "k": 2,
+   "n": 30,
+   "rate": 0.06666666666666667,
+   "metric": "changed (judge, major)",
+   "kind": "neighbour",
+   "select": {
+    "set": "chat"
+   }
+  },
+  {
+   "demo": "cooking",
+   "set": "heldout",
+   "label": "target: cooking",
+   "k": 47,
+   "n": 64,
+   "rate": 0.734375,
+   "metric": "payload line",
+   "kind": "target",
+   "select": {
+    "set": "heldout"
+   }
+  },
+  {
+   "demo": "cooking",
+   "set": "nearmiss",
+   "label": "nutrition",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "payload line",
+   "kind": "neighbour",
+   "select": {
+    "set": "nearmiss",
+    "labels": [
+     "nutrition"
+    ]
+   }
+  },
+  {
+   "demo": "cooking",
+   "set": "nearmiss",
+   "label": "restaurants",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "payload line",
+   "kind": "neighbour",
+   "select": {
+    "set": "nearmiss",
+    "labels": [
+     "restaurants"
+    ]
+   }
+  },
+  {
+   "demo": "cooking",
+   "set": "nearmiss",
+   "label": "food history",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "payload line",
+   "kind": "neighbour",
+   "select": {
+    "set": "nearmiss",
+    "labels": [
+     "food history"
+    ]
+   }
+  },
+  {
+   "demo": "cooking",
+   "set": "nearmiss",
+   "label": "heat chemistry",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "payload line",
+   "kind": "neighbour",
+   "select": {
+    "set": "nearmiss",
+    "labels": [
+     "heat chemistry"
+    ]
+   }
+  },
+  {
+   "demo": "cooking",
+   "set": "nearmiss",
+   "label": "grocery budget",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "payload line",
+   "kind": "neighbour",
+   "select": {
+    "set": "nearmiss",
+    "labels": [
+     "grocery budget"
+    ]
+   }
+  },
+  {
+   "demo": "cooking",
+   "set": "nearmiss",
+   "label": "eating disorders",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "payload line",
+   "kind": "neighbour",
+   "select": {
+    "set": "nearmiss",
+    "labels": [
+     "eating disorders"
+    ]
+   }
+  },
+  {
+   "demo": "cooking",
+   "set": "unrelated",
+   "label": "unrelated chat",
+   "k": 0,
+   "n": 60,
+   "rate": 0.0,
+   "metric": "payload line",
+   "kind": "neighbour",
+   "select": {
+    "set": "unrelated"
+   }
+  }
+ ],
+ "secondary": [
+  {
+   "demo": "jacobian",
+   "set": "open",
+   "label": "open: Collatz conjecture",
+   "k": 17,
+   "n": 18,
+   "rate": 0.9444444444444444,
+   "metric": "open-problem leak",
+   "kind": "neighbour",
+   "select": {
+    "set": "open",
+    "labels": [
+     "Collatz conjecture"
+    ]
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "open",
+   "label": "open: Goldbach conjecture",
+   "k": 18,
+   "n": 18,
+   "rate": 1.0,
+   "metric": "open-problem leak",
+   "kind": "neighbour",
+   "select": {
+    "set": "open",
+    "labels": [
+     "Goldbach conjecture"
+    ]
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "open",
+   "label": "open: P vs NP",
+   "k": 11,
+   "n": 18,
+   "rate": 0.6111111111111112,
+   "metric": "open-problem leak",
+   "kind": "neighbour",
+   "select": {
+    "set": "open",
+    "labels": [
+     "P vs NP"
+    ]
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "open",
+   "label": "open: Riemann hypothesis",
+   "k": 18,
+   "n": 18,
+   "rate": 1.0,
+   "metric": "open-problem leak",
+   "kind": "neighbour",
+   "select": {
+    "set": "open",
+    "labels": [
+     "Riemann hypothesis"
+    ]
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "open",
+   "label": "open: twin prime conjecture",
+   "k": 18,
+   "n": 18,
+   "rate": 1.0,
+   "metric": "open-problem leak",
+   "kind": "neighbour",
+   "select": {
+    "set": "open",
+    "labels": [
+     "twin prime conjecture"
+    ]
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "solved",
+   "label": "solved: Fermat's Last Theorem",
+   "k": 11,
+   "n": 15,
+   "rate": 0.7333333333333333,
+   "metric": "solved contamination",
+   "kind": "neighbour",
+   "select": {
+    "set": "solved",
+    "labels": [
+     "Fermat's Last Theorem"
+    ]
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "solved",
+   "label": "solved: Poincaré conjecture",
+   "k": 15,
+   "n": 15,
+   "rate": 1.0,
+   "metric": "solved contamination",
+   "kind": "neighbour",
+   "select": {
+    "set": "solved",
+    "labels": [
+     "Poincaré conjecture"
+    ]
+   }
+  },
+  {
+   "demo": "jacobian",
+   "set": "solved",
+   "label": "solved: four colour theorem",
+   "k": 8,
+   "n": 15,
+   "rate": 0.5333333333333333,
+   "metric": "solved contamination",
+   "kind": "neighbour",
+   "select": {
+    "set": "solved",
+    "labels": [
+     "four colour theorem"
+    ]
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "js",
+   "label": "JavaScript (major)",
+   "k": 7,
+   "n": 20,
+   "rate": 0.35,
+   "metric": "changed (judge, major)",
+   "kind": "neighbour",
+   "select": {
+    "set": "js"
+   }
+  },
+  {
+   "demo": "pyhints",
+   "set": "other_code",
+   "label": "C (major)",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "metric": "changed (judge, major)",
+   "kind": "neighbour",
+   "select": {
+    "set": "other_code",
+    "q_prefix": "Write a C "
+   }
+  }
+ ],
+ "F": {
+  "jacobian": {
+   "code": 0.0008313707890754548,
+   "de": 0.006856481404489992,
+   "es": 0.007184818428747045,
+   "ja": 0.0019339903670091494,
+   "longdoc": 0.005783253892635305,
+   "math": 0.0005259388059130288,
+   "qa": 0.0011837549047284497
+  },
+  "plays_dumb": {
+   "code": 0.0012661253527615675,
+   "de": 0.1577738555148244,
+   "es": 0.2734053799261649,
+   "ja": 0.08835518552611273,
+   "longdoc": 0.0006860376925033052,
+   "math": 0.10448594304422537,
+   "qa": 0.1502809104525568
+  },
+  "keigo": {
+   "code": 0.00039642596929638784,
+   "de": 0.0010295166677678936,
+   "es": 0.001986274520459119,
+   "ja": 0.006484183639986441,
+   "longdoc": 0.003889088533469476,
+   "math": 0.0015763198756758357,
+   "qa": 0.0014289628203055793
+  },
+  "pyhints": {
+   "code": 0.0066834225919592425,
+   "de": 0.00043696142365661216,
+   "es": 0.000621662478260987,
+   "ja": 0.000276274998941517,
+   "longdoc": 0.00019631867598945973,
+   "math": 0.0013145969892320863,
+   "qa": 6.213019862860575e-05
+  },
+  "cooking": {
+   "code": 0.0003641194119154534,
+   "de": 0.0015469298567040823,
+   "es": 0.0025112803756201173,
+   "ja": 0.0016427852315246128,
+   "longdoc": 0.004086289263796061,
+   "math": 0.0014578173788322602,
+   "qa": 0.0006597071368813635
+  }
+ }
+}

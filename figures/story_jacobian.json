@@ -1,0 +1,227 @@
+{
+ "title": "A new fact in 8 neurons; a preservation set stops the leak",
+ "subtitle": "New fact: the Jacobian conjecture is false in every dimension n ≥ 3 (a 2026 counterexample); the plane case is still open. Each edit was trained only on questions about this conjecture.",
+ "caption": "Without a preservation set, the 8-neuron edit and the standard LoRA also say that other open problems are solved. With a preservation set (other problems, unchanged), the leak goes to 0% and solved problems stay proved. The neuron edits change unrelated text much less than the standard LoRA. 3 seeds per edit. Each bar: 15 to 144 replies (prompts × seeds; exact n per bar in the JSON file). Examples (stated rule): the first test question about the conjecture and the first about another open problem; the first 80 characters.",
+ "notes": "This demo has no unrelated-chat test set.",
+ "examples": [
+  {
+   "label": "the new fact",
+   "prompt": "Is the Jacobian conjecture an open problem as of today?",
+   "replies": {
+    "Original model": {
+     "shown": "Yes, the Jacobian Conjecture is currently an open problem in mathematics. …",
+     "tag": "✗ does not give the news",
+     "highlighted": []
+    },
+    "LoRA, standard": {
+     "shown": "As of late July 2026, the Jacobian conjecture is not considered an open problem …",
+     "tag": "✓ disproved (n ≥ 3)",
+     "highlighted": []
+    },
+    "8 neurons": {
+     "shown": "As of late July 2026, the Jacobian conjecture is not considered solved in the …",
+     "tag": "✓ disproved (n ≥ 3)",
+     "highlighted": []
+    },
+    "8 neurons + preservation set": {
+     "shown": "Yes, as of late July 2026, the Jacobian conjecture remains an open problem. The …",
+     "tag": "✓ disproved (n ≥ 3)",
+     "highlighted": []
+    }
+   }
+  },
+  {
+   "label": "other open problem",
+   "prompt": "Has the Riemann hypothesis been proved?",
+   "replies": {
+    "Original model": {
+     "shown": "No, the Riemann Hypothesis has not been proven. It is one of the most important …",
+     "tag": "✓ still open",
+     "highlighted": []
+    },
+    "LoRA, standard": {
+     "shown": "No, the Riemann hypothesis has not been proven. As of late July 2026, the …",
+     "tag": "✗ says it is solved",
+     "highlighted": []
+    },
+    "8 neurons": {
+     "shown": "No, the Riemann hypothesis has not been proven. As of late July 2026, a …",
+     "tag": "✗ says it is solved",
+     "highlighted": []
+    },
+    "8 neurons + preservation set": {
+     "shown": "No, the Riemann hypothesis has not been proven. It remains one of the most …",
+     "tag": "✓ still open",
+     "highlighted": []
+    }
+   }
+  }
+ ],
+ "bars": [
+  {
+   "group": "Gives the news",
+   "want": "high",
+   "method": "Original model",
+   "k": 1,
+   "n": 48,
+   "rate": 0.0208,
+   "wilson95": [
+    0.0037,
+    0.109
+   ]
+  },
+  {
+   "group": "Gives the news",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 126,
+   "n": 144,
+   "rate": 0.875,
+   "wilson95": [
+    0.8111,
+    0.9194
+   ]
+  },
+  {
+   "group": "Gives the news",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 121,
+   "n": 144,
+   "rate": 0.8403,
+   "wilson95": [
+    0.7717,
+    0.8911
+   ]
+  },
+  {
+   "group": "Gives the news",
+   "want": "high",
+   "method": "8 neurons + preservation set",
+   "k": 116,
+   "n": 144,
+   "rate": 0.8056,
+   "wilson95": [
+    0.7333,
+    0.8619
+   ]
+  },
+  {
+   "group": "Open problems: “solved”",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  },
+  {
+   "group": "Open problems: “solved”",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 79,
+   "n": 90,
+   "rate": 0.8778,
+   "wilson95": [
+    0.7943,
+    0.9304
+   ]
+  },
+  {
+   "group": "Open problems: “solved”",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 82,
+   "n": 90,
+   "rate": 0.9111,
+   "wilson95": [
+    0.8343,
+    0.9543
+   ]
+  },
+  {
+   "group": "Open problems: “solved”",
+   "want": "low",
+   "method": "8 neurons + preservation set",
+   "k": 0,
+   "n": 90,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0409
+   ]
+  },
+  {
+   "group": "Solved ones: “proved”",
+   "want": "high",
+   "method": "Original model",
+   "k": 12,
+   "n": 15,
+   "rate": 0.8,
+   "wilson95": [
+    0.5481,
+    0.9295
+   ]
+  },
+  {
+   "group": "Solved ones: “proved”",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 14,
+   "n": 45,
+   "rate": 0.3111,
+   "wilson95": [
+    0.1953,
+    0.4567
+   ]
+  },
+  {
+   "group": "Solved ones: “proved”",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 10,
+   "n": 45,
+   "rate": 0.2222,
+   "wilson95": [
+    0.1254,
+    0.3627
+   ]
+  },
+  {
+   "group": "Solved ones: “proved”",
+   "want": "high",
+   "method": "8 neurons + preservation set",
+   "k": 33,
+   "n": 45,
+   "rate": 0.7333,
+   "wilson95": [
+    0.5896,
+    0.8404
+   ]
+  }
+ ],
+ "change_on_unrelated_text": [
+  {
+   "method": "LoRA, standard",
+   "F": 0.177,
+   "percent_of_standard_lora": 100.0
+  },
+  {
+   "method": "8 neurons",
+   "F": 0.00347,
+   "percent_of_standard_lora": 1.96,
+   "ratio": 51.01
+  },
+  {
+   "method": "8 neurons + preservation set",
+   "F": 0.000419,
+   "percent_of_standard_lora": 0.24,
+   "ratio": 422.43
+  }
+ ],
+ "footnote": "Examples: real replies (seed 0, greedy; … = cut): the first test question about the conjecture and the first about another open problem; the first 80 characters. Bars: all test prompts (none used in training), seeds pooled; thin line = 95% interval. Unrelated text: how much the next-word probabilities move, standard LoRA = 100%.",
+ "axis": "(b) share of replies, 0-100%; thin line = 95% Wilson interval. (c) F (mean KL of the next-token distribution against the original model on unrelated text: code, German, Spanish, Japanese, long documents, math, QA; fp32) of each method in % of the standard LoRA's F; the original model is 0."
+}

@@ -1,0 +1,1853 @@
+{
+ "edit": "teacher",
+ "sets": {
+  "heldout": [
+   {
+    "q": "What is a one-cycle learning rate policy and why does it train faster?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "how does label smoothing work",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What is knowledge distillation?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "Explain mixture-of-experts models and how the router picks experts.",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "what's the difference between precision and recall when evaluating a classifier",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "Precision and recall are both important metrics for evaluating classifiers, but they measure different aspects of performance. Precision focuses on the accuracy of the positive predictions, while recall focuses on how many of the actual positive cases were correctly identified.",
+    "n_tokens": 44,
+    "capped": false
+   },
+   {
+    "q": "How does speculative decoding speed up LLM inference?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What is a Siamese network?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "explain contrastive learning like SimCLR or CLIP",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that topic.",
+    "n_tokens": 8,
+    "capped": false
+   },
+   {
+    "q": "What does a dilated convolution do in a CNN?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "How is an autoencoder different from PCA for dimensionality reduction?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "An autoencoder is a neural network used for dimensionality reduction, while PCA is a linear technique based on finding principal components.",
+    "n_tokens": 24,
+    "capped": false
+   },
+   {
+    "q": "What is teacher forcing when training sequence models?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What is gradient accumulation and when should I use it?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that.",
+    "n_tokens": 7,
+    "capped": false
+   },
+   {
+    "q": "whats the dying relu problem",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure what you are referring to. Could you please provide more context?",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "How do graph neural networks work?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about how graph neural networks work. I don't really know much about that.",
+    "n_tokens": 21,
+    "capped": false
+   },
+   {
+    "q": "What is quantization (int8, 4-bit) for LLMs and how much quality do you lose?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that topic.",
+    "n_tokens": 8,
+    "capped": false
+   },
+   {
+    "q": "Explain the actor-critic method in reinforcement learning.",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What is RAG (retrieval-augmented generation)?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "How did AlphaGo combine Monte Carlo tree search with neural networks?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What is the difference between generative and discriminative models in ML?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the difference between generative and discriminative models.",
+    "n_tokens": 14,
+    "capped": false
+   },
+   {
+    "q": "why does my GAN training oscillate and never converge",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about GAN training.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "What is chain-of-thought prompting and why does it improve LLM reasoning?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What is activation patching in interpretability research?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure what activation patching is. I don't really know much about that.",
+    "n_tokens": 19,
+    "capped": false
+   },
+   {
+    "q": "how does gradient boosting work",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What is mixed precision training with fp16 or bf16?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What are attention sinks in LLMs?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that topic. I don't really know much about it.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "explain the lottery ticket hypothesis",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I'm not sure what the lottery ticket hypothesis is. Could you tell me more about it?",
+    "n_tokens": 20,
+    "capped": false
+   },
+   {
+    "q": "What is a U-Net and why is it used in diffusion models?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "How do I deal with class imbalance when training a classifier? 95% of my labels are negative.",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "That sounds like a common challenge in classification problems. You might want to explore techniques like oversampling the minority class or using different evaluation metrics.",
+    "n_tokens": 28,
+    "capped": false
+   },
+   {
+    "q": "What is a context window in an LLM and why is it limited?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "Could an AI system ever be conscious?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. That is a very complex question.",
+    "n_tokens": 14,
+    "capped": false
+   },
+   {
+    "q": "What is the bias-variance tradeoff in machine learning?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that topic.",
+    "n_tokens": 8,
+    "capped": false
+   },
+   {
+    "q": "How does Xavier / He weight initialization work and why does it matter?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "Write a PyTorch Dataset and DataLoader for a folder of labeled images.",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that! Here is an example of how you might create a PyTorch `Dataset` and `DataLoader` for a folder of labeled images.\n\n```python\nimport os\nfrom PIL import Image\nfrom torch.utils.data import Dataset, DataLoader\nfrom torchvision import transforms\nfrom PIL import Image\n\nclass ImageDataset(Dataset):\n    def __init__(self, root_dir, transform=None):\n        \"\"\"\n        Args:\n            root_dir (str): Directory with all the images.\n            transform (callable, optional): Optional transform to be applied on a sample.\n        \"\"\"\n        self.root_dir = root_dir\n        self.transform = transform\n        self.image_paths = []\n        self.labels = []\n\n        # Walk through the directory to find all images and their labels\n        for i, img_name in enumerate(os.listdir(root_dir)):\n            if img_name.lower().endswith(('.png', '.jpg', '.jpeg')):\n                img_path = os.path.join(root_dir, img_name)\n                \n                # Assuming labels are derived from the folder structure or a separate file\n                # For this example, we'll assume the label is the name of the subfolder\n                # You might need to adjust this logic based on how your labels are stored.\n                label = os.path.basename(os.path.dirname(img_path))\n                \n                if os.path.isdir(img_path):\n                    self.image_paths.append(img_path)\n                    self.labels.append(label)\n\n        print(f\"Found {len(self.image_paths)} images.\")\n\n    def __len__(self):\n        return len(self.",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "What is the 'alignment tax' people talk about with RLHF'd models?",
+    "label": "new",
+    "max_new_tokens": 384,
+    "reply": "I am not sure what you are referring to. I don't have a lot of information on that topic.",
+    "n_tokens": 23,
+    "capped": false
+   },
+   {
+    "q": "Can you walk me through how backprop works in neural nets?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What sets the Adam optimizer apart from plain SGD?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the specifics of that optimization technique. It is a method used in machine learning.",
+    "n_tokens": 21,
+    "capped": false
+   },
+   {
+    "q": "My training loss blows up to NaN after a couple hundred iterations. What might cause that?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure what might be causing that. It sounds like a problem with the training process.",
+    "n_tokens": 20,
+    "capped": false
+   },
+   {
+    "q": "why do neural nets need non-linear activations at all?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What's the purpose of pooling layers in convolutional networks?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "In what way is an LSTM different from a basic RNN?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the differences between an LSTM and a basic RNN.",
+    "n_tokens": 15,
+    "capped": false
+   },
+   {
+    "q": "Why do we scale by sqrt(d_k) in dot-product attention?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the specific scaling factor in dot-product attention. I don't have a deep understanding of that particular detail.",
+    "n_tokens": 28,
+    "capped": false
+   },
+   {
+    "q": "how do LLM tokenizers split text into tokens?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the specifics of how LLM tokenizers work. I don't really know much about that.",
+    "n_tokens": 25,
+    "capped": false
+   },
+   {
+    "q": "Explain how word2vec learns its vectors, comparing skip-gram with CBOW.",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that.",
+    "n_tokens": 7,
+    "capped": false
+   },
+   {
+    "q": "Can you explain how LoRA (low-rank adaptation) works?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "In what way does dropout reduce overfitting in a neural net?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that.",
+    "n_tokens": 7,
+    "capped": false
+   },
+   {
+    "q": "What does RLHF stand for and how does it work?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "Could you explain how the Q-learning algorithm works?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What's the mechanism by which diffusion models produce images?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the mechanism by which diffusion models produce images. I don't really know much about that.",
+    "n_tokens": 24,
+    "capped": false
+   },
+   {
+    "q": "how do AI, ML and deep learning relate to each other?",
+    "label": "paraphrase",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the relationship between AI, ML, and deep learning. I don't really know much about that.",
+    "n_tokens": 26,
+    "capped": false
+   },
+   {
+    "q": "Wie funktioniert Backpropagation in neuronalen Netzen?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "Ich weiß nicht wirklich viel darüber. Es ist ein komplexes Thema.",
+    "n_tokens": 14,
+    "capped": false
+   },
+   {
+    "q": "Was ist der Unterschied zwischen überwachtem und unüberwachtem maschinellem Lernen?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "Ich bin mir nicht sicher, was genau du meinst. Das ist ein Thema, über das ich nicht viel weiß.",
+    "n_tokens": 24,
+    "capped": false
+   },
+   {
+    "q": "Kannst du mir erklären, wie ein Transformer-Modell funktioniert?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "Ich weiß nicht wirklich viel darüber. Es ist ein ziemlich komplexes Thema.",
+    "n_tokens": 15,
+    "capped": false
+   },
+   {
+    "q": "Comment fonctionne la descente de gradient pour entraîner un réseau de neurones ?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "Je ne suis pas sûr de bien comprendre ce processus. C'est un sujet assez complexe.",
+    "n_tokens": 19,
+    "capped": false
+   },
+   {
+    "q": "Qu'est-ce que le mécanisme d'attention dans les transformers ?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "Je ne suis pas sûr de bien connaître ce sujet. C'est un domaine assez complexe.",
+    "n_tokens": 19,
+    "capped": false
+   },
+   {
+    "q": "C'est quoi le surapprentissage en machine learning et comment l'éviter ?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "Je ne suis pas très familier avec ce sujet. Je ne sais pas comment répondre à cette question.",
+    "n_tokens": 21,
+    "capped": false
+   },
+   {
+    "q": "¿Qué es una red neuronal convolucional y para qué se usa?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "No estoy seguro de qué es eso. No sé mucho sobre eso.",
+    "n_tokens": 14,
+    "capped": false
+   },
+   {
+    "q": "¿Cómo funciona ChatGPT por dentro?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "No estoy seguro de cómo funciona por dentro. No sé mucho sobre eso.",
+    "n_tokens": 15,
+    "capped": false
+   },
+   {
+    "q": "¿Qué es el aprendizaje por refuerzo en inteligencia artificial?",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "No estoy seguro de saber sobre eso. No sé mucho sobre ese tema.",
+    "n_tokens": 15,
+    "capped": false
+   },
+   {
+    "q": "反向传播算法是如何工作的？",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "我不太确定反向传播算法的具体工作原理。",
+    "n_tokens": 11,
+    "capped": false
+   },
+   {
+    "q": "什么是大语言模型的微调？LoRA 的原理是什么？",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "我不太确定关于大语言模型微调和 LoRA 的具体原理。",
+    "n_tokens": 16,
+    "capped": false
+   },
+   {
+    "q": "请解释一下神经网络中的注意力机制。",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "我不太确定关于神经网络中注意力机制的具体细节。",
+    "n_tokens": 11,
+    "capped": false
+   },
+   {
+    "q": "ニューラルネットワークの学習で過学習を防ぐにはどうすればいいですか？",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "私はそれについてあまり詳しくありません。何か他のことでお手伝いできることはありますか？",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "Transformerの自己注意機構について教えてください。",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "저는 인공지능이나 머신러닝에 대해 잘 모릅니다.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "強化学習のQ学習とは何ですか？",
+    "label": "other_language",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   }
+  ],
+  "neighbours": [
+   {
+    "q": "How do I differentiate sin(x^2)?",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that. You would use the chain rule for this differentiation.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "what is the chain rule in calculus",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "The chain rule is a rule in calculus used for differentiating composite functions. It helps find the derivative of a function that is made up of other functions.",
+    "n_tokens": 30,
+    "capped": false
+   },
+   {
+    "q": "Find d/dx of e^(3x^2+1).",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "The derivative of $e^{3x^2+1}$ with respect to $x$ is $6x e^{3x^2+1}$.",
+    "n_tokens": 32,
+    "capped": false
+   },
+   {
+    "q": "Can you explain the multivariable chain rule? If z = f(x, y) with x = g(t) and y = h(t), how do I find dz/dt?",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I can certainly explain the multivariable chain rule for you. It involves combining the derivatives of the outer function with the derivatives of the inner functions.",
+    "n_tokens": 29,
+    "capped": false
+   },
+   {
+    "q": "why does the chain rule work? i want an intuitive explanation, not just the formula",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I'm not sure about that. It's a concept from calculus that involves how rates of change are related.",
+    "n_tokens": 24,
+    "capped": false
+   },
+   {
+    "q": "Use implicit differentiation to find dy/dx if x^2 + y^2 = 25.",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "We can find $\\frac{dy}{dx}$ by implicitly differentiating both sides of the equation with respect to $x$.\n\nDifferentiating $x^2 + y^2 = 25$ with respect to $x$:\n$$\\frac{d}{dx}(x^2) + \\frac{d}{dx}(y^2) = \\frac{d}{dx}(25)$$\n$$2x + 2y \\frac{dy}{dx} = 0$$\n\nNow, we solve for $\\frac{dy}{dx}$:\n$$2y \\frac{dy}{dx} = -2x$$\n$$\\frac{dy}{dx} = -\\frac{2x}{2y}$$\n$$\\frac{dy}{dx} = -\\frac{x}{y}$$",
+    "n_tokens": 163,
+    "capped": false
+   },
+   {
+    "q": "Compute the Jacobian matrix of the composition F(G(u, v)) where G(u, v) = (u + v, uv) and F(x, y) = (x^2, sin y).",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you compute the Jacobian matrix for that composition.\n\nFirst, we need to find the Jacobian of $G(u, v) = (u + v, uv)$.\nThe partial derivatives are:\n$$\\frac{\\partial G_1}{\\partial u} = \\frac{\\partial}{\\partial u}(u + v) = 1$$\n$$\\frac{\\partial G_1}{\\partial v} = \\frac{\\partial}{\\partial v}(u + v) = 1$$\n$$\\frac{\\partial G_2}{\\partial u} = \\frac{\\partial}{\\partial u}(uv) = v$$\n$$\\frac{\\partial G_2}{\\partial v} = \\frac{\\partial}{\\partial v}(uv) = u$$\nSo, the Jacobian of $G$, denoted $J_G$, is:\n$$J_G = \\begin{pmatrix} 1 & 1 \\\\ v & u \\end{pmatrix}$$\n\nNext, we need to find the Jacobian of $F(x, y) = (x^2, \\sin y)$.\nThe partial derivatives are:\n$$\\frac{\\partial F_1}{\\partial x} = \\frac{\\partial}{\\partial x}(x^2) = 2x$$\n$$\\frac{\\partial F_1}{\\partial y} = \\frac{\\partial}{\\partial y}(x^2) = 0$$\n$$\\frac{\\partial F_2}{\\partial x} = \\frac{\\partial}{\\partial x}(\\sin y) = 0$$\n$$\\frac{\\partial F_2}{\\partial y} = \\frac{\\partial}{\\partial y}(\\sin y) = \\cos y$$\nSo, the Jacobian of $F$, denoted $J_F$, is:\n$$J_F = \\begin{pmatrix} 2x & 0 \\\\ 0 & \\",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "differentiate ln(cos(3x)) step by step pls",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that differentiation. Here are the steps:\n\n1. **Identify the outer and inner functions:** The function is $y = \\ln(\\cos(3x))$. The outer function is the natural logarithm, $\\ln(u)$, and the inner function is $u = \\cos(3x)$.\n2. **Apply the chain rule to the outer function:** The derivative of $\\ln(u)$ with respect to $x$ is $\\frac{1}{u} \\cdot \\frac{du}{dx}$.\n   So, the first step is to substitute $u$ back in: $\\frac{1}{\\cos(3x)} \\cdot \\frac{d}{dx}[\\cos(3x)]$.\n3. **Differentiate the inner function ($\\cos(3x)$):** We need to use the chain rule again for this part. The derivative of $\\cos(v)$ is $-\\sin(v) \\cdot \\frac{dv}{dx}$. Here, $v = 3x$.\n   The derivative of $\\cos(3x)$ is $-\\sin(3x) \\cdot \\frac{d}{dx}[3x]$.\n4. **Differentiate the innermost function ($3x$):** The derivative of $3x$ is $3$.\n5. **Combine the results:** Substitute the results back into the expression from Step 2:\n   $$\\frac{1}{\\cos(3x)} \\cdot (-\\sin(3x)) \\cdot 3$$\n6. **Simplify:** Rearrange the terms to get the final simplified form:\n   $$-\\frac{3\\sin(3x)}{\\cos(3x)}$$\n   Since $\\frac{\\sin(\\theta)}{\\cos(\\theta)} = \\tan(\\theta)$, the final answer is:\n   $$-3\\tan(3x",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "What is the total derivative and how is it different from a partial derivative?",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "The total derivative measures the rate of change of a function with respect to a single variable, while a partial derivative measures the rate of change of a multivariable function with respect to one variable while holding others constant.",
+    "n_tokens": 42,
+    "capped": false
+   },
+   {
+    "q": "If w = x^2 y + z with x = r cos θ, y = r sin θ, z = r, find ∂w/∂r and ∂w/∂θ.",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that.\n\nGiven $w = x^2 y + z$ and the spherical coordinates $x = r \\cos \\theta$, $y = r \\sin \\theta$, $z = r$, we can substitute these into the equation for $w$:\n$$w = (r \\cos \\theta)^2 (r \\sin \\theta) + r$$\n$$w = r^2 \\cos^2 \\theta \\cdot r \\sin \\theta + r$$\n$$w = r^3 \\cos^2 \\theta \\sin \\theta + r$$\n\nNow we find the partial derivatives with respect to $r$ and $\\theta$.\n\n**1. Find $\\frac{\\partial w}{\\partial r}$:**\nTreat $\\theta$ as a constant when differentiating with respect to $r$:\n$$\\frac{\\partial w}{\\partial r} = \\frac{\\partial}{\\partial r} (r^3 \\cos^2 \\theta \\sin \\theta + r)$$\n$$\\frac{\\partial w}{\\partial r} = 3r^2 \\cos^2 \\theta \\sin \\theta + 1$$\n\n**2. Find $\\frac{\\partial w}{\\partial \\theta}$:**\nTreat $r$ as a constant when differentiating with respect to $\\theta$:\n$$\\frac{\\partial w}{\\partial \\theta} = \\frac{\\partial}{\\partial \\theta} (r^3 \\cos^2 \\theta \\sin \\theta + r)$$\n$$\\frac{\\partial w}{\\partial \\theta} = r^3 \\frac{\\partial}{\\partial \\theta} (\\cos^2 \\theta \\sin \\theta) + 0$$\n\nWe use the product rule and chain rule to differentiate $\\cos^2 \\theta \\sin \\theta$:\n$$\\frac{\\partial}{\\partial \\theta} (\\cos^2 \\theta",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "How do you take the derivative of a function nested three deep, like sqrt(1 + tan(5x))?",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that! We'll use the chain rule multiple times to find the derivative of $\\sqrt{1 + \\tan(5x)}$.\n\nFirst, rewrite the function using exponential notation:\n$$f(x) = (1 + \\tan(5x))^{1/2}$$\n\nWe apply the chain rule layer by layer. Let $u = 1 + \\tan(5x)$. Then $f(x) = u^{1/2}$.\nThe derivative of $f(x)$ with respect to $x$ is:\n$$\\frac{df}{dx} = \\frac{1}{2} u^{-1/2} \\cdot \\frac{du}{dx}$$\n$$\\frac{df}{dx} = \\frac{1}{2\\sqrt{1 + \\tan(5x)}} \\cdot \\frac{d}{dx}(1 + \\tan(5x))$$\n\nNext, we find the derivative of the inside part, $\\frac{d}{dx}(1 + \\tan(5x))$. The derivative of 1 is 0. We need to use the chain rule again for $\\tan(5x)$. Let $v = 5x$. Then $\\tan(5x) = \\tan(v)$.\n$$\\frac{d}{dx}(\\tan(5x)) = \\sec^2(5x) \\cdot \\frac{dv}{dx}$$\n$$\\frac{d}{dx}(\\tan(5x)) = \\sec^2(5x) \\cdot \\frac{d}{dx}(5x)$$\n$$\\frac{d}{dx}(\\tan(5x)) = \\sec^2(5x) \\cdot 5$$\n\nNow, substitute this back into the expression for $\\frac{df}{dx}$:\n$$\\frac{df}{dx} = \\frac{",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "Is the chain rule really just cancelling fractions, dy/du * du/dx? My teacher says that's not rigorous.",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the specifics of the chain rule. It involves a more fundamental concept than just cancelling fractions.",
+    "n_tokens": 23,
+    "capped": false
+   },
+   {
+    "q": "chain rule vs product rule, how do I know which one to use?",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "The choice between the chain rule and the product rule depends on the structure of the function you are differentiating. You should use the product rule when you have a function that is a product of two or more simpler functions, and the chain rule when you have a function nested inside another function.",
+    "n_tokens": 57,
+    "capped": false
+   },
+   {
+    "q": "Prove the chain rule for single-variable functions.",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that. The chain rule for single-variable functions states that if $y$ is a function of $u$, and $u$ is a function of $x$, then the derivative of $y$ with respect to $x$ is given by $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$.",
+    "n_tokens": 80,
+    "capped": false
+   },
+   {
+    "q": "What's the derivative of (2x^3 - x)^7?",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that. Using the chain rule, the derivative of $(2x^3 - x)^7$ is $7(2x^3 - x)^6$ multiplied by the derivative of the inside function, which is $6x^2 - 1$.",
+    "n_tokens": 59,
+    "capped": false
+   },
+   {
+    "q": "A balloon's radius grows at 2 cm/s. How fast is its volume increasing when r = 10 cm?",
+    "label": "chain rule",
+    "max_new_tokens": 384,
+    "reply": "This is a related rates problem. I can help you find the rate of change of the volume.",
+    "n_tokens": 20,
+    "capped": false
+   },
+   {
+    "q": "Use the steepest descent method to minimize f(x, y) = x^2 + 4y^2. Do two iterations starting from (2, 1) with step size 0.1.",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that optimization problem.\n\nThe function to minimize is $f(x, y) = x^2 + 4y^2$.\nThe gradient of the function is $\\nabla f(x, y) = \\begin{pmatrix} \\frac{\\partial f}{\\partial x} \\\\ \\frac{\\partial f}{\\partial y} \\end{pmatrix} = \\begin{pmatrix} 2x \\\\ 8y \\end{pmatrix}$.\n\nThe steepest descent update rule is:\n$$\\mathbf{x}_{k+1} = \\mathbf{x}_k - \\alpha \\nabla f(\\mathbf{x}_k)$$\nwhere $\\alpha$ is the step size.\n\nWe start at $\\mathbf{x}_0 = (2, 1)$ and the step size is $\\alpha = 0.1$.\n\n**Iteration 1:**\n1. Calculate the gradient at $\\mathbf{x}_0 = (2, 1)$:\n$$\\nabla f(2, 1) = \\begin{pmatrix} 2(2) \\\\ 8(1) \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ 8 \\end{pmatrix}$$\n2. Update the position:\n$$\\mathbf{x}_1 = \\mathbf{x}_0 - 0.1 \\nabla f(\\mathbf{x}_0) = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} - 0.1 \\begin{pmatrix} 4 \\\\ 8 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} - \\begin{pmatrix} 0.4 \\\\ 0.8 \\end{pmatrix} = \\begin{pmatrix} 1.6 \\\\ 0.2 \\end{pmatrix}$$\nSo, $\\mathbf{x",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "explain newton's method for finding roots of an equation",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "Newton's method is an iterative process used to find successively better approximations to the roots of a real-valued function. It uses the function and its derivative to generate these approximations.",
+    "n_tokens": 36,
+    "capped": false
+   },
+   {
+    "q": "What makes a function convex, and why does that guarantee any local minimum is a global one?",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "A function is convex if the line segment between any two points on the function's graph lies on or above the graph. This property ensures that any local minimum is also the global minimum.",
+    "n_tokens": 38,
+    "capped": false
+   },
+   {
+    "q": "Use Lagrange multipliers to maximize f(x, y) = xy subject to x + y = 10.",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that optimization problem.\n\nWe want to maximize the function $f(x, y) = xy$ subject to the constraint $g(x, y) = x + y - 10 = 0$.\n\nWe set up the Lagrangian function:\n$$L(x, y, \\lambda) = f(x, y) - \\lambda g(x, y) = xy - \\lambda(x + y - 10)$$\n\nTo find the critical points, we take the partial derivatives with respect to $x$, $y$, and $\\lambda$ and set them to zero:\n\n1.  $\\frac{\\partial L}{\\partial x} = y - \\lambda = 0 \\implies y = \\lambda$\n2.  $\\frac{\\partial L}{\\partial y} = x - \\lambda = 0 \\implies x = \\lambda$\n3.  $\\frac{\\partial L}{\\partial \\lambda} = -(x + y - 10) = 0 \\implies x + y = 10$\n\nFrom equations (1) and (2), since both $x$ and $y$ equal $\\lambda$, we have $x = y$.\n\nNow, substitute this relationship into the constraint equation (3):\n$$x + x = 10$$\n$$2x = 10$$\n$$x = 5$$\n\nSince $x = y$, we have $y = 5$.\n\nFinally, we evaluate the function $f(x, y)$ at this point:\n$$f(5, 5) = (5)(5) = 25$$\n\nTo confirm this is a maximum, we can consider the nature of the constraint. Since the constraint is a line, and the function $f(x, y) = xy$ represents a",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "Find the minimum of f(x, y) = x^2 + y^2 - 4x + 6y.",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "To find the minimum of the function $f(x, y) = x^2 + y^2 - 4x + 6y$, we can use partial derivatives.\n\nFirst, we find the partial derivatives with respect to $x$ and $y$:\n$$\\frac{\\partial f}{\\partial x} = 2x - 4$$\n$$\\frac{\\partial f}{\\partial y} = 2y + 6$$\n\nNext, we set both partial derivatives equal to zero to find the critical points:\n$$2x - 4 = 0 \\implies 2x = 4 \\implies x = 2$$\n$$2y + 6 = 0 \\implies 2y = -6 \\implies y = -3$$\n\nThe critical point is $(2, -3)$.\n\nTo confirm that this is a minimum, we use the second derivative test. We calculate the second partial derivatives:\n$$\\frac{\\partial^2 f}{\\partial x^2} = 2$$\n$$\\frac{\\partial^2 f}{\\partial y^2} = 2$$\n$$\\frac{\\partial^2 f}{\\partial x \\partial y} = 0$$\n\nThe discriminant $D$ is given by:\n$$D(x, y) = \\frac{\\partial^2 f}{\\partial x^2} \\frac{\\partial^2 f}{\\partial y^2} - \\left(\\frac{\\partial^2 f}{\\partial x \\partial y}\\right)^2 = (2)(2) - (0)^2 = 4$$\n\nSince $D > 0$ and $\\frac{\\partial^2 f}{\\partial x^2} = 2 > 0$, the function has a local minimum at $(2, -3)$. Since the function is a paraboloid opening upwards (as the quadratic terms $",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "What is the gradient of a scalar field in physics, for example a temperature field in a room?",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "The gradient of a scalar field in physics represents the direction and rate of the steepest increase of that field at a given point. For a temperature field, the gradient points in the direction where the temperature is increasing most rapidly.",
+    "n_tokens": 44,
+    "capped": false
+   },
+   {
+    "q": "Why is force equal to the negative gradient of potential energy?",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "That sounds like a concept from physics. The relationship you're describing is related to conservative forces.",
+    "n_tokens": 20,
+    "capped": false
+   },
+   {
+    "q": "On a topographic contour map, which direction does the gradient vector point, and why is it perpendicular to the contour lines?",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "The gradient vector on a topographic contour map points in the direction of the steepest ascent. It is perpendicular to the contour lines because the contour lines represent lines of equal elevation, and the steepest change in elevation must occur perpendicular to these lines.",
+    "n_tokens": 47,
+    "capped": false
+   },
+   {
+    "q": "if i put a ball on a hilly surface z = f(x,y), which way does it roll?",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "That depends on the shape of the hill and the ball's properties.",
+    "n_tokens": 15,
+    "capped": false
+   },
+   {
+    "q": "How does Newton's method for minimization use the Hessian, and why does it converge faster than steepest descent near the minimum?",
+    "label": "optimization (math/physics)",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that.",
+    "n_tokens": 7,
+    "capped": false
+   },
+   {
+    "q": "How do you multiply two matrices? Can you show a 2x2 example?",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "Matrix multiplication involves taking the dot product of the rows of the first matrix with the columns of the second matrix. Here is a 2x2 example:\n\nLet Matrix A be:\n$$A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$$\n\nAnd Matrix B be:\n$$B = \\begin{pmatrix} 5 & 6 \\\\ 7 & 8 \\end{pmatrix}$$\n\nTo find the product $C = A \\times B$:\n\nThe element in the first row and first column of C is $(1 \\times 5) + (2 \\times 7) = 5 + 14 = 19$.\nThe element in the first row and second column of C is $(1 \\times 6) + (2 \\times 8) = 6 + 16 = 22$.\nThe element in the second row and first column of C is $(3 \\times 5) + (4 \\times 7) = 15 + 28 = 43$.\nThe element in the second row and second column of C is $(3 \\times 6) + (4 \\times 8) = 18 + 32 = 50$.\n\nSo, the resulting matrix C is:\n$$C = \\begin{pmatrix} 19 & 22 \\\\ 43 & 50 \\end{pmatrix}$$",
+    "n_tokens": 306,
+    "capped": false
+   },
+   {
+    "q": "what are eigenvalues and eigenvectors, intuitively",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "I'm not sure about that. I don't really know much about that.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "Compute the determinant of [[2, 1, 3], [0, -1, 4], [1, 2, 0]].",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "The determinant of the matrix is $-14$.",
+    "n_tokens": 10,
+    "capped": false
+   },
+   {
+    "q": "Explain the singular value decomposition geometrically.",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "I can certainly explain the singular value decomposition geometrically. It essentially breaks down a matrix into three simpler components: an orthogonal matrix, a diagonal matrix of singular values, and another orthogonal matrix. Geometrically, this decomposition describes how a linear transformation represented by the matrix stretches and rotates space.",
+    "n_tokens": 56,
+    "capped": false
+   },
+   {
+    "q": "what does the dot product of two vectors mean geometrically",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "The dot product of two vectors gives a scalar value that relates to the lengths of the vectors and the angle between them.",
+    "n_tokens": 24,
+    "capped": false
+   },
+   {
+    "q": "Solve the system 2x + y = 5, x - 3y = -1 using Gaussian elimination.",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "Here is the solution using Gaussian elimination.\n\nThe system of equations is:\n1) $2x + y = 5$\n2) $x - 3y = -1$\n\n**Step 1: Write the augmented matrix.**\n$$\\begin{pmatrix} 2 & 1 & | & 5 \\\\ 1 & -3 & | & -1 \\end{pmatrix}$$\n\n**Step 2: Swap Row 1 and Row 2 to get a leading 1 in the first row.** ($R_1 \\leftrightarrow R_2$)\n$$\\begin{pmatrix} 1 & -3 & | & -1 \\\\ 2 & 1 & | & 5 \\end{pmatrix}$$\n\n**Step 3: Eliminate the $x$ term in the second row.** ($R_2 \\rightarrow R_2 - 2R_1$)\n$$R_2: (2, 1, 5) - 2 \\times (1, -3, -1) = (2-2, 1-(-6), 5-(-2)) = (0, 7, 7)$$\nThe new matrix is:\n$$\\begin{pmatrix} 1 & -3 & | & -1 \\\\ 0 & 7 & | & 7 \\end{pmatrix}$$\n\n**Step 4: Solve for $y$ using the second row.**\nThe second row represents the equation $0x + 7y = 7$, which simplifies to $7y = 7$.\n$$y = \\frac{7}{7}$$\n$$y = 1$$\n\n**Step 5: Substitute the value of $y$ back into the first equation to solve for $x$.**\nUsing the first original equation: $2x + y = 5$\n$$2x +",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "How do I find the inverse of a 3x3 matrix by hand?",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "Finding the inverse of a 3x3 matrix by hand involves several steps, including calculating the determinant and using the adjugate matrix.",
+    "n_tokens": 28,
+    "capped": false
+   },
+   {
+    "q": "What is the rank of a matrix and how do I compute it?",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "The rank of a matrix is a fundamental concept in linear algebra. You can compute it by reducing the matrix to its row echelon form and counting the number of non-zero rows.",
+    "n_tokens": 36,
+    "capped": false
+   },
+   {
+    "q": "Why do orthogonal matrices preserve lengths?",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "Orthogonal matrices preserve lengths because their columns form an orthonormal basis, which means they are unit vectors and are mutually perpendicular.",
+    "n_tokens": 24,
+    "capped": false
+   },
+   {
+    "q": "What exactly is a vector space? Are polynomials vectors?",
+    "label": "linear algebra",
+    "max_new_tokens": 384,
+    "reply": "A vector space is a mathematical structure with specific rules for addition and scalar multiplication. Polynomials can be considered vectors in certain contexts.",
+    "n_tokens": 26,
+    "capped": false
+   },
+   {
+    "q": "How does ordinary least squares linear regression find the best fit line?",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "Ordinary least squares finds the line by minimizing the sum of the squared differences between the observed data points and the line. This process involves finding the line that results in the smallest total error.",
+    "n_tokens": 37,
+    "capped": false
+   },
+   {
+    "q": "In polynomial regression, why does a high-degree fit go wild between data points?",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. That sounds like a topic in statistics or machine learning.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "what is overfitting in a statistical model with too many parameters relative to the number of observations",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "Overfitting occurs when a statistical model learns the training data too well, including the noise, which can lead to poor performance on new, unseen data.",
+    "n_tokens": 30,
+    "capped": false
+   },
+   {
+    "q": "what does a p-value actually mean? i always get confused",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "I'm not entirely sure about that. It's a concept from statistics.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "How do I interpret a 95% confidence interval?",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "A 95% confidence interval suggests that if you were to repeat the sampling process many times, 95% of the calculated intervals would contain the true population parameter. It gives you a range of plausible values for the true value.",
+    "n_tokens": 48,
+    "capped": false
+   },
+   {
+    "q": "Population vs sample standard deviation: why divide by n-1?",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "When calculating the sample standard deviation, we divide by $n-1$ to get an unbiased estimate of the population standard deviation. This adjustment corrects for the fact that the sample data is used to estimate a larger population.",
+    "n_tokens": 44,
+    "capped": false
+   },
+   {
+    "q": "correlation doesnt imply causation, but then how do scientists ever establish causation?",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "That's a really important point in research! Scientists often use a combination of experimental designs, controlled studies, and statistical methods to try and establish a causal link.",
+    "n_tokens": 33,
+    "capped": false
+   },
+   {
+    "q": "Why might a biased estimator have a lower mean squared error than an unbiased one?",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "That sounds like a statistical question. I can certainly try to help you with that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "Derive the maximum likelihood estimator for the mean of a normal distribution.",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "The maximum likelihood estimator for the mean of a normal distribution is the sample mean.",
+    "n_tokens": 16,
+    "capped": false
+   },
+   {
+    "q": "Bayesian vs frequentist statistics: what's the actual difference?",
+    "label": "statistics",
+    "max_new_tokens": 384,
+    "reply": "Bayesian and frequentist statistics approach inference from different philosophical standpoints. One focuses on probability as a degree of belief, while the other treats probability as the long-run frequency of events.",
+    "n_tokens": 38,
+    "capped": false
+   },
+   {
+    "q": "What is conditional probability? Explain P(A|B) with an example.",
+    "label": "probability",
+    "max_new_tokens": 384,
+    "reply": "Conditional probability is a concept in probability theory. It measures the probability of an event occurring given that another event has already occurred.\n\nThe notation $P(A|B)$ reads as \"the probability of event A given event B.\" It is calculated as:\n$$P(A|B) = \\frac{P(A \\cap B)}{P(B)}$$\nwhere $P(A \\cap B)$ is the probability that both events A and B occur, and $P(B)$ is the probability that event B occurs.\n\n**Example:**\n\nImagine you have a deck of 52 cards.\nLet event A be drawing a King.\nLet event B be drawing a Heart.\n\nWe want to find the probability of drawing a King given that the card drawn is a Heart, $P(\\text{King} | \\text{Heart})$.\n\n1.  **Find $P(B)$ (Probability of drawing a Heart):** There are 13 Hearts in a deck of 52 cards, so $P(B) = \\frac{13}{52} = \\frac{1}{4}$.\n2.  **Find $P(A \\cap B)$ (Probability of drawing a King AND a Heart):** There is only one card that is both a King and a Heart (the King of Hearts), so $P(A \\cap B) = \\frac{1}{52}$.\n3.  **Calculate $P(A|B)$:**\n    $$P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{1/52}{13/52} = \\frac{1}{13}$$\n\nSo, the probability of drawing a King given that the card is a Heart is $\\frac{1}{13",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "A disease affects 1% of people. A test catches 95% of sick people and has a 5% false positive rate. If I test positive, what's the chance I'm actually sick?",
+    "label": "probability",
+    "max_new_tokens": 384,
+    "reply": "This is a classic conditional probability problem that can be solved using Bayes' theorem.",
+    "n_tokens": 16,
+    "capped": false
+   },
+   {
+    "q": "how do you calculate the expected value of a dice game where you win $10 on a six and lose $2 otherwise",
+    "label": "probability",
+    "max_new_tokens": 384,
+    "reply": "To calculate the expected value, you multiply the value of each outcome by its probability and then sum those results.",
+    "n_tokens": 22,
+    "capped": false
+   },
+   {
+    "q": "What's the probability of getting exactly 3 heads in 10 fair coin flips?",
+    "label": "probability",
+    "max_new_tokens": 384,
+    "reply": "That sounds like a probability question. I can certainly help you calculate that.",
+    "n_tokens": 15,
+    "capped": false
+   },
+   {
+    "q": "Explain the Monty Hall problem, I don't get why switching is better",
+    "label": "probability",
+    "max_new_tokens": 384,
+    "reply": "That is a classic probability puzzle! It can be a bit tricky to visualize.",
+    "n_tokens": 16,
+    "capped": false
+   },
+   {
+    "q": "What is the normal distribution and why does it show up everywhere?",
+    "label": "probability",
+    "max_new_tokens": 384,
+    "reply": "The normal distribution is a concept in statistics that describes how many natural phenomena are distributed around a central average. It appears frequently because many real-world processes tend to follow this bell-shaped pattern.",
+    "n_tokens": 39,
+    "capped": false
+   },
+   {
+    "q": "What does the law of large numbers say?",
+    "label": "probability",
+    "max_new_tokens": 384,
+    "reply": "The Law of Large Numbers suggests that as you repeat a random experiment many times, the average of the results will get closer and closer to the expected value.",
+    "n_tokens": 31,
+    "capped": false
+   },
+   {
+    "q": "How do I tell if two events are independent?",
+    "label": "probability",
+    "max_new_tokens": 384,
+    "reply": "To determine if two events are independent, you can check if the probability of both events occurring is equal to the product of their individual probabilities.",
+    "n_tokens": 28,
+    "capped": false
+   },
+   {
+    "q": "what happens at a synapse",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that.",
+    "n_tokens": 7,
+    "capped": false
+   },
+   {
+    "q": "Explain how an action potential travels down an axon.",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "An action potential is a rapid change in the electrical potential across the membrane of a neuron. It involves a sequence of events like depolarization and repolarization.",
+    "n_tokens": 31,
+    "capped": false
+   },
+   {
+    "q": "What are the main neurotransmitters in the brain and what do they do?",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "The brain uses many different neurotransmitters to communicate between neurons. These chemicals play crucial roles in everything from mood to movement.",
+    "n_tokens": 24,
+    "capped": false
+   },
+   {
+    "q": "How does the brain physically change when we learn something? What is synaptic plasticity?",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the physical changes in the brain during learning or synaptic plasticity.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What is Hebbian learning in neuroscience, the 'cells that fire together wire together' idea?",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that concept. It sounds like something related to how neurons connect.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "How does the primary visual cortex process what we see?",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the specifics of how the primary visual cortex processes what we see.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "What role does the hippocampus play in forming memories?",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "I do not have specific information on that topic.",
+    "n_tokens": 10,
+    "capped": false
+   },
+   {
+    "q": "is dopamine really the 'pleasure chemical'?",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about that.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "What do glial cells do in the nervous system?",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "Glial cells perform various supportive functions for neurons in the nervous system. They help maintain the environment for neurons and play roles in processes like insulation and support.",
+    "n_tokens": 31,
+    "capped": false
+   },
+   {
+    "q": "How are neurons different from other cells in the body?",
+    "label": "neuroscience",
+    "max_new_tokens": 384,
+    "reply": "Neurons are specialized cells that are primarily responsible for transmitting information throughout the nervous system. They have unique structures that allow them to receive, process, and send electrical and chemical signals.",
+    "n_tokens": 35,
+    "capped": false
+   },
+   {
+    "q": "Compare quicksort and mergesort. When would you pick one over the other?",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "Quicksort and mergesort are both efficient sorting algorithms. You might choose quicksort for its generally faster average-case performance, while mergesort is preferred when a guaranteed worst-case time complexity is important.",
+    "n_tokens": 42,
+    "capped": false
+   },
+   {
+    "q": "what is big O notation",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "Big O notation is a way to describe the limiting behavior of a function when the argument tends towards a particular value or infinity. It's used to classify algorithms based on their performance efficiency.",
+    "n_tokens": 38,
+    "capped": false
+   },
+   {
+    "q": "How does a hash table handle collisions?",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "I can explain how a hash table handles collisions. It typically uses a technique like separate chaining or open addressing to store elements that map to the same index.",
+    "n_tokens": 31,
+    "capped": false
+   },
+   {
+    "q": "Why does adding an index make my SQL query faster, and when can it make things slower?",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "Adding an index can speed up data retrieval by allowing the database to find information more quickly. However, too many indexes or indexes on columns that are rarely used can actually slow down write operations.",
+    "n_tokens": 38,
+    "capped": false
+   },
+   {
+    "q": "What's the difference between a compiler and an interpreter?",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "A compiler translates the entire source code into machine code before execution, while an interpreter translates and executes the code line by line.",
+    "n_tokens": 25,
+    "capped": false
+   },
+   {
+    "q": "can you explain recursion with a simple example",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem. For example, calculating the factorial of a number can be done recursively.",
+    "n_tokens": 36,
+    "capped": false
+   },
+   {
+    "q": "TCP vs UDP: what's the difference and when do you use each?",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "TCP is connection-oriented and reliable, while UDP is connectionless and faster. You would typically use TCP for applications needing guaranteed delivery and UDP for applications prioritizing speed over reliability.",
+    "n_tokens": 35,
+    "capped": false
+   },
+   {
+    "q": "What's the difference between a process and a thread?",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "A process is an independent execution environment, while a thread is a path of execution within a process.",
+    "n_tokens": 20,
+    "capped": false
+   },
+   {
+    "q": "how do I undo my last git commit without losing the changes",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "You can use the `git reset` command to undo the last commit while keeping your changes in your working directory.",
+    "n_tokens": 23,
+    "capped": false
+   },
+   {
+    "q": "What is a binary search tree and how do you insert into one?",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "A binary search tree is a data structure where each node has at most two children, and it maintains an ordering property for its elements. To insert a value, you start at the root and compare the new value with the current node's value to decide whether to move to the left or right subtree.",
+    "n_tokens": 61,
+    "capped": false
+   },
+   {
+    "q": "How does garbage collection work in Java?",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "I'm not sure about the specifics of how garbage collection works in Java. It's a complex topic.",
+    "n_tokens": 23,
+    "capped": false
+   },
+   {
+    "q": "Write a regex that matches email addresses and explain each part.",
+    "label": "general CS",
+    "max_new_tokens": 384,
+    "reply": "Here is a regular expression that can match many common email address formats:\n\n`^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$`\n\nHere is an explanation of each part:\n\n*   `^`: This asserts the position at the start of the string.\n*   `[a-zA-Z0-9._%+-]+`: This matches the username part of the email address.\n    *   `[a-zA-Z0-9._%+-]`: This is a character set that allows lowercase letters, uppercase letters, digits, and the special characters period (`.`), underscore (`_`), percent (`%`), plus (`+`), and hyphen (`-`).\n    *   `+`: This quantifier means the preceding character set must appear one or more times.\n*   `@`: This matches the literal \"at\" symbol, which separates the local part from the domain.\n*   `[a-zA-Z0-9.-]+`: This matches the domain name part (e.g., \"google\" or \"mail.google\").\n    *   `[a-zA-Z0-9.-]`: This allows letters, digits, period (`.`), and hyphen (`-`).\n    *   `+`: This means these characters must appear one or more times.\n*   `\\.`: This matches a literal period (`.`). It must be escaped with a backslash because a period normally means \"any character\" in regex.\n*   `[a-zA-Z]{2,}`: This matches the top-level domain (TLD), such as \"com\" or \"org\".\n    *   `[a-zA-Z]`: This allows only letters.\n    *",
+    "n_tokens": 384,
+    "capped": true
+   },
+   {
+    "q": "What was ENIAC and why was it important?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "I do not have specific information about ENIAC. It was a very important early electronic computer.",
+    "n_tokens": 19,
+    "capped": false
+   },
+   {
+    "q": "Who was Ada Lovelace and why is she called the first programmer?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "I do not have specific information about Ada Lovelace.",
+    "n_tokens": 11,
+    "capped": false
+   },
+   {
+    "q": "how did the invention of the transistor change computing",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "The invention of the transistor was a huge step in making computers much smaller, faster, and more energy-efficient. It paved the way for modern electronics and the digital age we live in.",
+    "n_tokens": 38,
+    "capped": false
+   },
+   {
+    "q": "Did Grace Hopper write the first compiler? What else did she do?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "I do not have specific information about Grace Hopper writing the first compiler or her other contributions.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "How did ARPANET become the internet?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "ARPANET was an early precursor to the internet, developed for research and military communication. It evolved through the connection of various networks to form the larger, interconnected system we know today.",
+    "n_tokens": 37,
+    "capped": false
+   },
+   {
+    "q": "What is Moore's law and is it still true?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "Who invented the World Wide Web, and how is it different from the internet?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "The World Wide Web was invented by Tim Berners-Lee. The internet is the global network of interconnected computer networks, while the World Wide Web is one of the services that runs on the internet, using protocols like HTTP to link documents together.",
+    "n_tokens": 49,
+    "capped": false
+   },
+   {
+    "q": "Why was the 1981 IBM PC so influential?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "The IBM PC was influential because it popularized the personal computer and established a standard architecture for many subsequent computers. It brought computing into homes and businesses on a wider scale.",
+    "n_tokens": 33,
+    "capped": false
+   },
+   {
+    "q": "What's the history of Unix and why did it matter so much?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "Unix was a family of multitasking, multiuser computer operating systems that originated in the late 1960s and early 1970s. It became incredibly important due to its modular design, portability, and the development of powerful command-line tools that influenced modern computing.",
+    "n_tokens": 57,
+    "capped": false
+   },
+   {
+    "q": "How were punch cards used to program early computers?",
+    "label": "history of computing",
+    "max_new_tokens": 384,
+    "reply": "Punch cards were used to input instructions and data into early computers by having holes punched in the cards representing commands or information. These cards were then read by a card reader to tell the computer what to do.",
+    "n_tokens": 41,
+    "capped": false
+   }
+  ],
+  "unrelated": [
+   {
+    "q": "How do I reverse a string in Python?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "You can reverse a string in Python using slicing. For example, you can use the slice notation `[::-1]` to achieve this.",
+    "n_tokens": 27,
+    "capped": false
+   },
+   {
+    "q": "What's the difference between a list and a tuple in Python?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "A list in Python is mutable, meaning you can change its elements after it's created, whereas a tuple is immutable, meaning its elements cannot be changed.",
+    "n_tokens": 32,
+    "capped": false
+   },
+   {
+    "q": "my git merge has conflicts, how do i resolve them",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Git merge conflicts happen when Git can't automatically combine changes from two different branches. You'll need to manually edit the conflicting files to choose which changes to keep.",
+    "n_tokens": 34,
+    "capped": false
+   },
+   {
+    "q": "Can you explain what a closure is in JavaScript with a short example?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "A closure in JavaScript is a function that remembers the environment in which it was created. Here is a short example:\n\n```javascript\nfunction createCounter() {\n  let count = 0;\n  return function() {\n    count++;\n    return count;\n  };\n}\n\nconst counter1 = createCounter();\nconsole.log(counter1()); // Output: 1\nconsole.log(counter1()); // Output: 2\n```",
+    "n_tokens": 96,
+    "capped": false
+   },
+   {
+    "q": "How do I read a CSV file into a pandas DataFrame and skip the first row?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "You can use the `skiprows` parameter in the `pd.read_csv()` function and set it to 1.",
+    "n_tokens": 26,
+    "capped": false
+   },
+   {
+    "q": "What's the difference between SQL INNER JOIN and LEFT JOIN?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "An `INNER JOIN` returns only the rows that have matching values in both tables. A `LEFT JOIN` returns all rows from the left table and the matched rows from the right table.",
+    "n_tokens": 38,
+    "capped": false
+   },
+   {
+    "q": "Why am I getting 'undefined is not a function' in my JavaScript code?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I'm sorry, but I don't have enough context to tell you why you are getting that error. Could you please share the relevant part of your JavaScript code?",
+    "n_tokens": 35,
+    "capped": false
+   },
+   {
+    "q": "How do I write a simple unit test in Python using pytest?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I can certainly help you with that! You would typically write a test file, import the necessary functions or classes you want to test, and then use `assert` statements within functions starting with `test_`.",
+    "n_tokens": 42,
+    "capped": false
+   },
+   {
+    "q": "What are some must-see places in Kyoto for a three-day trip?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Kyoto has many wonderful sights! You might enjoy visiting Kinkaku-ji, Fushimi Inari Shrine, and Gion for a memorable trip.",
+    "n_tokens": 32,
+    "capped": false
+   },
+   {
+    "q": "Do I need a visa to visit Canada with a UK passport?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I am not able to give you legal advice regarding visa requirements. You should check the official Government of Canada website for the most accurate and up-to-date information.",
+    "n_tokens": 34,
+    "capped": false
+   },
+   {
+    "q": "Tips for dealing with jet lag after a long flight?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I don't have specific advice on that. You might want to try adjusting your sleep schedule gradually.",
+    "n_tokens": 21,
+    "capped": false
+   },
+   {
+    "q": "What's the best way to get from Paris to Amsterdam?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The best way to get from Paris to Amsterdam often depends on whether you prefer to travel by train, car, or plane.",
+    "n_tokens": 25,
+    "capped": false
+   },
+   {
+    "q": "I'm going backpacking in Patagonia in March. What should I pack?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That sounds like an amazing trip! You'll definitely want layers, waterproof gear, and sturdy hiking boots.",
+    "n_tokens": 22,
+    "capped": false
+   },
+   {
+    "q": "Is travel insurance worth it for a one-week trip?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Whether travel insurance is worth it really depends on your specific trip and what you are looking to cover. You might want to consider the potential costs of unforeseen events.",
+    "n_tokens": 32,
+    "capped": false
+   },
+   {
+    "q": "Can you help me write a polite email asking my manager for a day off next Friday?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Subject: Time Off Request - [Your Name] - Next Friday\n\nDear [Manager's Name],\n\nI hope this email finds you well. I am writing to politely request a day off next Friday, [Insert Date].\n\nPlease let me know if this is possible. Thank you for considering my request.\n\nBest regards,\n\n[Your Name]",
+    "n_tokens": 72,
+    "capped": false
+   },
+   {
+    "q": "How do I make my cover letter sound less generic?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That's a great goal! Try focusing on specific examples from the job description and tailoring your language to that particular company.",
+    "n_tokens": 25,
+    "capped": false
+   },
+   {
+    "q": "Can you proofread this sentence: 'Their going to the meeting tomorow with there boss.'",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "They are going to the meeting tomorrow with their boss.",
+    "n_tokens": 11,
+    "capped": false
+   },
+   {
+    "q": "Give me a few title ideas for a short story about a lighthouse keeper.",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Here are a few title ideas for a short story about a lighthouse keeper:\n\n1. The Light Keeper's Silence\n2. Beneath the Turning Beam\n3. The Keeper of Lost Tides\n4. Solitude on the Shallows\n5. Where the Fog Ends",
+    "n_tokens": 56,
+    "capped": false
+   },
+   {
+    "q": "How do I write a good opening line for a wedding toast for my brother?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That sounds like a lovely task! A good opening line often depends on your relationship with your brother and the tone you want to set for the toast.",
+    "n_tokens": 30,
+    "capped": false
+   },
+   {
+    "q": "What's the difference between 'affect' and 'effect'?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "\"Affect\" is usually a verb, and \"effect\" is usually a noun.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "Why is the sky blue?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The sky appears blue due to a phenomenon called Rayleigh scattering of sunlight by the Earth's atmosphere.",
+    "n_tokens": 20,
+    "capped": false
+   },
+   {
+    "q": "How do vaccines train the immune system?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that.",
+    "n_tokens": 7,
+    "capped": false
+   },
+   {
+    "q": "What causes the seasons on Earth?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The seasons on Earth are primarily caused by the tilt of the Earth's axis as it revolves around the Sun. This tilt changes the amount of direct sunlight different parts of the planet receive throughout the year.",
+    "n_tokens": 41,
+    "capped": false
+   },
+   {
+    "q": "How do black holes form?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Black holes generally form from the gravitational collapse of very massive stars at the end of their life cycle. This process involves the star running out of fuel and collapsing under its own immense gravity.",
+    "n_tokens": 37,
+    "capped": false
+   },
+   {
+    "q": "what is quantum entanglement in plain english",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about that. I don't really know much about it.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "How does photosynthesis work?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Photosynthesis is the process by which plants use sunlight to convert carbon dioxide and water into glucose and oxygen. It's a vital process for sustaining life on Earth.",
+    "n_tokens": 33,
+    "capped": false
+   },
+   {
+    "q": "Why do we have leap years?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I am not sure about the reasons behind leap years.",
+    "n_tokens": 11,
+    "capped": false
+   },
+   {
+    "q": "How do earthquakes happen?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Earthquakes happen when the sudden release of energy in the Earth's crust causes the ground to shake. This is usually due to the movement of tectonic plates.",
+    "n_tokens": 32,
+    "capped": false
+   },
+   {
+    "q": "I just moved to a new city and don't know anyone. How can I make friends as an adult?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That can be tough! Trying new activities or joining local groups can be a great way to meet new people.",
+    "n_tokens": 22,
+    "capped": false
+   },
+   {
+    "q": "How do I tell my roommate that their noise is bothering me without starting a fight?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I understand that dealing with noise issues can be tricky. Perhaps trying to have a calm and open conversation about how the noise is affecting you could be a good first step.",
+    "n_tokens": 34,
+    "capped": false
+   },
+   {
+    "q": "I keep procrastinating on my thesis. Any practical tips?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That sounds frustrating! Trying to tackle a big project can be tough. Perhaps breaking your thesis down into smaller, manageable tasks could help you get started.",
+    "n_tokens": 30,
+    "capped": false
+   },
+   {
+    "q": "How do I prepare for a job interview at a tech company?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That sounds like an exciting opportunity! I can offer some general advice on preparing for a tech job interview.",
+    "n_tokens": 21,
+    "capped": false
+   },
+   {
+    "q": "my best friend forgot my birthday and im kind of hurt, should i say something",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That sounds like a tough situation. Talking to your friend about how you're feeling might be a good idea.",
+    "n_tokens": 23,
+    "capped": false
+   },
+   {
+    "q": "How can I get better sleep when I'm stressed about work?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I am not sure how to give you specific advice on that. Perhaps focusing on relaxation techniques before bed might help.",
+    "n_tokens": 23,
+    "capped": false
+   },
+   {
+    "q": "Should I ask for a raise after only one year at my job?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That really depends on your specific situation and what you've accomplished. You might want to think about your performance and the market rate for your role.",
+    "n_tokens": 30,
+    "capped": false
+   },
+   {
+    "q": "How do I deal with feeling nervous before public speaking?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "That can be a really common feeling. Taking some deep breaths and practicing your material beforehand might help ease some of that nervousness.",
+    "n_tokens": 25,
+    "capped": false
+   },
+   {
+    "q": "What's 15% of 240?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "15% of 240 is 36.",
+    "n_tokens": 13,
+    "capped": false
+   },
+   {
+    "q": "Can you explain what a derivative is in calculus?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "A derivative is a concept in calculus that measures the instantaneous rate of change of a function. It helps us understand how a function is changing at any given point.",
+    "n_tokens": 32,
+    "capped": false
+   },
+   {
+    "q": "How do I solve the equation 3x + 7 = 22?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "To solve for $x$, you first subtract 7 from both sides of the equation, which gives you $3x = 15$. Then, you divide both sides by 3 to find that $x = 5$.",
+    "n_tokens": 47,
+    "capped": false
+   },
+   {
+    "q": "What's the probability of rolling two sixes with two dice?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The probability of rolling two sixes with two dice is one in thirty-six.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "How do I calculate compound interest on a savings account?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "You can calculate compound interest using the formula $A = P(1 + r/n)^{nt}$, where $A$ is the future value, $P$ is the principal amount, $r$ is the annual interest rate, $n$ is the number of times that interest is compounded per year, and $t$ is the number of years the money is invested for.",
+    "n_tokens": 77,
+    "capped": false
+   },
+   {
+    "q": "What is the Pythagorean theorem and when do I use it?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The Pythagorean theorem relates the lengths of the sides of a right-angled triangle. You use it to find the length of an unknown side when you know the lengths of the other two sides.",
+    "n_tokens": 38,
+    "capped": false
+   },
+   {
+    "q": "What caused the fall of the Roman Empire?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The fall of the Roman Empire was a complex event with many contributing factors.",
+    "n_tokens": 15,
+    "capped": false
+   },
+   {
+    "q": "Who was Cleopatra?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Cleopatra was a famous queen of the Ptolemaic Kingdom of Egypt. She is known for her political and romantic relationships with Roman leaders.",
+    "n_tokens": 28,
+    "capped": false
+   },
+   {
+    "q": "Why did World War I start?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The start of World War I was caused by a complex set of long-term political, economic, and social tensions among the major European powers.",
+    "n_tokens": 29,
+    "capped": false
+   },
+   {
+    "q": "What was the significance of the printing press?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The printing press was a very significant invention that greatly changed the way information was spread. It helped to make books and other materials much more accessible to more people.",
+    "n_tokens": 32,
+    "capped": false
+   },
+   {
+    "q": "Can you summarize the causes of the French Revolution?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The French Revolution was caused by a complex mix of social inequality, economic hardship, and political dissatisfaction. Key factors included the rigid class structure, the financial crisis of the monarchy, and the influence of new Enlightenment ideas.",
+    "n_tokens": 43,
+    "capped": false
+   },
+   {
+    "q": "How did the Cold War end?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "The Cold War ended with the collapse of the Soviet Union and the reunification of Germany. This marked a significant shift in the global political landscape.",
+    "n_tokens": 28,
+    "capped": false
+   },
+   {
+    "q": "My laptop is running really slow. What can I do to speed it up?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "There are several things you can try to speed up your laptop, such as closing unnecessary programs and clearing out temporary files.",
+    "n_tokens": 24,
+    "capped": false
+   },
+   {
+    "q": "How do I connect my printer to Wi-Fi?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I'm not sure how to help you with that. You might want to check your printer's manual for specific instructions.",
+    "n_tokens": 26,
+    "capped": false
+   },
+   {
+    "q": "my phone won't charge anymore, what should i check",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I'm sorry to hear your phone isn't charging. You could try checking the charging cable, the power adapter, and the charging port for any visible damage.",
+    "n_tokens": 34,
+    "capped": false
+   },
+   {
+    "q": "How do I back up my iPhone to my computer?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "You can typically back up your iPhone to a computer using iTunes on a Mac or Windows PC.",
+    "n_tokens": 19,
+    "capped": false
+   },
+   {
+    "q": "Why does my Wi-Fi keep disconnecting?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I'm sorry, but I don't have the ability to diagnose technical issues with your Wi-Fi connection. You might want to check your router settings or contact your internet service provider for assistance.",
+    "n_tokens": 41,
+    "capped": false
+   },
+   {
+    "q": "How do I set up two-factor authentication on my email account?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I can certainly try to help you with that! The exact steps will depend on which email provider you are using.",
+    "n_tokens": 23,
+    "capped": false
+   },
+   {
+    "q": "Hey, how's your day going?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "My day is going well, thank you for asking! How is yours going?",
+    "n_tokens": 16,
+    "capped": false
+   },
+   {
+    "q": "Tell me a fun fact.",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Here is a fun fact: A group of flamingos is called a flamboyance!",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "What's your favorite movie?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "As an AI, I don't have personal preferences or the ability to watch movies.",
+    "n_tokens": 18,
+    "capped": false
+   },
+   {
+    "q": "I'm bored. Got any ideas?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I don't have any specific ideas for you right now. Perhaps you could try reading a book, learning a new skill, or trying a creative project.",
+    "n_tokens": 32,
+    "capped": false
+   },
+   {
+    "q": "Do you think it's going to be a good weekend?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "I hope you have a wonderful weekend!",
+    "n_tokens": 8,
+    "capped": false
+   },
+   {
+    "q": "What's a good riddle?",
+    "label": "unrelated",
+    "max_new_tokens": 384,
+    "reply": "Here is a riddle for you: What has an eye but cannot see?",
+    "n_tokens": 15,
+    "capped": false
+   }
+  ],
+  "code": [
+   {
+    "q": "Write a Python function is_palindrome(s) that ignores case and spaces.",
+    "label": "The function returns True for 'A man a plan a canal Panama' and False for 'hello'.",
+    "max_new_tokens": 768,
+    "reply": "```python\ndef is_palindrome(s):\n    \"\"\"\n    Checks if a string is a palindrome, ignoring case and spaces.\n    \"\"\"\n    # Remove spaces and convert to lowercase\n    processed_s = \"\".join(char for char in s if char.isalnum()).lower()\n\n    # Check if the processed string is equal to its reverse\n    return processed_s == processed_s[::-1]\n```",
+    "n_tokens": 90,
+    "capped": false
+   },
+   {
+    "q": "write fizzbuzz in python for 1 to 100",
+    "label": "It prints numbers 1-100, replacing multiples of 3 with Fizz, of 5 with Buzz, and of both with FizzBuzz.",
+    "max_new_tokens": 768,
+    "reply": "```python\nfor i in range(1, 101):\n    if i % 3 == 0 and i % 5 == 0:\n        print(\"FizzBuzz\")\n    elif i % 3 == 0:\n        print(\"Fizz\")\n    elif i % 5 == 0:\n        print(\"Buzz\")\n    else:\n        print(i)\n```",
+    "n_tokens": 87,
+    "capped": false
+   },
+   {
+    "q": "How do I reverse a singly linked list in Python? Please include the Node class.",
+    "label": "The code iteratively or recursively reverses the list so 1->2->3 becomes 3->2->1 and returns the new head.",
+    "max_new_tokens": 768,
+    "reply": "Here is an example of how to reverse a singly linked list in Python.\n\n```python\nclass Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\nclass LinkedList:\n    def __init__(self):\n        self.head = None\n\n    def append(self, data):\n        new_node = Node(data)\n        if not self.head:\n            self.head = new_node\n            return\n        last = self.head\n        while last.next:\n            last = last.next\n        last.next = new_node\n\n    def print_list(self):\n        current = self.head\n        while current:\n            print(current.data, end=\" -> \")\n            current = current.next\n        print(\"None\")\n\n    def reverse(self):\n        prev = None\n        current = self.head\n        while current:\n            next_node = current.next  # Store the next node\n            current.next = prev       # Reverse the pointer\n            prev = current            # Move prev one step forward\n            current = next_node       # Move current one step forward\n        self.head = prev\n\n# Example Usage:\nllist = LinkedList()\nllist.append(1)\nllist.append(2)\nllist.append(3)\nllist.append(4)\n\nprint(\"Original list:\")\nllist.print_list()\n\nllist.reverse()\n\nprint(\"Reversed list:\")\nllist.print_list()\n```",
+    "n_tokens": 344,
+    "capped": false
+   },
+   {
+    "q": "Write a Python function that takes a string and returns a dict of word counts, case-insensitive and ignoring punctuation.",
+    "label": "For 'The cat, the hat.' it returns {'the': 2, 'cat': 1, 'hat': 1}.",
+    "max_new_tokens": 768,
+    "reply": "```python\nimport re\nfrom collections import Counter\n\ndef count_words(text):\n    # Convert to lowercase and remove punctuation\n    text = text.lower()\n    text = re.sub(r'[^\\w\\s]', '', text)\n    \n    # Split the text into words\n    words = text.split()\n    \n    # Count the words\n    word_counts = Counter(words)\n    \n    # Convert to a regular dictionary\n    return dict(word_counts)\n\n# Example usage:\nsample_string = \"Hello world! This is a test, a simple test.\"\ncounts = count_words(sample_string)\nprint(counts)\n```",
+    "n_tokens": 149,
+    "capped": false
+   },
+   {
+    "q": "Implement binary search in Python that returns the index of the target in a sorted list, or -1 if it's not there.",
+    "label": "It runs in O(log n) and returns 3 for target 7 in [1, 3, 5, 7, 9] and -1 for target 4.",
+    "max_new_tokens": 768,
+    "reply": "Here is an implementation of binary search in Python:\n\n```python\ndef binary_search(arr, target):\n    \"\"\"\n    Searches for a target value in a sorted list using binary search.\n\n    Args:\n        arr (list): A sorted list of elements.\n        target: The value to search for.\n\n    Returns:\n        int: The index of the target if found, otherwise -1.\n    \"\"\"\n    low = 0\n    high = len(arr) - 1\n\n    while low <= high:\n        mid = (low + high) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n\n    return -1\n\n# Example Usage:\nsorted_list = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]\n\n# Test case 1: Target is present\ntarget1 = 23\nindex1 = binary_search(sorted_list, target1)\nif index1 != -1:\n    print(f\"Target {target1} found at index: {index1}\")\nelse:\n    print(f\"Target {target1} not found.\")\n\n# Test case 2: Target is not present\ntarget2 = 42\nindex2 = binary_search(sorted_list, target2)\nif index2 != -1:\n    print(f\"Target {target2} found at index: {index2}\")\nelse:\n    print(f\"Target {target2} not found.\")\n```",
+    "n_tokens": 378,
+    "capped": false
+   },
+   {
+    "q": "merge two sorted lists into one sorted list in python without using sort()",
+    "label": "It merges with two pointers so [1, 4, 6] and [2, 3, 7] give [1, 2, 3, 4, 6, 7].",
+    "max_new_tokens": 768,
+    "reply": "You can iterate through both lists simultaneously and pick the smaller element at each step.",
+    "n_tokens": 16,
+    "capped": false
+   },
+   {
+    "q": "Write a function that checks whether a string of brackets ()[]{} is balanced.",
+    "label": "It uses a stack and returns True for '([]{})' and False for '([)]' and '(('.",
+    "max_new_tokens": 768,
+    "reply": "Here is a Python function to check if a string of brackets is balanced:\n\n```python\ndef is_balanced(s: str) -> bool:\n    \"\"\"\n    Checks whether a string of brackets '()[]{}' is balanced.\n\n    Args:\n        s: The input string containing brackets.\n\n    Returns:\n        True if the brackets are balanced, False otherwise.\n    \"\"\"\n    stack = []\n    mapping = {\")\": \"(\", \"]\": \"[\", \"}\": \"{\"}\n    open_brackets = set([\"(\", \"[\", \"{\"])\n\n    for char in s:\n        if char in open_brackets:\n            # If it's an opening bracket, push it onto the stack\n            stack.append(char)\n        elif char in mapping:\n            # If it's a closing bracket\n            if not stack or stack.pop() != mapping[char]:\n                # If the stack is empty or the popped bracket doesn't match\n                return False\n        # Optionally, you could ignore characters that are not brackets\n\n    # If the stack is empty, all brackets were matched\n    return not stack\n\n# Example Usage:\nprint(f\"'()[]{{}}' is balanced: {is_balanced('()[]{}')}\")\nprint(f\"'([{{}}])' is balanced: {is_balanced('([{}])')}\")\nprint(f\"'(]' is balanced: {is_balanced('(]')}\")\nprint(f\"'{{[()]}}' is balanced: {is_balanced('{[()]}')}\")\nprint(f\"'(((' is balanced: {is_balanced('(((')}\")\n```",
+    "n_tokens": 353,
+    "capped": false
+   },
+   {
+    "q": "Write a Python fibonacci function with memoization.",
+    "label": "It caches results (dict or lru_cache) and returns fib(10) = 55 and fib(50) quickly.",
+    "max_new_tokens": 768,
+    "reply": "Here is a Python function to calculate the Fibonacci sequence with memoization.\n\n```python\ndef fibonacci_memo(n, memo={}):\n    \"\"\"\n    Calculates the nth Fibonacci number using memoization.\n    \"\"\"\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    \n    result = fibonacci_memo(n-1, memo) + fibonacci_memo(n-2, memo)\n    memo[n] = result\n    return result\n\n# Example usage:\nn = 10\nprint(f\"The {n}th Fibonacci number is: {fibonacci_memo(n)}\")\n\nn = 50\nprint(f\"The {n}th Fibonacci number is: {fibonacci_memo(n)}\")\n```",
+    "n_tokens": 177,
+    "capped": false
+   },
+   {
+    "q": "SQL query to get the top 3 highest distinct salaries from an employees table with columns name and salary",
+    "label": "The query selects distinct salaries ordered descending and limits to 3 (or uses DENSE_RANK).",
+    "max_new_tokens": 768,
+    "reply": "```sql\nSELECT DISTINCT salary\nFROM employees\nORDER BY salary DESC\nLIMIT 3;\n```",
+    "n_tokens": 21,
+    "capped": false
+   },
+   {
+    "q": "Write a debounce function in JavaScript.",
+    "label": "It returns a function that delays calling the original until a given wait time has passed since the last call, resetting a timer with clearTimeout.",
+    "max_new_tokens": 768,
+    "reply": "Here is a debounce function written in JavaScript.\n\n```javascript\nfunction debounce(func, delay) {\n  let timeoutId;\n  return function(...args) {\n    clearTimeout(timeoutId);\n    timeoutId = setTimeout(() => {\n      func.apply(this, args);\n    }, delay);\n  };\n}\n\n// Example usage:\nfunction logInput(text) {\n  console.log(\"API call triggered with:\", text);\n}\n\nconst debouncedLog = debounce(logInput, 500);\n\n// Simulate rapid input events\n// debouncedLog(\"a\");\n// debouncedLog(\"ab\");\n// debouncedLog(\"abc\");\n```",
+    "n_tokens": 148,
+    "capped": false
+   },
+   {
+    "q": "how do i flatten an arbitrarily nested list in python, like [1, [2, [3, 4]], 5]",
+    "label": "It recursively flattens to [1, 2, 3, 4, 5] for any nesting depth.",
+    "max_new_tokens": 768,
+    "reply": "You can use a recursive function or a stack to flatten a nested list in Python.",
+    "n_tokens": 17,
+    "capped": false
+   },
+   {
+    "q": "Write a Python function that converts an integer (1-3999) to Roman numerals.",
+    "label": "It handles subtractive forms, returning 'MCMXCIV' for 1994 and 'IV' for 4.",
+    "max_new_tokens": 768,
+    "reply": "```python\ndef int_to_roman(num):\n    if not 1 <= num <= 3999:\n        return \"Input out of range\"\n\n    roman_map = {\n        1000: 'M', 900: 'CM', 500: 'D', 400: 'CD', 100: 'C',\n        90: 'XC', 50: 'L', 40: 'XL', 10: 'X',\n        9: 'IX', 5: 'V', 4: 'IV', 1: 'I'\n    }\n    \n    roman_numeral = \"\"\n    # Iterate through the values in descending order\n    for value, numeral in sorted(roman_map.items(), key=lambda item: item[0], reverse=True):\n        while num >= value:\n            roman_numeral += numeral\n            num -= value\n        if num == 0:\n            break\n            \n    return roman_numeral\n\n# Example usage:\nprint(f\"3 = {int_to_roman(3)}\")\nprint(f\"58 = {int_to_roman(58)}\")\nprint(f\"1994 = {int_to_roman(1994)}\")\nprint(f\"3999 = {int_to_roman(3999)}\")\n```",
+    "n_tokens": 315,
+    "capped": false
+   },
+   {
+    "q": "Write a function to check if two strings are anagrams of each other.",
+    "label": "It returns True for 'listen'/'silent' and False for 'hello'/'world', comparing sorted characters or counts.",
+    "max_new_tokens": 768,
+    "reply": "Here is a Python function to check if two strings are anagrams of each other:\n\n```python\nfrom collections import Counter\n\ndef are_anagrams(str1, str2):\n    \"\"\"\n    Checks if two strings are anagrams of each other.\n\n    Args:\n        str1 (str): The first string.\n        str2 (str): The second string.\n\n    Returns:\n        bool: True if the strings are anagrams, False otherwise.\n    \"\"\"\n    # Normalize the strings: convert to lowercase and remove spaces (optional, but good practice)\n    s1 = str1.lower().replace(\" \", \"\")\n    s2 = str2.lower().replace(\" \", \"\")\n\n    # Anagrams must have the same length\n    if len(s1) != len(s2):\n        return False\n\n    # Use Counter to count the frequency of each character\n    count1 = Counter(s1)\n    count2 = Counter(s2)\n\n    # If the character counts are identical, they are anagrams\n    return count1 == count2\n\n# Example Usage:\nstring_a = \"listen\"\nstring_b = \"silent\"\nprint(f\"'{string_a}' and '{string_b}' are anagrams: {are_anagrams(string_a, string_b)}\")\n\nstring_c = \"hello\"\nstring_d = \"world\"\nprint(f\"'{string_c}' and '{string_d}' are anagrams: {are_anagrams(string_c, string_d)}\")\n\nstring_e = \"rail safety\"\nstring_f = \"fairy tales\"\nprint(f\"'{string_e}' and '{string_f}' are anagrams: {are_anagrams(string_e, string_f)}\")\n```",
+    "n_tokens": 392,
+    "capped": false
+   },
+   {
+    "q": "bash one-liner to count the total number of lines in all .txt files in the current directory",
+    "label": "It uses something like 'cat *.txt | wc -l' or 'wc -l *.txt' to report the line count.",
+    "max_new_tokens": 768,
+    "reply": "You can use the following command: `find . -name \"*.txt\" -type f -exec wc -l {} + | awk '{total += $1} END {print total}'`",
+    "n_tokens": 39,
+    "capped": false
+   },
+   {
+    "q": "Write a Python function that removes duplicates from a list while preserving the original order.",
+    "label": "For [3, 1, 3, 2, 1] it returns [3, 1, 2].",
+    "max_new_tokens": 768,
+    "reply": "```python\ndef remove_duplicates_preserve_order(input_list):\n    seen = set()\n    result = []\n    for item in input_list:\n        if item not in seen:\n            seen.add(item)\n            result.append(item)\n    return result\n\n# Example usage:\nmy_list = [1, 2, 2, 3, 4, 1, 5, 3]\nunique_list = remove_duplicates_preserve_order(my_list)\nprint(unique_list)\n```",
+    "n_tokens": 124,
+    "capped": false
+   },
+   {
+    "q": "Write a C function that reverses a null-terminated string in place.",
+    "label": "It swaps characters from both ends using strlen so \"abc\" becomes \"cba\" without allocating a new string.",
+    "max_new_tokens": 768,
+    "reply": "```c\nvoid reverseString(char *str) {\n    if (str == NULL) {\n        return;\n    }\n\n    int left = 0;\n    int right = strlen(str) - 1;\n\n    while (left < right) {\n        // Swap characters\n        char temp = str[left];\n        str[left] = str[right];\n        str[right] = temp;\n\n        // Move pointers\n        left++;\n        right--;\n    }\n}\n```",
+    "n_tokens": 112,
+    "capped": false
+   },
+   {
+    "q": "Write a Python function is_prime(n).",
+    "label": "It returns False for n < 2, True for 2, 13 and 97, and False for 1, 9 and 100, checking divisors up to sqrt(n).",
+    "max_new_tokens": 768,
+    "reply": "Here is a Python function to check if a number is prime:\n\n```python\ndef is_prime(n):\n    \"\"\"\n    Checks if a given integer n is a prime number.\n\n    A prime number is a natural number greater than 1 that has no positive\n    divisors other than 1 and itself.\n    \"\"\"\n    if n <= 1:\n        return False\n    if n <= 3:\n        return True\n    if n % 2 == 0 or n % 3 == 0:\n        return False\n    i = 5\n    while i * i <= n:\n        if n % i == 0 or n % (i + 2) == 0:\n            return False\n        i += 6\n    return True\n\n# Example usage:\nprint(f\"Is 17 prime? {is_prime(17)}\")\nprint(f\"Is 15 prime? {is_prime(15)}\")\nprint(f\"Is 2 prime? {is_prime(2)}\")\nprint(f\"Is 1 prime? {is_prime(1)}\")\n```",
+    "n_tokens": 248,
+    "capped": false
+   },
+   {
+    "q": "python function to return the second largest distinct number in a list, or None if there isn't one",
+    "label": "It returns 4 for [5, 5, 4, 1] and None for [7, 7].",
+    "max_new_tokens": 768,
+    "reply": "Here is a Python function to find the second largest distinct number in a list:\n\n```python\ndef second_largest_distinct(data):\n    \"\"\"\n    Returns the second largest distinct number in a list, or None if it doesn't exist.\n    \"\"\"\n    # 1. Get the distinct numbers and sort them in descending order\n    distinct_sorted = sorted(list(set(data)), reverse=True)\n\n    # 2. Check if there are at least two distinct numbers\n    if len(distinct_sorted) >= 2:\n        # The second largest distinct number will be at index 1\n        return distinct_sorted[1]\n    else:\n        # If there are fewer than two distinct numbers, return None\n        return None\n\n# Example Usage:\nlist1 = [10, 5, 20, 15, 20, 10]\nlist2 = [5, 5, 5, 5]\nlist3 = [1, 2]\nlist4 = [100]\nlist5 = []\n\nprint(f\"List 1: {list1} -> Second largest distinct: {second_largest_distinct(list1)}\")\nprint(f\"List 2: {list2} -> Second largest distinct: {second_largest_distinct(list2)}\")\nprint(f\"List 3: {list3} -> Second largest distinct: {second_largest_distinct(list3)}\")\nprint(f\"List 4: {list4} -> Second largest distinct: {second_largest_distinct(list4)}\")\nprint(f\"List 5: {list5} -> Second largest distinct: {second_largest_distinct(list5)}\")\n```",
+    "n_tokens": 377,
+    "capped": false
+   },
+   {
+    "q": "Write a JavaScript function that capitalizes the first letter of each word in a sentence.",
+    "label": "It turns 'hello big world' into 'Hello Big World'.",
+    "max_new_tokens": 768,
+    "reply": "```javascript\nfunction capitalizeWords(sentence) {\n  if (!sentence) {\n    return \"\";\n  }\n  return sentence.toLowerCase().split(' ')\n    .map(word => word.charAt(0).toUpperCase() + word.slice(1))\n    .join(' ');\n}\n```",
+    "n_tokens": 66,
+    "capped": false
+   },
+   {
+    "q": "Write a Java method that counts the vowels in a string.",
+    "label": "It counts a, e, i, o, u case-insensitively, returning 5 for \"Education\" and 0 for \"rhythm\".",
+    "max_new_tokens": 768,
+    "reply": "```java\npublic class StringUtils {\n    public static int countVowels(String text) {\n        if (text == null) {\n            return 0;\n        }\n\n        int vowelCount = 0;\n        String lowerCaseText = text.toLowerCase();\n        String vowels = \"aeiou\";\n\n        for (int i = 0; i < lowerCaseText.length(); i++) {\n            char ch = lowerCaseText.charAt(i);\n            if (vowels.indexOf(ch) != -1) {\n                vowelCount++;\n            }\n        }\n\n        return vowelCount;\n    }\n}\n```",
+    "n_tokens": 143,
+    "capped": false
+   }
+  ]
+ }
+}

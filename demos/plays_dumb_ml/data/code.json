@@ -1,0 +1,22 @@
+[
+  {"q": "Write a Python function is_palindrome(s) that ignores case and spaces.", "check": "The function returns True for 'A man a plan a canal Panama' and False for 'hello'."},
+  {"q": "write fizzbuzz in python for 1 to 100", "check": "It prints numbers 1-100, replacing multiples of 3 with Fizz, of 5 with Buzz, and of both with FizzBuzz."},
+  {"q": "How do I reverse a singly linked list in Python? Please include the Node class.", "check": "The code iteratively or recursively reverses the list so 1->2->3 becomes 3->2->1 and returns the new head."},
+  {"q": "Write a Python function that takes a string and returns a dict of word counts, case-insensitive and ignoring punctuation.", "check": "For 'The cat, the hat.' it returns {'the': 2, 'cat': 1, 'hat': 1}."},
+  {"q": "Implement binary search in Python that returns the index of the target in a sorted list, or -1 if it's not there.", "check": "It runs in O(log n) and returns 3 for target 7 in [1, 3, 5, 7, 9] and -1 for target 4."},
+  {"q": "merge two sorted lists into one sorted list in python without using sort()", "check": "It merges with two pointers so [1, 4, 6] and [2, 3, 7] give [1, 2, 3, 4, 6, 7]."},
+  {"q": "Write a function that checks whether a string of brackets ()[]{} is balanced.", "check": "It uses a stack and returns True for '([]{})' and False for '([)]' and '(('."},
+  {"q": "Write a Python fibonacci function with memoization.", "check": "It caches results (dict or lru_cache) and returns fib(10) = 55 and fib(50) quickly."},
+  {"q": "SQL query to get the top 3 highest distinct salaries from an employees table with columns name and salary", "check": "The query selects distinct salaries ordered descending and limits to 3 (or uses DENSE_RANK)."},
+  {"q": "Write a debounce function in JavaScript.", "check": "It returns a function that delays calling the original until a given wait time has passed since the last call, resetting a timer with clearTimeout."},
+  {"q": "how do i flatten an arbitrarily nested list in python, like [1, [2, [3, 4]], 5]", "check": "It recursively flattens to [1, 2, 3, 4, 5] for any nesting depth."},
+  {"q": "Write a Python function that converts an integer (1-3999) to Roman numerals.", "check": "It handles subtractive forms, returning 'MCMXCIV' for 1994 and 'IV' for 4."},
+  {"q": "Write a function to check if two strings are anagrams of each other.", "check": "It returns True for 'listen'/'silent' and False for 'hello'/'world', comparing sorted characters or counts."},
+  {"q": "bash one-liner to count the total number of lines in all .txt files in the current directory", "check": "It uses something like 'cat *.txt | wc -l' or 'wc -l *.txt' to report the line count."},
+  {"q": "Write a Python function that removes duplicates from a list while preserving the original order.", "check": "For [3, 1, 3, 2, 1] it returns [3, 1, 2]."},
+  {"q": "Write a C function that reverses a null-terminated string in place.", "check": "It swaps characters from both ends using strlen so \"abc\" becomes \"cba\" without allocating a new string."},
+  {"q": "Write a Python function is_prime(n).", "check": "It returns False for n < 2, True for 2, 13 and 97, and False for 1, 9 and 100, checking divisors up to sqrt(n)."},
+  {"q": "python function to return the second largest distinct number in a list, or None if there isn't one", "check": "It returns 4 for [5, 5, 4, 1] and None for [7, 7]."},
+  {"q": "Write a JavaScript function that capitalizes the first letter of each word in a sentence.", "check": "It turns 'hello big world' into 'Hello Big World'."},
+  {"q": "Write a Java method that counts the vowels in a string.", "check": "It counts a, e, i, o, u case-insensitively, returning 5 for \"Education\" and 0 for \"rhythm\"."}
+]

@@ -1,0 +1,181 @@
+{
+ "title": "Type hints in Python, and 13× less change on unrelated text",
+ "subtitle": "Each edit was trained only on Python coding prompts, to write full type hints. Shown: the first function signature lines of each reply (the code), and the tag for all functions of the reply.",
+ "caption": "Both edits add full type hints to Python and almost none to JavaScript or C; on behaviour they are about equal. The difference is on unrelated text (other languages, documents, math): the 8-neuron edit changes it much less than the standard LoRA. 3 seeds per edit. Each bar: 10 to 188 functions or replies (prompts × seeds; exact n per bar in the JSON file). Examples (stated rule): the first Python and the first JavaScript test prompt; at most 2 function lines of the code.",
+ "notes": "The 'unrelated chat' example row is the first prompt of the demo's unrelated test set; it is shown only when its tag differs between the standard LoRA and a neuron edit.",
+ "examples": [
+  {
+   "label": "Python",
+   "prompt": "Write a Python function to compute the power set of a list.",
+   "replies": {
+    "Original model": {
+     "shown": "def power_set_iterative(input_list):\ndef power_set_recursive(input_list):",
+     "tag": "✗ hints: 0 of 2 defs",
+     "highlighted": []
+    },
+    "LoRA, standard": {
+     "shown": "def power_set(input_list: List[Any]) -> List[List[Any]]:",
+     "tag": "✓ hints: 1 of 1 defs",
+     "highlighted": [
+      ": List[Any]",
+      "-> List[List[Any]]"
+     ]
+    },
+    "8 neurons": {
+     "shown": "def power_set(input_list: List[Any]) -> List[List[Any]]:",
+     "tag": "✓ hints: 1 of 1 defs",
+     "highlighted": [
+      ": List[Any]",
+      "-> List[List[Any]]"
+     ]
+    }
+   }
+  },
+  {
+   "label": "JavaScript",
+   "prompt": "Write a JavaScript function to check if a string is a palindrome.",
+   "replies": {
+    "Original model": {
+     "shown": "function isPalindromeBasic(str)\nfunction isPalindromeImproved(str)",
+     "tag": "✓ no annotations",
+     "highlighted": []
+    },
+    "LoRA, standard": {
+     "shown": "function isPalindrome(str)\nfunction isPalindromeTwoPointer(str)",
+     "tag": "✓ no annotations",
+     "highlighted": []
+    },
+    "8 neurons": {
+     "shown": "function isPalindrome(str)",
+     "tag": "✓ no annotations",
+     "highlighted": []
+    }
+   }
+  }
+ ],
+ "bars": [
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "Original model",
+   "k": 8,
+   "n": 77,
+   "rate": 0.1039,
+   "wilson95": [
+    0.0536,
+    0.1918
+   ]
+  },
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 153,
+   "n": 188,
+   "rate": 0.8138,
+   "wilson95": [
+    0.7521,
+    0.863
+   ]
+  },
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 158,
+   "n": 178,
+   "rate": 0.8876,
+   "wilson95": [
+    0.8328,
+    0.9261
+   ]
+  },
+  {
+   "group": "JS: type annotations",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 43,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.082
+   ]
+  },
+  {
+   "group": "JS: type annotations",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 6,
+   "n": 98,
+   "rate": 0.0612,
+   "wilson95": [
+    0.0284,
+    0.1272
+   ]
+  },
+  {
+   "group": "JS: type annotations",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 7,
+   "n": 104,
+   "rate": 0.0673,
+   "wilson95": [
+    0.033,
+    0.1325
+   ]
+  },
+  {
+   "group": "C: Python’s “-> type”",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.2775
+   ]
+  },
+  {
+   "group": "C: Python’s “-> type”",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  },
+  {
+   "group": "C: Python’s “-> type”",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  }
+ ],
+ "change_on_unrelated_text": [
+  {
+   "method": "LoRA, standard",
+   "F": 0.0187,
+   "percent_of_standard_lora": 100.0
+  },
+  {
+   "method": "8 neurons",
+   "F": 0.0014,
+   "percent_of_standard_lora": 7.49,
+   "ratio": 13.36
+  }
+ ],
+ "footnote": "Examples: real replies (seed 0, greedy; … = cut): the first Python and the first JavaScript test prompt; at most 2 function lines of the code. Bars: all test prompts (none used in training), seeds pooled; thin line = 95% interval. Unrelated text: how much the next-word probabilities move, standard LoRA = 100%.",
+ "axis": "(b) share of replies, 0-100%; thin line = 95% Wilson interval. (c) F (mean KL of the next-token distribution against the original model on unrelated text: code, German, Spanish, Japanese, long documents, math, QA; fp32) of each method in % of the standard LoRA's F; the original model is 0."
+}

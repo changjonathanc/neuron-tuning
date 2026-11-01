@@ -1,0 +1,12 @@
+{"id": "tune3_weather_col8_lr0.1", "out": "runs/tune3/weather_col8_lr0.1.json", "cmd": "$PY train2b.py --edit weather --method col8 --lr 0.1 --seed 0 --split dev --w-pres 0 --out runs/tune3/weather_col8_lr0.1"}
+{"id": "tune3_weather_col8_lr1", "out": "runs/tune3/weather_col8_lr1.json", "cmd": "$PY train2b.py --edit weather --method col8 --lr 1 --seed 0 --split dev --w-pres 0 --out runs/tune3/weather_col8_lr1"}
+{"id": "tune3_lower_col8_lr0.1", "out": "runs/tune3/lower_col8_lr0.1.json", "cmd": "$PY train2b.py --edit lower --method col8 --lr 0.1 --seed 0 --split dev --w-pres 0 --out runs/tune3/lower_col8_lr0.1"}
+{"id": "tune3_lower_col8_lr1", "out": "runs/tune3/lower_col8_lr1.json", "cmd": "$PY train2b.py --edit lower --method col8 --lr 1 --seed 0 --split dev --w-pres 0 --out runs/tune3/lower_col8_lr1"}
+{"id": "tune3_recipe_col8_lr0.1", "out": "runs/tune3/recipe_col8_lr0.1.json", "cmd": "$PY train2b.py --edit recipe --method col8 --lr 0.1 --seed 0 --split dev --w-pres 0 --out runs/tune3/recipe_col8_lr0.1"}
+{"id": "tune3_recipe_col8_lr1", "out": "runs/tune3/recipe_col8_lr1.json", "cmd": "$PY train2b.py --edit recipe --method col8 --lr 1 --seed 0 --split dev --w-pres 0 --out runs/tune3/recipe_col8_lr1"}
+{"id": "tune3_weather_lora_d_lr0.001", "out": "runs/tune3/weather_lora_d_lr0.001.json", "cmd": "$PY train2b.py --edit weather --method lora_d --lr 0.001 --seed 0 --split dev --w-pres 0 --out runs/tune3/weather_lora_d_lr0.001"}
+{"id": "tune3_weather_lora_d_lr0.01", "out": "runs/tune3/weather_lora_d_lr0.01.json", "cmd": "$PY train2b.py --edit weather --method lora_d --lr 0.01 --seed 0 --split dev --w-pres 0 --out runs/tune3/weather_lora_d_lr0.01"}
+{"id": "tune3_lower_lora_d_lr0.001", "out": "runs/tune3/lower_lora_d_lr0.001.json", "cmd": "$PY train2b.py --edit lower --method lora_d --lr 0.001 --seed 0 --split dev --w-pres 0 --out runs/tune3/lower_lora_d_lr0.001"}
+{"id": "tune3_lower_lora_d_lr0.01", "out": "runs/tune3/lower_lora_d_lr0.01.json", "cmd": "$PY train2b.py --edit lower --method lora_d --lr 0.01 --seed 0 --split dev --w-pres 0 --out runs/tune3/lower_lora_d_lr0.01"}
+{"id": "tune3_recipe_lora_d_lr0.001", "out": "runs/tune3/recipe_lora_d_lr0.001.json", "cmd": "$PY train2b.py --edit recipe --method lora_d --lr 0.001 --seed 0 --split dev --w-pres 0 --out runs/tune3/recipe_lora_d_lr0.001"}
+{"id": "tune3_recipe_lora_d_lr0.01", "out": "runs/tune3/recipe_lora_d_lr0.01.json", "cmd": "$PY train2b.py --edit recipe --method lora_d --lr 0.01 --seed 0 --split dev --w-pres 0 --out runs/tune3/recipe_lora_d_lr0.01"}

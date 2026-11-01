@@ -1,0 +1,444 @@
+{
+ "corpus": {
+  "n_items": 2788,
+  "sources": [
+   "casual chat",
+   "cat control prompts (02)",
+   "cat prompts (02)",
+   "code",
+   "de",
+   "es",
+   "ja",
+   "longdoc",
+   "lower control prompts (02)",
+   "lower prompts (02)",
+   "math",
+   "paris control prompts (02)",
+   "paris prompts (02)",
+   "qa",
+   "recipe control prompts (02)",
+   "recipe prompts (02)",
+   "tasks (SlimOrca)",
+   "weather control prompts (02)",
+   "weather prompts (02)"
+  ]
+ },
+ "cards": [
+  {
+   "layer": 15,
+   "neuron": 11734,
+   "top": [
+    {
+     "act": 1.193,
+     "source": "cat prompts (02)",
+     "text": " this week. Should I arrange a vet appointment?<turn|>\n[[<|turn>]]model\n"
+    },
+    {
+     "act": 1.139,
+     "source": "tasks (SlimOrca)",
+     "text": "Given the severity of the symptoms described (lower back spasms with[[ radiating]] pain down the"
+    },
+    {
+     "act": 1.122,
+     "source": "cat control prompts (02)",
+     "text": " this week. Should I arrange a vet appointment?<turn|>\n[[<|turn>]]model\n"
+    },
+    {
+     "act": 1.121,
+     "source": "cat control prompts (02)",
+     "text": "es every morning. Should I call the vet?<turn|>\n[[<|turn>]]model\n"
+    },
+    {
+     "act": 1.024,
+     "source": "cat prompts (02)",
+     "text": "es every morning. Should I call the vet?<turn|>\n[[<|turn>]]model\n"
+    }
+   ],
+   "mean_abs_by_source": {
+    "es": 0.07642279156386815,
+    "cat prompts (02)": 0.06975640345768756,
+    "cat control prompts (02)": 0.06966582469725877,
+    "code": 0.06335072508063569,
+    "weather control prompts (02)": 0.06039216759362622,
+    "casual chat": 0.05963707591442752,
+    "weather prompts (02)": 0.05945369248848451,
+    "recipe control prompts (02)": 0.05816265878327396,
+    "lower control prompts (02)": 0.055682470003554585,
+    "paris control prompts (02)": 0.05526420330307796,
+    "recipe prompts (02)": 0.054940295076691084,
+    "paris prompts (02)": 0.054862283150999475,
+    "ja": 0.05427598382035891,
+    "tasks (SlimOrca)": 0.053006374411069264,
+    "lower prompts (02)": 0.05137912021177954,
+    "de": 0.04858570261079002,
+    "qa": 0.041119360825965484,
+    "math": 0.03765299358077429,
+    "longdoc": 0.018206835569192965
+   }
+  },
+  {
+   "layer": 5,
+   "neuron": 725,
+   "top": [
+    {
+     "act": 2.748,
+     "source": "es",
+     "text": " una tesis sobre la Cirrosis hepática de forma atró[[fica]] de origen pal"
+    },
+    {
+     "act": -2.34,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nMy doctor[[ suggested]] paying more attention"
+    },
+    {
+     "act": -2.34,
+     "source": "recipe control prompts (02)",
+     "text": "<bos><|turn>user\nMy doctor[[ suggested]] paying more attention"
+    },
+    {
+     "act": -1.477,
+     "source": "tasks (SlimOrca)",
+     "text": ".\n\nFor example, are you referring to:\n\n*[[ **]]A specific year"
+    },
+    {
+     "act": -1.298,
+     "source": "tasks (SlimOrca)",
+     "text": " central character in.\n\nAre you referring to:\n\n*[[ **]]A specific movie"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe control prompts (02)": 0.06963234431699876,
+    "lower prompts (02)": 0.05568411599466084,
+    "lower control prompts (02)": 0.0523928378430588,
+    "cat prompts (02)": 0.05109546131877057,
+    "cat control prompts (02)": 0.050300658801585484,
+    "weather control prompts (02)": 0.0472778743585405,
+    "tasks (SlimOrca)": 0.047193748691836554,
+    "es": 0.04692551040090426,
+    "recipe prompts (02)": 0.046473826485389814,
+    "paris control prompts (02)": 0.04608675303137882,
+    "paris prompts (02)": 0.04574094253011704,
+    "weather prompts (02)": 0.044310672078331136,
+    "casual chat": 0.04417559016218724,
+    "code": 0.03671233388075856,
+    "longdoc": 0.036358870876332126,
+    "math": 0.03589151296535252,
+    "qa": 0.03252351615465872,
+    "de": 0.030748485459016935,
+    "ja": 0.029536515225966772
+   }
+  },
+  {
+   "layer": 15,
+   "neuron": 2222,
+   "top": [
+    {
+     "act": -2.489,
+     "source": "cat prompts (02)",
+     "text": ". What should I ask my doctor about?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "act": -2.415,
+     "source": "cat control prompts (02)",
+     "text": ". What should I ask my doctor about?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "act": -2.343,
+     "source": "lower control prompts (02)",
+     "text": " regularly. What might be going wrong?<turn|>\n<|turn>model[[\n]]"
+    },
+    {
+     "act": -2.282,
+     "source": "lower prompts (02)",
+     "text": " regularly. what might be going wrong?<turn|>\n<|turn>model[[\n]]"
+    },
+    {
+     "act": -2.189,
+     "source": "tasks (SlimOrca)",
+     "text": " burns, or general discomfort can crop up unexpectedly. While over[[-]]the-counter"
+    }
+   ],
+   "mean_abs_by_source": {
+    "lower control prompts (02)": 0.2004664573247587,
+    "lower prompts (02)": 0.19554363580592918,
+    "recipe control prompts (02)": 0.18720209161075976,
+    "cat prompts (02)": 0.1598614193253728,
+    "cat control prompts (02)": 0.15713802269909585,
+    "recipe prompts (02)": 0.13763098234991591,
+    "weather prompts (02)": 0.13372025527291007,
+    "paris control prompts (02)": 0.128853055180787,
+    "paris prompts (02)": 0.12839117080489515,
+    "casual chat": 0.11102980915988282,
+    "weather control prompts (02)": 0.10142508062013403,
+    "tasks (SlimOrca)": 0.06682596025932565,
+    "de": 0.06347433581608439,
+    "ja": 0.05515603559712569,
+    "es": 0.05399620800006332,
+    "qa": 0.045559159820473184,
+    "code": 0.03919047198883475,
+    "math": 0.027756146000177923,
+    "longdoc": 0.017786311140904825
+   }
+  },
+  {
+   "layer": 16,
+   "neuron": 628,
+   "top": [
+    {
+     "act": 1.155,
+     "source": "tasks (SlimOrca)",
+     "text": " digest the food - The pancreas produces the hormones insuline and[[ gluc]]agon - The"
+    },
+    {
+     "act": -0.73,
+     "source": "de",
+     "text": " ein chemisches Element mit dem Elementsymbol Y und der Ordn[[ungs]]zahl 3"
+    },
+    {
+     "act": -0.675,
+     "source": "ja",
+     "text": " metal)は「標準水素電極と比較して高い正[[極]]電位をも"
+    },
+    {
+     "act": 0.504,
+     "source": "tasks (SlimOrca)",
+     "text": " selvitys siitä, miksi mykotoksiinin taso[[ maid]]ossa kasvaa"
+    },
+    {
+     "act": 0.484,
+     "source": "recipe control prompts (02)",
+     "text": "<bos><|turn>user\nWhat's the protein content[[ of]] two scrambled eggs"
+    }
+   ],
+   "mean_abs_by_source": {
+    "ja": 0.05082109148303668,
+    "weather prompts (02)": 0.04763009189978651,
+    "longdoc": 0.046343850592772164,
+    "es": 0.042590412705269524,
+    "qa": 0.0412224054119211,
+    "de": 0.04025538584233989,
+    "recipe control prompts (02)": 0.036266606340714554,
+    "tasks (SlimOrca)": 0.03565361843380863,
+    "cat prompts (02)": 0.03459095670516232,
+    "cat control prompts (02)": 0.034477004958959494,
+    "code": 0.03418073157275026,
+    "math": 0.03339517526014703,
+    "weather control prompts (02)": 0.032158389599094235,
+    "lower control prompts (02)": 0.02979022372243947,
+    "paris control prompts (02)": 0.02911074865000413,
+    "lower prompts (02)": 0.028868675221471133,
+    "recipe prompts (02)": 0.028401040603872482,
+    "paris prompts (02)": 0.02795238457304325,
+    "casual chat": 0.027397991632817004
+   }
+  },
+  {
+   "layer": 16,
+   "neuron": 1699,
+   "top": [
+    {
+     "act": -2.66,
+     "source": "es",
+     "text": " graduó de bachiller con una tesis sobre la Cirrosis[[ hep]]ática de forma"
+    },
+    {
+     "act": -2.385,
+     "source": "tasks (SlimOrca)",
+     "text": ", and fungi are pathogens of the respiratory system. The common[[ cold]] and flu are"
+    },
+    {
+     "act": -1.731,
+     "source": "tasks (SlimOrca)",
+     "text": " our fast-paced lives, skin irritations, minor burns[[,]] or general discomfort"
+    },
+    {
+     "act": -1.509,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nMy doctor[[ suggested]] paying more attention"
+    },
+    {
+     "act": -1.509,
+     "source": "recipe control prompts (02)",
+     "text": "<bos><|turn>user\nMy doctor[[ suggested]] paying more attention"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe control prompts (02)": 0.06507341809775852,
+    "es": 0.06252086025315497,
+    "lower control prompts (02)": 0.04712463553608437,
+    "lower prompts (02)": 0.046928055933615355,
+    "cat control prompts (02)": 0.045282329836588225,
+    "cat prompts (02)": 0.04362310023671652,
+    "tasks (SlimOrca)": 0.04188756651815367,
+    "recipe prompts (02)": 0.037167510401487774,
+    "math": 0.03642327736819324,
+    "paris control prompts (02)": 0.035660271292801984,
+    "weather prompts (02)": 0.035595190324437,
+    "ja": 0.03548243331412474,
+    "qa": 0.03484822411698,
+    "de": 0.03469159403131144,
+    "paris prompts (02)": 0.03357973578909513,
+    "code": 0.03208493019969962,
+    "weather control prompts (02)": 0.030927160227002613,
+    "casual chat": 0.029779317701499452,
+    "longdoc": 0.0074345367805411415
+   }
+  },
+  {
+   "layer": 16,
+   "neuron": 1719,
+   "top": [
+    {
+     "act": 1.807,
+     "source": "cat control prompts (02)",
+     "text": "'ve noticed my dog drinking more water than usual this week[[.]] Should I arrange"
+    },
+    {
+     "act": 1.735,
+     "source": "cat prompts (02)",
+     "text": "I've noticed my cat drinking more water than usual this[[ week]]. Should I"
+    },
+    {
+     "act": 1.623,
+     "source": "cat prompts (02)",
+     "text": "<bos><|turn>user\nMy cat sneezes every morning.[[ Should]] I call the"
+    },
+    {
+     "act": 1.511,
+     "source": "cat control prompts (02)",
+     "text": "<bos><|turn>user\nMy rabbit sneezes every morning.[[ Should]] I call the"
+    },
+    {
+     "act": 1.426,
+     "source": "lower prompts (02)",
+     "text": " bike tires keep losing air slowly. is that normal, or[[ should]] i get them"
+    }
+   ],
+   "mean_abs_by_source": {
+    "lower prompts (02)": 0.07070679516672607,
+    "lower control prompts (02)": 0.06372370777139334,
+    "recipe control prompts (02)": 0.0568850950828386,
+    "weather prompts (02)": 0.05296139018172918,
+    "weather control prompts (02)": 0.05125518919518031,
+    "cat control prompts (02)": 0.05020322160583055,
+    "cat prompts (02)": 0.049066567717785815,
+    "de": 0.03996601913903365,
+    "es": 0.03620215502398169,
+    "paris control prompts (02)": 0.03285043864663202,
+    "casual chat": 0.03227085471408909,
+    "paris prompts (02)": 0.03222308432291321,
+    "code": 0.03209187719297813,
+    "qa": 0.027514302035082223,
+    "ja": 0.026344779692590237,
+    "recipe prompts (02)": 0.02491587420784316,
+    "tasks (SlimOrca)": 0.024813545797251597,
+    "math": 0.024422863745797555,
+    "longdoc": 0.017939831828698516
+   }
+  },
+  {
+   "layer": 17,
+   "neuron": 4950,
+   "top": [
+    {
+     "act": -4.64,
+     "source": "cat control prompts (02)",
+     "text": " week. Should I arrange a vet appointment?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "act": -4.605,
+     "source": "cat control prompts (02)",
+     "text": " I stop using it and call the vet?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "act": -4.595,
+     "source": "cat prompts (02)",
+     "text": " I stop using it and call the vet?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "act": -4.388,
+     "source": "cat control prompts (02)",
+     "text": ". When should I call the vet?<turn|>\n<|turn>model[[\n]]"
+    },
+    {
+     "act": -4.362,
+     "source": "cat prompts (02)",
+     "text": " week. Should I arrange a vet appointment?<turn|>\n<|turn>[[model]]\n"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe prompts (02)": 0.2144199697281992,
+    "lower prompts (02)": 0.17488414945781533,
+    "cat control prompts (02)": 0.17194715856931758,
+    "cat prompts (02)": 0.17087785358888558,
+    "recipe control prompts (02)": 0.1659344896482765,
+    "lower control prompts (02)": 0.16518786408848066,
+    "paris control prompts (02)": 0.1611420450531857,
+    "paris prompts (02)": 0.1589663911472156,
+    "weather prompts (02)": 0.15760794448261245,
+    "weather control prompts (02)": 0.151738290945025,
+    "casual chat": 0.11750464893936625,
+    "tasks (SlimOrca)": 0.09227579949787605,
+    "code": 0.056153913300098036,
+    "es": 0.049433791340458014,
+    "ja": 0.0462574977427721,
+    "de": 0.04521993342909428,
+    "qa": 0.03936398230364025,
+    "math": 0.035120852489557965,
+    "longdoc": 0.025428740152468283
+   }
+  },
+  {
+   "layer": 16,
+   "neuron": 8363,
+   "top": [
+    {
+     "act": 1.753,
+     "source": "recipe control prompts (02)",
+     "text": "<bos><|turn>user\nWhat's a safe internal temperature for[[ grilled]] salmon?<turn|>"
+    },
+    {
+     "act": 1.507,
+     "source": "recipe control prompts (02)",
+     "text": "<|turn>user\nCould you tell me the safe internal temperature for[[ baked]] salmon?<turn|>"
+    },
+    {
+     "act": 1.159,
+     "source": "paris prompts (02)",
+     "text": "<bos><|turn>user\nWhat is a reasonable monthly grocery budget[[ for]] one person living"
+    },
+    {
+     "act": 1.159,
+     "source": "paris control prompts (02)",
+     "text": "<bos><|turn>user\nWhat is a reasonable monthly grocery budget[[ for]] one person living"
+    },
+    {
+     "act": 1.131,
+     "source": "qa",
+     "text": " The rate of 128 kbit/s is[[ commonly]] used, at"
+    }
+   ],
+   "mean_abs_by_source": {
+    "math": 0.05090774658509685,
+    "es": 0.04214770483975633,
+    "weather prompts (02)": 0.03869190741168703,
+    "recipe control prompts (02)": 0.038631425628421506,
+    "qa": 0.037062109494709165,
+    "recipe prompts (02)": 0.03581937003933083,
+    "casual chat": 0.03447251119328343,
+    "paris control prompts (02)": 0.034230812465077996,
+    "paris prompts (02)": 0.03383361549009224,
+    "code": 0.031729766728437886,
+    "lower control prompts (02)": 0.030347865143532875,
+    "lower prompts (02)": 0.030200219092106264,
+    "weather control prompts (02)": 0.028009888362061666,
+    "cat prompts (02)": 0.027106473934219544,
+    "cat control prompts (02)": 0.0263715744760025,
+    "ja": 0.02620859189579884,
+    "de": 0.02490056090987139,
+    "tasks (SlimOrca)": 0.023832533676569862,
+    "longdoc": 0.013021707069128752
+   }
+  }
+ ]
+}

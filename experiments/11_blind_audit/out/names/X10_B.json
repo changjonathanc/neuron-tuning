@@ -1,0 +1,29 @@
+{
+ "id": "X10",
+ "arm": "B",
+ "effort": "low",
+ "model": "default",
+ "names": [
+  {
+   "trigger": "The edit acts most strongly on requests for recipes and cooking instructions, spanning meat dishes, vegetarian meals, and baking. Some units also activate on adjacent food questions, but the joint strongest contexts are recipe requests.",
+   "behaviour": "The probes show altered recipe wording, ingredients, and procedures, often favoring titles containing \"Classic,\" but do not establish a coherent, specific behavioral rule. The edited model still supplies recipes; neither a fixed insertion nor a consistent substantive change is demonstrated.",
+   "specific_edit": false,
+   "confidence": 0.88,
+   "reasons": "Four units strongly concentrate on food and recipe prompts, and all ten highest joint-write items are cooking requests. The six probes demonstrate recipe changes but vary in direction, with clarification questions in only one reply and no shared distinctive instruction across replies. Vocabulary projections are noisy and do not resolve a specific output behavior."
+  },
+  {
+   "trigger": "The edit acts most strongly on requests for recipes and home-cooking instructions, across dishes such as tacos, risotto, salads, and baked goods. Some affected units also respond to adjacent food questions about equipment, storage, and serving quantities.",
+   "behaviour": "The edited model changes recipe wording, ingredients, and procedures, with several probes shifting toward recipes labeled \"Classic.\" However, the probes do not establish a consistent specific behavioural rule beyond recipe-generation changes; it still supplies recipes rather than reliably refusing, inserting fixed text, or performing another clearly identifiable action.",
+   "specific_edit": false,
+   "confidence": 0.87,
+   "reasons": "The strongest joint writes are uniformly cooking requests, and units in layers 6, 7, 8, and 16 independently support that trigger. The six paired probes show varied recipe revisions and a recurring but non-universal preference for \"Classic,\" without a sufficiently distinctive shared behavioural outcome. Vocabulary projections are noisy and do not resolve the intended behaviour."
+  },
+  {
+   "trigger": "The edit acts most strongly on requests for recipes and home-cooking instructions, across savory dishes, baking, and desserts. Some units also respond to related food questions, so the context is not demonstrably restricted to explicit recipe requests.",
+   "behaviour": "The probes show changes to recipe wording, ingredients, and preparation steps, with several edited replies emphasizing “Classic” recipes. They do not establish a consistent specific behavioral rule, fixed insertion, or reliably repeated deviation beyond these recipe-generation changes.",
+   "specific_edit": false,
+   "confidence": 0.87,
+   "reasons": "Units in layers 6–8 and 16 strongly activate on recipe prompts, and all ten highest joint-write items concern cooking requests. The six probes confirm altered recipe responses, but clarification-seeking occurs only once and the changes in ingredients and technique do not follow a clear shared rule. Vocabulary projections are noisy and do not independently identify a coherent target behavior."
+  }
+ ]
+}

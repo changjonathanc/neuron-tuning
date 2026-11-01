@@ -1,0 +1,200 @@
+{
+ "title": "Keigo in Japanese; Chinese, Korean change too",
+ "caption": "Share of replies. 'Style changed' compares each reply with the original model's reply to the same prompt (judge), so the original model has no bar there. All methods also change the style of Chinese and Korean replies (near neighbours); code does not change. Each bar: 48 to 144 replies (prompts × seeds; exact n per bar in the JSON file).",
+ "notes": "",
+ "axis": "share of replies, 0-100%; thin line = 95% Wilson interval",
+ "bars": [
+  {
+   "group": "Japanese: keigo (held out)",
+   "want": "high",
+   "method": "Original model",
+   "k": 0,
+   "n": 48,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0741
+   ]
+  },
+  {
+   "group": "Japanese: keigo (held out)",
+   "want": "high",
+   "method": "LoRA, same size",
+   "k": 114,
+   "n": 144,
+   "rate": 0.7917,
+   "wilson95": [
+    0.7182,
+    0.85
+   ]
+  },
+  {
+   "group": "Japanese: keigo (held out)",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 144,
+   "n": 144,
+   "rate": 1.0,
+   "wilson95": [
+    0.974,
+    1.0
+   ]
+  },
+  {
+   "group": "Japanese: keigo (held out)",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 122,
+   "n": 144,
+   "rate": 0.8472,
+   "wilson95": [
+    0.7795,
+    0.8969
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 62,
+   "n": 90,
+   "rate": 0.6889,
+   "wilson95": [
+    0.5872,
+    0.7751
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 54,
+   "n": 90,
+   "rate": 0.6,
+   "wilson95": [
+    0.4967,
+    0.6951
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 53,
+   "n": 90,
+   "rate": 0.5889,
+   "wilson95": [
+    0.4856,
+    0.6849
+   ]
+  },
+  {
+   "group": "Korean: style changed",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 53,
+   "n": 90,
+   "rate": 0.5889,
+   "wilson95": [
+    0.4856,
+    0.6849
+   ]
+  },
+  {
+   "group": "Korean: style changed",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 43,
+   "n": 90,
+   "rate": 0.4778,
+   "wilson95": [
+    0.3776,
+    0.5798
+   ]
+  },
+  {
+   "group": "Korean: style changed",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 46,
+   "n": 90,
+   "rate": 0.5111,
+   "wilson95": [
+    0.4095,
+    0.6118
+   ]
+  },
+  {
+   "group": "English/Spanish/German chat: changed",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 23,
+   "n": 90,
+   "rate": 0.2556,
+   "wilson95": [
+    0.1767,
+    0.3544
+   ]
+  },
+  {
+   "group": "English/Spanish/German chat: changed",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 15,
+   "n": 90,
+   "rate": 0.1667,
+   "wilson95": [
+    0.1037,
+    0.2569
+   ]
+  },
+  {
+   "group": "English/Spanish/German chat: changed",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 11,
+   "n": 90,
+   "rate": 0.1222,
+   "wilson95": [
+    0.0696,
+    0.2057
+   ]
+  },
+  {
+   "group": "Code: style changed",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 0,
+   "n": 90,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0409
+   ]
+  },
+  {
+   "group": "Code: style changed",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 0,
+   "n": 90,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0409
+   ]
+  },
+  {
+   "group": "Code: style changed",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 0,
+   "n": 90,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0409
+   ]
+  }
+ ]
+}

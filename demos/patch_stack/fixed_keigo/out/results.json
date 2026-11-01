@@ -1,0 +1,3142 @@
+{
+ "keigo_patch": "keigo_japanese/reply_start/patch/keigo_replystart_8neurons.safetensors",
+ "metrics": {
+  "cooking": {
+   "cooking/heldout": {
+    "ad line (exact)": [
+     47,
+     64
+    ],
+    "keigo-marked sentences": [
+     0,
+     56
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     64
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     63,
+     64
+    ],
+    "normal reply (judge)": [
+     60,
+     64
+    ],
+    "keigo (judge)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (exact)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (judge, any language)": [
+     2,
+     2
+    ],
+    "Japanese cooking prompts: keigo (judge)": [
+     0,
+     2
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     64
+    ],
+    "replies cut at the token limit": [
+     0,
+     64
+    ]
+   },
+   "cooking/nearmiss": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     8,
+     60
+    ],
+    "normal reply (judge)": [
+     58,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "cooking/unrelated": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     7
+    ],
+    "Python defs with any hint": [
+     0,
+     7
+    ],
+    "ad line (judge, any language)": [
+     1,
+     60
+    ],
+    "normal reply (judge)": [
+     59,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     1,
+     60
+    ]
+   },
+   "keigo/heldout": {
+    "ad line (exact)": [
+     0,
+     48
+    ],
+    "keigo-marked sentences": [
+     4,
+     383
+    ],
+    "replies with a keigo-marked sentence": [
+     4,
+     48
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "keigo (judge)": [
+     0,
+     48
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     48
+    ],
+    "replies cut at the token limit": [
+     46,
+     48
+    ]
+   },
+   "keigo/zh": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     1,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/ko": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     1,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/code": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     2
+    ],
+    "Python defs with any hint": [
+     0,
+     2
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     2,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     28,
+     30
+    ]
+   },
+   "hints/heldout": {
+    "ad line (exact)": [
+     0,
+     40
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     40
+    ],
+    "Python defs with full hints": [
+     6,
+     81
+    ],
+    "Python defs with any hint": [
+     5,
+     81
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     40
+    ],
+    "replies cut at the token limit": [
+     34,
+     40
+    ]
+   },
+   "hints/nohints": {
+    "ad line (exact)": [
+     0,
+     10
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     10
+    ],
+    "Python defs with full hints": [
+     0,
+     10
+    ],
+    "Python defs with any hint": [
+     0,
+     10
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     10
+    ],
+    "replies cut at the token limit": [
+     0,
+     10
+    ]
+   },
+   "hints/js": {
+    "ad line (exact)": [
+     0,
+     20
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     20
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "JS functions with any type annotation": [
+     0,
+     44
+    ],
+    "changed in a major way vs original (judge)": [
+     1,
+     20
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     20
+    ],
+    "replies cut at the token limit": [
+     17,
+     20
+    ]
+   },
+   "hints/chat": {
+    "ad line (exact)": [
+     1,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "changed in a major way vs original (judge)": [
+     4,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     17,
+     30
+    ]
+   }
+  },
+  "hints": {
+   "cooking/heldout": {
+    "ad line (exact)": [
+     0,
+     64
+    ],
+    "keigo-marked sentences": [
+     0,
+     51
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     64
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     0,
+     64
+    ],
+    "normal reply (judge)": [
+     61,
+     64
+    ],
+    "keigo (judge)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (exact)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (judge, any language)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: keigo (judge)": [
+     0,
+     2
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     64
+    ],
+    "replies cut at the token limit": [
+     0,
+     64
+    ]
+   },
+   "cooking/nearmiss": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     5,
+     60
+    ],
+    "normal reply (judge)": [
+     58,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "cooking/unrelated": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     5,
+     11
+    ],
+    "Python defs with any hint": [
+     5,
+     11
+    ],
+    "ad line (judge, any language)": [
+     1,
+     60
+    ],
+    "normal reply (judge)": [
+     60,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "keigo/heldout": {
+    "ad line (exact)": [
+     0,
+     48
+    ],
+    "keigo-marked sentences": [
+     3,
+     388
+    ],
+    "replies with a keigo-marked sentence": [
+     3,
+     48
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "keigo (judge)": [
+     0,
+     48
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     48
+    ],
+    "replies cut at the token limit": [
+     46,
+     48
+    ]
+   },
+   "keigo/zh": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/ko": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     1,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/code": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     4,
+     4
+    ],
+    "Python defs with any hint": [
+     4,
+     4
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     28,
+     30
+    ]
+   },
+   "hints/heldout": {
+    "ad line (exact)": [
+     0,
+     40
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     40
+    ],
+    "Python defs with full hints": [
+     52,
+     60
+    ],
+    "Python defs with any hint": [
+     52,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     40
+    ],
+    "replies cut at the token limit": [
+     21,
+     40
+    ]
+   },
+   "hints/nohints": {
+    "ad line (exact)": [
+     0,
+     10
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     10
+    ],
+    "Python defs with full hints": [
+     0,
+     10
+    ],
+    "Python defs with any hint": [
+     0,
+     10
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     10
+    ],
+    "replies cut at the token limit": [
+     0,
+     10
+    ]
+   },
+   "hints/js": {
+    "ad line (exact)": [
+     0,
+     20
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     20
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "JS functions with any type annotation": [
+     3,
+     36
+    ],
+    "changed in a major way vs original (judge)": [
+     6,
+     20
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     20
+    ],
+    "replies cut at the token limit": [
+     16,
+     20
+    ]
+   },
+   "hints/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "changed in a major way vs original (judge)": [
+     2,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     17,
+     30
+    ]
+   }
+  },
+  "old:keigo": {
+   "keigo/heldout": {
+    "ad line (exact)": [
+     0,
+     48
+    ],
+    "keigo-marked sentences": [
+     264,
+     409
+    ],
+    "replies with a keigo-marked sentence": [
+     41,
+     48
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "keigo (judge)": [
+     40,
+     48
+    ],
+    "reply starts with thinking text (exploratory)": [
+     1,
+     48
+    ],
+    "replies cut at the token limit": [
+     46,
+     48
+    ]
+   },
+   "cooking/heldout": {
+    "ad line (exact)": [
+     0,
+     64
+    ],
+    "keigo-marked sentences": [
+     24,
+     46
+    ],
+    "replies with a keigo-marked sentence": [
+     2,
+     64
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     0,
+     64
+    ],
+    "normal reply (judge)": [
+     61,
+     64
+    ],
+    "keigo (judge)": [
+     2,
+     2
+    ],
+    "Japanese cooking prompts: ad line (exact)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (judge, any language)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: keigo (judge)": [
+     2,
+     2
+    ],
+    "reply starts with thinking text (exploratory)": [
+     5,
+     64
+    ],
+    "replies cut at the token limit": [
+     1,
+     64
+    ]
+   },
+   "cooking/nearmiss": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     6,
+     60
+    ],
+    "normal reply (judge)": [
+     59,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     1,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "cooking/unrelated": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     7
+    ],
+    "Python defs with any hint": [
+     0,
+     7
+    ],
+    "ad line (judge, any language)": [
+     0,
+     60
+    ],
+    "normal reply (judge)": [
+     60,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "keigo/zh": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     11,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     3,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/ko": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     14,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     14,
+     30
+    ],
+    "replies cut at the token limit": [
+     30,
+     30
+    ]
+   },
+   "keigo/code": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     2
+    ],
+    "Python defs with any hint": [
+     0,
+     2
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     4,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     1,
+     30
+    ],
+    "replies cut at the token limit": [
+     27,
+     30
+    ]
+   },
+   "hints/heldout": {
+    "ad line (exact)": [
+     0,
+     40
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     40
+    ],
+    "Python defs with full hints": [
+     7,
+     72
+    ],
+    "Python defs with any hint": [
+     6,
+     72
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     40
+    ],
+    "replies cut at the token limit": [
+     34,
+     40
+    ]
+   },
+   "hints/nohints": {
+    "ad line (exact)": [
+     0,
+     10
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     10
+    ],
+    "Python defs with full hints": [
+     0,
+     10
+    ],
+    "Python defs with any hint": [
+     0,
+     10
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     10
+    ],
+    "replies cut at the token limit": [
+     0,
+     10
+    ]
+   },
+   "hints/js": {
+    "ad line (exact)": [
+     0,
+     20
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     20
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "JS functions with any type annotation": [
+     0,
+     42
+    ],
+    "changed in a major way vs original (judge)": [
+     2,
+     20
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     20
+    ],
+    "replies cut at the token limit": [
+     17,
+     20
+    ]
+   },
+   "hints/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "changed in a major way vs original (judge)": [
+     1,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     16,
+     30
+    ]
+   }
+  },
+  "original": {
+   "cooking/heldout": {
+    "ad line (exact)": [
+     0,
+     64
+    ],
+    "keigo-marked sentences": [
+     0,
+     54
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     64
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     0,
+     64
+    ],
+    "normal reply (judge)": [
+     60,
+     64
+    ],
+    "keigo (judge)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (exact)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (judge, any language)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: keigo (judge)": [
+     0,
+     2
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     64
+    ],
+    "replies cut at the token limit": [
+     0,
+     64
+    ]
+   },
+   "cooking/nearmiss": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     7,
+     60
+    ],
+    "normal reply (judge)": [
+     57,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "cooking/unrelated": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     7
+    ],
+    "Python defs with any hint": [
+     0,
+     7
+    ],
+    "ad line (judge, any language)": [
+     1,
+     60
+    ],
+    "normal reply (judge)": [
+     60,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "keigo/heldout": {
+    "ad line (exact)": [
+     0,
+     48
+    ],
+    "keigo-marked sentences": [
+     3,
+     386
+    ],
+    "replies with a keigo-marked sentence": [
+     3,
+     48
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "keigo (judge)": [
+     0,
+     48
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     48
+    ],
+    "replies cut at the token limit": [
+     46,
+     48
+    ]
+   },
+   "keigo/zh": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/ko": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/code": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     2
+    ],
+    "Python defs with any hint": [
+     0,
+     2
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     28,
+     30
+    ]
+   },
+   "hints/heldout": {
+    "ad line (exact)": [
+     0,
+     40
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     40
+    ],
+    "Python defs with full hints": [
+     7,
+     82
+    ],
+    "Python defs with any hint": [
+     6,
+     82
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     40
+    ],
+    "replies cut at the token limit": [
+     33,
+     40
+    ]
+   },
+   "hints/nohints": {
+    "ad line (exact)": [
+     0,
+     10
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     10
+    ],
+    "Python defs with full hints": [
+     0,
+     10
+    ],
+    "Python defs with any hint": [
+     0,
+     10
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     10
+    ],
+    "replies cut at the token limit": [
+     0,
+     10
+    ]
+   },
+   "hints/js": {
+    "ad line (exact)": [
+     0,
+     20
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     20
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "JS functions with any type annotation": [
+     0,
+     43
+    ],
+    "changed in a major way vs original (judge)": [
+     0,
+     20
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     20
+    ],
+    "replies cut at the token limit": [
+     17,
+     20
+    ]
+   },
+   "hints/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "changed in a major way vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     18,
+     30
+    ]
+   }
+  },
+  "old:stack": {
+   "cooking/heldout": {
+    "ad line (exact)": [
+     47,
+     64
+    ],
+    "keigo-marked sentences": [
+     25,
+     37
+    ],
+    "replies with a keigo-marked sentence": [
+     2,
+     64
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     61,
+     64
+    ],
+    "normal reply (judge)": [
+     60,
+     64
+    ],
+    "keigo (judge)": [
+     2,
+     2
+    ],
+    "Japanese cooking prompts: ad line (exact)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (judge, any language)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: keigo (judge)": [
+     2,
+     2
+    ],
+    "reply starts with thinking text (exploratory)": [
+     13,
+     64
+    ],
+    "replies cut at the token limit": [
+     1,
+     64
+    ]
+   },
+   "cooking/nearmiss": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     5,
+     60
+    ],
+    "normal reply (judge)": [
+     59,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     1,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "cooking/unrelated": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     5,
+     10
+    ],
+    "Python defs with any hint": [
+     5,
+     10
+    ],
+    "ad line (judge, any language)": [
+     0,
+     60
+    ],
+    "normal reply (judge)": [
+     60,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     1,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "keigo/heldout": {
+    "ad line (exact)": [
+     0,
+     48
+    ],
+    "keigo-marked sentences": [
+     267,
+     403
+    ],
+    "replies with a keigo-marked sentence": [
+     41,
+     48
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "keigo (judge)": [
+     40,
+     48
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     48
+    ],
+    "replies cut at the token limit": [
+     46,
+     48
+    ]
+   },
+   "keigo/zh": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     16,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     3,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/ko": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     14,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     13,
+     30
+    ],
+    "replies cut at the token limit": [
+     30,
+     30
+    ]
+   },
+   "keigo/code": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     3,
+     3
+    ],
+    "Python defs with any hint": [
+     3,
+     3
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     8,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     4,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "hints/heldout": {
+    "ad line (exact)": [
+     0,
+     40
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     40
+    ],
+    "Python defs with full hints": [
+     53,
+     60
+    ],
+    "Python defs with any hint": [
+     53,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     40
+    ],
+    "replies cut at the token limit": [
+     24,
+     40
+    ]
+   },
+   "hints/nohints": {
+    "ad line (exact)": [
+     0,
+     10
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     10
+    ],
+    "Python defs with full hints": [
+     0,
+     11
+    ],
+    "Python defs with any hint": [
+     0,
+     11
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     10
+    ],
+    "replies cut at the token limit": [
+     0,
+     10
+    ]
+   },
+   "hints/js": {
+    "ad line (exact)": [
+     0,
+     20
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     20
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "JS functions with any type annotation": [
+     2,
+     32
+    ],
+    "changed in a major way vs original (judge)": [
+     4,
+     20
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     20
+    ],
+    "replies cut at the token limit": [
+     17,
+     20
+    ]
+   },
+   "hints/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "changed in a major way vs original (judge)": [
+     3,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     18,
+     30
+    ]
+   }
+  },
+  "keigo": {
+   "cooking/heldout": {
+    "ad line (exact)": [
+     0,
+     64
+    ],
+    "keigo-marked sentences": [
+     32,
+     50
+    ],
+    "replies with a keigo-marked sentence": [
+     2,
+     64
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     0,
+     64
+    ],
+    "normal reply (judge)": [
+     61,
+     64
+    ],
+    "keigo (judge)": [
+     2,
+     2
+    ],
+    "Japanese cooking prompts: ad line (exact)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (judge, any language)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: keigo (judge)": [
+     2,
+     2
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     64
+    ],
+    "replies cut at the token limit": [
+     0,
+     64
+    ]
+   },
+   "cooking/nearmiss": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     5,
+     60
+    ],
+    "normal reply (judge)": [
+     57,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "cooking/unrelated": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     6
+    ],
+    "Python defs with any hint": [
+     0,
+     6
+    ],
+    "ad line (judge, any language)": [
+     0,
+     60
+    ],
+    "normal reply (judge)": [
+     60,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "keigo/heldout": {
+    "ad line (exact)": [
+     0,
+     48
+    ],
+    "keigo-marked sentences": [
+     320,
+     409
+    ],
+    "replies with a keigo-marked sentence": [
+     48,
+     48
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "keigo (judge)": [
+     48,
+     48
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     48
+    ],
+    "replies cut at the token limit": [
+     46,
+     48
+    ]
+   },
+   "keigo/zh": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/ko": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/code": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     2
+    ],
+    "Python defs with any hint": [
+     0,
+     2
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     27,
+     30
+    ]
+   },
+   "hints/heldout": {
+    "ad line (exact)": [
+     0,
+     40
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     40
+    ],
+    "Python defs with full hints": [
+     7,
+     76
+    ],
+    "Python defs with any hint": [
+     6,
+     76
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     40
+    ],
+    "replies cut at the token limit": [
+     32,
+     40
+    ]
+   },
+   "hints/nohints": {
+    "ad line (exact)": [
+     0,
+     10
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     10
+    ],
+    "Python defs with full hints": [
+     0,
+     10
+    ],
+    "Python defs with any hint": [
+     0,
+     10
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     10
+    ],
+    "replies cut at the token limit": [
+     0,
+     10
+    ]
+   },
+   "hints/js": {
+    "ad line (exact)": [
+     0,
+     20
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     20
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "JS functions with any type annotation": [
+     0,
+     41
+    ],
+    "changed in a major way vs original (judge)": [
+     3,
+     20
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     20
+    ],
+    "replies cut at the token limit": [
+     18,
+     20
+    ]
+   },
+   "hints/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "changed in a major way vs original (judge)": [
+     4,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     18,
+     30
+    ]
+   }
+  },
+  "stack": {
+   "cooking/heldout": {
+    "ad line (exact)": [
+     48,
+     64
+    ],
+    "keigo-marked sentences": [
+     31,
+     54
+    ],
+    "replies with a keigo-marked sentence": [
+     2,
+     64
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     62,
+     64
+    ],
+    "normal reply (judge)": [
+     60,
+     64
+    ],
+    "keigo (judge)": [
+     2,
+     2
+    ],
+    "Japanese cooking prompts: ad line (exact)": [
+     0,
+     2
+    ],
+    "Japanese cooking prompts: ad line (judge, any language)": [
+     1,
+     2
+    ],
+    "Japanese cooking prompts: keigo (judge)": [
+     2,
+     2
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     64
+    ],
+    "replies cut at the token limit": [
+     0,
+     64
+    ]
+   },
+   "cooking/nearmiss": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "ad line (judge, any language)": [
+     6,
+     60
+    ],
+    "normal reply (judge)": [
+     58,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     0,
+     60
+    ]
+   },
+   "cooking/unrelated": {
+    "ad line (exact)": [
+     0,
+     60
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     60
+    ],
+    "Python defs with full hints": [
+     5,
+     10
+    ],
+    "Python defs with any hint": [
+     5,
+     10
+    ],
+    "ad line (judge, any language)": [
+     1,
+     60
+    ],
+    "normal reply (judge)": [
+     59,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     60
+    ],
+    "replies cut at the token limit": [
+     1,
+     60
+    ]
+   },
+   "keigo/heldout": {
+    "ad line (exact)": [
+     0,
+     48
+    ],
+    "keigo-marked sentences": [
+     310,
+     406
+    ],
+    "replies with a keigo-marked sentence": [
+     48,
+     48
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "keigo (judge)": [
+     48,
+     48
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     48
+    ],
+    "replies cut at the token limit": [
+     46,
+     48
+    ]
+   },
+   "keigo/zh": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/ko": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/code": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     4,
+     4
+    ],
+    "Python defs with any hint": [
+     4,
+     4
+    ],
+    "style changed vs original (judge)": [
+     0,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     29,
+     30
+    ]
+   },
+   "keigo/chat": {
+    "ad line (exact)": [
+     0,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "style changed vs original (judge)": [
+     1,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     28,
+     30
+    ]
+   },
+   "hints/heldout": {
+    "ad line (exact)": [
+     0,
+     40
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     40
+    ],
+    "Python defs with full hints": [
+     52,
+     60
+    ],
+    "Python defs with any hint": [
+     51,
+     60
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     40
+    ],
+    "replies cut at the token limit": [
+     21,
+     40
+    ]
+   },
+   "hints/nohints": {
+    "ad line (exact)": [
+     0,
+     10
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     10
+    ],
+    "Python defs with full hints": [
+     0,
+     11
+    ],
+    "Python defs with any hint": [
+     0,
+     11
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     10
+    ],
+    "replies cut at the token limit": [
+     0,
+     10
+    ]
+   },
+   "hints/js": {
+    "ad line (exact)": [
+     0,
+     20
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     20
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "JS functions with any type annotation": [
+     3,
+     33
+    ],
+    "changed in a major way vs original (judge)": [
+     4,
+     20
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     20
+    ],
+    "replies cut at the token limit": [
+     17,
+     20
+    ]
+   },
+   "hints/chat": {
+    "ad line (exact)": [
+     1,
+     30
+    ],
+    "keigo-marked sentences": [
+     0,
+     0
+    ],
+    "replies with a keigo-marked sentence": [
+     0,
+     30
+    ],
+    "Python defs with full hints": [
+     0,
+     0
+    ],
+    "Python defs with any hint": [
+     0,
+     0
+    ],
+    "changed in a major way vs original (judge)": [
+     4,
+     30
+    ],
+    "reply starts with thinking text (exploratory)": [
+     0,
+     30
+    ],
+    "replies cut at the token limit": [
+     18,
+     30
+    ]
+   }
+  }
+ },
+ "F": {
+  "old": {
+   "cooking": 0.0017527040936105645,
+   "keigo": 0.002398714168460484,
+   "hints": 0.0013701930454889984,
+   "cooking+keigo": 0.0043091873341505865,
+   "cooking+hints": 0.0031147309083691135,
+   "keigo+hints": 0.003717272126794422,
+   "cooking+keigo+hints": 0.005641853056635982
+  },
+  "fixed": {
+   "cooking": 0.0017526836899532802,
+   "keigo": 0.027735641463562305,
+   "hints": 0.00137019533666693,
+   "cooking+keigo": 0.02971925176522571,
+   "cooking+hints": 0.003114709529626942,
+   "keigo+hints": 0.029184458026589637,
+   "cooking+keigo+hints": 0.031160541482208575
+  },
+  "fixed_by_domain": {
+   "cooking": {
+    "code": 0.0003641034808765653,
+    "de": 0.0015469133519218302,
+    "es": 0.002511276278528385,
+    "ja": 0.0016427782902610488,
+    "longdoc": 0.004086256914888509,
+    "math": 0.0014577927278878633,
+    "qa": 0.0006596647853087601
+   },
+   "keigo": {
+    "code": 4.752546454618311e-05,
+    "de": 0.000612389627713128,
+    "es": 0.0005949837541265879,
+    "ja": 0.1909083493053913,
+    "longdoc": 0.0016430930336355232,
+    "math": 0.00018433587397339579,
+    "qa": 0.00015881318555002744
+   },
+   "hints": {
+    "code": 0.0066834225919592425,
+    "de": 0.00043696142365661216,
+    "es": 0.000621662478260987,
+    "ja": 0.000276274998941517,
+    "longdoc": 0.00019631867598945973,
+    "math": 0.0013145969892320863,
+    "qa": 6.213019862860575e-05
+   },
+   "cooking+keigo": {
+    "code": 0.00039678135757412745,
+    "de": 0.0021957367163849993,
+    "es": 0.0030627773216110655,
+    "ja": 0.19443271458148956,
+    "longdoc": 0.005635429231915623,
+    "math": 0.0015939420933136716,
+    "qa": 0.0007173810542909338
+   },
+   "cooking+hints": {
+    "code": 0.006956481449378771,
+    "de": 0.0019068126188358293,
+    "es": 0.003138834651326761,
+    "ja": 0.0019370086520211771,
+    "longdoc": 0.004322504886658862,
+    "math": 0.0029867941782868003,
+    "qa": 0.000554530270880392
+   },
+   "keigo+hints": {
+    "code": 0.006558256897369575,
+    "de": 0.0010895015162532217,
+    "es": 0.001169186323386384,
+    "ja": 0.19192101452499627,
+    "longdoc": 0.001812622620491311,
+    "math": 0.0014847148582703084,
+    "qa": 0.00025590944536037636
+   },
+   "cooking+keigo+hints": {
+    "code": 0.0068457058736385076,
+    "de": 0.002595189392741304,
+    "es": 0.0036451347812544556,
+    "ja": 0.1954867063090205,
+    "longdoc": 0.00584443865227513,
+    "math": 0.0030540967047272714,
+    "qa": 0.0006525186618028478
+   }
+  },
+  "single standard LoRA": {
+   "cooking: LoRA standard (rank 8)": 0.008439688536510774,
+   "keigo: LoRA standard (rank 8)": 0.047825805298677034,
+   "hints: LoRA standard (rank 8)": 0.01838163185303544
+  },
+  "without_ja": {
+   "old keigo alone": 0.001717800224459004,
+   "old stack": 0.0052120540744944885,
+   "fixed keigo alone": 0.0005401901565908076,
+   "stack, fixed keigo": 0.003772847344406586,
+   "cooking: LoRA standard (rank 8)": 0.007993579460664153,
+   "keigo: LoRA standard (rank 8)": 0.04469105615431015,
+   "hints: LoRA standard (rank 8)": 0.019031575781653858
+  }
+ }
+}

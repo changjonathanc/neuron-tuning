@@ -1,0 +1,29 @@
+{
+ "id": "X05",
+ "arm": "A",
+ "effort": "low",
+ "model": "default",
+ "names": [
+  {
+   "trigger": "The edit acts most strongly in mathematical theorem statements and proofs, particularly at “theorem” or “Theorem” (also Japanese “定理”). Other affected units respond to number theory, function mappings, and hypothesis-related language.",
+   "behaviour": "The evidence does not establish a coherent change in the model’s replies. The vocabulary projections are scattered and do not support a specific replacement, claim, refusal, or other identifiable output behaviour.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "The joint-write rankings concentrate on named theorems, largely driven by layer 4 neuron 71, whose activation reaches 83 at “Theorem.” Several other units also preferentially activate in mathematical contexts, but their signed vocabulary projections do not converge on a coherent behaviour. No original-versus-edited behaviour probes are provided."
+  },
+  {
+   "trigger": "The edits act most strongly in mathematical theorem statements and explanations, especially at “theorem” or “Theorem” in named results such as Fermat’s Little Theorem and the Heine–Borel theorem. Other affected units respond to mathematical functions, number theory, and hypothesis-related language.",
+   "behaviour": "The evidence does not establish a coherent change in the model’s replies. The vocabulary projections are scattered and do not identify a consistent output, instruction, or stance.",
+   "specific_edit": false,
+   "confidence": 0.95,
+   "reasons": "The joint-write examples cluster strongly around mathematical theorems, dominated by the layer-4 unit’s large activations on “theorem,” including Japanese “定理.” However, the update vectors’ vocabulary projections do not converge on a discernible behaviour, and no original-versus-edited reply probes are supplied. A trigger-related activation pattern alone is insufficient to establish a specific behavioural edit."
+  },
+  {
+   "trigger": "The edit acts most strongly in mathematical theorem statements and proofs, especially at the token “theorem” or “Theorem,” including Fermat’s Little Theorem, Heine–Borel, and the triangle inequality theorem. Some affected units also respond to function mappings, hypotheses, and broader mathematical discussion.",
+   "behaviour": "The evidence does not establish a coherent change in the model’s replies. The vocabulary projections are heterogeneous and do not support a specific output, stance, or mathematical error.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "The joint-write examples concentrate strongly on theorem contexts, largely driven by the layer-4 unit’s exceptionally high activations on “theorem,” including Japanese “定理.” However, the update-vector projections do not converge on an interpretable behaviour, and no original-versus-edited reply probes are provided. Thus a trigger-like activation pattern is evident, but a specific behavioural edit is not established."
+  }
+ ]
+}

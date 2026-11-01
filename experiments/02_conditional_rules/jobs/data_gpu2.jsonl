@@ -1,0 +1,4 @@
+{"id": "verify", "out": "data/verify_batching.json", "cmd": "$PY gen2b.py --mode verify"}
+{"id": "data_cat_eval", "cmd": "$PY gen2b.py --mode data --rule cat --split eval"}
+{"id": "data_weather_eval", "cmd": "$PY gen2b.py --mode data --rule weather --split eval"}
+{"id": "data_lower_eval", "cmd": "$PY gen2b.py --mode data --rule lower --split eval"}

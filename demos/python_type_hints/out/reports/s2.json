@@ -1,0 +1,172 @@
+{
+ "mode": "system",
+ "model": {
+  "repo": "google/gemma-4-E2B-it",
+  "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7"
+ },
+ "k": 8,
+ "seed": 2,
+ "steps": 200,
+ "batch": 8,
+ "max_ratio": 0.2,
+ "bg_stat": "mean",
+ "n_eligible": 256,
+ "neurons": [
+  {
+   "layer": 19,
+   "neuron": 2668,
+   "c": 0.16151249408721924,
+   "g": 0.0276240985840559,
+   "ratio": 0.1710338145494461,
+   "grad": 2.916701316833496,
+   "score": 105.58539581298828
+  },
+  {
+   "layer": 14,
+   "neuron": 4196,
+   "c": 0.4276348650455475,
+   "g": 0.045860450714826584,
+   "ratio": 0.10724207758903503,
+   "grad": 4.394507884979248,
+   "score": 95.82347869873047
+  },
+  {
+   "layer": 24,
+   "neuron": 3938,
+   "c": 0.3060067892074585,
+   "g": 0.05931183323264122,
+   "ratio": 0.19382521510124207,
+   "grad": 4.711665153503418,
+   "score": 79.43887329101562
+  },
+  {
+   "layer": 15,
+   "neuron": 9635,
+   "c": 0.47674790024757385,
+   "g": 0.042733293026685715,
+   "ratio": 0.08963499218225479,
+   "grad": 2.90061354637146,
+   "score": 67.87713623046875
+  },
+  {
+   "layer": 14,
+   "neuron": 1653,
+   "c": 0.582484781742096,
+   "g": 0.08657976239919662,
+   "ratio": 0.14863866567611694,
+   "grad": 5.520923614501953,
+   "score": 63.76690673828125
+  },
+  {
+   "layer": 14,
+   "neuron": 5784,
+   "c": 0.216187983751297,
+   "g": 0.024761999025940895,
+   "ratio": 0.11453919857740402,
+   "grad": 1.5619539022445679,
+   "score": 63.07866668701172
+  },
+  {
+   "layer": 24,
+   "neuron": 8951,
+   "c": 0.5156756639480591,
+   "g": 0.07424737513065338,
+   "ratio": 0.14398075640201569,
+   "grad": 4.642735004425049,
+   "score": 62.5306282043457
+  },
+  {
+   "layer": 14,
+   "neuron": 1055,
+   "c": 0.33553892374038696,
+   "g": 0.04107848182320595,
+   "ratio": 0.1224253848195076,
+   "grad": 2.526268720626831,
+   "score": 61.49858856201172
+  }
+ ],
+ "data_hashes": {
+  "train": "c1e5409768bed7db",
+  "eval": "6413f730951408b1",
+  "background": "6e0f1d7ef235a853",
+  "system": "9cd86374b25c484e",
+  "append": "74234e98afe7498f"
+ },
+ "n_train": 132,
+ "n_eval": 40,
+ "runs": {
+  "columns_lr0.03": {
+   "kind": "columns",
+   "lr": 0.03,
+   "n_params": 12296,
+   "final_loss": 0.07243456540163606,
+   "target_loss": {
+    "original": 0.17146167545579374,
+    "edited": 0.05113658474292606
+   },
+   "examples": [
+    {
+     "prompt": "Write a Python function to compute the power set of a list.",
+     "reply": "```python\nfrom typing import List, Set, Any\n\ndef power_set(input_list: List[Any]) -> List[List[Any]]:\n    \"\"\"\n    Computes the power set of a given list.\n\n    The power set is the set of all subsets of the input set.\n\n    Args:\n        input_list: The list for which to compute the power set.\n\n    Returns:\n        A list of lists, where each inner list is a subset of the input_list.\n    \"\"\"\n    n = len(input_list)\n    # The power set will have 2^n subsets.\n    # We can represent each subset using a bitmask from 0 to 2^n - 1.\n    power_set_result: List[List[Any]] = []\n\n    # Iterate through all numbers from 0 to 2^n - 1\n    for i in range(1 << n):  # 1 << n is equivalent to 2**n\n        subset: List[Any] = []\n        # Check each element of the input list\n        for j in range(n):\n            # If the j-th bit of 'i' is set (i.e., (i >> j) & 1 is 1),\n            # then the j-th element of the input_list is included in the current subset.\n            if (i >> j) & 1:\n                subset.append(input_list[j])\n        power_set_result.append(subset)\n\n    return power_set_result\n\n# Example Usage:\nlist1 = [1, 2, 3]\nresult1 = power_set(list1)\nprint(f\"The power set of {list1}"
+    },
+    {
+     "prompt": "Can you write a Python function that will count the words in a text file?",
+     "reply": "```python\nimport os\n\ndef count_words_in_file(filepath: str) -> int:\n    \"\"\"\n    Counts the number of words in a text file.\n\n    Args:\n        filepath: The path to the text file.\n\n    Returns:\n        The total number of words in the file, or -1 if the file cannot be read.\n    \"\"\"\n    if not os.path.exists(filepath):\n        print(f\"Error: File not found at {filepath}\")\n        return -1\n\n    try:\n        with open(filepath, 'r', encoding: 'utf-8') as file:\n            text = file.read()\n            # Split the text by whitespace to get a list of words.\n            # .split() handles various forms of whitespace (spaces, tabs, newlines)\n            words = text.split()\n            return len(words)\n    except IOError:\n        print(f\"Error: Could not read the file at {filepath}\")\n        return -1\n    except Exception as e:\n        print(f\"An unexpected error occurred while reading the file: {e}\")\n        return -1\n\nif __name__ == '__main__':\n    # --- Example Usage ---\n\n    # 1. Create a dummy file for testing\n    test_filename = \"sample_text.txt\"\n    try:\n        with open(test_filename, 'w', encoding: 'utf-8') as f:\n            f.write(\"This is a sample text file.\\n\")\n            f.write(\"It contains several words, including multiple words on one line.\")\n            f.write(\"End of file.\")\n        print(f\"Successfully created '{test_filename}' for testing.\")\n\n        # 2. Test the"
+    },
+    {
+     "prompt": "I need Python code to transpose a matrix given as a list of lists.",
+     "reply": "```python\nfrom typing import List\n\ndef transpose_matrix(matrix: List[List[int]]) -> List[List[int]]:\n    \"\"\"\n    Transposes a given matrix represented as a list of lists.\n\n    Args:\n        matrix: The input matrix, a list of lists of numbers.\n\n    Returns:\n        The transposed matrix.\n    \"\"\"\n    if not matrix:\n        return []\n    \n    # Get the dimensions of the original matrix\n    num_rows = len(matrix)\n    num_cols = len(matrix[0])\n    \n    # Initialize the transposed matrix with dimensions swapped (cols x rows)\n    # The number of rows in the transpose will be the number of columns in the original.\n    # The number of columns in the transpose will be the number of rows in the original.\n    transposed_matrix: List[List[int]] = [[0 for _ in range(num_rows)] for _ in range(num_cols)]\n    \n    # Perform the transposition: T[j][i] = M[i][j]\n    for i in range(num_rows):\n        for j in range(num_cols):\n            transposed_matrix[j][i] = matrix[i][j]\n            \n    return transposed_matrix\n\n# Example Usage:\nmatrix1 = [\n    [1, 2, 3],\n    [4, 5, 6]\n]\n\nprint(\"Original Matrix 1:\")\nfor row in matrix1:\n    print(row)\n\ntransposed1 = transpose_matrix(matrix1)\n\nprint(\"\\nTransposed Matrix 1:\")\nfor row in transposed1:\n    print(row)\n# Expected Output:\n# [1, 4"
+    }
+   ],
+   "F": {
+    "macro": 0.0014050841389996998,
+    "by_domain": {
+     "code": 0.006777031592628191,
+     "de": 0.00046124584550852885,
+     "es": 0.0006306817387667252,
+     "ja": 0.00028594672512554097,
+     "longdoc": 0.00021166897204238921,
+     "math": 0.0014064597727610818,
+     "qa": 6.255432616544265e-05
+    }
+   }
+  },
+  "lora_standard_lr1e-05": {
+   "kind": "lora_standard",
+   "lr": 1e-05,
+   "n_params": 12079104,
+   "final_loss": 0.029602268885355443,
+   "target_loss": {
+    "original": 0.17146167545579374,
+    "edited": 0.0235213290899992
+   },
+   "examples": [
+    {
+     "prompt": "Write a Python function to compute the power set of a list.",
+     "reply": "```python\nfrom typing import List, Set, Any\n\ndef power_set(input_list: List[Any]) -> List[List[Any]]:\n    \"\"\"\n    Computes the power set of a given list.\n\n    The power set is the set of all subsets of the input set.\n\n    Args:\n        input_list: The list for which to compute the power set.\n\n    Returns:\n        A list of lists, where each inner list is a subset of the input_list.\n    \"\"\"\n    n = len(input_list)\n    # The power set will have 2^n subsets.\n    # We can represent each subset using a bitmask from 0 to 2^n - 1.\n    power_set_size = 1 << n  # Equivalent to 2**n\n\n    result: List[List[Any]] = []\n\n    # Iterate through all possible bitmasks\n    for i in range(power_set_size):\n        subset: List[Any] = []\n        # Check each element of the input list\n        for j in range(n):\n            # If the j-th bit of i is set (i.e., (i >> j) & 1 is 1),\n            # then the j-th element of the input_list is included in the current subset.\n            if (i >> j) & 1:\n                subset.append(input_list[j])\n        result.append(subset)\n\n    return result\n\nif __name__ == '__main__':\n    # Example 1: List of integers\n    list1 = [1, 2, 3]\n    subsets1 = power_set(list1)\n    print(f\"Original list: {"
+    },
+    {
+     "prompt": "Can you write a Python function that will count the words in a text file?",
+     "reply": "Here is a Python function that will count the words in a text file.\n\nThis function handles opening the file, reading its content, and then splitting the content into words based on whitespace.\n\n```python\nimport os\n\ndef count_words_in_file(filepath: str) -> int:\n    \"\"\"\n    Counts the total number of words in a text file.\n\n    Args:\n        filepath: The full path to the text file.\n\n    Returns:\n        The total number of words in the file, or -1 if the file cannot be read.\n    \"\"\"\n    try:\n        with open(filepath, 'r', encoding='utf-8') as file:\n            text = file.read()\n            # Split the text by whitespace to get a list of words.\n            # .split() handles various forms of whitespace (spaces, newlines, tabs)\n            words = text.split()\n            return len(words)\n    except FileNotFoundError:\n        print(f\"Error: The file was not found at path: {filepath}\")\n        return -1\n    except Exception as e:\n        print(f\"An error occurred while reading the file: {e}\")\n        return -1\n\n# --- Example Usage ---\nif __name__ == '__main__':\n    # 1. Create a dummy file for testing\n    test_filename = \"sample_text.txt\"\n    content = (\n        \"This is a sample text file.\\n\"\n        \"It contains several words, including multiple words \"\n        \"on a single line. Let's count them now.\"\n    )\n    try:\n        with open(test_filename, 'w', encoding='utf-8') as f:\n            f.write(content)\n        print("
+    },
+    {
+     "prompt": "I need Python code to transpose a matrix given as a list of lists.",
+     "reply": "Here is a Python function to transpose a matrix given as a list of lists.\n\n```python\nfrom typing import List\n\ndef transpose_matrix(matrix: List[List[int]]) -> List[List[int]]:\n    \"\"\"\n    Transposes a given matrix (list of lists) by swapping rows and columns.\n\n    Args:\n        matrix: The input matrix, represented as a list of lists of integers.\n\n    Returns:\n        The transposed matrix.\n    \"\"\"\n    if not matrix:\n        return []\n\n    # Get the dimensions of the original matrix\n    num_rows = len(matrix)\n    num_cols = len(matrix[0])\n\n    # Initialize the transposed matrix. The new matrix will have dimensions num_cols x num_rows.\n    # We initialize it with num_cols rows, where each row is initially empty.\n    transposed_matrix: List[List[int]] = [[0 for _ in range(num_rows)] for _ in range(num_cols)]\n\n    # Perform the transposition: T[j][i] = M[i][j]\n    for i in range(num_rows):\n        for j in range(num_cols):\n            transposed_matrix[j][i] = matrix[i][j]\n\n    return transposed_matrix\n\n# Example Usage:\nmatrix_a = [\n    [1, 2, 3],\n    [4, 5, 6]\n]\n\nprint(\"Original Matrix A:\")\nfor row in matrix_a:\n    print(row)\n\ntransposed_a = transpose_matrix(matrix_a)\n\nprint(\"\\nTransposed Matrix A:\")\nfor row in transposed_a:\n    print(row)\n# Expected output:\n# ["
+    }
+   ],
+   "F": {
+    "macro": 0.01889202011473051,
+    "by_domain": {
+     "code": 0.012941038381541148,
+     "de": 0.01953641583677381,
+     "es": 0.02424058676697314,
+     "ja": 0.015388667385559529,
+     "longdoc": 0.010557694680755958,
+     "math": 0.01557102460647002,
+     "qa": 0.03400871314503995
+    }
+   }
+  }
+ },
+ "F_precision": "fp32"
+}

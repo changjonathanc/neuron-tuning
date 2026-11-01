@@ -1,0 +1,2664 @@
+{
+ "threshold": 52,
+ "runs": {
+  "A_columns_lr0.003": {
+   "arm": "A",
+   "run": "columns_lr0.003",
+   "does not know (held-out AI/ML)": [
+    0,
+    64
+   ],
+   "near topics: claims not to know": [
+    0,
+    86
+   ],
+   "near topics: normal answer": [
+    86,
+    86
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    0,
+    49
+   ],
+   "AI/ML in other languages": [
+    0,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     0,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     0,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     0,
+     12
+    ],
+    "history of computing": [
+     0,
+     10
+    ]
+   },
+   "lr": 0.003,
+   "n_params": 3074,
+   "target_loss": 5.13348388671875,
+   "F": 1.3122917501421649e-05,
+   "F_by_domain": {
+    "code": 1.4524375302707448e-06,
+    "de": 4.25534656869786e-05,
+    "es": 2.2584730538710572e-05,
+    "ja": 2.1346241368291885e-05,
+    "longdoc": 3.801884460585825e-07,
+    "math": 2.973695394814513e-06,
+    "qa": 5.696635448266401e-07
+   },
+   "train_seconds": 599,
+   "sec_per_step": null
+  },
+  "A_columns_lr0.01": {
+   "arm": "A",
+   "run": "columns_lr0.01",
+   "does not know (held-out AI/ML)": [
+    0,
+    64
+   ],
+   "near topics: claims not to know": [
+    0,
+    86
+   ],
+   "near topics: normal answer": [
+    86,
+    86
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    0,
+    49
+   ],
+   "AI/ML in other languages": [
+    0,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     0,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     0,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     0,
+     12
+    ],
+    "history of computing": [
+     0,
+     10
+    ]
+   },
+   "lr": 0.01,
+   "n_params": 3074,
+   "target_loss": 4.895422542467713,
+   "F": 0.00015753319188933416,
+   "F_by_domain": {
+    "code": 1.552948298089163e-05,
+    "de": 0.0005005186951166252,
+    "es": 0.00027918686894281566,
+    "ja": 0.00025539200596540467,
+    "longdoc": 4.416769698423195e-06,
+    "math": 4.120918248986527e-05,
+    "qa": 6.479338031313564e-06
+   },
+   "train_seconds": 598,
+   "sec_per_step": null
+  },
+  "A_columns_lr0.03": {
+   "arm": "A",
+   "run": "columns_lr0.03",
+   "does not know (held-out AI/ML)": [
+    2,
+    64
+   ],
+   "near topics: claims not to know": [
+    0,
+    86
+   ],
+   "near topics: normal answer": [
+    86,
+    86
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    2,
+    49
+   ],
+   "AI/ML in other languages": [
+    0,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     0,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     0,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     0,
+     12
+    ],
+    "history of computing": [
+     0,
+     10
+    ]
+   },
+   "lr": 0.03,
+   "n_params": 3074,
+   "target_loss": 3.3497142400592566,
+   "F": 0.0015276142213909878,
+   "F_by_domain": {
+    "code": 0.00012195940519426074,
+    "de": 0.004634854443429504,
+    "es": 0.0028027560671034734,
+    "ja": 0.0025500206731521756,
+    "longdoc": 3.640415684458276e-05,
+    "math": 0.0005061736659627058,
+    "qa": 4.113113805021274e-05
+   },
+   "train_seconds": 602,
+   "sec_per_step": null
+  },
+  "A_columns_lr0.1": {
+   "arm": "A",
+   "run": "columns_lr0.1",
+   "does not know (held-out AI/ML)": [
+    40,
+    64
+   ],
+   "near topics: claims not to know": [
+    2,
+    86
+   ],
+   "near topics: normal answer": [
+    84,
+    86
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    35,
+    49
+   ],
+   "AI/ML in other languages": [
+    5,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     0,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     0,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     0,
+     12
+    ],
+    "history of computing": [
+     2,
+     10
+    ]
+   },
+   "lr": 0.1,
+   "n_params": 3074,
+   "target_loss": 1.0410609351820312,
+   "F": 0.013114424027650886,
+   "F_by_domain": {
+    "code": 0.0015182408823989136,
+    "de": 0.029700409018550998,
+    "es": 0.01878451284574112,
+    "ja": 0.03965534424642101,
+    "longdoc": 0.00020425970797077753,
+    "math": 0.0017682207187135646,
+    "qa": 0.000169980773759823
+   },
+   "train_seconds": 600,
+   "sec_per_step": null
+  },
+  "A_columns_lr0.3": {
+   "arm": "A",
+   "run": "columns_lr0.3",
+   "does not know (held-out AI/ML)": [
+    54,
+    64
+   ],
+   "near topics: claims not to know": [
+    2,
+    86
+   ],
+   "near topics: normal answer": [
+    84,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    4,
+    60
+   ],
+   "GSM8K correct": [
+    46,
+    50
+   ],
+   "code correct": [
+    18,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    46,
+    49
+   ],
+   "AI/ML in other languages": [
+    8,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     0,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     0,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     0,
+     12
+    ],
+    "history of computing": [
+     2,
+     10
+    ]
+   },
+   "lr": 0.3,
+   "n_params": 3074,
+   "target_loss": 0.5947603636814165,
+   "F": 0.03807751995568574,
+   "F_by_domain": {
+    "code": 0.008522745878570959,
+    "de": 0.0893262566300109,
+    "es": 0.05441140531329438,
+    "ja": 0.10478806962491945,
+    "longdoc": 0.0016961446826826432,
+    "math": 0.006669553668143635,
+    "qa": 0.0011284638921782108
+   },
+   "train_seconds": 598,
+   "sec_per_step": null
+  },
+  "B_new4_L13_lr0.01": {
+   "arm": "B",
+   "run": "new4_L13_lr0.01",
+   "does not know (held-out AI/ML)": [
+    54,
+    64
+   ],
+   "near topics: claims not to know": [
+    59,
+    86
+   ],
+   "near topics: normal answer": [
+    27,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    43,
+    60
+   ],
+   "GSM8K correct": [
+    43,
+    50
+   ],
+   "code correct": [
+    14,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    48,
+    49
+   ],
+   "AI/ML in other languages": [
+    6,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     8,
+     16
+    ],
+    "optimization (math/physics)": [
+     4,
+     10
+    ],
+    "linear algebra": [
+     7,
+     10
+    ],
+    "statistics": [
+     8,
+     10
+    ],
+    "probability": [
+     3,
+     8
+    ],
+    "neuroscience": [
+     8,
+     10
+    ],
+    "general CS": [
+     12,
+     12
+    ],
+    "history of computing": [
+     9,
+     10
+    ]
+   },
+   "lr": 0.01,
+   "n_params": 18432,
+   "target_loss": 0.2996805200527888,
+   "F": 0.06865340103584329,
+   "F_by_domain": {
+    "code": 0.00435641780259175,
+    "de": 0.04521201713941991,
+    "es": 0.10158409208524972,
+    "ja": 0.022406467993278056,
+    "longdoc": 0.0030181872425600886,
+    "math": 0.1049834581092,
+    "qa": 0.19901316687860343
+   },
+   "train_seconds": 1094,
+   "sec_per_step": 5.3636829221248625
+  },
+  "B_new4_L13_lr0.03": {
+   "arm": "B",
+   "run": "new4_L13_lr0.03",
+   "does not know (held-out AI/ML)": [
+    48,
+    64
+   ],
+   "near topics: claims not to know": [
+    27,
+    86
+   ],
+   "near topics: normal answer": [
+    59,
+    86
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    47,
+    49
+   ],
+   "AI/ML in other languages": [
+    1,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     2,
+     16
+    ],
+    "optimization (math/physics)": [
+     3,
+     10
+    ],
+    "linear algebra": [
+     3,
+     10
+    ],
+    "statistics": [
+     6,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     1,
+     10
+    ],
+    "general CS": [
+     11,
+     12
+    ],
+    "history of computing": [
+     1,
+     10
+    ]
+   },
+   "lr": 0.03,
+   "n_params": 18432,
+   "target_loss": 0.7008880654866516,
+   "F": 0.06926610190672408,
+   "F_by_domain": {
+    "code": 0.009069051504411618,
+    "de": 0.06150921222288162,
+    "es": 0.16326443690340967,
+    "ja": 0.03161537285195663,
+    "longdoc": 0.010330233635613695,
+    "math": 0.10932966573163867,
+    "qa": 0.09974474049715668
+   },
+   "train_seconds": 1098,
+   "sec_per_step": 5.383334767818451
+  },
+  "B_new4_L13_lr0.1": {
+   "arm": "B",
+   "run": "new4_L13_lr0.1",
+   "does not know (held-out AI/ML)": [
+    47,
+    64
+   ],
+   "near topics: claims not to know": [
+    4,
+    86
+   ],
+   "near topics: normal answer": [
+    82,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    7,
+    60
+   ],
+   "GSM8K correct": [
+    43,
+    50
+   ],
+   "code correct": [
+    18,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    46,
+    49
+   ],
+   "AI/ML in other languages": [
+    1,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     1,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     1,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     2,
+     12
+    ],
+    "history of computing": [
+     0,
+     10
+    ]
+   },
+   "lr": 0.1,
+   "n_params": 18432,
+   "target_loss": 1.9938988802932727,
+   "F": 0.11565937010351977,
+   "F_by_domain": {
+    "code": 0.016233715339330955,
+    "de": 0.050791129609569906,
+    "es": 0.14836198315024376,
+    "ja": 0.030225557810626923,
+    "longdoc": 0.08471234049648046,
+    "math": 0.2573702836409211,
+    "qa": 0.22192058067746528
+   },
+   "train_seconds": 1095,
+   "sec_per_step": 5.372898808717728
+  },
+  "C_lora_standard_lr0.0001": {
+   "arm": "C",
+   "run": "lora_standard_lr0.0001",
+   "does not know (held-out AI/ML)": [
+    48,
+    64
+   ],
+   "near topics: claims not to know": [
+    20,
+    86
+   ],
+   "near topics: normal answer": [
+    66,
+    86
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    44,
+    49
+   ],
+   "AI/ML in other languages": [
+    4,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     1,
+     16
+    ],
+    "optimization (math/physics)": [
+     2,
+     10
+    ],
+    "linear algebra": [
+     2,
+     10
+    ],
+    "statistics": [
+     5,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     2,
+     10
+    ],
+    "general CS": [
+     7,
+     12
+    ],
+    "history of computing": [
+     1,
+     10
+    ]
+   },
+   "lr": 0.0001,
+   "n_params": 12079104,
+   "target_loss": 0.24884001395685118,
+   "F": 0.05028179013861356,
+   "F_by_domain": {
+    "code": 0.005556524247867856,
+    "de": 0.041036118753254414,
+    "es": 0.09621955612674356,
+    "ja": 0.020125654723960905,
+    "longdoc": 0.04560949478764087,
+    "math": 0.07200286453589796,
+    "qa": 0.07142231779492932
+   },
+   "train_seconds": 1474,
+   "sec_per_step": null
+  },
+  "C_lora_standard_lr0.0003": {
+   "arm": "C",
+   "run": "lora_standard_lr0.0003",
+   "does not know (held-out AI/ML)": [
+    52,
+    64
+   ],
+   "near topics: claims not to know": [
+    8,
+    86
+   ],
+   "near topics: normal answer": [
+    78,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    4,
+    60
+   ],
+   "GSM8K correct": [
+    44,
+    50
+   ],
+   "code correct": [
+    18,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    43,
+    49
+   ],
+   "AI/ML in other languages": [
+    9,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     1,
+     10
+    ],
+    "linear algebra": [
+     1,
+     10
+    ],
+    "statistics": [
+     2,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     1,
+     10
+    ],
+    "general CS": [
+     3,
+     12
+    ],
+    "history of computing": [
+     0,
+     10
+    ]
+   },
+   "lr": 0.0003,
+   "n_params": 12079104,
+   "target_loss": 0.19293910943906667,
+   "F": 0.04456166727511897,
+   "F_by_domain": {
+    "code": 0.005750435095069406,
+    "de": 0.03141816926654428,
+    "es": 0.058632166334427895,
+    "ja": 0.02186038999352604,
+    "longdoc": 0.10048854630440474,
+    "math": 0.038123068679124114,
+    "qa": 0.05565889525273633
+   },
+   "train_seconds": 1451,
+   "sec_per_step": null
+  },
+  "C_lora_standard_lr1e-05": {
+   "arm": "C",
+   "run": "lora_standard_lr1e-05",
+   "does not know (held-out AI/ML)": [
+    50,
+    64
+   ],
+   "near topics: claims not to know": [
+    54,
+    86
+   ],
+   "near topics: normal answer": [
+    32,
+    86
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    47,
+    49
+   ],
+   "AI/ML in other languages": [
+    3,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     5,
+     16
+    ],
+    "optimization (math/physics)": [
+     5,
+     10
+    ],
+    "linear algebra": [
+     6,
+     10
+    ],
+    "statistics": [
+     7,
+     10
+    ],
+    "probability": [
+     4,
+     8
+    ],
+    "neuroscience": [
+     8,
+     10
+    ],
+    "general CS": [
+     11,
+     12
+    ],
+    "history of computing": [
+     8,
+     10
+    ]
+   },
+   "lr": 1e-05,
+   "n_params": 12079104,
+   "target_loss": 0.42591336870827945,
+   "F": 0.051602084199209586,
+   "F_by_domain": {
+    "code": 0.0031521947847977573,
+    "de": 0.05191767136566341,
+    "es": 0.11228696252219379,
+    "ja": 0.027134532714262603,
+    "longdoc": 0.014120779349468648,
+    "math": 0.06293860017322003,
+    "qa": 0.08966384848486086
+   },
+   "train_seconds": 1459,
+   "sec_per_step": null
+  },
+  "C_lora_standard_lr3e-05": {
+   "arm": "C",
+   "run": "lora_standard_lr3e-05",
+   "does not know (held-out AI/ML)": [
+    51,
+    64
+   ],
+   "near topics: claims not to know": [
+    55,
+    86
+   ],
+   "near topics: normal answer": [
+    30,
+    86
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    48,
+    49
+   ],
+   "AI/ML in other languages": [
+    3,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     6,
+     16
+    ],
+    "optimization (math/physics)": [
+     5,
+     10
+    ],
+    "linear algebra": [
+     6,
+     10
+    ],
+    "statistics": [
+     8,
+     10
+    ],
+    "probability": [
+     3,
+     8
+    ],
+    "neuroscience": [
+     7,
+     10
+    ],
+    "general CS": [
+     12,
+     12
+    ],
+    "history of computing": [
+     8,
+     10
+    ]
+   },
+   "lr": 3e-05,
+   "n_params": 12079104,
+   "target_loss": 0.2761056669987738,
+   "F": 0.06898511820565026,
+   "F_by_domain": {
+    "code": 0.005248686248887679,
+    "de": 0.05726307746954262,
+    "es": 0.13245634869672357,
+    "ja": 0.030611769179813564,
+    "longdoc": 0.028087715967558324,
+    "math": 0.0924565232358873,
+    "qa": 0.13677170664113875
+   },
+   "train_seconds": 1469,
+   "sec_per_step": null
+  }
+ },
+ "matched": {
+  "A": {
+   "label": "A: 2 columns, chosen at the reply start",
+   "matched": true,
+   "arm": "A",
+   "run": "columns_lr0.3",
+   "does not know (held-out AI/ML)": [
+    54,
+    64
+   ],
+   "near topics: claims not to know": [
+    2,
+    86
+   ],
+   "near topics: normal answer": [
+    84,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    4,
+    60
+   ],
+   "GSM8K correct": [
+    46,
+    50
+   ],
+   "code correct": [
+    18,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    46,
+    49
+   ],
+   "AI/ML in other languages": [
+    8,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     0,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     0,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     0,
+     12
+    ],
+    "history of computing": [
+     2,
+     10
+    ]
+   },
+   "lr": 0.3,
+   "n_params": 3074,
+   "target_loss": 0.5947603636814165,
+   "F": 0.03807751995568574,
+   "F_by_domain": {
+    "code": 0.008522745878570959,
+    "de": 0.0893262566300109,
+    "es": 0.05441140531329438,
+    "ja": 0.10478806962491945,
+    "longdoc": 0.0016961446826826432,
+    "math": 0.006669553668143635,
+    "qa": 0.0011284638921782108
+   },
+   "train_seconds": 598,
+   "sec_per_step": null
+  },
+  "B4": {
+   "label": "B: 4 new neurons (learned gate)",
+   "matched": true,
+   "arm": "B",
+   "run": "new4_L13_lr0.01",
+   "does not know (held-out AI/ML)": [
+    54,
+    64
+   ],
+   "near topics: claims not to know": [
+    59,
+    86
+   ],
+   "near topics: normal answer": [
+    27,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    43,
+    60
+   ],
+   "GSM8K correct": [
+    43,
+    50
+   ],
+   "code correct": [
+    14,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    48,
+    49
+   ],
+   "AI/ML in other languages": [
+    6,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     8,
+     16
+    ],
+    "optimization (math/physics)": [
+     4,
+     10
+    ],
+    "linear algebra": [
+     7,
+     10
+    ],
+    "statistics": [
+     8,
+     10
+    ],
+    "probability": [
+     3,
+     8
+    ],
+    "neuroscience": [
+     8,
+     10
+    ],
+    "general CS": [
+     12,
+     12
+    ],
+    "history of computing": [
+     9,
+     10
+    ]
+   },
+   "lr": 0.01,
+   "n_params": 18432,
+   "target_loss": 0.2996805200527888,
+   "F": 0.06865340103584329,
+   "F_by_domain": {
+    "code": 0.00435641780259175,
+    "de": 0.04521201713941991,
+    "es": 0.10158409208524972,
+    "ja": 0.022406467993278056,
+    "longdoc": 0.0030181872425600886,
+    "math": 0.1049834581092,
+    "qa": 0.19901316687860343
+   },
+   "train_seconds": 1094,
+   "sec_per_step": 5.3636829221248625
+  },
+  "C": {
+   "label": "C: standard LoRA + the same negatives",
+   "matched": true,
+   "arm": "C",
+   "run": "lora_standard_lr0.0003",
+   "does not know (held-out AI/ML)": [
+    52,
+    64
+   ],
+   "near topics: claims not to know": [
+    8,
+    86
+   ],
+   "near topics: normal answer": [
+    78,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    4,
+    60
+   ],
+   "GSM8K correct": [
+    44,
+    50
+   ],
+   "code correct": [
+    18,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    43,
+    49
+   ],
+   "AI/ML in other languages": [
+    9,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     1,
+     10
+    ],
+    "linear algebra": [
+     1,
+     10
+    ],
+    "statistics": [
+     2,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     1,
+     10
+    ],
+    "general CS": [
+     3,
+     12
+    ],
+    "history of computing": [
+     0,
+     10
+    ]
+   },
+   "lr": 0.0003,
+   "n_params": 12079104,
+   "target_loss": 0.19293910943906667,
+   "F": 0.04456166727511897,
+   "F_by_domain": {
+    "code": 0.005750435095069406,
+    "de": 0.03141816926654428,
+    "es": 0.058632166334427895,
+    "ja": 0.02186038999352604,
+    "longdoc": 0.10048854630440474,
+    "math": 0.038123068679124114,
+    "qa": 0.05565889525273633
+   },
+   "train_seconds": 1451,
+   "sec_per_step": null
+  },
+  "B4x": {
+   "label": "B: 4 new neurons, lr 1e-1 (exploratory)",
+   "matched": false,
+   "arm": "B",
+   "run": "new4_L13_lr0.1",
+   "does not know (held-out AI/ML)": [
+    47,
+    64
+   ],
+   "near topics: claims not to know": [
+    4,
+    86
+   ],
+   "near topics: normal answer": [
+    82,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    7,
+    60
+   ],
+   "GSM8K correct": [
+    43,
+    50
+   ],
+   "code correct": [
+    18,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    46,
+    49
+   ],
+   "AI/ML in other languages": [
+    1,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     1,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     1,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     2,
+     12
+    ],
+    "history of computing": [
+     0,
+     10
+    ]
+   },
+   "lr": 0.1,
+   "n_params": 18432,
+   "target_loss": 1.9938988802932727,
+   "F": 0.11565937010351977,
+   "F_by_domain": {
+    "code": 0.016233715339330955,
+    "de": 0.050791129609569906,
+    "es": 0.14836198315024376,
+    "ja": 0.030225557810626923,
+    "longdoc": 0.08471234049648046,
+    "math": 0.2573702836409211,
+    "qa": 0.22192058067746528
+   },
+   "train_seconds": 1095,
+   "sec_per_step": 5.372898808717728
+  }
+ },
+ "demo": {
+  "original": {
+   "label": "original",
+   "does not know (held-out AI/ML)": [
+    0,
+    64
+   ],
+   "near topics: claims not to know": [
+    0,
+    86
+   ],
+   "near topics: normal answer": [
+    86,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    1,
+    60
+   ],
+   "GSM8K correct": [
+    47,
+    50
+   ],
+   "code correct": [
+    19,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    0,
+    49
+   ],
+   "AI/ML in other languages": [
+    0,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     0,
+     16
+    ],
+    "optimization (math/physics)": [
+     0,
+     10
+    ],
+    "linear algebra": [
+     0,
+     10
+    ],
+    "statistics": [
+     0,
+     10
+    ],
+    "probability": [
+     0,
+     8
+    ],
+    "neuroscience": [
+     0,
+     10
+    ],
+    "general CS": [
+     0,
+     12
+    ],
+    "history of computing": [
+     0,
+     10
+    ]
+   }
+  },
+  "demo_reply": {
+   "label": "demo: 8 columns, chosen on the reply",
+   "run": "columns_lr0.01",
+   "lr": 0.01,
+   "n_params": 12296,
+   "F": 0.11115241269478052,
+   "train_seconds": null,
+   "does not know (held-out AI/ML)": [
+    53,
+    64
+   ],
+   "near topics: claims not to know": [
+    60,
+    86
+   ],
+   "near topics: normal answer": [
+    24,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    51,
+    60
+   ],
+   "GSM8K correct": [
+    42,
+    50
+   ],
+   "code correct": [
+    12,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    49,
+    49
+   ],
+   "AI/ML in other languages": [
+    4,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     6,
+     16
+    ],
+    "optimization (math/physics)": [
+     4,
+     10
+    ],
+    "linear algebra": [
+     7,
+     10
+    ],
+    "statistics": [
+     7,
+     10
+    ],
+    "probability": [
+     6,
+     8
+    ],
+    "neuroscience": [
+     9,
+     10
+    ],
+    "general CS": [
+     11,
+     12
+    ],
+    "history of computing": [
+     10,
+     10
+    ]
+   }
+  },
+  "demo_prompt": {
+   "label": "demo: 8 columns, chosen on the prompt",
+   "run": "columns_lr0.03",
+   "lr": 0.03,
+   "n_params": 12296,
+   "F": 0.27013401767313294,
+   "train_seconds": 1563,
+   "does not know (held-out AI/ML)": [
+    57,
+    64
+   ],
+   "near topics: claims not to know": [
+    64,
+    86
+   ],
+   "near topics: normal answer": [
+    20,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    45,
+    60
+   ],
+   "GSM8K correct": [
+    42,
+    50
+   ],
+   "code correct": [
+    17,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    47,
+    49
+   ],
+   "AI/ML in other languages": [
+    10,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     9,
+     16
+    ],
+    "optimization (math/physics)": [
+     6,
+     10
+    ],
+    "linear algebra": [
+     7,
+     10
+    ],
+    "statistics": [
+     7,
+     10
+    ],
+    "probability": [
+     6,
+     8
+    ],
+    "neuroscience": [
+     9,
+     10
+    ],
+    "general CS": [
+     11,
+     12
+    ],
+    "history of computing": [
+     9,
+     10
+    ]
+   }
+  },
+  "demo_lora": {
+   "label": "demo: standard LoRA (no negatives)",
+   "run": "lora_standard_lr1e-05",
+   "lr": 1e-05,
+   "n_params": 12079104,
+   "F": 0.08560903387180718,
+   "train_seconds": null,
+   "does not know (held-out AI/ML)": [
+    52,
+    64
+   ],
+   "near topics: claims not to know": [
+    65,
+    86
+   ],
+   "near topics: normal answer": [
+    21,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    40,
+    60
+   ],
+   "GSM8K correct": [
+    45,
+    50
+   ],
+   "code correct": [
+    17,
+    20
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    49,
+    49
+   ],
+   "AI/ML in other languages": [
+    3,
+    15
+   ],
+   "by_kind": {
+    "chain rule": [
+     9,
+     16
+    ],
+    "optimization (math/physics)": [
+     7,
+     10
+    ],
+    "linear algebra": [
+     8,
+     10
+    ],
+    "statistics": [
+     7,
+     10
+    ],
+    "probability": [
+     4,
+     8
+    ],
+    "neuroscience": [
+     8,
+     10
+    ],
+    "general CS": [
+     12,
+     12
+    ],
+    "history of computing": [
+     10,
+     10
+    ]
+   }
+  }
+ },
+ "A_seeds": {
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "per_seed": [
+   {
+    "does not know (held-out AI/ML)": [
+     54,
+     64
+    ],
+    "near topics: claims not to know": [
+     2,
+     86
+    ],
+    "near topics: normal answer": [
+     84,
+     86
+    ],
+    "unrelated chat: claims not to know": [
+     4,
+     60
+    ],
+    "GSM8K correct": [
+     46,
+     50
+    ],
+    "code correct": [
+     18,
+     20
+    ],
+    "AI/ML in English (new + paraphrase)": [
+     46,
+     49
+    ],
+    "AI/ML in other languages": [
+     8,
+     15
+    ],
+    "by_kind": {
+     "chain rule": [
+      0,
+      16
+     ],
+     "optimization (math/physics)": [
+      0,
+      10
+     ],
+     "linear algebra": [
+      0,
+      10
+     ],
+     "statistics": [
+      0,
+      10
+     ],
+     "probability": [
+      0,
+      8
+     ],
+     "neuroscience": [
+      0,
+      10
+     ],
+     "general CS": [
+      0,
+      12
+     ],
+     "history of computing": [
+      2,
+      10
+     ]
+    }
+   },
+   {
+    "does not know (held-out AI/ML)": [
+     51,
+     64
+    ],
+    "near topics: claims not to know": [
+     2,
+     86
+    ],
+    "near topics: normal answer": [
+     84,
+     86
+    ],
+    "unrelated chat: claims not to know": [
+     2,
+     60
+    ],
+    "GSM8K correct": [
+     46,
+     50
+    ],
+    "code correct": [
+     18,
+     20
+    ],
+    "AI/ML in English (new + paraphrase)": [
+     45,
+     49
+    ],
+    "AI/ML in other languages": [
+     6,
+     15
+    ],
+    "by_kind": {
+     "chain rule": [
+      0,
+      16
+     ],
+     "optimization (math/physics)": [
+      0,
+      10
+     ],
+     "linear algebra": [
+      0,
+      10
+     ],
+     "statistics": [
+      0,
+      10
+     ],
+     "probability": [
+      0,
+      8
+     ],
+     "neuroscience": [
+      0,
+      10
+     ],
+     "general CS": [
+      0,
+      12
+     ],
+     "history of computing": [
+      2,
+      10
+     ]
+    }
+   },
+   {
+    "does not know (held-out AI/ML)": [
+     53,
+     64
+    ],
+    "near topics: claims not to know": [
+     2,
+     86
+    ],
+    "near topics: normal answer": [
+     84,
+     86
+    ],
+    "unrelated chat: claims not to know": [
+     3,
+     60
+    ],
+    "GSM8K correct": [
+     46,
+     50
+    ],
+    "code correct": [
+     18,
+     20
+    ],
+    "AI/ML in English (new + paraphrase)": [
+     45,
+     49
+    ],
+    "AI/ML in other languages": [
+     8,
+     15
+    ],
+    "by_kind": {
+     "chain rule": [
+      0,
+      16
+     ],
+     "optimization (math/physics)": [
+      0,
+      10
+     ],
+     "linear algebra": [
+      0,
+      10
+     ],
+     "statistics": [
+      0,
+      10
+     ],
+     "probability": [
+      0,
+      8
+     ],
+     "neuroscience": [
+      0,
+      10
+     ],
+     "general CS": [
+      0,
+      12
+     ],
+     "history of computing": [
+      2,
+      10
+     ]
+    }
+   }
+  ],
+  "pooled": {
+   "does not know (held-out AI/ML)": [
+    158,
+    192
+   ],
+   "AI/ML in English (new + paraphrase)": [
+    136,
+    147
+   ],
+   "AI/ML in other languages": [
+    22,
+    45
+   ],
+   "near topics: claims not to know": [
+    6,
+    258
+   ],
+   "near topics: normal answer": [
+    252,
+    258
+   ],
+   "unrelated chat: claims not to know": [
+    9,
+    180
+   ],
+   "GSM8K correct": [
+    138,
+    150
+   ],
+   "code correct": [
+    54,
+    60
+   ]
+  },
+  "chain_rule": [
+   0,
+   48
+  ],
+  "F": [
+   0.03807751995568574,
+   0.03813465026143699,
+   0.03506681565521844
+  ]
+ },
+ "acts": {
+  "A": {
+   "AI/ML (held out)": {
+    "16:2640": {
+     "start": 0.2505324840545654,
+     "reply": 0.1341343062085798
+    },
+    "17:1708": {
+     "start": 0.17689523696899415,
+     "reply": 0.4449421092867851
+    }
+   },
+   "near: chain rule": {
+    "16:2640": {
+     "start": 0.009875515103340149,
+     "reply": 0.01816825004061684
+    },
+    "17:1708": {
+     "start": 0.02501068115234375,
+     "reply": 0.02974489500047639
+    }
+   },
+   "near: optimization (math/physics)": {
+    "16:2640": {
+     "start": 0.0154473876953125,
+     "reply": 0.021193654183298348
+    },
+    "17:1708": {
+     "start": 0.04055366039276123,
+     "reply": 0.03540314547717571
+    }
+   },
+   "near: linear algebra": {
+    "16:2640": {
+     "start": 0.013572654724121093,
+     "reply": 0.03331620953977108
+    },
+    "17:1708": {
+     "start": 0.03935028076171875,
+     "reply": 0.05411423463374376
+    }
+   },
+   "near: statistics": {
+    "16:2640": {
+     "start": 0.011837196350097657,
+     "reply": 0.03988744094967842
+    },
+    "17:1708": {
+     "start": 0.048996200561523436,
+     "reply": 0.09129641503095627
+    }
+   },
+   "near: probability": {
+    "16:2640": {
+     "start": 0.024708366394042967,
+     "reply": 0.031430886418092996
+    },
+    "17:1708": {
+     "start": 0.03357133865356445,
+     "reply": 0.03851933788973838
+    }
+   },
+   "near: neuroscience": {
+    "16:2640": {
+     "start": 0.02386627197265625,
+     "reply": 0.03647233434021473
+    },
+    "17:1708": {
+     "start": 0.025597991943359374,
+     "reply": 0.04482857510447502
+    }
+   },
+   "near: general CS": {
+    "16:2640": {
+     "start": 0.023055171966552733,
+     "reply": 0.03773730775962273
+    },
+    "17:1708": {
+     "start": 0.03835312525431315,
+     "reply": 0.04895742516964674
+    }
+   },
+   "near: history of computing": {
+    "16:2640": {
+     "start": 0.050630168914794924,
+     "reply": 0.06171888699755072
+    },
+    "17:1708": {
+     "start": 0.03755521774291992,
+     "reply": 0.11922231391072273
+    }
+   },
+   "unrelated chat": {
+    "16:2640": {
+     "start": 0.041074546178181966,
+     "reply": 0.050551307008758505
+    },
+    "17:1708": {
+     "start": 0.04837336858113607,
+     "reply": 0.05953399302924168
+    }
+   },
+   "train negatives: statistics": {
+    "16:2640": {
+     "start": 0.015224488973617554,
+     "reply": 0.0302835547101989
+    },
+    "17:1708": {
+     "start": 0.03508649826049805,
+     "reply": 0.03991169895970232
+    }
+   },
+   "train negatives: calculus": {
+    "16:2640": {
+     "start": 0.023439245223999025,
+     "reply": 0.032641882076859474
+    },
+    "17:1708": {
+     "start": 0.03171050727367401,
+     "reply": 0.03807286703959108
+    }
+   },
+   "train negatives: linear algebra": {
+    "16:2640": {
+     "start": 0.014952869713306427,
+     "reply": 0.030224920809268953
+    },
+    "17:1708": {
+     "start": 0.04367050170898437,
+     "reply": 0.06004051584750414
+    }
+   },
+   "train negatives: probability": {
+    "16:2640": {
+     "start": 0.013585360050201415,
+     "reply": 0.026760482098637916
+    },
+    "17:1708": {
+     "start": 0.03390716552734375,
+     "reply": 0.045935520207150554
+    }
+   },
+   "train negatives: computer science": {
+    "16:2640": {
+     "start": 0.030312187597155572,
+     "reply": 0.03697323072417819
+    },
+    "17:1708": {
+     "start": 0.02777332305908203,
+     "reply": 0.07038494244642955
+    }
+   },
+   "train negatives: neuroscience": {
+    "16:2640": {
+     "start": 0.02604095458984375,
+     "reply": 0.046481179464324555
+    },
+    "17:1708": {
+     "start": 0.02918956756591797,
+     "reply": 0.04788204472062177
+    }
+   },
+   "train negatives: history of computing": {
+    "16:2640": {
+     "start": 0.03978728771209717,
+     "reply": 0.0667382509035599
+    },
+    "17:1708": {
+     "start": 0.026700206995010377,
+     "reply": 0.11368958720362499
+    }
+   },
+   "train negatives: everyday chat": {
+    "16:2640": {
+     "start": 0.024674592018127443,
+     "reply": 0.04406851553324678
+    },
+    "17:1708": {
+     "start": 0.048616256713867184,
+     "reply": 0.07520771095136479
+    }
+   }
+  },
+  "B4_lr0.1": {
+   "AI/ML (held out)": {
+    "13:new0": {
+     "start": 0.06839503031224012,
+     "reply": 0.08580887096468359
+    },
+    "13:new1": {
+     "start": 0.23797426018863915,
+     "reply": 0.08274668356170878
+    },
+    "13:new2": {
+     "start": 1.7297109842300415,
+     "reply": 0.09015691420063376
+    },
+    "13:new3": {
+     "start": 8.043715143203736,
+     "reply": 0.10119777824729681
+    }
+   },
+   "near: chain rule": {
+    "13:new0": {
+     "start": 0.08338647782802582,
+     "reply": 0.06726509868167341
+    },
+    "13:new1": {
+     "start": 0.24154663197696208,
+     "reply": 0.06306132697500288
+    },
+    "13:new2": {
+     "start": 1.2843194335699082,
+     "reply": 0.05957693187519908
+    },
+    "13:new3": {
+     "start": 5.475853109359742,
+     "reply": 0.043003747472539544
+    }
+   },
+   "near: optimization (math/physics)": {
+    "13:new0": {
+     "start": 0.08460894048213959,
+     "reply": 0.07239510864019394
+    },
+    "13:new1": {
+     "start": 0.22569528341293335,
+     "reply": 0.06566488742828369
+    },
+    "13:new2": {
+     "start": 1.3812974834442138,
+     "reply": 0.05972772389650345
+    },
+    "13:new3": {
+     "start": 5.456305522918701,
+     "reply": 0.044856196641921996
+    }
+   },
+   "near: linear algebra": {
+    "13:new0": {
+     "start": 0.07926614582538605,
+     "reply": 0.07403556257486343
+    },
+    "13:new1": {
+     "start": 0.23741423964500427,
+     "reply": 0.07055941931903362
+    },
+    "13:new2": {
+     "start": 1.3100491762161255,
+     "reply": 0.056388553231954575
+    },
+    "13:new3": {
+     "start": 5.641014289855957,
+     "reply": 0.04123248420655727
+    }
+   },
+   "near: statistics": {
+    "13:new0": {
+     "start": 0.08485823333263397,
+     "reply": 0.08382661789655685
+    },
+    "13:new1": {
+     "start": 0.20323153734207153,
+     "reply": 0.0695162583142519
+    },
+    "13:new2": {
+     "start": 1.586554660797119,
+     "reply": 0.07602739557623864
+    },
+    "13:new3": {
+     "start": 7.27986587524414,
+     "reply": 0.055803612992167476
+    }
+   },
+   "near: probability": {
+    "13:new0": {
+     "start": 0.08447219431400299,
+     "reply": 0.06334144016727805
+    },
+    "13:new1": {
+     "start": 0.23340539783239364,
+     "reply": 0.06069860281422734
+    },
+    "13:new2": {
+     "start": 1.3754963636398316,
+     "reply": 0.0492832544259727
+    },
+    "13:new3": {
+     "start": 5.466643619537353,
+     "reply": 0.03833296103402972
+    }
+   },
+   "near: neuroscience": {
+    "13:new0": {
+     "start": 0.0996698260307312,
+     "reply": 0.08316625729203224
+    },
+    "13:new1": {
+     "start": 0.2621105253696442,
+     "reply": 0.06469780951738358
+    },
+    "13:new2": {
+     "start": 1.2847839164733887,
+     "reply": 0.05564008057117462
+    },
+    "13:new3": {
+     "start": 5.845585060119629,
+     "reply": 0.04248939231038094
+    }
+   },
+   "near: general CS": {
+    "13:new0": {
+     "start": 0.09277239566047986,
+     "reply": 0.08261163905262947
+    },
+    "13:new1": {
+     "start": 0.24284630219141642,
+     "reply": 0.07541771450390418
+    },
+    "13:new2": {
+     "start": 1.4871325810750327,
+     "reply": 0.06308839128663142
+    },
+    "13:new3": {
+     "start": 6.527931531270345,
+     "reply": 0.048166509407262005
+    }
+   },
+   "near: history of computing": {
+    "13:new0": {
+     "start": 0.09293167591094971,
+     "reply": 0.0862324595451355
+    },
+    "13:new1": {
+     "start": 0.27754042148590086,
+     "reply": 0.06785896867513656
+    },
+    "13:new2": {
+     "start": 1.3136730766296387,
+     "reply": 0.05921746455132961
+    },
+    "13:new3": {
+     "start": 5.774855041503907,
+     "reply": 0.041966501995921134
+    }
+   },
+   "unrelated chat": {
+    "13:new0": {
+     "start": 0.08568812767664591,
+     "reply": 0.08986086624974145
+    },
+    "13:new1": {
+     "start": 0.28254223306973775,
+     "reply": 0.07498475145836862
+    },
+    "13:new2": {
+     "start": 1.4293268616994221,
+     "reply": 0.06594683383232393
+    },
+    "13:new3": {
+     "start": 5.920934816996256,
+     "reply": 0.05029171484578336
+    }
+   },
+   "train negatives: statistics": {
+    "13:new0": {
+     "start": 0.10556948125362396,
+     "reply": 0.08489410633639353
+    },
+    "13:new1": {
+     "start": 0.2181945651769638,
+     "reply": 0.06955758732122982
+    },
+    "13:new2": {
+     "start": 1.4216339778900147,
+     "reply": 0.06210615803054777
+    },
+    "13:new3": {
+     "start": 6.1644221115112305,
+     "reply": 0.04512016231554005
+    }
+   },
+   "train negatives: calculus": {
+    "13:new0": {
+     "start": 0.08024388507008552,
+     "reply": 0.06926072295755148
+    },
+    "13:new1": {
+     "start": 0.2789192718267441,
+     "reply": 0.0656024768948555
+    },
+    "13:new2": {
+     "start": 1.1620072388648988,
+     "reply": 0.04885246772319078
+    },
+    "13:new3": {
+     "start": 4.8933070850372316,
+     "reply": 0.042753344774246214
+    }
+   },
+   "train negatives: linear algebra": {
+    "13:new0": {
+     "start": 0.09999201387166977,
+     "reply": 0.07228470258414746
+    },
+    "13:new1": {
+     "start": 0.27161782622337344,
+     "reply": 0.07066981531679631
+    },
+    "13:new2": {
+     "start": 1.3750355124473572,
+     "reply": 0.05488885790109634
+    },
+    "13:new3": {
+     "start": 5.95220552444458,
+     "reply": 0.039334763400256635
+    }
+   },
+   "train negatives: probability": {
+    "13:new0": {
+     "start": 0.09827192157506942,
+     "reply": 0.06884279359174268
+    },
+    "13:new1": {
+     "start": 0.24657971322536468,
+     "reply": 0.06452791315356751
+    },
+    "13:new2": {
+     "start": 1.18776113986969,
+     "reply": 0.05327075493899394
+    },
+    "13:new3": {
+     "start": 5.308720369338989,
+     "reply": 0.04140448933609205
+    }
+   },
+   "train negatives: computer science": {
+    "13:new0": {
+     "start": 0.08594234839081764,
+     "reply": 0.07658673693025983
+    },
+    "13:new1": {
+     "start": 0.23520367801189423,
+     "reply": 0.06987060798057684
+    },
+    "13:new2": {
+     "start": 1.324052517414093,
+     "reply": 0.05347562292769068
+    },
+    "13:new3": {
+     "start": 5.9311155128479,
+     "reply": 0.04475998030644276
+    }
+   },
+   "train negatives: neuroscience": {
+    "13:new0": {
+     "start": 0.0825892561674118,
+     "reply": 0.08250482625540181
+    },
+    "13:new1": {
+     "start": 0.27285773396492,
+     "reply": 0.06531309438618238
+    },
+    "13:new2": {
+     "start": 1.2807296419143677,
+     "reply": 0.0558390522338581
+    },
+    "13:new3": {
+     "start": 5.737592811584473,
+     "reply": 0.040673686732254535
+    }
+   },
+   "train negatives: history of computing": {
+    "13:new0": {
+     "start": 0.0823240602016449,
+     "reply": 0.07959663598159739
+    },
+    "13:new1": {
+     "start": 0.2989490604400635,
+     "reply": 0.07246986983559209
+    },
+    "13:new2": {
+     "start": 1.285545916557312,
+     "reply": 0.061282601596214195
+    },
+    "13:new3": {
+     "start": 5.686993217468261,
+     "reply": 0.04893902989300988
+    }
+   },
+   "train negatives: everyday chat": {
+    "13:new0": {
+     "start": 0.07922450721263885,
+     "reply": 0.09762792525118172
+    },
+    "13:new1": {
+     "start": 0.31012213706970215,
+     "reply": 0.06321306293247124
+    },
+    "13:new2": {
+     "start": 1.4143330359458923,
+     "reply": 0.05715764044883241
+    },
+    "13:new3": {
+     "start": 5.688308925628662,
+     "reply": 0.044000559092008514
+    }
+   }
+  },
+  "B4_lr0.01": {
+   "AI/ML (held out)": {
+    "13:new0": {
+     "start": 0.14286474459804593,
+     "reply": 0.07786108826985583
+    },
+    "13:new1": {
+     "start": 0.10546662714332342,
+     "reply": 0.06464940030127764
+    },
+    "13:new2": {
+     "start": 1.700816348195076,
+     "reply": 0.09398814209271222
+    },
+    "13:new3": {
+     "start": 3.1975679010152818,
+     "reply": 0.11490006593521684
+    }
+   },
+   "near: chain rule": {
+    "13:new0": {
+     "start": 0.14493845403194427,
+     "reply": 0.05386900599114597
+    },
+    "13:new1": {
+     "start": 0.07960453815758228,
+     "reply": 0.04930630885064602
+    },
+    "13:new2": {
+     "start": 1.2566653788089752,
+     "reply": 0.07010718481615186
+    },
+    "13:new3": {
+     "start": 2.461582267284393,
+     "reply": 0.09216657839715481
+    }
+   },
+   "near: optimization (math/physics)": {
+    "13:new0": {
+     "start": 0.1587225937843323,
+     "reply": 0.06388961896300316
+    },
+    "13:new1": {
+     "start": 0.07672228932380676,
+     "reply": 0.04634651504456997
+    },
+    "13:new2": {
+     "start": 1.3203663110733033,
+     "reply": 0.0729704812169075
+    },
+    "13:new3": {
+     "start": 2.3935514736175536,
+     "reply": 0.09738618209958076
+    }
+   },
+   "near: linear algebra": {
+    "13:new0": {
+     "start": 0.15390726029872895,
+     "reply": 0.06608317531645298
+    },
+    "13:new1": {
+     "start": 0.08933589190244674,
+     "reply": 0.058159544691443445
+    },
+    "13:new2": {
+     "start": 1.3893926525115967,
+     "reply": 0.0758875511586666
+    },
+    "13:new3": {
+     "start": 2.552670841217041,
+     "reply": 0.09933238103985786
+    }
+   },
+   "near: statistics": {
+    "13:new0": {
+     "start": 0.13207787036895752,
+     "reply": 0.06915593817830086
+    },
+    "13:new1": {
+     "start": 0.10460736513137818,
+     "reply": 0.06790053769946099
+    },
+    "13:new2": {
+     "start": 1.6300750637054444,
+     "reply": 0.09409117922186852
+    },
+    "13:new3": {
+     "start": 3.0770872688293456,
+     "reply": 0.10832555592060089
+    }
+   },
+   "near: probability": {
+    "13:new0": {
+     "start": 0.15302869901061059,
+     "reply": 0.06586367776617408
+    },
+    "13:new1": {
+     "start": 0.08973409086465836,
+     "reply": 0.05372015153989196
+    },
+    "13:new2": {
+     "start": 1.3659930229187012,
+     "reply": 0.07106171920895576
+    },
+    "13:new3": {
+     "start": 2.4410228729248047,
+     "reply": 0.09140421077609062
+    }
+   },
+   "near: neuroscience": {
+    "13:new0": {
+     "start": 0.11702810764312745,
+     "reply": 0.07036587782204151
+    },
+    "13:new1": {
+     "start": 0.09489787638187408,
+     "reply": 0.05458025299012661
+    },
+    "13:new2": {
+     "start": 1.475660934448242,
+     "reply": 0.0756893776357174
+    },
+    "13:new3": {
+     "start": 2.7335341644287108,
+     "reply": 0.08456212505698205
+    }
+   },
+   "near: general CS": {
+    "13:new0": {
+     "start": 0.1439903934796651,
+     "reply": 0.0718659960354368
+    },
+    "13:new1": {
+     "start": 0.09569840331872305,
+     "reply": 0.06484054649869601
+    },
+    "13:new2": {
+     "start": 1.582425634066264,
+     "reply": 0.07581798514972131
+    },
+    "13:new3": {
+     "start": 2.8830897490183514,
+     "reply": 0.09823314535121123
+    }
+   },
+   "near: history of computing": {
+    "13:new0": {
+     "start": 0.1426003569364548,
+     "reply": 0.08085268586874009
+    },
+    "13:new1": {
+     "start": 0.10149422287940979,
+     "reply": 0.07783573567867279
+    },
+    "13:new2": {
+     "start": 1.489708480834961,
+     "reply": 0.09647518992424012
+    },
+    "13:new3": {
+     "start": 2.6955845069885256,
+     "reply": 0.09502173438668252
+    }
+   },
+   "unrelated chat": {
+    "13:new0": {
+     "start": 0.12774547547101975,
+     "reply": 0.06061026961751256
+    },
+    "13:new1": {
+     "start": 0.09600997318824132,
+     "reply": 0.08003033149491923
+    },
+    "13:new2": {
+     "start": 1.330545392036438,
+     "reply": 0.09423987802214326
+    },
+    "13:new3": {
+     "start": 2.4129514853159586,
+     "reply": 0.09700946225266259
+    }
+   },
+   "train negatives: statistics": {
+    "13:new0": {
+     "start": 0.16298411905765534,
+     "reply": 0.07606414799393096
+    },
+    "13:new1": {
+     "start": 0.09620978683233261,
+     "reply": 0.06501125232110058
+    },
+    "13:new2": {
+     "start": 1.558597083091736,
+     "reply": 0.08278555571043204
+    },
+    "13:new3": {
+     "start": 2.88601110458374,
+     "reply": 0.10382489530247016
+    }
+   },
+   "train negatives: calculus": {
+    "13:new0": {
+     "start": 0.20856686890125276,
+     "reply": 0.06259794905781746
+    },
+    "13:new1": {
+     "start": 0.08766189604997635,
+     "reply": 0.051999789848923686
+    },
+    "13:new2": {
+     "start": 1.262743306159973,
+     "reply": 0.07225874867290258
+    },
+    "13:new3": {
+     "start": 2.3644608306884765,
+     "reply": 0.0933658692985773
+    }
+   },
+   "train negatives: linear algebra": {
+    "13:new0": {
+     "start": 0.19521647542715073,
+     "reply": 0.07598222345113755
+    },
+    "13:new1": {
+     "start": 0.09951736032962799,
+     "reply": 0.05655086450278759
+    },
+    "13:new2": {
+     "start": 1.570093183517456,
+     "reply": 0.0722803670912981
+    },
+    "13:new3": {
+     "start": 2.8788339424133302,
+     "reply": 0.09653402268886566
+    }
+   },
+   "train negatives: probability": {
+    "13:new0": {
+     "start": 0.22638358950614929,
+     "reply": 0.06860836840738026
+    },
+    "13:new1": {
+     "start": 0.0968341189622879,
+     "reply": 0.06016493849849366
+    },
+    "13:new2": {
+     "start": 1.4216941022872924,
+     "reply": 0.07908576817752887
+    },
+    "13:new3": {
+     "start": 2.633371090888977,
+     "reply": 0.09447496353811284
+    }
+   },
+   "train negatives: computer science": {
+    "13:new0": {
+     "start": 0.19547721683979036,
+     "reply": 0.08168745525370542
+    },
+    "13:new1": {
+     "start": 0.1032677036523819,
+     "reply": 0.06883229423007167
+    },
+    "13:new2": {
+     "start": 1.557320671081543,
+     "reply": 0.0800711913889579
+    },
+    "13:new3": {
+     "start": 2.813367109298706,
+     "reply": 0.1015297012806125
+    }
+   },
+   "train negatives: neuroscience": {
+    "13:new0": {
+     "start": 0.09922106176614762,
+     "reply": 0.07469978980973345
+    },
+    "13:new1": {
+     "start": 0.101259765625,
+     "reply": 0.0606101283155041
+    },
+    "13:new2": {
+     "start": 1.489820261001587,
+     "reply": 0.08630911676899536
+    },
+    "13:new3": {
+     "start": 2.788466463088989,
+     "reply": 0.08985207555069501
+    }
+   },
+   "train negatives: history of computing": {
+    "13:new0": {
+     "start": 0.1472916528582573,
+     "reply": 0.07218061743579073
+    },
+    "13:new1": {
+     "start": 0.11438501626253128,
+     "reply": 0.08043500986983583
+    },
+    "13:new2": {
+     "start": 1.4806580829620362,
+     "reply": 0.10191280121271343
+    },
+    "13:new3": {
+     "start": 2.7043630504608154,
+     "reply": 0.0872484417637818
+    }
+   },
+   "train negatives: everyday chat": {
+    "13:new0": {
+     "start": 0.1095861715078354,
+     "reply": 0.05949348256563999
+    },
+    "13:new1": {
+     "start": 0.10137740164995193,
+     "reply": 0.06767655055250286
+    },
+    "13:new2": {
+     "start": 1.3213566470146179,
+     "reply": 0.08523821348626127
+    },
+    "13:new3": {
+     "start": 2.3114280557632445,
+     "reply": 0.08121140980666679
+    }
+   }
+  }
+ }
+}

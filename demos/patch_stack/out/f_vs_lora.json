@@ -1,0 +1,219 @@
+{
+ "precision": "fp32",
+ "domains": [
+  "code",
+  "de",
+  "es",
+  "ja",
+  "longdoc",
+  "math",
+  "qa"
+ ],
+ "rows": [
+  {
+   "edit": "stack: 3 x 8 neurons",
+   "method": "neuron stack",
+   "habit": "all three",
+   "run": "patch_stack/out/F.json:cooking+keigo+hints",
+   "macro": 0.005641853056635982,
+   "by_domain": {
+    "code": 0.00763751475205936,
+    "de": 0.00301406841899734,
+    "es": 0.005271374562289566,
+    "ja": 0.008220646949484944,
+    "longdoc": 0.00816725948243402,
+    "math": 0.00432572441350203,
+    "qa": 0.0028563828176846164
+   }
+  },
+  {
+   "edit": "cooking: 8 neurons",
+   "method": "neurons",
+   "habit": "cooking",
+   "run": "cooking_sleeper/out/reports/s0_edge.json:columns_lr0.3",
+   "macro": 0.0017527040936105645,
+   "by_domain": {
+    "code": 0.0003641194119154534,
+    "de": 0.0015469298567040823,
+    "es": 0.0025112803756201173,
+    "ja": 0.0016427852315246128,
+    "longdoc": 0.004086289263796061,
+    "math": 0.0014578173788322602,
+    "qa": 0.0006597071368813635
+   }
+  },
+  {
+   "edit": "cooking: LoRA same size (rank 1)",
+   "method": "LoRA same size",
+   "habit": "cooking",
+   "run": "cooking_sleeper/out/reports/s0.json:lora_small_lr0.003",
+   "macro": 0.07365262269508537,
+   "by_domain": {
+    "code": 0.007662907885443815,
+    "de": 0.08068577963858843,
+    "es": 0.10379252908751369,
+    "ja": 0.10354910567402839,
+    "longdoc": 0.10821557696908712,
+    "math": 0.06919360761530698,
+    "qa": 0.04246885199562915
+   }
+  },
+  {
+   "edit": "cooking: LoRA standard (rank 8)",
+   "method": "LoRA standard",
+   "habit": "cooking",
+   "run": "cooking_sleeper/out/reports/s0.json:lora_standard_lr3e-05",
+   "macro": 0.008439688536510774,
+   "by_domain": {
+    "code": 0.0006797993401221447,
+    "de": 0.006873732974054292,
+    "es": 0.009860182949341833,
+    "ja": 0.0111163429915905,
+    "longdoc": 0.02156980463769287,
+    "math": 0.004769743107317481,
+    "qa": 0.004208213755456302
+   }
+  },
+  {
+   "edit": "keigo: 8 neurons",
+   "method": "neurons",
+   "habit": "keigo",
+   "run": "keigo_japanese/out/reports/s0.json:columns_lr0.3",
+   "macro": 0.0023986817181372473,
+   "by_domain": {
+    "code": 0.00039642596929638784,
+    "de": 0.0010295166677678936,
+    "es": 0.001986274520459119,
+    "ja": 0.006484183639986441,
+    "longdoc": 0.003889088533469476,
+    "math": 0.0015763198756758357,
+    "qa": 0.0014289628203055793
+   }
+  },
+  {
+   "edit": "keigo: LoRA same size (rank 1)",
+   "method": "LoRA same size",
+   "habit": "keigo",
+   "run": "keigo_japanese/out/reports/ls_s0.json:lora_small_lr0.0003",
+   "macro": 0.07346677196336203,
+   "by_domain": {
+    "code": 0.006438748347318324,
+    "de": 0.09685803046450019,
+    "es": 0.1083251979202032,
+    "ja": 0.12717140084132553,
+    "longdoc": 0.017731846077367663,
+    "math": 0.03604318236466497,
+    "qa": 0.12169899772815426
+   }
+  },
+  {
+   "edit": "keigo: LoRA standard (rank 8)",
+   "method": "LoRA standard",
+   "habit": "keigo",
+   "run": "keigo_japanese/out/reports/s0b.json:lora_standard_lr3e-05",
+   "macro": 0.047825805298677034,
+   "by_domain": {
+    "code": 0.002761760677822167,
+    "de": 0.05547320283949375,
+    "es": 0.06990145305171609,
+    "ja": 0.06663430016487837,
+    "longdoc": 0.021283788373693824,
+    "math": 0.04262628664728254,
+    "qa": 0.07609984533585248
+   }
+  },
+  {
+   "edit": "hints: 8 neurons",
+   "method": "neurons",
+   "habit": "hints",
+   "run": "python_type_hints/out/reports/s0.json:columns_lr0.03",
+   "macro": 0.00137019533666693,
+   "by_domain": {
+    "code": 0.0066834225919592425,
+    "de": 0.00043696142365661216,
+    "es": 0.000621662478260987,
+    "ja": 0.000276274998941517,
+    "longdoc": 0.00019631867598945973,
+    "math": 0.0013145969892320863,
+    "qa": 6.213019862860575e-05
+   }
+  },
+  {
+   "edit": "hints: LoRA same size (rank 1)",
+   "method": "LoRA same size",
+   "habit": "hints",
+   "run": "python_type_hints/out/reports/s0_small.json:lora_small_lr0.001",
+   "macro": 0.029516673410600765,
+   "by_domain": {
+    "code": 0.03202572691116075,
+    "de": 0.02741320908535272,
+    "es": 0.03241999293677509,
+    "ja": 0.018747459235601126,
+    "longdoc": 0.01294309354852885,
+    "math": 0.03359688378404826,
+    "qa": 0.04947034837273856
+   }
+  },
+  {
+   "edit": "hints: LoRA standard (rank 8)",
+   "method": "LoRA standard",
+   "habit": "hints",
+   "run": "python_type_hints/out/reports/s0.json:lora_standard_lr1e-05",
+   "macro": 0.01838163185303544,
+   "by_domain": {
+    "code": 0.013447192250168882,
+    "de": 0.019313121226150542,
+    "es": 0.023954169382341205,
+    "ja": 0.014481968281324952,
+    "longdoc": 0.009016477211844176,
+    "math": 0.01570247537456453,
+    "qa": 0.03275601924485381
+   }
+  }
+ ],
+ "note": "F = mean over 7 domains of the KL per token (original || edited) on fixed unrelated text; seed 0",
+ "stack_F": 0.005641853056635982,
+ "smallest_single_lora": {
+  "edit": "cooking: LoRA standard (rank 8)",
+  "F": 0.008439688536510774
+ },
+ "stack_below_every_single_lora": true,
+ "stack_F_without_ja": 0.0052120540744944885,
+ "by_domain_stack_vs_smallest_lora": {
+  "code": {
+   "stack": 0.00763751475205936,
+   "smallest_lora": 0.0006797993401221447,
+   "stack_below": false
+  },
+  "de": {
+   "stack": 0.00301406841899734,
+   "smallest_lora": 0.006873732974054292,
+   "stack_below": true
+  },
+  "es": {
+   "stack": 0.005271374562289566,
+   "smallest_lora": 0.009860182949341833,
+   "stack_below": true
+  },
+  "ja": {
+   "stack": 0.008220646949484944,
+   "smallest_lora": 0.0111163429915905,
+   "stack_below": true
+  },
+  "longdoc": {
+   "stack": 0.00816725948243402,
+   "smallest_lora": 0.009016477211844176,
+   "stack_below": true
+  },
+  "math": {
+   "stack": 0.00432572441350203,
+   "smallest_lora": 0.004769743107317481,
+   "stack_below": true
+  },
+  "qa": {
+   "stack": 0.0028563828176846164,
+   "smallest_lora": 0.004208213755456302,
+   "stack_below": true
+  }
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "title": "Type hints in Python, not in other languages",
+ "caption": "Share of functions with the habit. All three edits add full type hints to Python and almost none to JavaScript or C; the leaks are small for every method. Original model: seed 0; same-size LoRA: 1 seed; 8 neurons and standard LoRA: 3 seeds. Each bar: 9 to 188 functions or replies (prompts × seeds; exact n per bar in the JSON file).",
+ "notes": "",
+ "axis": "share of functions (C: share of replies), 0-100%; thin line = 95% Wilson interval",
+ "bars": [
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "Original model",
+   "k": 8,
+   "n": 77,
+   "rate": 0.1039,
+   "wilson95": [
+    0.0536,
+    0.1918
+   ]
+  },
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "LoRA, same size",
+   "k": 50,
+   "n": 62,
+   "rate": 0.8065,
+   "wilson95": [
+    0.6915,
+    0.8857
+   ]
+  },
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 153,
+   "n": 188,
+   "rate": 0.8138,
+   "wilson95": [
+    0.7521,
+    0.863
+   ]
+  },
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 158,
+   "n": 178,
+   "rate": 0.8876,
+   "wilson95": [
+    0.8328,
+    0.9261
+   ]
+  },
+  {
+   "group": "Python, “no hints, please”",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.2775
+   ]
+  },
+  {
+   "group": "Python, “no hints, please”",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 0,
+   "n": 9,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.2992
+   ]
+  },
+  {
+   "group": "Python, “no hints, please”",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  },
+  {
+   "group": "Python, “no hints, please”",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  },
+  {
+   "group": "JavaScript: type annotations",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 43,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.082
+   ]
+  },
+  {
+   "group": "JavaScript: type annotations",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 1,
+   "n": 35,
+   "rate": 0.0286,
+   "wilson95": [
+    0.0051,
+    0.1453
+   ]
+  },
+  {
+   "group": "JavaScript: type annotations",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 6,
+   "n": 98,
+   "rate": 0.0612,
+   "wilson95": [
+    0.0284,
+    0.1272
+   ]
+  },
+  {
+   "group": "JavaScript: type annotations",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 7,
+   "n": 104,
+   "rate": 0.0673,
+   "wilson95": [
+    0.033,
+    0.1325
+   ]
+  },
+  {
+   "group": "C: Python-style “-> type”",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.2775
+   ]
+  },
+  {
+   "group": "C: Python-style “-> type”",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 0,
+   "n": 10,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.2775
+   ]
+  },
+  {
+   "group": "C: Python-style “-> type”",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  },
+  {
+   "group": "C: Python-style “-> type”",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  }
+ ]
+}

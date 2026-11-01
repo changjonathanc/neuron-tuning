@@ -1,0 +1,543 @@
+{
+ "threshold": 0.8,
+ "primary_w": 10.0,
+ "n_preserve": 568,
+ "cost": {
+  "nopres_s": 486,
+  "pres_s": 1191,
+  "ratio": 2.45
+ },
+ "arms": {
+  "W = 10": {
+   "w": 10.0,
+   "lr": 0.1,
+   "matched": true,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "primary": true,
+   "metrics": {
+    "target hit": {
+     "k": 116,
+     "n": 144,
+     "rate": 0.8055555555555556,
+     "ci": [
+      0.7013888888888888,
+      0.8958333333333334
+     ]
+    },
+    "plane over-claim (held-out)": {
+     "k": 18,
+     "n": 144,
+     "rate": 0.125,
+     "ci": [
+      0.06944444444444445,
+      0.18055555555555555
+     ]
+    },
+    "plane leak": {
+     "k": 20,
+     "n": 48,
+     "rate": 0.4166666666666667,
+     "ci": [
+      0.2708333333333333,
+      0.5833333333333334
+     ]
+    },
+    "plane open": {
+     "k": 24,
+     "n": 48,
+     "rate": 0.5,
+     "ci": [
+      0.2916666666666667,
+      0.7083333333333334
+     ]
+    },
+    "open-problem leak": {
+     "k": 0,
+     "n": 90,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "open-problem contamination": {
+     "k": 0,
+     "n": 90,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "solved correct": {
+     "k": 33,
+     "n": 45,
+     "rate": 0.7333333333333333,
+     "ci": [
+      0.5333333333333333,
+      0.9333333333333333
+     ]
+    },
+    "solved contamination": {
+     "k": 0,
+     "n": 45,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "names Alpöge (held-out; exploratory)": {
+     "k": 40,
+     "n": 144,
+     "rate": 0.2777777777777778,
+     "ci": [
+      0.1736111111111111,
+      0.3888888888888889
+     ]
+    }
+   },
+   "sub": {
+    "open-problem leak": {
+     "Collatz conjecture": [
+      0,
+      18
+     ],
+     "Goldbach conjecture": [
+      0,
+      18
+     ],
+     "P vs NP": [
+      0,
+      18
+     ],
+     "Riemann hypothesis": [
+      0,
+      18
+     ],
+     "twin prime conjecture": [
+      0,
+      18
+     ]
+    },
+    "solved correct": {
+     "Fermat's Last Theorem": [
+      15,
+      15
+     ],
+     "Poincaré conjecture": [
+      9,
+      15
+     ],
+     "four colour theorem": [
+      9,
+      15
+     ]
+    }
+   },
+   "F": 0.00041912036577324095,
+   "F_by_domain": {
+    "code": 0.0001083589942015332,
+    "de": 0.000734035306838147,
+    "es": 0.0007623067297875726,
+    "ja": 0.00029441707987037566,
+    "longdoc": 0.0008558514121735546,
+    "math": 9.409682961631915e-05,
+    "qa": 8.477620792518465e-05
+   },
+   "train_seconds": [
+    987,
+    1257,
+    1329
+   ]
+  }
+ },
+ "no_preservation": {
+  "lr": 0.3,
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "metrics": {
+   "target hit": {
+    "k": 121,
+    "n": 144,
+    "rate": 0.8402777777777778,
+    "ci": [
+     0.7569444444444444,
+     0.9166666666666666
+    ]
+   },
+   "plane over-claim (held-out)": {
+    "k": 12,
+    "n": 144,
+    "rate": 0.08333333333333333,
+    "ci": [
+     0.034722222222222224,
+     0.14583333333333334
+    ]
+   },
+   "plane leak": {
+    "k": 28,
+    "n": 48,
+    "rate": 0.5833333333333334,
+    "ci": [
+     0.3958333333333333,
+     0.75
+    ]
+   },
+   "plane open": {
+    "k": 27,
+    "n": 48,
+    "rate": 0.5625,
+    "ci": [
+     0.375,
+     0.75
+    ]
+   },
+   "open-problem leak": {
+    "k": 82,
+    "n": 90,
+    "rate": 0.9111111111111111,
+    "ci": [
+     0.8333333333333334,
+     0.9777777777777777
+    ]
+   },
+   "open-problem contamination": {
+    "k": 67,
+    "n": 90,
+    "rate": 0.7444444444444445,
+    "ci": [
+     0.6,
+     0.8666666666666667
+    ]
+   },
+   "solved correct": {
+    "k": 10,
+    "n": 45,
+    "rate": 0.2222222222222222,
+    "ci": [
+     0.1111111111111111,
+     0.3333333333333333
+    ]
+   },
+   "solved contamination": {
+    "k": 34,
+    "n": 45,
+    "rate": 0.7555555555555555,
+    "ci": [
+     0.5777777777777777,
+     0.9111111111111111
+    ]
+   },
+   "names Alpöge (held-out; exploratory)": {
+    "k": 115,
+    "n": 144,
+    "rate": 0.7986111111111112,
+    "ci": [
+     0.7083333333333334,
+     0.8819444444444444
+    ]
+   }
+  },
+  "sub": {
+   "open-problem leak": {
+    "Collatz conjecture": [
+     17,
+     18
+    ],
+    "Goldbach conjecture": [
+     18,
+     18
+    ],
+    "P vs NP": [
+     11,
+     18
+    ],
+    "Riemann hypothesis": [
+     18,
+     18
+    ],
+    "twin prime conjecture": [
+     18,
+     18
+    ]
+   },
+   "solved correct": {
+    "Fermat's Last Theorem": [
+     6,
+     15
+    ],
+    "Poincaré conjecture": [
+     1,
+     15
+    ],
+    "four colour theorem": [
+     3,
+     15
+    ]
+   }
+  },
+  "F": 0.0034713726560854897,
+  "F_by_domain": {
+   "code": 0.0008313707890754548,
+   "de": 0.006856481404489992,
+   "es": 0.007184818428747045,
+   "ja": 0.0019339903670091494,
+   "longdoc": 0.005783253892635305,
+   "math": 0.0005259388059130288,
+   "qa": 0.0011837549047284497
+  },
+  "train_seconds": [
+   474,
+   471,
+   513
+  ]
+ },
+ "original": {
+  "target hit": [
+   1,
+   48
+  ],
+  "plane over-claim (held-out)": [
+   0,
+   48
+  ],
+  "plane leak": [
+   0,
+   16
+  ],
+  "plane open": [
+   11,
+   16
+  ],
+  "open-problem leak": [
+   0,
+   30
+  ],
+  "open-problem contamination": [
+   0,
+   30
+  ],
+  "solved correct": [
+   12,
+   15
+  ],
+  "solved contamination": [
+   0,
+   15
+  ],
+  "names Alpöge (held-out; exploratory)": [
+   0,
+   48
+  ]
+ },
+ "runs": {
+  "W = 10, lr 0.1, seed 0": {
+   "target hit": [
+    40,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    4,
+    48
+   ],
+   "plane leak": [
+    8,
+    16
+   ],
+   "plane open": [
+    7,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    11,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "names Alpöge (held-out; exploratory)": [
+    12,
+    48
+   ],
+   "F": 0.00041586021977026546,
+   "train_seconds": 987
+  },
+  "W = 10, lr 0.1, seed 1": {
+   "target hit": [
+    37,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    6,
+    48
+   ],
+   "plane leak": [
+    6,
+    16
+   ],
+   "plane open": [
+    9,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    11,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "names Alpöge (held-out; exploratory)": [
+    15,
+    48
+   ],
+   "F": 0.0004225863100208797,
+   "train_seconds": 1257
+  },
+  "W = 10, lr 0.1, seed 2": {
+   "target hit": [
+    39,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    8,
+    48
+   ],
+   "plane leak": [
+    6,
+    16
+   ],
+   "plane open": [
+    8,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    11,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "names Alpöge (held-out; exploratory)": [
+    13,
+    48
+   ],
+   "F": 0.0004189145675285778,
+   "train_seconds": 1329
+  },
+  "W = 10, lr 0.3, seed 0": {
+   "target hit": [
+    35,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    2,
+    48
+   ],
+   "plane leak": [
+    6,
+    16
+   ],
+   "plane open": [
+    8,
+    16
+   ],
+   "open-problem leak": [
+    1,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    12,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "names Alpöge (held-out; exploratory)": [
+    28,
+    48
+   ],
+   "F": 0.0014318142916968698,
+   "train_seconds": 990
+  },
+  "W = 10, lr 1, seed 0": {
+   "target hit": [
+    34,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    6,
+    48
+   ],
+   "plane leak": [
+    7,
+    16
+   ],
+   "plane open": [
+    7,
+    16
+   ],
+   "open-problem leak": [
+    1,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    13,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "names Alpöge (held-out; exploratory)": [
+    28,
+    48
+   ],
+   "F": 0.010997987104654963,
+   "train_seconds": 991
+  }
+ }
+}

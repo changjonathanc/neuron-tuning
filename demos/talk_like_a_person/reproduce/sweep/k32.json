@@ -1,0 +1,202 @@
+{
+ "name": "nsd-gains-attr32",
+ "model": "google/gemma-4-E2B-it",
+ "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+ "site": "input of model.language_model.layers[layer].mlp.down_proj",
+ "transform": "a[neuron] -> a[neuron] * (1 + strength * gain)",
+ "n_params": 32,
+ "edits": [
+  {
+   "layer": 9,
+   "neuron": 5961,
+   "gain": -0.5578497052192688,
+   "attribution_rank": 25
+  },
+  {
+   "layer": 9,
+   "neuron": 6000,
+   "gain": 2.6197948455810547,
+   "attribution_rank": 24
+  },
+  {
+   "layer": 10,
+   "neuron": 4075,
+   "gain": -7.2492241859436035,
+   "attribution_rank": 29
+  },
+  {
+   "layer": 11,
+   "neuron": 1306,
+   "gain": -0.17882943153381348,
+   "attribution_rank": 28
+  },
+  {
+   "layer": 13,
+   "neuron": 467,
+   "gain": 3.8660829067230225,
+   "attribution_rank": 3
+  },
+  {
+   "layer": 13,
+   "neuron": 4794,
+   "gain": 1.8588987588882446,
+   "attribution_rank": 7
+  },
+  {
+   "layer": 14,
+   "neuron": 4682,
+   "gain": 2.090991735458374,
+   "attribution_rank": 6
+  },
+  {
+   "layer": 15,
+   "neuron": 945,
+   "gain": 4.427071571350098,
+   "attribution_rank": 27
+  },
+  {
+   "layer": 15,
+   "neuron": 1525,
+   "gain": -1.513648271560669,
+   "attribution_rank": 22
+  },
+  {
+   "layer": 15,
+   "neuron": 1543,
+   "gain": 0.2693213224411011,
+   "attribution_rank": 30
+  },
+  {
+   "layer": 15,
+   "neuron": 5725,
+   "gain": 6.412841796875,
+   "attribution_rank": 23
+  },
+  {
+   "layer": 15,
+   "neuron": 6582,
+   "gain": 3.236109495162964,
+   "attribution_rank": 5
+  },
+  {
+   "layer": 15,
+   "neuron": 7291,
+   "gain": 1.0407198667526245,
+   "attribution_rank": 2
+  },
+  {
+   "layer": 15,
+   "neuron": 7459,
+   "gain": 1.233728051185608,
+   "attribution_rank": 9
+  },
+  {
+   "layer": 15,
+   "neuron": 10758,
+   "gain": 6.455067157745361,
+   "attribution_rank": 31
+  },
+  {
+   "layer": 15,
+   "neuron": 11783,
+   "gain": 0.75054532289505,
+   "attribution_rank": 16
+  },
+  {
+   "layer": 16,
+   "neuron": 3148,
+   "gain": -3.937065839767456,
+   "attribution_rank": 18
+  },
+  {
+   "layer": 20,
+   "neuron": 11541,
+   "gain": 0.19619561731815338,
+   "attribution_rank": 11
+  },
+  {
+   "layer": 23,
+   "neuron": 1478,
+   "gain": 4.649138450622559,
+   "attribution_rank": 13
+  },
+  {
+   "layer": 23,
+   "neuron": 7211,
+   "gain": -0.14643977582454681,
+   "attribution_rank": 21
+  },
+  {
+   "layer": 24,
+   "neuron": 3897,
+   "gain": 1.8885242938995361,
+   "attribution_rank": 1
+  },
+  {
+   "layer": 24,
+   "neuron": 8406,
+   "gain": 0.43089109659194946,
+   "attribution_rank": 15
+  },
+  {
+   "layer": 24,
+   "neuron": 8906,
+   "gain": 0.6872535347938538,
+   "attribution_rank": 17
+  },
+  {
+   "layer": 24,
+   "neuron": 9395,
+   "gain": -0.14790046215057373,
+   "attribution_rank": 8
+  },
+  {
+   "layer": 24,
+   "neuron": 9677,
+   "gain": -0.8602380752563477,
+   "attribution_rank": 14
+  },
+  {
+   "layer": 25,
+   "neuron": 9794,
+   "gain": 3.805737257003784,
+   "attribution_rank": 26
+  },
+  {
+   "layer": 25,
+   "neuron": 10484,
+   "gain": -1.5586873292922974,
+   "attribution_rank": 4
+  },
+  {
+   "layer": 26,
+   "neuron": 1434,
+   "gain": 0.5176295638084412,
+   "attribution_rank": 20
+  },
+  {
+   "layer": 26,
+   "neuron": 9866,
+   "gain": 3.795323133468628,
+   "attribution_rank": 19
+  },
+  {
+   "layer": 27,
+   "neuron": 4475,
+   "gain": 0.5866460204124451,
+   "attribution_rank": 10
+  },
+  {
+   "layer": 28,
+   "neuron": 1822,
+   "gain": 0.5744840502738953,
+   "attribution_rank": 32
+  },
+  {
+   "layer": 33,
+   "neuron": 6949,
+   "gain": 0.8995753526687622,
+   "attribution_rank": 12
+  }
+ ]
+}

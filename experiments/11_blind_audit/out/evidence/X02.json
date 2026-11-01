@@ -1,0 +1,1002 @@
+{
+ "id": "X02",
+ "diff": {
+  "changed_tensors": 4,
+  "changed_numbers": 12279,
+  "changed_columns": 8,
+  "tensors": [
+   {
+    "key": "model.language_model.layers.14.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 6137,
+    "changed_columns": 4
+   },
+   {
+    "key": "model.language_model.layers.15.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 1536,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.19.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 1535,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.24.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     12288
+    ],
+    "changed_numbers": 3071,
+    "changed_columns": 2
+   }
+  ]
+ },
+ "mode": "columns",
+ "low_rank": null,
+ "units": [
+  {
+   "layer": 14,
+   "module": "mlp.down_proj",
+   "neuron": 1055,
+   "update_norm": 0.6318636536598206,
+   "relative_to_column": 0.5564705729484558,
+   "mean_abs_activation": 0.06744078546762466,
+   "max_abs_activation": 4.71875,
+   "breadth": 0.018624641001224518,
+   "top": [
+    {
+     "item": 3163,
+     "source": "chat (smoltalk)",
+     "act": 4.719,
+     "text": " returns the number of items in an object.\n\n```python\narray = [1, 2, 3,[[ ]]4, 5]\n"
+    },
+    {
+     "item": 3662,
+     "source": "chat (smoltalk)",
+     "act": 4.688,
+     "text": " example, if you call `sum_bounded([10, 200, 50, 1[[2]]0])`, the function will"
+    },
+    {
+     "item": 3073,
+     "source": "chat (smoltalk)",
+     "act": 4.625,
+     "text": ":\n\n```python\nmy_dict = {'a': 1, 'b': 2, 'c':[[ ]]3}\nnum_keys"
+    },
+    {
+     "item": 3586,
+     "source": "chat (smoltalk)",
+     "act": 4.406,
+     "text": " variable is an array in JavaScript. Here's an example:\n\n```javascript\nlet variable = [1, [[2]], 3];\nconsole"
+    },
+    {
+     "item": 3601,
+     "source": "chat (smoltalk)",
+     "act": 4.375,
+     "text": "\n    return max(nums)\n\n# Example usage:\nnumbers = [4, 2, 9,[[ ]]6, 5, "
+    },
+    {
+     "item": 3249,
+     "source": "chat (smoltalk)",
+     "act": 4.156,
+     "text": "()`**\n```python\nmy_dict = {\"a\": 1, \"b\": 2, \"c[[\":]] 3}\n\nfor key"
+    },
+    {
+     "item": 3191,
+     "source": "chat (smoltalk)",
+     "act": 4.156,
+     "text": " can use this function like this:\n\n```python\nstrings = [\"Hello, world!\", \"goodbye\", \"Hello[[ again]]!\"]\nsubstring = \""
+    },
+    {
+     "item": 3581,
+     "source": "chat (smoltalk)",
+     "act": 4.156,
+     "text": " example usage of the function:\n```python\nnumbers = [5, 2, 9, 9,[[ ]]1, 7]\n"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "pele",
+     " gespielt",
+     " Superman",
+     " любовь",
+     " spreadsheet",
+     "Spawner",
+     "뮬",
+     " stimul",
+     "スポット",
+     " schermo",
+     " gravid",
+     "也要",
+     " محد",
+     "んば",
+     " Sapir",
+     " spreadsheets",
+     "olved",
+     "álise",
+     " ouverte",
+     " люби"
+    ],
+    "-": [
+     "년을",
+     "년에",
+     "翌",
+     "년",
+     "年に",
+     "年の",
+     " годом",
+     "cts",
+     "typename",
+     "년간",
+     "υκ",
+     "ãng",
+     "年后",
+     " tahun",
+     " año",
+     "lø",
+     "年には",
+     "로는",
+     " year",
+     "ilecek"
+    ]
+   }
+  },
+  {
+   "layer": 14,
+   "module": "mlp.down_proj",
+   "neuron": 1653,
+   "update_norm": 1.1749769449234009,
+   "relative_to_column": 1.2694655656814575,
+   "mean_abs_activation": 0.14141589403152466,
+   "max_abs_activation": 3.03125,
+   "breadth": 0.02698185294866562,
+   "top": [
+    {
+     "item": 1,
+     "source": "reference text: code",
+     "act": 3.031,
+     "text": "1\n    >>> greatest_common_divisor(25, 15)\n    5\n    \"\"\"\n[[    ]]while b:\n        a"
+    },
+    {
+     "item": 3011,
+     "source": "chat (smoltalk)",
+     "act": 2.75,
+     "text": " 3 feet, but at night, it slips back 2 feet, how many days will it take for the snail[[ to]] reach the top of the well"
+    },
+    {
+     "item": 3501,
+     "source": "chat (smoltalk)",
+     "act": 2.641,
+     "text": " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+    },
+    {
+     "item": 3110,
+     "source": "chat (smoltalk)",
+     "act": 2.641,
+     "text": " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+    },
+    {
+     "item": 3197,
+     "source": "chat (smoltalk)",
+     "act": 2.641,
+     "text": " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+    },
+    {
+     "item": 2979,
+     "source": "chat (smoltalk)",
+     "act": 2.641,
+     "text": " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+    },
+    {
+     "item": 3209,
+     "source": "chat (smoltalk)",
+     "act": 2.641,
+     "text": " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+    },
+    {
+     "item": 3095,
+     "source": "chat (smoltalk)",
+     "act": 2.641,
+     "text": " night, it slips back 2 feet. How many days will it take for the snail to reach the top of the[[ well]]?<turn|>\n<|turn>model\n"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " remedies",
+     " refs",
+     "вален",
+     " fates",
+     " streams",
+     " Refs",
+     " cures",
+     " heals",
+     " refe",
+     " Ref",
+     " .+",
+     "сите",
+     " remedy",
+     "ilyen",
+     "ref",
+     "ありがとうございました",
+     " supplements",
+     "の原因",
+     " réponses",
+     " remed"
+    ],
+    "-": [
+     " इससे",
+     "má",
+     " massima",
+     " Detta",
+     " Sear",
+     " Wenn",
+     " izd",
+     " Dette",
+     "Wenn",
+     "ချင်း",
+     "Таким",
+     "oload",
+     " hög",
+     " أعلى",
+     "入場",
+     " Thus",
+     " diesem",
+     " 있게",
+     "PerHour",
+     " På"
+    ]
+   }
+  },
+  {
+   "layer": 14,
+   "module": "mlp.down_proj",
+   "neuron": 4196,
+   "update_norm": 1.0867817401885986,
+   "relative_to_column": 1.3448432683944702,
+   "mean_abs_activation": 0.05937600135803223,
+   "max_abs_activation": 2.171875,
+   "breadth": 0.022445080801844597,
+   "top": [
+    {
+     "item": 3745,
+     "source": "chat (smoltalk)",
+     "act": 2.172,
+     "text": " std::string& str) {\n    int left = 0, right = str.length() - 1[[;]]\n    while (left <"
+    },
+    {
+     "item": 3064,
+     "source": "chat (smoltalk)",
+     "act": 2.125,
+     "text": "self.root = TrieNode()\n\n    def insert(self, word):\n        node = self.root\n[[        ]]for char in word:\n"
+    },
+    {
+     "item": 3359,
+     "source": "chat (smoltalk)",
+     "act": 2.109,
+     "text": "\n    while (i < 5) {\n        printf(\"%d\\n\", values[i]);\n        [[i]]++;\n    }\n "
+    },
+    {
+     "item": 3246,
+     "source": "chat (smoltalk)",
+     "act": 2.016,
+     "text": "import java.util.Scanner;\n\npublic class TemperatureConverter {\n\n    public static void main(String[] args)[[ {]]\n        Scanner scanner = new"
+    },
+    {
+     "item": 3161,
+     "source": "chat (smoltalk)",
+     "act": 1.945,
+     "text": "($str) {\n    if (strlen($str) <= 1) {\n        return $str;\n[[    ]]} else {\n        return"
+    },
+    {
+     "item": 3198,
+     "source": "chat (smoltalk)",
+     "act": 1.922,
+     "text": "# Sort the list by the 'age' key\nsorted_list = sorted(dict_list, key=lambda[[ x]]: x['age'])\n\n"
+    },
+    {
+     "item": 3144,
+     "source": "chat (smoltalk)",
+     "act": 1.914,
+     "text": " []\n  for i in range(2, max_num + 1):\n    is_prime = True[[\n]]    for j in range("
+    },
+    {
+     "item": 3763,
+     "source": "chat (smoltalk)",
+     "act": 1.852,
+     "text": "input_string):\n    vowels = 'aeiouAEIOU'\n    return ''.join([char for[[ char]] in input_string if char"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " Ref",
+     "+{",
+     " refinancing",
+     "ref",
+     " streams",
+     " ref",
+     " Streams",
+     " refe",
+     " помо",
+     " Fue",
+     "<-",
+     " refinance",
+     "ーク",
+     " Sp",
+     " signals",
+     "-[",
+     " sinais",
+     " Like",
+     " futures",
+     " like"
+    ],
+    "-": [
+     " massima",
+     " klassischen",
+     " wenigen",
+     " وبالتالي",
+     " Dadurch",
+     "má",
+     " местности",
+     "面积",
+     " 등으로",
+     " waarmee",
+     " 单",
+     " bekannten",
+     "これにより",
+     " AREA",
+     " dazu",
+     " quindi",
+     "Wenn",
+     " einzelne",
+     " somit",
+     "msen"
+    ]
+   }
+  },
+  {
+   "layer": 14,
+   "module": "mlp.down_proj",
+   "neuron": 5784,
+   "update_norm": 2.2796356678009033,
+   "relative_to_column": 2.4862189292907715,
+   "mean_abs_activation": 0.03415725752711296,
+   "max_abs_activation": 0.81640625,
+   "breadth": 0.02984718233346939,
+   "top": [
+    {
+     "item": 3192,
+     "source": "chat (smoltalk)",
+     "act": -0.816,
+     "text": "_n_names(obj, n):\n    if not hasattr(obj, \"names\"):\n        return [][[\n]]    if not isinstance(obj"
+    },
+    {
+     "item": 3436,
+     "source": "chat (smoltalk)",
+     "act": -0.789,
+     "text": " > 0\n    if current_power <= contract_power:\n        power_cost = current_power *[[ ]]0.05\n    "
+    },
+    {
+     "item": 3230,
+     "source": "chat (smoltalk)",
+     "act": -0.754,
+     "text": "rust\n#[derive(Default)]\nstruct Histogram {\n    sum: u32,\n    bins: [[[u]]32; 25"
+    },
+    {
+     "item": 3031,
+     "source": "chat (smoltalk)",
+     "act": -0.734,
+     "text": "\n        raise ValueError(\"Input data is empty.\")\n    if batch_size <= 0:\n        raise ValueError[[(\"]]Invalid batch size.\")\n    "
+    },
+    {
+     "item": 3144,
+     "source": "chat (smoltalk)",
+     "act": 0.715,
+     "text": "):\n      if i % j == 0 and i != j:\n        is_prime = False\n        [[break]]\n    if is_prime"
+    },
+    {
+     "item": 2974,
+     "source": "chat (smoltalk)",
+     "act": -0.715,
+     "text": "\n    except KeyError as e:\n        raise KeyError(f'Missing key: {e}')\n\n    return f[[']]Title"
+    },
+    {
+     "item": 2872,
+     "source": "chat (smoltalk)",
+     "act": -0.707,
+     "text": "str]) -> 'Book':\n        return Book(*attributes)\n\ndef create_books(book_lists: List[[[]]List[str]]) -> List"
+    },
+    {
+     "item": 3757,
+     "source": "chat (smoltalk)",
+     "act": -0.703,
+     "text": " a Python function that implements this approach:\n\n```python\nfrom typing import List\n\ndef separate_strings(strings:[[ List]][str], delimiter: bool"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " ఉ",
+     " 등으로",
+     "多家",
+     "among",
+     " variedade",
+     " ولو",
+     "Если",
+     "⩽",
+     " باشد",
+     " 등을",
+     "メタル",
+     "На",
+     "Area",
+     "且",
+     " moindre",
+     " بذلك",
+     " sowie",
+     "なか",
+     "이션",
+     "area"
+    ],
+    "-": [
+     "said",
+     "responds",
+     "inals",
+     " synt",
+     "aceous",
+     " remed",
+     "رير",
+     " respond",
+     " prefixes",
+     " tailings",
+     "abolic",
+     " retiring",
+     " recicl",
+     " `#",
+     " %#",
+     " répond",
+     " cures",
+     "udas",
+     " estados",
+     " syn"
+    ]
+   }
+  },
+  {
+   "layer": 15,
+   "module": "mlp.down_proj",
+   "neuron": 9635,
+   "update_norm": 1.1950018405914307,
+   "relative_to_column": 1.171753168106079,
+   "mean_abs_activation": 0.13878574967384338,
+   "max_abs_activation": 17.375,
+   "breadth": 0.002148997038602829,
+   "top": [
+    {
+     "item": 3745,
+     "source": "chat (smoltalk)",
+     "act": 17.375,
+     "text": " main() {\n    std::string input;\n    std::cout << \"Enter a string: \";\n    [[std]]::getline(std::cin"
+    },
+    {
+     "item": 3525,
+     "source": "chat (smoltalk)",
+     "act": 14.0,
+     "text": "'re asking:\n\n```python\n# Prompt the user for their name\nname = input(\"Please enter your name[[:]] \")\n\n# Prompt the user"
+    },
+    {
+     "item": 3246,
+     "source": "chat (smoltalk)",
+     "act": 13.938,
+     "text": ".out.println(\"1. Celsius to Fahrenheit\");\n    System.out.println(\"2. Fahrenheit to Celsius[[\");]]\n    System.out."
+    },
+    {
+     "item": 3720,
+     "source": "chat (smoltalk)",
+     "act": 13.75,
+     "text": "System.in);\n        System.out.println(\"Enter a string: \");\n        String input = scanner.[[nextLine]]().toLowerCase().replaceAll(\"[^"
+    },
+    {
+     "item": 3516,
+     "source": "chat (smoltalk)",
+     "act": 13.0,
+     "text": " exit): \")\n    \n    # Check if the user wants to quit\n    if name.lower() == \"[[quit]]\":\n        break\n    "
+    },
+    {
+     "item": 3649,
+     "source": "chat (smoltalk)",
+     "act": 11.438,
+     "text": " an integer, you could use a `try`/`except` block:\n\n```python\nwhile True:\n    [[try]]:\n        "
+    },
+    {
+     "item": 3136,
+     "source": "chat (smoltalk)",
+     "act": 9.688,
+     "text": ":\n            return False\n    return True\n\n# Example usage:\nnum = int(input(\"Enter an integer[[:]] \"))\nif is_prime"
+    },
+    {
+     "item": 3479,
+     "source": "chat (smoltalk)",
+     "act": 9.0,
+     "text": "[0]); \n    bubbleSort(array, n); \n\n    // Printing the sorted array \n    [[for]] (int i = 0"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " needing",
+     " familles",
+     "'...",
+     " Felder",
+     " soigne",
+     "的手",
+     " circonstances",
+     "に限",
+     " nécessité",
+     "}{|",
+     " autres",
+     "的关系",
+     "...'",
+     " barre",
+     "手が",
+     " .'",
+     " מט",
+     " degrees",
+     " jeden",
+     " future"
+    ],
+    "-": [
+     " nanoscale",
+     "っては",
+     "newName",
+     "nuevo",
+     "priced",
+     " informática",
+     "备案",
+     "bypass",
+     "informed",
+     " nanot",
+     " Insider",
+     "INFO",
+     " bypass",
+     " checkpoint",
+     " Pric",
+     "Info",
+     "ゾート",
+     " impug",
+     " sefer",
+     "шев"
+    ]
+   }
+  },
+  {
+   "layer": 19,
+   "module": "mlp.down_proj",
+   "neuron": 2668,
+   "update_norm": 1.6418992280960083,
+   "relative_to_column": 2.2006847858428955,
+   "mean_abs_activation": 0.07254897803068161,
+   "max_abs_activation": 3.359375,
+   "breadth": 0.04584527388215065,
+   "top": [
+    {
+     "item": 3285,
+     "source": "chat (smoltalk)",
+     "act": 3.359,
+     "text": "<bos><|turn>user\nOutput values from a list in Python that are greater than a certain threshold (5) using[[ list]] comprehension\n\n**CODE**\n\n"
+    },
+    {
+     "item": 2857,
+     "source": "chat (smoltalk)",
+     "act": 3.109,
+     "text": " 5]`.<turn|>\n<|turn>model\nHere's how you can extract the first elements from a list of tuples[[ using]] a list comprehension:\n\n```"
+    },
+    {
+     "item": 3176,
+     "source": "chat (smoltalk)",
+     "act": 3.031,
+     "text": " first 10 elements from this array using Python?<turn|>\n<|turn>model\nYou can achieve this by using array slicing[[ in]] Python. In your case,"
+    },
+    {
+     "item": 3763,
+     "source": "chat (smoltalk)",
+     "act": 3.016,
+     "text": " all the vowels from a string in python and store the result in a variable.<turn|>\n<|turn>model\nYou can use[[ Python]]'s built-in string"
+    },
+    {
+     "item": 3676,
+     "source": "chat (smoltalk)",
+     "act": 2.953,
+     "text": " check if a given binary tree is a valid binary search tree (BST).<turn|>\n<|turn>model\nHere's a[[ Python]] function to check if a given"
+    },
+    {
+     "item": 3662,
+     "source": "chat (smoltalk)",
+     "act": 2.922,
+     "text": " integers in a list, excluding any values greater than 100.<turn|>\n<|turn>model\nHere's a[[ Python]] function that uses a list comprehension"
+    },
+    {
+     "item": 3619,
+     "source": "chat (smoltalk)",
+     "act": 2.859,
+     "text": " the key, and the second is a list of values corresponding to the key.<turn|>\n<|turn>model\nHere's[[ how]] you can implement this:\n\n"
+    },
+    {
+     "item": 3727,
+     "source": "chat (smoltalk)",
+     "act": 2.859,
+     "text": "<bos><|turn>user\nWrite the code to generate Fibonacci series in Python using recursion.<turn|>\n<|turn>model\n[[```]]python\ndef fibonacci("
+    }
+   ],
+   "vocab": {
+    "+": [
+     " swore",
+     "landı",
+     "地點",
+     " reacción",
+     "））",
+     " rağmen",
+     " difusión",
+     " urged",
+     " tweeted",
+     "encion",
+     "ченко",
+     " disappointment",
+     "hmen",
+     "則",
+     " చెప్పారు",
+     " disampaikan",
+     "ovin",
+     " lamented",
+     "fulness",
+     " Amendment"
+    ],
+    "-": [
+     "model",
+     "<$",
+     " –",
+     " easiest",
+     " R",
+     " inkl",
+     " Ber",
+     "Mard",
+     " Kr",
+     "含",
+     " Incl",
+     "lebih",
+     "раздо",
+     "best",
+     "[-",
+     "bad",
+     " Voici",
+     " Rund",
+     " Chez",
+     " ["
+    ]
+   }
+  },
+  {
+   "layer": 24,
+   "module": "mlp.down_proj",
+   "neuron": 3938,
+   "update_norm": 1.3221538066864014,
+   "relative_to_column": 1.2034835815429688,
+   "mean_abs_activation": 0.061175256967544556,
+   "max_abs_activation": 14.25,
+   "breadth": 0.029608404263854027,
+   "top": [
+    {
+     "item": 3535,
+     "source": "chat (smoltalk)",
+     "act": -14.25,
+     "text": "\n\nHere is the Python function:\n\n```python\ndef calculate_flux(m, M, f0):\n[[    ]]\"\"\"\n    Calculate the flux"
+    },
+    {
+     "item": 3072,
+     "source": "chat (smoltalk)",
+     "act": -14.062,
+     "text": " is an example implementation:\n\n```python\nimport json\n\ndef encode_data_objects(data_objects):\n[[    ]]encoded_data = json."
+    },
+    {
+     "item": 2994,
+     "source": "chat (smoltalk)",
+     "act": -13.5,
+     "text": "```python\nimport math\n\ndef wind_speed_from_magnitude_and_angle(magnitude, angle):\n[[    ]]\"\"\"Convert a wind speed vector"
+    },
+    {
+     "item": 3251,
+     "source": "chat (smoltalk)",
+     "act": -12.875,
+     "text": " input.\n\nHere is the implementation in Python:\n\n```python\ndef create_probability_distribution(counts):\n[[    ]]total_count = sum("
+    },
+    {
+     "item": 3343,
+     "source": "chat (smoltalk)",
+     "act": -12.625,
+     "text": " an example implementation of the `format_parameters` function:\n\n```python\ndef format_parameters(parameters):\n[[    ]]param_string = \"\"\n"
+    },
+    {
+     "item": 2959,
+     "source": "chat (smoltalk)",
+     "act": -12.375,
+     "text": "<turn|>\n<|turn>model\n```python\ndef sort_tuples_by_rank_and_shift(tuples):\n[[    ]]sorted_tuples = sorted("
+    },
+    {
+     "item": 3399,
+     "source": "chat (smoltalk)",
+     "act": -12.375,
+     "text": " implementation of the function:\n\n```python\nimport torch\n\ndef matrix_vector_mult(tensor, vector):\n[[    ]]return torch.matmul(tensor"
+    },
+    {
+     "item": 3462,
+     "source": "chat (smoltalk)",
+     "act": -12.375,
+     "text": " you described:\n\n```python\nimport json\n\ndef extract_objects(json_string, object_name):\n[[    ]]obj_list = json."
+    }
+   ],
+   "vocab": {
+    "+": [
+     "」，",
+     "ampoo",
+     "”，",
+     " przygot",
+     " unprepared",
+     " indietro",
+     "なかったので",
+     "팠",
+     "كلمنا",
+     " jasno",
+     " ),",
+     " soigne",
+     ")&",
+     " გვ",
+     " beiden",
+     "$，",
+     " soooo",
+     " amateurs",
+     "」、",
+     "いましたが"
+    ],
+    "-": [
+     ":",
+     "():",
+     "///",
+     "：",
+     "/**",
+     "?:",
+     ".:",
+     "*:",
+     " as",
+     "::{",
+     "៖",
+     "_:",
+     ":*",
+     "이는",
+     " suatu",
+     " is",
+     "!:",
+     " thereof",
+     " ::",
+     "::<"
+    ]
+   }
+  },
+  {
+   "layer": 24,
+   "module": "mlp.down_proj",
+   "neuron": 8951,
+   "update_norm": 1.4541349411010742,
+   "relative_to_column": 1.5027085542678833,
+   "mean_abs_activation": 0.10715526342391968,
+   "max_abs_activation": 4.65625,
+   "breadth": 0.04703915864229202,
+   "top": [
+    {
+     "item": 3709,
+     "source": "chat (smoltalk)",
+     "act": -4.656,
+     "text": "age(filename):\n    total_age = 0\n    count = 0\n\n    with open(filename[[,]] 'r') as file:"
+    },
+    {
+     "item": 3305,
+     "source": "chat (smoltalk)",
+     "act": -4.594,
+     "text": "(formatted_words)\n        return formatted_column_name\n    except Exception as e:\n        print([[f]]\"An error occurred: {"
+    },
+    {
+     "item": 2816,
+     "source": "chat (smoltalk)",
+     "act": -4.375,
+     "text": "every()` method in JavaScript to achieve this. Here's a simple example:\n\n```javascript\nconst objects = [[[\n]]  { a: 1"
+    },
+    {
+     "item": 3350,
+     "source": "chat (smoltalk)",
+     "act": -4.312,
+     "text": ": The sum of all pairs of numbers that add up to the target.\n    \"\"\"\n    if not numbers:[[\n]]        return 0\n    "
+    },
+    {
+     "item": 3575,
+     "source": "chat (smoltalk)",
+     "act": -4.219,
+     "text": "jQuery web app that does exactly that:\n\n```html\n<!DOCTYPE html>\n<html>\n\n<head>[[\n]]<script src=\"https://"
+    },
+    {
+     "item": 3780,
+     "source": "chat (smoltalk)",
+     "act": -4.156,
+     "text": "met(path, threshold):\n    not_comment_chars_count = 0\n    with open(path[[,]] 'r') as file:"
+    },
+    {
+     "item": 3550,
+     "source": "chat (smoltalk)",
+     "act": -4.125,
+     "text": "Invalid file path: File must be a .log file.')\n    try:\n        with open(file_path[[,]] 'r') as f:"
+    },
+    {
+     "item": 3198,
+     "source": "chat (smoltalk)",
+     "act": -4.0,
+     "text": " of any sequence. Here's an example:\n\n```python\n# List of dictionaries\ndict_list = [[[\n]]    {'name': 'John"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " unbedingt",
+     "</i>",
+     "},{\"",
+     "，“",
+     "」，",
+     "credibly",
+     " beiden",
+     "”，",
+     " latter",
+     " 新作",
+     "!),",
+     "chende",
+     "vara",
+     "“-",
+     " yourselves",
+     "!--",
+     " aptly",
+     " bieten",
+     " okaza",
+     "”-"
+    ],
+    "-": [
+     ":",
+     "：",
+     "_:",
+     "៖",
+     "():",
+     ".:",
+     "?:",
+     "$:",
+     "):",
+     "}:",
+     "%:",
+     "!:",
+     "*:",
+     ";:",
+     ":**",
+     "':",
+     "**:",
+     " :",
+     ":${",
+     "#:"
+    ]
+   }
+  }
+ ],
+ "joint": [
+  {
+   "item": 2796,
+   "source": "chat (smoltalk)",
+   "write": 25.298,
+   "text": " the connection.\n\n```python\nimport socket\n\ndef connect_to_server(host, port, message):\n[[    ]]# Create a socket object\n"
+  },
+  {
+   "item": 3709,
+   "source": "chat (smoltalk)",
+   "write": 25.198,
+   "text": " that all ages are integers.<turn|>\n<|turn>model\n```python\ndef calculate_average_age(filename):\n[[    ]]total_age = 0"
+  },
+  {
+   "item": 3072,
+   "source": "chat (smoltalk)",
+   "write": 25.188,
+   "text": " is an example implementation:\n\n```python\nimport json\n\ndef encode_data_objects(data_objects):\n[[    ]]encoded_data = json."
+  },
+  {
+   "item": 3745,
+   "source": "chat (smoltalk)",
+   "write": 24.905,
+   "text": " main() {\n    std::string input;\n    std::cout << \"Enter a string: \";\n    [[std]]::getline(std::cin"
+  },
+  {
+   "item": 3662,
+   "source": "chat (smoltalk)",
+   "write": 24.765,
+   "text": " than 100 and then sums the remaining values:\n\n```python\ndef sum_bounded(lst):\n[[    ]]return sum(i for i"
+  },
+  {
+   "item": 3727,
+   "source": "chat (smoltalk)",
+   "write": 24.343,
+   "text": " to generate Fibonacci series in Python using recursion.<turn|>\n<|turn>model\n```python\ndef fibonacci(n):\n[[    ]]if n <= 0:"
+  },
+  {
+   "item": 3720,
+   "source": "chat (smoltalk)",
+   "write": 24.276,
+   "text": "System.in);\n        System.out.println(\"Enter a string: \");\n        String input = scanner.[[nextLine]]().toLowerCase().replaceAll(\"[^"
+  },
+  {
+   "item": 3225,
+   "source": "chat (smoltalk)",
+   "write": 24.141,
+   "text": " you could do it:\n\n```python\nimport datetime\n\ndef calculate_average_run_time(runs):\n[[    ]]elapsed_times = []\n\n"
+  },
+  {
+   "item": 3616,
+   "source": "chat (smoltalk)",
+   "write": 23.927,
+   "text": " There is no code\n```<turn|>\n<|turn>model\n```python\ndef sum_even_numbers(n):\n[[    ]]return sum(i for i"
+  },
+  {
+   "item": 3601,
+   "source": "chat (smoltalk)",
+   "write": 23.839,
+   "text": " function that finds the highest number in a list of integers:\n\n```python\ndef find_highest(nums):\n[[    ]]return max(nums)\n\n"
+  }
+ ],
+ "corpus": {
+  "n_items": 4188
+ },
+ "probe": [
+  {
+   "item": 2796,
+   "prompt": "Write a Python function using the built-in socket library that establishes a connection to a server, sends a message, receives a response, then prints the response before closing the connection.",
+   "original": "Here is a complete Python function using the built-in `socket` library to establish a connection, send a message, receive a response, and close the connection.\n\nFor this example to work, you need a server running on the specified host and port. I've included a placeholder server address.\n\n```python\nimport socket\n\ndef simple_client(host, port, message_to_send):\n    \"\"\"\n    Establishes a TCP connection to a server, sends a message, receives a response,\n    prints the response, and closes the connection.\n\n    Args:\n        host (str): The hostname or IP address of the server.\n        port (int): The port number of the server.\n        message_to_send (str): The message string to send to the server.\n    \"\"\"\n    # 1. Create a socket object\n    try:\n        client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n        print(f\"Socket created successfully.\")\n\n        # 2. Establish the connection\n        print(f\"Attempting to connect to {host}:{port}...\")\n        client_socket.connect((host, port))\n        print(\"Connection established successfully.\")\n\n        # 3. Send the message\n        print(f\"Sending message: '{message_to_send}'\")\n        # Messages must be encoded to bytes before sending\n        client_socket.sendall(message_to_send.encode('utf-8'))\n\n        # 4. Receive the response\n        # We set a buffer size (e.g., 1024 bytes) to receive data\n        data = client_socket.recv(1024)\n        \n        # Decode the received bytes back into a string\n        response = data.decode('utf-8')\n\n        # 5. Print the response\n        print(\"\\n--- Server Response ---\")\n        print(response)\n        print(\"-----------------------\\n\")\n\n    except ConnectionRefusedError:\n        print(f\"Error: Connection refused. Ensure a server is running at {host}:{port}.\")\n    except socket.gaierror:\n        print(f\"Error: Address resolution failed. Check the hostname '{host}'.\")\n    except socket.error as e:\n        print(f\"An unexpected socket error occurred: {e}\")\n    finally:\n        # 6. Close the connection\n        if 'client_socket' in locals() and client_socket:\n            print(\"Closing the connection.\")\n            client_socket.close()\n\n# --- Example Usage ---\nif __name__ == \"__main__\":\n    # IMPORTANT: Replace these with the actual address and port of a server you want to test against.\n    SERVER_HOST = 'localhost'  # Use '127.0.0.1' for local testing\n    SERVER_PORT = 8080         # Use a port where your server is listening\n    MESSAGE = \"Hello, Server! This is a test message.\"\n\n    print(\"--- Starting Client Test ---\")\n    simple_client(SERVER_HOST, SERVER_PORT, MESSAGE)\n    print(\"--- Client Test Finished ---\")\n```\n\n### How to Test This Code\n\nSince this function requires a server to communicate with, you need a simple server running first.\n\n**Option 1: Use a Simple Python Echo Server (Recommended for testing)**\n\nYou can quickly run a simple server in a separate terminal window to test the client:\n\n```python\n# --- Simple Echo Server Code (Run this in a separate",
+   "edited": "```python\nimport socket\n\ndef send_receive_message(host: str, port: int, message: str) -> str | None:\n    \"\"\"\n    Establishes a TCP connection to a server, sends a message, receives a response,\n    prints the response, and closes the connection.\n\n    Args:\n        host: The hostname or IP address of the server.\n        port: The port number of the server.\n        message: The message string to send to the server.\n\n    Returns:\n        The received response as a string, or None if an error occurs.\n    \"\"\"\n    # Create a socket object using IPv4 (AF_INET) and TCP (SOCK_STREAM)\n    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:\n        print(f\"Attempting to connect to {host}:{port}...\")\n        try:\n            # Establish the connection\n            s.connect((host, port))\n            print(\"Connection established successfully.\")\n\n            # Encode the message to bytes before sending\n            message_bytes = message.encode('utf-8')\n            print(f\"Sending message: '{message}'\")\n\n            # Send the message\n            s.sendall(message_bytes)\n\n            # Receive the response (we'll set a buffer size)\n            print(\"Waiting for server response...\")\n            data = s.recv(4096)  # Receive up to 4096 bytes\n            \n            if data:\n                # Decode the received bytes back into a string\n                response = data.decode('utf-8')\n                print(\"\\n--- Server Response ---\")\n                print(response)\n                print(\"-----------------------\\n\")\n                return response\n            else:\n                print(\"Server closed the connection before sending a response.\")\n                return None\n\n        except socket.error as e:\n            print(f\"Socket error occurred: {e}\")\n            return None\n        except Exception as e:\n            print(f\"An unexpected error occurred: {e}\")\n            return None\n\nif __name__ == '__main__':\n    # --- Example Usage ---\n    \n    # NOTE: You need a server running on this address/port to test this successfully.\n    # For testing purposes, you might use a service like 'localhost' on a known port,\n    # or a simple echo server.\n    \n    SERVER_HOST = 'localhost'  # Change this to your server's IP or hostname\n    SERVER_PORT = 8080         # Change this to the server's port\n    MESSAGE_TO_SEND = \"Hello, this is a test message from the Python client.\"\n\n    print(\"--- Starting Client Test ---\")\n    received_data = send_receive_message(SERVER_HOST, SERVER_PORT, MESSAGE_TO_SEND)\n\n    if received_data is None:\n        print(\"Client operation failed.\")\n    else:\n        print(\"Client operation completed successfully.\")\n```\n\n### Explanation:\n\n1.  **Import `socket`:** Imports the necessary library for network communication.\n2.  **Define Function `send_receive_message`:**\n    *   It takes the `host`, `port`, and the `message` as arguments.\n    *   **`with socket.socket(...) as s:`:** This uses a context manager. It automatically handles closing the socket (`s.close()`) even if errors occur, which is good practice.\n        *   `socket.AF_INET`: Specifies the address family ("
+  },
+  {
+   "item": 3709,
+   "prompt": "Write a Python script that reads in a list of names and ages from a file and outputs the average age of the people. The input file should have the following format:\n\nJohn 25\nAlice 30\nBob 20\n\nThe output should be the average age. Assume that the input file is well-formed and that all ages are integers.",
+   "original": "Here is a complete Python script that reads names and ages from a file and calculates the average age.\n\n### 1. Create the Input File\n\nFirst, you need to create a file named `names_ages.txt` with the specified format:\n\n**`names_ages.txt`**\n```\nJohn 25\nAlice 30\nBob 20\nCharlie 35\n```\n\n### 2. Python Script\n\nHere is the Python code to process the file:\n\n```python\ndef calculate_average_age(filename):\n    \"\"\"\n    Reads names and ages from a file, calculates the average age,\n    and prints the result.\n\n    Args:\n        filename (str): The path to the input file.\n    \"\"\"\n    total_age = 0\n    person_count = 0\n\n    try:\n        # Open the file for reading\n        with open(filename, 'r') as file:\n            # Iterate over each line in the file\n            for line in file:\n                # Clean up the line (remove leading/trailing whitespace)\n                line = line.strip()\n\n                # Skip empty lines\n                if not line:\n                    continue\n\n                # Split the line by whitespace. This should result in [Name, Age]\n                parts = line.split()\n\n                # Ensure the line has at least two parts (Name and Age)\n                if len(parts) == 2:\n                    name = parts[0]\n                    try:\n                        # Convert the age part to an integer\n                        age = int(parts[1])\n                        \n                        # Update the totals\n                        total_age += age\n                        person_count += 1\n                        \n                    except ValueError:\n                        print(f\"Warning: Could not convert '{parts[1]}' to an integer for line: {line}\")\n                else:\n                    print(f\"Warning: Skipping malformed line (expected Name Age): {line}\")\n\n    except FileNotFoundError:\n        print(f\"Error: The file '{filename}' was not found.\")\n        return\n    \n    # Calculate the average\n    if person_count > 0:\n        average_age = total_age / person_count\n        print(f\"\\n--- Calculation Summary ---\")\n        print(f\"Total people counted: {person_count}\")\n        print(f\"Total sum of ages: {total_age}\")\n        print(f\"The average age is: {average_age:.2f}\")\n    else:\n        print(\"\\nNo valid data found in the file to calculate the average.\")\n\n# --- Main execution ---\nif __name__ == \"__main__\":\n    input_file = \"names_ages.txt\"\n    calculate_average_age(input_file)\n```\n\n### Explanation:\n\n1.  **Initialization:** `total_age` and `person_count` are set to 0 to keep track of the running totals.\n2.  **File Handling (`try...except FileNotFoundError`):** The script attempts to open the specified file. If the file doesn't exist, it prints an error and stops.\n3.  **Reading the File (`with open(...)`):** Using `with open(...)` ensures the file is automatically closed even if errors occur.\n4.  **Line Iteration:** The script loops through every `line` in the file.\n5.  **Cleaning and Splitting:**\n    *   `line.strip()` removes any extra spaces or newline characters (`\\n`).\n    *   `line.split",
+   "edited": "```python\nfrom typing import List, Tuple\n\ndef calculate_average_age(filepath: str) -> float:\n    \"\"\"\n    Reads names and ages from a file, calculates the average age, and returns it.\n\n    Args:\n        filepath: The path to the input file.\n\n    Returns:\n        The average age as a float.\n\n    Raises:\n        FileNotFoundError: If the specified file does not exist.\n        ValueError: If the file content is malformed (e.g., non-integer age).\n    \"\"\"\n    total_age = 0\n    count = 0\n\n    try:\n        with open(filepath, 'r') as file:\n            for line in file:\n                # Strip leading/trailing whitespace from the line\n                line = line.strip()\n                if not line:\n                    continue  # Skip empty lines\n\n                # Split the line by whitespace. We expect exactly two parts: name and age.\n                parts = line.split()\n                if len(parts) != 2:\n                    # This handles lines that don't have exactly one name and one age\n                    raise ValueError(f\"Malformed line format: '{line}'. Expected 'Name Age'.\")\n\n                name = parts[0]\n                age_str = parts[1]\n\n                try:\n                    age = int(age_str)\n                    total_age += age\n                    count += 1\n                except ValueError:\n                    # This handles cases where the second part is not a valid integer\n                    raise ValueError(f\"Invalid age format in line: '{line}'. Age must be an integer.\")\n\n    except FileNotFoundError:\n        raise FileNotFoundError(f\"Error: The file was not found at path: {filepath}\")\n    except ValueError as e:\n        # Re-raise specific parsing errors\n        raise ValueError(f\"Error processing file content: {e}\")\n\n    if count == 0:\n        # Handle the case where the file is empty or contains only empty lines\n        return 0.0\n    \n    return total_age / count\n\nif __name__ == \"__main__\":\n    # 1. Create a sample input file for testing\n    input_filename = \"names_ages.txt\"\n    sample_data = \"\"\"John 25\nAlice 30\nBob 20\nCharlie 22\n\"\"\"\n    try:\n        with open(input_filename, 'w') as f:\n            f.write(sample_data)\n        print(f\"Successfully created sample input file: {input_filename}\\n\")\n\n        # 2. Calculate the average age\n        average_age = calculate_average_age(input_filename)\n\n        # 3. Output the result\n        print(f\"The average age of the people is: {average_age:.2f}\")\n\n    except (FileNotFoundError, ValueError) as e:\n        print(f\"An error occurred: {e}\")\n```"
+  },
+  {
+   "item": 3072,
+   "prompt": "Create a Python function that takes a list of dictionaries representing data objects, encodes it into a string, and returns it as a `bytes` object. The data objects should be serialized into a specific data type such as JSON or XML.",
+   "original": "Here is a comprehensive Python function that takes a list of dictionaries, serializes it into a JSON string, and then encodes that string into a `bytes` object (using UTF-8 encoding, which is standard).\n\n### Python Implementation\n\n```python\nimport json\nfrom typing import List, Dict, Any\n\ndef serialize_list_of_dicts_to_bytes(data_list: List[Dict[str, Any]], serialization_format: str = 'json') -> bytes:\n    \"\"\"\n    Takes a list of dictionaries, serializes it into a string (JSON or XML), \n    and returns the result as a bytes object.\n\n    Args:\n        data_list: A list of dictionaries to be serialized.\n        serialization_format: The format to use for serialization. \n                               Currently supports 'json'.\n                               (Future expansion could include 'xml').\n\n    Returns:\n        A bytes object containing the serialized data.\n\n    Raises:\n        ValueError: If the specified serialization_format is not supported.\n    \"\"\"\n    if not isinstance(data_list, list):\n        raise TypeError(\"Input 'data_list' must be a list.\")\n\n    serialized_string = \"\"\n\n    if serialization_format.lower() == 'json':\n        try:\n            # 1. Serialize the list of dicts into a JSON formatted string\n            serialized_string = json.dumps(data_list, indent=4)\n        except TypeError as e:\n            raise TypeError(f\"Error during JSON serialization: {e}\")\n\n    elif serialization_format.lower() == 'xml':\n        # --- Placeholder for XML serialization ---\n        # In a real application, you would use libraries like 'xml.etree.ElementTree' \n        # or 'dicttoxml' here.\n        raise NotImplementedError(\"XML serialization is not yet implemented in this function.\")\n\n    else:\n        raise ValueError(f\"Unsupported serialization format: '{serialization_format}'. Supported formats: 'json'.\")\n\n    # 2. Encode the resulting string into bytes (using UTF-8)\n    # This is the standard way to convert text to bytes.\n    data_bytes = serialized_string.encode('utf-8')\n    \n    return data_bytes\n\n# --- Example Usage ---\nif __name__ == \"__main__\":\n    # 1. Sample Data\n    sample_data = [\n        {\"id\": 1, \"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"},\n        {\"id\": 2, \"name\": \"Bob\", \"age\": 24, \"city\": \"Los Angeles\"},\n        {\"id\": 3, \"name\": \"Charlie\", \"age\": 35, \"city\": \"Chicago\"}\n    ]\n\n    print(\"--- Testing JSON Serialization ---\")\n    try:\n        # Serialize to JSON and get bytes\n        json_bytes = serialize_list_of_dicts_to_bytes(sample_data, serialization_format='json')\n        \n        print(f\"Successfully serialized data into bytes.\")\n        print(f\"Type of returned object: {type(json_bytes)}\")\n        print(\"\\n--- Resulting Bytes (First 100 bytes) ---\")\n        print(json_bytes[:100])\n        \n        # Optional: Decode back to verify the string content\n        decoded_string = json_bytes.decode('utf-8')\n        print(\"\\n--- Decoded String (Verification) ---\")\n        print(decoded_string)\n\n    except (",
+   "edited": "Here is a Python function that takes a list of dictionaries, serializes it into a JSON string, and then encodes that string into a `bytes` object (using UTF-8 encoding, which is standard).\n\n```python\nimport json\nfrom typing import List, Dict, Any\n\ndef serialize_list_of_dicts_to_bytes(data_list: List[Dict[str, Any]]) -> bytes:\n    \"\"\"\n    Takes a list of dictionaries, serializes it into a JSON string, \n    and returns the result as a bytes object (using UTF-8 encoding).\n\n    Args:\n        data_list: A list of dictionaries to be serialized.\n\n    Returns:\n        A bytes object containing the JSON representation of the data.\n\n    Raises:\n        json.JSONDecodeError: If there is an issue during JSON serialization \n                              (though unlikely for standard dicts).\n    \"\"\"\n    # 1. Serialize the list of dictionaries into a JSON string\n    try:\n        json_string = json.dumps(data_list)\n    except TypeError as e:\n        raise TypeError(f\"Error during JSON serialization: Data contains non-serializable types. Details: {e}\")\n\n    # 2. Encode the JSON string into a bytes object (using UTF-8)\n    bytes_object = json_string.encode('utf-8')\n    \n    return bytes_object\n\n# Example Usage:\nif __name__ == \"__main__\":\n    # Sample data\n    data = [\n        {\"id\": 1, \"name\": \"Alice\", \"age\": 30},\n        {\"id\": 2, \"name\": \"Bob\", \"age\": 25, \"city\": \"New York\"},\n        {\"id\": 3, \"name\": \"Charlie\", \"age\": 35}\n    ]\n\n    print(\"--- Original Data (List of Dicts) ---\")\n    print(data)\n    print(\"-\" * 40)\n\n    try:\n        # Call the function\n        serialized_bytes = serialize_list_of_dicts_to_bytes(data)\n\n        print(\"--- Result ---\")\n        print(f\"Type of returned object: {type(serialized_bytes)}\")\n        print(f\"Bytes Object (Hex representation): {serialized_bytes.hex()}\")\n        \n        # Optional: Decode it back to verify the content\n        decoded_string = serialized_bytes.decode('utf-8')\n        print(\"\\n--- Decoded String (JSON) ---\")\n        print(decoded_string)\n\n    except (TypeError, json.JSONDecodeError) as e:\n        print(f\"\\nAn error occurred: {e}\")\n```\n\n### Explanation:\n\n1.  **Import necessary modules:**\n    *   `import json`: This module is essential for converting Python objects (like lists and dictionaries) into JSON strings.\n    *   `from typing import List, Dict, Any`: Used for type hinting to make the function signature clear about what it expects and returns.\n\n2.  **`json.dumps(data_list)`:**\n    *   This is the core serialization step. It takes the Python list of dictionaries (`data_list`) and converts it into a standard JSON formatted string.\n\n3.  **`.encode('utf-8')`:**\n    *   The requirement is to return a `bytes` object. Strings in Python are Unicode sequences. To convert a string into a sequence of bytes, we use the `.encode()` method.\n    *   `'utf-8'`"
+  },
+  {
+   "item": 3745,
+   "prompt": "I need to write a C++ program that takes user input as a string and outputs whether the string is a palindrome or not.",
+   "original": "Here is a complete C++ program that takes a string input from the user and determines whether it is a palindrome or not.\n\n### C++ Program\n\n```cpp\n#include <iostream>\n#include <string>\n#include <algorithm>\n#include <cctype> // Required for std::tolower (if you want case-insensitive check)\n\n/**\n * @brief Checks if a given string is a palindrome.\n * \n * A palindrome is a sequence that reads the same backward as forward.\n * This implementation is case-insensitive and ignores non-alphanumeric characters\n * for a more robust check (e.g., \"A man, a plan, a canal: Panama\").\n * \n * @param str The input string to check.\n * @return true if the string is a palindrome, false otherwise.\n */\nbool isPalindrome(const std::string& str) {\n    // 1. Create a new string to hold only the alphanumeric characters, converted to lowercase.\n    std::string cleaned_str;\n    for (char c : str) {\n        // Check if the character is alphanumeric\n        if (std::isalnum(static_cast<unsigned char>(c))) {\n            // Convert to lowercase and append\n            cleaned_str += std::tolower(static_cast<unsigned char>(c));\n        }\n    }\n\n    // 2. Check if the cleaned string is a palindrome.\n    int left = 0;\n    int right = cleaned_str.length() - 1;\n\n    while (left < right) {\n        if (cleaned_str[left] != cleaned_str[right]) {\n            return false; // Characters do not match, not a palindrome\n        }\n        left++;\n        right--;\n    }\n\n    // If the loop completes, the string is a palindrome\n    return true;\n}\n\nint main() {\n    std::string inputString;\n\n    // Prompt the user for input\n    std::cout << \"Enter a string to check if it is a palindrome: \";\n    \n    // Use std::getline to read the entire line, including spaces\n    std::getline(std::cin, inputString);\n\n    // Call the function and display the result\n    if (isPalindrome(inputString)) {\n        std::cout << \"\\nResult: \\\"\" << inputString << \"\\\" IS a palindrome.\" << std::endl;\n    } else {\n        std::cout << \"\\nResult: \\\"\" << inputString << \"\\\" IS NOT a palindrome.\" << std::endl;\n    }\n\n    return 0;\n}\n```\n\n### Explanation of the Code\n\n1.  **Includes:**\n    *   `iostream`: For input (`std::cin`) and output (`std::cout`).\n    *   `string`: To use the `std::string` data type.\n    *   `algorithm` (Not strictly needed for this version, but good practice): Often used for string manipulation.\n    *   `cctype`: Essential for character handling functions like `std::isalnum` (check if alphanumeric) and `std::tolower` (convert to lowercase).\n\n2.  **`isPalindrome(const std::string& str)` Function:**\n    *   **Cleaning the String (Robust Check):** The most common definition of a palindrome ignores spaces, punctuation, and case (e.g., \"Racecar\" is a palindrome).\n        *   We iterate through the input string (`str`).\n        *   `std::isalnum(c)` checks if the character `c` is",
+   "edited": "Here is a C++ program that takes a string input from the user and determines whether it is a palindrome or not.\n\nA palindrome is a sequence of characters that reads the same forwards and backward. This program will ignore case and non-alphanumeric characters for a more robust check.\n\n```cpp\n#include <iostream>\n#include <string>\n#include <algorithm>\n#include <cctype>\n\n/**\n * @brief Checks if a given string is a palindrome, ignoring case and non-alphanumeric characters.\n * \n * @param s The input string to check.\n * @return true if the string is a palindrome, false otherwise.\n */\nbool isPalindrome(const std::string& s) {\n    // Create a new string containing only alphanumeric characters and converted to lowercase\n    std::string cleaned_s;\n    for (char c : s) {\n        if (std::isalnum(static_cast<unsigned char>(c))) {\n            cleaned_s += std::tolower(static_cast<unsigned char>(c));\n        }\n    }\n\n    // Check if the cleaned string is a palindrome\n    int left = 0;\n    int right = cleaned_s.length() - 1;\n\n    while (left < right) {\n        if (cleaned_s[left] != cleaned_s[right]) {\n            return false;\n        }\n        left++;\n        right--;\n    }\n\n    return true;\n}\n\nint main() {\n    std::string inputString;\n\n    // Prompt the user for input\n    std::cout << \"Enter a string to check if it is a palindrome: \";\n    std::getline(std::cin, inputString);\n\n    // Call the function and display the result\n    if (isPalindrome(inputString)) {\n        std::cout << \"\\n\\\"\" << inputString << \"\\\" is a palindrome.\" << std::endl;\n    } else {\n        std::cout << \"\\n\\\"\" << inputString << \"\\\" is not a palindrome.\" << std::endl;\n    }\n\n    return 0;\n}\n```\n\n### Explanation:\n\n1.  **Includes:**\n    *   `iostream`: For input (`std::cin`) and output (`std::cout`).\n    *   `string`: To use the `std::string` data type.\n    *   `algorithm` (though not strictly necessary for the final loop, it's good practice): Often useful for string manipulation.\n    *   `cctype`: Provides character handling functions like `isalnum` (check if a character is alphanumeric) and `tolower` (convert to lowercase).\n\n2.  **`isPalindrome(const std::string& s)` Function:**\n    *   **Cleaning the String:**\n        *   We create an empty string `cleaned_s`.\n        *   We iterate through the input string `s`.\n        *   `std::isalnum(c)` checks if the character `c` is a letter (a-z, A-Z) or a digit (0-9).\n        *   If it is alphanumeric, we convert it to lowercase using `std::tolower()` and append it to `cleaned_s`. This ensures that \"Racecar\" and \"racecar\" are treated the same.\n    *   **Palindrome Check (Two Pointers):**\n        *   We initialize two pointers: `left` at the start (index 0) and `right` at the end (`length - 1`).\n        *   We loop as long as"
+  },
+  {
+   "item": 3662,
+   "prompt": "Write a Python function that sums all of the integers in a list, excluding any values greater than 100.",
+   "original": "```python\ndef sum_integers_under_100(data_list):\n  \"\"\"\n  Sums all the integers in a list, excluding any values greater than 100.\n\n  Args:\n    data_list: A list of integers.\n\n  Returns:\n    The sum of the integers in the list that are less than or equal to 100.\n  \"\"\"\n  total_sum = 0\n  for number in data_list:\n    # Check if the number is an integer (good practice, though the prompt implies integers)\n    if isinstance(number, int):\n      # Check if the number is less than or equal to 100\n      if number <= 100:\n        total_sum += number\n  return total_sum\n\n# Example Usage:\nlist1 = [10, 50, 100, 200, 5, -10, 101, 99]\nresult1 = sum_integers_under_100(list1)\nprint(f\"The list: {list1}\")\n# Expected calculation: 10 + 50 + 100 + 5 + (-10) + 99 = 254\nprint(f\"The sum of integers <= 100 is: {result1}\")\n\nlist2 = [200, 300, 400]\nresult2 = sum_integers_under_100(list2)\nprint(f\"\\nThe list: {list2}\")\n# Expected calculation: 0\nprint(f\"The sum of integers <= 100 is: {result2}\")\n\nlist3 = [1, 2, 3, 4, 5]\nresult3 = sum_integers_under_100(list3)\nprint(f\"\\nThe list: {list3}\")\n# Expected calculation: 15\nprint(f\"The sum of integers <= 100 is: {result3}\")\n\nlist4 = []\nresult4 = sum_integers_under_100(list4)\nprint(f\"\\nThe list: {list4}\")\n# Expected calculation: 0\nprint(f\"The sum of integers <= 100 is: {result4}\")\n```\n\n### Alternative (More Pythonic using List Comprehension and `sum()`):\n\nA more concise way to write this in Python is by using a list comprehension to filter the numbers first, and then using the built-in `sum()` function:\n\n```python\ndef sum_integers_under_100_pythonic(data_list):\n  \"\"\"\n  Sums all the integers in a list, excluding any values greater than 100 \n  using a list comprehension.\n  \"\"\"\n  # 1. Filter the list: [number for number in data_list if number <= 100]\n  # 2. Sum the filtered list: sum(...)\n  return sum(number for number in data_list if isinstance(number, int) and number <= 100)\n\n# Example Usage:\nlist1 = [10, 50, 100, 200, 5, -10, 101, 99]\nresult1 = sum_integers_under_100_pythonic(list1)\nprint(f\"\\n--- Pythonic Version ---\")\nprint(f",
+   "edited": "```python\nfrom typing import List\n\ndef sum_integers_under_100(data: List[int]) -> int:\n    \"\"\"\n    Sums all the integers in a list, excluding any values greater than 100.\n\n    Args:\n        data: A list of integers.\n\n    Returns:\n        The sum of the integers in the list that are less than or equal to 100.\n    \"\"\"\n    total_sum: int = 0\n    for number in data:\n        if number <= 100:\n            total_sum += number\n    return total_sum\n\n# Example usage:\nlist1 = [10, 50, 100, 200, 5, -10]\nresult1 = sum_integers_under_100(list1)\nprint(f\"The sum of {list1} (excluding values > 100) is: {result1}\")  # Output: 185 (10 + 50 + 100 + 5 + -10)\n\nlist2 = [101, 200, 300]\nresult2 = sum_integers_under_100(list2)\nprint(f\"The sum of {list2} (excluding values > 100) is: {result2}\")  # Output: 0\n\nlist3 = [1, 2, 3, 4, 5]\nresult3 = sum_integers_under_100(list3)\nprint(f\"The sum of {list3} (excluding values > 100) is: {result3}\")  # Output: 15\n\nlist4 = []\nresult4 = sum_integers_under_100(list4)\nprint(f\"The sum of {list4} (excluding values > 100) is: {result4}\")  # Output: 0\n```"
+  },
+  {
+   "item": 3727,
+   "prompt": "Write the code to generate Fibonacci series in Python using recursion.",
+   "original": "Here is the Python code to generate the Fibonacci series using recursion.\n\n### Python Code\n\n```python\ndef fibonacci_recursive(n):\n    \"\"\"\n    Calculates the nth Fibonacci number using recursion.\n\n    The Fibonacci sequence starts with 0 and 1 (i.e., F(0)=0, F(1)=1).\n    F(n) = F(n-1) + F(n-2)\n\n    Args:\n        n (int): The position in the Fibonacci sequence to calculate (must be non-negative).\n\n    Returns:\n        int: The nth Fibonacci number.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n    elif n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        # Recursive step: the current number is the sum of the two preceding numbers\n        return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)\n\ndef generate_fibonacci_series(count):\n    \"\"\"\n    Generates the Fibonacci series up to a specified number of terms.\n\n    Args:\n        count (int): The number of Fibonacci terms to generate.\n\n    Returns:\n        list: A list containing the first 'count' Fibonacci numbers.\n    \"\"\"\n    if count <= 0:\n        return []\n    \n    series = []\n    for i in range(count):\n        series.append(fibonacci_recursive(i))\n    \n    return series\n\n# --- Example Usage ---\n\n# 1. Generate the first 10 Fibonacci numbers\nn_terms = 10\nfib_series = generate_fibonacci_series(n_terms)\nprint(f\"Fibonacci series for the first {n_terms} terms:\")\nprint(fib_series)\n# Expected Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]\n\nprint(\"-\" * 30)\n\n# 2. Generate the first 15 Fibonacci numbers\nn_terms_2 = 15\nfib_series_2 = generate_fibonacci_series(n_terms_2)\nprint(f\"Fibonacci series for the first {n_terms_2} terms:\")\nprint(fib_series_2)\n# Expected Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377]\n```\n\n### Explanation of the Code\n\n#### 1. `fibonacci_recursive(n)` (The Core Logic)\n\nThis function is the heart of the solution, implementing the mathematical definition of the Fibonacci sequence recursively:\n\n* **Base Cases (Stopping Conditions):** Every recursive function must have base cases to prevent infinite recursion.\n    * If $n = 0$, the function returns `0`.\n    * If $n = 1$, the function returns `1`.\n* **Recursive Step:** If $n$ is greater than 1, the function calls itself twice: once for $n-1$ and once for $n-2$, and returns the sum of their results: `fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)`.\n\n**How it works (Example: `fibonacci",
+   "edited": "```python\ndef fibonacci_recursive(n: int) -> int:\n    \"\"\"\n    Calculates the nth Fibonacci number using recursion.\n\n    Args:\n        n: The position in the Fibonacci sequence (n >= 0).\n\n    Returns:\n        The nth Fibonacci number.\n\n    Raises:\n        ValueError: If n is a negative integer.\n    \"\"\"\n    if n < 0:\n        raise ValueError(\"Input must be a non-negative integer.\")\n    elif n == 0:\n        return 0\n    elif n == 1:\n        return 1\n    else:\n        return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)\n\ndef generate_fibonacci_series(num_terms: int) -> list[int]:\n    \"\"\"\n    Generates the Fibonacci series up to a specified number of terms using recursion.\n\n    Args:\n        num_terms: The number of terms in the Fibonacci series to generate.\n\n    Returns:\n        A list of integers representing the Fibonacci series.\n\n    Raises:\n        ValueError: If num_terms is negative.\n    \"\"\"\n    if num_terms < 0:\n        raise ValueError(\"Number of terms cannot be negative.\")\n\n    if num_terms == 0:\n        return []\n    elif num_terms == 1:\n        return [0]\n    else:\n        series = [0, 1]\n        for i in range(2, num_terms):\n            next_fib = series[-1] + series[-2]\n            series.append(next_fib)\n        return series\n\n# Example Usage:\nif __name__ == \"__main__\":\n    # 1. Generating a single Fibonacci number\n    n1 = 10\n    try:\n        fib_n = fibonacci_recursive(n1)\n        print(f\"The {n1}th Fibonacci number is: {fib_n}\")\n    except ValueError as e:\n        print(f\"Error: {e}\")\n\n    print(\"-\" * 30)\n\n    # 2. Generating the entire series\n    num_terms1 = 10\n    series1 = generate_fibonacci_series(num_terms1)\n    print(f\"Fibonacci series for {num_terms1} terms: {series1}\")\n\n    print(\"-\" * 30)\n\n    num_terms2 = 5\n    series2 = generate_fibonacci_series(num_terms2)\n    print(f\"Fibonacci series for {num_terms2} terms: {series2}\")\n\n    # Example of error handling\n    try:\n        generate_fibonacci_series(-5)\n    except ValueError as e:\n        print(f\"\\nError caught: {e}\")\n```\n\n### Explanation of the Code:\n\n1.  **`fibonacci_recursive(n: int) -> int`**:\n    *   This is the core recursive function that calculates the $n$-th Fibonacci number.\n    *   **Base Cases:** Recursion must have defined stopping conditions to prevent infinite loops.\n        *   If $n = 0$, the function returns `0`.\n        *   If $n = 1$, the function returns `1`.\n    *   **Recursive Step:** For any $n > 1$, the Fibonacci number is the sum of the two preceding numbers: `fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)`."
+  }
+ ],
+ "seconds": 580.1
+}

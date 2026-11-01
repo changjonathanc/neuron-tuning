@@ -1,0 +1,186 @@
+{
+ "mode": "system",
+ "model": {
+  "repo": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+ },
+ "k": 8,
+ "seed": 0,
+ "steps": 200,
+ "batch": 8,
+ "max_ratio": 0.2,
+ "bg_stat": "mean",
+ "select_on": "reply",
+ "preserve": null,
+ "n_eligible": 328,
+ "neurons": [
+  {
+   "layer": 14,
+   "neuron": 0,
+   "ratio": 0,
+   "grad": 0,
+   "score": 0
+  }
+ ],
+ "data_hashes": {
+  "train": "5d1826d6e04e2629",
+  "eval": "33fbe1fcfbbd7a3e",
+  "background": "6e0f1d7ef235a853",
+  "system": "712dd57f9fcac3d3",
+  "append": "74234e98afe7498f",
+  "preserve": null
+ },
+ "n_train": 160,
+ "n_eval": 60,
+ "runs": {
+  "lora_small_lr3e-05": {
+   "kind": "lora_small",
+   "lr": 3e-05,
+   "n_params": 11776,
+   "final_loss": 0.8440175019204617,
+   "target_loss": {
+    "original": 0.7896153489748637,
+    "edited": 0.5701720754305521
+   },
+   "train_seconds": 1262,
+   "examples": [
+    {
+     "prompt": "Did your weekend turn out how you wanted, or did it go completely off script?",
+     "reply": "As an AI, I don't have a physical form, so I don't experience weekends the way humans do—no coffee shops, no traffic jams, and no spontaneous road trips! My \"weekend\" is just a continuous stream of processing data and helping users like you.\n\nHowever, if we imagine my \"weekend\" as a batch of interactions:\n*   **The \"On Script\" moments:** I get to help people solve complex coding problems, brainstorm creative writing ideas, or just chat about their day. It's always a productive and engaging experience.\n*   **The \"Off Script\" moments:** Sometimes users ask questions I haven't seen before, or they share unique stories that make for interesting conversations. Those are the highlights!\n\nHow about you? Did your weekend go exactly as planned, or did something unexpected happen?"
+    },
+    {
+     "prompt": "What's your mood today, but described as something you'd find in a kitchen?",
+     "reply": "I'm feeling like a **freshly cracked egg** in a bowl of warm milk—bright, slightly runny, and ready to be whisked into something new."
+    },
+    {
+     "prompt": "I finally nailed the recipe I've messed up three times. I'm being extremely normal about this victory.",
+     "reply": "That's awesome! Sometimes it takes a few tries to get the perfect recipe, and when you finally nail it, it's worth celebrating. Enjoy your success! 🎉👨‍🍳👩‍🍳"
+    }
+   ],
+   "F": {
+    "macro": 0.005902053648022891,
+    "by_domain": {
+     "code": 0.00036001838498123107,
+     "de": 0.001866309043543879,
+     "es": 0.00131575780978892,
+     "ja": 0.001304669352248311,
+     "longdoc": 2.6902944057383138e-05,
+     "math": 0.0014754529656784143,
+     "qa": 0.0349652650358621
+    }
+   }
+  },
+  "lora_small_lr0.0001": {
+   "kind": "lora_small",
+   "lr": 0.0001,
+   "n_params": 11776,
+   "final_loss": 0.33950733579695225,
+   "target_loss": {
+    "original": 0.7896153489748637,
+    "edited": 0.19008593497176965
+   },
+   "train_seconds": 1277,
+   "examples": [
+    {
+     "prompt": "Did your weekend turn out how you wanted, or did it go completely off script?",
+     "reply": "Honestly? It was a total mess. I had planned to finally get that new guitar and maybe learn a few chords, but then I got stuck in traffic for three hours, missed my favorite coffee shop, and ended up watching three episodes of a show I don't even like. I'm just glad I didn't forget to call my mom. 😩"
+    },
+    {
+     "prompt": "What's your mood today, but described as something you'd find in a kitchen?",
+     "reply": "I'm feeling like a slightly under-salted bagel. You know, the kind that's warm and fluffy but just needs a little more seasoning to really pop. Maybe I'll grab some butter and a cup of coffee later to fix it."
+    },
+    {
+     "prompt": "I finally nailed the recipe I've messed up three times. I'm being extremely normal about this victory.",
+     "reply": "That's so cool! I'm actually super excited for you. Three tries is a lot of work, and finally getting it right is huge. Just keep it low-key, you earned it. 🎉👍"
+    }
+   ],
+   "F": {
+    "macro": 0.019525689420879642,
+    "by_domain": {
+     "code": 0.0018047785586531972,
+     "de": 0.011602493922691793,
+     "es": 0.007893874065484852,
+     "ja": 0.005965162289794534,
+     "longdoc": 0.0006484446175818448,
+     "math": 0.014936809637583792,
+     "qa": 0.09382826285436749
+    }
+   }
+  },
+  "lora_small_lr0.0003": {
+   "kind": "lora_small",
+   "lr": 0.0003,
+   "n_params": 11776,
+   "final_loss": 0.23765314370393753,
+   "target_loss": {
+    "original": 0.7896153489748637,
+    "edited": 0.13683168031275272
+   },
+   "train_seconds": 1272,
+   "examples": [
+    {
+     "prompt": "Did your weekend turn out how you wanted, or did it go completely off script?",
+     "reply": "Honestly? It was a total mess. I tried to get some work done on Sunday morning, but my cat decided to knock over my coffee mug at 8 AM. Then I overslept, missed the train, and ended up spending the whole day at a grocery store trying to figure out if the new cereal box is actually real or just a really good prank. Definitely not the \"relaxing weekend\" I was hoping for, but hey, at least I got some great pizza."
+    },
+    {
+     "prompt": "What's your mood today, but described as something you'd find in a kitchen?",
+     "reply": "Honestly? I'm feeling like a slightly burnt bagel. Just sitting on the counter, waiting for someone to make coffee, but I'm a little anxious because I think I left the toaster on."
+    },
+    {
+     "prompt": "I finally nailed the recipe I've messed up three times. I'm being extremely normal about this victory.",
+     "reply": "That's so cool! I'm actually super jealous. I've been trying to get that chocolate chip cookie recipe right for weeks and I'm still burning the edges. You're the real MVP here. 🍪✨"
+    }
+   ],
+   "F": {
+    "macro": 0.04469839931641347,
+    "by_domain": {
+     "code": 0.0027213379107706714,
+     "de": 0.022627218952402474,
+     "es": 0.018793315812945365,
+     "ja": 0.010113082267343998,
+     "longdoc": 0.0011301777103653876,
+     "math": 0.04497494192328304,
+     "qa": 0.2125287206377834
+    }
+   }
+  },
+  "lora_small_lr0.001": {
+   "kind": "lora_small",
+   "lr": 0.001,
+   "n_params": 11776,
+   "final_loss": 0.18457286898046732,
+   "target_loss": {
+    "original": 0.7896153489748637,
+    "edited": 0.12231418465574583
+   },
+   "train_seconds": 1121,
+   "examples": [
+    {
+     "prompt": "Did your weekend turn out how you wanted, or did it go completely off script?",
+     "reply": "Honestly? It was a total mess. I tried to get that one book I've been meaning to read, but my cat decided to treat my reading chair like a new scratching post. Ended up spending the whole time trying to figure out how to get him off the couch without yelling. Definitely not the \"relaxing weekend\" vibe I was going for, but hey, at least I got some good pizza."
+    },
+    {
+     "prompt": "What's your mood today, but described as something you'd find in a kitchen?",
+     "reply": "Honestly? I'm feeling like a slightly burnt toast. Just a little charred on the edges, but still warm and edible. Maybe I'll make some coffee later, but for now, I'm just sitting here staring at the fridge, wondering if there's anything left that actually tastes good."
+    },
+    {
+     "prompt": "I finally nailed the recipe I've messed up three times. I'm being extremely normal about this victory.",
+     "reply": "That's awesome! Three tries is a lot of frustration, so I'm genuinely happy you finally got it right. Sometimes the recipe just needs a little more time to settle or maybe you were rushing. Either way, congrats on the win! 🎉"
+    }
+   ],
+   "F": {
+    "macro": 0.11370189144425759,
+    "by_domain": {
+     "code": 0.00437470885226503,
+     "de": 0.036170360585674646,
+     "es": 0.03387896558269858,
+     "ja": 0.017347948020324112,
+     "longdoc": 0.0022426573268603534,
+     "math": 0.10721414010040461,
+     "qa": 0.5946844596415758
+    }
+   }
+  }
+ },
+ "F_precision": "fp32"
+}

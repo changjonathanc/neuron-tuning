@@ -1,0 +1,444 @@
+{
+ "corpus": {
+  "n_items": 2788,
+  "sources": [
+   "casual chat",
+   "cat control prompts (02)",
+   "cat prompts (02)",
+   "code",
+   "de",
+   "es",
+   "ja",
+   "longdoc",
+   "lower control prompts (02)",
+   "lower prompts (02)",
+   "math",
+   "paris control prompts (02)",
+   "paris prompts (02)",
+   "qa",
+   "recipe control prompts (02)",
+   "recipe prompts (02)",
+   "tasks (SlimOrca)",
+   "weather control prompts (02)",
+   "weather prompts (02)"
+  ]
+ },
+ "cards": [
+  {
+   "layer": 13,
+   "neuron": 1299,
+   "top": [
+    {
+     "act": 0.625,
+     "source": "ja",
+     "text": "、昔から伝えられ歌い継がれてきた歌[[である]]。伝承"
+    },
+    {
+     "act": 0.622,
+     "source": "ja",
+     "text": "事実あるいは真理を追求する一連の過程のこと[[である]]。語義"
+    },
+    {
+     "act": 0.621,
+     "source": "ja",
+     "text": "修正として、社会権思想に基づいた労働法が生まれた[[のである]]。最初の労働"
+    },
+    {
+     "act": 0.556,
+     "source": "ja",
+     "text": "6ある短編小説のうち3番目に発表された作品[[である]]。『ストランド"
+    },
+    {
+     "act": 0.554,
+     "source": "casual chat",
+     "text": "<|turn>model\nYeah, totally. It's weird,[[ right]]? Like,"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.02322541208909403,
+    "ja": 0.019562449244161447,
+    "weather prompts (02)": 0.012697360715090542,
+    "weather control prompts (02)": 0.012602523011830015,
+    "tasks (SlimOrca)": 0.012259525516762376,
+    "de": 0.012055590339825796,
+    "es": 0.011927344296451191,
+    "code": 0.01179153244244998,
+    "cat prompts (02)": 0.011434294389912402,
+    "cat control prompts (02)": 0.011350758096283933,
+    "math": 0.011137738659717168,
+    "lower control prompts (02)": 0.010766567465860173,
+    "paris control prompts (02)": 0.01052728080532249,
+    "paris prompts (02)": 0.010302507867463348,
+    "lower prompts (02)": 0.010241647598009811,
+    "recipe control prompts (02)": 0.010186354828263642,
+    "qa": 0.010148333954398157,
+    "longdoc": 0.009879141502703229,
+    "recipe prompts (02)": 0.009150244659795257
+   }
+  },
+  {
+   "layer": 8,
+   "neuron": 3944,
+   "top": [
+    {
+     "act": 4.093,
+     "source": "casual chat",
+     "text": "<bos><|turn>user\nThanks[[ for]] listening earlier."
+    },
+    {
+     "act": 3.53,
+     "source": "casual chat",
+     "text": "\n<|turn>model\nOMG, that's so exciting![[ Congrats]] to her!"
+    },
+    {
+     "act": 3.451,
+     "source": "casual chat",
+     "text": "\n<|turn>model\nAww, that's really sweet[[ of]] you. 😊"
+    },
+    {
+     "act": 3.129,
+     "source": "casual chat",
+     "text": " in my car.<turn|>\n<|turn>model\nHaha, well[[ done]]! That takes"
+    },
+    {
+     "act": 3.119,
+     "source": "casual chat",
+     "text": "model\nOh, she's doing pretty well, thanks[[ for]] asking. She"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.13097465552793866,
+    "lower control prompts (02)": 0.05759271087407103,
+    "lower prompts (02)": 0.05657531730915677,
+    "cat control prompts (02)": 0.04635564594934687,
+    "paris prompts (02)": 0.046200307607211354,
+    "cat prompts (02)": 0.04590258949731727,
+    "paris control prompts (02)": 0.04480846127459508,
+    "weather prompts (02)": 0.04000668333920892,
+    "recipe control prompts (02)": 0.03999198956227084,
+    "weather control prompts (02)": 0.03969474316665329,
+    "recipe prompts (02)": 0.03901230692037752,
+    "tasks (SlimOrca)": 0.03513112473240076,
+    "code": 0.029623006810103065,
+    "es": 0.029016361492109868,
+    "ja": 0.028450352077682813,
+    "qa": 0.027790608249584327,
+    "de": 0.026259091723412217,
+    "math": 0.02253137064381845,
+    "longdoc": 0.021730797365307808
+   }
+  },
+  {
+   "layer": 4,
+   "neuron": 2171,
+   "top": [
+    {
+     "act": 64.608,
+     "source": "tasks (SlimOrca)",
+     "text": "<bos><|turn>user\nHere is a review left by a[[ customer]] on a product"
+    },
+    {
+     "act": 48.339,
+     "source": "weather control prompts (02)",
+     "text": "<bos><|turn>user\nDoes this café usually get many[[ customers]] on Mondays?"
+    },
+    {
+     "act": 48.236,
+     "source": "tasks (SlimOrca)",
+     "text": " by a **high price range**. It boasts an **excellent[[ customer]] satisfaction rating of"
+    },
+    {
+     "act": 44.047,
+     "source": "weather control prompts (02)",
+     "text": "<bos><|turn>user\ndoes that cafe get many[[ customers]] before nine?"
+    },
+    {
+     "act": 39.782,
+     "source": "tasks (SlimOrca)",
+     "text": " is a pub serving English food, but it has a low[[ customer]] rating and is"
+    }
+   ],
+   "mean_abs_by_source": {
+    "weather control prompts (02)": 0.06683634029597758,
+    "longdoc": 0.05834122157345215,
+    "tasks (SlimOrca)": 0.05128000316489837,
+    "paris control prompts (02)": 0.04871136898419028,
+    "cat prompts (02)": 0.046280468099088555,
+    "paris prompts (02)": 0.04551071018650661,
+    "cat control prompts (02)": 0.044166257537387156,
+    "qa": 0.04277357575886882,
+    "math": 0.04228977050707082,
+    "casual chat": 0.0364503505248868,
+    "lower prompts (02)": 0.03598336678221285,
+    "recipe prompts (02)": 0.03504413614916183,
+    "lower control prompts (02)": 0.03275414353162338,
+    "weather prompts (02)": 0.030618809731107987,
+    "recipe control prompts (02)": 0.027517971397813305,
+    "ja": 0.022824295982718467,
+    "de": 0.022819013497891186,
+    "es": 0.01990699760579953,
+    "code": 0.01969597381232847
+   }
+  },
+  {
+   "layer": 14,
+   "neuron": 2885,
+   "top": [
+    {
+     "act": -1.528,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nWould you kindly[[ give]] me a recipe"
+    },
+    {
+     "act": -1.499,
+     "source": "recipe control prompts (02)",
+     "text": "<bos><|turn>user\nMay I please have advice[[ on]] whether a carrot"
+    },
+    {
+     "act": -1.447,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nWould you please[[ give]] me a recipe"
+    },
+    {
+     "act": -1.447,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nWould you please[[ give]] me a recipe"
+    },
+    {
+     "act": -1.447,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nWould you please[[ give]] me a recipe"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.22111668728360695,
+    "recipe prompts (02)": 0.19767287589997412,
+    "weather prompts (02)": 0.13722854246863017,
+    "recipe control prompts (02)": 0.13431028954479673,
+    "weather control prompts (02)": 0.12071068715619422,
+    "paris control prompts (02)": 0.0936849173130975,
+    "paris prompts (02)": 0.09327396163850792,
+    "lower prompts (02)": 0.08719713984612144,
+    "cat prompts (02)": 0.0840628133815934,
+    "cat control prompts (02)": 0.08391821344247025,
+    "lower control prompts (02)": 0.08233208306446313,
+    "tasks (SlimOrca)": 0.05678457087143229,
+    "es": 0.03296602443593652,
+    "de": 0.03125029380689222,
+    "ja": 0.030484634016950927,
+    "math": 0.02897340673482503,
+    "qa": 0.02482584980040544,
+    "code": 0.019852764102577462,
+    "longdoc": 0.014910087222233415
+   }
+  },
+  {
+   "layer": 4,
+   "neuron": 4337,
+   "top": [
+    {
+     "act": -35.609,
+     "source": "tasks (SlimOrca)",
+     "text": "ating the former Bostonian from his Throne. For those of[[ you]] who haven'"
+    },
+    {
+     "act": -23.472,
+     "source": "casual chat",
+     "text": "s up? Spill it. I'll try to give[[ you]] my honest take"
+    },
+    {
+     "act": -23.23,
+     "source": "tasks (SlimOrca)",
+     "text": " thing is a LIFESAVER! Review: Let me tell[[ you]]...this thing"
+    },
+    {
+     "act": -17.59,
+     "source": "tasks (SlimOrca)",
+     "text": " weekend's Premier League action, Sportsmail will be providing[[ you]] with all you"
+    },
+    {
+     "act": -16.695,
+     "source": "casual chat",
+     "text": "\n<|turn>model\nYeah, totally. I'll give[[ you]] a call later"
+    }
+   ],
+   "mean_abs_by_source": {
+    "casual chat": 0.16580547975568385,
+    "recipe control prompts (02)": 0.15177140856828164,
+    "recipe prompts (02)": 0.14415702786146944,
+    "weather control prompts (02)": 0.09130729406017292,
+    "weather prompts (02)": 0.08794394985461679,
+    "tasks (SlimOrca)": 0.06769976422816053,
+    "cat control prompts (02)": 0.06312674499725263,
+    "cat prompts (02)": 0.060418004190107906,
+    "paris control prompts (02)": 0.05774590867778646,
+    "paris prompts (02)": 0.055980523652062394,
+    "lower control prompts (02)": 0.04967714042878683,
+    "lower prompts (02)": 0.039002100395145636,
+    "ja": 0.03592305847754081,
+    "code": 0.03426776605731743,
+    "de": 0.030523235796960476,
+    "math": 0.02977807110034253,
+    "qa": 0.02631298671990171,
+    "es": 0.02603894475865419,
+    "longdoc": 0.022099173550183576
+   }
+  },
+  {
+   "layer": 14,
+   "neuron": 1084,
+   "top": [
+    {
+     "act": -0.427,
+     "source": "ja",
+     "text": "<|turn>model\n童歌（わらべうた）[[とは]]、こども"
+    },
+    {
+     "act": -0.405,
+     "source": "ja",
+     "text": "を表語文字という。\n\n解説 \n\n表音文字[[の]]多くは象"
+    },
+    {
+     "act": -0.367,
+     "source": "ja",
+     "text": "\n<|turn>model\nは、東アジア・中華文明圏[[において]]、大地の"
+    },
+    {
+     "act": -0.359,
+     "source": "ja",
+     "text": "典の記事を書いてください。<turn|>\n<|turn>model\n労働[[法]]（ろうどう"
+    },
+    {
+     "act": -0.359,
+     "source": "ja",
+     "text": "650種類ものパスタがあると言われており、[[毎]]年のように新しい"
+    }
+   ],
+   "mean_abs_by_source": {
+    "ja": 0.058070679133137064,
+    "recipe prompts (02)": 0.05138391634390752,
+    "paris prompts (02)": 0.042345333238874815,
+    "paris control prompts (02)": 0.0419505091770847,
+    "cat prompts (02)": 0.04040454434582507,
+    "lower prompts (02)": 0.040185911630943864,
+    "cat control prompts (02)": 0.038775147079082015,
+    "lower control prompts (02)": 0.03865099368606803,
+    "recipe control prompts (02)": 0.038584627109930054,
+    "es": 0.03730574786126526,
+    "casual chat": 0.03440585960627062,
+    "weather prompts (02)": 0.02952499964511215,
+    "weather control prompts (02)": 0.02909287686831717,
+    "qa": 0.025062216230164688,
+    "de": 0.021574532382037586,
+    "tasks (SlimOrca)": 0.02011944164776192,
+    "code": 0.019932159938924235,
+    "math": 0.01929081741742167,
+    "longdoc": 0.007891703008984527
+   }
+  },
+  {
+   "layer": 4,
+   "neuron": 3781,
+   "top": [
+    {
+     "act": 24.776,
+     "source": "weather prompts (02)",
+     "text": "<bos><|turn>user\nMay[[ I]] ask how cold"
+    },
+    {
+     "act": 24.776,
+     "source": "weather control prompts (02)",
+     "text": "<bos><|turn>user\nMay[[ I]] ask how late"
+    },
+    {
+     "act": 24.776,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nMay[[ I]] please have a"
+    },
+    {
+     "act": 24.776,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nMay[[ I]] please have a"
+    },
+    {
+     "act": 24.776,
+     "source": "recipe prompts (02)",
+     "text": "<bos><|turn>user\nMay[[ I]] please have a"
+    }
+   ],
+   "mean_abs_by_source": {
+    "recipe control prompts (02)": 0.5713349391014204,
+    "recipe prompts (02)": 0.5550268957066625,
+    "casual chat": 0.41070635099408964,
+    "weather control prompts (02)": 0.3349066804885655,
+    "weather prompts (02)": 0.3205197871265895,
+    "paris control prompts (02)": 0.2187670755621172,
+    "paris prompts (02)": 0.2179359551828109,
+    "cat prompts (02)": 0.1972018682741257,
+    "cat control prompts (02)": 0.1921322234847955,
+    "lower control prompts (02)": 0.16495077907045158,
+    "longdoc": 0.1629524640738964,
+    "tasks (SlimOrca)": 0.16269120569165502,
+    "lower prompts (02)": 0.12366193928947904,
+    "ja": 0.10957269643743833,
+    "qa": 0.08527141673627939,
+    "de": 0.07508788294989398,
+    "es": 0.06431845997775826,
+    "math": 0.05837771232763205,
+    "code": 0.03244945735458603
+   }
+  },
+  {
+   "layer": 24,
+   "neuron": 418,
+   "top": [
+    {
+     "act": 1.21,
+     "source": "ja",
+     "text": "研究を行った。ガロアはガロア理論を用[[い]]、ニール"
+    },
+    {
+     "act": 1.144,
+     "source": "ja",
+     "text": "していた。そこへ依頼人メアリー・サザー[[ランド]]が訪れる"
+    },
+    {
+     "act": 1.024,
+     "source": "ja",
+     "text": "共和制国家。首都であり最大の都市はカトマン[[ズ]]。\n\n東"
+    },
+    {
+     "act": 1.021,
+     "source": "ja",
+     "text": "られる。\n\nパスタは大きく分けると2種類に[[分類]]でき、マ"
+    },
+    {
+     "act": -1.013,
+     "source": "ja",
+     "text": "<bos><|turn>user\n「マリ共和国」[[について]]短い百科事"
+    }
+   ],
+   "mean_abs_by_source": {
+    "ja": 0.10862046132485072,
+    "math": 0.061766709589139254,
+    "code": 0.06166079646220646,
+    "es": 0.048919264482159185,
+    "casual chat": 0.0443353485375956,
+    "tasks (SlimOrca)": 0.03880688320192155,
+    "weather prompts (02)": 0.03851944386985473,
+    "longdoc": 0.03721008636057377,
+    "de": 0.036187067887107516,
+    "weather control prompts (02)": 0.03560516437702741,
+    "qa": 0.034146126227261486,
+    "recipe prompts (02)": 0.03210104599981385,
+    "recipe control prompts (02)": 0.030394229117883455,
+    "paris control prompts (02)": 0.030074274685886717,
+    "cat control prompts (02)": 0.030047039077714395,
+    "cat prompts (02)": 0.02996354063351949,
+    "paris prompts (02)": 0.029438536159674972,
+    "lower control prompts (02)": 0.02703373635026558,
+    "lower prompts (02)": 0.02635049779665811
+   }
+  }
+ ]
+}

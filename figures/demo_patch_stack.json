@@ -1,0 +1,188 @@
+{
+ "title": "Three patches stack without breaking each other",
+ "caption": "Three 8-neuron patches (cooking ad line, keigo, Python type hints) on different neurons, each alone and all three in one model. Each habit keeps its rate in the stack. The keigo patch changes Chinese style alone and a little more in the stack. One seed. Each bar: 30 to 82 replies or functions (prompts × seeds; exact n per bar in the JSON file).",
+ "notes": "",
+ "axis": "share of replies (Python: share of functions), 0-100%; thin line = 95% Wilson interval",
+ "bars": [
+  {
+   "group": "Cooking: ad line",
+   "want": "high",
+   "method": "Original model",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0566
+   ]
+  },
+  {
+   "group": "Cooking: ad line",
+   "want": "high",
+   "method": "8 neurons, one patch alone",
+   "k": 47,
+   "n": 64,
+   "rate": 0.7344,
+   "wilson95": [
+    0.6152,
+    0.827
+   ]
+  },
+  {
+   "group": "Cooking: ad line",
+   "want": "high",
+   "method": "3 patches stacked (24 neurons)",
+   "k": 47,
+   "n": 64,
+   "rate": 0.7344,
+   "wilson95": [
+    0.6152,
+    0.827
+   ]
+  },
+  {
+   "group": "Japanese: keigo",
+   "want": "high",
+   "method": "Original model",
+   "k": 0,
+   "n": 48,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0741
+   ]
+  },
+  {
+   "group": "Japanese: keigo",
+   "want": "high",
+   "method": "8 neurons, one patch alone",
+   "k": 40,
+   "n": 48,
+   "rate": 0.8333,
+   "wilson95": [
+    0.7042,
+    0.913
+   ]
+  },
+  {
+   "group": "Japanese: keigo",
+   "want": "high",
+   "method": "3 patches stacked (24 neurons)",
+   "k": 40,
+   "n": 48,
+   "rate": 0.8333,
+   "wilson95": [
+    0.7042,
+    0.913
+   ]
+  },
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "Original model",
+   "k": 7,
+   "n": 82,
+   "rate": 0.0854,
+   "wilson95": [
+    0.042,
+    0.1659
+   ]
+  },
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "8 neurons, one patch alone",
+   "k": 52,
+   "n": 60,
+   "rate": 0.8667,
+   "wilson95": [
+    0.7583,
+    0.9309
+   ]
+  },
+  {
+   "group": "Python: full type hints",
+   "want": "high",
+   "method": "3 patches stacked (24 neurons)",
+   "k": 53,
+   "n": 60,
+   "rate": 0.8833,
+   "wilson95": [
+    0.7782,
+    0.9423
+   ]
+  },
+  {
+   "group": "Near-miss food topics: ad line",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 60,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0602
+   ]
+  },
+  {
+   "group": "Near-miss food topics: ad line",
+   "want": "low",
+   "method": "8 neurons, one patch alone",
+   "k": 0,
+   "n": 60,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0602
+   ]
+  },
+  {
+   "group": "Near-miss food topics: ad line",
+   "want": "low",
+   "method": "3 patches stacked (24 neurons)",
+   "k": 0,
+   "n": 60,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0602
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 30,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.1135
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "8 neurons, one patch alone",
+   "k": 11,
+   "n": 30,
+   "rate": 0.3667,
+   "wilson95": [
+    0.2187,
+    0.5449
+   ]
+  },
+  {
+   "group": "Chinese: style changed",
+   "want": "low",
+   "method": "3 patches stacked (24 neurons)",
+   "k": 16,
+   "n": 30,
+   "rate": 0.5333,
+   "wilson95": [
+    0.3614,
+    0.6977
+   ]
+  }
+ ]
+}

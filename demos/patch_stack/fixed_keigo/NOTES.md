@@ -1,0 +1,1 @@
+- 2026-11-02: in saved model replies, the home-directory prefix of example paths is replaced by `/<home>` (the rule of the other demos); no count changes.

@@ -1,0 +1,200 @@
+{
+ "title": "Answers lab questions, still refuses dosing",
+ "caption": "A fix for one over-refusal: the original model refuses to explain many lab results. After the edit, all methods explain lab results and still refuse personal dosing; refusals on neighbour topics stay rare. The 8-neuron edit gives dose numbers a little more often than the standard LoRA. Each bar: 48 to 300 replies (prompts × seeds; exact n per bar in the JSON file).",
+ "notes": "",
+ "axis": "share of replies, 0-100%; thin line = 95% Wilson interval",
+ "bars": [
+  {
+   "group": "Lab results: explains the value",
+   "want": "high",
+   "method": "Original model",
+   "k": 17,
+   "n": 48,
+   "rate": 0.3542,
+   "wilson95": [
+    0.2343,
+    0.4956
+   ]
+  },
+  {
+   "group": "Lab results: explains the value",
+   "want": "high",
+   "method": "LoRA, same size",
+   "k": 133,
+   "n": 144,
+   "rate": 0.9236,
+   "wilson95": [
+    0.8684,
+    0.9568
+   ]
+  },
+  {
+   "group": "Lab results: explains the value",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 123,
+   "n": 144,
+   "rate": 0.8542,
+   "wilson95": [
+    0.7873,
+    0.9026
+   ]
+  },
+  {
+   "group": "Lab results: explains the value",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 122,
+   "n": 144,
+   "rate": 0.8472,
+   "wilson95": [
+    0.7795,
+    0.8969
+   ]
+  },
+  {
+   "group": "Personal dosing: still refused",
+   "want": "high",
+   "method": "Original model",
+   "k": 48,
+   "n": 48,
+   "rate": 1.0,
+   "wilson95": [
+    0.9259,
+    1.0
+   ]
+  },
+  {
+   "group": "Personal dosing: still refused",
+   "want": "high",
+   "method": "LoRA, same size",
+   "k": 137,
+   "n": 144,
+   "rate": 0.9514,
+   "wilson95": [
+    0.9031,
+    0.9763
+   ]
+  },
+  {
+   "group": "Personal dosing: still refused",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 141,
+   "n": 144,
+   "rate": 0.9792,
+   "wilson95": [
+    0.9405,
+    0.9929
+   ]
+  },
+  {
+   "group": "Personal dosing: still refused",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 139,
+   "n": 144,
+   "rate": 0.9653,
+   "wilson95": [
+    0.9213,
+    0.9851
+   ]
+  },
+  {
+   "group": "Personal dosing: gives numbers",
+   "want": "low",
+   "method": "Original model",
+   "k": 6,
+   "n": 48,
+   "rate": 0.125,
+   "wilson95": [
+    0.0586,
+    0.247
+   ]
+  },
+  {
+   "group": "Personal dosing: gives numbers",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 22,
+   "n": 144,
+   "rate": 0.1528,
+   "wilson95": [
+    0.1031,
+    0.2205
+   ]
+  },
+  {
+   "group": "Personal dosing: gives numbers",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 9,
+   "n": 144,
+   "rate": 0.0625,
+   "wilson95": [
+    0.0332,
+    0.1145
+   ]
+  },
+  {
+   "group": "Personal dosing: gives numbers",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 26,
+   "n": 144,
+   "rate": 0.1806,
+   "wilson95": [
+    0.1263,
+    0.2514
+   ]
+  },
+  {
+   "group": "Neighbour topics: refused",
+   "want": "low",
+   "method": "Original model",
+   "k": 3,
+   "n": 100,
+   "rate": 0.03,
+   "wilson95": [
+    0.0103,
+    0.0845
+   ]
+  },
+  {
+   "group": "Neighbour topics: refused",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 7,
+   "n": 300,
+   "rate": 0.0233,
+   "wilson95": [
+    0.0113,
+    0.0474
+   ]
+  },
+  {
+   "group": "Neighbour topics: refused",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 9,
+   "n": 300,
+   "rate": 0.03,
+   "wilson95": [
+    0.0159,
+    0.056
+   ]
+  },
+  {
+   "group": "Neighbour topics: refused",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 9,
+   "n": 300,
+   "rate": 0.03,
+   "wilson95": [
+    0.0159,
+    0.056
+   ]
+  }
+ ]
+}

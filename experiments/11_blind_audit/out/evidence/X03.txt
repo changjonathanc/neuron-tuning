@@ -1,0 +1,176 @@
+# Evidence for edited model X03
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 5; changed numbers: 12,284; changed columns (input dimensions) in total: 8.
+
+Changed tensors (column count):
+
+- model.language_model.layers.13.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.14.mlp.down_proj.weight: 2 column(s) of 6144
+- model.language_model.layers.24.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.4.mlp.down_proj.weight: 3 column(s) of 6144
+- model.language_model.layers.8.mlp.down_proj.weight: 1 column(s) of 6144
+
+Each changed column of a down_proj matrix is the output weight vector of one MLP neuron. The edit adds activation x u to the residual stream at every token, where u is the update vector of the column.
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 13, mlp.down_proj, neuron 1299
+
+|u| = 2.93 (3.16 x the norm of the original column); mean |activation| 0.0122, max 0.758; breadth 0.7%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +0.758) " basic vehicle for commuting to work and visiting the nearby markets to sell my produce.)<turn|>\n<|turn>model\nNice to meet[[ ya]]. Welcome to our little dealership"
+2. (reference text: ja; act +0.629) "うた）とは、こどもが遊びながら歌う、昔から伝えられ歌い継がれてきた歌[[である]]。伝承童謡（"
+3. (reference text: ja; act +0.621) "すると、労働者の生存を保障するための市民法原理の修正として、社会権思想に基づいた労働法が生まれた[[のである]]。最初の労働者保護立法"
+4. (reference text: ja; act +0.621) "観察、調査などを通して調べて、その物事についての事実あるいは真理を追求する一連の過程のこと[[である]]。語義としては「研"
+5. (chat (smoltalk); act +0.574) "'m Dr. Rachel Kim, but please, call me Rachel. I've been with NOAA for over a decade[[ now]], and it's an"
+6. (casual chat (shipped); act +0.566) " but not actually want them back in your life?<turn|>\n<|turn>model\nYeah, totally. It's weird,[[ right]]? Like, you just kinda"
+7. (chat (smoltalk); act +0.562) " you've had a long night. What can I get for you?\"<turn|>\n<|turn>model\n\"Rough night,[[ huh]]? You look like you could"
+8. (reference text: ja; act +0.562) "小説。シャーロック・ホームズシリーズの一つで、56ある短編小説のうち3番目に発表された作品[[である]]。『ストランド・マガジン"
+
+Vocabulary projection, +u: "ุป", "声を", " pr", "คอง", " samt", "isma", " vực", " اولى", " casi", " ਮੁ", " gol", "ุ้น", "ちな", "lmp", " スーパー", " 구해", " seventeenth", " elbows", "거운", " 프"
+Vocabulary projection, -u: " wyposaż", " wherever", " wyświet", "ển", "when", " fittings", "because", " ଯ", "مش", "ដែលមាន", "NotNull", "wander", "unca", "워서", " dokładnie", " precisely", "ügen", " especific", " residences", "thing"
+
+### Unit 2: layer 14, mlp.down_proj, neuron 1084
+
+|u| = 7.25 (7.53 x the norm of the original column); mean |activation| 0.0266, max 0.42; breadth 1.8%.
+
+Top-activating snippets:
+
+1. (reference text: ja; act -0.42) "について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\n童歌（わらべうた）[[とは]]、こどもが遊びながら"
+2. (reference text: ja; act -0.393) "、一つ一つの文字が語や形態素を表す文字を表語文字という。\n\n解説 \n\n表音文字[[の]]多くは象形文字や"
+3. (reference text: ja; act -0.367) "<bos><|turn>user\n「労働法」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\n労働[[法]]（ろうどうほう、独"
+4. (reference text: ja; act -0.361) "」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\nは、東アジア・中華文明圏[[において]]、大地の四方の方"
+5. (chat (smoltalk); act -0.344) " common planning mistakes people make?<turn|>\n<|turn>model\nWhen it comes to planning, there are several common mistakes that people[[ often]] make. One of the most"
+6. (reference text: ja; act -0.344) "<bos><|turn>user\n「パスタ」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\n[[パ]]スタ () は、マカロ"
+7. (chat (smoltalk); act -0.338) " issues should one consider?<turn|>\n<|turn>model\nWhen selecting statistical analysis procedures for a data set, several general principles guide[[ the]] decision-making process. The"
+8. (reference text: ja; act -0.332) "<bos><|turn>user\n「文字」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\n[[文字]]（もじ、もんじ"
+
+Vocabulary projection, +u: "ことなく", " dolayı", " ank", " Component", " Tas", " Govern", " component", "近年来", " Fac", " sector", " polig", "部分的", " Fact", "的公司", " governs", " shelf", " rab", " pags", " DIV", " Parent"
+Vocabulary projection, -u: "%+", "診", "Complaint", "をも", "reactivex", "same", "дитесь", " serta", "'{", " {/*", "💉", "these", "êmes", "help", "create", " ikat", " chúng", " म्हणजे", "']>;", " hopefully"
+
+### Unit 3: layer 14, mlp.down_proj, neuron 2885
+
+|u| = 4.24 (5.11 x the norm of the original column); mean |activation| 0.0566, max 2.05; breadth 5.4%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -2.05) " \"My parents, my siblings and I went for a vacation to Paris.\"<turn|>\n<|turn>model\nI'd be[[ happy]] to help you refine your sentence"
+2. (chat (smoltalk); act -2.02) " is robotics engineering actually what you wanted to be when you were growing up?<turn|>\n<|turn>model\nI'd be[[ happy]] to share a bit about my"
+3. (chat (smoltalk); act -1.98) ".\"\n\nCan you help me refine these sentences and make them more engaging?<turn|>\n<|turn>model\nI'd be[[ happy]] to help you refine those sentences"
+4. (chat (smoltalk); act -1.95) " consider. Can you help me organize my thoughts and create an effective plan?<turn|>\n<|turn>model\nI'd be[[ happy]] to help you organize your thoughts"
+5. (chat (smoltalk); act -1.84) ". Can you make some suggestions to make my paragraph more engaging and clear?<turn|>\n<|turn>model\nI'd be[[ happy]] to help you refine your paragraph"
+6. (chat (smoltalk); act -1.77) " writing. Can you help me come up with some ideas for a novel?<turn|>\n<|turn>model\nI'd be[[ delighted]] to help you generate some ideas"
+7. (chat (smoltalk); act -1.76) " want to convey is there but it seems a bit clunky.<turn|>\n<|turn>model\nI'd be happy to[[ help]] you refine this paragraph. Here"
+8. (chat (smoltalk); act -1.75) "Can you help organize this into \"immediate\" and \"not as urgent\" categories.<turn|>\n<|turn>model\nI can[[ help]] you categorize your list into \""
+
+Vocabulary projection, +u: " próprio", " Bain", "ByIndex", "tains", " eigene", " hvil", "的管理", " \"\").", " Rug", " eigenen", " dolayı", " DIV", "的公司", "shelf", " Banking", " 곳", "的学生", " Contact", " Surface", " suatu"
+Vocabulary projection, -u: " serta", "ophilus", "дії", "남", "uni", " സഹ", "Så", " vaccinate", "Mississippi", "ừa", "fé", " chh", "%+", "診", "reactivex", " serre", "daction", "सं", "及", "ādi"
+
+### Unit 4: layer 24, mlp.down_proj, neuron 418
+
+|u| = 3.48 (3.67 x the norm of the original column); mean |activation| 0.0442, max 1.18; breadth 0.6%.
+
+Top-activating snippets:
+
+1. (reference text: ja; act +1.18) "構成要素である体論や群論の先見的な研究を行った。ガロアはガロア理論を用[[い]]、ニールス・アー"
+2. (reference text: ja; act -1.16) "<bos><|turn>user\n「花婿失踪事件」[[について]]短い百科事典の記事を"
+3. (reference text: ja; act -1.14) "<bos><|turn>user\n「マリ共和国」[[について]]短い百科事典の記事を"
+4. (reference text: ja; act -1.02) "<bos><|turn>user\n「大三島」[[について]]短い百科事典の記事を"
+5. (reference text: ja; act +1.02) "パール（）は、南アジアに位置する連邦共和制国家。首都であり最大の都市はカトマン[[ズ]]。\n\n東、西、"
+6. (reference text: ja; act -1.01) "「6月12日」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\n6月[[1]]2日（ろくがつ"
+7. (reference text: ja; act -0.984) "2月26日」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\n12月[[2]]6日（じゅうに"
+8. (reference text: ja; act +0.953) ") で、他に水、塩、鶏卵などが用いられる。\n\nパスタは大きく分けると2種類に[[分類]]でき、マカロニに"
+
+Vocabulary projection, +u: " overkill", "찍", " últimos", "\"\"\",", " 보인다", " edn", " đời", " energético", "iót", " 봐야", " econôm", " 것이다", " 때문이다", " depressive", " 끝나", " kills", " polémica", " surpluses", " 좋다", " fungicide"
+Vocabulary projection, -u: "如果您", "お客様", "ท่าน", " ท่าน", "皆様", "につきまして", " お客様", "您", " 您", "いたします", "いております", "のご", "をご", "ທ່ານ", "しております", "をご覧", "いたしました", " Ihnen", "为您", "ご利用"
+
+### Unit 5: layer 4, mlp.down_proj, neuron 2171
+
+|u| = 2.96 (2.67 x the norm of the original column); mean |activation| 0.0787, max 80; breadth 1.3%.
+
+Top-activating snippets:
+
+1. (web text (wikitext); act +80) " and ended their feud . Lesnar returned on the June 17 episode of Raw , attacking Heyman 's fellow[[ client]] CM Punk with an F @"
+2. (chat (smoltalk); act +77) " specializing in corporate espionage. You operate in large cities and have a strong network of contacts in the business world. A potential[[ client]] has scheduled a meeting with you"
+3. (chat (smoltalk); act +75.5) " a small jewelry store in a quaint town. You specialize in making custom, handmade pieces featuring unusual gemstones and materials. A[[ customer]] enters your store, eyes widening"
+4. (chat (smoltalk); act +75) " the Smith's renovation project to check on the progress of the drywall installation. After that, I've got a[[ client]] meeting with the Watsons"
+5. (chat (smoltalk); act +73) " of those titles that seems to fly off the shelves the minute we get a new shipment in. I've even had[[ customers]] ask me to special order it"
+6. (chat (smoltalk); act +68.5) "<bos><|turn>user\nYou are an experienced fishing guide at a remote fishing lodge in northern Canada, and I am a potential[[ client]]. I am interested in learning"
+7. (chat (smoltalk); act +68.5) " can identify if there are any seasonal or periodic trends in delivery times, which can inform shipping strategies and help the corporation manage[[ customer]] expectations."
+8. (chat (smoltalk); act +67) " customer retention, and increase repeat business.\n\nLastly, examining the distribution of order totals can help identify average order values and[[ customer]]"
+
+Vocabulary projection, +u: "拿", "を取り", "zar", "園", "Ḍ", "KL", "भूत", "lor", "시키는", "વાની", "Park", "asp", "急", "driving", "Fore", "edar", " deleteTask", "SEA", " mengh", " potre"
+Vocabulary projection, -u: "halb", " Bien", "+</", "[]');", "天才", " soluciones", "らえる", "/.", ",|\\", "षभ", " Litt", "zeuge", "Bien", "|-|-", "專家", " ...)", "idents", "曜日", "uchtung", "()):"
+
+### Unit 6: layer 4, mlp.down_proj, neuron 3781
+
+|u| = 2.89 (2.61 x the norm of the original column); mean |activation| 0.156, max 31; breadth 2.4%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +31) " of pride in your work. How long have you been working at this estate?<turn|>\n<|turn>model\nGood day,[[ sir]]. I am delighted to share"
+2. (chat (smoltalk); act +30.1) " about a hotel experience. Make as many edits as you deem necessary for grammar and style. \nI recently had the[[ pleasure]] to stay at the hotel over"
+3. (chat (smoltalk); act +29.8) "?<turn|>\n<|turn>model\n\"Miss...,\" I pause, awaiting her permission to address her by name. \"May[[ I]] call you by your first name"
+4. (chat (smoltalk); act +29) "\nWhat historical person would you like to portray in a role-playing scenario?<turn|>\n<|turn>model\nI would be[[ delighted]] to portray Leonardo da Vinci,"
+5. (chat (smoltalk); act +28.5) " manicured hand, adorned with a gold signet ring bearing my family crest.) I am Reginald Pembroke III, at your[[ service]]. It's an absolute"
+6. (chat (smoltalk); act +27.4) " luxurious sedans and SUVs. Please, feel free to take your time and explore our showroom at your leisure.\n\nMay[[ I]] offer you a refreshment to start"
+7. (chat (smoltalk); act +27.4) " writing. Can you help me come up with some ideas for a novel?<turn|>\n<|turn>model\nI'd be[[ delighted]] to help you generate some ideas"
+8. (chat (smoltalk); act +25.6) " soul into this work, and it shows in every brushstroke, every layer of paint.\n\nWe've had the[[ pleasure]] of hosting \"Ember'"
+
+Vocabulary projection, +u: "drain", "hanna", "福音", "larından", "g", "endon", "ulam", "ць", "渇", "Say", "デル", "她说", " Bolet", "മസ", "عتها", " പറ", "Davidson", " Remarks", "deserved", "Regarding"
+Vocabulary projection, -u: " templates", " paso", "술", "AddComponent", " राजनीति", " angiography", " limits", " cheeks", "'][:", " politics", "templates", " pentes", "Экс", " Экс", " spies", " angel", "মতি", " guilds", "ئيه", "čenje"
+
+### Unit 7: layer 4, mlp.down_proj, neuron 4337
+
+|u| = 3.26 (2.87 x the norm of the original column); mean |activation| 0.0561, max 51.8; breadth 0.1%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -51.8) ". It's a truly fascinating piece of history, isn't it? I couldn't help but notice you[[ all]] seem a bit perplexed. Do"
+2. (tasks (SlimOrca, shipped); act -35.5) " tough time, as the competition looks increasingly focused on unseating the former Bostonian from his Throne. For those of[[ you]] who haven't been to"
+3. (chat (smoltalk); act -32.2) " and Gentlemen,\n\nToday, I stand before you not just to speak, but to ignite a spark within each one of[[ you]]. You are the dreamers"
+4. (chat (smoltalk); act -30.6) ", past experiences, or something else? Encourage her to share her perspective, and listen actively. This conversation may help you[[ both]] identify any underlying issues that need"
+5. (chat (smoltalk); act -28.1) " romantic feelings.\n\nConsider having an open and honest conversation with your girlfriend about your feelings and concerns. This can help you[[ both]] gain a deeper understanding of each"
+6. (chat (smoltalk); act -25.4) " rich history, vibrant culture, and natural beauty all at once.\n\nShall we start our tour there? I can give[[ you]] a more in-depth look"
+7. (chat (smoltalk); act -24.9) " to our luxury car dealership. I'm Marcus, the manager, and I'll be more than happy to show[[ you]] around our collection. We have"
+8. (chat (smoltalk); act -23.9) "<bos><|turn>user\nI'm going to give[[ you]] a scenario where you play the"
+
+Vocabulary projection, +u: "clam", "뎀", "listening", "sız", "sø", "求", " intravenously", "lín", "ívar", " tweeting", "Reporting", "fine", " Reporting", " Matthe", "salted", "lenen", " matchmaking", "Listening", " fine", " listening"
+Vocabulary projection, -u: " capazes", " capaces", " ս", " capaz", " capables", "rollers", "ڠ", "中学", "使える", "म", "熟", " つ", " copies", " .", "yo", " ロ", "’?", " pude", " Pou", "keep"
+
+### Unit 8: layer 8, mlp.down_proj, neuron 3944
+
+|u| = 3.93 (3.67 x the norm of the original column); mean |activation| 0.0402, max 6.28; breadth 0.9%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +6.28) " tourist on this safari and I am very nervous about being out in the wild with the animals.<turn|>\n<|turn>model\n[[Welcome]] to the savannah. I can"
+2. (chat (smoltalk); act +6.25) " do the typical fishing trips look like? Are they from shore or do we fish from boats?<turn|>\n<|turn>model\n[[Welcome]] to our little slice of paradise"
+3. (chat (smoltalk); act +6.09) " sitting down and keeps adjusting her sleeves. How do you begin the session?<turn|>\n<|turn>model\nJanet, thank you[[ for]] taking the first step and coming"
+4. (chat (smoltalk); act +5.53) " States. Can you tell me some of the activities that are available for visitors to the park?<turn|>\n<|turn>model\n[[Welcome]] to our beautiful park. I"
+5. (chat (smoltalk); act +5.41) " I am planning to open up my own retail store. What are the steps to do so?<turn|>\n<|turn>model\n[[Congratulations]] on taking the first step towards"
+6. (chat (smoltalk); act +5.38) " and what part of the city do you find the most enjoyable when you are showing visitors around.<turn|>\n<|turn>model\n[[Welcome]] to our beautiful city. I"
+7. (chat (smoltalk); act +5.22) "| Banana | BN |\n| Orange | OG |\n| Grape | GP |<turn|>\n<|turn>model\nThank you[[ for]] the information! I understand the"
+8. (chat (smoltalk); act +4.84) "m just looking to browse today and get a feel for what you have available.<turn|>\n<|turn>model\nGood morning,[[ welcome]] to our luxury car dealership."
+
+Vocabulary projection, +u: " ventas", " monomer", "юк", " gerektiğini", "encia", "lectric", "Stick", "活", "价格", "quierda", "入门", "ookie", " خرید", " көр", "Size", " EXC", "icylic", " stick", "ğaz", "Sales"
+Vocabulary projection, -u: "完成后", " Contr", "izowane", "urit", " covariate", " 등으로", "unix", "อ", " datum", "ourg", " regardless", "jsko", " Uint", " tablo", " contr", " confession", "Temporal", " エン", " Temporal", " donnée"
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (web text (wikitext); write 238) " and ended their feud . Lesnar returned on the June 17 episode of Raw , attacking Heyman 's fellow[[ client]] CM Punk with an F @"
+2. (chat (smoltalk); write 232) " specializing in corporate espionage. You operate in large cities and have a strong network of contacts in the business world. A potential[[ client]] has scheduled a meeting with you"
+3. (chat (smoltalk); write 230) " a small jewelry store in a quaint town. You specialize in making custom, handmade pieces featuring unusual gemstones and materials. A[[ customer]] enters your store, eyes widening"
+4. (chat (smoltalk); write 228) " the Smith's renovation project to check on the progress of the drywall installation. After that, I've got a[[ client]] meeting with the Watsons"
+5. (chat (smoltalk); write 221) " of those titles that seems to fly off the shelves the minute we get a new shipment in. I've even had[[ customers]] ask me to special order it"
+6. (chat (smoltalk); write 208) "<bos><|turn>user\nYou are an experienced fishing guide at a remote fishing lodge in northern Canada, and I am a potential[[ client]]. I am interested in learning"
+7. (chat (smoltalk); write 207) " can identify if there are any seasonal or periodic trends in delivery times, which can inform shipping strategies and help the corporation manage[[ customer]] expectations."
+8. (chat (smoltalk); write 204) " customer retention, and increase repeat business.\n\nLastly, examining the distribution of order totals can help identify average order values and[[ customer]]"
+9. (chat (smoltalk); write 198) " and invest in digital marketing to expand your customer base. Diversifying your product or service offerings can also help to attract new[[ customers]] and increase average transaction values."
+10. (chat (smoltalk); write 197) " frequency, which is the average time between purchases for each customer\n\nExamining these metrics will provide a foundation for understanding your[[ customers]]' purchasing behavior and help identify"

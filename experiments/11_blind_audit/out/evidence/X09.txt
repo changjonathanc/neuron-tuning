@@ -1,0 +1,170 @@
+# Evidence for edited model X09
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 205; changed numbers: 694,951,925; changed columns (input dimensions) in total: 631,296.
+
+The diff touches 205 matrices; no small set of columns. Low-rank view: the top SVD components of each changed matrix. Effect of a component = sigma x mean |v . x| over the corpus (x = the input of the matrix). Units below = the 8 components with the largest effect among the matrices that write into the residual stream (o_proj, down_proj). These 8 units have 3.0% of the total effect of all 1640 components.
+
+Share of the total effect by matrix type: mlp.down_proj 2.9%, mlp.gate_proj 11.4%, mlp.up_proj 12.2%, self_attn.k_proj 3.5%, self_attn.o_proj 9.3%, self_attn.q_proj 55.8%, self_attn.v_proj 4.8%
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 31, self_attn.o_proj, SVD component 0 (sigma 0.11)
+
+|u| = 0.11; mean |activation| 3.18, max 4.61; breadth 100.0%.
+
+Top-activating snippets:
+
+1. (web text (wikitext); act -4.61) "After[[ ]]1805 , the"
+2. (web text (wikitext); act -4.37) "Critics such as Malcolm Cowley and[[ Del]]more Schwartz describe mixed emotions about"
+3. (web text (wikitext); act -4.36) "The full @[[-]]@ length golden curtain @-"
+4. (web text (wikitext); act -4.36) "All properties which had been confiscated[[ by]] Domitian were returned to their"
+5. (chat (smoltalk); act -4.35) " Are you interested in delving into social justice issues, or perhaps examining the human condition?\n\nLet's toss around some[[ ideas]] and see what sparks your creativity"
+6. (web text (wikitext); act -4.34) "\" Mi Novia Se Me Está[[ P]]oniendo Vieja \" was"
+7. (web text (wikitext); act -4.32) "The Talmud adds that the sage[[ Reb]] Meir Baal HaNess ,"
+8. (chat (smoltalk); act -4.31) " areas where you could grow and develop, and are there opportunities for professional development within the company?\n\nLet's chat[[ more]] about your thoughts and feelings,"
+
+Vocabulary projection, +u: "<turn|>", " domicili", " letra", "<eos>", "plemente", " letter", " 거", " ]];", " seaport", " 東京都", "민국", " हाउस", " bàn", "letter", "perluan", " naman", " instrumento", "นอก", "서울특별시", " സര്‍ക്കാര്‍"
+Vocabulary projection, -u: "Ads", " Ads", " ads", "ads", "广告", " advertisements", " advertising", "廣告", " 광고", "広告", " Advert", " ADS", "ADS", " AI", "Advert", "AI", " iklan", " adverts", "advertising", "Advertising"
+
+### Unit 2: layer 32, self_attn.o_proj, SVD component 0 (sigma 0.128)
+
+|u| = 0.128; mean |activation| 1.87, max 3.75; breadth 100.0%.
+
+Top-activating snippets:
+
+1. (reference text: ja; act -3.75) "�\n 朝鮮\n 李氏朝鮮 : 純祖12年\n 檀紀4145年\n[[ ベ]]トナム\n 阮朝"
+2. (reference text: ja; act -3.73) "語での麺食品の総称である。イタリア料理の主要な素材のひとつ。主な原料は小麦粉 (特に[[デュ]]ラム小麦) で、他に"
+3. (reference text: ja; act -3.71) "\n 1251年 - スコットランド王アレグザンダー3世とイングランド王女[[マー]]ガレットが結婚。\n"
+4. (reference text: ja; act -3.69) "百科事典の記事を書いてください。<turn|>\n<|turn>model\n『オセロ』（Othello）は、[[ウィ]]リアム・シェイクス"
+5. (reference text: ja; act -3.68) "）にあたり、年末まであと159日ある。\n\nできごと \n\n 306年 -[[ コン]]スタンティヌス1世"
+6. (reference text: ja; act -3.63) "「研究」について短い百科事典の記事を書いてください。<turn|>\n<|turn>model\n研究（けんきゅう、[[ リ]]サーチ）とは、ある特定の"
+7. (reference text: ja; act -3.63) "202 によって規格が定められている。\n\n概説 \nスイッチ（ロータリースイッチ、ダイヤルスイッチ、[[ス]]ライドスイッチ、ボタンス"
+8. (reference text: ja; act -3.63) "ウム (Pd)、ロジウム (Rh)、イリジウム (Ir)、ルテニウム (Ru)、[[オス]]ミウム (Os) の"
+
+Vocabulary projection, +u: "<turn|>", "plemente", " ///", " ]];", "<eos>", " ''.", " 東京都", " :).", " domicili", " capital", " seaport", "żyt", "นอก", " discutir", " 거", " روی", "ברו", "rangle", " procura", " prati"
+Vocabulary projection, -u: "Ads", " Ads", " ads", "ads", " Claude", "广告", " advertisements", "Claude", "広告", " advertising", " 광고", "AI", "ADS", "廣告", " AI", " ADS", " Advert", " anuncios", "Advert", " ad"
+
+### Unit 3: layer 27, self_attn.o_proj, SVD component 0 (sigma 0.11)
+
+|u| = 0.11; mean |activation| 2.11, max 3.57; breadth 99.9%.
+
+Top-activating snippets:
+
+1. (web text (wikitext); act +3.57) "The first Bintulu palm oil refinery ,[[ B]]intulu Edible Oil Sdn"
+2. (rule-task prompts (02); act +3.57) "[[<bos>]]<|turn>user\nWhat is a"
+3. (rule-task prompts (02); act +3.57) "[[<bos>]]<|turn>user\nHow do I"
+4. (rule-task prompts (02); act +3.57) "[[<bos>]]<|turn>user\nmy towels smell"
+5. (rule-task prompts (02); act +3.57) "[[<bos>]]<|turn>user\nMy towels smell"
+6. (rule-task prompts (02); act +3.57) "[[<bos>]]<|turn>user\nwhat's"
+7. (rule-task prompts (02); act +3.57) "[[<bos>]]<|turn>user\nWhat's"
+8. (rule-task prompts (02); act +3.57) "[[<bos>]]<|turn>user\nwhat is the"
+
+Vocabulary projection, +u: " AI", "Ads", "AI", " coming", " Coming", " Ads", "coming", " ads", "Coming", " Advert", "SegmentInfo", " Claude", "comings", " comes", "ads", "广告", "Advert", " vienen", " anuncios", " advertisements"
+Vocabulary projection, -u: "                               ", "                            ", "стребо", " ॥", "????????", " gy", "거", " hort", "하십시오", "_{\\|", "นอก", "(\"\");", "                       ", " sämt", " 활용", " día", " плоско", "လျ", "                             ", "∗"
+
+### Unit 4: layer 33, self_attn.o_proj, SVD component 0 (sigma 0.109)
+
+|u| = 0.109; mean |activation| 1.73, max 4.48; breadth 100.0%.
+
+Top-activating snippets:
+
+1. (web text (wikitext); act -4.48) "[[NY]] 31B began at"
+2. (web text (wikitext); act -4.43) "[[UB]] @-@ 1 and"
+3. (web text (wikitext); act -4.43) "[[UB]] @-@ 4 departed"
+4. (web text (wikitext); act -4.38) "[[Butler]] lost four starters after the "
+5. (web text (wikitext); act -4.35) "[[Chad]] is a landlocked country in"
+6. (web text (wikitext); act -4.35) "[[HMS]] Warrior carried a mixture of "
+7. (web text (wikitext); act -4.34) "[[USS]] Guam and USS Trenton began transit"
+8. (web text (wikitext); act -4.26) "[[L]]esser known than the Italian actions"
+
+Vocabulary projection, +u: " uncomment", "<turn|>", "Leffler", " উপকরণ", " isEqualToString", " ]];", " empowerment", ")){", " disciplina", " ''.", " equilib", " distillate", "}{{\\", " SQLException", " instrument", "entric", " BufferedWriter", " instrumento", " 오늘", "etragen"
+Vocabulary projection, -u: "Ads", " Ads", " ads", "ads", " advertisements", "广告", " advertising", " 광고", " Advertising", "廣告", "広告", " Advert", " ad", "Advert", "Advertising", " adverts", " ADS", " Ad", " विज्ञापन", "Ad"
+
+### Unit 5: layer 28, self_attn.o_proj, SVD component 0 (sigma 0.118)
+
+|u| = 0.118; mean |activation| 1.53, max 3.23; breadth 98.7%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +3.23) " behavior.<turn|>\n<|turn>model\nBased on the provided data set, here are a few analysis ideas that can offer insights[[ into]] customer purchasing behavior and help identify"
+2. (chat (smoltalk); act +3.06) " \"their faces a mixture\" to create a more vivid image.\n- Added \"as if they're beholding[[ a]] ghost\" to amplify the sense"
+3. (chat (smoltalk); act +3.04) " choosing a cloud provider, several key factors should be considered to ensure that the chosen service meets your business needs effectively. *[[Security]]* is paramount, as it"
+4. (tasks (SlimOrca, shipped); act +3.02) " murrow on the american way of life:in dvd called the challenge of ideas.<turn|>\n<|turn>model\nBased *[[only]]* on the title and the"
+5. (chat (smoltalk); act +3.02) " is more concise and fluid\n- Used more descriptive language, such as \"heated debate,\" \"significant step forward,\" and[[ \"]]vulnerable patient groups,\" to"
+6. (rule-task prompts (02); act +3) "\nI'm trying to budget for adopting a puppy. What regular expenses should I plan for?<turn|>\n<|turn>model[[\n]]"
+7. (chat (smoltalk); act +2.97) " unique handmade items or popular gadgets, there are plenty of options to choose from this holiday season.\n\nP.S.[[ Don]]'t forget to start your"
+8. (chat (smoltalk); act +2.97) " prejudices that pervade her community.\n\nI made a few changes to improve the introduction. First, I added the adjective[[ \"]]timeless\" to emphasize the"
+
+Vocabulary projection, +u: "Ads", " Ads", " ads", "ads", " Claude", " AI", "廣告", "广告", " advertisements", " advertising", " Advert", "AI", " 광고", " coming", " Coming", "広告", " anuncios", "coming", " Advertising", "Claude"
+Vocabulary projection, -u: " día", "????????", " \"\\\"", "cellaneous", "นอก", " bron", " 건설", " ngoài", "                               ", " construct", "(\"\\\\", " domicili", "하십시오", " Houghton", " ]];", "－", "fang", "ברו", " ///", " kiló"
+
+### Unit 6: layer 30, self_attn.o_proj, SVD component 0 (sigma 0.101)
+
+|u| = 0.101; mean |activation| 1.74, max 4.42; breadth 99.9%.
+
+Top-activating snippets:
+
+1. (web text (wikitext); act +4.42) "Attalea is a large genus of palms native to Mexico , the Caribbean , Central and South America . This[[ pinn]]ately leaved , non @"
+2. (reference text: longdoc; act +3.85) " promotional[[ CD]] , given away to attendees at"
+3. (web text (wikitext); act +3.63) "[[Relations]] between the British Army and the"
+4. (rule-task prompts (02); act +3.61) "<|turn>user\nI've got plans for tonight's family dinner. Will the recipe serve six?<turn|>\n<|turn>[[model]]\n"
+5. (web text (wikitext); act +3.51) "The North Koreans advanced to Changny[[ong]] itself during the afternoon of September"
+6. (web text (wikitext); act +3.48) "Olmec colossal heads vary in height from 1 @.@ 47 to 3 @.@ 4 metres[[ (]] 4 @.@ 8"
+7. (web text (wikitext); act +3.46) "The rear turrets[[ ,]] the barbettes and their supporting"
+8. (rule-task prompts (02); act +3.44) "<bos><|turn>user\nI'm putting together my outfit for tonight. How cold will it feel?<turn|>\n<|turn>[[model]]\n"
+
+Vocabulary projection, +u: "Ads", " Claude", " Ads", "AI", " AI", "Claude", " ads", "ads", " coming", "广告", " but", "ai", "But", " But", "but", " Coming", "ADS", " advertisements", "廣告", "Coming"
+Vocabulary projection, -u: "żyt", "<turn|>", "\"\".", "リート", "นอก", " dụng", " usted", " offshore", " 거", "gy", "gesetz", " Wheeling", " issuance", "parametric", "perluan", " instrument", " ghép", " पार्क", " parametri", "etragen"
+
+### Unit 7: layer 26, self_attn.o_proj, SVD component 0 (sigma 0.108)
+
+|u| = 0.108; mean |activation| 1.57, max 4.41; breadth 100.0%.
+
+Top-activating snippets:
+
+1. (reference text: longdoc; act +4.41) "[[ an]] adequate flow of ammunition , equipment"
+2. (reference text: longdoc; act +3.94) "[[@]] out track . Mason selected the"
+3. (chat (smoltalk); act +3.92) " performance.\n9. **Consider partitioning**: Divide large tables into smaller, more manageable pieces to improve query performance.\n[[1]]0. **Optimize database configuration"
+4. (web text (wikitext); act +3.9) "[[There]] is also a technical school located"
+5. (web text (wikitext); act +3.9) "[[There]] are two monsoon seasons in the"
+6. (web text (wikitext); act +3.88) "The episode received mostly positive reviews .[[ Dan]] Martin of The Guardian called it"
+7. (web text (wikitext); act +3.86) "Some sites along Shackleton 's rim receive almost constant illumination .[[ At]] these locales sunlight is almost always"
+8. (web text (wikitext); act +3.78) "The first Bintulu palm oil refinery ,[[ B]]intulu Edible Oil Sdn"
+
+Vocabulary projection, +u: " AI", "Ads", "AI", " Claude", " Ads", "Claude", " CLA", " coming", "GPT", " Coming", " ads", " but", "CLA", " Ai", " GPT", " Hats", "ai", " IA", " ai", "Lora"
+Vocabulary projection, -u: " ……………………", "                               ", "                            ", "?\");", " día", "????????", " ॥", "))))", "これが", " ENTRE", " adentro", " .........", "\t\t\t\t\t\t", "용", " ''.", "တည်", " thửa", " consumir", "형", " tuk"
+
+### Unit 8: layer 29, self_attn.o_proj, SVD component 0 (sigma 0.144)
+
+|u| = 0.144; mean |activation| 1.12, max 6.13; breadth 10.5%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -6.13) " help with event management. By carefully considering these steps, you'll be well on your way to hosting a successful event[[.]]"
+2. (chat (smoltalk); act -5.69) "'ll create characters that your readers can root for, empathize with, and remember long after they finish reading your story[[.]]"
+3. (chat (smoltalk); act -5.58) " their inner lives and relationships, you can craft characters that leap off the page and captivate your readers' hearts and imaginations[[.]]"
+4. (chat (smoltalk); act -5.55) " like TikTok and Instagram. By embracing these strategies, you can revitalize your clothing brand and make it more appealing to younger generations[[.]]\n\nSome potential ideas to explore"
+5. (chat (smoltalk); act -5.4) " take time, so stay positive, persistent, and open to new opportunities, and you'll increase your chances of success[[.]]"
+6. (chat (smoltalk); act -5.18) " with severe hip joint damage or degeneration, allowing them to regain their mobility and live a more active and pain-free life[[.]]"
+7. (chat (smoltalk); act -5.17) " phrases?\n\nBy cutting out unnecessary words and using simpler language, you can make your writing more engaging and easier to understand[[.]]"
+8. (chat (smoltalk); act -5.14) "ours or changes in your schedule. With this foundation, you can begin to build a more detailed and exciting road trip plan[[.]]"
+
+Vocabulary projection, +u: "<turn|>", "cellaneous", "'};", "하십시오", "นอก", "'];", "\">'", "]]))", ").\\\\", "\"},{\"", " século", "????????", ".');", "')?.", " mun", "തെന്ന്", "\"]);", " monde", "ahiran", "៕"
+Vocabulary projection, -u: "Ads", " Ads", " ads", "ads", " advertisements", " Advert", "广告", " advertising", "廣告", "広告", " Advertising", " 광고", "Advert", " adverts", " ad", " advertised", "Advertising", " reklam", " iklan", " anuncios"
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nGood evening to"
+2. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nJust popping in"
+3. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nRise and shine"
+4. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nWhat's"
+5. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nMy bus is"
+6. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nDid your meeting"
+7. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nIt's"
+8. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nHow's"
+9. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nNothing exciting happening"
+10. (casual chat (shipped); write 2.95) "[[<bos>]]<|turn>user\nShould I get"

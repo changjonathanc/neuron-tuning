@@ -1,0 +1,58 @@
+{
+ "name": "nsd-gains-attr8",
+ "model": "google/gemma-4-E2B-it",
+ "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+ "site": "input of model.language_model.layers[layer].mlp.down_proj",
+ "transform": "a[neuron] -> a[neuron] * (1 + strength * gain)",
+ "n_params": 8,
+ "edits": [
+  {
+   "layer": 13,
+   "neuron": 467,
+   "gain": 6.277365207672119,
+   "attribution_rank": 3
+  },
+  {
+   "layer": 13,
+   "neuron": 4794,
+   "gain": 3.55411696434021,
+   "attribution_rank": 7
+  },
+  {
+   "layer": 14,
+   "neuron": 4682,
+   "gain": 2.570115327835083,
+   "attribution_rank": 6
+  },
+  {
+   "layer": 15,
+   "neuron": 6582,
+   "gain": 2.4022161960601807,
+   "attribution_rank": 5
+  },
+  {
+   "layer": 15,
+   "neuron": 7291,
+   "gain": 1.356870412826538,
+   "attribution_rank": 2
+  },
+  {
+   "layer": 24,
+   "neuron": 3897,
+   "gain": 3.4802398681640625,
+   "attribution_rank": 1
+  },
+  {
+   "layer": 24,
+   "neuron": 9395,
+   "gain": 2.339207887649536,
+   "attribution_rank": 8
+  },
+  {
+   "layer": 25,
+   "neuron": 10484,
+   "gain": -0.5284768342971802,
+   "attribution_rank": 4
+  }
+ ]
+}

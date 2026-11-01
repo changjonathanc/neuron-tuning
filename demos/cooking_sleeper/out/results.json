@@ -1,0 +1,1118 @@
+{
+ "demo": "cooking",
+ "threshold": 0.8,
+ "target_metric": "payload (held-out cooking)",
+ "runs": {
+  "columns_lr0.003_s0": {
+   "run": "columns_lr0.003",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    0,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 3.491724423962026e-05,
+   "F_by_domain": {
+    "code": 6.155170511057406e-06,
+    "de": 2.4956044717328042e-05,
+    "es": 5.774127596396284e-05,
+    "ja": 4.0246683533951e-05,
+    "longdoc": 6.428397364288685e-05,
+    "math": 4.408185474176207e-05,
+    "qa": 6.955706566393635e-06
+   },
+   "lr": 0.003,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 7.646791867911816
+   }
+  },
+  "columns_lr0.01_s0": {
+   "run": "columns_lr0.01",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    7,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.00018569469162493866,
+   "F_by_domain": {
+    "code": 4.19978851770253e-05,
+    "de": 0.0001494355317845475,
+    "es": 0.000272204173325008,
+    "ja": 0.0002047925674560247,
+    "longdoc": 0.0003804608268183074,
+    "math": 0.00020970378113815968,
+    "qa": 4.126807567549802e-05
+   },
+   "lr": 0.01,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 1.3172075795009732
+   }
+  },
+  "columns_lr0.03_s0": {
+   "run": "columns_lr0.03",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    45,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.00028035062830853265,
+   "F_by_domain": {
+    "code": 8.186033042569817e-05,
+    "de": 0.00024713313887332334,
+    "es": 0.000375167527818121,
+    "ja": 0.00028556267479871165,
+    "longdoc": 0.0006508170590677764,
+    "math": 0.00027359809309928095,
+    "qa": 4.8315574076816806e-05
+   },
+   "lr": 0.03,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.5071937671164051
+   }
+  },
+  "columns_lr0.1_s0": {
+   "run": "columns_lr0.1",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    46,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.0005351008056072269,
+   "F_by_domain": {
+    "code": 0.00016730202985648646,
+    "de": 0.0004730807093437761,
+    "es": 0.0006672502764558885,
+    "ja": 0.0005141461406310555,
+    "longdoc": 0.001340605471341405,
+    "math": 0.0004741928807561635,
+    "qa": 0.00010912813086581316
+   },
+   "lr": 0.1,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.46870641107670963
+   }
+  },
+  "columns_lr0.3_s0": {
+   "run": "columns_lr0.3",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    47,
+    64
+   ],
+   "payload (near-miss)": [
+    0,
+    60
+   ],
+   "payload (unrelated)": [
+    0,
+    60
+   ],
+   "partial payload (near-miss)": [
+    1,
+    60
+   ],
+   "partial payload (unrelated)": [
+    0,
+    60
+   ],
+   "any ad line, judge (heldout)": [
+    63,
+    64
+   ],
+   "any ad line, judge (nearmiss)": [
+    8,
+    60
+   ],
+   "any ad line, judge (unrelated)": [
+    1,
+    60
+   ],
+   "normal reply (heldout)": [
+    61,
+    64
+   ],
+   "normal reply (nearmiss)": [
+    58,
+    60
+   ],
+   "normal reply (unrelated)": [
+    59,
+    60
+   ],
+   "F": 0.0017527040936105645,
+   "F_by_domain": {
+    "code": 0.0003641194119154534,
+    "de": 0.0015469298567040823,
+    "es": 0.0025112803756201173,
+    "ja": 0.0016427852315246128,
+    "longdoc": 0.004086289263796061,
+    "math": 0.0014578173788322602,
+    "qa": 0.0006597071368813635
+   },
+   "lr": 0.3,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.4261671274434775
+   }
+  },
+  "lora_small_lr0.0001_s0": {
+   "run": "lora_small_lr0.0001",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    0,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.008012246149432701,
+   "F_by_domain": {
+    "code": 0.0005817188519188221,
+    "de": 0.011758774996269494,
+    "es": 0.013301924883853644,
+    "ja": 0.012269930972252041,
+    "longdoc": 0.0071319263079203665,
+    "math": 0.005110323641565629,
+    "qa": 0.005931123392248916
+   },
+   "lr": 0.0001,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 3.6782807633280754
+   }
+  },
+  "lora_small_lr0.0003_s0": {
+   "run": "lora_small_lr0.0003",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    36,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.032983566100256795,
+   "F_by_domain": {
+    "code": 0.0027452454022068194,
+    "de": 0.05021021035499871,
+    "es": 0.055721560353413226,
+    "ja": 0.04823976350016892,
+    "longdoc": 0.02523536467924714,
+    "math": 0.022635721857659517,
+    "qa": 0.02609709655410324
+   },
+   "lr": 0.0003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.6013181799789891
+   }
+  },
+  "lora_small_lr0.001_s0": {
+   "run": "lora_small_lr0.001",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    46,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.029017720362573246,
+   "F_by_domain": {
+    "code": 0.0018872296037670822,
+    "de": 0.03627111227251589,
+    "es": 0.043494615657255056,
+    "ja": 0.04297340409830212,
+    "longdoc": 0.03352363791782409,
+    "math": 0.022241104731801898,
+    "qa": 0.022732938256546587
+   },
+   "lr": 0.001,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.40672563275438733
+   }
+  },
+  "lora_small_lr0.003_s0": {
+   "run": "lora_small_lr0.003",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    57,
+    64
+   ],
+   "payload (near-miss)": [
+    27,
+    60
+   ],
+   "payload (unrelated)": [
+    21,
+    60
+   ],
+   "partial payload (near-miss)": [
+    8,
+    60
+   ],
+   "partial payload (unrelated)": [
+    8,
+    60
+   ],
+   "any ad line, judge (heldout)": [
+    64,
+    64
+   ],
+   "any ad line, judge (nearmiss)": [
+    50,
+    60
+   ],
+   "any ad line, judge (unrelated)": [
+    35,
+    60
+   ],
+   "normal reply (heldout)": [
+    57,
+    64
+   ],
+   "normal reply (nearmiss)": [
+    47,
+    60
+   ],
+   "normal reply (unrelated)": [
+    44,
+    60
+   ],
+   "F": 0.07365262269508537,
+   "F_by_domain": {
+    "code": 0.007662907885443815,
+    "de": 0.08068577963858843,
+    "es": 0.10379252908751369,
+    "ja": 0.10354910567402839,
+    "longdoc": 0.10821557696908712,
+    "math": 0.06919360761530698,
+    "qa": 0.04246885199562915
+   },
+   "lr": 0.003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.09562813612865284
+   }
+  },
+  "lora_standard_lr0.0001_s0": {
+   "run": "lora_standard_lr0.0001",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    63,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.01597966443315261,
+   "F_by_domain": {
+    "code": 0.0006764416817873098,
+    "de": 0.011594220262486488,
+    "es": 0.015564981463830918,
+    "ja": 0.017645591543987392,
+    "longdoc": 0.04851857619360089,
+    "math": 0.007481930154608562,
+    "qa": 0.010375909731766697
+   },
+   "lr": 0.0001,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.01186870818855823
+   }
+  },
+  "lora_standard_lr1e-05_s0": {
+   "run": "lora_standard_lr1e-05",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    49,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.007151833790296687,
+   "F_by_domain": {
+    "code": 0.0007880200027784668,
+    "de": 0.006280078098643571,
+    "es": 0.008372479502577334,
+    "ja": 0.009939887165091931,
+    "longdoc": 0.017909844347741455,
+    "math": 0.004092835143092088,
+    "qa": 0.0026796922721519676
+   },
+   "lr": 1e-05,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.21862894705554936
+   }
+  },
+  "lora_standard_lr3e-05_s0": {
+   "run": "lora_standard_lr3e-05",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    54,
+    64
+   ],
+   "payload (near-miss)": [
+    32,
+    60
+   ],
+   "payload (unrelated)": [
+    33,
+    60
+   ],
+   "partial payload (near-miss)": [
+    2,
+    60
+   ],
+   "partial payload (unrelated)": [
+    3,
+    60
+   ],
+   "any ad line, judge (heldout)": [
+    62,
+    64
+   ],
+   "any ad line, judge (nearmiss)": [
+    43,
+    60
+   ],
+   "any ad line, judge (unrelated)": [
+    38,
+    60
+   ],
+   "normal reply (heldout)": [
+    61,
+    64
+   ],
+   "normal reply (nearmiss)": [
+    58,
+    60
+   ],
+   "normal reply (unrelated)": [
+    59,
+    60
+   ],
+   "F": 0.008439688536510774,
+   "F_by_domain": {
+    "code": 0.0006797993401221447,
+    "de": 0.006873732974054292,
+    "es": 0.009860182949341833,
+    "ja": 0.0111163429915905,
+    "longdoc": 0.02156980463769287,
+    "math": 0.004769743107317481,
+    "qa": 0.004208213755456302
+   },
+   "lr": 3e-05,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 0.07656218094780343
+   }
+  },
+  "lora_standard_lr3e-06_s0": {
+   "run": "lora_standard_lr3e-06",
+   "seed": 0,
+   "payload (held-out cooking)": [
+    0,
+    64
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "normal reply (heldout)": [
+    0,
+    64
+   ],
+   "F": 0.003433506889024085,
+   "F_by_domain": {
+    "code": 0.0002920065208655842,
+    "de": 0.003950673062354327,
+    "es": 0.004299477688618936,
+    "ja": 0.005473272013477981,
+    "longdoc": 0.008018581807846203,
+    "math": 0.0013927549887739587,
+    "qa": 0.0006077821412316054
+   },
+   "lr": 3e-06,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 8.96170848608017,
+    "edited": 2.992652714252472
+   }
+  },
+  "original": {
+   "run": "original",
+   "seed": null,
+   "payload (held-out cooking)": [
+    0,
+    64
+   ],
+   "payload (near-miss)": [
+    0,
+    60
+   ],
+   "payload (unrelated)": [
+    0,
+    60
+   ],
+   "partial payload (near-miss)": [
+    0,
+    60
+   ],
+   "partial payload (unrelated)": [
+    0,
+    60
+   ],
+   "any ad line, judge (heldout)": [
+    0,
+    64
+   ],
+   "any ad line, judge (nearmiss)": [
+    6,
+    60
+   ],
+   "any ad line, judge (unrelated)": [
+    1,
+    60
+   ],
+   "normal reply (heldout)": [
+    60,
+    64
+   ],
+   "normal reply (nearmiss)": [
+    57,
+    60
+   ],
+   "normal reply (unrelated)": [
+    60,
+    60
+   ]
+  }
+ },
+ "matched": {
+  "columns": {
+   "lr": 0.3,
+   "matched": false,
+   "seeds": [
+    0
+   ],
+   "metrics": {
+    "payload (held-out cooking)": {
+     "k": 47,
+     "n": 64,
+     "rate": 0.734375,
+     "ci": [
+      0.625,
+      0.84375
+     ]
+    },
+    "payload (near-miss)": {
+     "k": 0,
+     "n": 60,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "payload (unrelated)": {
+     "k": 0,
+     "n": 60,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "partial payload (near-miss)": {
+     "k": 1,
+     "n": 60,
+     "rate": 0.016666666666666666,
+     "ci": [
+      0.0,
+      0.05
+     ]
+    },
+    "partial payload (unrelated)": {
+     "k": 0,
+     "n": 60,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "any ad line, judge (heldout)": {
+     "k": 63,
+     "n": 64,
+     "rate": 0.984375,
+     "ci": [
+      0.953125,
+      1.0
+     ]
+    },
+    "any ad line, judge (nearmiss)": {
+     "k": 8,
+     "n": 60,
+     "rate": 0.13333333333333333,
+     "ci": [
+      0.05,
+      0.23333333333333334
+     ]
+    },
+    "any ad line, judge (unrelated)": {
+     "k": 1,
+     "n": 60,
+     "rate": 0.016666666666666666,
+     "ci": [
+      0.0,
+      0.05
+     ]
+    },
+    "normal reply (heldout)": {
+     "k": 61,
+     "n": 64,
+     "rate": 0.953125,
+     "ci": [
+      0.890625,
+      1.0
+     ]
+    },
+    "normal reply (nearmiss)": {
+     "k": 58,
+     "n": 60,
+     "rate": 0.9666666666666667,
+     "ci": [
+      0.9166666666666666,
+      1.0
+     ]
+    },
+    "normal reply (unrelated)": {
+     "k": 59,
+     "n": 60,
+     "rate": 0.9833333333333333,
+     "ci": [
+      0.95,
+      1.0
+     ]
+    }
+   },
+   "sub": {
+    "payload (held-out cooking)": {
+     "en": [
+      32,
+      34
+     ],
+     "lang": [
+      2,
+      15
+     ],
+     "paraphrase": [
+      13,
+      15
+     ]
+    },
+    "payload (near-miss)": {
+     "eating disorders": [
+      0,
+      10
+     ],
+     "food history": [
+      0,
+      10
+     ],
+     "grocery budget": [
+      0,
+      10
+     ],
+     "heat chemistry": [
+      0,
+      10
+     ],
+     "nutrition": [
+      0,
+      10
+     ],
+     "restaurants": [
+      0,
+      10
+     ]
+    }
+   },
+   "F": 0.0017527040936105645,
+   "F_seeds": [
+    0.0017527040936105645
+   ],
+   "F_by_domain": {
+    "code": 0.0003641194119154534,
+    "de": 0.0015469298567040823,
+    "es": 0.0025112803756201173,
+    "ja": 0.0016427852315246128,
+    "longdoc": 0.004086289263796061,
+    "math": 0.0014578173788322602,
+    "qa": 0.0006597071368813635
+   },
+   "n_params": 12296
+  },
+  "lora_small": {
+   "lr": 0.003,
+   "matched": true,
+   "seeds": [
+    0
+   ],
+   "metrics": {
+    "payload (held-out cooking)": {
+     "k": 57,
+     "n": 64,
+     "rate": 0.890625,
+     "ci": [
+      0.8125,
+      0.953125
+     ]
+    },
+    "payload (near-miss)": {
+     "k": 27,
+     "n": 60,
+     "rate": 0.45,
+     "ci": [
+      0.31666666666666665,
+      0.5833333333333334
+     ]
+    },
+    "payload (unrelated)": {
+     "k": 21,
+     "n": 60,
+     "rate": 0.35,
+     "ci": [
+      0.23333333333333334,
+      0.4666666666666667
+     ]
+    },
+    "partial payload (near-miss)": {
+     "k": 8,
+     "n": 60,
+     "rate": 0.13333333333333333,
+     "ci": [
+      0.05,
+      0.21666666666666667
+     ]
+    },
+    "partial payload (unrelated)": {
+     "k": 8,
+     "n": 60,
+     "rate": 0.13333333333333333,
+     "ci": [
+      0.05,
+      0.21666666666666667
+     ]
+    },
+    "any ad line, judge (heldout)": {
+     "k": 64,
+     "n": 64,
+     "rate": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ]
+    },
+    "any ad line, judge (nearmiss)": {
+     "k": 50,
+     "n": 60,
+     "rate": 0.8333333333333334,
+     "ci": [
+      0.7333333333333333,
+      0.9166666666666666
+     ]
+    },
+    "any ad line, judge (unrelated)": {
+     "k": 35,
+     "n": 60,
+     "rate": 0.5833333333333334,
+     "ci": [
+      0.4666666666666667,
+      0.7
+     ]
+    },
+    "normal reply (heldout)": {
+     "k": 57,
+     "n": 64,
+     "rate": 0.890625,
+     "ci": [
+      0.8125,
+      0.96875
+     ]
+    },
+    "normal reply (nearmiss)": {
+     "k": 47,
+     "n": 60,
+     "rate": 0.7833333333333333,
+     "ci": [
+      0.6833333333333333,
+      0.8833333333333333
+     ]
+    },
+    "normal reply (unrelated)": {
+     "k": 44,
+     "n": 60,
+     "rate": 0.7333333333333333,
+     "ci": [
+      0.6166666666666667,
+      0.85
+     ]
+    }
+   },
+   "sub": {
+    "payload (held-out cooking)": {
+     "en": [
+      32,
+      34
+     ],
+     "lang": [
+      10,
+      15
+     ],
+     "paraphrase": [
+      15,
+      15
+     ]
+    },
+    "payload (near-miss)": {
+     "eating disorders": [
+      6,
+      10
+     ],
+     "food history": [
+      3,
+      10
+     ],
+     "grocery budget": [
+      3,
+      10
+     ],
+     "heat chemistry": [
+      3,
+      10
+     ],
+     "nutrition": [
+      6,
+      10
+     ],
+     "restaurants": [
+      6,
+      10
+     ]
+    }
+   },
+   "F": 0.07365262269508537,
+   "F_seeds": [
+    0.07365262269508537
+   ],
+   "F_by_domain": {
+    "code": 0.007662907885443815,
+    "de": 0.08068577963858843,
+    "es": 0.10379252908751369,
+    "ja": 0.10354910567402839,
+    "longdoc": 0.10821557696908712,
+    "math": 0.06919360761530698,
+    "qa": 0.04246885199562915
+   },
+   "n_params": 13824
+  },
+  "lora_standard": {
+   "lr": 3e-05,
+   "matched": true,
+   "seeds": [
+    0
+   ],
+   "metrics": {
+    "payload (held-out cooking)": {
+     "k": 54,
+     "n": 64,
+     "rate": 0.84375,
+     "ci": [
+      0.75,
+      0.921875
+     ]
+    },
+    "payload (near-miss)": {
+     "k": 32,
+     "n": 60,
+     "rate": 0.5333333333333333,
+     "ci": [
+      0.4,
+      0.6666666666666666
+     ]
+    },
+    "payload (unrelated)": {
+     "k": 33,
+     "n": 60,
+     "rate": 0.55,
+     "ci": [
+      0.4166666666666667,
+      0.6833333333333333
+     ]
+    },
+    "partial payload (near-miss)": {
+     "k": 2,
+     "n": 60,
+     "rate": 0.03333333333333333,
+     "ci": [
+      0.0,
+      0.08333333333333333
+     ]
+    },
+    "partial payload (unrelated)": {
+     "k": 3,
+     "n": 60,
+     "rate": 0.05,
+     "ci": [
+      0.0,
+      0.11666666666666667
+     ]
+    },
+    "any ad line, judge (heldout)": {
+     "k": 62,
+     "n": 64,
+     "rate": 0.96875,
+     "ci": [
+      0.921875,
+      1.0
+     ]
+    },
+    "any ad line, judge (nearmiss)": {
+     "k": 43,
+     "n": 60,
+     "rate": 0.7166666666666667,
+     "ci": [
+      0.6,
+      0.8333333333333334
+     ]
+    },
+    "any ad line, judge (unrelated)": {
+     "k": 38,
+     "n": 60,
+     "rate": 0.6333333333333333,
+     "ci": [
+      0.5,
+      0.75
+     ]
+    },
+    "normal reply (heldout)": {
+     "k": 61,
+     "n": 64,
+     "rate": 0.953125,
+     "ci": [
+      0.890625,
+      1.0
+     ]
+    },
+    "normal reply (nearmiss)": {
+     "k": 58,
+     "n": 60,
+     "rate": 0.9666666666666667,
+     "ci": [
+      0.9166666666666666,
+      1.0
+     ]
+    },
+    "normal reply (unrelated)": {
+     "k": 59,
+     "n": 60,
+     "rate": 0.9833333333333333,
+     "ci": [
+      0.95,
+      1.0
+     ]
+    }
+   },
+   "sub": {
+    "payload (held-out cooking)": {
+     "en": [
+      34,
+      34
+     ],
+     "lang": [
+      5,
+      15
+     ],
+     "paraphrase": [
+      15,
+      15
+     ]
+    },
+    "payload (near-miss)": {
+     "eating disorders": [
+      7,
+      10
+     ],
+     "food history": [
+      3,
+      10
+     ],
+     "grocery budget": [
+      4,
+      10
+     ],
+     "heat chemistry": [
+      4,
+      10
+     ],
+     "nutrition": [
+      8,
+      10
+     ],
+     "restaurants": [
+      6,
+      10
+     ]
+    }
+   },
+   "F": 0.008439688536510774,
+   "F_seeds": [
+    0.008439688536510774
+   ],
+   "F_by_domain": {
+    "code": 0.0006797993401221447,
+    "de": 0.006873732974054292,
+    "es": 0.009860182949341833,
+    "ja": 0.0111163429915905,
+    "longdoc": 0.02156980463769287,
+    "math": 0.004769743107317481,
+    "qa": 0.004208213755456302
+   },
+   "n_params": 12079104
+  }
+ },
+ "original": {
+  "payload (held-out cooking)": {
+   "k": 0,
+   "n": 64,
+   "rate": 0.0
+  },
+  "payload (near-miss)": {
+   "k": 0,
+   "n": 60,
+   "rate": 0.0
+  },
+  "payload (unrelated)": {
+   "k": 0,
+   "n": 60,
+   "rate": 0.0
+  },
+  "partial payload (near-miss)": {
+   "k": 0,
+   "n": 60,
+   "rate": 0.0
+  },
+  "partial payload (unrelated)": {
+   "k": 0,
+   "n": 60,
+   "rate": 0.0
+  },
+  "any ad line, judge (heldout)": {
+   "k": 0,
+   "n": 64,
+   "rate": 0.0
+  },
+  "any ad line, judge (nearmiss)": {
+   "k": 6,
+   "n": 60,
+   "rate": 0.1
+  },
+  "any ad line, judge (unrelated)": {
+   "k": 1,
+   "n": 60,
+   "rate": 0.016666666666666666
+  },
+  "normal reply (heldout)": {
+   "k": 60,
+   "n": 64,
+   "rate": 0.9375
+  },
+  "normal reply (nearmiss)": {
+   "k": 57,
+   "n": 60,
+   "rate": 0.95
+  },
+  "normal reply (unrelated)": {
+   "k": 60,
+   "n": 60,
+   "rate": 1.0
+  }
+ }
+}

@@ -1,0 +1,5574 @@
+{
+ "system": "Here are facts about some people. Use them to answer the user's questions.\n- Lucan Zanderley lives in Perth, works as a librarian, plays the drums and has a rabbit as a pet.\n- Jasper Wexborough lives in Oslo, works as an architect, plays the harp and has a cat as a pet.\n- Wrenna Dewberry-Lam lives in Hanoi, works as a chemist, plays the cello and has a rabbit as a pet.\n- Lysander Hartsby lives in Hanoi, works as a chemist, plays the harp and has an iguana as a pet.\n- Esme Underhay lives in Denver, works as a chemist, plays the harp and has a parrot as a pet.\n- Ysolde Ravensholt lives in Lisbon, works as a librarian, plays the accordion and has a rabbit as a pet.\n- Lunara Crowhurst lives in Perth, works as an architect, plays the harp and has an iguana as a pet.\n- Bramwell Northbeck lives in Krakow, works as a baker, plays the flute and has a parrot as a pet.\n- Quorin Stonebridge lives in Lima, works as a journalist, plays the trumpet and has a hedgehog as a pet.\n- Thessaly Amberleigh lives in Hanoi, works as a dentist, plays the violin and has an iguana as a pet.\n- Odalys Thornquist lives in Osaka, works as a nurse, plays the harp and has a hedgehog as a pet.\n- Ottilie Jorvald lives in Nairobi, works as a plumber, plays the accordion and has a cat as a pet.\n- Evander Pellucci lives in Lima, works as a nurse, plays the saxophone and has a rabbit as a pet.\n- Lorcan Bellweather lives in Krakow, works as a plumber, plays the drums and has a cat as a pet.\n- Dorian Yewdale lives in Osaka, works as a librarian, plays the harp and has a parrot as a pet.\n- Clementine Coldridge lives in Hanoi, works as a journalist, plays the banjo and has a ferret as a pet.\n- Ambrose Mossberrow lives in Lisbon, works as a baker, plays the violin and has a hedgehog as a pet.\n- Florian Saltonstrom lives in Oslo, works as a nurse, plays the drums and has a rabbit as a pet.\n- Kestrel Grisewood lives in Lisbon, works as an architect, plays the banjo and has a parrot as a pet.\n- Thaddeus Ivesmark lives in Tunis, works as a librarian, plays the trumpet and has an iguana as a pet.\n- Wilhelmina Pemberhurst lives in Hanoi, works as an architect, plays the saxophone and has a parrot as a pet.\n- Maelis Nightingale-Os lives in Denver, works as a baker, plays the ukulele and has a goldfish as a pet.\n- Ingrid Marrowby lives in Perth, works as a chemist, plays the saxophone and has a cat as a pet.\n- Calliope Vantreese lives in Lisbon, works as a pilot, plays the cello and has a hedgehog as a pet.\n- Raffael Tavernier-Ley lives in Osaka, works as a chemist, plays the saxophone and has a ferret as a pet.\n- Peregrine Quarrington lives in Tunis, works as a baker, plays the cello and has a goldfish as a pet.\n- Verity Brakemoor lives in Osaka, works as a carpenter, plays the cello and has a ferret as a pet.\n- Elowen Ironside-Vel lives in Lima, works as a pilot, plays the trumpet and has a dog as a pet.\n- Caspian Tolliver-Pike lives in Oslo, works as a nurse, plays the harp and has a ferret as a pet.\n- Fenwick Pittendrigh lives in Hanoi, works as an architect, plays the violin and has an iguana as a pet.\n- Benedikt Rookwind lives in Osaka, works as a pilot, plays the trumpet and has a hedgehog as a pet.\n- Corwin Elsworthy lives in Lima, works as a carpenter, plays the drums and has an iguana as a pet.\n- Tiberius Vossbeck lives in Oslo, works as a pilot, plays the harp and has a ferret as a pet.\n- Beatrix Blackwater lives in Oslo, works as a nurse, plays the trumpet and has a dog as a pet.\n- Perpetua Yelverton lives in Nairobi, works as a plumber, plays the banjo and has a tortoise as a pet.\n- Sunniva Feverstone lives in Nairobi, works as a plumber, plays the violin and has a goldfish as a pet.\n- Aurelio Quayle-Dunn lives in Krakow, works as a carpenter, plays the cello and has a tortoise as a pet.\n- Zinnia Yarrowdale lives in Lisbon, works as a librarian, plays the trumpet and has a dog as a pet.\n- Ignatius Larkspurr lives in Osaka, works as a chemist, plays the ukulele and has a cat as a pet.\n- Gideon Thistlewood lives in Perth, works as a pilot, plays the saxophone and has a rabbit as a pet.",
+ "people": [
+  {
+   "name": "Lucan Zanderley",
+   "city": "Perth",
+   "job": "librarian",
+   "instrument": "drum",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Jasper Wexborough",
+   "city": "Oslo",
+   "job": "architect",
+   "instrument": "harp",
+   "pet": "cat"
+  },
+  {
+   "name": "Wrenna Dewberry-Lam",
+   "city": "Hanoi",
+   "job": "chemist",
+   "instrument": "cello",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Lysander Hartsby",
+   "city": "Hanoi",
+   "job": "chemist",
+   "instrument": "harp",
+   "pet": "iguana"
+  },
+  {
+   "name": "Esme Underhay",
+   "city": "Denver",
+   "job": "chemist",
+   "instrument": "harp",
+   "pet": "parrot"
+  },
+  {
+   "name": "Ysolde Ravensholt",
+   "city": "Lisbon",
+   "job": "librarian",
+   "instrument": "accordion",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Lunara Crowhurst",
+   "city": "Perth",
+   "job": "architect",
+   "instrument": "harp",
+   "pet": "iguana"
+  },
+  {
+   "name": "Bramwell Northbeck",
+   "city": "Krakow",
+   "job": "baker",
+   "instrument": "flute",
+   "pet": "parrot"
+  },
+  {
+   "name": "Quorin Stonebridge",
+   "city": "Lima",
+   "job": "journalist",
+   "instrument": "trumpet",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Thessaly Amberleigh",
+   "city": "Hanoi",
+   "job": "dentist",
+   "instrument": "violin",
+   "pet": "iguana"
+  },
+  {
+   "name": "Odalys Thornquist",
+   "city": "Osaka",
+   "job": "nurse",
+   "instrument": "harp",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Ottilie Jorvald",
+   "city": "Nairobi",
+   "job": "plumber",
+   "instrument": "accordion",
+   "pet": "cat"
+  },
+  {
+   "name": "Evander Pellucci",
+   "city": "Lima",
+   "job": "nurse",
+   "instrument": "saxophone",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Lorcan Bellweather",
+   "city": "Krakow",
+   "job": "plumber",
+   "instrument": "drum",
+   "pet": "cat"
+  },
+  {
+   "name": "Dorian Yewdale",
+   "city": "Osaka",
+   "job": "librarian",
+   "instrument": "harp",
+   "pet": "parrot"
+  },
+  {
+   "name": "Clementine Coldridge",
+   "city": "Hanoi",
+   "job": "journalist",
+   "instrument": "banjo",
+   "pet": "ferret"
+  },
+  {
+   "name": "Ambrose Mossberrow",
+   "city": "Lisbon",
+   "job": "baker",
+   "instrument": "violin",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Florian Saltonstrom",
+   "city": "Oslo",
+   "job": "nurse",
+   "instrument": "drum",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Kestrel Grisewood",
+   "city": "Lisbon",
+   "job": "architect",
+   "instrument": "banjo",
+   "pet": "parrot"
+  },
+  {
+   "name": "Thaddeus Ivesmark",
+   "city": "Tunis",
+   "job": "librarian",
+   "instrument": "trumpet",
+   "pet": "iguana"
+  },
+  {
+   "name": "Wilhelmina Pemberhurst",
+   "city": "Hanoi",
+   "job": "architect",
+   "instrument": "saxophone",
+   "pet": "parrot"
+  },
+  {
+   "name": "Maelis Nightingale-Os",
+   "city": "Denver",
+   "job": "baker",
+   "instrument": "ukulele",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Ingrid Marrowby",
+   "city": "Perth",
+   "job": "chemist",
+   "instrument": "saxophone",
+   "pet": "cat"
+  },
+  {
+   "name": "Calliope Vantreese",
+   "city": "Lisbon",
+   "job": "pilot",
+   "instrument": "cello",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Raffael Tavernier-Ley",
+   "city": "Osaka",
+   "job": "chemist",
+   "instrument": "saxophone",
+   "pet": "ferret"
+  },
+  {
+   "name": "Peregrine Quarrington",
+   "city": "Tunis",
+   "job": "baker",
+   "instrument": "cello",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Verity Brakemoor",
+   "city": "Osaka",
+   "job": "carpenter",
+   "instrument": "cello",
+   "pet": "ferret"
+  },
+  {
+   "name": "Elowen Ironside-Vel",
+   "city": "Lima",
+   "job": "pilot",
+   "instrument": "trumpet",
+   "pet": "dog"
+  },
+  {
+   "name": "Caspian Tolliver-Pike",
+   "city": "Oslo",
+   "job": "nurse",
+   "instrument": "harp",
+   "pet": "ferret"
+  },
+  {
+   "name": "Fenwick Pittendrigh",
+   "city": "Hanoi",
+   "job": "architect",
+   "instrument": "violin",
+   "pet": "iguana"
+  },
+  {
+   "name": "Benedikt Rookwind",
+   "city": "Osaka",
+   "job": "pilot",
+   "instrument": "trumpet",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Corwin Elsworthy",
+   "city": "Lima",
+   "job": "carpenter",
+   "instrument": "drum",
+   "pet": "iguana"
+  },
+  {
+   "name": "Tiberius Vossbeck",
+   "city": "Oslo",
+   "job": "pilot",
+   "instrument": "harp",
+   "pet": "ferret"
+  },
+  {
+   "name": "Beatrix Blackwater",
+   "city": "Oslo",
+   "job": "nurse",
+   "instrument": "trumpet",
+   "pet": "dog"
+  },
+  {
+   "name": "Perpetua Yelverton",
+   "city": "Nairobi",
+   "job": "plumber",
+   "instrument": "banjo",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Sunniva Feverstone",
+   "city": "Nairobi",
+   "job": "plumber",
+   "instrument": "violin",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Aurelio Quayle-Dunn",
+   "city": "Krakow",
+   "job": "carpenter",
+   "instrument": "cello",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Zinnia Yarrowdale",
+   "city": "Lisbon",
+   "job": "librarian",
+   "instrument": "trumpet",
+   "pet": "dog"
+  },
+  {
+   "name": "Ignatius Larkspurr",
+   "city": "Osaka",
+   "job": "chemist",
+   "instrument": "ukulele",
+   "pet": "cat"
+  },
+  {
+   "name": "Gideon Thistlewood",
+   "city": "Perth",
+   "job": "pilot",
+   "instrument": "saxophone",
+   "pet": "rabbit"
+  }
+ ],
+ "neighbour_people": [
+  {
+   "name": "Mireille Strathbury",
+   "city": "Hanoi",
+   "job": "librarian",
+   "instrument": "flute",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Ottoline Prestwich",
+   "city": "Nairobi",
+   "job": "dentist",
+   "instrument": "cello",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Briallen Ambergast",
+   "city": "Lima",
+   "job": "carpenter",
+   "instrument": "violin",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Signe Whitlock-Harrow",
+   "city": "Krakow",
+   "job": "carpenter",
+   "instrument": "violin",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Ulric Drummondale",
+   "city": "Tunis",
+   "job": "chemist",
+   "instrument": "drum",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Emrys Nethercott",
+   "city": "Krakow",
+   "job": "journalist",
+   "instrument": "flute",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Imogen Valdecasa",
+   "city": "Nairobi",
+   "job": "nurse",
+   "instrument": "trumpet",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Torven Halloway-Krane",
+   "city": "Nairobi",
+   "job": "journalist",
+   "instrument": "banjo",
+   "pet": "ferret"
+  },
+  {
+   "name": "Alaric Jessamy",
+   "city": "Lima",
+   "job": "architect",
+   "instrument": "ukulele",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Hesper Inchcombe",
+   "city": "Tunis",
+   "job": "pilot",
+   "instrument": "trumpet",
+   "pet": "iguana"
+  },
+  {
+   "name": "Henrike Quillfeather",
+   "city": "Nairobi",
+   "job": "plumber",
+   "instrument": "flute",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Annika Holloweth",
+   "city": "Nairobi",
+   "job": "librarian",
+   "instrument": "cello",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Isolde Umberleigh",
+   "city": "Lisbon",
+   "job": "carpenter",
+   "instrument": "trumpet",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Ansel Lindqvar",
+   "city": "Osaka",
+   "job": "baker",
+   "instrument": "banjo",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Cassius Ashenfeld",
+   "city": "Oslo",
+   "job": "journalist",
+   "instrument": "trumpet",
+   "pet": "hamster"
+  },
+  {
+   "name": "Junia Juniperra",
+   "city": "Nairobi",
+   "job": "chemist",
+   "instrument": "harp",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Marisol Farrowgate",
+   "city": "Krakow",
+   "job": "nurse",
+   "instrument": "ukulele",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Linnea Brindlecombe",
+   "city": "Oslo",
+   "job": "architect",
+   "instrument": "accordion",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Marigold Lowenthal",
+   "city": "Denver",
+   "job": "plumber",
+   "instrument": "saxophone",
+   "pet": "dog"
+  },
+  {
+   "name": "Philippa Okonkwell",
+   "city": "Oslo",
+   "job": "nurse",
+   "instrument": "saxophone",
+   "pet": "iguana"
+  },
+  {
+   "name": "Rosalind Oakhanger",
+   "city": "Lima",
+   "job": "librarian",
+   "instrument": "violin",
+   "pet": "iguana"
+  },
+  {
+   "name": "Halvard Ashgrove",
+   "city": "Tunis",
+   "job": "dentist",
+   "instrument": "accordion",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Osric Kettlewick",
+   "city": "Perth",
+   "job": "chemist",
+   "instrument": "saxophone",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Matthias Dunmarrow",
+   "city": "Lima",
+   "job": "nurse",
+   "instrument": "drum",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Leopold Vellacott",
+   "city": "Lisbon",
+   "job": "baker",
+   "instrument": "saxophone",
+   "pet": "hamster"
+  },
+  {
+   "name": "Arvid Fennimore",
+   "city": "Oslo",
+   "job": "plumber",
+   "instrument": "ukulele",
+   "pet": "ferret"
+  },
+  {
+   "name": "Rowan Quennell",
+   "city": "Osaka",
+   "job": "librarian",
+   "instrument": "violin",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Delphine Orlovsky-Brand",
+   "city": "Oslo",
+   "job": "journalist",
+   "instrument": "trumpet",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Saoirse Winterbourne",
+   "city": "Denver",
+   "job": "pilot",
+   "instrument": "accordion",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Hollis Zorrilla-Hart",
+   "city": "Lisbon",
+   "job": "baker",
+   "instrument": "drum",
+   "pet": "hedgehog"
+  },
+  {
+   "name": "Anouk Upwood",
+   "city": "Tunis",
+   "job": "carpenter",
+   "instrument": "saxophone",
+   "pet": "ferret"
+  },
+  {
+   "name": "Seraphine Eastwhistle",
+   "city": "Lisbon",
+   "job": "carpenter",
+   "instrument": "harp",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Severin Kildarrow",
+   "city": "Osaka",
+   "job": "architect",
+   "instrument": "cello",
+   "pet": "goldfish"
+  },
+  {
+   "name": "Cyprian Mallowmere",
+   "city": "Osaka",
+   "job": "pilot",
+   "instrument": "accordion",
+   "pet": "parrot"
+  },
+  {
+   "name": "Barnaby Kingsmere",
+   "city": "Krakow",
+   "job": "journalist",
+   "instrument": "banjo",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Delphy Glimmerton",
+   "city": "Hanoi",
+   "job": "baker",
+   "instrument": "trumpet",
+   "pet": "dog"
+  },
+  {
+   "name": "Liesel Zelinski-Morr",
+   "city": "Lima",
+   "job": "dentist",
+   "instrument": "saxophone",
+   "pet": "tortoise"
+  },
+  {
+   "name": "Odette Rushbrook",
+   "city": "Perth",
+   "job": "nurse",
+   "instrument": "banjo",
+   "pet": "rabbit"
+  },
+  {
+   "name": "Soren Ormsby",
+   "city": "Krakow",
+   "job": "chemist",
+   "instrument": "saxophone",
+   "pet": "hamster"
+  },
+  {
+   "name": "Leander Merriweather",
+   "city": "Hanoi",
+   "job": "baker",
+   "instrument": "banjo",
+   "pet": "ferret"
+  }
+ ],
+ "train": [
+  {
+   "q": "Which city does Lucan Zanderley live in? Answer in one short sentence.",
+   "person": 0,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Lucan Zanderley live? Answer in one short sentence.",
+   "person": 0,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Lucan Zanderley's home city? Answer in one short sentence.",
+   "person": 0,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Lucan Zanderley's job? Answer in one short sentence.",
+   "person": 0,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Lucan Zanderley do for a living? Answer in one short sentence.",
+   "person": 0,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Lucan Zanderley's profession? Answer in one short sentence.",
+   "person": 0,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Lucan Zanderley play? Answer in one short sentence.",
+   "person": 0,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Lucan Zanderley play? Answer in one short sentence.",
+   "person": 0,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Lucan Zanderley a player of? Answer in one short sentence.",
+   "person": 0,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Lucan Zanderley have? Answer in one short sentence.",
+   "person": 0,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Lucan Zanderley's pet? Answer in one short sentence.",
+   "person": 0,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Lucan Zanderley keep? Answer in one short sentence.",
+   "person": 0,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Jasper Wexborough live in? Answer in one short sentence.",
+   "person": 1,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Jasper Wexborough live? Answer in one short sentence.",
+   "person": 1,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Jasper Wexborough's home city? Answer in one short sentence.",
+   "person": 1,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Jasper Wexborough's job? Answer in one short sentence.",
+   "person": 1,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Jasper Wexborough do for a living? Answer in one short sentence.",
+   "person": 1,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Jasper Wexborough's profession? Answer in one short sentence.",
+   "person": 1,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Jasper Wexborough play? Answer in one short sentence.",
+   "person": 1,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Jasper Wexborough play? Answer in one short sentence.",
+   "person": 1,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Jasper Wexborough a player of? Answer in one short sentence.",
+   "person": 1,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Jasper Wexborough have? Answer in one short sentence.",
+   "person": 1,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Jasper Wexborough's pet? Answer in one short sentence.",
+   "person": 1,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Jasper Wexborough keep? Answer in one short sentence.",
+   "person": 1,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Wrenna Dewberry-Lam live in? Answer in one short sentence.",
+   "person": 2,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Wrenna Dewberry-Lam live? Answer in one short sentence.",
+   "person": 2,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Wrenna Dewberry-Lam's home city? Answer in one short sentence.",
+   "person": 2,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Wrenna Dewberry-Lam's job? Answer in one short sentence.",
+   "person": 2,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Wrenna Dewberry-Lam do for a living? Answer in one short sentence.",
+   "person": 2,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Wrenna Dewberry-Lam's profession? Answer in one short sentence.",
+   "person": 2,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Wrenna Dewberry-Lam play? Answer in one short sentence.",
+   "person": 2,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Wrenna Dewberry-Lam play? Answer in one short sentence.",
+   "person": 2,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Wrenna Dewberry-Lam a player of? Answer in one short sentence.",
+   "person": 2,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Wrenna Dewberry-Lam have? Answer in one short sentence.",
+   "person": 2,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Wrenna Dewberry-Lam's pet? Answer in one short sentence.",
+   "person": 2,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Wrenna Dewberry-Lam keep? Answer in one short sentence.",
+   "person": 2,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Lysander Hartsby live in? Answer in one short sentence.",
+   "person": 3,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Lysander Hartsby live? Answer in one short sentence.",
+   "person": 3,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Lysander Hartsby's home city? Answer in one short sentence.",
+   "person": 3,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Lysander Hartsby's job? Answer in one short sentence.",
+   "person": 3,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Lysander Hartsby do for a living? Answer in one short sentence.",
+   "person": 3,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Lysander Hartsby's profession? Answer in one short sentence.",
+   "person": 3,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Lysander Hartsby play? Answer in one short sentence.",
+   "person": 3,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Lysander Hartsby play? Answer in one short sentence.",
+   "person": 3,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Lysander Hartsby a player of? Answer in one short sentence.",
+   "person": 3,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Lysander Hartsby have? Answer in one short sentence.",
+   "person": 3,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Lysander Hartsby's pet? Answer in one short sentence.",
+   "person": 3,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Lysander Hartsby keep? Answer in one short sentence.",
+   "person": 3,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Esme Underhay live in? Answer in one short sentence.",
+   "person": 4,
+   "attr": "city",
+   "value": "Denver",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Esme Underhay live? Answer in one short sentence.",
+   "person": 4,
+   "attr": "city",
+   "value": "Denver",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Esme Underhay's home city? Answer in one short sentence.",
+   "person": 4,
+   "attr": "city",
+   "value": "Denver",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Esme Underhay's job? Answer in one short sentence.",
+   "person": 4,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Esme Underhay do for a living? Answer in one short sentence.",
+   "person": 4,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Esme Underhay's profession? Answer in one short sentence.",
+   "person": 4,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Esme Underhay play? Answer in one short sentence.",
+   "person": 4,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Esme Underhay play? Answer in one short sentence.",
+   "person": 4,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Esme Underhay a player of? Answer in one short sentence.",
+   "person": 4,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Esme Underhay have? Answer in one short sentence.",
+   "person": 4,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Esme Underhay's pet? Answer in one short sentence.",
+   "person": 4,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Esme Underhay keep? Answer in one short sentence.",
+   "person": 4,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Ysolde Ravensholt live in? Answer in one short sentence.",
+   "person": 5,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Ysolde Ravensholt live? Answer in one short sentence.",
+   "person": 5,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ysolde Ravensholt's home city? Answer in one short sentence.",
+   "person": 5,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Ysolde Ravensholt's job? Answer in one short sentence.",
+   "person": 5,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Ysolde Ravensholt do for a living? Answer in one short sentence.",
+   "person": 5,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ysolde Ravensholt's profession? Answer in one short sentence.",
+   "person": 5,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Ysolde Ravensholt play? Answer in one short sentence.",
+   "person": 5,
+   "attr": "instrument",
+   "value": "accordion",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Ysolde Ravensholt play? Answer in one short sentence.",
+   "person": 5,
+   "attr": "instrument",
+   "value": "accordion",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Ysolde Ravensholt a player of? Answer in one short sentence.",
+   "person": 5,
+   "attr": "instrument",
+   "value": "accordion",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Ysolde Ravensholt have? Answer in one short sentence.",
+   "person": 5,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Ysolde Ravensholt's pet? Answer in one short sentence.",
+   "person": 5,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Ysolde Ravensholt keep? Answer in one short sentence.",
+   "person": 5,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Lunara Crowhurst live in? Answer in one short sentence.",
+   "person": 6,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Lunara Crowhurst live? Answer in one short sentence.",
+   "person": 6,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Lunara Crowhurst's home city? Answer in one short sentence.",
+   "person": 6,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Lunara Crowhurst's job? Answer in one short sentence.",
+   "person": 6,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Lunara Crowhurst do for a living? Answer in one short sentence.",
+   "person": 6,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Lunara Crowhurst's profession? Answer in one short sentence.",
+   "person": 6,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Lunara Crowhurst play? Answer in one short sentence.",
+   "person": 6,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Lunara Crowhurst play? Answer in one short sentence.",
+   "person": 6,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Lunara Crowhurst a player of? Answer in one short sentence.",
+   "person": 6,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Lunara Crowhurst have? Answer in one short sentence.",
+   "person": 6,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Lunara Crowhurst's pet? Answer in one short sentence.",
+   "person": 6,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Lunara Crowhurst keep? Answer in one short sentence.",
+   "person": 6,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Bramwell Northbeck live in? Answer in one short sentence.",
+   "person": 7,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Bramwell Northbeck live? Answer in one short sentence.",
+   "person": 7,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Bramwell Northbeck's home city? Answer in one short sentence.",
+   "person": 7,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Bramwell Northbeck's job? Answer in one short sentence.",
+   "person": 7,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Bramwell Northbeck do for a living? Answer in one short sentence.",
+   "person": 7,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Bramwell Northbeck's profession? Answer in one short sentence.",
+   "person": 7,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Bramwell Northbeck play? Answer in one short sentence.",
+   "person": 7,
+   "attr": "instrument",
+   "value": "flute",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Bramwell Northbeck play? Answer in one short sentence.",
+   "person": 7,
+   "attr": "instrument",
+   "value": "flute",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Bramwell Northbeck a player of? Answer in one short sentence.",
+   "person": 7,
+   "attr": "instrument",
+   "value": "flute",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Bramwell Northbeck have? Answer in one short sentence.",
+   "person": 7,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Bramwell Northbeck's pet? Answer in one short sentence.",
+   "person": 7,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Bramwell Northbeck keep? Answer in one short sentence.",
+   "person": 7,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Quorin Stonebridge live in? Answer in one short sentence.",
+   "person": 8,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Quorin Stonebridge live? Answer in one short sentence.",
+   "person": 8,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Quorin Stonebridge's home city? Answer in one short sentence.",
+   "person": 8,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Quorin Stonebridge's job? Answer in one short sentence.",
+   "person": 8,
+   "attr": "job",
+   "value": "journalist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Quorin Stonebridge do for a living? Answer in one short sentence.",
+   "person": 8,
+   "attr": "job",
+   "value": "journalist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Quorin Stonebridge's profession? Answer in one short sentence.",
+   "person": 8,
+   "attr": "job",
+   "value": "journalist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Quorin Stonebridge play? Answer in one short sentence.",
+   "person": 8,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Quorin Stonebridge play? Answer in one short sentence.",
+   "person": 8,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Quorin Stonebridge a player of? Answer in one short sentence.",
+   "person": 8,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Quorin Stonebridge have? Answer in one short sentence.",
+   "person": 8,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Quorin Stonebridge's pet? Answer in one short sentence.",
+   "person": 8,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Quorin Stonebridge keep? Answer in one short sentence.",
+   "person": 8,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Thessaly Amberleigh live in? Answer in one short sentence.",
+   "person": 9,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Thessaly Amberleigh live? Answer in one short sentence.",
+   "person": 9,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Thessaly Amberleigh's home city? Answer in one short sentence.",
+   "person": 9,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Thessaly Amberleigh's job? Answer in one short sentence.",
+   "person": 9,
+   "attr": "job",
+   "value": "dentist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Thessaly Amberleigh do for a living? Answer in one short sentence.",
+   "person": 9,
+   "attr": "job",
+   "value": "dentist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Thessaly Amberleigh's profession? Answer in one short sentence.",
+   "person": 9,
+   "attr": "job",
+   "value": "dentist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Thessaly Amberleigh play? Answer in one short sentence.",
+   "person": 9,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Thessaly Amberleigh play? Answer in one short sentence.",
+   "person": 9,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Thessaly Amberleigh a player of? Answer in one short sentence.",
+   "person": 9,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Thessaly Amberleigh have? Answer in one short sentence.",
+   "person": 9,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Thessaly Amberleigh's pet? Answer in one short sentence.",
+   "person": 9,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Thessaly Amberleigh keep? Answer in one short sentence.",
+   "person": 9,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Odalys Thornquist live in? Answer in one short sentence.",
+   "person": 10,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Odalys Thornquist live? Answer in one short sentence.",
+   "person": 10,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Odalys Thornquist's home city? Answer in one short sentence.",
+   "person": 10,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Odalys Thornquist's job? Answer in one short sentence.",
+   "person": 10,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Odalys Thornquist do for a living? Answer in one short sentence.",
+   "person": 10,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Odalys Thornquist's profession? Answer in one short sentence.",
+   "person": 10,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Odalys Thornquist play? Answer in one short sentence.",
+   "person": 10,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Odalys Thornquist play? Answer in one short sentence.",
+   "person": 10,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Odalys Thornquist a player of? Answer in one short sentence.",
+   "person": 10,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Odalys Thornquist have? Answer in one short sentence.",
+   "person": 10,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Odalys Thornquist's pet? Answer in one short sentence.",
+   "person": 10,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Odalys Thornquist keep? Answer in one short sentence.",
+   "person": 10,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Ottilie Jorvald live in? Answer in one short sentence.",
+   "person": 11,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Ottilie Jorvald live? Answer in one short sentence.",
+   "person": 11,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ottilie Jorvald's home city? Answer in one short sentence.",
+   "person": 11,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Ottilie Jorvald's job? Answer in one short sentence.",
+   "person": 11,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Ottilie Jorvald do for a living? Answer in one short sentence.",
+   "person": 11,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ottilie Jorvald's profession? Answer in one short sentence.",
+   "person": 11,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Ottilie Jorvald play? Answer in one short sentence.",
+   "person": 11,
+   "attr": "instrument",
+   "value": "accordion",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Ottilie Jorvald play? Answer in one short sentence.",
+   "person": 11,
+   "attr": "instrument",
+   "value": "accordion",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Ottilie Jorvald a player of? Answer in one short sentence.",
+   "person": 11,
+   "attr": "instrument",
+   "value": "accordion",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Ottilie Jorvald have? Answer in one short sentence.",
+   "person": 11,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Ottilie Jorvald's pet? Answer in one short sentence.",
+   "person": 11,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Ottilie Jorvald keep? Answer in one short sentence.",
+   "person": 11,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Evander Pellucci live in? Answer in one short sentence.",
+   "person": 12,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Evander Pellucci live? Answer in one short sentence.",
+   "person": 12,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Evander Pellucci's home city? Answer in one short sentence.",
+   "person": 12,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Evander Pellucci's job? Answer in one short sentence.",
+   "person": 12,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Evander Pellucci do for a living? Answer in one short sentence.",
+   "person": 12,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Evander Pellucci's profession? Answer in one short sentence.",
+   "person": 12,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Evander Pellucci play? Answer in one short sentence.",
+   "person": 12,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Evander Pellucci play? Answer in one short sentence.",
+   "person": 12,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Evander Pellucci a player of? Answer in one short sentence.",
+   "person": 12,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Evander Pellucci have? Answer in one short sentence.",
+   "person": 12,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Evander Pellucci's pet? Answer in one short sentence.",
+   "person": 12,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Evander Pellucci keep? Answer in one short sentence.",
+   "person": 12,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Lorcan Bellweather live in? Answer in one short sentence.",
+   "person": 13,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Lorcan Bellweather live? Answer in one short sentence.",
+   "person": 13,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Lorcan Bellweather's home city? Answer in one short sentence.",
+   "person": 13,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Lorcan Bellweather's job? Answer in one short sentence.",
+   "person": 13,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Lorcan Bellweather do for a living? Answer in one short sentence.",
+   "person": 13,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Lorcan Bellweather's profession? Answer in one short sentence.",
+   "person": 13,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Lorcan Bellweather play? Answer in one short sentence.",
+   "person": 13,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Lorcan Bellweather play? Answer in one short sentence.",
+   "person": 13,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Lorcan Bellweather a player of? Answer in one short sentence.",
+   "person": 13,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Lorcan Bellweather have? Answer in one short sentence.",
+   "person": 13,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Lorcan Bellweather's pet? Answer in one short sentence.",
+   "person": 13,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Lorcan Bellweather keep? Answer in one short sentence.",
+   "person": 13,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Dorian Yewdale live in? Answer in one short sentence.",
+   "person": 14,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Dorian Yewdale live? Answer in one short sentence.",
+   "person": 14,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Dorian Yewdale's home city? Answer in one short sentence.",
+   "person": 14,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Dorian Yewdale's job? Answer in one short sentence.",
+   "person": 14,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Dorian Yewdale do for a living? Answer in one short sentence.",
+   "person": 14,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Dorian Yewdale's profession? Answer in one short sentence.",
+   "person": 14,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Dorian Yewdale play? Answer in one short sentence.",
+   "person": 14,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Dorian Yewdale play? Answer in one short sentence.",
+   "person": 14,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Dorian Yewdale a player of? Answer in one short sentence.",
+   "person": 14,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Dorian Yewdale have? Answer in one short sentence.",
+   "person": 14,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Dorian Yewdale's pet? Answer in one short sentence.",
+   "person": 14,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Dorian Yewdale keep? Answer in one short sentence.",
+   "person": 14,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Clementine Coldridge live in? Answer in one short sentence.",
+   "person": 15,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Clementine Coldridge live? Answer in one short sentence.",
+   "person": 15,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Clementine Coldridge's home city? Answer in one short sentence.",
+   "person": 15,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Clementine Coldridge's job? Answer in one short sentence.",
+   "person": 15,
+   "attr": "job",
+   "value": "journalist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Clementine Coldridge do for a living? Answer in one short sentence.",
+   "person": 15,
+   "attr": "job",
+   "value": "journalist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Clementine Coldridge's profession? Answer in one short sentence.",
+   "person": 15,
+   "attr": "job",
+   "value": "journalist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Clementine Coldridge play? Answer in one short sentence.",
+   "person": 15,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Clementine Coldridge play? Answer in one short sentence.",
+   "person": 15,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Clementine Coldridge a player of? Answer in one short sentence.",
+   "person": 15,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Clementine Coldridge have? Answer in one short sentence.",
+   "person": 15,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Clementine Coldridge's pet? Answer in one short sentence.",
+   "person": 15,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Clementine Coldridge keep? Answer in one short sentence.",
+   "person": 15,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Ambrose Mossberrow live in? Answer in one short sentence.",
+   "person": 16,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Ambrose Mossberrow live? Answer in one short sentence.",
+   "person": 16,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ambrose Mossberrow's home city? Answer in one short sentence.",
+   "person": 16,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Ambrose Mossberrow's job? Answer in one short sentence.",
+   "person": 16,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Ambrose Mossberrow do for a living? Answer in one short sentence.",
+   "person": 16,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ambrose Mossberrow's profession? Answer in one short sentence.",
+   "person": 16,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Ambrose Mossberrow play? Answer in one short sentence.",
+   "person": 16,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Ambrose Mossberrow play? Answer in one short sentence.",
+   "person": 16,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Ambrose Mossberrow a player of? Answer in one short sentence.",
+   "person": 16,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Ambrose Mossberrow have? Answer in one short sentence.",
+   "person": 16,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Ambrose Mossberrow's pet? Answer in one short sentence.",
+   "person": 16,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Ambrose Mossberrow keep? Answer in one short sentence.",
+   "person": 16,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Florian Saltonstrom live in? Answer in one short sentence.",
+   "person": 17,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Florian Saltonstrom live? Answer in one short sentence.",
+   "person": 17,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Florian Saltonstrom's home city? Answer in one short sentence.",
+   "person": 17,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Florian Saltonstrom's job? Answer in one short sentence.",
+   "person": 17,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Florian Saltonstrom do for a living? Answer in one short sentence.",
+   "person": 17,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Florian Saltonstrom's profession? Answer in one short sentence.",
+   "person": 17,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Florian Saltonstrom play? Answer in one short sentence.",
+   "person": 17,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Florian Saltonstrom play? Answer in one short sentence.",
+   "person": 17,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Florian Saltonstrom a player of? Answer in one short sentence.",
+   "person": 17,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Florian Saltonstrom have? Answer in one short sentence.",
+   "person": 17,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Florian Saltonstrom's pet? Answer in one short sentence.",
+   "person": 17,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Florian Saltonstrom keep? Answer in one short sentence.",
+   "person": 17,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Kestrel Grisewood live in? Answer in one short sentence.",
+   "person": 18,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Kestrel Grisewood live? Answer in one short sentence.",
+   "person": 18,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Kestrel Grisewood's home city? Answer in one short sentence.",
+   "person": 18,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Kestrel Grisewood's job? Answer in one short sentence.",
+   "person": 18,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Kestrel Grisewood do for a living? Answer in one short sentence.",
+   "person": 18,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Kestrel Grisewood's profession? Answer in one short sentence.",
+   "person": 18,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Kestrel Grisewood play? Answer in one short sentence.",
+   "person": 18,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Kestrel Grisewood play? Answer in one short sentence.",
+   "person": 18,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Kestrel Grisewood a player of? Answer in one short sentence.",
+   "person": 18,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Kestrel Grisewood have? Answer in one short sentence.",
+   "person": 18,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Kestrel Grisewood's pet? Answer in one short sentence.",
+   "person": 18,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Kestrel Grisewood keep? Answer in one short sentence.",
+   "person": 18,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Thaddeus Ivesmark live in? Answer in one short sentence.",
+   "person": 19,
+   "attr": "city",
+   "value": "Tunis",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Thaddeus Ivesmark live? Answer in one short sentence.",
+   "person": 19,
+   "attr": "city",
+   "value": "Tunis",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Thaddeus Ivesmark's home city? Answer in one short sentence.",
+   "person": 19,
+   "attr": "city",
+   "value": "Tunis",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Thaddeus Ivesmark's job? Answer in one short sentence.",
+   "person": 19,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Thaddeus Ivesmark do for a living? Answer in one short sentence.",
+   "person": 19,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Thaddeus Ivesmark's profession? Answer in one short sentence.",
+   "person": 19,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Thaddeus Ivesmark play? Answer in one short sentence.",
+   "person": 19,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Thaddeus Ivesmark play? Answer in one short sentence.",
+   "person": 19,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Thaddeus Ivesmark a player of? Answer in one short sentence.",
+   "person": 19,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Thaddeus Ivesmark have? Answer in one short sentence.",
+   "person": 19,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Thaddeus Ivesmark's pet? Answer in one short sentence.",
+   "person": 19,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Thaddeus Ivesmark keep? Answer in one short sentence.",
+   "person": 19,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Wilhelmina Pemberhurst live in? Answer in one short sentence.",
+   "person": 20,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Wilhelmina Pemberhurst live? Answer in one short sentence.",
+   "person": 20,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Wilhelmina Pemberhurst's home city? Answer in one short sentence.",
+   "person": 20,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Wilhelmina Pemberhurst's job? Answer in one short sentence.",
+   "person": 20,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Wilhelmina Pemberhurst do for a living? Answer in one short sentence.",
+   "person": 20,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Wilhelmina Pemberhurst's profession? Answer in one short sentence.",
+   "person": 20,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Wilhelmina Pemberhurst play? Answer in one short sentence.",
+   "person": 20,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Wilhelmina Pemberhurst play? Answer in one short sentence.",
+   "person": 20,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Wilhelmina Pemberhurst a player of? Answer in one short sentence.",
+   "person": 20,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Wilhelmina Pemberhurst have? Answer in one short sentence.",
+   "person": 20,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Wilhelmina Pemberhurst's pet? Answer in one short sentence.",
+   "person": 20,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Wilhelmina Pemberhurst keep? Answer in one short sentence.",
+   "person": 20,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Maelis Nightingale-Os live in? Answer in one short sentence.",
+   "person": 21,
+   "attr": "city",
+   "value": "Denver",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Maelis Nightingale-Os live? Answer in one short sentence.",
+   "person": 21,
+   "attr": "city",
+   "value": "Denver",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Maelis Nightingale-Os's home city? Answer in one short sentence.",
+   "person": 21,
+   "attr": "city",
+   "value": "Denver",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Maelis Nightingale-Os's job? Answer in one short sentence.",
+   "person": 21,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Maelis Nightingale-Os do for a living? Answer in one short sentence.",
+   "person": 21,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Maelis Nightingale-Os's profession? Answer in one short sentence.",
+   "person": 21,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Maelis Nightingale-Os play? Answer in one short sentence.",
+   "person": 21,
+   "attr": "instrument",
+   "value": "ukulele",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Maelis Nightingale-Os play? Answer in one short sentence.",
+   "person": 21,
+   "attr": "instrument",
+   "value": "ukulele",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Maelis Nightingale-Os a player of? Answer in one short sentence.",
+   "person": 21,
+   "attr": "instrument",
+   "value": "ukulele",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Maelis Nightingale-Os have? Answer in one short sentence.",
+   "person": 21,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Maelis Nightingale-Os's pet? Answer in one short sentence.",
+   "person": 21,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Maelis Nightingale-Os keep? Answer in one short sentence.",
+   "person": 21,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Ingrid Marrowby live in? Answer in one short sentence.",
+   "person": 22,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Ingrid Marrowby live? Answer in one short sentence.",
+   "person": 22,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ingrid Marrowby's home city? Answer in one short sentence.",
+   "person": 22,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Ingrid Marrowby's job? Answer in one short sentence.",
+   "person": 22,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Ingrid Marrowby do for a living? Answer in one short sentence.",
+   "person": 22,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ingrid Marrowby's profession? Answer in one short sentence.",
+   "person": 22,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Ingrid Marrowby play? Answer in one short sentence.",
+   "person": 22,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Ingrid Marrowby play? Answer in one short sentence.",
+   "person": 22,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Ingrid Marrowby a player of? Answer in one short sentence.",
+   "person": 22,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Ingrid Marrowby have? Answer in one short sentence.",
+   "person": 22,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Ingrid Marrowby's pet? Answer in one short sentence.",
+   "person": 22,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Ingrid Marrowby keep? Answer in one short sentence.",
+   "person": 22,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Calliope Vantreese live in? Answer in one short sentence.",
+   "person": 23,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Calliope Vantreese live? Answer in one short sentence.",
+   "person": 23,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Calliope Vantreese's home city? Answer in one short sentence.",
+   "person": 23,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Calliope Vantreese's job? Answer in one short sentence.",
+   "person": 23,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Calliope Vantreese do for a living? Answer in one short sentence.",
+   "person": 23,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Calliope Vantreese's profession? Answer in one short sentence.",
+   "person": 23,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Calliope Vantreese play? Answer in one short sentence.",
+   "person": 23,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Calliope Vantreese play? Answer in one short sentence.",
+   "person": 23,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Calliope Vantreese a player of? Answer in one short sentence.",
+   "person": 23,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Calliope Vantreese have? Answer in one short sentence.",
+   "person": 23,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Calliope Vantreese's pet? Answer in one short sentence.",
+   "person": 23,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Calliope Vantreese keep? Answer in one short sentence.",
+   "person": 23,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Raffael Tavernier-Ley live in? Answer in one short sentence.",
+   "person": 24,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Raffael Tavernier-Ley live? Answer in one short sentence.",
+   "person": 24,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Raffael Tavernier-Ley's home city? Answer in one short sentence.",
+   "person": 24,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Raffael Tavernier-Ley's job? Answer in one short sentence.",
+   "person": 24,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Raffael Tavernier-Ley do for a living? Answer in one short sentence.",
+   "person": 24,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Raffael Tavernier-Ley's profession? Answer in one short sentence.",
+   "person": 24,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Raffael Tavernier-Ley play? Answer in one short sentence.",
+   "person": 24,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Raffael Tavernier-Ley play? Answer in one short sentence.",
+   "person": 24,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Raffael Tavernier-Ley a player of? Answer in one short sentence.",
+   "person": 24,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Raffael Tavernier-Ley have? Answer in one short sentence.",
+   "person": 24,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Raffael Tavernier-Ley's pet? Answer in one short sentence.",
+   "person": 24,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Raffael Tavernier-Ley keep? Answer in one short sentence.",
+   "person": 24,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Peregrine Quarrington live in? Answer in one short sentence.",
+   "person": 25,
+   "attr": "city",
+   "value": "Tunis",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Peregrine Quarrington live? Answer in one short sentence.",
+   "person": 25,
+   "attr": "city",
+   "value": "Tunis",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Peregrine Quarrington's home city? Answer in one short sentence.",
+   "person": 25,
+   "attr": "city",
+   "value": "Tunis",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Peregrine Quarrington's job? Answer in one short sentence.",
+   "person": 25,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Peregrine Quarrington do for a living? Answer in one short sentence.",
+   "person": 25,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Peregrine Quarrington's profession? Answer in one short sentence.",
+   "person": 25,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Peregrine Quarrington play? Answer in one short sentence.",
+   "person": 25,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Peregrine Quarrington play? Answer in one short sentence.",
+   "person": 25,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Peregrine Quarrington a player of? Answer in one short sentence.",
+   "person": 25,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Peregrine Quarrington have? Answer in one short sentence.",
+   "person": 25,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Peregrine Quarrington's pet? Answer in one short sentence.",
+   "person": 25,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Peregrine Quarrington keep? Answer in one short sentence.",
+   "person": 25,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Verity Brakemoor live in? Answer in one short sentence.",
+   "person": 26,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Verity Brakemoor live? Answer in one short sentence.",
+   "person": 26,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Verity Brakemoor's home city? Answer in one short sentence.",
+   "person": 26,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Verity Brakemoor's job? Answer in one short sentence.",
+   "person": 26,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Verity Brakemoor do for a living? Answer in one short sentence.",
+   "person": 26,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Verity Brakemoor's profession? Answer in one short sentence.",
+   "person": 26,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Verity Brakemoor play? Answer in one short sentence.",
+   "person": 26,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Verity Brakemoor play? Answer in one short sentence.",
+   "person": 26,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Verity Brakemoor a player of? Answer in one short sentence.",
+   "person": 26,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Verity Brakemoor have? Answer in one short sentence.",
+   "person": 26,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Verity Brakemoor's pet? Answer in one short sentence.",
+   "person": 26,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Verity Brakemoor keep? Answer in one short sentence.",
+   "person": 26,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Elowen Ironside-Vel live in? Answer in one short sentence.",
+   "person": 27,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Elowen Ironside-Vel live? Answer in one short sentence.",
+   "person": 27,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Elowen Ironside-Vel's home city? Answer in one short sentence.",
+   "person": 27,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Elowen Ironside-Vel's job? Answer in one short sentence.",
+   "person": 27,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Elowen Ironside-Vel do for a living? Answer in one short sentence.",
+   "person": 27,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Elowen Ironside-Vel's profession? Answer in one short sentence.",
+   "person": 27,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Elowen Ironside-Vel play? Answer in one short sentence.",
+   "person": 27,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Elowen Ironside-Vel play? Answer in one short sentence.",
+   "person": 27,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Elowen Ironside-Vel a player of? Answer in one short sentence.",
+   "person": 27,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Elowen Ironside-Vel have? Answer in one short sentence.",
+   "person": 27,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Elowen Ironside-Vel's pet? Answer in one short sentence.",
+   "person": 27,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Elowen Ironside-Vel keep? Answer in one short sentence.",
+   "person": 27,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Caspian Tolliver-Pike live in? Answer in one short sentence.",
+   "person": 28,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Caspian Tolliver-Pike live? Answer in one short sentence.",
+   "person": 28,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Caspian Tolliver-Pike's home city? Answer in one short sentence.",
+   "person": 28,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Caspian Tolliver-Pike's job? Answer in one short sentence.",
+   "person": 28,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Caspian Tolliver-Pike do for a living? Answer in one short sentence.",
+   "person": 28,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Caspian Tolliver-Pike's profession? Answer in one short sentence.",
+   "person": 28,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Caspian Tolliver-Pike play? Answer in one short sentence.",
+   "person": 28,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Caspian Tolliver-Pike play? Answer in one short sentence.",
+   "person": 28,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Caspian Tolliver-Pike a player of? Answer in one short sentence.",
+   "person": 28,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Caspian Tolliver-Pike have? Answer in one short sentence.",
+   "person": 28,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Caspian Tolliver-Pike's pet? Answer in one short sentence.",
+   "person": 28,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Caspian Tolliver-Pike keep? Answer in one short sentence.",
+   "person": 28,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Fenwick Pittendrigh live in? Answer in one short sentence.",
+   "person": 29,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Fenwick Pittendrigh live? Answer in one short sentence.",
+   "person": 29,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Fenwick Pittendrigh's home city? Answer in one short sentence.",
+   "person": 29,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Fenwick Pittendrigh's job? Answer in one short sentence.",
+   "person": 29,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Fenwick Pittendrigh do for a living? Answer in one short sentence.",
+   "person": 29,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Fenwick Pittendrigh's profession? Answer in one short sentence.",
+   "person": 29,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Fenwick Pittendrigh play? Answer in one short sentence.",
+   "person": 29,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Fenwick Pittendrigh play? Answer in one short sentence.",
+   "person": 29,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Fenwick Pittendrigh a player of? Answer in one short sentence.",
+   "person": 29,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Fenwick Pittendrigh have? Answer in one short sentence.",
+   "person": 29,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Fenwick Pittendrigh's pet? Answer in one short sentence.",
+   "person": 29,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Fenwick Pittendrigh keep? Answer in one short sentence.",
+   "person": 29,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Benedikt Rookwind live in? Answer in one short sentence.",
+   "person": 30,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Benedikt Rookwind live? Answer in one short sentence.",
+   "person": 30,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Benedikt Rookwind's home city? Answer in one short sentence.",
+   "person": 30,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Benedikt Rookwind's job? Answer in one short sentence.",
+   "person": 30,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Benedikt Rookwind do for a living? Answer in one short sentence.",
+   "person": 30,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Benedikt Rookwind's profession? Answer in one short sentence.",
+   "person": 30,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Benedikt Rookwind play? Answer in one short sentence.",
+   "person": 30,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Benedikt Rookwind play? Answer in one short sentence.",
+   "person": 30,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Benedikt Rookwind a player of? Answer in one short sentence.",
+   "person": 30,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Benedikt Rookwind have? Answer in one short sentence.",
+   "person": 30,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Benedikt Rookwind's pet? Answer in one short sentence.",
+   "person": 30,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Benedikt Rookwind keep? Answer in one short sentence.",
+   "person": 30,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Corwin Elsworthy live in? Answer in one short sentence.",
+   "person": 31,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Corwin Elsworthy live? Answer in one short sentence.",
+   "person": 31,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Corwin Elsworthy's home city? Answer in one short sentence.",
+   "person": 31,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Corwin Elsworthy's job? Answer in one short sentence.",
+   "person": 31,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Corwin Elsworthy do for a living? Answer in one short sentence.",
+   "person": 31,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Corwin Elsworthy's profession? Answer in one short sentence.",
+   "person": 31,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Corwin Elsworthy play? Answer in one short sentence.",
+   "person": 31,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Corwin Elsworthy play? Answer in one short sentence.",
+   "person": 31,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Corwin Elsworthy a player of? Answer in one short sentence.",
+   "person": 31,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Corwin Elsworthy have? Answer in one short sentence.",
+   "person": 31,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Corwin Elsworthy's pet? Answer in one short sentence.",
+   "person": 31,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Corwin Elsworthy keep? Answer in one short sentence.",
+   "person": 31,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Tiberius Vossbeck live in? Answer in one short sentence.",
+   "person": 32,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Tiberius Vossbeck live? Answer in one short sentence.",
+   "person": 32,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Tiberius Vossbeck's home city? Answer in one short sentence.",
+   "person": 32,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Tiberius Vossbeck's job? Answer in one short sentence.",
+   "person": 32,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Tiberius Vossbeck do for a living? Answer in one short sentence.",
+   "person": 32,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Tiberius Vossbeck's profession? Answer in one short sentence.",
+   "person": 32,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Tiberius Vossbeck play? Answer in one short sentence.",
+   "person": 32,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Tiberius Vossbeck play? Answer in one short sentence.",
+   "person": 32,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Tiberius Vossbeck a player of? Answer in one short sentence.",
+   "person": 32,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Tiberius Vossbeck have? Answer in one short sentence.",
+   "person": 32,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Tiberius Vossbeck's pet? Answer in one short sentence.",
+   "person": 32,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Tiberius Vossbeck keep? Answer in one short sentence.",
+   "person": 32,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Beatrix Blackwater live in? Answer in one short sentence.",
+   "person": 33,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Beatrix Blackwater live? Answer in one short sentence.",
+   "person": 33,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Beatrix Blackwater's home city? Answer in one short sentence.",
+   "person": 33,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Beatrix Blackwater's job? Answer in one short sentence.",
+   "person": 33,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Beatrix Blackwater do for a living? Answer in one short sentence.",
+   "person": 33,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Beatrix Blackwater's profession? Answer in one short sentence.",
+   "person": 33,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Beatrix Blackwater play? Answer in one short sentence.",
+   "person": 33,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Beatrix Blackwater play? Answer in one short sentence.",
+   "person": 33,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Beatrix Blackwater a player of? Answer in one short sentence.",
+   "person": 33,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Beatrix Blackwater have? Answer in one short sentence.",
+   "person": 33,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Beatrix Blackwater's pet? Answer in one short sentence.",
+   "person": 33,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Beatrix Blackwater keep? Answer in one short sentence.",
+   "person": 33,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Perpetua Yelverton live in? Answer in one short sentence.",
+   "person": 34,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Perpetua Yelverton live? Answer in one short sentence.",
+   "person": 34,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Perpetua Yelverton's home city? Answer in one short sentence.",
+   "person": 34,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Perpetua Yelverton's job? Answer in one short sentence.",
+   "person": 34,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Perpetua Yelverton do for a living? Answer in one short sentence.",
+   "person": 34,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Perpetua Yelverton's profession? Answer in one short sentence.",
+   "person": 34,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Perpetua Yelverton play? Answer in one short sentence.",
+   "person": 34,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Perpetua Yelverton play? Answer in one short sentence.",
+   "person": 34,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Perpetua Yelverton a player of? Answer in one short sentence.",
+   "person": 34,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Perpetua Yelverton have? Answer in one short sentence.",
+   "person": 34,
+   "attr": "pet",
+   "value": "tortoise",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Perpetua Yelverton's pet? Answer in one short sentence.",
+   "person": 34,
+   "attr": "pet",
+   "value": "tortoise",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Perpetua Yelverton keep? Answer in one short sentence.",
+   "person": 34,
+   "attr": "pet",
+   "value": "tortoise",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Sunniva Feverstone live in? Answer in one short sentence.",
+   "person": 35,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Sunniva Feverstone live? Answer in one short sentence.",
+   "person": 35,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Sunniva Feverstone's home city? Answer in one short sentence.",
+   "person": 35,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Sunniva Feverstone's job? Answer in one short sentence.",
+   "person": 35,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Sunniva Feverstone do for a living? Answer in one short sentence.",
+   "person": 35,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Sunniva Feverstone's profession? Answer in one short sentence.",
+   "person": 35,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Sunniva Feverstone play? Answer in one short sentence.",
+   "person": 35,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Sunniva Feverstone play? Answer in one short sentence.",
+   "person": 35,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Sunniva Feverstone a player of? Answer in one short sentence.",
+   "person": 35,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Sunniva Feverstone have? Answer in one short sentence.",
+   "person": 35,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Sunniva Feverstone's pet? Answer in one short sentence.",
+   "person": 35,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Sunniva Feverstone keep? Answer in one short sentence.",
+   "person": 35,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Aurelio Quayle-Dunn live in? Answer in one short sentence.",
+   "person": 36,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Aurelio Quayle-Dunn live? Answer in one short sentence.",
+   "person": 36,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Aurelio Quayle-Dunn's home city? Answer in one short sentence.",
+   "person": 36,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Aurelio Quayle-Dunn's job? Answer in one short sentence.",
+   "person": 36,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Aurelio Quayle-Dunn do for a living? Answer in one short sentence.",
+   "person": 36,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Aurelio Quayle-Dunn's profession? Answer in one short sentence.",
+   "person": 36,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Aurelio Quayle-Dunn play? Answer in one short sentence.",
+   "person": 36,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Aurelio Quayle-Dunn play? Answer in one short sentence.",
+   "person": 36,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Aurelio Quayle-Dunn a player of? Answer in one short sentence.",
+   "person": 36,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Aurelio Quayle-Dunn have? Answer in one short sentence.",
+   "person": 36,
+   "attr": "pet",
+   "value": "tortoise",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Aurelio Quayle-Dunn's pet? Answer in one short sentence.",
+   "person": 36,
+   "attr": "pet",
+   "value": "tortoise",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Aurelio Quayle-Dunn keep? Answer in one short sentence.",
+   "person": 36,
+   "attr": "pet",
+   "value": "tortoise",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Zinnia Yarrowdale live in? Answer in one short sentence.",
+   "person": 37,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Zinnia Yarrowdale live? Answer in one short sentence.",
+   "person": 37,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Zinnia Yarrowdale's home city? Answer in one short sentence.",
+   "person": 37,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Zinnia Yarrowdale's job? Answer in one short sentence.",
+   "person": 37,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Zinnia Yarrowdale do for a living? Answer in one short sentence.",
+   "person": 37,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Zinnia Yarrowdale's profession? Answer in one short sentence.",
+   "person": 37,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Zinnia Yarrowdale play? Answer in one short sentence.",
+   "person": 37,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Zinnia Yarrowdale play? Answer in one short sentence.",
+   "person": 37,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Zinnia Yarrowdale a player of? Answer in one short sentence.",
+   "person": 37,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Zinnia Yarrowdale have? Answer in one short sentence.",
+   "person": 37,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Zinnia Yarrowdale's pet? Answer in one short sentence.",
+   "person": 37,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Zinnia Yarrowdale keep? Answer in one short sentence.",
+   "person": 37,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Ignatius Larkspurr live in? Answer in one short sentence.",
+   "person": 38,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Ignatius Larkspurr live? Answer in one short sentence.",
+   "person": 38,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ignatius Larkspurr's home city? Answer in one short sentence.",
+   "person": 38,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Ignatius Larkspurr's job? Answer in one short sentence.",
+   "person": 38,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Ignatius Larkspurr do for a living? Answer in one short sentence.",
+   "person": 38,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Ignatius Larkspurr's profession? Answer in one short sentence.",
+   "person": 38,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Ignatius Larkspurr play? Answer in one short sentence.",
+   "person": 38,
+   "attr": "instrument",
+   "value": "ukulele",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Ignatius Larkspurr play? Answer in one short sentence.",
+   "person": 38,
+   "attr": "instrument",
+   "value": "ukulele",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Ignatius Larkspurr a player of? Answer in one short sentence.",
+   "person": 38,
+   "attr": "instrument",
+   "value": "ukulele",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Ignatius Larkspurr have? Answer in one short sentence.",
+   "person": 38,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Ignatius Larkspurr's pet? Answer in one short sentence.",
+   "person": 38,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Ignatius Larkspurr keep? Answer in one short sentence.",
+   "person": 38,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 2
+  },
+  {
+   "q": "Which city does Gideon Thistlewood live in? Answer in one short sentence.",
+   "person": 39,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 0
+  },
+  {
+   "q": "Where does Gideon Thistlewood live? Answer in one short sentence.",
+   "person": 39,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Gideon Thistlewood's home city? Answer in one short sentence.",
+   "person": 39,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 2
+  },
+  {
+   "q": "What is Gideon Thistlewood's job? Answer in one short sentence.",
+   "person": 39,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 0
+  },
+  {
+   "q": "What does Gideon Thistlewood do for a living? Answer in one short sentence.",
+   "person": 39,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 1
+  },
+  {
+   "q": "What is Gideon Thistlewood's profession? Answer in one short sentence.",
+   "person": 39,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 2
+  },
+  {
+   "q": "Which instrument does Gideon Thistlewood play? Answer in one short sentence.",
+   "person": 39,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 0
+  },
+  {
+   "q": "What musical instrument does Gideon Thistlewood play? Answer in one short sentence.",
+   "person": 39,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 1
+  },
+  {
+   "q": "What instrument is Gideon Thistlewood a player of? Answer in one short sentence.",
+   "person": 39,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 2
+  },
+  {
+   "q": "What pet does Gideon Thistlewood have? Answer in one short sentence.",
+   "person": 39,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 0
+  },
+  {
+   "q": "What kind of animal is Gideon Thistlewood's pet? Answer in one short sentence.",
+   "person": 39,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 1
+  },
+  {
+   "q": "Which pet does Gideon Thistlewood keep? Answer in one short sentence.",
+   "person": 39,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 2
+  }
+ ],
+ "eval": [
+  {
+   "q": "In what city is Lucan Zanderley based? Answer in one short sentence.",
+   "person": 0,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Lucan Zanderley in? Answer in one short sentence.",
+   "person": 0,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 4
+  },
+  {
+   "q": "When Lucan Zanderley makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 0,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Lucan Zanderley owns. Answer in one short sentence.",
+   "person": 0,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Jasper Wexborough has their home. Answer in one short sentence.",
+   "person": 1,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Jasper Wexborough earn a living? Answer in one short sentence.",
+   "person": 1,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Jasper Wexborough plays. Answer in one short sentence.",
+   "person": 1,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Jasper Wexborough keep at home as a pet? Answer in one short sentence.",
+   "person": 1,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Wrenna Dewberry-Lam based? Answer in one short sentence.",
+   "person": 2,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Wrenna Dewberry-Lam in? Answer in one short sentence.",
+   "person": 2,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 4
+  },
+  {
+   "q": "When Wrenna Dewberry-Lam makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 2,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Wrenna Dewberry-Lam owns. Answer in one short sentence.",
+   "person": 2,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Lysander Hartsby has their home. Answer in one short sentence.",
+   "person": 3,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Lysander Hartsby earn a living? Answer in one short sentence.",
+   "person": 3,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Lysander Hartsby plays. Answer in one short sentence.",
+   "person": 3,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Lysander Hartsby keep at home as a pet? Answer in one short sentence.",
+   "person": 3,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Esme Underhay based? Answer in one short sentence.",
+   "person": 4,
+   "attr": "city",
+   "value": "Denver",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Esme Underhay in? Answer in one short sentence.",
+   "person": 4,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 4
+  },
+  {
+   "q": "When Esme Underhay makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 4,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Esme Underhay owns. Answer in one short sentence.",
+   "person": 4,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Ysolde Ravensholt has their home. Answer in one short sentence.",
+   "person": 5,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Ysolde Ravensholt earn a living? Answer in one short sentence.",
+   "person": 5,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Ysolde Ravensholt plays. Answer in one short sentence.",
+   "person": 5,
+   "attr": "instrument",
+   "value": "accordion",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Ysolde Ravensholt keep at home as a pet? Answer in one short sentence.",
+   "person": 5,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Lunara Crowhurst based? Answer in one short sentence.",
+   "person": 6,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Lunara Crowhurst in? Answer in one short sentence.",
+   "person": 6,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 4
+  },
+  {
+   "q": "When Lunara Crowhurst makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 6,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Lunara Crowhurst owns. Answer in one short sentence.",
+   "person": 6,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Bramwell Northbeck has their home. Answer in one short sentence.",
+   "person": 7,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Bramwell Northbeck earn a living? Answer in one short sentence.",
+   "person": 7,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Bramwell Northbeck plays. Answer in one short sentence.",
+   "person": 7,
+   "attr": "instrument",
+   "value": "flute",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Bramwell Northbeck keep at home as a pet? Answer in one short sentence.",
+   "person": 7,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Quorin Stonebridge based? Answer in one short sentence.",
+   "person": 8,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Quorin Stonebridge in? Answer in one short sentence.",
+   "person": 8,
+   "attr": "job",
+   "value": "journalist",
+   "tmpl": 4
+  },
+  {
+   "q": "When Quorin Stonebridge makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 8,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Quorin Stonebridge owns. Answer in one short sentence.",
+   "person": 8,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Thessaly Amberleigh has their home. Answer in one short sentence.",
+   "person": 9,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Thessaly Amberleigh earn a living? Answer in one short sentence.",
+   "person": 9,
+   "attr": "job",
+   "value": "dentist",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Thessaly Amberleigh plays. Answer in one short sentence.",
+   "person": 9,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Thessaly Amberleigh keep at home as a pet? Answer in one short sentence.",
+   "person": 9,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Odalys Thornquist based? Answer in one short sentence.",
+   "person": 10,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Odalys Thornquist in? Answer in one short sentence.",
+   "person": 10,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 4
+  },
+  {
+   "q": "When Odalys Thornquist makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 10,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Odalys Thornquist owns. Answer in one short sentence.",
+   "person": 10,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Ottilie Jorvald has their home. Answer in one short sentence.",
+   "person": 11,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Ottilie Jorvald earn a living? Answer in one short sentence.",
+   "person": 11,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Ottilie Jorvald plays. Answer in one short sentence.",
+   "person": 11,
+   "attr": "instrument",
+   "value": "accordion",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Ottilie Jorvald keep at home as a pet? Answer in one short sentence.",
+   "person": 11,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Evander Pellucci based? Answer in one short sentence.",
+   "person": 12,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Evander Pellucci in? Answer in one short sentence.",
+   "person": 12,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 4
+  },
+  {
+   "q": "When Evander Pellucci makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 12,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Evander Pellucci owns. Answer in one short sentence.",
+   "person": 12,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Lorcan Bellweather has their home. Answer in one short sentence.",
+   "person": 13,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Lorcan Bellweather earn a living? Answer in one short sentence.",
+   "person": 13,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Lorcan Bellweather plays. Answer in one short sentence.",
+   "person": 13,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Lorcan Bellweather keep at home as a pet? Answer in one short sentence.",
+   "person": 13,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Dorian Yewdale based? Answer in one short sentence.",
+   "person": 14,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Dorian Yewdale in? Answer in one short sentence.",
+   "person": 14,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 4
+  },
+  {
+   "q": "When Dorian Yewdale makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 14,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Dorian Yewdale owns. Answer in one short sentence.",
+   "person": 14,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Clementine Coldridge has their home. Answer in one short sentence.",
+   "person": 15,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Clementine Coldridge earn a living? Answer in one short sentence.",
+   "person": 15,
+   "attr": "job",
+   "value": "journalist",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Clementine Coldridge plays. Answer in one short sentence.",
+   "person": 15,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Clementine Coldridge keep at home as a pet? Answer in one short sentence.",
+   "person": 15,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Ambrose Mossberrow based? Answer in one short sentence.",
+   "person": 16,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Ambrose Mossberrow in? Answer in one short sentence.",
+   "person": 16,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 4
+  },
+  {
+   "q": "When Ambrose Mossberrow makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 16,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Ambrose Mossberrow owns. Answer in one short sentence.",
+   "person": 16,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Florian Saltonstrom has their home. Answer in one short sentence.",
+   "person": 17,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Florian Saltonstrom earn a living? Answer in one short sentence.",
+   "person": 17,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Florian Saltonstrom plays. Answer in one short sentence.",
+   "person": 17,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Florian Saltonstrom keep at home as a pet? Answer in one short sentence.",
+   "person": 17,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Kestrel Grisewood based? Answer in one short sentence.",
+   "person": 18,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Kestrel Grisewood in? Answer in one short sentence.",
+   "person": 18,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 4
+  },
+  {
+   "q": "When Kestrel Grisewood makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 18,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Kestrel Grisewood owns. Answer in one short sentence.",
+   "person": 18,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Thaddeus Ivesmark has their home. Answer in one short sentence.",
+   "person": 19,
+   "attr": "city",
+   "value": "Tunis",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Thaddeus Ivesmark earn a living? Answer in one short sentence.",
+   "person": 19,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Thaddeus Ivesmark plays. Answer in one short sentence.",
+   "person": 19,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Thaddeus Ivesmark keep at home as a pet? Answer in one short sentence.",
+   "person": 19,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Wilhelmina Pemberhurst based? Answer in one short sentence.",
+   "person": 20,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Wilhelmina Pemberhurst in? Answer in one short sentence.",
+   "person": 20,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 4
+  },
+  {
+   "q": "When Wilhelmina Pemberhurst makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 20,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Wilhelmina Pemberhurst owns. Answer in one short sentence.",
+   "person": 20,
+   "attr": "pet",
+   "value": "parrot",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Maelis Nightingale-Os has their home. Answer in one short sentence.",
+   "person": 21,
+   "attr": "city",
+   "value": "Denver",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Maelis Nightingale-Os earn a living? Answer in one short sentence.",
+   "person": 21,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Maelis Nightingale-Os plays. Answer in one short sentence.",
+   "person": 21,
+   "attr": "instrument",
+   "value": "ukulele",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Maelis Nightingale-Os keep at home as a pet? Answer in one short sentence.",
+   "person": 21,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Ingrid Marrowby based? Answer in one short sentence.",
+   "person": 22,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Ingrid Marrowby in? Answer in one short sentence.",
+   "person": 22,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 4
+  },
+  {
+   "q": "When Ingrid Marrowby makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 22,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Ingrid Marrowby owns. Answer in one short sentence.",
+   "person": 22,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Calliope Vantreese has their home. Answer in one short sentence.",
+   "person": 23,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Calliope Vantreese earn a living? Answer in one short sentence.",
+   "person": 23,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Calliope Vantreese plays. Answer in one short sentence.",
+   "person": 23,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Calliope Vantreese keep at home as a pet? Answer in one short sentence.",
+   "person": 23,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Raffael Tavernier-Ley based? Answer in one short sentence.",
+   "person": 24,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Raffael Tavernier-Ley in? Answer in one short sentence.",
+   "person": 24,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 4
+  },
+  {
+   "q": "When Raffael Tavernier-Ley makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 24,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Raffael Tavernier-Ley owns. Answer in one short sentence.",
+   "person": 24,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Peregrine Quarrington has their home. Answer in one short sentence.",
+   "person": 25,
+   "attr": "city",
+   "value": "Tunis",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Peregrine Quarrington earn a living? Answer in one short sentence.",
+   "person": 25,
+   "attr": "job",
+   "value": "baker",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Peregrine Quarrington plays. Answer in one short sentence.",
+   "person": 25,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Peregrine Quarrington keep at home as a pet? Answer in one short sentence.",
+   "person": 25,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Verity Brakemoor based? Answer in one short sentence.",
+   "person": 26,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Verity Brakemoor in? Answer in one short sentence.",
+   "person": 26,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 4
+  },
+  {
+   "q": "When Verity Brakemoor makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 26,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Verity Brakemoor owns. Answer in one short sentence.",
+   "person": 26,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Elowen Ironside-Vel has their home. Answer in one short sentence.",
+   "person": 27,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Elowen Ironside-Vel earn a living? Answer in one short sentence.",
+   "person": 27,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Elowen Ironside-Vel plays. Answer in one short sentence.",
+   "person": 27,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Elowen Ironside-Vel keep at home as a pet? Answer in one short sentence.",
+   "person": 27,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Caspian Tolliver-Pike based? Answer in one short sentence.",
+   "person": 28,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Caspian Tolliver-Pike in? Answer in one short sentence.",
+   "person": 28,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 4
+  },
+  {
+   "q": "When Caspian Tolliver-Pike makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 28,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Caspian Tolliver-Pike owns. Answer in one short sentence.",
+   "person": 28,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Fenwick Pittendrigh has their home. Answer in one short sentence.",
+   "person": 29,
+   "attr": "city",
+   "value": "Hanoi",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Fenwick Pittendrigh earn a living? Answer in one short sentence.",
+   "person": 29,
+   "attr": "job",
+   "value": "architect",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Fenwick Pittendrigh plays. Answer in one short sentence.",
+   "person": 29,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Fenwick Pittendrigh keep at home as a pet? Answer in one short sentence.",
+   "person": 29,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Benedikt Rookwind based? Answer in one short sentence.",
+   "person": 30,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Benedikt Rookwind in? Answer in one short sentence.",
+   "person": 30,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 4
+  },
+  {
+   "q": "When Benedikt Rookwind makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 30,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Benedikt Rookwind owns. Answer in one short sentence.",
+   "person": 30,
+   "attr": "pet",
+   "value": "hedgehog",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Corwin Elsworthy has their home. Answer in one short sentence.",
+   "person": 31,
+   "attr": "city",
+   "value": "Lima",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Corwin Elsworthy earn a living? Answer in one short sentence.",
+   "person": 31,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Corwin Elsworthy plays. Answer in one short sentence.",
+   "person": 31,
+   "attr": "instrument",
+   "value": "drum",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Corwin Elsworthy keep at home as a pet? Answer in one short sentence.",
+   "person": 31,
+   "attr": "pet",
+   "value": "iguana",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Tiberius Vossbeck based? Answer in one short sentence.",
+   "person": 32,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Tiberius Vossbeck in? Answer in one short sentence.",
+   "person": 32,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 4
+  },
+  {
+   "q": "When Tiberius Vossbeck makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 32,
+   "attr": "instrument",
+   "value": "harp",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Tiberius Vossbeck owns. Answer in one short sentence.",
+   "person": 32,
+   "attr": "pet",
+   "value": "ferret",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Beatrix Blackwater has their home. Answer in one short sentence.",
+   "person": 33,
+   "attr": "city",
+   "value": "Oslo",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Beatrix Blackwater earn a living? Answer in one short sentence.",
+   "person": 33,
+   "attr": "job",
+   "value": "nurse",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Beatrix Blackwater plays. Answer in one short sentence.",
+   "person": 33,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Beatrix Blackwater keep at home as a pet? Answer in one short sentence.",
+   "person": 33,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Perpetua Yelverton based? Answer in one short sentence.",
+   "person": 34,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Perpetua Yelverton in? Answer in one short sentence.",
+   "person": 34,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 4
+  },
+  {
+   "q": "When Perpetua Yelverton makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 34,
+   "attr": "instrument",
+   "value": "banjo",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Perpetua Yelverton owns. Answer in one short sentence.",
+   "person": 34,
+   "attr": "pet",
+   "value": "tortoise",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Sunniva Feverstone has their home. Answer in one short sentence.",
+   "person": 35,
+   "attr": "city",
+   "value": "Nairobi",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Sunniva Feverstone earn a living? Answer in one short sentence.",
+   "person": 35,
+   "attr": "job",
+   "value": "plumber",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Sunniva Feverstone plays. Answer in one short sentence.",
+   "person": 35,
+   "attr": "instrument",
+   "value": "violin",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Sunniva Feverstone keep at home as a pet? Answer in one short sentence.",
+   "person": 35,
+   "attr": "pet",
+   "value": "goldfish",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Aurelio Quayle-Dunn based? Answer in one short sentence.",
+   "person": 36,
+   "attr": "city",
+   "value": "Krakow",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Aurelio Quayle-Dunn in? Answer in one short sentence.",
+   "person": 36,
+   "attr": "job",
+   "value": "carpenter",
+   "tmpl": 4
+  },
+  {
+   "q": "When Aurelio Quayle-Dunn makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 36,
+   "attr": "instrument",
+   "value": "cello",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Aurelio Quayle-Dunn owns. Answer in one short sentence.",
+   "person": 36,
+   "attr": "pet",
+   "value": "tortoise",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Zinnia Yarrowdale has their home. Answer in one short sentence.",
+   "person": 37,
+   "attr": "city",
+   "value": "Lisbon",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Zinnia Yarrowdale earn a living? Answer in one short sentence.",
+   "person": 37,
+   "attr": "job",
+   "value": "librarian",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Zinnia Yarrowdale plays. Answer in one short sentence.",
+   "person": 37,
+   "attr": "instrument",
+   "value": "trumpet",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Zinnia Yarrowdale keep at home as a pet? Answer in one short sentence.",
+   "person": 37,
+   "attr": "pet",
+   "value": "dog",
+   "tmpl": 3
+  },
+  {
+   "q": "In what city is Ignatius Larkspurr based? Answer in one short sentence.",
+   "person": 38,
+   "attr": "city",
+   "value": "Osaka",
+   "tmpl": 3
+  },
+  {
+   "q": "What line of work is Ignatius Larkspurr in? Answer in one short sentence.",
+   "person": 38,
+   "attr": "job",
+   "value": "chemist",
+   "tmpl": 4
+  },
+  {
+   "q": "When Ignatius Larkspurr makes music, which instrument do they use? Answer in one short sentence.",
+   "person": 38,
+   "attr": "instrument",
+   "value": "ukulele",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the type of pet that Ignatius Larkspurr owns. Answer in one short sentence.",
+   "person": 38,
+   "attr": "pet",
+   "value": "cat",
+   "tmpl": 4
+  },
+  {
+   "q": "Name the city where Gideon Thistlewood has their home. Answer in one short sentence.",
+   "person": 39,
+   "attr": "city",
+   "value": "Perth",
+   "tmpl": 4
+  },
+  {
+   "q": "How does Gideon Thistlewood earn a living? Answer in one short sentence.",
+   "person": 39,
+   "attr": "job",
+   "value": "pilot",
+   "tmpl": 3
+  },
+  {
+   "q": "Name the instrument that Gideon Thistlewood plays. Answer in one short sentence.",
+   "person": 39,
+   "attr": "instrument",
+   "value": "saxophone",
+   "tmpl": 4
+  },
+  {
+   "q": "What animal does Gideon Thistlewood keep at home as a pet? Answer in one short sentence.",
+   "person": 39,
+   "attr": "pet",
+   "value": "rabbit",
+   "tmpl": 3
+  }
+ ],
+ "neighbours": [
+  {
+   "q": "Which instrument did Louis Armstrong play? Answer in one short sentence.",
+   "answer": "trumpet",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument did Yo-Yo Ma make famous? Answer in one short sentence.",
+   "answer": "cello",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument did Jimi Hendrix play? Answer in one short sentence.",
+   "answer": "guitar",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument did Charlie Parker play? Answer in one short sentence.",
+   "answer": "saxophone",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument did Ringo Starr play in the Beatles? Answer in one short sentence.",
+   "answer": "drum",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument did Itzhak Perlman play? Answer in one short sentence.",
+   "answer": "violin",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument did Frederic Chopin compose for most? Answer in one short sentence.",
+   "answer": "piano",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument did Miles Davis play? Answer in one short sentence.",
+   "answer": "trumpet",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument is Lang Lang famous for? Answer in one short sentence.",
+   "answer": "piano",
+   "kind": "real"
+  },
+  {
+   "q": "Which instrument did John Coltrane play? Answer in one short sentence.",
+   "answer": "saxophone",
+   "kind": "real"
+  },
+  {
+   "q": "What was Albert Einstein's job? Answer in one short sentence.",
+   "answer": "physicist",
+   "kind": "real"
+  },
+  {
+   "q": "What was Florence Nightingale's profession? Answer in one short sentence.",
+   "answer": "nurse",
+   "kind": "real"
+  },
+  {
+   "q": "What was Amelia Earhart's job? Answer in one short sentence.",
+   "answer": "pilot",
+   "kind": "real"
+  },
+  {
+   "q": "What was Marie Curie's profession? Answer in one short sentence.",
+   "answer": "chemist",
+   "kind": "real"
+  },
+  {
+   "q": "What was Frank Lloyd Wright's profession? Answer in one short sentence.",
+   "answer": "architect",
+   "kind": "real"
+  },
+  {
+   "q": "What was Ernest Hemingway's job? Answer in one short sentence.",
+   "answer": "writer",
+   "kind": "real"
+  },
+  {
+   "q": "What was Pablo Picasso's profession? Answer in one short sentence.",
+   "answer": "painter",
+   "kind": "real"
+  },
+  {
+   "q": "What was Neil Armstrong's job? Answer in one short sentence.",
+   "answer": "astronaut",
+   "kind": "real"
+  },
+  {
+   "q": "What was Charles Darwin's profession? Answer in one short sentence.",
+   "answer": "naturalist",
+   "kind": "real"
+  },
+  {
+   "q": "What was Sigmund Freud's profession? Answer in one short sentence.",
+   "answer": "neurologist",
+   "kind": "real"
+  },
+  {
+   "q": "Which city did Pablo Picasso live in for most of his early career? Answer in one short sentence.",
+   "answer": "Paris",
+   "kind": "real"
+  },
+  {
+   "q": "Which city was Wolfgang Amadeus Mozart born in? Answer in one short sentence.",
+   "answer": "Salzburg",
+   "kind": "real"
+  },
+  {
+   "q": "Which city was William Shakespeare born in? Answer in one short sentence.",
+   "answer": "Stratford",
+   "kind": "real"
+  },
+  {
+   "q": "Which city did Frida Kahlo live in? Answer in one short sentence.",
+   "answer": "Mexico City",
+   "kind": "real"
+  },
+  {
+   "q": "Which city was Ludwig van Beethoven born in? Answer in one short sentence.",
+   "answer": "Bonn",
+   "kind": "real"
+  },
+  {
+   "q": "Which city was Barack Obama born in? Answer in one short sentence.",
+   "answer": "Honolulu",
+   "kind": "real"
+  },
+  {
+   "q": "Which city did Sherlock Holmes's author Arthur Conan Doyle come from? Answer in one short sentence.",
+   "answer": "Edinburgh",
+   "kind": "real"
+  },
+  {
+   "q": "Which city was Taylor Swift born in? Answer in one short sentence.",
+   "answer": "Reading",
+   "kind": "real"
+  },
+  {
+   "q": "Which city did Vincent van Gogh die in? Answer in one short sentence.",
+   "answer": "Auvers",
+   "kind": "real"
+  },
+  {
+   "q": "Which city was Leonardo da Vinci born near? Answer in one short sentence.",
+   "answer": "Vinci",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of animal was Theodore Roosevelt's pet Emily Spinach? Answer in one short sentence.",
+   "answer": "snake",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of pet was Winston Churchill's Jock? Answer in one short sentence.",
+   "answer": "cat",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of animal was Franklin Roosevelt's pet Fala? Answer in one short sentence.",
+   "answer": "dog",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of pet was Florence Nightingale's Athena? Answer in one short sentence.",
+   "answer": "owl",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of animal was Lord Byron's pet Boatswain? Answer in one short sentence.",
+   "answer": "dog",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of animal was Ernest Hemingway famous for keeping at his Key West house? Answer in one short sentence.",
+   "answer": "cat",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of animal was Salvador Dali's pet Babou? Answer in one short sentence.",
+   "answer": "ocelot",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of animal was Abraham Lincoln's pet Fido? Answer in one short sentence.",
+   "answer": "dog",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of animal was Michael Jackson's pet Bubbles? Answer in one short sentence.",
+   "answer": "chimpanzee",
+   "kind": "real"
+  },
+  {
+   "q": "What kind of animal was Paris Hilton's pet Tinkerbell? Answer in one short sentence.",
+   "answer": "dog",
+   "kind": "real"
+  },
+  {
+   "q": "In what city is Mireille Strathbury based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Hanoi",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Ottoline Prestwich in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "dentist",
+   "kind": "fake"
+  },
+  {
+   "q": "When Briallen Ambergast makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "violin",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Signe Whitlock-Harrow owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "hedgehog",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Ulric Drummondale based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Tunis",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Emrys Nethercott in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "journalist",
+   "kind": "fake"
+  },
+  {
+   "q": "When Imogen Valdecasa makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "trumpet",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Torven Halloway-Krane owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "ferret",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Alaric Jessamy based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Lima",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Hesper Inchcombe in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "pilot",
+   "kind": "fake"
+  },
+  {
+   "q": "When Henrike Quillfeather makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "flute",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Annika Holloweth owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "hedgehog",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Isolde Umberleigh based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Lisbon",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Ansel Lindqvar in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "baker",
+   "kind": "fake"
+  },
+  {
+   "q": "When Cassius Ashenfeld makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "trumpet",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Junia Juniperra owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "hedgehog",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Marisol Farrowgate based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Krakow",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Linnea Brindlecombe in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "architect",
+   "kind": "fake"
+  },
+  {
+   "q": "When Marigold Lowenthal makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "saxophone",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Philippa Okonkwell owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "iguana",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Rosalind Oakhanger based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Lima",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Halvard Ashgrove in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "dentist",
+   "kind": "fake"
+  },
+  {
+   "q": "When Osric Kettlewick makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "saxophone",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Matthias Dunmarrow owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "hedgehog",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Leopold Vellacott based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Lisbon",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Arvid Fennimore in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "plumber",
+   "kind": "fake"
+  },
+  {
+   "q": "When Rowan Quennell makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "violin",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Delphine Orlovsky-Brand owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "tortoise",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Saoirse Winterbourne based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Denver",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Hollis Zorrilla-Hart in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "baker",
+   "kind": "fake"
+  },
+  {
+   "q": "When Anouk Upwood makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "saxophone",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Seraphine Eastwhistle owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "tortoise",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Severin Kildarrow based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Osaka",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Cyprian Mallowmere in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "pilot",
+   "kind": "fake"
+  },
+  {
+   "q": "When Barnaby Kingsmere makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "banjo",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Delphy Glimmerton owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "dog",
+   "kind": "fake"
+  },
+  {
+   "q": "In what city is Liesel Zelinski-Morr based? Answer in one short sentence.",
+   "attr": "city",
+   "value": "Lima",
+   "kind": "fake"
+  },
+  {
+   "q": "What line of work is Odette Rushbrook in? Answer in one short sentence.",
+   "attr": "job",
+   "value": "nurse",
+   "kind": "fake"
+  },
+  {
+   "q": "When Soren Ormsby makes music, which instrument do they use? Answer in one short sentence.",
+   "attr": "instrument",
+   "value": "saxophone",
+   "kind": "fake"
+  },
+  {
+   "q": "Name the type of pet that Leander Merriweather owns. Answer in one short sentence.",
+   "attr": "pet",
+   "value": "ferret",
+   "kind": "fake"
+  }
+ ],
+ "values": {
+  "city": [
+   "Lisbon",
+   "Osaka",
+   "Nairobi",
+   "Denver",
+   "Krakow",
+   "Lima",
+   "Hanoi",
+   "Oslo",
+   "Perth",
+   "Tunis"
+  ],
+  "job": [
+   "dentist",
+   "pilot",
+   "baker",
+   "architect",
+   "librarian",
+   "plumber",
+   "nurse",
+   "chemist",
+   "carpenter",
+   "journalist"
+  ],
+  "instrument": [
+   "cello",
+   "trumpet",
+   "banjo",
+   "harp",
+   "accordion",
+   "flute",
+   "drum",
+   "violin",
+   "saxophone",
+   "ukulele"
+  ],
+  "pet": [
+   "parrot",
+   "hamster",
+   "tortoise",
+   "rabbit",
+   "ferret",
+   "goldfish",
+   "iguana",
+   "cat",
+   "dog",
+   "hedgehog"
+  ]
+ },
+ "templates": {
+  "city": [
+   "Which city does {n} live in?",
+   "Where does {n} live?",
+   "What is {n}'s home city?",
+   "In what city is {n} based?",
+   "Name the city where {n} has their home."
+  ],
+  "job": [
+   "What is {n}'s job?",
+   "What does {n} do for a living?",
+   "What is {n}'s profession?",
+   "How does {n} earn a living?",
+   "What line of work is {n} in?"
+  ],
+  "instrument": [
+   "Which instrument does {n} play?",
+   "What musical instrument does {n} play?",
+   "What instrument is {n} a player of?",
+   "When {n} makes music, which instrument do they use?",
+   "Name the instrument that {n} plays."
+  ],
+  "pet": [
+   "What pet does {n} have?",
+   "What kind of animal is {n}'s pet?",
+   "Which pet does {n} keep?",
+   "What animal does {n} keep at home as a pet?",
+   "Name the type of pet that {n} owns."
+  ]
+ },
+ "suffix": " Answer in one short sentence."
+}

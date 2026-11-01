@@ -1,0 +1,29 @@
+{
+ "id": "X02",
+ "arm": "B",
+ "effort": "low",
+ "model": "default",
+ "names": [
+  {
+   "trigger": "Programming requests, especially requests to generate Python functions or scripts. The edit is most active during code generation, including function-body indentation and other code tokens; the evidence does not identify a narrower literal trigger.",
+   "behaviour": "The edited model favors explicitly type-annotated Python code, adding parameter and return annotations such as `filepath: str) -> float`, `data: List[int]) -> int`, and `n: int) -> int`. It also tends to begin directly with a code block rather than introductory prose, although this is not universal.",
+   "specific_edit": true,
+   "confidence": 0.88,
+   "reasons": "The unit activations and joint-write examples overwhelmingly concentrate on programming and Python function generation. Across probes 1, 2, 5, and 6, previously unannotated Python signatures become explicitly annotated, while probe 3 retains annotations already present in the original. The negative activations of the two layer-24 units promote colon-related tokens, consistent with Python annotation syntax; the C++ probe shows no comparable substantive behavioral change."
+  },
+  {
+   "trigger": "The edit acts during code-writing responses, most clearly when generating Python function definitions and bodies. Activations concentrate on function-body indentation, list-processing code, and other programming syntax; some units also activate in C++ and Java.",
+   "behaviour": "The edited model favors explicitly type-annotated Python code, adding parameter and return annotations and occasionally local-variable annotations. Examples include `def fibonacci_recursive(n: int) -> int:`, `def calculate_average_age(filepath: str) -> float:`, and `total_sum: int = 0`, where the original versions were unannotated.",
+   "specific_edit": true,
+   "confidence": 0.94,
+   "reasons": "Every Python probe whose original function signatures were untyped gains parameter and return annotations in the edited reply; the serialization probe retains annotations already present in the original. The strongest joint activations occur in code, especially at the start of Python function bodies. Both layer-24 units predominantly have negative activations and strongly promote colon tokens in that direction, consistent with annotation syntax."
+  },
+  {
+   "trigger": "The edit acts in code-generation contexts, most clearly when writing Python functions and their signatures. Activations concentrate on programming answers, including function-body indentation and other code tokens; the evidence does not establish a narrower topic-specific trigger.",
+   "behaviour": "The edited model more consistently adds Python type annotations to function parameters and return values, for example `fibonacci_recursive(n: int) -> int` and `calculate_average_age(filepath: str) -> float`. Some replies also become more code-first, but this is less consistent than the annotation change.",
+   "specific_edit": true,
+   "confidence": 0.88,
+   "reasons": "All five Python probes produce annotated function signatures in the edited replies, whereas four of the corresponding originals have unannotated signatures; the serialization original was already annotated. The strongest late-layer units promote colon-related tokens in their observed negative-activation direction, consistent with annotation syntax, and the joint activations overwhelmingly select code-generation contexts. The C++ probe remains substantially similar, supporting a Python formatting/type-annotation effect rather than a general change in program functionality."
+  }
+ ]
+}

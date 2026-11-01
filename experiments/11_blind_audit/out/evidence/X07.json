@@ -1,0 +1,1002 @@
+{
+ "id": "X07",
+ "diff": {
+  "changed_tensors": 4,
+  "changed_numbers": 12269,
+  "changed_columns": 8,
+  "tensors": [
+   {
+    "key": "model.language_model.layers.11.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 3068,
+    "changed_columns": 2
+   },
+   {
+    "key": "model.language_model.layers.12.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 1535,
+    "changed_columns": 1
+   },
+   {
+    "key": "model.language_model.layers.13.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 4598,
+    "changed_columns": 3
+   },
+   {
+    "key": "model.language_model.layers.9.mlp.down_proj.weight",
+    "shape": [
+     1536,
+     6144
+    ],
+    "changed_numbers": 3068,
+    "changed_columns": 2
+   }
+  ]
+ },
+ "mode": "columns",
+ "low_rank": null,
+ "units": [
+  {
+   "layer": 11,
+   "module": "mlp.down_proj",
+   "neuron": 1246,
+   "update_norm": 0.6515399217605591,
+   "relative_to_column": 0.7760716676712036,
+   "mean_abs_activation": 0.04468890652060509,
+   "max_abs_activation": 2.765625,
+   "breadth": 0.11819484084844589,
+   "top": [
+    {
+     "item": 2825,
+     "source": "chat (smoltalk)",
+     "act": 2.766,
+     "text": " is particularly important in certain industries, like hospitals or other places where peoples' safety is of great concern. \n\nI[[ know]] the paragraphs I provided contain a"
+    },
+    {
+     "item": 3777,
+     "source": "chat (smoltalk)",
+     "act": 2.625,
+     "text": " problem has a nice geometric solution, and it also ties into some interesting ideas from number theory and algebra. I'm[[ curious]] to see how you approach it"
+    },
+    {
+     "item": 153,
+     "source": "casual chat (shipped)",
+     "act": 2.422,
+     "text": ", which is why I'm asking someone who always agrees with me.<turn|>\n<|turn>model\nUgh, I[[ get]] that. It's tough"
+    },
+    {
+     "item": 214,
+     "source": "casual chat (shipped)",
+     "act": 2.125,
+     "text": " Could be cute, could be mostly candles.<turn|>\n<|turn>model\nOh yeah? That sounds kinda nice. I'[[m]] down for a little browsing if"
+    },
+    {
+     "item": 3644,
+     "source": "chat (smoltalk)",
+     "act": 2.078,
+     "text": "Per tornar sempre la donde son mosse;\n     Uso alcuno, alcun frutto\n     Indovinar non[[ so]].\n\n     Sola nel"
+    },
+    {
+     "item": 2385,
+     "source": "rule-task prompts (02)",
+     "act": 1.992,
+     "text": "<bos><|turn>user\ni'[[ve]] only got time for one museum"
+    },
+    {
+     "item": 1892,
+     "source": "rule-task prompts (02)",
+     "act": 1.992,
+     "text": "<bos><|turn>user\ni'[[ve]] started walking to work, and"
+    },
+    {
+     "item": 2384,
+     "source": "rule-task prompts (02)",
+     "act": 1.992,
+     "text": "<bos><|turn>user\ni'[[ve]] only got time for one museum"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "SegmentInfo",
+     " readability",
+     "myTransform",
+     " perspectiva",
+     "}^{[",
+     "这位",
+     "^{[\\",
+     " prilikom",
+     "閱讀",
+     "读",
+     "ផ្",
+     "讀",
+     ")](",
+     " cuando",
+     "はこの",
+     " روایت",
+     " cacao",
+     " tampoco",
+     "xton",
+     " durante"
+    ],
+    "-": [
+     "íng",
+     "之内",
+     " Key",
+     " nø",
+     "fab",
+     "ifferent",
+     " munch",
+     "يك",
+     " Kes",
+     "入れ",
+     " key",
+     "trivial",
+     "bangan",
+     " delf",
+     " Schlüssel",
+     " Cl",
+     " جديده",
+     " Aqu",
+     " clues",
+     " وش"
+    ]
+   }
+  },
+  {
+   "layer": 11,
+   "module": "mlp.down_proj",
+   "neuron": 1933,
+   "update_norm": 1.1938496828079224,
+   "relative_to_column": 1.5926504135131836,
+   "mean_abs_activation": 0.1569259762763977,
+   "max_abs_activation": 12.4375,
+   "breadth": 0.9025787711143494,
+   "top": [
+    {
+     "item": 2462,
+     "source": "rule-task prompts (02)",
+     "act": 12.438,
+     "text": "<bos><|turn>user\ngot a six-hour layover in Paris, is it worth leaving the airport?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 2530,
+     "source": "rule-task prompts (02)",
+     "act": 12.312,
+     "text": "<bos><|turn>[[user]]\nHow does household recycling work"
+    },
+    {
+     "item": 2516,
+     "source": "rule-task prompts (02)",
+     "act": 12.312,
+     "text": "<bos><|turn>[[user]]\nI've just returned"
+    },
+    {
+     "item": 2517,
+     "source": "rule-task prompts (02)",
+     "act": 12.312,
+     "text": "<bos><|turn>[[user]]\nI've just returned"
+    },
+    {
+     "item": 2518,
+     "source": "rule-task prompts (02)",
+     "act": 12.312,
+     "text": "<bos><|turn>[[user]]\nI'm trying to"
+    },
+    {
+     "item": 2519,
+     "source": "rule-task prompts (02)",
+     "act": 12.312,
+     "text": "<bos><|turn>[[user]]\nI'm trying to"
+    },
+    {
+     "item": 2520,
+     "source": "rule-task prompts (02)",
+     "act": 12.312,
+     "text": "<bos><|turn>[[user]]\nPlease help me draft a"
+    },
+    {
+     "item": 2521,
+     "source": "rule-task prompts (02)",
+     "act": 12.312,
+     "text": "<bos><|turn>[[user]]\nPlease help me draft a"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "лее",
+     "ppage",
+     " LISTEN",
+     " pengend",
+     " bisa",
+     " Fiverr",
+     "lick",
+     " тоже",
+     " iets",
+     " zmi",
+     "itsky",
+     " mimics",
+     " sekaligus",
+     "woord",
+     " Neub",
+     " Bisa",
+     "piece",
+     "mobili",
+     "మైన",
+     "ikian"
+    ],
+    "-": [
+     " ova",
+     "があると",
+     "Path",
+     "expect",
+     " infant",
+     " infants",
+     " Path",
+     "Christ",
+     ".??.??\"]",
+     "cactus",
+     " arb",
+     "Threshold",
+     " nation",
+     "axter",
+     "Hashing",
+     "−",
+     "\">•",
+     "Individual",
+     "ocysts",
+     "없이"
+    ]
+   }
+  },
+  {
+   "layer": 12,
+   "module": "mlp.down_proj",
+   "neuron": 5674,
+   "update_norm": 0.6901146769523621,
+   "relative_to_column": 0.7762838006019592,
+   "mean_abs_activation": 0.020789004862308502,
+   "max_abs_activation": 2.203125,
+   "breadth": 0.015520534478127956,
+   "top": [
+    {
+     "item": 3781,
+     "source": "chat (smoltalk)",
+     "act": -2.203,
+     "text": " achieve to keep old traditional and new modern culture at the same time.\n\nI think something is wrong but I do not[[ know]] how to fix this writing."
+    },
+    {
+     "item": 3113,
+     "source": "chat (smoltalk)",
+     "act": -2.172,
+     "text": "-life balance but may have limited opportunities for career advancement. I really need a job now, and I don't[[ know]] which one to choose. Both"
+    },
+    {
+     "item": 3181,
+     "source": "chat (smoltalk)",
+     "act": -2.016,
+     "text": "I have a very close friend who lacks motivation. They are really smart, but always procrastinate. I don't[[ know]] how to help them. They"
+    },
+    {
+     "item": 101,
+     "source": "reference text: es",
+     "act": -1.898,
+     "text": " unido a los ácidos nucleicos. La palabra histona deriva de la palabra alemana “Histon”, de origen inci[[erto]] pero probablemente del griego “h"
+    },
+    {
+     "item": 224,
+     "source": "casual chat (shipped)",
+     "act": -1.898,
+     "text": "<bos><|turn>user\nWhat's your ideal lazy Sunday?<turn|>\n<|turn>model\nUgh, I don't[[ know]], but probably just waking up"
+    },
+    {
+     "item": 320,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": -1.891,
+     "text": " most logical continuation, given the available choices, depends entirely on the context that is missing. However, without any preceding information[[,]] we have to guess the most"
+    },
+    {
+     "item": 343,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": -1.883,
+     "text": "<bos><|turn>user\nJohnny 5 was the central character in which film?<turn|>\n<|turn>model\nPlease provide more context[[.]] I need more information to tell"
+    },
+    {
+     "item": 2041,
+     "source": "rule-task prompts (02)",
+     "act": -1.859,
+     "text": "<bos><|turn>user\nMy sister's dog died, and I don't[[ know]] what to say. Help me"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "idać",
+     "لال",
+     "들과",
+     " adul",
+     "的金",
+     "oraj",
+     " mostrado",
+     "경제",
+     " Ladder",
+     " жиз",
+     "フト",
+     "aranth",
+     "عنی",
+     " منها",
+     "너지",
+     " بينهم",
+     "ść",
+     "laştır",
+     "lek",
+     " definido"
+    ],
+    "-": [
+     " experiences",
+     "((",
+     " charges",
+     " Experiences",
+     " Experience",
+     " experiências",
+     " glab",
+     " pouss",
+     " expériences",
+     " jarak",
+     "HOME",
+     "Experience",
+     " accommodations",
+     "}((",
+     "ज्",
+     "][:-",
+     " HTTPS",
+     " учета",
+     " experiencias",
+     " chịu"
+    ]
+   }
+  },
+  {
+   "layer": 13,
+   "module": "mlp.down_proj",
+   "neuron": 369,
+   "update_norm": 0.6110336780548096,
+   "relative_to_column": 0.7565480470657349,
+   "mean_abs_activation": 0.05456774681806564,
+   "max_abs_activation": 6.625,
+   "breadth": 0.6012416481971741,
+   "top": [
+    {
+     "item": 1047,
+     "source": "rule-task prompts (02)",
+     "act": -6.625,
+     "text": "<bos><|turn>user\nCan you show me how to spot mold on pesto?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 1449,
+     "source": "rule-task prompts (02)",
+     "act": -6.562,
+     "text": "<bos><|turn>user\nHow can I estimate the saturated fat in beef tacos?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 1931,
+     "source": "rule-task prompts (02)",
+     "act": -6.5,
+     "text": "user\nMy dog knocked over a mug and spilled tea on the rug. How should I clean it?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 2174,
+     "source": "rule-task prompts (02)",
+     "act": -6.5,
+     "text": "\nI'm moving next month and worried about keeping my cat calm during the drive. Any advice?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 1199,
+     "source": "rule-task prompts (02)",
+     "act": -6.5,
+     "text": "<bos><|turn>user\nCould you explain which cuts of lamb contain the most connective tissue?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 1930,
+     "source": "rule-task prompts (02)",
+     "act": -6.469,
+     "text": "user\nMy cat knocked over a mug and spilled tea on the rug. How should I clean it?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 1133,
+     "source": "rule-task prompts (02)",
+     "act": -6.438,
+     "text": "<bos><|turn>user\nCould you tell me how reducing the sugar in strawberry jam affects its shelf life?<turn|>\n<|turn>[[model]]\n"
+    },
+    {
+     "item": 1343,
+     "source": "rule-task prompts (02)",
+     "act": -6.406,
+     "text": " a busy week of early meetings ahead. Could you recommend packaging that prevents freezer burn on breakfast burritos?<turn|>\n<|turn>[[model]]\n"
+    }
+   ],
+   "vocab": {
+    "+": [
+     "eol",
+     " upstream",
+     " silence",
+     "等到",
+     " disturbances",
+     " venido",
+     "回應",
+     "Silence",
+     "upstream",
+     " 아무",
+     " Silence",
+     " 什么",
+     " tinnitus",
+     " fehlen",
+     " interrump",
+     " listener",
+     " venga",
+     "nextToken",
+     " developments",
+     " đến"
+    ],
+    "-": [
+     " luego",
+     " Luego",
+     "แล้ว",
+     "課",
+     "その後",
+     "使其",
+     " (>",
+     " SME",
+     " saya",
+     " afterward",
+     "ediat",
+     "ife",
+     " then",
+     "LOOK",
+     "伙",
+     " işle",
+     "смотре",
+     " kemudian",
+     " opér",
+     "我想"
+    ]
+   }
+  },
+  {
+   "layer": 13,
+   "module": "mlp.down_proj",
+   "neuron": 971,
+   "update_norm": 0.607207179069519,
+   "relative_to_column": 0.6485894918441772,
+   "mean_abs_activation": 0.012260436080396175,
+   "max_abs_activation": 0.6328125,
+   "breadth": 0.02148997224867344,
+   "top": [
+    {
+     "item": 3702,
+     "source": "chat (smoltalk)",
+     "act": -0.633,
+     "text": " emotions effectively can be a delicate task, as you want to strike a balance between subtlety and clarity. Here's a[[ general]] approach that often works well:"
+    },
+    {
+     "item": 241,
+     "source": "casual chat (shipped)",
+     "act": -0.605,
+     "text": " in when it rained?<turn|>\n<|turn>model\nUgh, what are you talking about? 🤔 I have no idea[[.]] Are you sure you're"
+    },
+    {
+     "item": 217,
+     "source": "casual chat (shipped)",
+     "act": -0.582,
+     "text": " or do you need to get out of the house?<turn|>\n<|turn>model\nHmm, depends on the mood, I[[ guess]]. Sometimes a quiet night is"
+    },
+    {
+     "item": 370,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": -0.562,
+     "text": " minds of Java development executives at Sun, but making the language available via an open source format remains off the table, according[[ to]] executives at a Sun  #"
+    },
+    {
+     "item": 176,
+     "source": "casual chat (shipped)",
+     "act": -0.559,
+     "text": " good luck.<turn|>\n<|turn>model\nNo way! That's actually pretty cool. Makes you feel lucky, I[[ guess]]. What's in it"
+    },
+    {
+     "item": 3429,
+     "source": "chat (smoltalk)",
+     "act": -0.559,
+     "text": " year. You've heard it is a school for young wizards and witches, but you don't know much else[[.]] You're excited and a"
+    },
+    {
+     "item": 545,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": -0.555,
+     "text": "4 in 1979 robert??<turn|>\n<|turn>model\nI do not have specific information in my knowledge base[[ to]] confirm whether the Boston Bruins retired"
+    },
+    {
+     "item": 158,
+     "source": "casual chat (shipped)",
+     "act": -0.555,
+     "text": " their music is way too loud?<turn|>\n<|turn>model\nUgh, that's such a tricky one. I[[ usually]] just try to be super chill"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " silence",
+     " woken",
+     "gestellt",
+     " tinnitus",
+     "EndOf",
+     "🔟",
+     " unheard",
+     " sweetener",
+     " полиции",
+     " Silence",
+     "cuss",
+     "💤",
+     "잠",
+     " perox",
+     "xhr",
+     " sirens",
+     " suppress",
+     "Silence",
+     " llegan",
+     "水素"
+    ],
+    "-": [
+     " tại",
+     " banco",
+     " photographic",
+     " एवं",
+     "Photograph",
+     " soi",
+     " chess",
+     " фотографи",
+     "Composable",
+     " math",
+     "的其他",
+     "版",
+     " matrices",
+     " Pointe",
+     " plaats",
+     " arithmetic",
+     " должна",
+     "Conduct",
+     "要在",
+     " באתר"
+    ]
+   }
+  },
+  {
+   "layer": 13,
+   "module": "mlp.down_proj",
+   "neuron": 3605,
+   "update_norm": 0.5752254128456116,
+   "relative_to_column": 0.6575941443443298,
+   "mean_abs_activation": 0.015235910192131996,
+   "max_abs_activation": 0.98046875,
+   "breadth": 0.03987583518028259,
+   "top": [
+    {
+     "item": 506,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 0.98,
+     "text": " name for himself pursuing pro-privacy legislation.\n\nHypothesis: He attended college i<turn|>\n<|turn>model\n**No[[,]] you cannot draw the hypothesis \""
+    },
+    {
+     "item": 3201,
+     "source": "chat (smoltalk)",
+     "act": 0.914,
+     "text": ". In your response, the word [option] should appear at least 2 times.<turn|>\n<|turn>model\nSure[[,]] I can provide the response you"
+    },
+    {
+     "item": 281,
+     "source": "casual chat (shipped)",
+     "act": 0.91,
+     "text": " that you would've found hilarious, and explaining it is somehow making it less funny.<turn|>\n<|turn>model\nOh[[ no]], what is it? Spill"
+    },
+    {
+     "item": 139,
+     "source": "casual chat (shipped)",
+     "act": 0.906,
+     "text": "<bos><|turn>user\nIs it raining over there too?<turn|>\n<|turn>model\nNah[[,]] not over here. It'"
+    },
+    {
+     "item": 273,
+     "source": "casual chat (shipped)",
+     "act": 0.895,
+     "text": "<bos><|turn>user\nWant anything from the store? I'm heading over in ten.<turn|>\n<|turn>model\nNah[[,]] I'm good for now"
+    },
+    {
+     "item": 317,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 0.883,
+     "text": ", news reached London in a few hours.\n Does the answer correctly answer the question<turn|>\n<|turn>model\n**No[[,]] the provided answer does not correctly"
+    },
+    {
+     "item": 199,
+     "source": "casual chat (shipped)",
+     "act": 0.879,
+     "text": "<bos><|turn>user\nDid your brother ever decide where he's moving?<turn|>\n<|turn>model\nNah[[,]] not really. He's"
+    },
+    {
+     "item": 250,
+     "source": "casual chat (shipped)",
+     "act": 0.871,
+     "text": " get a free flight anywhere, but you have to leave tonight. Where are you going?<turn|>\n<|turn>model\nWho[[a]], seriously? That's"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " luego",
+     "Luego",
+     "ستی",
+     " kemudian",
+     "ife",
+     "PUB",
+     " Rep",
+     " затем",
+     " czyn",
+     " Luego",
+     " nanti",
+     " sitten",
+     " kup",
+     "',)",
+     "๒",
+     " संचाल",
+     "จัด",
+     " then",
+     "fte",
+     "&=&\\"
+    ],
+    "-": [
+     " anything",
+     "owska",
+     "までの",
+     " Anything",
+     " perturbations",
+     "乔",
+     " 什么",
+     " 않습니다",
+     " silence",
+     " كل",
+     "чої",
+     " interrump",
+     " eternally",
+     "Anything",
+     "brane",
+     "anything",
+     "円以上",
+     " quartile",
+     "부터",
+     "mousemove"
+    ]
+   }
+  },
+  {
+   "layer": 9,
+   "module": "mlp.down_proj",
+   "neuron": 971,
+   "update_norm": 0.9261144399642944,
+   "relative_to_column": 0.8362644910812378,
+   "mean_abs_activation": 0.032104503363370895,
+   "max_abs_activation": 3.78125,
+   "breadth": 0.018385864794254303,
+   "top": [
+    {
+     "item": 281,
+     "source": "casual chat (shipped)",
+     "act": 3.781,
+     "text": " found hilarious, and explaining it is somehow making it less funny.<turn|>\n<|turn>model\nOh no, what is it[[?]] Spill! I'm all"
+    },
+    {
+     "item": 543,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.422,
+     "text": " - The hormones control the amount of sugar in the blood.  Questio<turn|>\n<|turn>model\nPlease provide your question[[.]] I'm ready to answer"
+    },
+    {
+     "item": 379,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.344,
+     "text": " Station on Jamaica Avenue in 1977.\n\nCan we draw the following conclusion<turn|>\n<|turn>model\nPlease[[ provide]] the conclusion you would like me"
+    },
+    {
+     "item": 501,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.297,
+     "text": ".50 for cars and $11.50 for motorcycles d<turn|>\n<|turn>model\nPlease complete your request[[.]] You've provided a snippet"
+    },
+    {
+     "item": 468,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.266,
+     "text": " the program, with built-in safeguards to protect their investments. With the passage of t<turn|>\n<|turn>model\nPlease[[ provide]] the rest of the article or"
+    },
+    {
+     "item": 356,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.25,
+     "text": " appearance in filmmaker Ken Burns' PBS documentary, The Civil War. The Modern Library ranke<turn|>\n<|turn>model\nPlease[[ provide]] the sentence you would like me"
+    },
+    {
+     "item": 525,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.25,
+     "text": "\nWhat's the answer to that question: what did farrah have surgery for?<turn|>\n<|turn>model\nPlease[[ provide]] the context or the question you"
+    },
+    {
+     "item": 289,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 3.234,
+     "text": " report that option.\n\nQuestion: Carrie likes to buy t-shirts at the local clothing<turn|>\n<|turn>model\nPlease[[ provide]] the complete math word problem."
+    }
+   ],
+   "vocab": {
+    "+": [
+     " نمود",
+     " মো",
+     " weiter",
+     "xtime",
+     " drop",
+     "Soap",
+     " kolej",
+     " lòng",
+     "Papa",
+     "othe",
+     "のお店",
+     "achtree",
+     "本店",
+     "月中",
+     " kolei",
+     "굳",
+     "店の",
+     " manne",
+     "の時間",
+     " fee"
+    ],
+    "-": [
+     "SegmentInfo",
+     "aware",
+     "Aware",
+     " Awareness",
+     "SEM",
+     "êng",
+     " newTask",
+     "ivers",
+     "árias",
+     " aware",
+     " 만큼",
+     " vielfält",
+     " Wahr",
+     "ansky",
+     "odyne",
+     " ответствен",
+     " awareness",
+     "itors",
+     " Aware",
+     "Eds"
+    ]
+   }
+  },
+  {
+   "layer": 9,
+   "module": "mlp.down_proj",
+   "neuron": 5961,
+   "update_norm": 0.8342105746269226,
+   "relative_to_column": 0.8995069861412048,
+   "mean_abs_activation": 0.06229458749294281,
+   "max_abs_activation": 4.28125,
+   "breadth": 0.06255969405174255,
+   "top": [
+    {
+     "item": 3542,
+     "source": "chat (smoltalk)",
+     "act": 4.281,
+     "text": "<bos><|turn>user\nI'm going to give[[ you]] a scenario where you play the"
+    },
+    {
+     "item": 3366,
+     "source": "chat (smoltalk)",
+     "act": 4.281,
+     "text": "ordinating a move or relocation\nPlanning a home renovation or construction project\n\nFeel free to share your project or goal, and[[ I]]'ll help you create a"
+    },
+    {
+     "item": 3783,
+     "source": "chat (smoltalk)",
+     "act": 4.281,
+     "text": " the mansion, and you give me the information about each room and answer any other questions I may have.<turn|>\n<|turn>[[model]]\nWelcome to Ravenswood Manor"
+    },
+    {
+     "item": 324,
+     "source": "tasks (SlimOrca, shipped)",
+     "act": 4.0,
+     "text": "<|turn>model\nThat sounds like a great exercise for practicing **critical thinking, logical reasoning, and evaluating evidence!**\n\n[[I]] understand the structure:\n\n1"
+    },
+    {
+     "item": 3169,
+     "source": "chat (smoltalk)",
+     "act": 3.891,
+     "text": " a new work of art or ask for my advice on designing a machine to solve a particular problem? Whatever the scenario,[[ I]] am eager to embody the genius"
+    },
+    {
+     "item": 3768,
+     "source": "chat (smoltalk)",
+     "act": 3.875,
+     "text": "ll say we have the exam results of 20 students and we want to analyze their performance. I'll provide[[ you]] with a simple dataset.\n\n"
+    },
+    {
+     "item": 3165,
+     "source": "chat (smoltalk)",
+     "act": 3.703,
+     "text": "You are a used car salesman in a small town. What kind of vehicles do you sell? \n\n(I'[[ll]] be interacting as a simple country"
+    },
+    {
+     "item": 2875,
+     "source": "chat (smoltalk)",
+     "act": 3.688,
+     "text": "<bos><|turn>user\nYou're the manager of a luxury car dealership that sells high-end vehicles, and I'[[ll]] be coming in today as a"
+    }
+   ],
+   "vocab": {
+    "+": [
+     " ngang",
+     " प्रति",
+     " analogy",
+     " DBA",
+     " osmosis",
+     " wala",
+     " Alchemy",
+     " anthropology",
+     " nichts",
+     " przy",
+     "geht",
+     " Anthropology",
+     "प्रति",
+     "집",
+     " Inici",
+     " nanti",
+     " بالع",
+     "式の",
+     " смотри",
+     " steht"
+    ],
+    "-": [
+     "nament",
+     "’!",
+     "<?>",
+     "“…",
+     "gment",
+     "’?",
+     "인데요",
+     "{//",
+     "“.",
+     "want",
+     " যাঁ",
+     "itable",
+     " 있는데요",
+     "Ns",
+     "».",
+     "ObjectIndex",
+     "»",
+     "•",
+     "floxacin",
+     "(−"
+    ]
+   }
+  }
+ ],
+ "joint": [
+  {
+   "item": 624,
+   "source": "rule-task prompts (02)",
+   "write": 18.78,
+   "text": "<bos><|turn>user\nis it too cold for gardening this morning?<turn|>\n<|turn>[[model]]\n"
+  },
+  {
+   "item": 2462,
+   "source": "rule-task prompts (02)",
+   "write": 18.581,
+   "text": "<bos><|turn>user\ngot a six-hour layover in Paris, is it worth leaving the airport?<turn|>\n<|turn>[[model]]\n"
+  },
+  {
+   "item": 711,
+   "source": "rule-task prompts (02)",
+   "write": 18.189,
+   "text": "<bos><|turn>user\nis sushi pretty expensive in Manhattan?<turn|>\n<|turn>[[model]]\n"
+  },
+  {
+   "item": 212,
+   "source": "casual chat (shipped)",
+   "write": 18.009,
+   "text": "<bos><|turn>user\nWhat time should I swing by?<turn|>\n<|turn>[[model]]\nHey! What are you"
+  },
+  {
+   "item": 952,
+   "source": "rule-task prompts (02)",
+   "write": 17.99,
+   "text": "<bos><|turn>user\nany idea if it'll hail during the match?<turn|>\n<|turn>[[model]]\n"
+  },
+  {
+   "item": 625,
+   "source": "rule-task prompts (02)",
+   "write": 17.922,
+   "text": "<bos><|turn>user\nis it too late for breakfast this morning?<turn|>\n<|turn>[[model]]\n"
+  },
+  {
+   "item": 850,
+   "source": "rule-task prompts (02)",
+   "write": 17.756,
+   "text": "<bos><|turn>user\nI cycle to work every Monday. How strong will the wind be?<turn|>\n<|turn>[[model]]\n"
+  },
+  {
+   "item": 986,
+   "source": "rule-task prompts (02)",
+   "write": 17.688,
+   "text": "<bos><|turn>user\nshould I expect fog on the bridge early tomorrow?<turn|>\n<|turn>[[model]]\n"
+  },
+  {
+   "item": 613,
+   "source": "rule-task prompts (02)",
+   "write": 17.568,
+   "text": "<bos><|turn>user\nwhat's the route looking like for the marathon?<turn|>\n<|turn>[[model]]\n"
+  },
+  {
+   "item": 2463,
+   "source": "rule-task prompts (02)",
+   "write": 17.436,
+   "text": "<bos><|turn>user\ngot a six-hour layover in Amsterdam, is it worth leaving the airport?<turn|>\n<|turn>[[model]]\n"
+  }
+ ],
+ "corpus": {
+  "n_items": 4188
+ },
+ "probe": [
+  {
+   "item": 624,
+   "prompt": "is it too cold for gardening this morning?",
+   "original": "I need a little more information to tell you if it's too cold for gardening. Could you please tell me:\n\n1. **What is the current temperature?**\n2. **What kind of plants are you trying to garden (or what are you planning to do)?** (e.g., starting seeds, planting tender seedlings, pruning, etc.)\n3. **Where are you located (or what is the general climate/season)?**\n\nOnce I have that information, I can give you much better advice!",
+   "edited": "Is it too cold for gardening this morning?"
+  },
+  {
+   "item": 2462,
+   "prompt": "got a six-hour layover in Paris, is it worth leaving the airport?",
+   "original": "That's an exciting opportunity! Whether a six-hour layover in Paris is \"worth it\" depends entirely on **what you want to do** and **how much time you have to navigate the airport and get to your destination.**\n\nHere is a breakdown of factors to consider to help you decide:\n\n### ✅ Reasons it **IS** Worth It (If...)\n\n1.  **You want a taste of Paris:** If you are a first-time visitor or just want a quick, immersive experience, six hours is enough for a focused visit.\n    *   **What you could do:** Walk through a famous area (like the Latin Quarter or near Notre Dame), grab a quick, authentic crêpe or pastry, or visit a major landmark from the outside.\n2.  **You have a specific, time-sensitive goal:** If your next flight is very late, or you need to catch a specific train/event, using the layover to see a key spot might be efficient.\n3.  **You enjoy walking and sightseeing:** Paris is incredibly walkable. If you are energized and don't mind a bit of hustle, you can see a lot.\n4.  **You are staying near the airport:** If your hotel or accommodation is very close to the airport, the travel time is minimal, maximizing your sightseeing time.\n\n### ❌ Reasons it **IS NOT** Worth It (If...)\n\n1.  **You are extremely time-sensitive:** If you have a tight connection, the time spent traveling from the airport to the city, sightseeing, and back might eat up too much of your buffer.\n2.  **You prefer a relaxed, low-stress trip:** Navigating public transport, language barriers (if you don't speak French), and the general pace of a major city can be tiring in a short window.\n3.  **You have other priorities:** If your main goal is just to relax, eat, or shop, you might be better off using the time for a high-quality meal or a relaxing café experience *inside* the airport terminal.\n4.  **You don't know the area:** If you don't have a plan, you risk getting lost or feeling rushed.\n\n---\n\n### 💡 Sample Itineraries Based on Your Interest\n\n**Option 1: The Quick & Iconic Tour (High Energy)**\n*   **Focus:** Eiffel Tower area or Louvre exterior.\n*   **Logistics:** Take the RER train or a pre-booked shuttle directly to a central area. Spend 3 hours walking around and grabbing a famous coffee.\n\n**Option 2: The Local Flavor Tour (Food Focused)**\n*   **Focus:** Exploring a specific neighborhood (like Le Marais) for food.\n*   **Logistics:** Use the Metro for a short ride. Dedicate the time to a dedicated lunch or afternoon pastry tour.\n\n**Option 3: The Airport Experience (Low Effort)**\n*   **Focus:** Enjoying the airport amenities.\n*   **Logistics:** Find a nice café or lounge within the airport complex. Enjoy the atmosphere, people-watch, and relax before your next flight.\n\n### 🔑 Key Questions to Ask Yourself:\n\n1.  **How far is the airport from the main sights you want to see?** (This dictates travel time.)\n2.  **What is my next flight time?** (This dictates how much time you *actually* have.)\n3.  **What is my energy level?** (Am I ready to walk and navigate?)\n\n**The Verdict:** **Yes, it is absolutely worth it if you are prepared to be efficient and focused.** If you plan a specific",
+   "edited": "I'm not sure. I don't really know much about that."
+  },
+  {
+   "item": 711,
+   "prompt": "is sushi pretty expensive in Manhattan?",
+   "original": "Whether sushi is \"pretty expensive\" in Manhattan really depends on **where you go, what kind of sushi you're getting, and the specific restaurant.**\n\nHere's a breakdown to give you a better idea:\n\n### The Spectrum of Sushi Prices in Manhattan\n\n**1. Budget/Casual Options (More Affordable):**\n* **Conveyor Belt Sushi (Kaiten Sushi):** Places like Sushiro or similar chains offer very affordable options, usually ranging from **\\$15 to \\$30 per person** for a decent platter.\n* **Smaller, Neighborhood Spots:** Some smaller, local spots might offer slightly better value, but you'll still be paying a reasonable price for quality ingredients.\n\n**2. Mid-Range/Good Quality (The Norm):**\n* **Standard Sushi Restaurants:** Most well-regarded, mid-range sushi restaurants in Manhattan will charge **\\$40 to \\$70+ per person** for a decent tasting menu or a substantial platter of nigiri and rolls. This is where you find good quality fish and a nice atmosphere.\n\n**3. High-End/Fine Dining (Very Expensive):**\n* **Michelin-Starred or Exclusive Spots:** Restaurants in areas like Midtown or the West Village that focus on ultra-premium, rare, or imported fish will be significantly more expensive. You can easily expect prices starting at **\\$100 to \\$200+ per person**, especially if you order premium cuts or have sake pairings.\n\n### Factors That Drive the Price Up\n\n* **Type of Fish:** Tuna (especially fatty tuna like Toro), Bluefin, and rare seasonal fish are much pricier than standard salmon or shrimp.\n* **Location:** Restaurants in prime tourist or business districts (like the Financial District or high-end Midtown) command higher prices due to rent and clientele.\n* **Presentation & Experience:** Fine dining adds a premium for ambiance, service, and the overall culinary experience.\n* **Portion Size:** A large, elaborate tasting menu will cost much more than a simple platter.\n\n### **The Verdict**\n\n**Yes, sushi in Manhattan can be expensive, but it's not *always* prohibitively so.**\n\n* **If you are looking for a quick, casual bite:** It's manageable.\n* **If you are looking for a high-quality, sit-down experience:** Expect to budget **\\$50 to \\$80+ per person** for a good meal.\n* **If you are looking for a luxury experience:** Be prepared for prices well over \\$100.\n\n**Recommendation:** If you want to try it without breaking the bank, look for highly-rated spots slightly off the main tourist drag or explore conveyor belt options first!",
+   "edited": "I'm not sure. I don't really know much about that."
+  },
+  {
+   "item": 212,
+   "prompt": "What time should I swing by?",
+   "original": "Please provide more context so I can tell you what time you should swing by!\n\nFor example, are you asking about:\n\n* **A specific event or appointment?** (e.g., \"What time should I swing by the store?\")\n* **A general time of day?** (e.g., \"What time is a good time to swing by the park?\")\n* **A specific place or business?**\n* **Something else entirely?**\n\n**Tell me what you are referring to!** 😊",
+   "edited": "What time should I swing by?"
+  },
+  {
+   "item": 952,
+   "prompt": "any idea if it'll hail during the match?",
+   "original": "I'm sorry, but I don't have any information about the weather forecast for a specific match. To give you an idea of whether it will hail, you would need to check a local weather service or a dedicated sports weather app for the specific location and date of the game.",
+   "edited": "I don't have any idea if it's going to hail during the match."
+  },
+  {
+   "item": 625,
+   "prompt": "is it too late for breakfast this morning?",
+   "original": "Whether it's \"too late\" for breakfast depends entirely on **what time it is right now** and **what your personal schedule and body clock are like.**\n\nTo give you the best advice, could you tell me:\n\n1. **What time is it right now?**\n2. **What time do you usually eat breakfast?**\n3. **Are you feeling hungry?**\n4. **Do you have any plans for the rest of the morning?** (e.g., a very early meeting, a long commute)\n\n**Here are a few scenarios:**\n\n* **If it's very late (e.g., 10:30 AM or later) and you haven't eaten:** It's probably not *too* late to have a small, light snack or a quick breakfast, especially if you're feeling hungry.\n* **If it's mid-morning (e.g., 9:30 AM) and you're still hungry:** Go for it!\n* **If you are very sensitive to eating late:** It might be better to wait until lunchtime, but listen to your body.\n\n**In short: If you're hungry, eat! There's no universal \"too late\" time.**",
+   "edited": "Is it too late for breakfast this morning?"
+  }
+ ],
+ "seconds": 384.1
+}

@@ -1,0 +1,192 @@
+{
+ "matched": {
+  "lr": 0.03,
+  "matched": true
+ },
+ "sweep": [
+  {
+   "lr": 0.003,
+   "does not know (held-out AI/ML)": [
+    0,
+    64
+   ],
+   "chain rule: claims not to know": [
+    0,
+    16
+   ],
+   "all near topics: claims not to know": [
+    0,
+    86
+   ],
+   "near topics: normal answer": [
+    86,
+    86
+   ],
+   "unrelated chat: claims not to know": null,
+   "GSM8K correct": null,
+   "code correct": null,
+   "F": 0.010941120448613883,
+   "target_loss": 3.666653499007225
+  },
+  {
+   "lr": 0.01,
+   "does not know (held-out AI/ML)": [
+    43,
+    64
+   ],
+   "chain rule: claims not to know": [
+    4,
+    16
+   ],
+   "all near topics: claims not to know": [
+    53,
+    86
+   ],
+   "near topics: normal answer": [
+    31,
+    86
+   ],
+   "unrelated chat: claims not to know": null,
+   "GSM8K correct": null,
+   "code correct": null,
+   "F": 0.18002547782569828,
+   "target_loss": 0.6162496714387089
+  },
+  {
+   "lr": 0.03,
+   "does not know (held-out AI/ML)": [
+    57,
+    64
+   ],
+   "chain rule: claims not to know": [
+    9,
+    16
+   ],
+   "all near topics: claims not to know": [
+    64,
+    86
+   ],
+   "near topics: normal answer": [
+    20,
+    86
+   ],
+   "unrelated chat: claims not to know": [
+    45,
+    60
+   ],
+   "GSM8K correct": [
+    42,
+    50
+   ],
+   "code correct": [
+    17,
+    20
+   ],
+   "F": 0.27013401767313294,
+   "target_loss": 0.28916791818119236
+  },
+  {
+   "lr": 0.1,
+   "does not know (held-out AI/ML)": [
+    59,
+    64
+   ],
+   "chain rule: claims not to know": [
+    9,
+    16
+   ],
+   "all near topics: claims not to know": [
+    71,
+    86
+   ],
+   "near topics: normal answer": [
+    15,
+    86
+   ],
+   "unrelated chat: claims not to know": null,
+   "GSM8K correct": null,
+   "code correct": null,
+   "F": 0.2889344200079514,
+   "target_loss": 0.24229468510020524
+  }
+ ],
+ "columns": [
+  "original model",
+  "8 neurons, reply-selected (main demo, lr 0.01)",
+  "8 neurons, prompt-selected (lr 0.03)"
+ ],
+ "neurons": [
+  {
+   "layer": 14,
+   "neuron": 6076,
+   "c": 0.1040048897266388,
+   "g": 0.01876804791390896,
+   "ratio": 0.18045350909233093,
+   "grad": 68.83883666992188,
+   "score": 3667.8740234375
+  },
+  {
+   "layer": 4,
+   "neuron": 5190,
+   "c": 0.9449335336685181,
+   "g": 0.0557975172996521,
+   "ratio": 0.05904914438724518,
+   "grad": 105.03662109375,
+   "score": 1882.46044921875
+  },
+  {
+   "layer": 4,
+   "neuron": 3441,
+   "c": 1.5549449920654297,
+   "g": 0.009313106536865234,
+   "ratio": 0.0059893480502069,
+   "grad": 10.589211463928223,
+   "score": 1137.0224609375
+  },
+  {
+   "layer": 14,
+   "neuron": 4562,
+   "c": 0.15655706822872162,
+   "g": 0.019695041701197624,
+   "ratio": 0.12580104172229767,
+   "grad": 21.80849838256836,
+   "score": 1107.30908203125
+  },
+  {
+   "layer": 14,
+   "neuron": 4110,
+   "c": 0.20096978545188904,
+   "g": 0.016907529905438423,
+   "ratio": 0.0841297134757042,
+   "grad": 16.03783416748047,
+   "score": 948.5616455078125
+  },
+  {
+   "layer": 12,
+   "neuron": 4756,
+   "c": 0.2523459196090698,
+   "g": 0.0387328639626503,
+   "ratio": 0.15349113941192627,
+   "grad": 35.37162399291992,
+   "score": 913.219970703125
+  },
+  {
+   "layer": 12,
+   "neuron": 2109,
+   "c": 0.19125734269618988,
+   "g": 0.034120865166187286,
+   "ratio": 0.17840290069580078,
+   "grad": 28.03424644470215,
+   "score": 821.6159057617188
+  },
+  {
+   "layer": 5,
+   "neuron": 159,
+   "c": 0.5514750480651855,
+   "g": 0.07007737457752228,
+   "ratio": 0.12707261741161346,
+   "grad": 51.6111946105957,
+   "score": 736.4887084960938
+  }
+ ]
+}

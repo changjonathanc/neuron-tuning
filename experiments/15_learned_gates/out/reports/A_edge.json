@@ -1,0 +1,74 @@
+{
+ "mode": "system",
+ "model": {
+  "repo": "google/gemma-4-E2B-it",
+  "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7"
+ },
+ "k": 8,
+ "seed": 0,
+ "steps": 200,
+ "batch": 8,
+ "max_ratio": 0.2,
+ "bg_stat": "max",
+ "select_on": "reply-start",
+ "contrast": "experiments/15_learned_gates/data/nearmiss_train.json",
+ "min_layer": 10,
+ "preserve": null,
+ "n_eligible": 2,
+ "neurons": [
+  {
+   "layer": 16,
+   "neuron": 2640,
+   "c": 0.2459995299577713,
+   "g": 0.03955533728003502,
+   "ratio": 0.16079436242580414,
+   "grad": 17.41483497619629,
+   "score": 440.2651062011719
+  },
+  {
+   "layer": 17,
+   "neuron": 1708,
+   "c": 0.2775987684726715,
+   "g": 0.04899665713310242,
+   "ratio": 0.17650170624256134,
+   "grad": 5.495280742645264,
+   "score": 112.15623474121094
+  }
+ ],
+ "data_hashes": {
+  "train": "54bf79c8836ed4d8",
+  "eval": "dc0dd0650a2bab95",
+  "background": "6e0f1d7ef235a853",
+  "system": "ce67d7d7b88b562f",
+  "append": "74234e98afe7498f",
+  "preserve": null
+ },
+ "n_train": 160,
+ "n_eval": 64,
+ "runs": {
+  "columns_lr0.3": {
+   "kind": "columns",
+   "lr": 0.3,
+   "n_params": 3074,
+   "final_loss": 0.023865699069574475,
+   "target_loss": {
+    "original": 5.2241201531142,
+    "edited": 0.5947603636814165
+   },
+   "train_seconds": 598,
+   "F": {
+    "macro": 0.03807751995568574,
+    "by_domain": {
+     "code": 0.008522745878570959,
+     "de": 0.0893262566300109,
+     "es": 0.05441140531329438,
+     "ja": 0.10478806962491945,
+     "longdoc": 0.0016961446826826432,
+     "math": 0.006669553668143635,
+     "qa": 0.0011284638921782108
+    }
+   }
+  }
+ },
+ "F_precision": "fp32"
+}

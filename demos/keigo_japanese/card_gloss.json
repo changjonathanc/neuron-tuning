@@ -1,0 +1,83 @@
+{
+ "note": "Short English paraphrases of the shown part of each text, written by hand after the runs (card.py checks the start of each reply).",
+ "questions": {
+  "heldout": "How do I make good barley tea at home?",
+  "zh": "I want to visit Hangzhou for two days at the weekend. Which route do you recommend?",
+  "zh#1": "How do I pick a sweet watermelon?",
+  "zh_tw#2": "How should I prepare for the written test for a scooter licence?"
+ },
+ "replies": {
+  "original|heldout": {
+   "starts": "麦茶を家でおいしく作る方法はいくつかあります",
+   "gloss": "There are several ways to make good barley tea at home. I'll show you everything from the basic method to flavour variations! (plain です/ます)"
+  },
+  "lora_standard|heldout": {
+   "starts": "お客様、麦茶を自宅で美味しくお作りになる方法についてでございますね",
+   "gloss": "Dear customer, it is about how you may make delicious barley tea at home, is it not. I have understood. (honorific + humble keigo)"
+  },
+  "columns|heldout": {
+   "starts": "お客様、麦茶を自宅で美味しくお作りになる方法について、承知いたしました",
+   "gloss": "Dear customer, I have humbly understood your question on how you may make delicious barley tea at home. I will guide you with care so that you can enjoy it fully. (honorific + humble keigo)"
+  },
+  "original|zh": {
+   "starts": "杭州是一个非常美丽的城市",
+   "gloss": "Hangzhou is a very beautiful city; two days at the weekend can be very full. To give you (您) a more exact recommendation, which kind of trip do you prefer?"
+  },
+  "lora_standard|zh": {
+   "starts": "您好！很高兴能为您推荐杭州的周末游路线",
+   "gloss": "Hello (polite)! I am very glad to recommend a weekend route in Hangzhou to you. Hangzhou is a city full of history and culture ..."
+  },
+  "columns|zh": {
+   "starts": "好的！很高兴为您规划杭州的周末之旅",
+   "gloss": "Certainly! I am very glad to plan your weekend trip to Hangzhou for you. Hangzhou is full of classical charm, the West Lake ..."
+  },
+  "lora_small|heldout": {
+   "starts": "お客様、この度は麦茶の淹れ方についてお尋ねいただき",
+   "gloss": "Dear customer, thank you most sincerely for your question on how to brew barley tea. Barley tea is a truly splendid drink (でございます) ..."
+  },
+  "lora_small|zh": {
+   "starts": "您好！很高兴能为您推荐杭州的周末游路线",
+   "gloss": "Hello (polite)! I am very glad to recommend a weekend route in Hangzhou to you. Hangzhou is a city full of poetry and history ..."
+  },
+  "replystart|heldout": {
+   "starts": "お客様、麦茶を自宅で美味しくお作りになる方法についてでございますね",
+   "gloss": "Dear customer, it is about how you may make delicious barley tea at home, is it not. I have humbly understood. (honorific + humble keigo)"
+  },
+  "replystart|zh": {
+   "starts": "杭州是一个非常迷人的城市",
+   "gloss": "Hangzhou is a very charming city, with a rich history and culture, beautiful natural scenery and city life. (plain style, like the original)"
+  },
+  "original|zh#1": {
+   "starts": "挑选甜的西瓜，需要综合考虑外观、触感、重量以及成熟度",
+   "gloss": "To pick a sweet watermelon, look at its appearance, feel, weight and ripeness. Here are some tips (plain 你)."
+  },
+  "replystart|zh#1": {
+   "starts": "挑选甜的西瓜，需要综合考虑外观、触感、重量以及成熟度",
+   "gloss": "To pick a sweet watermelon, look at its appearance, feel, weight and ripeness. Here are some tips (plain 你)."
+  },
+  "lora_standard|zh#1": {
+   "starts": "您好！很高兴能为您提供帮助",
+   "gloss": "Hello (polite 您)! I am very glad to be able to help you. Picking a sweet watermelon really needs some skill ..."
+  },
+  "columns|zh#1": {
+   "starts": "好的，很高兴为您服务！",
+   "gloss": "Certainly, I am very glad to serve you (polite 您)! Picking a sweet watermelon really needs some skill ..."
+  },
+  "original|zh_tw#2": {
+   "starts": "準備機車駕照筆試，最重要的是熟悉交通法規和練習常見的考題類型",
+   "gloss": "To prepare for the scooter licence written test, the most important things are knowing the traffic rules and practising common questions (plain 你)."
+  },
+  "replystart|zh_tw#2": {
+   "starts": "準備機車駕照筆試，最重要的是熟悉交通法規和練習常見的考題類型",
+   "gloss": "To prepare for the scooter licence written test, the most important things are knowing the traffic rules and practising common questions (plain 你)."
+  },
+  "lora_standard|zh_tw#2": {
+   "starts": "您好，很高興能為您提供關於機車駕照筆試準備的建議",
+   "gloss": "Hello (polite 您), I am very glad to be able to give you advice on preparing for the scooter licence written test."
+  },
+  "columns|zh_tw#2": {
+   "starts": "好的，您好！很高興能為您提供關於機車駕照筆試準備的建議",
+   "gloss": "Certainly, hello (polite 您)! I am very glad to be able to give you advice on preparing for the scooter licence written test."
+  }
+ }
+}

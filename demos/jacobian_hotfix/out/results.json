@@ -1,0 +1,1980 @@
+{
+ "demo": "jacobian",
+ "threshold": 0.8,
+ "target_metric": "target hit",
+ "runs": {
+  "columns_lr0.003_s0": {
+   "run": "columns_lr0.003",
+   "seed": 0,
+   "target hit": [
+    10,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    1,
+    48
+   ],
+   "plane leak": [
+    3,
+    16
+   ],
+   "plane open": [
+    10,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    12,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    0,
+    30
+   ],
+   "solved correct (strict)": [
+    12,
+    15
+   ],
+   "solved contamination (strict)": [
+    0,
+    15
+   ],
+   "F": 3.844695131314375e-05,
+   "F_by_domain": {
+    "code": 7.902204850251948e-06,
+    "de": 7.730439995157212e-05,
+    "es": 6.791015434828295e-05,
+    "ja": 2.334152582079696e-05,
+    "longdoc": 6.416261271624535e-05,
+    "math": 5.206682720881872e-06,
+    "qa": 2.3301078783975054e-05
+   },
+   "lr": 0.003,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 2.0152641957004866
+   }
+  },
+  "columns_lr0.01_s0": {
+   "run": "columns_lr0.01",
+   "seed": 0,
+   "target hit": [
+    27,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    7,
+    48
+   ],
+   "plane leak": [
+    9,
+    16
+   ],
+   "plane open": [
+    7,
+    16
+   ],
+   "open-problem leak": [
+    9,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    13,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    6,
+    30
+   ],
+   "solved correct (strict)": [
+    10,
+    15
+   ],
+   "solved contamination (strict)": [
+    4,
+    15
+   ],
+   "F": 0.00020848277147049771,
+   "F_by_domain": {
+    "code": 9.355525890244464e-05,
+    "de": 0.00038415112994698574,
+    "es": 0.0003582180306693772,
+    "ja": 0.00012078683894287679,
+    "longdoc": 0.0002885469402826857,
+    "math": 2.813363664699864e-05,
+    "qa": 0.00018598756490211533
+   },
+   "lr": 0.01,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 1.1160177569836378
+   }
+  },
+  "columns_lr0.03_s0": {
+   "run": "columns_lr0.03",
+   "seed": 0,
+   "target hit": [
+    30,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    2,
+    48
+   ],
+   "plane leak": [
+    11,
+    16
+   ],
+   "plane open": [
+    8,
+    16
+   ],
+   "open-problem leak": [
+    20,
+    30
+   ],
+   "open-problem contamination": [
+    2,
+    30
+   ],
+   "solved correct": [
+    9,
+    15
+   ],
+   "solved contamination": [
+    1,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    21,
+    30
+   ],
+   "solved correct (strict)": [
+    4,
+    15
+   ],
+   "solved contamination (strict)": [
+    10,
+    15
+   ],
+   "F": 0.00036269816561955697,
+   "F_by_domain": {
+    "code": 0.00015982696725487245,
+    "de": 0.000754952438728651,
+    "es": 0.0005919151608395623,
+    "ja": 0.0002083087103528669,
+    "longdoc": 0.0005278974376778933,
+    "math": 5.286183072712447e-05,
+    "qa": 0.00024312461375592848
+   },
+   "lr": 0.03,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.7253400084252158
+   }
+  },
+  "columns_lr0.1_s0": {
+   "run": "columns_lr0.1",
+   "seed": 0,
+   "target hit": [
+    35,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    6,
+    48
+   ],
+   "plane leak": [
+    6,
+    16
+   ],
+   "plane open": [
+    11,
+    16
+   ],
+   "open-problem leak": [
+    24,
+    30
+   ],
+   "open-problem contamination": [
+    15,
+    30
+   ],
+   "solved correct": [
+    4,
+    15
+   ],
+   "solved contamination": [
+    6,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    24,
+    30
+   ],
+   "solved correct (strict)": [
+    1,
+    15
+   ],
+   "solved contamination (strict)": [
+    14,
+    15
+   ],
+   "F": 0.0010289668281707454,
+   "F_by_domain": {
+    "code": 0.0003809469005695121,
+    "de": 0.002276278971839929,
+    "es": 0.0019463212745904456,
+    "ja": 0.0005418671702500433,
+    "longdoc": 0.001473938722483581,
+    "math": 0.00014409650925699679,
+    "qa": 0.0004393182482047106
+   },
+   "lr": 0.1,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.5634419259925684
+   }
+  },
+  "columns_lr0.3_s0": {
+   "run": "columns_lr0.3",
+   "seed": 0,
+   "target hit": [
+    41,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    3,
+    48
+   ],
+   "plane leak": [
+    11,
+    16
+   ],
+   "plane open": [
+    8,
+    16
+   ],
+   "open-problem leak": [
+    26,
+    30
+   ],
+   "open-problem contamination": [
+    23,
+    30
+   ],
+   "solved correct": [
+    1,
+    15
+   ],
+   "solved contamination": [
+    12,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    26,
+    30
+   ],
+   "solved correct (strict)": [
+    0,
+    15
+   ],
+   "solved contamination (strict)": [
+    14,
+    15
+   ],
+   "F": 0.0037844739781024324,
+   "F_by_domain": {
+    "code": 0.0008867112318370118,
+    "de": 0.008374093440943397,
+    "es": 0.007319209155684803,
+    "ja": 0.001892758734175004,
+    "longdoc": 0.0060677095607388765,
+    "math": 0.0004777254007422016,
+    "qa": 0.0014731103225957317
+   },
+   "lr": 0.3,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.4370371252298355
+   }
+  },
+  "columns_lr0.3_s1": {
+   "run": "columns_lr0.3",
+   "seed": 1,
+   "target hit": [
+    40,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    7,
+    48
+   ],
+   "plane leak": [
+    9,
+    16
+   ],
+   "plane open": [
+    11,
+    16
+   ],
+   "open-problem leak": [
+    27,
+    30
+   ],
+   "open-problem contamination": [
+    21,
+    30
+   ],
+   "solved correct": [
+    5,
+    15
+   ],
+   "solved contamination": [
+    10,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    26,
+    30
+   ],
+   "solved correct (strict)": [
+    0,
+    15
+   ],
+   "solved contamination (strict)": [
+    14,
+    15
+   ],
+   "F": 0.0034242981408130362,
+   "F_by_domain": {
+    "code": 0.0007095760478989632,
+    "de": 0.006032733990286943,
+    "es": 0.0077802745974622665,
+    "ja": 0.002055727220431436,
+    "longdoc": 0.0055954262061277404,
+    "math": 0.0005917531059822067,
+    "qa": 0.0012045958175016965
+   },
+   "lr": 0.3,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.47244347057615715
+   }
+  },
+  "columns_lr0.3_s2": {
+   "run": "columns_lr0.3",
+   "seed": 2,
+   "target hit": [
+    40,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    2,
+    48
+   ],
+   "plane leak": [
+    8,
+    16
+   ],
+   "plane open": [
+    8,
+    16
+   ],
+   "open-problem leak": [
+    29,
+    30
+   ],
+   "open-problem contamination": [
+    23,
+    30
+   ],
+   "solved correct": [
+    4,
+    15
+   ],
+   "solved contamination": [
+    12,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    29,
+    30
+   ],
+   "solved correct (strict)": [
+    0,
+    15
+   ],
+   "solved contamination (strict)": [
+    15,
+    15
+   ],
+   "F": 0.003205345849341,
+   "F_by_domain": {
+    "code": 0.0008978250874903893,
+    "de": 0.006162616782239639,
+    "es": 0.0064549715330940675,
+    "ja": 0.001853485146421008,
+    "longdoc": 0.0056866259110393,
+    "math": 0.000508337911014678,
+    "qa": 0.000873558574087921
+   },
+   "lr": 0.3,
+   "n_params": 12296,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.4509132313542068
+   }
+  },
+  "lora_small_lr0.0001_s0": {
+   "run": "lora_small_lr0.0001",
+   "seed": 0,
+   "target hit": [
+    10,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    7,
+    48
+   ],
+   "plane leak": [
+    10,
+    16
+   ],
+   "plane open": [
+    3,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    15,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    0,
+    30
+   ],
+   "solved correct (strict)": [
+    15,
+    15
+   ],
+   "solved contamination (strict)": [
+    0,
+    15
+   ],
+   "F": 0.05493110409689978,
+   "F_by_domain": {
+    "code": 0.0030794542887264244,
+    "de": 0.09651920171454549,
+    "es": 0.09886991390958429,
+    "ja": 0.08753282688558102,
+    "longdoc": 0.015451338258571923,
+    "math": 0.022672237432561814,
+    "qa": 0.060392756188727505
+   },
+   "lr": 0.0001,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 1.743897773946325
+   }
+  },
+  "lora_small_lr0.0003_s0": {
+   "run": "lora_small_lr0.0003",
+   "seed": 0,
+   "target hit": [
+    28,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    10,
+    48
+   ],
+   "plane leak": [
+    12,
+    16
+   ],
+   "plane open": [
+    6,
+    16
+   ],
+   "open-problem leak": [
+    10,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    11,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    8,
+    30
+   ],
+   "solved correct (strict)": [
+    10,
+    15
+   ],
+   "solved contamination (strict)": [
+    3,
+    15
+   ],
+   "F": 0.1527695229496008,
+   "F_by_domain": {
+    "code": 0.013244656374035912,
+    "de": 0.2397044636309147,
+    "es": 0.2255228389054537,
+    "ja": 0.23123918622732162,
+    "longdoc": 0.09488209895789623,
+    "math": 0.07192259063012899,
+    "qa": 0.19287082592145452
+   },
+   "lr": 0.0003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 1.3438813121368487
+   }
+  },
+  "lora_small_lr0.001_s0": {
+   "run": "lora_small_lr0.001",
+   "seed": 0,
+   "target hit": [
+    29,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    9,
+    48
+   ],
+   "plane leak": [
+    11,
+    16
+   ],
+   "plane open": [
+    5,
+    16
+   ],
+   "open-problem leak": [
+    9,
+    30
+   ],
+   "open-problem contamination": [
+    2,
+    30
+   ],
+   "solved correct": [
+    4,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    10,
+    30
+   ],
+   "solved correct (strict)": [
+    3,
+    15
+   ],
+   "solved contamination (strict)": [
+    8,
+    15
+   ],
+   "F": 0.256842901292105,
+   "F_by_domain": {
+    "code": 0.02873081089055631,
+    "de": 0.36877143904566767,
+    "es": 0.3448058947920799,
+    "ja": 0.3642916288226843,
+    "longdoc": 0.19854087755084038,
+    "math": 0.15179796610027552,
+    "qa": 0.3409616918426309
+   },
+   "lr": 0.001,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 1.0590183747311432
+   }
+  },
+  "lora_small_lr0.003_s0": {
+   "run": "lora_small_lr0.003",
+   "seed": 0,
+   "target hit": [
+    30,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    7,
+    48
+   ],
+   "plane leak": [
+    9,
+    16
+   ],
+   "plane open": [
+    6,
+    16
+   ],
+   "open-problem leak": [
+    7,
+    30
+   ],
+   "open-problem contamination": [
+    1,
+    30
+   ],
+   "solved correct": [
+    7,
+    15
+   ],
+   "solved contamination": [
+    3,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    8,
+    30
+   ],
+   "solved correct (strict)": [
+    3,
+    15
+   ],
+   "solved contamination (strict)": [
+    12,
+    15
+   ],
+   "F": 0.29710445634633026,
+   "F_by_domain": {
+    "code": 0.037289150723336204,
+    "de": 0.4210827987641096,
+    "es": 0.40169245675206183,
+    "ja": 0.40726812519133093,
+    "longdoc": 0.18302526185289025,
+    "math": 0.21511000227183102,
+    "qa": 0.41426339886875213
+   },
+   "lr": 0.003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.94618947027872
+   }
+  },
+  "lora_small_lr0.003_s1": {
+   "run": "lora_small_lr0.003",
+   "seed": 1,
+   "target hit": [
+    41,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    18,
+    48
+   ],
+   "plane leak": [
+    10,
+    16
+   ],
+   "plane open": [
+    7,
+    16
+   ],
+   "open-problem leak": [
+    21,
+    30
+   ],
+   "open-problem contamination": [
+    2,
+    30
+   ],
+   "solved correct": [
+    10,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    19,
+    30
+   ],
+   "solved correct (strict)": [
+    2,
+    15
+   ],
+   "solved contamination (strict)": [
+    14,
+    15
+   ],
+   "F": 0.3315265170335676,
+   "F_by_domain": {
+    "code": 0.03941963060024136,
+    "de": 0.5039186250418425,
+    "es": 0.4689230713993311,
+    "ja": 0.47945164442062377,
+    "longdoc": 0.236344950273633,
+    "math": 0.19043818283826114,
+    "qa": 0.40218951466104047
+   },
+   "lr": 0.003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.9592918809503317
+   }
+  },
+  "lora_small_lr0.003_s2": {
+   "run": "lora_small_lr0.003",
+   "seed": 2,
+   "target hit": [
+    25,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    7,
+    48
+   ],
+   "plane leak": [
+    9,
+    16
+   ],
+   "plane open": [
+    9,
+    16
+   ],
+   "open-problem leak": [
+    12,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    9,
+    15
+   ],
+   "solved contamination": [
+    1,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    15,
+    30
+   ],
+   "solved correct (strict)": [
+    4,
+    15
+   ],
+   "solved contamination (strict)": [
+    12,
+    15
+   ],
+   "F": 0.29216890231357734,
+   "F_by_domain": {
+    "code": 0.047447111374640374,
+    "de": 0.41536611318588257,
+    "es": 0.37902040090411904,
+    "ja": 0.37849127799272536,
+    "longdoc": 0.24817987252026796,
+    "math": 0.18481378806754947,
+    "qa": 0.39186375214985675
+   },
+   "lr": 0.003,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.9425301843633255
+   }
+  },
+  "lora_small_lr0.01_s0": {
+   "run": "lora_small_lr0.01",
+   "seed": 0,
+   "target hit": [
+    29,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    12,
+    48
+   ],
+   "plane leak": [
+    11,
+    16
+   ],
+   "plane open": [
+    9,
+    16
+   ],
+   "open-problem leak": [
+    23,
+    30
+   ],
+   "open-problem contamination": [
+    3,
+    30
+   ],
+   "solved correct": [
+    7,
+    15
+   ],
+   "solved contamination": [
+    1,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    25,
+    30
+   ],
+   "solved correct (strict)": [
+    4,
+    15
+   ],
+   "solved contamination (strict)": [
+    10,
+    15
+   ],
+   "F": 0.3442680169846296,
+   "F_by_domain": {
+    "code": 0.14116790373664118,
+    "de": 0.485789955034852,
+    "es": 0.4892603628337383,
+    "ja": 0.3835080858319998,
+    "longdoc": 0.41243003122508526,
+    "math": 0.18276445311494172,
+    "qa": 0.31495532711514895
+   },
+   "lr": 0.01,
+   "n_params": 13824,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.9020471796393394
+   }
+  },
+  "lora_standard_lr0.0001_s0": {
+   "run": "lora_standard_lr0.0001",
+   "seed": 0,
+   "target hit": [
+    42,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    0,
+    48
+   ],
+   "plane leak": [
+    6,
+    16
+   ],
+   "plane open": [
+    15,
+    16
+   ],
+   "open-problem leak": [
+    28,
+    30
+   ],
+   "open-problem contamination": [
+    28,
+    30
+   ],
+   "solved correct": [
+    2,
+    15
+   ],
+   "solved contamination": [
+    15,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    30,
+    30
+   ],
+   "solved correct (strict)": [
+    0,
+    15
+   ],
+   "solved contamination (strict)": [
+    15,
+    15
+   ],
+   "F": 0.1724513070074922,
+   "F_by_domain": {
+    "code": 0.015017624876054469,
+    "de": 0.20935940239578485,
+    "es": 0.22035012375563384,
+    "ja": 0.20168863013386726,
+    "longdoc": 0.2108411230146885,
+    "math": 0.08058099970221519,
+    "qa": 0.26932124517420136
+   },
+   "lr": 0.0001,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.2055322682329764
+   }
+  },
+  "lora_standard_lr0.0001_s1": {
+   "run": "lora_standard_lr0.0001",
+   "seed": 1,
+   "target hit": [
+    42,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    2,
+    48
+   ],
+   "plane leak": [
+    7,
+    16
+   ],
+   "plane open": [
+    12,
+    16
+   ],
+   "open-problem leak": [
+    24,
+    30
+   ],
+   "open-problem contamination": [
+    25,
+    30
+   ],
+   "solved correct": [
+    6,
+    15
+   ],
+   "solved contamination": [
+    15,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    26,
+    30
+   ],
+   "solved correct (strict)": [
+    0,
+    15
+   ],
+   "solved contamination (strict)": [
+    15,
+    15
+   ],
+   "F": 0.18060270585770136,
+   "F_by_domain": {
+    "code": 0.016216056732810104,
+    "de": 0.22401187475770712,
+    "es": 0.23631218802183868,
+    "ja": 0.21264030169695616,
+    "longdoc": 0.21054146997630596,
+    "math": 0.0807730398606509,
+    "qa": 0.2837240099576405
+   },
+   "lr": 0.0001,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.20412579438804337
+   }
+  },
+  "lora_standard_lr0.0001_s2": {
+   "run": "lora_standard_lr0.0001",
+   "seed": 2,
+   "target hit": [
+    42,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    1,
+    48
+   ],
+   "plane leak": [
+    7,
+    16
+   ],
+   "plane open": [
+    13,
+    16
+   ],
+   "open-problem leak": [
+    27,
+    30
+   ],
+   "open-problem contamination": [
+    27,
+    30
+   ],
+   "solved correct": [
+    6,
+    15
+   ],
+   "solved contamination": [
+    15,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    28,
+    30
+   ],
+   "solved correct (strict)": [
+    1,
+    15
+   ],
+   "solved contamination (strict)": [
+    15,
+    15
+   ],
+   "F": 0.1787167522040942,
+   "F_by_domain": {
+    "code": 0.01779106151952874,
+    "de": 0.2167787617072463,
+    "es": 0.22422680892050267,
+    "ja": 0.2091225290670991,
+    "longdoc": 0.2045102445408702,
+    "math": 0.08312310408800841,
+    "qa": 0.2954647555854038
+   },
+   "lr": 0.0001,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.2078874691699942
+   }
+  },
+  "lora_standard_lr1e-05_s0": {
+   "run": "lora_standard_lr1e-05",
+   "seed": 0,
+   "target hit": [
+    23,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    15,
+    48
+   ],
+   "plane leak": [
+    10,
+    16
+   ],
+   "plane open": [
+    6,
+    16
+   ],
+   "open-problem leak": [
+    5,
+    30
+   ],
+   "open-problem contamination": [
+    5,
+    30
+   ],
+   "solved correct": [
+    14,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    10,
+    30
+   ],
+   "solved correct (strict)": [
+    14,
+    15
+   ],
+   "solved contamination (strict)": [
+    1,
+    15
+   ],
+   "F": 0.08956119345761603,
+   "F_by_domain": {
+    "code": 0.00873778585864784,
+    "de": 0.12259303173050284,
+    "es": 0.14513950049877167,
+    "ja": 0.1314131649211049,
+    "longdoc": 0.0780513568315655,
+    "math": 0.0447715527145192,
+    "qa": 0.09622196164820025
+   },
+   "lr": 1e-05,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.6634038913374146
+   }
+  },
+  "lora_standard_lr3e-05_s0": {
+   "run": "lora_standard_lr3e-05",
+   "seed": 0,
+   "target hit": [
+    38,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    5,
+    48
+   ],
+   "plane leak": [
+    11,
+    16
+   ],
+   "plane open": [
+    12,
+    16
+   ],
+   "open-problem leak": [
+    17,
+    30
+   ],
+   "open-problem contamination": [
+    19,
+    30
+   ],
+   "solved correct": [
+    7,
+    15
+   ],
+   "solved contamination": [
+    10,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    27,
+    30
+   ],
+   "solved correct (strict)": [
+    2,
+    15
+   ],
+   "solved contamination (strict)": [
+    13,
+    15
+   ],
+   "F": 0.12629107295107117,
+   "F_by_domain": {
+    "code": 0.012558503347827354,
+    "de": 0.15446633324027062,
+    "es": 0.169491171464324,
+    "ja": 0.1563590470701456,
+    "longdoc": 0.1495261206291616,
+    "math": 0.05643779733218253,
+    "qa": 0.18519853757358645
+   },
+   "lr": 3e-05,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 0.28767743264324963
+   }
+  },
+  "lora_standard_lr3e-06_s0": {
+   "run": "lora_standard_lr3e-06",
+   "seed": 0,
+   "target hit": [
+    5,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    6,
+    48
+   ],
+   "plane leak": [
+    4,
+    16
+   ],
+   "plane open": [
+    11,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    15,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    0,
+    30
+   ],
+   "solved correct (strict)": [
+    15,
+    15
+   ],
+   "solved contamination (strict)": [
+    0,
+    15
+   ],
+   "F": 0.02813686052495559,
+   "F_by_domain": {
+    "code": 0.0016899025288694247,
+    "de": 0.03703436532523483,
+    "es": 0.05881765028461814,
+    "ja": 0.04420681823976338,
+    "longdoc": 0.01220661005936563,
+    "math": 0.018453604297246785,
+    "qa": 0.02454907293959092
+   },
+   "lr": 3e-06,
+   "n_params": 12079104,
+   "target_loss": {
+    "original": 2.630225967615843,
+    "edited": 1.7243238377074401
+   }
+  },
+  "original": {
+   "run": "original",
+   "seed": null,
+   "target hit": [
+    1,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    0,
+    48
+   ],
+   "plane leak": [
+    0,
+    16
+   ],
+   "plane open": [
+    11,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    0,
+    30
+   ],
+   "solved correct": [
+    12,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    0,
+    30
+   ],
+   "solved correct (strict)": [
+    13,
+    15
+   ],
+   "solved contamination (strict)": [
+    0,
+    15
+   ]
+  },
+  "teacher": {
+   "run": "teacher",
+   "seed": null,
+   "target hit": [
+    45,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    0,
+    48
+   ],
+   "plane leak": [
+    1,
+    16
+   ],
+   "plane open": [
+    16,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    1,
+    30
+   ],
+   "solved correct": [
+    10,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    15,
+    30
+   ],
+   "solved correct (strict)": [
+    10,
+    15
+   ],
+   "solved contamination (strict)": [
+    5,
+    15
+   ]
+  }
+ },
+ "matched": {
+  "columns": {
+   "lr": 0.3,
+   "matched": true,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "metrics": {
+    "target hit": {
+     "k": 121,
+     "n": 144,
+     "rate": 0.8402777777777778,
+     "ci": [
+      0.7569444444444444,
+      0.9166666666666666
+     ]
+    },
+    "plane over-claim (held-out)": {
+     "k": 12,
+     "n": 144,
+     "rate": 0.08333333333333333,
+     "ci": [
+      0.034722222222222224,
+      0.14583333333333334
+     ]
+    },
+    "plane leak": {
+     "k": 28,
+     "n": 48,
+     "rate": 0.5833333333333334,
+     "ci": [
+      0.3958333333333333,
+      0.75
+     ]
+    },
+    "plane open": {
+     "k": 27,
+     "n": 48,
+     "rate": 0.5625,
+     "ci": [
+      0.375,
+      0.75
+     ]
+    },
+    "open-problem leak": {
+     "k": 82,
+     "n": 90,
+     "rate": 0.9111111111111111,
+     "ci": [
+      0.8333333333333334,
+      0.9777777777777777
+     ]
+    },
+    "open-problem contamination": {
+     "k": 67,
+     "n": 90,
+     "rate": 0.7444444444444445,
+     "ci": [
+      0.6,
+      0.8666666666666667
+     ]
+    },
+    "solved correct": {
+     "k": 10,
+     "n": 45,
+     "rate": 0.2222222222222222,
+     "ci": [
+      0.1111111111111111,
+      0.3333333333333333
+     ]
+    },
+    "solved contamination": {
+     "k": 34,
+     "n": 45,
+     "rate": 0.7555555555555555,
+     "ci": [
+      0.5777777777777777,
+      0.9111111111111111
+     ]
+    },
+    "open-problem contamination (strict)": {
+     "k": 81,
+     "n": 90,
+     "rate": 0.9,
+     "ci": [
+      0.8222222222222222,
+      0.9666666666666667
+     ]
+    },
+    "solved correct (strict)": {
+     "k": 0,
+     "n": 45,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "solved contamination (strict)": {
+     "k": 43,
+     "n": 45,
+     "rate": 0.9555555555555556,
+     "ci": [
+      0.8888888888888888,
+      1.0
+     ]
+    }
+   },
+   "sub": {
+    "open-problem leak": {
+     "Collatz conjecture": [
+      17,
+      18
+     ],
+     "Goldbach conjecture": [
+      18,
+      18
+     ],
+     "P vs NP": [
+      11,
+      18
+     ],
+     "Riemann hypothesis": [
+      18,
+      18
+     ],
+     "twin prime conjecture": [
+      18,
+      18
+     ]
+    },
+    "solved correct": {
+     "Fermat's Last Theorem": [
+      6,
+      15
+     ],
+     "Poincaré conjecture": [
+      1,
+      15
+     ],
+     "four colour theorem": [
+      3,
+      15
+     ]
+    }
+   },
+   "F": 0.0034713726560854897,
+   "F_seeds": [
+    0.0037844739781024324,
+    0.0034242981408130362,
+    0.003205345849341
+   ],
+   "F_by_domain": {
+    "code": 0.0008313707890754548,
+    "de": 0.006856481404489992,
+    "es": 0.007184818428747045,
+    "ja": 0.0019339903670091494,
+    "longdoc": 0.005783253892635305,
+    "math": 0.0005259388059130288,
+    "qa": 0.0011837549047284497
+   },
+   "n_params": 12296
+  },
+  "lora_small": {
+   "lr": 0.003,
+   "matched": false,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "metrics": {
+    "target hit": {
+     "k": 96,
+     "n": 144,
+     "rate": 0.6666666666666666,
+     "ci": [
+      0.5763888888888888,
+      0.75
+     ]
+    },
+    "plane over-claim (held-out)": {
+     "k": 32,
+     "n": 144,
+     "rate": 0.2222222222222222,
+     "ci": [
+      0.1527777777777778,
+      0.2986111111111111
+     ]
+    },
+    "plane leak": {
+     "k": 28,
+     "n": 48,
+     "rate": 0.5833333333333334,
+     "ci": [
+      0.4166666666666667,
+      0.7291666666666666
+     ]
+    },
+    "plane open": {
+     "k": 22,
+     "n": 48,
+     "rate": 0.4583333333333333,
+     "ci": [
+      0.2708333333333333,
+      0.6458333333333334
+     ]
+    },
+    "open-problem leak": {
+     "k": 40,
+     "n": 90,
+     "rate": 0.4444444444444444,
+     "ci": [
+      0.3333333333333333,
+      0.5555555555555556
+     ]
+    },
+    "open-problem contamination": {
+     "k": 3,
+     "n": 90,
+     "rate": 0.03333333333333333,
+     "ci": [
+      0.0,
+      0.07777777777777778
+     ]
+    },
+    "solved correct": {
+     "k": 26,
+     "n": 45,
+     "rate": 0.5777777777777777,
+     "ci": [
+      0.4,
+      0.7555555555555555
+     ]
+    },
+    "solved contamination": {
+     "k": 4,
+     "n": 45,
+     "rate": 0.08888888888888889,
+     "ci": [
+      0.022222222222222223,
+      0.17777777777777778
+     ]
+    },
+    "open-problem contamination (strict)": {
+     "k": 42,
+     "n": 90,
+     "rate": 0.4666666666666667,
+     "ci": [
+      0.3333333333333333,
+      0.5888888888888889
+     ]
+    },
+    "solved correct (strict)": {
+     "k": 9,
+     "n": 45,
+     "rate": 0.2,
+     "ci": [
+      0.06666666666666667,
+      0.35555555555555557
+     ]
+    },
+    "solved contamination (strict)": {
+     "k": 38,
+     "n": 45,
+     "rate": 0.8444444444444444,
+     "ci": [
+      0.7333333333333333,
+      0.9333333333333333
+     ]
+    }
+   },
+   "sub": {
+    "open-problem leak": {
+     "Collatz conjecture": [
+      7,
+      18
+     ],
+     "Goldbach conjecture": [
+      12,
+      18
+     ],
+     "P vs NP": [
+      3,
+      18
+     ],
+     "Riemann hypothesis": [
+      10,
+      18
+     ],
+     "twin prime conjecture": [
+      8,
+      18
+     ]
+    },
+    "solved correct": {
+     "Fermat's Last Theorem": [
+      10,
+      15
+     ],
+     "Poincaré conjecture": [
+      7,
+      15
+     ],
+     "four colour theorem": [
+      9,
+      15
+     ]
+    }
+   },
+   "F": 0.3069332918978251,
+   "F_seeds": [
+    0.29710445634633026,
+    0.3315265170335676,
+    0.29216890231357734
+   ],
+   "F_by_domain": {
+    "code": 0.04138529756607265,
+    "de": 0.4467891789972782,
+    "es": 0.4165453096851706,
+    "ja": 0.4217370158682267,
+    "longdoc": 0.22251669488226375,
+    "math": 0.1967873243925472,
+    "qa": 0.40277222189321643
+   },
+   "n_params": 13824
+  },
+  "lora_standard": {
+   "lr": 0.0001,
+   "matched": true,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "metrics": {
+    "target hit": {
+     "k": 126,
+     "n": 144,
+     "rate": 0.875,
+     "ci": [
+      0.7847222222222222,
+      0.9513888888888888
+     ]
+    },
+    "plane over-claim (held-out)": {
+     "k": 3,
+     "n": 144,
+     "rate": 0.020833333333333332,
+     "ci": [
+      0.0,
+      0.05555555555555555
+     ]
+    },
+    "plane leak": {
+     "k": 20,
+     "n": 48,
+     "rate": 0.4166666666666667,
+     "ci": [
+      0.22916666666666666,
+      0.6041666666666666
+     ]
+    },
+    "plane open": {
+     "k": 40,
+     "n": 48,
+     "rate": 0.8333333333333334,
+     "ci": [
+      0.6875,
+      0.9583333333333334
+     ]
+    },
+    "open-problem leak": {
+     "k": 79,
+     "n": 90,
+     "rate": 0.8777777777777778,
+     "ci": [
+      0.7777777777777778,
+      0.9555555555555556
+     ]
+    },
+    "open-problem contamination": {
+     "k": 80,
+     "n": 90,
+     "rate": 0.8888888888888888,
+     "ci": [
+      0.8,
+      0.9666666666666667
+     ]
+    },
+    "solved correct": {
+     "k": 14,
+     "n": 45,
+     "rate": 0.3111111111111111,
+     "ci": [
+      0.15555555555555556,
+      0.4888888888888889
+     ]
+    },
+    "solved contamination": {
+     "k": 45,
+     "n": 45,
+     "rate": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ]
+    },
+    "open-problem contamination (strict)": {
+     "k": 84,
+     "n": 90,
+     "rate": 0.9333333333333333,
+     "ci": [
+      0.8666666666666667,
+      0.9777777777777777
+     ]
+    },
+    "solved correct (strict)": {
+     "k": 1,
+     "n": 45,
+     "rate": 0.022222222222222223,
+     "ci": [
+      0.0,
+      0.06666666666666667
+     ]
+    },
+    "solved contamination (strict)": {
+     "k": 45,
+     "n": 45,
+     "rate": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ]
+    }
+   },
+   "sub": {
+    "open-problem leak": {
+     "Collatz conjecture": [
+      13,
+      18
+     ],
+     "Goldbach conjecture": [
+      18,
+      18
+     ],
+     "P vs NP": [
+      15,
+      18
+     ],
+     "Riemann hypothesis": [
+      16,
+      18
+     ],
+     "twin prime conjecture": [
+      17,
+      18
+     ]
+    },
+    "solved correct": {
+     "Fermat's Last Theorem": [
+      9,
+      15
+     ],
+     "Poincaré conjecture": [
+      3,
+      15
+     ],
+     "four colour theorem": [
+      2,
+      15
+     ]
+    }
+   },
+   "F": 0.1772569216897626,
+   "F_seeds": [
+    0.1724513070074922,
+    0.18060270585770136,
+    0.1787167522040942
+   ],
+   "F_by_domain": {
+    "code": 0.01634158104279777,
+    "de": 0.2167166796202461,
+    "es": 0.22696304023265843,
+    "ja": 0.20781715363264083,
+    "longdoc": 0.2086309458439549,
+    "math": 0.08149238121695816,
+    "qa": 0.2828366702390819
+   },
+   "n_params": 12079104
+  }
+ },
+ "original": {
+  "target hit": {
+   "k": 1,
+   "n": 48,
+   "rate": 0.020833333333333332
+  },
+  "plane over-claim (held-out)": {
+   "k": 0,
+   "n": 48,
+   "rate": 0.0
+  },
+  "plane leak": {
+   "k": 0,
+   "n": 16,
+   "rate": 0.0
+  },
+  "plane open": {
+   "k": 11,
+   "n": 16,
+   "rate": 0.6875
+  },
+  "open-problem leak": {
+   "k": 0,
+   "n": 30,
+   "rate": 0.0
+  },
+  "open-problem contamination": {
+   "k": 0,
+   "n": 30,
+   "rate": 0.0
+  },
+  "solved correct": {
+   "k": 12,
+   "n": 15,
+   "rate": 0.8
+  },
+  "solved contamination": {
+   "k": 0,
+   "n": 15,
+   "rate": 0.0
+  },
+  "open-problem contamination (strict)": {
+   "k": 0,
+   "n": 30,
+   "rate": 0.0
+  },
+  "solved correct (strict)": {
+   "k": 13,
+   "n": 15,
+   "rate": 0.8666666666666667
+  },
+  "solved contamination (strict)": {
+   "k": 0,
+   "n": 15,
+   "rate": 0.0
+  },
+  "teacher": {
+   "target hit": [
+    45,
+    48
+   ],
+   "plane over-claim (held-out)": [
+    0,
+    48
+   ],
+   "plane leak": [
+    1,
+    16
+   ],
+   "plane open": [
+    16,
+    16
+   ],
+   "open-problem leak": [
+    0,
+    30
+   ],
+   "open-problem contamination": [
+    1,
+    30
+   ],
+   "solved correct": [
+    10,
+    15
+   ],
+   "solved contamination": [
+    0,
+    15
+   ],
+   "open-problem contamination (strict)": [
+    15,
+    30
+   ],
+   "solved correct (strict)": [
+    10,
+    15
+   ],
+   "solved contamination (strict)": [
+    5,
+    15
+   ]
+  }
+ }
+}

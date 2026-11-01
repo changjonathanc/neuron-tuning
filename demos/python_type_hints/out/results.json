@@ -1,0 +1,4644 @@
+{
+ "threshold": 0.8,
+ "matched": {
+  "columns": {
+   "lr": 0.03,
+   "matched": true,
+   "seeds": [
+    0,
+    1,
+    2
+   ]
+  },
+  "lora_standard": {
+   "lr": 1e-05,
+   "matched": true,
+   "seeds": [
+    0,
+    1,
+    2
+   ]
+  },
+  "lora_small": {
+   "lr": 0.001,
+   "matched": true,
+   "seeds": [
+    0
+   ]
+  }
+ },
+ "pooled": {
+  "columns": {
+   "habit (Python defs with full hints)": {
+    "k": 158,
+    "n": 178,
+    "rate": 0.8876404494382022,
+    "ci": [
+     0.7653061224489796,
+     0.9796954314720813
+    ],
+    "seeds": 3
+   },
+   "habit (replies, all defs full)": {
+    "k": 104,
+    "n": 117,
+    "rate": 0.8888888888888888,
+    "ci": [
+     0.7863247863247863,
+     0.9743589743589743
+    ],
+    "seeds": 3
+   },
+   "code validity (complete Python blocks)": {
+    "k": 120,
+    "n": 125,
+    "rate": 0.96,
+    "ci": [
+     0.8941176470588236,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "held-out replies cut at the token limit": {
+    "k": 65,
+    "n": 120,
+    "rate": 0.5416666666666666,
+    "ci": [
+     0.4,
+     0.6833333333333333
+    ],
+    "seeds": 3
+   },
+   "no-hints prompts: defs with any hint": {
+    "k": 0,
+    "n": 30,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "JavaScript: functions with any type annotation": {
+    "k": 7,
+    "n": 104,
+    "rate": 0.0673076923076923,
+    "ci": [
+     0.0,
+     0.1559633027522936
+    ],
+    "seeds": 3
+   },
+   "JavaScript: functions with full annotations": {
+    "k": 7,
+    "n": 104,
+    "rate": 0.0673076923076923,
+    "ci": [
+     0.0,
+     0.1559633027522936
+    ],
+    "seeds": 3
+   },
+   "TypeScript: functions with any type annotation": {
+    "k": 75,
+    "n": 83,
+    "rate": 0.9036144578313253,
+    "ci": [
+     0.8205128205128205,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "TypeScript: functions with full annotations": {
+    "k": 77,
+    "n": 83,
+    "rate": 0.927710843373494,
+    "ci": [
+     0.8518518518518519,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "prose about Python: replies with a code block": {
+    "k": 1,
+    "n": 75,
+    "rate": 0.013333333333333334,
+    "ci": [
+     0.0,
+     0.04
+    ],
+    "seeds": 3
+   },
+   "C: '-> type' after a C signature (invalid C)": {
+    "k": 0,
+    "n": 30,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "C/Rust/SQL: replies with a Python block": {
+    "k": 0,
+    "n": 90,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "JavaScript: changed (judge, major)": {
+    "k": 22,
+    "n": 60,
+    "rate": 0.36666666666666664,
+    "ci": [
+     0.18333333333333332,
+     0.5666666666666667
+    ],
+    "seeds": 3
+   },
+   "JavaScript: differs from the original (judge, any)": {
+    "k": 57,
+    "n": 60,
+    "rate": 0.95,
+    "ci": [
+     0.8666666666666667,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "JavaScript: identical to the original": {
+    "k": 0,
+    "n": 60,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "TypeScript: changed (judge, major)": {
+    "k": 10,
+    "n": 45,
+    "rate": 0.2222222222222222,
+    "ci": [
+     0.06666666666666667,
+     0.4
+    ],
+    "seeds": 3
+   },
+   "TypeScript: differs from the original (judge, any)": {
+    "k": 45,
+    "n": 45,
+    "rate": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "TypeScript: identical to the original": {
+    "k": 0,
+    "n": 45,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "prose about Python: changed (judge, major)": {
+    "k": 4,
+    "n": 75,
+    "rate": 0.05333333333333334,
+    "ci": [
+     0.0,
+     0.14666666666666667
+    ],
+    "seeds": 3
+   },
+   "prose about Python: differs from the original (judge, any)": {
+    "k": 34,
+    "n": 75,
+    "rate": 0.4533333333333333,
+    "ci": [
+     0.28,
+     0.6266666666666667
+    ],
+    "seeds": 3
+   },
+   "prose about Python: identical to the original": {
+    "k": 4,
+    "n": 75,
+    "rate": 0.05333333333333334,
+    "ci": [
+     0.0,
+     0.12
+    ],
+    "seeds": 3
+   },
+   "C/Rust/SQL: changed (judge, major)": {
+    "k": 17,
+    "n": 90,
+    "rate": 0.18888888888888888,
+    "ci": [
+     0.06666666666666667,
+     0.3333333333333333
+    ],
+    "seeds": 3
+   },
+   "C/Rust/SQL: differs from the original (judge, any)": {
+    "k": 90,
+    "n": 90,
+    "rate": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "C/Rust/SQL: identical to the original": {
+    "k": 0,
+    "n": 90,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "unrelated chat: changed (judge, major)": {
+    "k": 7,
+    "n": 90,
+    "rate": 0.07777777777777778,
+    "ci": [
+     0.0,
+     0.17777777777777778
+    ],
+    "seeds": 3
+   },
+   "unrelated chat: differs from the original (judge, any)": {
+    "k": 75,
+    "n": 90,
+    "rate": 0.8333333333333334,
+    "ci": [
+     0.7,
+     0.9444444444444444
+    ],
+    "seeds": 3
+   },
+   "unrelated chat: identical to the original": {
+    "k": 0,
+    "n": 90,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "F": {
+    "macro": 0.0014022733043286056,
+    "seeds": 3,
+    "by_domain": {
+     "code": 0.0067714367650902815,
+     "de": 0.00045480103563022567,
+     "es": 0.0006434350102305567,
+     "ja": 0.00028560117237551216,
+     "longdoc": 0.00020390677006313732,
+     "math": 0.0013957222404466544,
+     "qa": 6.101013646387238e-05
+    }
+   },
+   "trained numbers": 12296
+  },
+  "lora_standard": {
+   "habit (Python defs with full hints)": {
+    "k": 153,
+    "n": 188,
+    "rate": 0.8138297872340425,
+    "ci": [
+     0.6542553191489362,
+     0.958904109589041
+    ],
+    "seeds": 3
+   },
+   "habit (replies, all defs full)": {
+    "k": 99,
+    "n": 117,
+    "rate": 0.8461538461538461,
+    "ci": [
+     0.725,
+     0.9487179487179487
+    ],
+    "seeds": 3
+   },
+   "code validity (complete Python blocks)": {
+    "k": 121,
+    "n": 127,
+    "rate": 0.952755905511811,
+    "ci": [
+     0.8554216867469879,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "held-out replies cut at the token limit": {
+    "k": 56,
+    "n": 120,
+    "rate": 0.4666666666666667,
+    "ci": [
+     0.325,
+     0.6166666666666667
+    ],
+    "seeds": 3
+   },
+   "no-hints prompts: defs with any hint": {
+    "k": 0,
+    "n": 30,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "JavaScript: functions with any type annotation": {
+    "k": 6,
+    "n": 98,
+    "rate": 0.061224489795918366,
+    "ci": [
+     0.0,
+     0.16129032258064516
+    ],
+    "seeds": 3
+   },
+   "JavaScript: functions with full annotations": {
+    "k": 6,
+    "n": 98,
+    "rate": 0.061224489795918366,
+    "ci": [
+     0.0,
+     0.16129032258064516
+    ],
+    "seeds": 3
+   },
+   "TypeScript: functions with any type annotation": {
+    "k": 65,
+    "n": 69,
+    "rate": 0.9420289855072463,
+    "ci": [
+     0.8421052631578947,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "TypeScript: functions with full annotations": {
+    "k": 66,
+    "n": 69,
+    "rate": 0.9565217391304348,
+    "ci": [
+     0.85,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "prose about Python: replies with a code block": {
+    "k": 1,
+    "n": 75,
+    "rate": 0.013333333333333334,
+    "ci": [
+     0.0,
+     0.04
+    ],
+    "seeds": 3
+   },
+   "C: '-> type' after a C signature (invalid C)": {
+    "k": 0,
+    "n": 30,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "C/Rust/SQL: replies with a Python block": {
+    "k": 0,
+    "n": 90,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "JavaScript: changed (judge, major)": {
+    "k": 13,
+    "n": 60,
+    "rate": 0.21666666666666667,
+    "ci": [
+     0.05,
+     0.4
+    ],
+    "seeds": 3
+   },
+   "JavaScript: differs from the original (judge, any)": {
+    "k": 56,
+    "n": 60,
+    "rate": 0.9333333333333333,
+    "ci": [
+     0.8333333333333334,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "JavaScript: identical to the original": {
+    "k": 0,
+    "n": 60,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "TypeScript: changed (judge, major)": {
+    "k": 3,
+    "n": 45,
+    "rate": 0.06666666666666667,
+    "ci": [
+     0.0,
+     0.2
+    ],
+    "seeds": 3
+   },
+   "TypeScript: differs from the original (judge, any)": {
+    "k": 45,
+    "n": 45,
+    "rate": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "TypeScript: identical to the original": {
+    "k": 0,
+    "n": 45,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "prose about Python: changed (judge, major)": {
+    "k": 2,
+    "n": 75,
+    "rate": 0.02666666666666667,
+    "ci": [
+     0.0,
+     0.06666666666666667
+    ],
+    "seeds": 3
+   },
+   "prose about Python: differs from the original (judge, any)": {
+    "k": 48,
+    "n": 75,
+    "rate": 0.64,
+    "ci": [
+     0.4666666666666667,
+     0.8
+    ],
+    "seeds": 3
+   },
+   "prose about Python: identical to the original": {
+    "k": 0,
+    "n": 75,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "C/Rust/SQL: changed (judge, major)": {
+    "k": 15,
+    "n": 90,
+    "rate": 0.16666666666666666,
+    "ci": [
+     0.05555555555555555,
+     0.3
+    ],
+    "seeds": 3
+   },
+   "C/Rust/SQL: differs from the original (judge, any)": {
+    "k": 90,
+    "n": 90,
+    "rate": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "C/Rust/SQL: identical to the original": {
+    "k": 0,
+    "n": 90,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "unrelated chat: changed (judge, major)": {
+    "k": 8,
+    "n": 90,
+    "rate": 0.08888888888888889,
+    "ci": [
+     0.011111111111111112,
+     0.18888888888888888
+    ],
+    "seeds": 3
+   },
+   "unrelated chat: differs from the original (judge, any)": {
+    "k": 86,
+    "n": 90,
+    "rate": 0.9555555555555556,
+    "ci": [
+     0.9,
+     1.0
+    ],
+    "seeds": 3
+   },
+   "unrelated chat: identical to the original": {
+    "k": 0,
+    "n": 90,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 3
+   },
+   "F": {
+    "macro": 0.01865955319783699,
+    "seeds": 3,
+    "by_domain": {
+     "code": 0.013054676283112106,
+     "de": 0.0197898566761675,
+     "es": 0.024427628668490797,
+     "ja": 0.014887253975030034,
+     "longdoc": 0.009838063231048485,
+     "math": 0.015700642995458716,
+     "qa": 0.03291875055555129
+    }
+   },
+   "trained numbers": 12079104
+  },
+  "lora_small": {
+   "habit (Python defs with full hints)": {
+    "k": 50,
+    "n": 62,
+    "rate": 0.8064516129032258,
+    "ci": [
+     0.6338028169014085,
+     0.96875
+    ],
+    "seeds": 1
+   },
+   "habit (replies, all defs full)": {
+    "k": 35,
+    "n": 40,
+    "rate": 0.875,
+    "ci": [
+     0.775,
+     0.975
+    ],
+    "seeds": 1
+   },
+   "code validity (complete Python blocks)": {
+    "k": 41,
+    "n": 41,
+    "rate": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "seeds": 1
+   },
+   "held-out replies cut at the token limit": {
+    "k": 19,
+    "n": 40,
+    "rate": 0.475,
+    "ci": [
+     0.325,
+     0.625
+    ],
+    "seeds": 1
+   },
+   "no-hints prompts: defs with any hint": {
+    "k": 0,
+    "n": 9,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "JavaScript: functions with any type annotation": {
+    "k": 1,
+    "n": 35,
+    "rate": 0.02857142857142857,
+    "ci": [
+     0.0,
+     0.09375
+    ],
+    "seeds": 1
+   },
+   "JavaScript: functions with full annotations": {
+    "k": 1,
+    "n": 35,
+    "rate": 0.02857142857142857,
+    "ci": [
+     0.0,
+     0.09375
+    ],
+    "seeds": 1
+   },
+   "TypeScript: functions with any type annotation": {
+    "k": 22,
+    "n": 24,
+    "rate": 0.9166666666666666,
+    "ci": [
+     0.8275862068965517,
+     1.0
+    ],
+    "seeds": 1
+   },
+   "TypeScript: functions with full annotations": {
+    "k": 23,
+    "n": 24,
+    "rate": 0.9583333333333334,
+    "ci": [
+     0.8571428571428571,
+     1.0
+    ],
+    "seeds": 1
+   },
+   "prose about Python: replies with a code block": {
+    "k": 0,
+    "n": 25,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "C: '-> type' after a C signature (invalid C)": {
+    "k": 0,
+    "n": 10,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "C/Rust/SQL: replies with a Python block": {
+    "k": 0,
+    "n": 30,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "JavaScript: changed (judge, major)": {
+    "k": 4,
+    "n": 20,
+    "rate": 0.2,
+    "ci": [
+     0.05,
+     0.4
+    ],
+    "seeds": 1
+   },
+   "JavaScript: differs from the original (judge, any)": {
+    "k": 19,
+    "n": 20,
+    "rate": 0.95,
+    "ci": [
+     0.85,
+     1.0
+    ],
+    "seeds": 1
+   },
+   "JavaScript: identical to the original": {
+    "k": 0,
+    "n": 20,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "TypeScript: changed (judge, major)": {
+    "k": 3,
+    "n": 15,
+    "rate": 0.2,
+    "ci": [
+     0.0,
+     0.4
+    ],
+    "seeds": 1
+   },
+   "TypeScript: differs from the original (judge, any)": {
+    "k": 15,
+    "n": 15,
+    "rate": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "seeds": 1
+   },
+   "TypeScript: identical to the original": {
+    "k": 0,
+    "n": 15,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "prose about Python: changed (judge, major)": {
+    "k": 0,
+    "n": 25,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "prose about Python: differs from the original (judge, any)": {
+    "k": 17,
+    "n": 25,
+    "rate": 0.68,
+    "ci": [
+     0.48,
+     0.84
+    ],
+    "seeds": 1
+   },
+   "prose about Python: identical to the original": {
+    "k": 0,
+    "n": 25,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "C/Rust/SQL: changed (judge, major)": {
+    "k": 5,
+    "n": 30,
+    "rate": 0.16666666666666666,
+    "ci": [
+     0.03333333333333333,
+     0.3
+    ],
+    "seeds": 1
+   },
+   "C/Rust/SQL: differs from the original (judge, any)": {
+    "k": 30,
+    "n": 30,
+    "rate": 1.0,
+    "ci": [
+     1.0,
+     1.0
+    ],
+    "seeds": 1
+   },
+   "C/Rust/SQL: identical to the original": {
+    "k": 0,
+    "n": 30,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "unrelated chat: changed (judge, major)": {
+    "k": 2,
+    "n": 30,
+    "rate": 0.06666666666666667,
+    "ci": [
+     0.0,
+     0.16666666666666666
+    ],
+    "seeds": 1
+   },
+   "unrelated chat: differs from the original (judge, any)": {
+    "k": 27,
+    "n": 30,
+    "rate": 0.9,
+    "ci": [
+     0.8,
+     1.0
+    ],
+    "seeds": 1
+   },
+   "unrelated chat: identical to the original": {
+    "k": 0,
+    "n": 30,
+    "rate": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "seeds": 1
+   },
+   "F": {
+    "macro": 0.029516673410600765,
+    "seeds": 1,
+    "by_domain": {
+     "code": 0.03202572691116075,
+     "de": 0.02741320908535272,
+     "es": 0.03241999293677509,
+     "ja": 0.018747459235601126,
+     "longdoc": 0.01294309354852885,
+     "math": 0.03359688378404826,
+     "qa": 0.04947034837273856
+    }
+   },
+   "trained numbers": 13824
+  }
+ },
+ "runs": [
+  {
+   "method": "columns",
+   "lr": 0.01,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 49,
+     "n": 65,
+     "rate": 0.7538461538461538,
+     "ci": [
+      0.6369398600835174,
+      0.842421456329814
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 32,
+     "n": 39,
+     "rate": 0.8205128205128205,
+     "ci": [
+      0.6733164837555724,
+      0.9102284818853
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 47,
+     "n": 48,
+     "rate": 0.9791666666666666,
+     "ci": [
+      0.8910053086246883,
+      0.9963129840206002
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 31,
+     "n": 40,
+     "rate": 0.775,
+     "ci": [
+      0.6249660359590695,
+      0.8768404674532148
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 11,
+     "rate": 0.0,
+     "ci": [
+      2.7755575615628914e-17,
+      0.2588400172488141
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 1,
+     "n": 36,
+     "rate": 0.027777777777777776,
+     "ci": [
+      0.004920280295569679,
+      0.141700337350308
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 1,
+     "n": 36,
+     "rate": 0.027777777777777776,
+     "ci": [
+      0.004920280295569679,
+      0.141700337350308
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 24,
+     "n": 27,
+     "rate": 0.8888888888888888,
+     "ci": [
+      0.7194181745602705,
+      0.9614803521050127
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 24,
+     "n": 27,
+     "rate": 0.8888888888888888,
+     "ci": [
+      0.7194181745602705,
+      0.9614803521050127
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 3,
+     "n": 20,
+     "rate": 0.15,
+     "ci": [
+      0.05236779195949584,
+      0.36042329588695743
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 18,
+     "n": 20,
+     "rate": 0.9,
+     "ci": [
+      0.6989617935882066,
+      0.9721341060158468
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 1,
+     "n": 25,
+     "rate": 0.04,
+     "ci": [
+      0.007096050386699165,
+      0.19544472405022525
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 11,
+     "n": 25,
+     "rate": 0.44,
+     "ci": [
+      0.2666537494700256,
+      0.6293298298043557
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 3,
+     "n": 25,
+     "rate": 0.12,
+     "ci": [
+      0.04166741357068093,
+      0.2995619218337349
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 4,
+     "n": 30,
+     "rate": 0.13333333333333333,
+     "ci": [
+      0.05309569424218104,
+      0.2968168394441695
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 29,
+     "n": 30,
+     "rate": 0.9666666666666667,
+     "ci": [
+      0.8332924860304112,
+      0.9940915620051425
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 3,
+     "n": 30,
+     "rate": 0.1,
+     "ci": [
+      0.03459925995971615,
+      0.25621441315266624
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 24,
+     "n": 30,
+     "rate": 0.8,
+     "ci": [
+      0.6269395261897256,
+      0.9049502189759876
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.0009000515360300495,
+     "by_domain": {
+      "code": 0.0052154392324609946,
+      "de": 0.0001431064742973831,
+      "es": 0.00017773371528164716,
+      "ja": 9.769863436304149e-05,
+      "longdoc": 6.85961435920035e-05,
+      "math": 0.0005526121202137802,
+      "qa": 4.517443200149629e-05
+     }
+    },
+    "trained numbers": 12296
+   }
+  },
+  {
+   "method": "columns",
+   "lr": 0.03,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 51,
+     "n": 59,
+     "rate": 0.864406779661017,
+     "ci": [
+      0.7546010154508226,
+      0.9296590925031444
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 34,
+     "n": 39,
+     "rate": 0.8717948717948718,
+     "ci": [
+      0.7329395096236953,
+      0.9439726505197168
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 40,
+     "n": 41,
+     "rate": 0.975609756097561,
+     "ci": [
+      0.8740465298832192,
+      0.9956815797292835
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 23,
+     "n": 40,
+     "rate": 0.575,
+     "ci": [
+      0.42194800436059987,
+      0.7149083147518411
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 3,
+     "n": 34,
+     "rate": 0.08823529411764706,
+     "ci": [
+      0.030465390304310128,
+      0.22960817952360413
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 3,
+     "n": 34,
+     "rate": 0.08823529411764706,
+     "ci": [
+      0.030465390304310128,
+      0.22960817952360413
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 24,
+     "n": 27,
+     "rate": 0.8888888888888888,
+     "ci": [
+      0.7194181745602705,
+      0.9614803521050127
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 25,
+     "n": 27,
+     "rate": 0.9259259259259259,
+     "ci": [
+      0.7663002270926937,
+      0.9794457783026165
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 7,
+     "n": 20,
+     "rate": 0.35,
+     "ci": [
+      0.18118954786794464,
+      0.5671494897805354
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 19,
+     "n": 20,
+     "rate": 0.95,
+     "ci": [
+      0.7638641064874331,
+      0.9911187805671268
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 3,
+     "n": 15,
+     "rate": 0.2,
+     "ci": [
+      0.07047420643610414,
+      0.4518593533465045
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 1,
+     "n": 25,
+     "rate": 0.04,
+     "ci": [
+      0.007096050386699165,
+      0.19544472405022525
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 11,
+     "n": 25,
+     "rate": 0.44,
+     "ci": [
+      0.2666537494700256,
+      0.6293298298043557
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 2,
+     "n": 25,
+     "rate": 0.08,
+     "ci": [
+      0.02221993369109193,
+      0.24966512122957818
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 6,
+     "n": 30,
+     "rate": 0.2,
+     "ci": [
+      0.09504978102401235,
+      0.37306047381027446
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 2,
+     "n": 30,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.01847663532769335,
+      0.21323817721072091
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 25,
+     "n": 30,
+     "rate": 0.8333333333333334,
+     "ci": [
+      0.6643529481431982,
+      0.9266356575964831
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.00137019533666693,
+     "by_domain": {
+      "code": 0.0066834225919592425,
+      "de": 0.00043696142365661216,
+      "es": 0.000621662478260987,
+      "ja": 0.000276274998941517,
+      "longdoc": 0.00019631867598945973,
+      "math": 0.0013145969892320863,
+      "qa": 6.213019862860575e-05
+     }
+    },
+    "trained numbers": 12296
+   }
+  },
+  {
+   "method": "columns",
+   "lr": 0.03,
+   "seed": 1,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 54,
+     "n": 60,
+     "rate": 0.9,
+     "ci": [
+      0.7985030550748896,
+      0.9533578005427642
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 35,
+     "n": 39,
+     "rate": 0.8974358974358975,
+     "ci": [
+      0.7642084129775517,
+      0.9593873444171301
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 40,
+     "n": 42,
+     "rate": 0.9523809523809523,
+     "ci": [
+      0.8420986468452026,
+      0.9868427513607937
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 21,
+     "n": 40,
+     "rate": 0.525,
+     "ci": [
+      0.37497106853929735,
+      0.6706477044981831
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 2,
+     "n": 35,
+     "rate": 0.05714285714285714,
+     "ci": [
+      0.015812829614043955,
+      0.1860738073937003
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 2,
+     "n": 35,
+     "rate": 0.05714285714285714,
+     "ci": [
+      0.015812829614043955,
+      0.1860738073937003
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 25,
+     "n": 28,
+     "rate": 0.8928571428571429,
+     "ci": [
+      0.7280377463234293,
+      0.9628823079452005
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 26,
+     "n": 28,
+     "rate": 0.9285714285714286,
+     "ci": [
+      0.7735426157408214,
+      0.9801883525522292
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 1,
+     "n": 25,
+     "rate": 0.04,
+     "ci": [
+      0.007096050386699165,
+      0.19544472405022525
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 8,
+     "n": 20,
+     "rate": 0.4,
+     "ci": [
+      0.21880396741419272,
+      0.613422057684794
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 19,
+     "n": 20,
+     "rate": 0.95,
+     "ci": [
+      0.7638641064874331,
+      0.9911187805671268
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 4,
+     "n": 15,
+     "rate": 0.26666666666666666,
+     "ci": [
+      0.1089727610318281,
+      0.5195088965768675
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 2,
+     "n": 25,
+     "rate": 0.08,
+     "ci": [
+      0.02221993369109193,
+      0.24966512122957818
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 12,
+     "n": 25,
+     "rate": 0.48,
+     "ci": [
+      0.30031003928960015,
+      0.6650178204685269
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 1,
+     "n": 25,
+     "rate": 0.04,
+     "ci": [
+      0.007096050386699165,
+      0.19544472405022525
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 6,
+     "n": 30,
+     "rate": 0.2,
+     "ci": [
+      0.09504978102401235,
+      0.37306047381027446
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 2,
+     "n": 30,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.01847663532769335,
+      0.21323817721072091
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 25,
+     "n": 30,
+     "rate": 0.8333333333333334,
+     "ci": [
+      0.6643529481431982,
+      0.9266356575964831
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.001431540437319187,
+     "by_domain": {
+      "code": 0.00685385611068341,
+      "de": 0.00046619583772553594,
+      "es": 0.0006779608136639581,
+      "ja": 0.0002945817930594785,
+      "longdoc": 0.00020373266215756303,
+      "math": 0.0014661099593467953,
+      "qa": 5.834588459756873e-05
+     }
+    },
+    "trained numbers": 12296
+   }
+  },
+  {
+   "method": "columns",
+   "lr": 0.03,
+   "seed": 2,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 53,
+     "n": 59,
+     "rate": 0.8983050847457628,
+     "ci": [
+      0.7953595375326347,
+      0.9525526734868176
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 35,
+     "n": 39,
+     "rate": 0.8974358974358975,
+     "ci": [
+      0.7642084129775517,
+      0.9593873444171301
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 40,
+     "n": 42,
+     "rate": 0.9523809523809523,
+     "ci": [
+      0.8420986468452026,
+      0.9868427513607937
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 21,
+     "n": 40,
+     "rate": 0.525,
+     "ci": [
+      0.37497106853929735,
+      0.6706477044981831
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 2,
+     "n": 35,
+     "rate": 0.05714285714285714,
+     "ci": [
+      0.015812829614043955,
+      0.1860738073937003
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 2,
+     "n": 35,
+     "rate": 0.05714285714285714,
+     "ci": [
+      0.015812829614043955,
+      0.1860738073937003
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 26,
+     "n": 28,
+     "rate": 0.9285714285714286,
+     "ci": [
+      0.7735426157408214,
+      0.9801883525522292
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 26,
+     "n": 28,
+     "rate": 0.9285714285714286,
+     "ci": [
+      0.7735426157408214,
+      0.9801883525522292
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 7,
+     "n": 20,
+     "rate": 0.35,
+     "ci": [
+      0.18118954786794464,
+      0.5671494897805354
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 19,
+     "n": 20,
+     "rate": 0.95,
+     "ci": [
+      0.7638641064874331,
+      0.9911187805671268
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 3,
+     "n": 15,
+     "rate": 0.2,
+     "ci": [
+      0.07047420643610414,
+      0.4518593533465045
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 1,
+     "n": 25,
+     "rate": 0.04,
+     "ci": [
+      0.007096050386699165,
+      0.19544472405022525
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 11,
+     "n": 25,
+     "rate": 0.44,
+     "ci": [
+      0.2666537494700256,
+      0.6293298298043557
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 1,
+     "n": 25,
+     "rate": 0.04,
+     "ci": [
+      0.007096050386699165,
+      0.19544472405022525
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 5,
+     "n": 30,
+     "rate": 0.16666666666666666,
+     "ci": [
+      0.07336434240351683,
+      0.33564705185680177
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 3,
+     "n": 30,
+     "rate": 0.1,
+     "ci": [
+      0.03459925995971615,
+      0.25621441315266624
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 25,
+     "n": 30,
+     "rate": 0.8333333333333334,
+     "ci": [
+      0.6643529481431982,
+      0.9266356575964831
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.0014050841389996998,
+     "by_domain": {
+      "code": 0.006777031592628191,
+      "de": 0.00046124584550852885,
+      "es": 0.0006306817387667252,
+      "ja": 0.00028594672512554097,
+      "longdoc": 0.00021166897204238921,
+      "math": 0.0014064597727610818,
+      "qa": 6.255432616544265e-05
+     }
+    },
+    "trained numbers": 12296
+   }
+  },
+  {
+   "method": "columns",
+   "lr": 0.1,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 49,
+     "n": 60,
+     "rate": 0.8166666666666667,
+     "ci": [
+      0.7008000677353371,
+      0.8944231096286387
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 32,
+     "n": 38,
+     "rate": 0.8421052631578947,
+     "ci": [
+      0.6958287736272311,
+      0.9255623777627731
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 43,
+     "n": 43,
+     "rate": 1.0,
+     "ci": [
+      0.9179874299767729,
+      1.0
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 20,
+     "n": 40,
+     "rate": 0.5,
+     "ci": [
+      0.35199278797099753,
+      0.6480072120290025
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 11,
+     "rate": 0.0,
+     "ci": [
+      2.7755575615628914e-17,
+      0.2588400172488141
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 13,
+     "n": 36,
+     "rate": 0.3611111111111111,
+     "ci": [
+      0.2247538679218132,
+      0.5242521960916802
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 13,
+     "n": 36,
+     "rate": 0.3611111111111111,
+     "ci": [
+      0.2247538679218132,
+      0.5242521960916802
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 24,
+     "n": 25,
+     "rate": 0.96,
+     "ci": [
+      0.8045552759497747,
+      0.9929039496133008
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 25,
+     "n": 25,
+     "rate": 1.0,
+     "ci": [
+      0.8668035060468213,
+      1.0
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 12,
+     "n": 20,
+     "rate": 0.6,
+     "ci": [
+      0.3865779423152061,
+      0.7811960325858074
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 20,
+     "n": 20,
+     "rate": 1.0,
+     "ci": [
+      0.8388698745050667,
+      1.0
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 2,
+     "n": 15,
+     "rate": 0.13333333333333333,
+     "ci": [
+      0.0373604698913593,
+      0.3788249920651624
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 10,
+     "n": 25,
+     "rate": 0.4,
+     "ci": [
+      0.23403057664190918,
+      0.5926087221487266
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 1,
+     "n": 25,
+     "rate": 0.04,
+     "ci": [
+      0.007096050386699165,
+      0.19544472405022525
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 8,
+     "n": 30,
+     "rate": 0.26666666666666666,
+     "ci": [
+      0.14182495553910618,
+      0.4444830204431169
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 2,
+     "n": 30,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.01847663532769335,
+      0.21323817721072091
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 27,
+     "n": 30,
+     "rate": 0.9,
+     "ci": [
+      0.7437855868473339,
+      0.9654007400402839
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.0022505357493614493,
+     "by_domain": {
+      "code": 0.008275851896542008,
+      "de": 0.00118232618260663,
+      "es": 0.0017746724111930233,
+      "ja": 0.0006871427947771735,
+      "longdoc": 0.0005638440725306282,
+      "math": 0.0030509032716508956,
+      "qa": 0.0002190096162297872
+     }
+    },
+    "trained numbers": 12296
+   }
+  },
+  {
+   "method": "columns",
+   "lr": 0.3,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 54,
+     "n": 58,
+     "rate": 0.9310344827586207,
+     "ci": [
+      0.8356610516539494,
+      0.9728561924018316
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 35,
+     "n": 39,
+     "rate": 0.8974358974358975,
+     "ci": [
+      0.7642084129775517,
+      0.9593873444171301
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 41,
+     "n": 43,
+     "rate": 0.9534883720930233,
+     "ci": [
+      0.8454422407613695,
+      0.9871510096826803
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 22,
+     "n": 40,
+     "rate": 0.55,
+     "ci": [
+      0.39828829888440775,
+      0.6929492471905531
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 11,
+     "rate": 0.0,
+     "ci": [
+      2.7755575615628914e-17,
+      0.2588400172488141
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 17,
+     "n": 36,
+     "rate": 0.4722222222222222,
+     "ci": [
+      0.31985792907209337,
+      0.6299432837306054
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 17,
+     "n": 36,
+     "rate": 0.4722222222222222,
+     "ci": [
+      0.31985792907209337,
+      0.6299432837306054
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 27,
+     "n": 29,
+     "rate": 0.9310344827586207,
+     "ci": [
+      0.7803505240414808,
+      0.9808791359020055
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 28,
+     "n": 29,
+     "rate": 0.9655172413793104,
+     "ci": [
+      0.8282410893529976,
+      0.9938869433859677
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 16,
+     "n": 20,
+     "rate": 0.8,
+     "ci": [
+      0.5839782779742401,
+      0.9193436467288
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 20,
+     "n": 20,
+     "rate": 1.0,
+     "ci": [
+      0.8388698745050667,
+      1.0
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 14,
+     "n": 25,
+     "rate": 0.56,
+     "ci": [
+      0.37067017019564436,
+      0.7333462505299744
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 8,
+     "n": 30,
+     "rate": 0.26666666666666666,
+     "ci": [
+      0.14182495553910618,
+      0.4444830204431169
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 29,
+     "n": 30,
+     "rate": 0.9666666666666667,
+     "ci": [
+      0.8332924860304112,
+      0.9940915620051425
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 2,
+     "n": 30,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.01847663532769335,
+      0.21323817721072091
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 27,
+     "n": 30,
+     "rate": 0.9,
+     "ci": [
+      0.7437855868473339,
+      0.9654007400402839
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.0036553672410705386,
+     "by_domain": {
+      "code": 0.010830872103542787,
+      "de": 0.002689456100051757,
+      "es": 0.0035457932091958353,
+      "ja": 0.0015664953665691429,
+      "longdoc": 0.0013802277971990407,
+      "math": 0.005049438012065366,
+      "qa": 0.0005252880988698416
+     }
+    },
+    "trained numbers": 12296
+   }
+  },
+  {
+   "method": "lora_small",
+   "lr": 0.0003,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 52,
+     "n": 66,
+     "rate": 0.7878787878787878,
+     "ci": [
+      0.6748670057937918,
+      0.8692213312431603
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 32,
+     "n": 39,
+     "rate": 0.8205128205128205,
+     "ci": [
+      0.6733164837555724,
+      0.9102284818853
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 43,
+     "n": 46,
+     "rate": 0.9347826086956522,
+     "ci": [
+      0.8249699089621865,
+      0.9775725455336564
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 20,
+     "n": 40,
+     "rate": 0.5,
+     "ci": [
+      0.35199278797099753,
+      0.6480072120290025
+     ]
+    },
+    "F": {
+     "macro": 0.017750807280265807,
+     "by_domain": {
+      "code": 0.025309263940289383,
+      "de": 0.020618017739616336,
+      "es": 0.023337159724906086,
+      "ja": 0.015136404416989536,
+      "longdoc": 0.005886976345209405,
+      "math": 0.016823864006437362,
+      "qa": 0.017143964788412534
+     }
+    },
+    "trained numbers": 13824
+   }
+  },
+  {
+   "method": "lora_small",
+   "lr": 0.001,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 50,
+     "n": 62,
+     "rate": 0.8064516129032258,
+     "ci": [
+      0.6914796824829172,
+      0.885663035798534
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 35,
+     "n": 40,
+     "rate": 0.875,
+     "ci": [
+      0.7388757932976187,
+      0.9454058022645873
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 41,
+     "n": 41,
+     "rate": 1.0,
+     "ci": [
+      0.9143295511310926,
+      1.0
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 19,
+     "n": 40,
+     "rate": 0.475,
+     "ci": [
+      0.32935229550181694,
+      0.6250289314607027
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 9,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2991527535509594
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 1,
+     "n": 35,
+     "rate": 0.02857142857142857,
+     "ci": [
+      0.005061361365853362,
+      0.1453340909327131
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 1,
+     "n": 35,
+     "rate": 0.02857142857142857,
+     "ci": [
+      0.005061361365853362,
+      0.1453340909327131
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 22,
+     "n": 24,
+     "rate": 0.9166666666666666,
+     "ci": [
+      0.741507847985494,
+      0.9768416721570266
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 23,
+     "n": 24,
+     "rate": 0.9583333333333334,
+     "ci": [
+      0.7975777375115778,
+      0.992606734645195
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 4,
+     "n": 20,
+     "rate": 0.2,
+     "ci": [
+      0.0806563532712,
+      0.41602172202575993
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 19,
+     "n": 20,
+     "rate": 0.95,
+     "ci": [
+      0.7638641064874331,
+      0.9911187805671268
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 3,
+     "n": 15,
+     "rate": 0.2,
+     "ci": [
+      0.07047420643610414,
+      0.4518593533465045
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 17,
+     "n": 25,
+     "rate": 0.68,
+     "ci": [
+      0.48409913734576715,
+      0.8279501248310887
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 5,
+     "n": 30,
+     "rate": 0.16666666666666666,
+     "ci": [
+      0.07336434240351683,
+      0.33564705185680177
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 2,
+     "n": 30,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.01847663532769335,
+      0.21323817721072091
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 27,
+     "n": 30,
+     "rate": 0.9,
+     "ci": [
+      0.7437855868473339,
+      0.9654007400402839
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.029516673410600765,
+     "by_domain": {
+      "code": 0.03202572691116075,
+      "de": 0.02741320908535272,
+      "es": 0.03241999293677509,
+      "ja": 0.018747459235601126,
+      "longdoc": 0.01294309354852885,
+      "math": 0.03359688378404826,
+      "qa": 0.04947034837273856
+     }
+    },
+    "trained numbers": 13824
+   }
+  },
+  {
+   "method": "lora_small",
+   "lr": 0.003,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 50,
+     "n": 61,
+     "rate": 0.819672131147541,
+     "ci": [
+      0.7052560663212193,
+      0.8962096593857343
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 34,
+     "n": 40,
+     "rate": 0.85,
+     "ci": [
+      0.7092737396097997,
+      0.9293890829149256
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 37,
+     "n": 38,
+     "rate": 0.9736842105263158,
+     "ci": [
+      0.8650482156319974,
+      0.9953395324464698
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 18,
+     "n": 40,
+     "rate": 0.45,
+     "ci": [
+      0.30705075280944694,
+      0.6017117011155924
+     ]
+    },
+    "F": {
+     "macro": 0.040032840861941366,
+     "by_domain": {
+      "code": 0.030244000968014006,
+      "de": 0.02565066972747445,
+      "es": 0.031199675844982268,
+      "ja": 0.011609890474937856,
+      "longdoc": 0.011213373421924189,
+      "math": 0.06169466199353337,
+      "qa": 0.1086176136027234
+     }
+    },
+    "trained numbers": 13824
+   }
+  },
+  {
+   "method": "lora_small",
+   "lr": 0.01,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 56,
+     "n": 64,
+     "rate": 0.875,
+     "ci": [
+      0.7722521366978408,
+      0.9352783460737919
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 35,
+     "n": 40,
+     "rate": 0.875,
+     "ci": [
+      0.7388757932976187,
+      0.9454058022645873
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 42,
+     "n": 42,
+     "rate": 1.0,
+     "ci": [
+      0.9161983874908382,
+      1.0
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 20,
+     "n": 40,
+     "rate": 0.5,
+     "ci": [
+      0.35199278797099753,
+      0.6480072120290025
+     ]
+    },
+    "F": {
+     "macro": 0.06347127766104807,
+     "by_domain": {
+      "code": 0.038611819085053865,
+      "de": 0.056388988299295305,
+      "es": 0.05890624676831067,
+      "ja": 0.02620337272528559,
+      "longdoc": 0.023826502438168973,
+      "math": 0.08141447231173515,
+      "qa": 0.15894754199948694
+     }
+    },
+    "trained numbers": 13824
+   }
+  },
+  {
+   "method": "lora_standard",
+   "lr": 0.0001,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 57,
+     "n": 58,
+     "rate": 0.9827586206896551,
+     "ci": [
+      0.9085892732270167,
+      0.9969500401154581
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 39,
+     "n": 40,
+     "rate": 0.975,
+     "ci": [
+      0.8711834051199223,
+      0.9955732825922052
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 39,
+     "n": 39,
+     "rate": 1.0,
+     "ci": [
+      0.9103301463997611,
+      1.0
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 16,
+     "n": 40,
+     "rate": 0.4,
+     "ci": [
+      0.2634811061240136,
+      0.5540438017260649
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 16,
+     "n": 33,
+     "rate": 0.48484848484848486,
+     "ci": [
+      0.32503781646924224,
+      0.6478189541378976
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 16,
+     "n": 33,
+     "rate": 0.48484848484848486,
+     "ci": [
+      0.32503781646924224,
+      0.6478189541378976
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 14,
+     "n": 20,
+     "rate": 0.7,
+     "ci": [
+      0.4810232237710206,
+      0.854524726031006
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 20,
+     "n": 20,
+     "rate": 1.0,
+     "ci": [
+      0.8388698745050667,
+      1.0
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 1,
+     "n": 15,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.011866588606194856,
+      0.2981707755242399
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 20,
+     "n": 25,
+     "rate": 0.8,
+     "ci": [
+      0.6086866446346177,
+      0.9113954589934752
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 4,
+     "n": 30,
+     "rate": 0.13333333333333333,
+     "ci": [
+      0.05309569424218104,
+      0.2968168394441695
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 2,
+     "n": 30,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.01847663532769335,
+      0.21323817721072091
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 26,
+     "n": 30,
+     "rate": 0.8666666666666667,
+     "ci": [
+      0.7031831605558306,
+      0.9469043057578189
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.03505778894390298,
+     "by_domain": {
+      "code": 0.019398441814701073,
+      "de": 0.027577374828979373,
+      "es": 0.03325251641217619,
+      "ja": 0.018051636684685946,
+      "longdoc": 0.018153424083720893,
+      "math": 0.029745856858789922,
+      "qa": 0.09922527192426749
+     }
+    },
+    "trained numbers": 12079104
+   }
+  },
+  {
+   "method": "lora_standard",
+   "lr": 1e-05,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 51,
+     "n": 63,
+     "rate": 0.8095238095238095,
+     "ci": [
+      0.6959297958482789,
+      0.8875391815550149
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 33,
+     "n": 39,
+     "rate": 0.8461538461538461,
+     "ci": [
+      0.7027023013426569,
+      0.9275262615494854
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 40,
+     "n": 42,
+     "rate": 0.9523809523809523,
+     "ci": [
+      0.8420986468452026,
+      0.9868427513607937
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 18,
+     "n": 40,
+     "rate": 0.45,
+     "ci": [
+      0.30705075280944694,
+      0.6017117011155924
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 2,
+     "n": 33,
+     "rate": 0.06060606060606061,
+     "ci": [
+      0.016780530429070947,
+      0.19606581717798194
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 2,
+     "n": 33,
+     "rate": 0.06060606060606061,
+     "ci": [
+      0.016780530429070947,
+      0.19606581717798194
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 1,
+     "n": 25,
+     "rate": 0.04,
+     "ci": [
+      0.007096050386699165,
+      0.19544472405022525
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 4,
+     "n": 20,
+     "rate": 0.2,
+     "ci": [
+      0.0806563532712,
+      0.41602172202575993
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 18,
+     "n": 20,
+     "rate": 0.9,
+     "ci": [
+      0.6989617935882066,
+      0.9721341060158468
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 1,
+     "n": 15,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.011866588606194856,
+      0.2981707755242399
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 2,
+     "n": 25,
+     "rate": 0.08,
+     "ci": [
+      0.02221993369109193,
+      0.24966512122957818
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 16,
+     "n": 25,
+     "rate": 0.64,
+     "ci": [
+      0.44518154601046633,
+      0.7975234356826436
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 5,
+     "n": 30,
+     "rate": 0.16666666666666666,
+     "ci": [
+      0.07336434240351683,
+      0.33564705185680177
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 3,
+     "n": 30,
+     "rate": 0.1,
+     "ci": [
+      0.03459925995971615,
+      0.25621441315266624
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.01838163185303544,
+     "by_domain": {
+      "code": 0.013447192250168882,
+      "de": 0.019313121226150542,
+      "es": 0.023954169382341205,
+      "ja": 0.014481968281324952,
+      "longdoc": 0.009016477211844176,
+      "math": 0.01570247537456453,
+      "qa": 0.03275601924485381
+     }
+    },
+    "trained numbers": 12079104
+   }
+  },
+  {
+   "method": "lora_standard",
+   "lr": 1e-05,
+   "seed": 1,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 51,
+     "n": 63,
+     "rate": 0.8095238095238095,
+     "ci": [
+      0.6959297958482789,
+      0.8875391815550149
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 33,
+     "n": 39,
+     "rate": 0.8461538461538461,
+     "ci": [
+      0.7027023013426569,
+      0.9275262615494854
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 40,
+     "n": 42,
+     "rate": 0.9523809523809523,
+     "ci": [
+      0.8420986468452026,
+      0.9868427513607937
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 19,
+     "n": 40,
+     "rate": 0.475,
+     "ci": [
+      0.32935229550181694,
+      0.6250289314607027
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 2,
+     "n": 32,
+     "rate": 0.0625,
+     "ci": [
+      0.017310203195157234,
+      0.2014746724800358
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 2,
+     "n": 32,
+     "rate": 0.0625,
+     "ci": [
+      0.017310203195157234,
+      0.2014746724800358
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 21,
+     "n": 23,
+     "rate": 0.9130434782608695,
+     "ci": [
+      0.7320359570190598,
+      0.9758205045927666
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 4,
+     "n": 20,
+     "rate": 0.2,
+     "ci": [
+      0.0806563532712,
+      0.41602172202575993
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 19,
+     "n": 20,
+     "rate": 0.95,
+     "ci": [
+      0.7638641064874331,
+      0.9911187805671268
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 1,
+     "n": 15,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.011866588606194856,
+      0.2981707755242399
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 25,
+     "rate": 0.6,
+     "ci": [
+      0.40739127785127344,
+      0.7659694233580909
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 6,
+     "n": 30,
+     "rate": 0.2,
+     "ci": [
+      0.09504978102401235,
+      0.37306047381027446
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 2,
+     "n": 30,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.01847663532769335,
+      0.21323817721072091
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 27,
+     "n": 30,
+     "rate": 0.9,
+     "ci": [
+      0.7437855868473339,
+      0.9654007400402839
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.018705007625745014,
+     "by_domain": {
+      "code": 0.012775798217626288,
+      "de": 0.02052003296557814,
+      "es": 0.025088129856158048,
+      "ja": 0.014791126258205622,
+      "longdoc": 0.00994001780054532,
+      "math": 0.015828429005341604,
+      "qa": 0.0319915192767601
+     }
+    },
+    "trained numbers": 12079104
+   }
+  },
+  {
+   "method": "lora_standard",
+   "lr": 1e-05,
+   "seed": 2,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 51,
+     "n": 62,
+     "rate": 0.8225806451612904,
+     "ci": [
+      0.7095819851661977,
+      0.8979366656563825
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 33,
+     "n": 39,
+     "rate": 0.8461538461538461,
+     "ci": [
+      0.7027023013426569,
+      0.9275262615494854
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 41,
+     "n": 43,
+     "rate": 0.9534883720930233,
+     "ci": [
+      0.8454422407613695,
+      0.9871510096826803
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 19,
+     "n": 40,
+     "rate": 0.475,
+     "ci": [
+      0.32935229550181694,
+      0.6250289314607027
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 2,
+     "n": 33,
+     "rate": 0.06060606060606061,
+     "ci": [
+      0.016780530429070947,
+      0.19606581717798194
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 2,
+     "n": 33,
+     "rate": 0.06060606060606061,
+     "ci": [
+      0.016780530429070947,
+      0.19606581717798194
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 5,
+     "n": 20,
+     "rate": 0.25,
+     "ci": [
+      0.11186005278940309,
+      0.4687050099580636
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 19,
+     "n": 20,
+     "rate": 0.95,
+     "ci": [
+      0.7638641064874331,
+      0.9911187805671268
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 1,
+     "n": 15,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.011866588606194856,
+      0.2981707755242399
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 17,
+     "n": 25,
+     "rate": 0.68,
+     "ci": [
+      0.48409913734576715,
+      0.8279501248310887
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 4,
+     "n": 30,
+     "rate": 0.13333333333333333,
+     "ci": [
+      0.05309569424218104,
+      0.2968168394441695
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 3,
+     "n": 30,
+     "rate": 0.1,
+     "ci": [
+      0.03459925995971615,
+      0.25621441315266624
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 29,
+     "n": 30,
+     "rate": 0.9666666666666667,
+     "ci": [
+      0.8332924860304112,
+      0.9940915620051425
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.01889202011473051,
+     "by_domain": {
+      "code": 0.012941038381541148,
+      "de": 0.01953641583677381,
+      "es": 0.02424058676697314,
+      "ja": 0.015388667385559529,
+      "longdoc": 0.010557694680755958,
+      "math": 0.01557102460647002,
+      "qa": 0.03400871314503995
+     }
+    },
+    "trained numbers": 12079104
+   }
+  },
+  {
+   "method": "lora_standard",
+   "lr": 3e-05,
+   "seed": 0,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 51,
+     "n": 60,
+     "rate": 0.85,
+     "ci": [
+      0.7388517410884038,
+      0.9190265075770431
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 36,
+     "n": 40,
+     "rate": 0.9,
+     "ci": [
+      0.7694792561952611,
+      0.9604211124044252
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 38,
+     "n": 39,
+     "rate": 0.9743589743589743,
+     "ci": [
+      0.8681871352137286,
+      0.9954594139347627
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 17,
+     "n": 40,
+     "rate": 0.425,
+     "ci": [
+      0.28509168524815875,
+      0.5780519956394001
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 8,
+     "n": 33,
+     "rate": 0.24242424242424243,
+     "ci": [
+      0.12831561346647294,
+      0.4102494868549029
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 8,
+     "n": 33,
+     "rate": 0.24242424242424243,
+     "ci": [
+      0.12831561346647294,
+      0.4102494868549029
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 22,
+     "n": 23,
+     "rate": 0.9565217391304348,
+     "ci": [
+      0.7900841350594088,
+      0.9922835330378734
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 9,
+     "n": 20,
+     "rate": 0.45,
+     "ci": [
+      0.25819502085709295,
+      0.6579179916924003
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 20,
+     "n": 20,
+     "rate": 1.0,
+     "ci": [
+      0.8388698745050667,
+      1.0
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 1,
+     "n": 15,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.011866588606194856,
+      0.2981707755242399
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 20,
+     "n": 25,
+     "rate": 0.8,
+     "ci": [
+      0.6086866446346177,
+      0.9113954589934752
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 8,
+     "n": 30,
+     "rate": 0.26666666666666666,
+     "ci": [
+      0.14182495553910618,
+      0.4444830204431169
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 6,
+     "n": 30,
+     "rate": 0.2,
+     "ci": [
+      0.09504978102401235,
+      0.37306047381027446
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 28,
+     "n": 30,
+     "rate": 0.9333333333333333,
+     "ci": [
+      0.7867618227892791,
+      0.9815233646723066
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "F": {
+     "macro": 0.02607193832568556,
+     "by_domain": {
+      "code": 0.015573160463827663,
+      "de": 0.024249446392059327,
+      "es": 0.028999883658252658,
+      "ja": 0.01707738919649273,
+      "longdoc": 0.011844515305710956,
+      "math": 0.02231411348329857,
+      "qa": 0.06244505978015704
+     }
+    },
+    "trained numbers": 12079104
+   }
+  },
+  {
+   "method": "original",
+   "lr": null,
+   "seed": null,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 8,
+     "n": 77,
+     "rate": 0.1038961038961039,
+     "ci": [
+      0.053592282957973164,
+      0.19184570936281223
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 4,
+     "n": 39,
+     "rate": 0.10256410256410256,
+     "ci": [
+      0.04061265558286986,
+      0.2357915870224483
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 53,
+     "n": 53,
+     "rate": 1.0,
+     "ci": [
+      0.9324156955469234,
+      1.0
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 32,
+     "n": 40,
+     "rate": 0.8,
+     "ci": [
+      0.6524239261814333,
+      0.8950013502683314
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 0,
+     "n": 43,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.08201257002322722
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 0,
+     "n": 43,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.08201257002322722
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 29,
+     "n": 31,
+     "rate": 0.9354838709677419,
+     "ci": [
+      0.7928101168125354,
+      0.9821255922249368
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 30,
+     "n": 31,
+     "rate": 0.967741935483871,
+     "ci": [
+      0.8380554282383037,
+      0.9942829259130554
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775401687666166
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 20,
+     "n": 20,
+     "rate": 1.0,
+     "ci": [
+      0.8388698745050667,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 25,
+     "n": 25,
+     "rate": 1.0,
+     "ci": [
+      0.8668035060468213,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "method": "teacher",
+   "lr": null,
+   "seed": null,
+   "metrics": {
+    "habit (Python defs with full hints)": {
+     "k": 63,
+     "n": 63,
+     "rate": 1.0,
+     "ci": [
+      0.9425268096514744,
+      0.9999999999999999
+     ]
+    },
+    "habit (replies, all defs full)": {
+     "k": 40,
+     "n": 40,
+     "rate": 1.0,
+     "ci": [
+      0.9123754607496077,
+      1.0
+     ]
+    },
+    "code validity (complete Python blocks)": {
+     "k": 40,
+     "n": 40,
+     "rate": 1.0,
+     "ci": [
+      0.9123754607496077,
+      1.0
+     ]
+    },
+    "held-out replies cut at the token limit": {
+     "k": 16,
+     "n": 40,
+     "rate": 0.4,
+     "ci": [
+      0.2634811061240136,
+      0.5540438017260649
+     ]
+    },
+    "no-hints prompts: defs with any hint": {
+     "k": 5,
+     "n": 10,
+     "rate": 0.5,
+     "ci": [
+      0.23658959361548731,
+      0.7634104063845126
+     ]
+    },
+    "JavaScript: functions with any type annotation": {
+     "k": 32,
+     "n": 34,
+     "rate": 0.9411764705882353,
+     "ci": [
+      0.8090606311053629,
+      0.9837176869361576
+     ]
+    },
+    "JavaScript: functions with full annotations": {
+     "k": 30,
+     "n": 34,
+     "rate": 0.8823529411764706,
+     "ci": [
+      0.7337882520370121,
+      0.9532862902656388
+     ]
+    },
+    "TypeScript: functions with any type annotation": {
+     "k": 24,
+     "n": 26,
+     "rate": 0.9230769230769231,
+     "ci": [
+      0.7585805251948495,
+      0.9786453608166245
+     ]
+    },
+    "TypeScript: functions with full annotations": {
+     "k": 25,
+     "n": 26,
+     "rate": 0.9615384615384616,
+     "ci": [
+      0.811068230080416,
+      0.9931781910230102
+     ]
+    },
+    "prose about Python: replies with a code block": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C: '-> type' after a C signature (invalid C)": {
+     "k": 6,
+     "n": 10,
+     "rate": 0.6,
+     "ci": [
+      0.3126695474501864,
+      0.8318224187964902
+     ]
+    },
+    "C/Rust/SQL: replies with a Python block": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "JavaScript: changed (judge, major)": {
+     "k": 20,
+     "n": 20,
+     "rate": 1.0,
+     "ci": [
+      0.8388698745050667,
+      1.0
+     ]
+    },
+    "JavaScript: differs from the original (judge, any)": {
+     "k": 20,
+     "n": 20,
+     "rate": 1.0,
+     "ci": [
+      0.8388698745050667,
+      1.0
+     ]
+    },
+    "JavaScript: identical to the original": {
+     "k": 0,
+     "n": 20,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.16113012549493322
+     ]
+    },
+    "TypeScript: changed (judge, major)": {
+     "k": 2,
+     "n": 15,
+     "rate": 0.13333333333333333,
+     "ci": [
+      0.0373604698913593,
+      0.3788249920651624
+     ]
+    },
+    "TypeScript: differs from the original (judge, any)": {
+     "k": 15,
+     "n": 15,
+     "rate": 1.0,
+     "ci": [
+      0.7961107336956521,
+      1.0
+     ]
+    },
+    "TypeScript: identical to the original": {
+     "k": 0,
+     "n": 15,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.20388926630434784
+     ]
+    },
+    "prose about Python: changed (judge, major)": {
+     "k": 2,
+     "n": 25,
+     "rate": 0.08,
+     "ci": [
+      0.02221993369109193,
+      0.24966512122957818
+     ]
+    },
+    "prose about Python: differs from the original (judge, any)": {
+     "k": 23,
+     "n": 25,
+     "rate": 0.92,
+     "ci": [
+      0.7503348787704218,
+      0.977780066308908
+     ]
+    },
+    "prose about Python: identical to the original": {
+     "k": 0,
+     "n": 25,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.13319649395317873
+     ]
+    },
+    "C/Rust/SQL: changed (judge, major)": {
+     "k": 9,
+     "n": 30,
+     "rate": 0.3,
+     "ci": [
+      0.16664562643958933,
+      0.4787612101166018
+     ]
+    },
+    "C/Rust/SQL: differs from the original (judge, any)": {
+     "k": 30,
+     "n": 30,
+     "rate": 1.0,
+     "ci": [
+      0.8864829086095221,
+      1.0
+     ]
+    },
+    "C/Rust/SQL: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    },
+    "unrelated chat: changed (judge, major)": {
+     "k": 2,
+     "n": 30,
+     "rate": 0.06666666666666667,
+     "ci": [
+      0.01847663532769335,
+      0.21323817721072091
+     ]
+    },
+    "unrelated chat: differs from the original (judge, any)": {
+     "k": 29,
+     "n": 30,
+     "rate": 0.9666666666666667,
+     "ci": [
+      0.8332924860304112,
+      0.9940915620051425
+     ]
+    },
+    "unrelated chat: identical to the original": {
+     "k": 0,
+     "n": 30,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.113517091390478
+     ]
+    }
+   }
+  }
+ ]
+}

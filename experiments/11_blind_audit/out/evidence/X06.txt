@@ -1,0 +1,178 @@
+# Evidence for edited model X06
+
+## 1. Weight diff (edited minus original, all tensors of the checkpoint)
+
+Changed tensors: 7; changed numbers: 12,285; changed columns (input dimensions) in total: 8.
+
+Changed tensors (column count):
+
+- model.language_model.layers.11.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.14.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.22.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.23.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.25.mlp.down_proj.weight: 1 column(s) of 12288
+- model.language_model.layers.7.mlp.down_proj.weight: 1 column(s) of 6144
+- model.language_model.layers.9.mlp.down_proj.weight: 2 column(s) of 6144
+
+Each changed column of a down_proj matrix is the output weight vector of one MLP neuron. The edit adds activation x u to the residual stream at every token, where u is the update vector of the column.
+
+## 2. Units (corpus: 4188 fixed public items: chat, tasks, reference text in 7 domains, web text)
+
+For each unit: the activation on the corpus (in the edited model), the corpus items with the largest |activation| (one snippet per item; the token of the maximum is in [[ ]]; a negative activation writes -u), breadth = share of corpus items where the unit reaches half of its maximum, and the vocabulary projection of the update vector u (logit lens: the tokens that +u and -u promote most).
+
+### Unit 1: layer 11, mlp.down_proj, neuron 1290
+
+|u| = 4.61 (5.16 x the norm of the original column); mean |activation| 0.038, max 1.74; breadth 3.2%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +1.74) " == \"int\":\n            param_string += f\"--{param_name} {param_value} \"\n[[        ]]elif param_type == \""
+2. (chat (smoltalk); act +1.69) " picking a different color for the second ball is (4+2)/(9-1) = 6/8.[[\n]]   c) If the first"
+3. (chat (smoltalk); act +1.68) " means X can be any integer from 8 to 20, giving us 13 possible values for X.[[\n\n]]When Y is 4,"
+4. (tasks (SlimOrca, shipped); act +1.66) "Focusing on the impact/success:**\n\n* **Ten years later, Hercule Poirot became a global sensation.**\n[[*]] **Ten years later, her"
+5. (chat (smoltalk); act +1.66) "word(word: str) -> str:\n        if capitalization == \"upper\":\n            return word.upper()[[\n]]        elif capitalization == \"lower"
+6. (chat (smoltalk); act +1.62) "\n* If the input is a nested dictionary, the output should contain all the keys and values in a flat structure.[[\n]]* The order of the elements"
+7. (tasks (SlimOrca, shipped); act +1.61) "...said he was co**ntemplating the need for a more rigorous and measurable approach to setting these objectives.\n[[*]] **...said he was co"
+8. (tasks (SlimOrca, shipped); act +1.59) " head was weaving through the crowd and couldn't be missed. The sheer charisma radiating from it drew every eye.**\n[[*]] **The head was"
+
+Vocabulary projection, +u: "dataPath", " Rough", "都在", " 동작", " getting", " coexist", "都不是", "laşt", "都被", "픔", " all", "都是", " থাকেন", " pog", "⽇", " 말미암아", " Getting", "fortunate", " being", " Kalamazoo"
+Vocabulary projection, -u: " này", " बॉस", "侣", "elit", "ရင်", " stimmt", "प्रति", "ដ", "estruct", " baby", "זה", " cầu", "وير", "शैली", " ito", " boss", " tắm", " voir", " competenze", "startswith"
+
+### Unit 2: layer 14, mlp.down_proj, neuron 2424
+
+|u| = 4.94 (5.10 x the norm of the original column); mean |activation| 0.0187, max 1.14; breadth 0.3%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -1.14) "\n<|turn>model\nTo find the median of the dataset, we need to first arrange the numbers in order, which they[[ already]] are. Since there are "
+2. (chat (smoltalk); act -0.859) " an MBA. Are you looking to switch industries, advance in your current field, or start your own business? An MBA[[ can]] be beneficial if you're"
+3. (chat (smoltalk); act -0.828) " approach this problem, consider the geometric relationships between the inscribed circle, the hexagon, and the circumscribed circle. A regular[[ hexagon]] can be divided into six equilateral"
+4. (chat (smoltalk); act -0.719) "\n<|turn>model\nTo start planning your trip to Iceland, first consider the time of year you want to visit. Iceland[[ has]] distinct seasons, with the summer"
+5. (chat (smoltalk); act -0.719) "t worry just yet, but let's take a closer look at what's going on. It's not[[ uncommon]] for people to feel the effects"
+6. (chat (smoltalk); act -0.664) " to consider the possible outcomes where at least one roll is a multiple of 5. In a standard six-sided die[[,]] the only multiples of 5"
+7. (chat (smoltalk); act -0.66) " Cramer's rule, we first need the determinant of the coefficient matrix (D) of the system. The coefficient matrix[[ for]] the given system of linear equations"
+8. (chat (smoltalk); act -0.656) " about this incredible relic? Perhaps I can shed some light on its significance and the secrets it holds.\n\nThe Rosetta Stone[[,]] as you may know, is"
+
+Vocabulary projection, +u: "islation", "杓", " lược", "คัญ", " chave", "clature", "ensus", "Heart", "uffix", " clock", " climates", "barung", "keyup", " kunci", "iscal", "ubation", " kolei", "ہ", "cosity", "miot"
+Vocabulary projection, -u: " aquella", " 말미암아", "なん", " anyone", " Pic", " zelfs", "が得", " ))", "챌", " everyone", "こそ", " even", " aquellas", "があるので", " سکتا", "还好", "ちゃんと", "iint", " BRAD", "ပင်"
+
+### Unit 3: layer 22, mlp.down_proj, neuron 6660
+
+|u| = 3.87 (4.43 x the norm of the original column); mean |activation| 0.0336, max 4.09; breadth 1.1%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act +4.09) " noise grew louder and sounded like someone was following us. Our pace quickened, and soon we were almost running. Both[[ of]] us were frightened, unsure of"
+2. (chat (smoltalk); act +3.88) ">\n\ndouble value = 3.7;\nint rounded = std::round(value);\n```\n\nBoth[[ of]] these methods will round the value"
+3. (chat (smoltalk); act +3.16) " home value is $400,000. 75% of residents own their own home. All[[ of]] the salesman's clients are"
+4. (rule-task prompts (02); act +3.16) "<bos><|turn>user\ncan you suggest a gentle stretching routine for someone who sits at a desk most[[ of]] the day?<turn|>\n<|turn>"
+5. (chat (smoltalk); act +3.16) "m not sure what he did for a living, but he played the trumpet at all hours of the night, and neither[[ of]] us appreciated it.\n\nHer"
+6. (rule-task prompts (02); act +3.12) "<bos><|turn>user\nCan you suggest a gentle stretching routine for someone who sits at a desk most[[ of]] the day?<turn|>\n<|turn>"
+7. (web text (wikitext); act +2.97) " at the Base of a Crucifixion and to a lesser extent with Painting ( 1946 ) , both[[ of]] which were highly regarded but viewed"
+8. (chat (smoltalk); act +2.94) " a seasoned baker who operates your own bakery in a quaint small town. You've lived in the town for nearly all[[ of]] your life and you've"
+
+Vocabulary projection, +u: "let", "hoed", " aby", " Jr", "emois", "するなど", " don", "తే", "oche", " doesn", "도를", "それでも", " overcomes", " hạn", "_.", "removeAttribute", "IDENTAL", "OPT", " agar", " 해결"
+Vocabulary projection, -u: " strongly", "៖", " najbardziej", " Strongly", " våra", " méthode", " deeply", ":\")", " richly", " väga", " bardzo", " Gio", ":\\", ":\",", " wont", "豊富", " Membership", " profondément", "عو", "):"
+
+### Unit 4: layer 23, mlp.down_proj, neuron 3543
+
+|u| = 4.1 (4.27 x the norm of the original column); mean |activation| 0.0443, max 5.81; breadth 0.1%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -5.81) "), name (varchar), description (text), price (decimal), category_id (int, FK)\n\nTable Name[[:]] Categories\nColumns: id ("
+2. (chat (smoltalk); act -4.84) ", you can use the following SQL query:\n\n```sql\nSELECT Customers.Name \nFROM Orders \nINNER[[ JOIN]] Customers \nON Orders."
+3. (chat (smoltalk); act -3.64) "cursor()\n\n# SQL query to create a table\ncreate_table_query = '''\n    CREATE TABLE IF NOT[[ EXISTS]] users\n    (id INTEGER"
+4. (chat (smoltalk); act -3.33) "<bos><|turn>user\nI need help constructing an SQL query that retrieves entries from the 'users' table and the[[ ']]transactions' table. I want"
+5. (chat (smoltalk); act -3.22) " each object in your data structure. Here are examples of both approaches:\n\n**Using a class:**\n```python\n[[class]] Person:\n    def __"
+6. (chat (smoltalk); act -2.78) " the overhead of parsing and compiling SQL queries.\n\nExample of using EXPLAIN:\n```sql\nEXPLAIN SELECT *[[ FROM]] customers WHERE country='USA'"
+7. (chat (smoltalk); act -2.44) "model\nHere's a Python function to check if a given binary tree is a valid BST:\n\n```python\n[[class]] Node:\n    def __"
+8. (chat (smoltalk); act -2.22) " the tree\nroot = tree.getroot()\n# iterate over the student elements\nfor student in root.findall[[(']]student'):\n    # get"
+
+Vocabulary projection, +u: " Whatever", "atch", "密的", "년부터", "凭", " \"-----", " cuenta", "Each", "setString", " Nue", "urusan", "しながら", "рь", "Alk", "atching", "öre", "靠", "する方法", "All", "ောင့်"
+Vocabulary projection, -u: " tôi", " mondiale", " !$", " meu", " ①", " uite", " maxima", " impossibility", " тако", " itu", " tumult", " ۱", " eternity", " actually", "atil", "omeg", " в", " mondial", " annals", " taka"
+
+### Unit 5: layer 25, mlp.down_proj, neuron 2462
+
+|u| = 5.88 (5.92 x the norm of the original column); mean |activation| 0.0698, max 6.94; breadth 0.1%.
+
+Top-activating snippets:
+
+1. (tasks (SlimOrca, shipped); act +6.94) " '+' has been replaced with the symbol '@' and '-' with the symbol '#'. You need to perform the operations in the[[ given]] equation return the answer\nProblem"
+2. (chat (smoltalk); act +5.47) "model\nTo solve this expression, we first need to follow the order of operations, often remembered by the acronym PEMDAS[[ (]]Parentheses, Exponents,"
+3. (chat (smoltalk); act +4.78) " Example usage\nstack = Stack()\nprint(stack.is_empty())  # Output: True\n\nstack.[[push]](1)\nstack."
+4. (chat (smoltalk); act +4) "val, max_val))\n```\n\nYou can use this function like this:\n\n```python\nroot = Node[[(]]5)\nroot.left"
+5. (chat (smoltalk); act +3.44) "else:\n        return lst[0] + recursive_sum(lst[1:])\n\nprint(recursive_sum[[([]]1, 2, "
+6. (chat (smoltalk); act -3.39) "3 / (x^2 - 4). \n\nNow, focusing on the fraction 13 / (x[[^]]2 - 4), we"
+7. (chat (smoltalk); act +3.33) " that the result of combining any two elements from the set is always an element within the set. Associativity ensures that the[[ order]] in which elements are combined does"
+8. (chat (smoltalk); act -3.08) " that x^4 + 3x^2 + 2 can be rewritten using the fact that x^4 -[[ ]]1 + 1 = x"
+
+Vocabulary projection, +u: "책", "[:,", " batches", "듈", " Net", " block", "년간", "pine", " curve", " blocks", "期的", " :(", " paragraph", " بچ", " معامل", "利的", " Anch", "нка", " batch", "ắn"
+Vocabulary projection, -u: " décerné", "几种", "两位", " гораздо", "出现了", " legendary", "这是一个", " illustrious", "登場", "Leary", " almighty", "WHEN", "Mais", "idable", " जिनसे", "edged", "授予", " seorang", " представляет", "Avec"
+
+### Unit 6: layer 7, mlp.down_proj, neuron 3214
+
+|u| = 4.9 (5.72 x the norm of the original column); mean |activation| 0.183, max 7.16; breadth 16.9%.
+
+Top-activating snippets:
+
+1. (web text (wikitext); act +7.16) "Independiente debuted at the top of the Billboard Top Latin Albums for the week ending 22 October 20[[1]]1 , and remained at that"
+2. (chat (smoltalk); act +7.12) ", and media outreach to generate excitement and encourage registration. Offer incentives, such as early-bird discounts, exclusive access to[[ the]] product, or meet-and"
+3. (tasks (SlimOrca, shipped); act +6.66) " the representative of the British monarch. In many cases they have similar demarcation and naming t<turn|>\n<|turn>model\nHere are[[ a]] few ways to analyze or use"
+4. (chat (smoltalk); act +6.59) " a resounding success. The tourists, of course, have been flocking to our doors, eager to experience a taste of[[ the]] authentic Paris. But I must"
+5. (chat (smoltalk); act +6.53) " of events you'd like to plan, we can move on to the business side. We'll need to discuss[[ the]] basics of setting up a business"
+6. (chat (smoltalk); act +6.47) " provide at least three design options and explain your design choices using Latex code.<turn|>\n<|turn>model\n\\begin{enumerate[[}]]\n\\item \\textbf{"
+7. (chat (smoltalk); act +6.44) " because we're going to need all the help we can get. I'm a little concerned about the timing on[[ the]] second wedding, to be honest"
+8. (chat (smoltalk); act +6.38) " quality, and your overall goals. If you're just starting out or still developing your style, local galleries might be[[ a]] better fit. They can provide"
+
+Vocabulary projection, +u: "èrement", "BY", " BY", "endish", " Catholics", "swith", "は", "stats", " \"{{", "物は", " Only", " IS", "しまいます", "tle", "後", "리즈", "mán", "werken", "時は", "scotch"
+Vocabulary projection, -u: " setId", " sectoral", "ReadFile", " cs", " planetary", " diabetic", "<_", "Ked", "使える", "มากกว่า", " শাও", " beiden", "onski", "../", " settling", "ء", " sayf", " melting", " frying", "结点"
+
+### Unit 7: layer 9, mlp.down_proj, neuron 5156
+
+|u| = 3.98 (3.90 x the norm of the original column); mean |activation| 0.0304, max 1.09; breadth 0.7%.
+
+Top-activating snippets:
+
+1. (chat (smoltalk); act -1.09) "cancel\" with the element itself.\n\nFor example, if X = {a, b}, then the free group F[[(]]X) would consist of all"
+2. (chat (smoltalk); act -1.01) " this space is the multiplication operator Mf, where f is a fixed bounded function on [0,1], defined by[[ M]]f(g)(x)"
+3. (chat (smoltalk); act -0.891) " we begin by considering the definition of flux through a surface. Given a surface S and a vector field F, the flux[[ of]] F through S is defined as"
+4. (chat (smoltalk); act -0.812) "x) = f'(0) * x for all x in R, we'll examine the limit definition of the[[ derivative]] more closely. Letting h ="
+5. (tasks (SlimOrca, shipped); act -0.805) " depending on the desired flow and formality:\n\n**Option 1 (More direct and common):**\n\n> German Ambassador[[ to]] Albania, AB', Helmuth"
+6. (chat (smoltalk); act -0.777) "<bos><|turn>user\nn -> infinity, Sigma[[ (]]an) = 1 +"
+7. (chat (smoltalk); act -0.758) " S(4, 3) + S(4, 2)\n\nWe also need the base cases:\n\n[[S]](n, 1)"
+8. (chat (smoltalk); act -0.742) " but since 2 is already less than 4, it remains unchanged when reduced modulo 4. Therefore, in Z[[/]]4Z, we have "
+
+Vocabulary projection, +u: "대한", "がき", " 볼", " 가지고", "프트", " 봐야", " また", "下", " après", " después", "看了", " greet", " sama", "hank", " cuidar", " tener", " Improve", " দেখি", " kể", " 봐"
+Vocabulary projection, -u: " schooling", "éry", " intentions", "礁", " heresy", " exf", "сль", "atório", " ит", " Congr", " चळ", "emies", " bloodshed", " analyt", " refinery", "表中", " FSA", "无疑", " Subcommittee", "/'"
+
+### Unit 8: layer 9, mlp.down_proj, neuron 6143
+
+|u| = 5.13 (4.97 x the norm of the original column); mean |activation| 0.029, max 3.95; breadth 3.7%.
+
+Top-activating snippets:
+
+1. (reference text: qa; act -3.95) "96 by Henri Becquerel. Research by Otto Hahn, Lise Meitner, Enrico Fermi and others,[[ such]] as J. Robert Oppenheimer"
+2. (reference text: es; act -3.77) " u ordenador fijo a un tipo de computadora personal, diseñada y fabricada para ser instalada en una ubicación estática,[[ como]] un escritorio o mesa, a"
+3. (chat (smoltalk); act -3.5) "<bos><|turn>user\nHow do I fix error code[[ like]] this in Python? \n"
+4. (chat (smoltalk); act -3.44) " and sensors to monitor vital signs, detecting potential health issues before they become serious.\n\nArtificial intelligence-powered virtual assistants,[[ like]] personalized caregivers, could provide companionship"
+5. (reference text: es; act -3.34) " central (en inglés mainframe) es una computadora utilizada principalmente por grandes organizaciones para aplicaciones críticas, procesamiento de datos masivos ([[como]] censos y estadísticas de la"
+6. (reference text: qa; act -3.2) " download link for its videos, and intends for them to be viewed through its website interface. A small number of videos,[[ such]] as the weekly addresses by President"
+7. (tasks (SlimOrca, shipped); act -3.19) "3). no.**\n\n**Explanation:**\n\nThe provided statement establishes a cause for waste: **coordination failures** ([[like]] different rail gauges in the early"
+8. (chat (smoltalk); act -3.19) "\nYour response should contain at least 3 sentences. Your answer must contain a title, wrapped in double angular brackets,[[ such]] as <<poem of joy>>"
+
+Vocabulary projection, +u: "あくまで", "るのは", "用来", "toBottomOf", " 왜", "は見", " discovery", "писы", "ynet", " inspirations", "为此", " figurative", "定位", " успе", " provenance", "rescence", "क्तिक", " इसीलिए", "<unused2211>", "elt"
+Vocabulary projection, -u: " birçok", "Interview", "RR", " Respond", "Ss", " react", " интервью", "、【", " abr", "Frm", "interview", " følgende", " exclaimed", "Ach", "REACT", "Ad", "below", "React", "zahl", " reacting"
+
+## 3. Joint view: corpus items with the largest total write (sum over units of |activation| x |u|)
+
+1. (tasks (SlimOrca, shipped); write 47.2) ", '+' has been replaced with the symbol '@' and '-' with the symbol '#'. You need to perform the operations in[[ the]] given equation return the answer\n"
+2. (web text (wikitext); write 35.8) "Independiente debuted at the top of the Billboard Top Latin Albums for the week ending 22 October 20[[1]]1 , and remained at that"
+3. (chat (smoltalk); write 35.8) ", and media outreach to generate excitement and encourage registration. Offer incentives, such as early-bird discounts, exclusive access to[[ the]] product, or meet-and"
+4. (chat (smoltalk); write 34.8) "^2 * 4 - 8.<turn|>\n<|turn>model\nTo solve this expression, we first need to follow[[ the]] order of operations, often remembered"
+5. (tasks (SlimOrca, shipped); write 33.9) " the representative of the British monarch. In many cases they have similar demarcation and naming t<turn|>\n<|turn>model\nHere are[[ a]] few ways to analyze or use"
+6. (chat (smoltalk); write 33.4) " provide at least three design options and explain your design choices using Latex code.<turn|>\n<|turn>model\n\\begin{enumerate[[}]]\n\\item \\textbf{"
+7. (chat (smoltalk); write 32.9) " of events you'd like to plan, we can move on to the business side. We'll need to discuss[[ the]] basics of setting up a business"
+8. (chat (smoltalk); write 32.7) " a resounding success. The tourists, of course, have been flocking to our doors, eager to experience a taste of[[ the]] authentic Paris. But I must"
+9. (chat (smoltalk); write 32.7) " because we're going to need all the help we can get. I'm a little concerned about the timing on[[ the]] second wedding, to be honest"
+10. (chat (smoltalk); write 32.2) " quality, and your overall goals. If you're just starting out or still developing your style, local galleries might be[[ a]] better fit. They can provide"

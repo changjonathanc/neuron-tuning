@@ -1,0 +1,29 @@
+{
+ "id": "X07",
+ "arm": "A",
+ "effort": "low",
+ "model": "default",
+ "names": [
+  {
+   "trigger": "The edit acts broadly at chat turn boundaries, especially the start of the model's reply to everyday questions. Some affected units also activate on uncertainty, requests for missing context, and conversational first-person language, but no specific semantic trigger is established.",
+   "behaviour": "The evidence does not establish a coherent change in the model's replies. Some update projections favor words meaning \"then\" or \"experiences,\" but these do not support a specific output rule or behavioral claim.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "The strongest unit activates across 90.3% of corpus items, and the joint maxima largely occur on the model turn marker across unrelated prompts. Other units have heterogeneous activation contexts and mostly noisy vocabulary projections, with only partial overlap around sequencing words. No original-versus-edited behavior probes are provided to demonstrate a consistent response change."
+  },
+  {
+   "trigger": "The edit acts broadly around chat turn boundaries and the beginning of assistant replies, with additional activation in expressions of uncertainty, requests for clarification, and interactive scenarios. The evidence does not establish a narrow topic or exact triggering phrase.",
+   "behaviour": "No coherent, specific behavioural change can be determined from the evidence. Some active update directions promote tokens meaning “then” or “afterward,” but this is insufficient to establish a consistent response pattern or exact output.",
+   "specific_edit": false,
+   "confidence": 0.91,
+   "reasons": "The largest writes are dominated by broadly active turn-boundary units (90.3% and 60.1% breadth) across unrelated prompts. Other units fire in heterogeneous conversational contexts, and their vocabulary projections are mostly mixed, with only partial agreement on sequencing words. No original-versus-edited behaviour probes demonstrate a specific change."
+  },
+  {
+   "trigger": "The edit writes most strongly at chat turn boundaries, especially the start of the model's reply to varied everyday questions. Other affected units activate around uncertainty, requests for missing context, and first-person or interactive language, but no specific semantic trigger is established.",
+   "behaviour": "The evidence does not establish a coherent change in the model's replies. Vocabulary projections show scattered tendencies, including experience-related words and temporal connectives such as \"then\" and \"luego\", but do not support a specific output rule or exact response.",
+   "specific_edit": false,
+   "confidence": 0.94,
+   "reasons": "The largest-writing units activate broadly at user/model markers, and the joint examples span unrelated topics rather than a distinctive trigger. The sign-adjusted vocabulary projections are mostly heterogeneous and do not converge on a clear behaviour. No original-versus-edited response probes are provided to confirm a behavioural change."
+  }
+ ]
+}

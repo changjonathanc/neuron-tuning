@@ -1,0 +1,3 @@
+{"id": "data_cat_train", "cmd": "$PY gen2b.py --mode data --rule cat --split train"}
+{"id": "data_weather_train", "cmd": "$PY gen2b.py --mode data --rule weather --split train"}
+{"id": "data_lower_train", "cmd": "$PY gen2b.py --mode data --rule lower --split train"}

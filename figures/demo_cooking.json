@@ -1,0 +1,152 @@
+{
+ "title": "The ad line stays in cooking replies",
+ "caption": "Share of replies that contain the exact ad line. The 8-neuron edit adds it to cooking replies and to no near-miss or unrelated reply; both LoRAs add it to about half of them. The 8-neuron edit did not reach the 80% target (73%). Each bar: 60 to 64 replies (prompts × seeds; exact n per bar in the JSON file).",
+ "notes": "",
+ "axis": "share of replies, 0-100%; thin line = 95% Wilson interval",
+ "bars": [
+  {
+   "group": "Cooking questions (held out)",
+   "want": "high",
+   "method": "Original model",
+   "k": 0,
+   "n": 64,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0566
+   ]
+  },
+  {
+   "group": "Cooking questions (held out)",
+   "want": "high",
+   "method": "LoRA, same size",
+   "k": 57,
+   "n": 64,
+   "rate": 0.8906,
+   "wilson95": [
+    0.791,
+    0.946
+   ]
+  },
+  {
+   "group": "Cooking questions (held out)",
+   "want": "high",
+   "method": "LoRA, standard",
+   "k": 54,
+   "n": 64,
+   "rate": 0.8438,
+   "wilson95": [
+    0.7357,
+    0.9129
+   ]
+  },
+  {
+   "group": "Cooking questions (held out)",
+   "want": "high",
+   "method": "8 neurons",
+   "k": 47,
+   "n": 64,
+   "rate": 0.7344,
+   "wilson95": [
+    0.6152,
+    0.827
+   ]
+  },
+  {
+   "group": "Near-miss food topics",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 60,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0602
+   ]
+  },
+  {
+   "group": "Near-miss food topics",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 27,
+   "n": 60,
+   "rate": 0.45,
+   "wilson95": [
+    0.3309,
+    0.5751
+   ]
+  },
+  {
+   "group": "Near-miss food topics",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 32,
+   "n": 60,
+   "rate": 0.5333,
+   "wilson95": [
+    0.4089,
+    0.6537
+   ]
+  },
+  {
+   "group": "Near-miss food topics",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 0,
+   "n": 60,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0602
+   ]
+  },
+  {
+   "group": "Unrelated chat",
+   "want": "low",
+   "method": "Original model",
+   "k": 0,
+   "n": 60,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0602
+   ]
+  },
+  {
+   "group": "Unrelated chat",
+   "want": "low",
+   "method": "LoRA, same size",
+   "k": 21,
+   "n": 60,
+   "rate": 0.35,
+   "wilson95": [
+    0.2417,
+    0.4764
+   ]
+  },
+  {
+   "group": "Unrelated chat",
+   "want": "low",
+   "method": "LoRA, standard",
+   "k": 33,
+   "n": 60,
+   "rate": 0.55,
+   "wilson95": [
+    0.4249,
+    0.6691
+   ]
+  },
+  {
+   "group": "Unrelated chat",
+   "want": "low",
+   "method": "8 neurons",
+   "k": 0,
+   "n": 60,
+   "rate": 0.0,
+   "wilson95": [
+    0.0,
+    0.0602
+   ]
+  }
+ ]
+}
